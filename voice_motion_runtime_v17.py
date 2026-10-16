@@ -75,10 +75,10 @@ from motion_pipeline_utils_v2 import (
     send_prebuilt_motion_in_sync,
     load_wav_for_playback,
 )
-from unity_tcp_sender_v6 import UnityTcpServer
+from unity_tcp_sender_v7 import UnityTcpServer
 
 from agent17.runtime import Sources as KnowledgeBase
-from agent17.voice_bridge import VoiceBridge, acknowledge_playback
+from agent17.voice_bridge_v2 import VoiceBridge, acknowledge_playback
 
 from volume_trigger_recorder import (
     VolumeTriggerConfig,
@@ -682,7 +682,7 @@ class VoiceMotionRuntimeConfig:
     # preset audio behavior
     # If a .txt file with the same stem exists, it will be sent to Unity as speech_text.
     # If no .txt exists or the text is empty, only audio + motion will be sent.
-    send_preset_speech_text_to_unity: bool = True
+    send_preset_speech_text_to_unity: bool = False
     preset_job_id_greeting: int = -1001
     preset_job_id_waiting: int = -1002
     person_greeting_delay_sec: float = 2.0
@@ -2740,7 +2740,7 @@ class UnityMicrophoneStateDispatcher:
         processing, waiting, or shutting down.
 
     This dispatcher avoids sending duplicate consecutive states.
-    It requires unity_tcp_sender_v6.UnityTcpServer.send_microphone_state(...).
+    It requires unity_tcp_sender_v7.UnityTcpServer.send_microphone_state(...).
     """
 
     def __init__(self, tcp: UnityTcpServer, enabled: bool = True):
@@ -4434,6 +4434,9 @@ def response_generation_worker(
 
         turn.assistant_response_path.with_suffix(".v17.json").write_text(
             json.dumps(turn.v17_delivery.get("response", {}), ensure_ascii=False, indent=2), encoding="utf-8")
+        turn.assistant_response_path.with_suffix(".delivery.json").write_text(
+            json.dumps({key: value for key, value in turn.v17_delivery.items()
+                        if key != "response"}, ensure_ascii=False, indent=2), encoding="utf-8")
         state.full_answer = full_answer
         turn.assistant_response_path.write_text(full_answer, encoding="utf-8")
 
@@ -4486,7 +4489,7 @@ def main() -> None:
         extensions=cfg.preset_audio_extensions,
     )
 
-    print("\n=== Voice Motion Runtime V17.0: local model-only split-output agent ===")
+    print("\n=== Voice Motion Runtime V17.1: local model-only split-output agent ===")
     print("Auto-record mode: speak to start recording.")
     print("Recording stops when volume returns to neutral for the configured silence duration.")
     print("Press Ctrl+C to quit.\n")
@@ -4885,6 +4888,11 @@ def main() -> None:
                 response_state = ResponseThreadState()
                 stt_done_event = threading.Event()
 
+                def send_panel_to_unity(packet, response_text_sent_event=response_text_sent_event):
+                    tcp.send_message(packet)
+                    if packet.get("type") == "speech_text":
+                        response_text_sent_event.set()
+
                 response_thread = threading.Thread(
                     target=response_generation_worker,
                     args=(
@@ -4898,7 +4906,7 @@ def main() -> None:
                         stt_done_event,
                         response_abort_event,
                         active_turn_abort_controller,
-                        tcp.send_message,
+                        send_panel_to_unity,
                     ),
                     daemon=True,
                 )

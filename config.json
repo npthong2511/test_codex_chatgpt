@@ -1,1 +1,10 @@
-{"version":"17.0_Model_only_Local","model":"gpt-5.2","max_calls_per_run":400,"max_calls_per_turn":9,"max_output_tokens":2300,"key_variable":"Open_AI","timeout_seconds":90,"enable_live_api":true}
+{
+  "version": "17.1_Model_only_Local_Unity_Compatible",
+  "model": "gpt-5.2",
+  "max_calls_per_run": 400,
+  "max_calls_per_turn": 9,
+  "max_output_tokens": 2300,
+  "key_variable": "Open_AI",
+  "timeout_seconds": 90,
+  "enable_live_api": true
+}

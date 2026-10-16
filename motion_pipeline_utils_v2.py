@@ -31,7 +31,7 @@ import soundfile as sf
 from motion_inference_v3_cpu import predict_one_wav_without_excel, ensure_dir, strip_ext
 from head_angle_from_motion_v3 import add_roll_yaw_to_motion_df, HeadAngleConfig
 from lip_dist_from_motion_v1 import add_lip_dist_to_motion_df, LipDistConfig
-from unity_tcp_sender_v6 import UnityTcpServer
+from unity_tcp_sender_v7 import UnityTcpServer
 
 
 # ============================================================

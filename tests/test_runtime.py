@@ -2,8 +2,8 @@ import unittest,json,queue,threading,socket
 from pathlib import Path
 from copy import deepcopy
 from agent17.runtime import Sources,Engine,empty_state,APIError
-from agent17.voice_bridge import VoiceBridge
-from unity_tcp_sender_v6 import UnityTcpServer
+from agent17.voice_bridge_v2 import VoiceBridge, format_information
+from unity_tcp_sender_v7 import UnityTcpServer
 ROOT=Path(__file__).resolve().parents[1]
 
 def response(action='respond',nodes=None,state=None):
@@ -78,15 +78,18 @@ class Tests(unittest.TestCase):
   tcp=UnityTcpServer();tcp.conn,client=socket.socketpair();q=queue.Queue();token={}
   try:
    b.generate('a',q,threading.Event(),None,lambda s:([],s),token,tcp.send_message,'t1')
-   packet=json.loads(client.recv(65536).decode());self.assertEqual(packet['type'],'information_panel')
-   self.assertNotIn('speech_text',packet);self.assertIn('GIAY_TO_KHONG_DOC',json.dumps(packet))
+   stream=client.makefile('r', encoding='utf-8')
+   self.assertEqual(json.loads(stream.readline()),{'type':'speech_text_clear'})
+   packet=json.loads(stream.readline());stream.close()
+   self.assertEqual(packet['type'],'speech_text');self.assertEqual(packet['job_id'],1)
+   self.assertNotIn('Thông tin trên màn hình.',packet['text']);self.assertIn('GIAY_TO_KHONG_DOC',packet['text'])
    self.assertNotIn('GIAY_TO_KHONG_DOC',q.get()[1]);self.assertTrue(token['panel_sent'])
   finally:tcp.close();client.close()
  def test_departure_clears_panel(self):
   t=UnityTcpServer();t.conn,c=socket.socketpair()
   try:
    t.send_person_detection(True);c.recv(65536);t.send_person_detection(False)
-   f=c.makefile();self.assertEqual(json.loads(f.readline())['action'],'clear');f.close()
+   f=c.makefile();self.assertEqual(json.loads(f.readline())['type'],'speech_text_clear');f.close()
   finally:t.close();c.close()
 
 class IntegrationTests(unittest.TestCase):
@@ -110,5 +113,49 @@ class IntegrationTests(unittest.TestCase):
   q=queue.Queue();token={}
   b.generate('a',q,threading.Event(),None,lambda s:([],s),token,fail,'t1')
   self.assertEqual(token['panel_error'],'OSError');self.assertIn('Chưa gửi được',q.get()[1])
+
+class LegacyDisplayTests(unittest.TestCase):
+ def bridge(self, replies):
+  class Memory:
+   session_id='legacy-test'
+   def save(self):pass
+  b=object.__new__(VoiceBridge);b.memory=Memory();b.lock=threading.RLock()
+  b.engine=Engine(Sources(ROOT/'data'),Fake(replies),session_id='legacy-test')
+  return b
+ def test_options_are_readable_without_internal_ids(self):
+  info={'title':'Độ tuổi','sections':[], 'options':[
+   {'id':'A','label':'Chưa đủ 6 tuổi','node_ids':['P08.C01']},
+   {'id':'B','label':'Từ đủ 6 đến dưới 14 tuổi','node_ids':['P08.C02']}]}
+  self.assertEqual(format_information(info),'Độ tuổi\n\nA. Chưa đủ 6 tuổi\nB. Từ đủ 6 đến dưới 14 tuổi')
+ def test_legacy_client_replaces_content_across_turns(self):
+  first=response();second=response();second['information']={'title':'Câu hỏi mới','sections':[], 'options':[{'id':'A','label':'Đồng ý','node_ids':[]}]}
+  b=self.bridge([first,second]);packets=[];q=queue.Queue()
+  for _ in range(2):b.generate('a',q,threading.Event(),None,lambda s:([],s),{},packets.append)
+  screen=''
+  for packet in packets:
+   if packet['type']=='speech_text_clear':screen=''
+   elif packet['type']=='speech_text':screen+=packet['text']
+   else:self.fail('Unsupported message type')
+  self.assertEqual(screen,'Câu hỏi mới\n\nA. Đồng ý')
+  self.assertEqual([p['job_id'] for p in packets if p['type']=='speech_text'],[1,2])
+  self.assertEqual(q.get()[1],first['speech_text']);self.assertEqual(q.get()[1],second['speech_text'])
+ def test_finish_only_clears_display(self):
+  r=response();r.update(mode='finish',speech_text='',information={'title':'','sections':[],'options':[]})
+  b=self.bridge([r]);packets=[];q=queue.Queue()
+  b.generate('xong',q,threading.Event(),None,lambda s:([],s),{},packets.append)
+  self.assertEqual(packets,[{'type':'speech_text_clear'}]);self.assertTrue(q.empty())
+ def test_cancelled_response_does_not_send_or_speak(self):
+  b=self.bridge([response()]);packets=[];q=queue.Queue();stop=threading.Event();stop.set()
+  b.generate('a',q,stop,None,lambda s:([],s),{},packets.append)
+  self.assertEqual(packets,[]);self.assertTrue(q.empty())
+ def test_main_disables_preset_text_and_marks_display_sent(self):
+  import ast
+  tree=ast.parse((ROOT/'voice_motion_runtime_v17.py').read_text())
+  config=next(n for n in tree.body if isinstance(n,ast.ClassDef) and n.name=='VoiceMotionRuntimeConfig')
+  flags={n.target.id:n.value.value for n in config.body if isinstance(n,ast.AnnAssign) and isinstance(n.value,ast.Constant)}
+  self.assertIs(flags['send_preset_speech_text_to_unity'],False)
+  self.assertIs(flags['send_searching_text_to_unity'],False)
+  callback=next(n for n in ast.walk(tree) if isinstance(n,ast.FunctionDef) and n.name=='send_panel_to_unity')
+  self.assertIn('response_text_sent_event.set()',ast.unparse(callback))
 
 if __name__=='__main__':unittest.main()

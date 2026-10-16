@@ -1,4 +1,4 @@
-# unity_tcp_sender_v6.py
+# unity_tcp_sender_v7.py
 # ============================================================
 # TCP JSON sender to Unity
 #
@@ -144,8 +144,7 @@ class UnityTcpServer:
         meta: Optional[Dict[str, Any]] = None,
     ) -> None:
         if self._v17_person_present and not person_detected:
-            self.send_message({"type": "information_panel", "protocol_version": 17,
-                               "action": "clear", "reason": "person_left"})
+            self.send_clear_speech_text()
         self._v17_person_present = bool(person_detected)
         data = {
             "type": "person_detection",
