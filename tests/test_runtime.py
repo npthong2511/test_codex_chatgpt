@@ -11,7 +11,9 @@ def response(action='respond',nodes=None,state=None):
  speech_text='Thông tin trên màn hình.',information={'title':'Hồ sơ','sections':[{'title':'Hồ sơ','items':['GIAY_TO_KHONG_DOC']}],'options':[]},citations=[])
 class Fake:
  def __init__(self,items):self.items=iter(items);self.payloads=[];self.cfg={'max_calls_per_turn':9}
- def call(self,p):self.payloads.append(deepcopy(p));return next(self.items)
+ def call(self,p,**kwargs):
+  if kwargs:return {'intent':'continue','page':0}
+  self.payloads.append(deepcopy(p));return next(self.items)
 class Tests(unittest.TestCase):
  def setUp(self):self.src=Sources(ROOT/'data')
  def test_local_windows_no_grandchildren(self):
@@ -143,7 +145,7 @@ class LegacyDisplayTests(unittest.TestCase):
    if packet['type']=='speech_text_clear':screen=''
    elif packet['type']=='speech_text':screen+=packet['text']
    else:self.fail('Unsupported message type')
-  self.assertEqual(screen,'Câu hỏi mới\n\nA. Đồng ý')
+  self.assertEqual(screen,'Câu hỏi mới\n\nA. Đồng ý\nTrang 1/1 | Tiếp / Trước')
   self.assertEqual([p['job_id'] for p in packets if p['type']=='speech_text'],[1,2])
   self.assertEqual(q.get()[1],first['speech_text']);self.assertEqual(q.get()[1],second['speech_text'])
  def test_finish_only_clears_display(self):

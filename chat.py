@@ -13,5 +13,5 @@ try:
   if text.lower()=='exit':break
   result=engine.process(text)
   print('ÂM THANH:',result['speech_text'])
-  print('MÀN HÌNH:',json.dumps(result['information'],ensure_ascii=False,indent=2))
+  print('MÀN HÌNH:',result.get('display_text', json.dumps(result['information'],ensure_ascii=False,indent=2)))
 finally:client.close()

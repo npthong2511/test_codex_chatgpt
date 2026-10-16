@@ -1,0 +1,101 @@
+test_actual_playback_worker_falls_back_and_invokes_display_hook (test_playback.PlaybackTests.test_actual_playback_worker_falls_back_and_invokes_display_hook) ... [AUDIO FALLBACK] job=1: motion build failed
+[AUDIO START] job=1
+[UNITY TEXT] Sent revision=1 chars=15
+ok
+test_disabled_fallback_never_publishes_unplayed_content (test_playback.PlaybackTests.test_disabled_fallback_never_publishes_unplayed_content) ... [AUDIO SKIPPED] job=1: motion required
+ok
+test_display_failure_does_not_stop_audio (test_playback.PlaybackTests.test_display_failure_does_not_stop_audio) ... [AUDIO FALLBACK] job=1: motion fail
+[AUDIO START] job=1
+[UNITY TEXT] Send failed during playback: OSError
+ok
+test_display_is_sent_only_once (test_playback.PlaybackTests.test_display_is_sent_only_once) ... [AUDIO FALLBACK] job=1: bad motion
+[AUDIO START] job=1
+[UNITY TEXT] Sent revision=1 chars=15
+ok
+test_empty_social_text_gets_audio_without_speaking_information (test_playback.PlaybackTests.test_empty_social_text_gets_audio_without_speaking_information) ... ok
+test_error_after_audio_started_never_replays_speech (test_playback.PlaybackTests.test_error_after_audio_started_never_replays_speech) ... [AUDIO START] job=1
+[UNITY TEXT] Sent revision=1 chars=15
+[AUDIO ERROR] job=1: OSError: frame send failed
+ok
+test_failed_audio_device_never_displays_information (test_playback.PlaybackTests.test_failed_audio_device_never_displays_information) ... [AUDIO FALLBACK] job=1: bad motion
+[AUDIO ERROR] job=1: OSError: no output device
+ok
+test_motion_failure_uses_audio_only_and_publishes_at_start (test_playback.PlaybackTests.test_motion_failure_uses_audio_only_and_publishes_at_start) ... [AUDIO FALLBACK] job=1: bad motion
+[AUDIO START] job=1
+[UNITY TEXT] Sent revision=1 chars=15
+ok
+test_no_display_until_playback_then_same_event_for_motion (test_playback.PlaybackTests.test_no_display_until_playback_then_same_event_for_motion) ... [AUDIO START] job=1
+[UNITY TEXT] Sent revision=1 chars=15
+ok
+test_pre_audio_motion_validation_failure_falls_back (test_playback.PlaybackTests.test_pre_audio_motion_validation_failure_falls_back) ... [AUDIO FALLBACK] motion playback failed before audio: ValueError
+[AUDIO START] job=1
+[UNITY TEXT] Sent revision=1 chars=15
+ok
+test_real_audio_only_function_calls_hook_after_successful_play (test_playback.PlaybackTests.test_real_audio_only_function_calls_hook_after_successful_play) ... ok
+test_real_motion_function_calls_hook_before_first_frame (test_playback.PlaybackTests.test_real_motion_function_calls_hook_before_first_frame) ... ok
+test_social_sentences_are_one_audio_job_and_display_is_deferred (test_playback.PlaybackTests.test_social_sentences_are_one_audio_job_and_display_is_deferred) ... ok
+test_tts_error_is_recorded_and_no_playback_job_is_produced (test_playback.PlaybackTests.test_tts_error_is_recorded_and_no_playback_job_is_produced) ... ================================================================================
+[RUNTIME] Audio-motion sync sender
+[RUNTIME] WAV file          : file.wav
+[RUNTIME] WAV duration      : 0.001000 s
+[RUNTIME] Motion frames     : 1
+[RUNTIME] Base dt           : 0.001000 s
+[RUNTIME] dt min / dt max   : 0.000350 / 0.002200 s
+================================================================================
+[RUNTIME] Starting audio playback ...
+[RUNTIME] Audio started at t0=94053.266740
+[SEND] idx=0000/0000 | roll=  +0.000 | yaw=  +0.000 | lip_open= 0.000 | mouth_width= 0.000 | upper_lip= 0.000 | lower_lip= 0.000
+[RUNTIME] sent 1/1 | audio_prog=0.0014 | motion_prog=0.0000 | err=+0.0014 | dt=0.0010
+[RUNTIME] Audio finished.
+
+
+🗣️ [TTS queued #1] Xin chào
+
+
+❌ TTS error for job 1: RuntimeError: TTS unavailable
+
+ok
+test_panel_failure_does_not_replace_social_audio (test_runtime.IntegrationTests.test_panel_failure_does_not_replace_social_audio) ... [UNITY TEXT] Send failed during playback: OSError
+ok
+test_voice_main_wires_panel_sender_and_audio_only (test_runtime.IntegrationTests.test_voice_main_wires_panel_sender_and_audio_only) ... ok
+test_cancelled_response_does_not_send_or_speak (test_runtime.LegacyDisplayTests.test_cancelled_response_does_not_send_or_speak) ... ok
+test_finish_only_clears_display (test_runtime.LegacyDisplayTests.test_finish_only_clears_display) ... [UNITY TEXT] Sent revision=1 chars=0
+ok
+test_legacy_client_replaces_content_across_turns (test_runtime.LegacyDisplayTests.test_legacy_client_replaces_content_across_turns) ... [UNITY TEXT] Sent revision=1 chars=57
+[UNITY TEXT] Sent revision=2 chars=47
+ok
+test_main_disables_preset_text_and_marks_display_sent (test_runtime.LegacyDisplayTests.test_main_disables_preset_text_and_marks_display_sent) ... ok
+test_options_are_readable_without_internal_ids (test_runtime.LegacyDisplayTests.test_options_are_readable_without_internal_ids) ... ok
+test_cancel_after_model_response_does_not_commit (test_runtime.Tests.test_cancel_after_model_response_does_not_commit) ... ok
+test_cancel_no_commit (test_runtime.Tests.test_cancel_no_commit) ... ok
+test_confirmed_restart_uses_new_request (test_runtime.Tests.test_confirmed_restart_uses_new_request) ... ok
+test_cross_procedure_requires_confirmation (test_runtime.Tests.test_cross_procedure_requires_confirmation) ... ok
+test_departure_clears_panel (test_runtime.Tests.test_departure_clears_panel) ... ok
+test_explicit_supporting_reference_preserves_main_scope (test_runtime.Tests.test_explicit_supporting_reference_preserves_main_scope) ... ok
+test_load_replaces_window (test_runtime.Tests.test_load_replaces_window) ... ok
+test_local_windows_no_grandchildren (test_runtime.Tests.test_local_windows_no_grandchildren) ... ok
+test_repeated_window_has_navigation_feedback (test_runtime.Tests.test_repeated_window_has_navigation_feedback) ... ok
+test_restart_discards_old_facts (test_runtime.Tests.test_restart_discards_old_facts) ... ok
+test_restart_without_prompt_cannot_reset (test_runtime.Tests.test_restart_without_prompt_cannot_reset) ... ok
+test_snapshot_isolation_and_stale_ack (test_runtime.Tests.test_snapshot_isolation_and_stale_ack) ... ok
+test_split_tcp_tts (test_runtime.Tests.test_split_tcp_tts) ... [UNITY TEXT] Sent revision=1 chars=57
+ok
+test_transport_failure_no_partial_state (test_runtime.Tests.test_transport_failure_no_partial_state) ... ok
+test_bounds_and_no_lost_content (test_topics_pages.PagesTests.test_bounds_and_no_lost_content) ... ok
+test_bridge_page_direct_send_and_no_tts (test_topics_pages.PagesTests.test_bridge_page_direct_send_and_no_tts) ... [UNITY TEXT] Sent revision=2 chars=349
+ok
+test_change_topic_replaces_pages (test_topics_pages.PagesTests.test_change_topic_replaces_pages) ... ok
+test_configurable_size_unicode_long_word (test_topics_pages.PagesTests.test_configurable_size_unicode_long_word) ... ok
+test_correction_or_switch_goes_to_business_model (test_topics_pages.PagesTests.test_correction_or_switch_goes_to_business_model) ... ok
+test_finish_clears_cached_pages (test_topics_pages.PagesTests.test_finish_clears_cached_pages) ... ok
+test_forward_back_absolute_no_business_regeneration (test_topics_pages.PagesTests.test_forward_back_absolute_no_business_regeneration) ... ok
+test_old_snapshot_migrates (test_topics_pages.PagesTests.test_old_snapshot_migrates) ... ok
+test_page_cancel_does_not_commit (test_topics_pages.PagesTests.test_page_cancel_does_not_commit) ... ok
+test_route_error_preserves_cached_pages (test_topics_pages.PagesTests.test_route_error_preserves_cached_pages) ... ok
+test_snapshot_restores_pages (test_topics_pages.PagesTests.test_snapshot_restores_pages) ... ok
+test_topic_filter_keeps_conditions_and_topic_inventory (test_topics_pages.PagesTests.test_topic_filter_keeps_conditions_and_topic_inventory) ... ok
+
+----------------------------------------------------------------------
+Ran 47 tests in 0.983s
+
+OK

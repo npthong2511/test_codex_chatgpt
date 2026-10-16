@@ -1,10 +1,12 @@
 {
-  "version": "17.2_Model_only_Local_Synced_Playback",
+  "version": "17.3_Model_only_Topics_Pages",
   "model": "gpt-5.2",
   "max_calls_per_run": 400,
   "max_calls_per_turn": 9,
   "max_output_tokens": 2300,
   "key_variable": "Open_AI",
   "timeout_seconds": 90,
-  "enable_live_api": true
+  "enable_live_api": true,
+  "display_columns": 40,
+  "display_rows": 11
 }

@@ -6,29 +6,7 @@ import queue
 import threading
 from .runtime import Engine,Provider
 
-def format_information(information):
-    """Plain text for the existing Unity UI; never include internal node IDs."""
-    blocks = []
-    title = information.get('title', '').strip()
-    if title:
-        blocks.append(title)
-    for section in information.get('sections', []):
-        lines = []
-        heading = section.get('title', '').strip()
-        if heading:
-            lines.append(heading)
-        lines.extend('- ' + item.strip() for item in section.get('items', []) if item.strip())
-        if lines:
-            blocks.append('\n'.join(lines))
-    options = []
-    for option in information.get('options', []):
-        label = option.get('label', '').strip()
-        if label:
-            identifier = option.get('id', '').strip()
-            options.append(f'{identifier}. {label}' if identifier else label)
-    if options:
-        blocks.append('\n'.join(options))
-    return '\n\n'.join(blocks)
+from .display import format_information
 
 class VoiceBridge:
     def __init__(self,kb,create,memory,model=None,enabled=True):
@@ -45,7 +23,13 @@ class VoiceBridge:
             response=self.engine.process(text,cancelled)
             if response is None or cancelled():return ''
             self.persist();delivery_token.update(revision=response['revision'],response=deepcopy(response))
-            display_text = format_information(response['information'])
+            display_text = response.get('display_text', format_information(response['information']))
+            if response.get('display_only'):
+                delivery_token.update(pending_display=display_text, turn_id=str(turn_id),
+                                      queued_speech='', panel_sent=False, display_only=True)
+                if send_panel and not cancelled():
+                    publish_information_on_playback(delivery_token, send_panel)
+                return ''
             speech = response['speech_text'].strip()
             if display_text and not speech:
                 speech = ('Anh/chị vui lòng chọn nội dung trên màn hình.'
@@ -91,7 +75,7 @@ def publish_information_on_playback(token, send_panel):
             send_panel({'type': 'speech_text', 'job_id': token['revision'], 'text': text})
         token['panel_sent'] = True
         token['display_characters'] = len(text)
-        print(f"[UNITY TEXT] Sent at audio start revision={token.get('revision')} chars={len(text)}", flush=True)
+        print(f"[UNITY TEXT] Sent revision={token.get('revision')} chars={len(text)}", flush=True)
     except Exception as exc:
         token['panel_error'] = type(exc).__name__
         print(f"[UNITY TEXT] Send failed during playback: {type(exc).__name__}", flush=True)

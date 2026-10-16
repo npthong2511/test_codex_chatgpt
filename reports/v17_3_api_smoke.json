@@ -1,0 +1,3573 @@
+{
+  "dialogue": [
+    {
+      "user": "Tôi muốn làm căn cước lần đầu cho con, cháu 5 tuổi, tôi là mẹ ruột.",
+      "result": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Làm căn cước lần đầu cho con",
+              "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_con",
+              "value": "5 tuổi",
+              "evidence": "\"cháu 5 tuổi\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "nguoi_thuc_hien",
+              "value": "Mẹ ruột của người được cấp căn cước",
+              "evidence": "\"tôi là mẹ ruột\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C01"
+          ],
+          "summary": "Cấp căn cước lần đầu cho con 5 tuổi (dưới 6 tuổi); người thực hiện là mẹ ruột. Đang chờ chọn mục nội dung cần xem.",
+          "pending_switch": "",
+          "stage": "choose_topic",
+          "selected_topic": "",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Anh/chị muốn xem nội dung nào của thủ tục này?",
+        "information": {
+          "title": "Chọn nội dung cần xem (cấp căn cước lần đầu cho trẻ dưới 6 tuổi)",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Các bước thực hiện",
+              "node_ids": [
+                "P08.C01"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Hồ sơ",
+              "node_ids": [
+                "P08.C01"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Phí, lệ phí",
+              "node_ids": [
+                "P08.FIRST",
+                "P08.C01"
+              ]
+            },
+            {
+              "id": "D",
+              "label": "Nơi nộp hồ sơ",
+              "node_ids": [
+                "P08.C01"
+              ]
+            },
+            {
+              "id": "E",
+              "label": "Thời hạn trả kết quả",
+              "node_ids": [
+                "P08",
+                "P08.C01"
+              ]
+            },
+            {
+              "id": "F",
+              "label": "Kết quả",
+              "node_ids": [
+                "P08.C01"
+              ]
+            },
+            {
+              "id": "G",
+              "label": "Điều kiện",
+              "node_ids": [
+                "P08.FIRST",
+                "P08.C01"
+              ]
+            }
+          ]
+        },
+        "citations": [
+          "P08.C01#0",
+          "P08#0",
+          "P08.FIRST#0"
+        ],
+        "revision": 1,
+        "session_id": "console",
+        "display_text": "Chọn nội dung cần xem (cấp căn cước lần\nđầu cho trẻ dưới 6 tuổi)\n\nA. Các bước thực hiện\nB. Hồ sơ\nC. Phí, lệ phí\nD. Nơi nộp hồ sơ\nE. Thời hạn trả kết quả\nF. Kết quả\nG. Điều kiện\nTrang 1/1 | Tiếp / Trước"
+      },
+      "state": {
+        "facts": [
+          {
+            "key": "nhu_cau",
+            "value": "Làm căn cước lần đầu cho con",
+            "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+            "node_id": "ROOT"
+          },
+          {
+            "key": "tuoi_con",
+            "value": "5 tuổi",
+            "evidence": "\"cháu 5 tuổi\"",
+            "node_id": "ROOT"
+          },
+          {
+            "key": "nguoi_thuc_hien",
+            "value": "Mẹ ruột của người được cấp căn cước",
+            "evidence": "\"tôi là mẹ ruột\"",
+            "node_id": "ROOT"
+          }
+        ],
+        "path": [
+          "P08",
+          "P08.FIRST",
+          "P08.C01"
+        ],
+        "summary": "Cấp căn cước lần đầu cho con 5 tuổi (dưới 6 tuổi); người thực hiện là mẹ ruột. Đang chờ chọn mục nội dung cần xem.",
+        "pending_switch": "",
+        "stage": "choose_topic",
+        "selected_topic": "",
+        "available_topics": [
+          "huong_dan",
+          "ho_so",
+          "chi_phi",
+          "noi_nop",
+          "thoi_gian",
+          "ket_qua",
+          "dieu_kien"
+        ],
+        "pending_topics": []
+      }
+    },
+    {
+      "user": "Tôi muốn xem hồ sơ cần chuẩn bị.",
+      "result": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Làm căn cước lần đầu cho con",
+              "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_con",
+              "value": "5 tuổi",
+              "evidence": "\"cháu 5 tuổi\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "nguoi_thuc_hien",
+              "value": "Mẹ ruột của người được cấp căn cước",
+              "evidence": "\"tôi là mẹ ruột\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C01"
+          ],
+          "summary": "Cấp căn cước lần đầu cho con 5 tuổi (dưới 6 tuổi); người thực hiện là mẹ ruột. Đang xem mục: Hồ sơ.",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Hồ sơ cần chuẩn bị (cấp căn cước lần đầu cho trẻ dưới 06 tuổi)",
+          "sections": [
+            {
+              "title": "Thành phần/giấy tờ cần có (theo dữ liệu thủ tục đang hiển thị)",
+              "items": [
+                "Cơ quan tiếp nhận sẽ khai thác dữ liệu của trẻ; trường hợp thiếu dữ liệu thì cần bổ sung căn cứ về khai sinh của trẻ.",
+                "Cơ quan tiếp nhận sẽ xác thực tư cách người đại diện hợp pháp; trường hợp dữ liệu chưa chứng minh được tư cách đại diện thì cần bổ sung căn cứ về đại diện hợp pháp."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P08.C01#0"
+        ],
+        "revision": 2,
+        "session_id": "console",
+        "display_text": "Hồ sơ cần chuẩn bị (cấp căn cước lần đầu\ncho trẻ dưới 06 tuổi)\n\nThành phần/giấy tờ cần có (theo dữ liệu\nthủ tục đang hiển thị)\n- Cơ quan tiếp nhận sẽ khai thác dữ liệu\ncủa trẻ; trường hợp thiếu dữ liệu thì\ncần bổ sung căn cứ về khai sinh của trẻ.\nTrang 1/2 | Tiếp / Trước"
+      },
+      "state": {
+        "facts": [
+          {
+            "key": "nhu_cau",
+            "value": "Làm căn cước lần đầu cho con",
+            "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+            "node_id": "ROOT"
+          },
+          {
+            "key": "tuoi_con",
+            "value": "5 tuổi",
+            "evidence": "\"cháu 5 tuổi\"",
+            "node_id": "ROOT"
+          },
+          {
+            "key": "nguoi_thuc_hien",
+            "value": "Mẹ ruột của người được cấp căn cước",
+            "evidence": "\"tôi là mẹ ruột\"",
+            "node_id": "ROOT"
+          }
+        ],
+        "path": [
+          "P08",
+          "P08.FIRST",
+          "P08.C01"
+        ],
+        "summary": "Cấp căn cước lần đầu cho con 5 tuổi (dưới 6 tuổi); người thực hiện là mẹ ruột. Đang xem mục: Hồ sơ.",
+        "pending_switch": "",
+        "stage": "topic",
+        "selected_topic": "ho_so",
+        "available_topics": [
+          "huong_dan",
+          "ho_so",
+          "chi_phi",
+          "noi_nop",
+          "thoi_gian",
+          "ket_qua",
+          "dieu_kien"
+        ],
+        "pending_topics": []
+      }
+    },
+    {
+      "user": "Đúng rồi, hồ sơ.",
+      "result": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Làm căn cước lần đầu cho con",
+              "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_con",
+              "value": "5 tuổi",
+              "evidence": "\"cháu 5 tuổi\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "nguoi_thuc_hien",
+              "value": "Mẹ ruột của người được cấp căn cước",
+              "evidence": "\"tôi là mẹ ruột\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C01"
+          ],
+          "summary": "Cấp căn cước lần đầu cho con 5 tuổi (dưới 6 tuổi); người thực hiện là mẹ ruột. Đang xem mục: Hồ sơ.",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Hồ sơ (cấp căn cước lần đầu cho trẻ dưới 06 tuổi)",
+          "sections": [
+            {
+              "title": "Giấy tờ/dữ liệu cần có",
+              "items": [
+                "Cơ quan tiếp nhận khai thác dữ liệu của trẻ; trường hợp thiếu dữ liệu thì cần bổ sung căn cứ về khai sinh của trẻ.",
+                "Cơ quan tiếp nhận xác thực tư cách người đại diện hợp pháp; trường hợp dữ liệu chưa chứng minh được tư cách đại diện thì cần bổ sung căn cứ về đại diện hợp pháp."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P08.C01#0"
+        ],
+        "revision": 3,
+        "session_id": "console",
+        "display_text": "Hồ sơ (cấp căn cước lần đầu cho trẻ dưới\n06 tuổi)\n\nGiấy tờ/dữ liệu cần có\n- Cơ quan tiếp nhận khai thác dữ liệu\ncủa trẻ; trường hợp thiếu dữ liệu thì\ncần bổ sung căn cứ về khai sinh của trẻ.\nTrang 1/2 | Tiếp / Trước"
+      },
+      "state": {
+        "facts": [
+          {
+            "key": "nhu_cau",
+            "value": "Làm căn cước lần đầu cho con",
+            "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+            "node_id": "ROOT"
+          },
+          {
+            "key": "tuoi_con",
+            "value": "5 tuổi",
+            "evidence": "\"cháu 5 tuổi\"",
+            "node_id": "ROOT"
+          },
+          {
+            "key": "nguoi_thuc_hien",
+            "value": "Mẹ ruột của người được cấp căn cước",
+            "evidence": "\"tôi là mẹ ruột\"",
+            "node_id": "ROOT"
+          }
+        ],
+        "path": [
+          "P08",
+          "P08.FIRST",
+          "P08.C01"
+        ],
+        "summary": "Cấp căn cước lần đầu cho con 5 tuổi (dưới 6 tuổi); người thực hiện là mẹ ruột. Đang xem mục: Hồ sơ.",
+        "pending_switch": "",
+        "stage": "topic",
+        "selected_topic": "ho_so",
+        "available_topics": [
+          "huong_dan",
+          "ho_so",
+          "chi_phi",
+          "noi_nop",
+          "thoi_gian",
+          "ket_qua",
+          "dieu_kien"
+        ],
+        "pending_topics": []
+      }
+    },
+    {
+      "user": "tiếp",
+      "result": {
+        "mode": "page",
+        "speech_text": "",
+        "information": {
+          "title": "Hồ sơ (cấp căn cước lần đầu cho trẻ dưới 06 tuổi)",
+          "sections": [
+            {
+              "title": "Giấy tờ/dữ liệu cần có",
+              "items": [
+                "Cơ quan tiếp nhận khai thác dữ liệu của trẻ; trường hợp thiếu dữ liệu thì cần bổ sung căn cứ về khai sinh của trẻ.",
+                "Cơ quan tiếp nhận xác thực tư cách người đại diện hợp pháp; trường hợp dữ liệu chưa chứng minh được tư cách đại diện thì cần bổ sung căn cứ về đại diện hợp pháp."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "display_text": "- Cơ quan tiếp nhận xác thực tư cách\nngười đại diện hợp pháp; trường hợp dữ\nliệu chưa chứng minh được tư cách đại\ndiện thì cần bổ sung căn cứ về đại diện\nhợp pháp.\nTrang 2/2 | Tiếp / Trước",
+        "display_only": true,
+        "revision": 4,
+        "session_id": "console"
+      },
+      "state": {
+        "facts": [
+          {
+            "key": "nhu_cau",
+            "value": "Làm căn cước lần đầu cho con",
+            "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+            "node_id": "ROOT"
+          },
+          {
+            "key": "tuoi_con",
+            "value": "5 tuổi",
+            "evidence": "\"cháu 5 tuổi\"",
+            "node_id": "ROOT"
+          },
+          {
+            "key": "nguoi_thuc_hien",
+            "value": "Mẹ ruột của người được cấp căn cước",
+            "evidence": "\"tôi là mẹ ruột\"",
+            "node_id": "ROOT"
+          }
+        ],
+        "path": [
+          "P08",
+          "P08.FIRST",
+          "P08.C01"
+        ],
+        "summary": "Cấp căn cước lần đầu cho con 5 tuổi (dưới 6 tuổi); người thực hiện là mẹ ruột. Đang xem mục: Hồ sơ.",
+        "pending_switch": "",
+        "stage": "topic",
+        "selected_topic": "ho_so",
+        "available_topics": [
+          "huong_dan",
+          "ho_so",
+          "chi_phi",
+          "noi_nop",
+          "thoi_gian",
+          "ket_qua",
+          "dieu_kien"
+        ],
+        "pending_topics": []
+      }
+    },
+    {
+      "user": "mở lại 1/2",
+      "result": {
+        "mode": "page",
+        "speech_text": "",
+        "information": {
+          "title": "Hồ sơ (cấp căn cước lần đầu cho trẻ dưới 06 tuổi)",
+          "sections": [
+            {
+              "title": "Giấy tờ/dữ liệu cần có",
+              "items": [
+                "Cơ quan tiếp nhận khai thác dữ liệu của trẻ; trường hợp thiếu dữ liệu thì cần bổ sung căn cứ về khai sinh của trẻ.",
+                "Cơ quan tiếp nhận xác thực tư cách người đại diện hợp pháp; trường hợp dữ liệu chưa chứng minh được tư cách đại diện thì cần bổ sung căn cứ về đại diện hợp pháp."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "display_text": "Hồ sơ (cấp căn cước lần đầu cho trẻ dưới\n06 tuổi)\n\nGiấy tờ/dữ liệu cần có\n- Cơ quan tiếp nhận khai thác dữ liệu\ncủa trẻ; trường hợp thiếu dữ liệu thì\ncần bổ sung căn cứ về khai sinh của trẻ.\nTrang 1/2 | Tiếp / Trước",
+        "display_only": true,
+        "revision": 5,
+        "session_id": "console"
+      },
+      "state": {
+        "facts": [
+          {
+            "key": "nhu_cau",
+            "value": "Làm căn cước lần đầu cho con",
+            "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+            "node_id": "ROOT"
+          },
+          {
+            "key": "tuoi_con",
+            "value": "5 tuổi",
+            "evidence": "\"cháu 5 tuổi\"",
+            "node_id": "ROOT"
+          },
+          {
+            "key": "nguoi_thuc_hien",
+            "value": "Mẹ ruột của người được cấp căn cước",
+            "evidence": "\"tôi là mẹ ruột\"",
+            "node_id": "ROOT"
+          }
+        ],
+        "path": [
+          "P08",
+          "P08.FIRST",
+          "P08.C01"
+        ],
+        "summary": "Cấp căn cước lần đầu cho con 5 tuổi (dưới 6 tuổi); người thực hiện là mẹ ruột. Đang xem mục: Hồ sơ.",
+        "pending_switch": "",
+        "stage": "topic",
+        "selected_topic": "ho_so",
+        "available_topics": [
+          "huong_dan",
+          "ho_so",
+          "chi_phi",
+          "noi_nop",
+          "thoi_gian",
+          "ket_qua",
+          "dieu_kien"
+        ],
+        "pending_topics": []
+      }
+    },
+    {
+      "user": "Phí thì sao?",
+      "result": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Làm căn cước lần đầu cho con",
+              "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_con",
+              "value": "5 tuổi",
+              "evidence": "\"cháu 5 tuổi\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "nguoi_thuc_hien",
+              "value": "Mẹ ruột của người được cấp căn cước",
+              "evidence": "\"tôi là mẹ ruột\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C01"
+          ],
+          "summary": "Cấp căn cước lần đầu cho con 5 tuổi (dưới 6 tuổi); người thực hiện là mẹ ruột. Đang xem mục: Phí.",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "chi_phi",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Phí, lệ phí (cấp căn cước lần đầu cho trẻ dưới 06 tuổi)",
+          "sections": [
+            {
+              "title": "Mức phí",
+              "items": [
+                "Cấp căn cước lần đầu: không thu phí."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P08.C01#0",
+          "P08.FIRST#0"
+        ],
+        "revision": 6,
+        "session_id": "console",
+        "display_text": "Phí, lệ phí (cấp căn cước lần đầu cho\ntrẻ dưới 06 tuổi)\n\nMức phí\n- Cấp căn cước lần đầu: không thu phí.\nTrang 1/1 | Tiếp / Trước"
+      },
+      "state": {
+        "facts": [
+          {
+            "key": "nhu_cau",
+            "value": "Làm căn cước lần đầu cho con",
+            "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+            "node_id": "ROOT"
+          },
+          {
+            "key": "tuoi_con",
+            "value": "5 tuổi",
+            "evidence": "\"cháu 5 tuổi\"",
+            "node_id": "ROOT"
+          },
+          {
+            "key": "nguoi_thuc_hien",
+            "value": "Mẹ ruột của người được cấp căn cước",
+            "evidence": "\"tôi là mẹ ruột\"",
+            "node_id": "ROOT"
+          }
+        ],
+        "path": [
+          "P08",
+          "P08.FIRST",
+          "P08.C01"
+        ],
+        "summary": "Cấp căn cước lần đầu cho con 5 tuổi (dưới 6 tuổi); người thực hiện là mẹ ruột. Đang xem mục: Phí.",
+        "pending_switch": "",
+        "stage": "topic",
+        "selected_topic": "chi_phi",
+        "available_topics": [
+          "huong_dan",
+          "ho_so",
+          "chi_phi",
+          "noi_nop",
+          "thoi_gian",
+          "ket_qua",
+          "dieu_kien"
+        ],
+        "pending_topics": []
+      }
+    },
+    {
+      "user": "Tôi nói nhầm, cháu 8 tuổi.",
+      "result": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Làm căn cước lần đầu cho con",
+              "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_con",
+              "value": "8 tuổi",
+              "evidence": "\"cháu 8 tuổi\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "nguoi_thuc_hien",
+              "value": "Mẹ ruột của người được cấp căn cước",
+              "evidence": "\"tôi là mẹ ruột\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST"
+          ],
+          "summary": "Cấp căn cước lần đầu cho con 8 tuổi (từ đủ 06 đến dưới 14 tuổi); người thực hiện là mẹ ruột. Đang chờ xác nhận nội dung muốn xem.",
+          "pending_switch": "",
+          "stage": "choose_topic",
+          "selected_topic": "",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Anh/chị muốn xem nội dung nào về cấp căn cước lần đầu cho con 8 tuổi?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Các bước thực hiện",
+              "node_ids": [
+                "P08",
+                "P08.C02"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Hồ sơ",
+              "node_ids": [
+                "P08",
+                "P08.C02"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Phí, lệ phí",
+              "node_ids": [
+                "P08",
+                "P08.C02"
+              ]
+            },
+            {
+              "id": "D",
+              "label": "Nơi nộp hồ sơ",
+              "node_ids": [
+                "P08",
+                "P08.C02"
+              ]
+            },
+            {
+              "id": "E",
+              "label": "Thời hạn trả kết quả",
+              "node_ids": [
+                "P08",
+                "P08.C02"
+              ]
+            },
+            {
+              "id": "F",
+              "label": "Kết quả",
+              "node_ids": [
+                "P08",
+                "P08.C02"
+              ]
+            },
+            {
+              "id": "G",
+              "label": "Điều kiện",
+              "node_ids": [
+                "P08",
+                "P08.C02"
+              ]
+            }
+          ]
+        },
+        "citations": [],
+        "revision": 7,
+        "session_id": "console",
+        "display_text": "A. Các bước thực hiện\nB. Hồ sơ\nC. Phí, lệ phí\nD. Nơi nộp hồ sơ\nE. Thời hạn trả kết quả\nF. Kết quả\nG. Điều kiện\nTrang 1/1 | Tiếp / Trước"
+      },
+      "state": {
+        "facts": [
+          {
+            "key": "nhu_cau",
+            "value": "Làm căn cước lần đầu cho con",
+            "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+            "node_id": "ROOT"
+          },
+          {
+            "key": "tuoi_con",
+            "value": "8 tuổi",
+            "evidence": "\"cháu 8 tuổi\"",
+            "node_id": "ROOT"
+          },
+          {
+            "key": "nguoi_thuc_hien",
+            "value": "Mẹ ruột của người được cấp căn cước",
+            "evidence": "\"tôi là mẹ ruột\"",
+            "node_id": "ROOT"
+          }
+        ],
+        "path": [
+          "P08",
+          "P08.FIRST"
+        ],
+        "summary": "Cấp căn cước lần đầu cho con 8 tuổi (từ đủ 06 đến dưới 14 tuổi); người thực hiện là mẹ ruột. Đang chờ xác nhận nội dung muốn xem.",
+        "pending_switch": "",
+        "stage": "choose_topic",
+        "selected_topic": "",
+        "available_topics": [
+          "huong_dan",
+          "ho_so",
+          "chi_phi",
+          "noi_nop",
+          "thoi_gian",
+          "ket_qua",
+          "dieu_kien"
+        ],
+        "pending_topics": []
+      }
+    }
+  ],
+  "routes": [
+    {
+      "user": "tiếp theo",
+      "route": {
+        "intent": "page",
+        "page": 3
+      }
+    },
+    {
+      "user": "mở lại 1/2",
+      "route": {
+        "intent": "page",
+        "page": 1
+      }
+    },
+    {
+      "user": "trở lại",
+      "route": {
+        "intent": "page",
+        "page": 1
+      }
+    },
+    {
+      "user": "mở trang 3",
+      "route": {
+        "intent": "page",
+        "page": 3
+      }
+    },
+    {
+      "user": "tiếp nhưng tôi nói nhầm cháu 8 tuổi",
+      "route": {
+        "intent": "continue",
+        "page": 0
+      }
+    },
+    {
+      "user": "quay lại danh sách nội dung",
+      "route": {
+        "intent": "continue",
+        "page": 0
+      }
+    }
+  ],
+  "calls": 19,
+  "usage": [
+    {
+      "input_tokens": 4275,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 233,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4508
+    },
+    {
+      "input_tokens": 3494,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 1664
+      },
+      "output_tokens": 402,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3896
+    },
+    {
+      "input_tokens": 3991,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 2688
+      },
+      "output_tokens": 473,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4464
+    },
+    {
+      "input_tokens": 305,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 19,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 324
+    },
+    {
+      "input_tokens": 4171,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 1664
+      },
+      "output_tokens": 412,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4583
+    },
+    {
+      "input_tokens": 302,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 19,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 321
+    },
+    {
+      "input_tokens": 4202,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 1664
+      },
+      "output_tokens": 394,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4596
+    },
+    {
+      "input_tokens": 298,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 19,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 317
+    },
+    {
+      "input_tokens": 303,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 19,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 322
+    },
+    {
+      "input_tokens": 301,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 19,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 320
+    },
+    {
+      "input_tokens": 4183,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 1664
+      },
+      "output_tokens": 340,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4523
+    },
+    {
+      "input_tokens": 307,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 19,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 326
+    },
+    {
+      "input_tokens": 4128,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 1664
+      },
+      "output_tokens": 447,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4575
+    },
+    {
+      "input_tokens": 299,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 19,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 318
+    },
+    {
+      "input_tokens": 303,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 19,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 322
+    },
+    {
+      "input_tokens": 299,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 19,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 318
+    },
+    {
+      "input_tokens": 301,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 19,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 320
+    },
+    {
+      "input_tokens": 308,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 19,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 327
+    },
+    {
+      "input_tokens": 303,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 19,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 322
+    }
+  ],
+  "events": [
+    {
+      "call": 1,
+      "payload": {
+        "user_text": "Tôi muốn làm căn cước lần đầu cho con, cháu 5 tuổi, tôi là mẹ ruột.",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "",
+          "pending_switch": "",
+          "stage": "identify",
+          "selected_topic": "",
+          "available_topics": [],
+          "pending_topics": []
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "ROOT",
+              "title": "Quy trình hành chính — cây tri thức 3.0",
+              "condition": "Yêu cầu thuộc một hoặc nhiều lĩnh vực trong bộ dữ liệu",
+              "kind": "root",
+              "children_count": 27,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P02",
+                "title": "Đăng ký khai tử",
+                "condition": "Nhu cầu liên quan: Đăng ký khai tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P04",
+                "title": "Đăng ký thường trú",
+                "condition": "Nhu cầu liên quan: Đăng ký thường trú",
+                "kind": "procedure",
+                "children_count": 9,
+                "related": []
+              },
+              {
+                "id": "P05",
+                "title": "Xác nhận tình trạng hôn nhân",
+                "condition": "Nhu cầu liên quan: Xác nhận tình trạng hôn nhân",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P06",
+                "title": "Đăng ký tạm trú",
+                "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P07",
+                "title": "Xác nhận và điều chỉnh thông tin cư trú",
+                "condition": "Nhu cầu liên quan: Xác nhận và điều chỉnh thông tin cư trú",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P09",
+                "title": "Đăng ký biến động đất đai",
+                "condition": "Nhu cầu liên quan: Đăng ký biến động đất đai",
+                "kind": "procedure",
+                "children_count": 15,
+                "related": []
+              },
+              {
+                "id": "P10",
+                "title": "Cấp giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Cấp giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P11",
+                "title": "Đổi giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Đổi giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P12",
+                "title": "Chuyển nhượng quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Chuyển nhượng quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P13",
+                "title": "Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "condition": "Nhu cầu liên quan: Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P15",
+                "title": "Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "condition": "Nhu cầu liên quan: Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P16",
+                "title": "Hỗ trợ đào tạo nghề",
+                "condition": "Nhu cầu liên quan: Hỗ trợ đào tạo nghề",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P17",
+                "title": "Hỗ trợ người bị tai nạn lao động",
+                "condition": "Nhu cầu liên quan: Hỗ trợ người bị tai nạn lao động",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P19",
+                "title": "Tín dụng chính sách NHCSXH",
+                "condition": "Nhu cầu liên quan: Tín dụng chính sách NHCSXH",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P20",
+                "title": "Chế độ thương binh",
+                "condition": "Nhu cầu liên quan: Chế độ thương binh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P21",
+                "title": "Chế độ thờ cúng liệt sĩ",
+                "condition": "Nhu cầu liên quan: Chế độ thờ cúng liệt sĩ",
+                "kind": "procedure",
+                "children_count": 7,
+                "related": []
+              },
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P25",
+                "title": "Thay đổi nội dung đăng ký hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Thay đổi nội dung đăng ký hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 10,
+                "related": []
+              },
+              {
+                "id": "P26",
+                "title": "Chấm dứt hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Chấm dứt hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P27",
+                "title": "Khiếu nại - Phản ánh - Kiến nghị",
+                "condition": "Nhu cầu liên quan: Khiếu nại - Phản ánh - Kiến nghị",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "loaded_topic": "",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 0,
+          "at_last_page": true
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [],
+        "navigation_error": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 4275,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 233,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4508
+      },
+      "response_id": "resp_039c1247beb3151d016ad1c769ae9087d0a4f3e458f5044bc9",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P08"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Làm căn cước lần đầu cho con",
+              "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_con",
+              "value": "5 tuổi",
+              "evidence": "\"cháu 5 tuổi\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "nguoi_thuc_hien",
+              "value": "Mẹ ruột của người được cấp căn cước",
+              "evidence": "\"tôi là mẹ ruột\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P08"
+          ],
+          "summary": "Người dân cần cấp căn cước lần đầu cho con 5 tuổi; người thực hiện là mẹ ruột. Đang vào thủ tục Cấp, đổi và cấp lại căn cước để xác định đúng trường hợp.",
+          "pending_switch": "",
+          "stage": "identify",
+          "selected_topic": "",
+          "available_topics": [],
+          "pending_topics": []
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 4.32769720700162
+    },
+    {
+      "call": 2,
+      "payload": {
+        "user_text": "Tôi muốn làm căn cước lần đầu cho con, cháu 5 tuổi, tôi là mẹ ruột.",
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Làm căn cước lần đầu cho con",
+              "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_con",
+              "value": "5 tuổi",
+              "evidence": "\"cháu 5 tuổi\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "nguoi_thuc_hien",
+              "value": "Mẹ ruột của người được cấp căn cước",
+              "evidence": "\"tôi là mẹ ruột\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P08"
+          ],
+          "summary": "Người dân cần cấp căn cước lần đầu cho con 5 tuổi; người thực hiện là mẹ ruột. Đang vào thủ tục Cấp, đổi và cấp lại căn cước để xác định đúng trường hợp.",
+          "pending_switch": "",
+          "stage": "identify",
+          "selected_topic": "",
+          "available_topics": [],
+          "pending_topics": []
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P08",
+              "title": "Cấp, đổi và cấp lại căn cước",
+              "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+              "kind": "procedure",
+              "children_count": 4,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P08#0",
+                  "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                  "topics": [
+                    "ho_so",
+                    "thoi_gian",
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P08.FIRST",
+                "title": "Cấp căn cước lần đầu",
+                "condition": "Chưa có thẻ thuộc diện cấp lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 3,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.FIRST#0",
+                    "text": "Cấp lần đầu không thu",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C04",
+                "title": "Đã có thẻ; đổi do đến tuổi, thay đổi thông tin, hư hỏng hoặc lý do cấp đổi",
+                "condition": "Đã có thẻ; đổi do đến tuổi, thay đổi thông tin, hư hỏng hoặc lý do cấp đổi",
+                "kind": "case_group",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P08.C05",
+                "title": "Đã có thẻ; mất thẻ hoặc thuộc diện cấp lại",
+                "condition": "Đã có thẻ; mất thẻ hoặc thuộc diện cấp lại",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P08.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "loaded_topic": "",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 0,
+          "at_last_page": true
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [
+          [
+            "P08"
+          ]
+        ],
+        "navigation_error": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3494,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 402,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3896
+      },
+      "response_id": "resp_0f4e605a96b47dfa016ad1c76d6c1c87d096d391a9a0f86a37",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P08.FIRST"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Làm căn cước lần đầu cho con",
+              "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_con",
+              "value": "5 tuổi",
+              "evidence": "\"cháu 5 tuổi\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "nguoi_thuc_hien",
+              "value": "Mẹ ruột của người được cấp căn cước",
+              "evidence": "\"tôi là mẹ ruột\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST"
+          ],
+          "summary": "Cấp căn cước lần đầu cho con 5 tuổi; người thực hiện là mẹ ruột. Đang vào nhánh 'Cấp căn cước lần đầu' để xác định đúng trường hợp và cho chọn nội dung cần xem.",
+          "pending_switch": "",
+          "stage": "choose_topic",
+          "selected_topic": "",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Anh/chị muốn xem nội dung nào về thủ tục cấp căn cước lần đầu cho cháu?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Các bước thực hiện",
+              "node_ids": []
+            },
+            {
+              "id": "B",
+              "label": "Hồ sơ",
+              "node_ids": []
+            },
+            {
+              "id": "C",
+              "label": "Phí, lệ phí",
+              "node_ids": []
+            },
+            {
+              "id": "D",
+              "label": "Nơi nộp hồ sơ",
+              "node_ids": []
+            },
+            {
+              "id": "E",
+              "label": "Thời hạn trả kết quả",
+              "node_ids": []
+            },
+            {
+              "id": "F",
+              "label": "Kết quả",
+              "node_ids": []
+            },
+            {
+              "id": "G",
+              "label": "Điều kiện",
+              "node_ids": []
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 5.455546627010335
+    },
+    {
+      "call": 3,
+      "payload": {
+        "user_text": "Tôi muốn làm căn cước lần đầu cho con, cháu 5 tuổi, tôi là mẹ ruột.",
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Làm căn cước lần đầu cho con",
+              "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_con",
+              "value": "5 tuổi",
+              "evidence": "\"cháu 5 tuổi\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "nguoi_thuc_hien",
+              "value": "Mẹ ruột của người được cấp căn cước",
+              "evidence": "\"tôi là mẹ ruột\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST"
+          ],
+          "summary": "Cấp căn cước lần đầu cho con 5 tuổi; người thực hiện là mẹ ruột. Đang vào nhánh 'Cấp căn cước lần đầu' để xác định đúng trường hợp và cho chọn nội dung cần xem.",
+          "pending_switch": "",
+          "stage": "choose_topic",
+          "selected_topic": "",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P08.FIRST",
+              "title": "Cấp căn cước lần đầu",
+              "condition": "Chưa có thẻ thuộc diện cấp lần đầu",
+              "kind": "shared_ancestor",
+              "children_count": 3,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P08.FIRST#0",
+                  "text": "Cấp lần đầu không thu",
+                  "topics": [
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.C01",
+                "title": "Cấp lần đầu; dưới 06 tuổi",
+                "condition": "Cấp lần đầu; dưới 06 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C01#0",
+                    "text": "Dưới 6 tuổi cấp theo nhu cầu: người đại diện hợp pháp khai điện tử trên Cổng dịch vụ công/VNeID; nếu trẻ chưa khai sinh thì có thể chọn nhóm liên thông khai sinh, thường trú, BHYT và căn cước khi đáp ứng điều kiện. Không thu ảnh khuôn mặt, vân tay, mống mắt của trẻ dưới 6 tuổi. Xác thực tư cách đại diện, khai thác dữ liệu trẻ; thiếu thì bổ sung căn cứ khai sinh/đại diện. Thời hạn, nhận kết quả theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C02",
+                "title": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C02#0",
+                    "text": "Từ đủ 6 đến dưới 14 tuổi cấp theo nhu cầu. Trẻ cùng người đại diện đến điểm thu nhận để chụp ảnh, lấy vân tay, mống mắt theo quy định; trường hợp không thể thu nhận sinh trắc vì tình trạng thực tế được ghi nhận, không tạo yêu cầu bất khả thi. Người đại diện kiểm tra, ký xác nhận DC02; giấy đại diện chỉ khi dữ liệu không chứng minh được. Thời hạn theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C03",
+                "title": "Cấp lần đầu; từ đủ 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08",
+                  "P08.C04"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C03#0",
+                    "text": "Công dân từ đủ 14 tuổi phải làm căn cước nếu chưa có thẻ hợp lệ. Người yêu cầu đến điểm thu nhận kiểm tra dữ liệu, chụp ảnh, vân tay, mống mắt và xác nhận DC02. Không bắt xuất trình sổ hộ khẩu giấy. Người đang có CMND hoặc CCCD cần đổi thì chọn C04, không gán cấp lần đầu để miễn phí sai. Thời hạn theo P08, cấp lần đầu không thu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "loaded_topic": "",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 0,
+          "at_last_page": true
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [
+          [
+            "P08"
+          ],
+          [
+            "P08.FIRST"
+          ]
+        ],
+        "navigation_error": "",
+        "calls_remaining": 7
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3991,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 2688
+        },
+        "output_tokens": 473,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4464
+      },
+      "response_id": "resp_0417420ec5686e9a016ad1c772f05087d09641661265060ebf",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Làm căn cước lần đầu cho con",
+              "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_con",
+              "value": "5 tuổi",
+              "evidence": "\"cháu 5 tuổi\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "nguoi_thuc_hien",
+              "value": "Mẹ ruột của người được cấp căn cước",
+              "evidence": "\"tôi là mẹ ruột\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C01"
+          ],
+          "summary": "Cấp căn cước lần đầu cho con 5 tuổi (dưới 6 tuổi); người thực hiện là mẹ ruột. Đang chờ chọn mục nội dung cần xem.",
+          "pending_switch": "",
+          "stage": "choose_topic",
+          "selected_topic": "",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Anh/chị muốn xem nội dung nào của thủ tục này?",
+        "information": {
+          "title": "Chọn nội dung cần xem (cấp căn cước lần đầu cho trẻ dưới 6 tuổi)",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Các bước thực hiện",
+              "node_ids": [
+                "P08.C01"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Hồ sơ",
+              "node_ids": [
+                "P08.C01"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Phí, lệ phí",
+              "node_ids": [
+                "P08.FIRST",
+                "P08.C01"
+              ]
+            },
+            {
+              "id": "D",
+              "label": "Nơi nộp hồ sơ",
+              "node_ids": [
+                "P08.C01"
+              ]
+            },
+            {
+              "id": "E",
+              "label": "Thời hạn trả kết quả",
+              "node_ids": [
+                "P08",
+                "P08.C01"
+              ]
+            },
+            {
+              "id": "F",
+              "label": "Kết quả",
+              "node_ids": [
+                "P08.C01"
+              ]
+            },
+            {
+              "id": "G",
+              "label": "Điều kiện",
+              "node_ids": [
+                "P08.FIRST",
+                "P08.C01"
+              ]
+            }
+          ]
+        },
+        "citations": [
+          "P08.C01#0",
+          "P08#0",
+          "P08.FIRST#0"
+        ]
+      },
+      "seconds": 5.571698341998854
+    },
+    {
+      "call": 4,
+      "payload": {
+        "user_text": "Tôi muốn xem hồ sơ cần chuẩn bị.",
+        "current": 1,
+        "total": 1
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 305,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 324
+      },
+      "response_id": "resp_0e25645e9d54c66f016ad1c77886a487d0b08e48a6cd73f0c8",
+      "decision": {
+        "intent": "continue",
+        "page": 0
+      },
+      "seconds": 1.4724625620001461
+    },
+    {
+      "call": 5,
+      "payload": {
+        "user_text": "Tôi muốn xem hồ sơ cần chuẩn bị.",
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Làm căn cước lần đầu cho con",
+              "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_con",
+              "value": "5 tuổi",
+              "evidence": "\"cháu 5 tuổi\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "nguoi_thuc_hien",
+              "value": "Mẹ ruột của người được cấp căn cước",
+              "evidence": "\"tôi là mẹ ruột\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C01"
+          ],
+          "summary": "Cấp căn cước lần đầu cho con 5 tuổi (dưới 6 tuổi); người thực hiện là mẹ ruột. Đang chờ chọn mục nội dung cần xem.",
+          "pending_switch": "",
+          "stage": "choose_topic",
+          "selected_topic": "",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị muốn xem nội dung nào của thủ tục này?",
+          "information": {
+            "title": "Chọn nội dung cần xem (cấp căn cước lần đầu cho trẻ dưới 6 tuổi)",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Các bước thực hiện",
+                "node_ids": [
+                  "P08.C01"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Hồ sơ",
+                "node_ids": [
+                  "P08.C01"
+                ]
+              },
+              {
+                "id": "C",
+                "label": "Phí, lệ phí",
+                "node_ids": [
+                  "P08.FIRST",
+                  "P08.C01"
+                ]
+              },
+              {
+                "id": "D",
+                "label": "Nơi nộp hồ sơ",
+                "node_ids": [
+                  "P08.C01"
+                ]
+              },
+              {
+                "id": "E",
+                "label": "Thời hạn trả kết quả",
+                "node_ids": [
+                  "P08",
+                  "P08.C01"
+                ]
+              },
+              {
+                "id": "F",
+                "label": "Kết quả",
+                "node_ids": [
+                  "P08.C01"
+                ]
+              },
+              {
+                "id": "G",
+                "label": "Điều kiện",
+                "node_ids": [
+                  "P08.FIRST",
+                  "P08.C01"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P08.FIRST",
+              "title": "Cấp căn cước lần đầu",
+              "condition": "Chưa có thẻ thuộc diện cấp lần đầu",
+              "kind": "shared_ancestor",
+              "children_count": 3,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P08.FIRST#0",
+                  "text": "Cấp lần đầu không thu",
+                  "topics": [
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.C01",
+                "title": "Cấp lần đầu; dưới 06 tuổi",
+                "condition": "Cấp lần đầu; dưới 06 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C01#0",
+                    "text": "Dưới 6 tuổi cấp theo nhu cầu: người đại diện hợp pháp khai điện tử trên Cổng dịch vụ công/VNeID; nếu trẻ chưa khai sinh thì có thể chọn nhóm liên thông khai sinh, thường trú, BHYT và căn cước khi đáp ứng điều kiện. Không thu ảnh khuôn mặt, vân tay, mống mắt của trẻ dưới 6 tuổi. Xác thực tư cách đại diện, khai thác dữ liệu trẻ; thiếu thì bổ sung căn cứ khai sinh/đại diện. Thời hạn, nhận kết quả theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C02",
+                "title": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C02#0",
+                    "text": "Từ đủ 6 đến dưới 14 tuổi cấp theo nhu cầu. Trẻ cùng người đại diện đến điểm thu nhận để chụp ảnh, lấy vân tay, mống mắt theo quy định; trường hợp không thể thu nhận sinh trắc vì tình trạng thực tế được ghi nhận, không tạo yêu cầu bất khả thi. Người đại diện kiểm tra, ký xác nhận DC02; giấy đại diện chỉ khi dữ liệu không chứng minh được. Thời hạn theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C03",
+                "title": "Cấp lần đầu; từ đủ 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08",
+                  "P08.C04"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C03#0",
+                    "text": "Công dân từ đủ 14 tuổi phải làm căn cước nếu chưa có thẻ hợp lệ. Người yêu cầu đến điểm thu nhận kiểm tra dữ liệu, chụp ảnh, vân tay, mống mắt và xác nhận DC02. Không bắt xuất trình sổ hộ khẩu giấy. Người đang có CMND hoặc CCCD cần đổi thì chọn C04, không gán cấp lần đầu để miễn phí sai. Thời hạn theo P08, cấp lần đầu không thu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "loaded_topic": "",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 1,
+          "at_last_page": true
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [],
+        "navigation_error": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 4171,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 412,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4583
+      },
+      "response_id": "resp_0f9b78544536e1d4016ad1c779e66887d0a99a22203da03426",
+      "decision": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Làm căn cước lần đầu cho con",
+              "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_con",
+              "value": "5 tuổi",
+              "evidence": "\"cháu 5 tuổi\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "nguoi_thuc_hien",
+              "value": "Mẹ ruột của người được cấp căn cước",
+              "evidence": "\"tôi là mẹ ruột\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C01"
+          ],
+          "summary": "Cấp căn cước lần đầu cho con 5 tuổi (dưới 6 tuổi); người thực hiện là mẹ ruột. Đang xem mục: Hồ sơ.",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Hồ sơ cần chuẩn bị (cấp căn cước lần đầu cho trẻ dưới 06 tuổi)",
+          "sections": [
+            {
+              "title": "Thành phần/giấy tờ cần có (theo dữ liệu thủ tục đang hiển thị)",
+              "items": [
+                "Cơ quan tiếp nhận sẽ khai thác dữ liệu của trẻ; trường hợp thiếu dữ liệu thì cần bổ sung căn cứ về khai sinh của trẻ.",
+                "Cơ quan tiếp nhận sẽ xác thực tư cách người đại diện hợp pháp; trường hợp dữ liệu chưa chứng minh được tư cách đại diện thì cần bổ sung căn cứ về đại diện hợp pháp."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P08.C01#0"
+        ]
+      },
+      "seconds": 5.222907210001722
+    },
+    {
+      "call": 6,
+      "payload": {
+        "user_text": "Đúng rồi, hồ sơ.",
+        "current": 1,
+        "total": 2
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 302,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 321
+      },
+      "response_id": "resp_07b783bfb2e149e7016ad1c77f26d487d09fc32137b7c28862",
+      "decision": {
+        "intent": "continue",
+        "page": 0
+      },
+      "seconds": 0.9569628559984267
+    },
+    {
+      "call": 7,
+      "payload": {
+        "user_text": "Đúng rồi, hồ sơ.",
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Làm căn cước lần đầu cho con",
+              "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_con",
+              "value": "5 tuổi",
+              "evidence": "\"cháu 5 tuổi\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "nguoi_thuc_hien",
+              "value": "Mẹ ruột của người được cấp căn cước",
+              "evidence": "\"tôi là mẹ ruột\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C01"
+          ],
+          "summary": "Cấp căn cước lần đầu cho con 5 tuổi (dưới 6 tuổi); người thực hiện là mẹ ruột. Đang xem mục: Hồ sơ.",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "last_response": {
+          "mode": "answer",
+          "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+          "information": {
+            "title": "Hồ sơ cần chuẩn bị (cấp căn cước lần đầu cho trẻ dưới 06 tuổi)",
+            "sections": [
+              {
+                "title": "Thành phần/giấy tờ cần có (theo dữ liệu thủ tục đang hiển thị)",
+                "items": [
+                  "Cơ quan tiếp nhận sẽ khai thác dữ liệu của trẻ; trường hợp thiếu dữ liệu thì cần bổ sung căn cứ về khai sinh của trẻ.",
+                  "Cơ quan tiếp nhận sẽ xác thực tư cách người đại diện hợp pháp; trường hợp dữ liệu chưa chứng minh được tư cách đại diện thì cần bổ sung căn cứ về đại diện hợp pháp."
+                ]
+              }
+            ],
+            "options": []
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P08.FIRST",
+              "title": "Cấp căn cước lần đầu",
+              "condition": "Chưa có thẻ thuộc diện cấp lần đầu",
+              "kind": "shared_ancestor",
+              "children_count": 3,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P08.FIRST#0",
+                  "text": "Cấp lần đầu không thu",
+                  "topics": [
+                    "dieu_kien"
+                  ]
+                }
+              ],
+              "available_topics": [
+                "dieu_kien"
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ],
+                "available_topics": [
+                  "dieu_kien",
+                  "ho_so",
+                  "thoi_gian"
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.C01",
+                "title": "Cấp lần đầu; dưới 06 tuổi",
+                "condition": "Cấp lần đầu; dưới 06 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C01#0",
+                    "text": "Dưới 6 tuổi cấp theo nhu cầu: người đại diện hợp pháp khai điện tử trên Cổng dịch vụ công/VNeID; nếu trẻ chưa khai sinh thì có thể chọn nhóm liên thông khai sinh, thường trú, BHYT và căn cước khi đáp ứng điều kiện. Không thu ảnh khuôn mặt, vân tay, mống mắt của trẻ dưới 6 tuổi. Xác thực tư cách đại diện, khai thác dữ liệu trẻ; thiếu thì bổ sung căn cứ khai sinh/đại diện. Thời hạn, nhận kết quả theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "available_topics": [
+                  "chi_phi",
+                  "dieu_kien",
+                  "ket_qua",
+                  "thoi_gian"
+                ]
+              },
+              {
+                "id": "P08.C02",
+                "title": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C02#0",
+                    "text": "Từ đủ 6 đến dưới 14 tuổi cấp theo nhu cầu. Trẻ cùng người đại diện đến điểm thu nhận để chụp ảnh, lấy vân tay, mống mắt theo quy định; trường hợp không thể thu nhận sinh trắc vì tình trạng thực tế được ghi nhận, không tạo yêu cầu bất khả thi. Người đại diện kiểm tra, ký xác nhận DC02; giấy đại diện chỉ khi dữ liệu không chứng minh được. Thời hạn theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "available_topics": [
+                  "chi_phi",
+                  "dieu_kien",
+                  "thoi_gian"
+                ]
+              },
+              {
+                "id": "P08.C03",
+                "title": "Cấp lần đầu; từ đủ 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08",
+                  "P08.C04"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C03#0",
+                    "text": "Công dân từ đủ 14 tuổi phải làm căn cước nếu chưa có thẻ hợp lệ. Người yêu cầu đến điểm thu nhận kiểm tra dữ liệu, chụp ảnh, vân tay, mống mắt và xác nhận DC02. Không bắt xuất trình sổ hộ khẩu giấy. Người đang có CMND hoặc CCCD cần đổi thì chọn C04, không gán cấp lần đầu để miễn phí sai. Thời hạn theo P08, cấp lần đầu không thu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "available_topics": [
+                  "chi_phi",
+                  "dieu_kien",
+                  "thoi_gian"
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "loaded_topic": "ho_so",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 2,
+          "at_last_page": false
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [],
+        "navigation_error": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 4202,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 394,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4596
+      },
+      "response_id": "resp_030cd7042348b687016ad1c780470c87d0a0f20ad0ca791f40",
+      "decision": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Làm căn cước lần đầu cho con",
+              "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_con",
+              "value": "5 tuổi",
+              "evidence": "\"cháu 5 tuổi\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "nguoi_thuc_hien",
+              "value": "Mẹ ruột của người được cấp căn cước",
+              "evidence": "\"tôi là mẹ ruột\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C01"
+          ],
+          "summary": "Cấp căn cước lần đầu cho con 5 tuổi (dưới 6 tuổi); người thực hiện là mẹ ruột. Đang xem mục: Hồ sơ.",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Hồ sơ (cấp căn cước lần đầu cho trẻ dưới 06 tuổi)",
+          "sections": [
+            {
+              "title": "Giấy tờ/dữ liệu cần có",
+              "items": [
+                "Cơ quan tiếp nhận khai thác dữ liệu của trẻ; trường hợp thiếu dữ liệu thì cần bổ sung căn cứ về khai sinh của trẻ.",
+                "Cơ quan tiếp nhận xác thực tư cách người đại diện hợp pháp; trường hợp dữ liệu chưa chứng minh được tư cách đại diện thì cần bổ sung căn cứ về đại diện hợp pháp."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P08.C01#0"
+        ]
+      },
+      "seconds": 5.009989291997044
+    },
+    {
+      "call": 8,
+      "payload": {
+        "user_text": "tiếp",
+        "current": 1,
+        "total": 2
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 298,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 317
+      },
+      "response_id": "resp_0bcae432eb40cf8c016ad1c7852a2887d0b0d9d23411c56a39",
+      "decision": {
+        "intent": "page",
+        "page": 2
+      },
+      "seconds": 1.5552710769989062
+    },
+    {
+      "call": 9,
+      "payload": {
+        "user_text": "mở lại 1/2",
+        "current": 2,
+        "total": 2
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 303,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 322
+      },
+      "response_id": "resp_0db286685478f99f016ad1c786a43c87d096342bcbfed7b2f9",
+      "decision": {
+        "intent": "page",
+        "page": 1
+      },
+      "seconds": 1.23808613998699
+    },
+    {
+      "call": 10,
+      "payload": {
+        "user_text": "Phí thì sao?",
+        "current": 1,
+        "total": 2
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 301,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 320
+      },
+      "response_id": "resp_0c0a3ca6b3d5996a016ad1c787e3dc87d0b7981e9ea2aaacc7",
+      "decision": {
+        "intent": "continue",
+        "page": 0
+      },
+      "seconds": 1.0317359369946644
+    },
+    {
+      "call": 11,
+      "payload": {
+        "user_text": "Phí thì sao?",
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Làm căn cước lần đầu cho con",
+              "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_con",
+              "value": "5 tuổi",
+              "evidence": "\"cháu 5 tuổi\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "nguoi_thuc_hien",
+              "value": "Mẹ ruột của người được cấp căn cước",
+              "evidence": "\"tôi là mẹ ruột\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C01"
+          ],
+          "summary": "Cấp căn cước lần đầu cho con 5 tuổi (dưới 6 tuổi); người thực hiện là mẹ ruột. Đang xem mục: Hồ sơ.",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "last_response": {
+          "mode": "answer",
+          "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+          "information": {
+            "title": "Hồ sơ (cấp căn cước lần đầu cho trẻ dưới 06 tuổi)",
+            "sections": [
+              {
+                "title": "Giấy tờ/dữ liệu cần có",
+                "items": [
+                  "Cơ quan tiếp nhận khai thác dữ liệu của trẻ; trường hợp thiếu dữ liệu thì cần bổ sung căn cứ về khai sinh của trẻ.",
+                  "Cơ quan tiếp nhận xác thực tư cách người đại diện hợp pháp; trường hợp dữ liệu chưa chứng minh được tư cách đại diện thì cần bổ sung căn cứ về đại diện hợp pháp."
+                ]
+              }
+            ],
+            "options": []
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P08.FIRST",
+              "title": "Cấp căn cước lần đầu",
+              "condition": "Chưa có thẻ thuộc diện cấp lần đầu",
+              "kind": "shared_ancestor",
+              "children_count": 3,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P08.FIRST#0",
+                  "text": "Cấp lần đầu không thu",
+                  "topics": [
+                    "dieu_kien"
+                  ]
+                }
+              ],
+              "available_topics": [
+                "dieu_kien"
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ],
+                "available_topics": [
+                  "dieu_kien",
+                  "ho_so",
+                  "thoi_gian"
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.C01",
+                "title": "Cấp lần đầu; dưới 06 tuổi",
+                "condition": "Cấp lần đầu; dưới 06 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C01#0",
+                    "text": "Dưới 6 tuổi cấp theo nhu cầu: người đại diện hợp pháp khai điện tử trên Cổng dịch vụ công/VNeID; nếu trẻ chưa khai sinh thì có thể chọn nhóm liên thông khai sinh, thường trú, BHYT và căn cước khi đáp ứng điều kiện. Không thu ảnh khuôn mặt, vân tay, mống mắt của trẻ dưới 6 tuổi. Xác thực tư cách đại diện, khai thác dữ liệu trẻ; thiếu thì bổ sung căn cứ khai sinh/đại diện. Thời hạn, nhận kết quả theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "available_topics": [
+                  "chi_phi",
+                  "dieu_kien",
+                  "ket_qua",
+                  "thoi_gian"
+                ]
+              },
+              {
+                "id": "P08.C02",
+                "title": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C02#0",
+                    "text": "Từ đủ 6 đến dưới 14 tuổi cấp theo nhu cầu. Trẻ cùng người đại diện đến điểm thu nhận để chụp ảnh, lấy vân tay, mống mắt theo quy định; trường hợp không thể thu nhận sinh trắc vì tình trạng thực tế được ghi nhận, không tạo yêu cầu bất khả thi. Người đại diện kiểm tra, ký xác nhận DC02; giấy đại diện chỉ khi dữ liệu không chứng minh được. Thời hạn theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "available_topics": [
+                  "chi_phi",
+                  "dieu_kien",
+                  "thoi_gian"
+                ]
+              },
+              {
+                "id": "P08.C03",
+                "title": "Cấp lần đầu; từ đủ 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08",
+                  "P08.C04"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C03#0",
+                    "text": "Công dân từ đủ 14 tuổi phải làm căn cước nếu chưa có thẻ hợp lệ. Người yêu cầu đến điểm thu nhận kiểm tra dữ liệu, chụp ảnh, vân tay, mống mắt và xác nhận DC02. Không bắt xuất trình sổ hộ khẩu giấy. Người đang có CMND hoặc CCCD cần đổi thì chọn C04, không gán cấp lần đầu để miễn phí sai. Thời hạn theo P08, cấp lần đầu không thu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "available_topics": [
+                  "chi_phi",
+                  "dieu_kien",
+                  "thoi_gian"
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "loaded_topic": "ho_so",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 2,
+          "at_last_page": false
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [],
+        "navigation_error": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 4183,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 340,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4523
+      },
+      "response_id": "resp_0ba589e6eea485e8016ad1c788e79c87d097941af1c206225b",
+      "decision": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Làm căn cước lần đầu cho con",
+              "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_con",
+              "value": "5 tuổi",
+              "evidence": "\"cháu 5 tuổi\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "nguoi_thuc_hien",
+              "value": "Mẹ ruột của người được cấp căn cước",
+              "evidence": "\"tôi là mẹ ruột\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C01"
+          ],
+          "summary": "Cấp căn cước lần đầu cho con 5 tuổi (dưới 6 tuổi); người thực hiện là mẹ ruột. Đang xem mục: Phí.",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "chi_phi",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Phí, lệ phí (cấp căn cước lần đầu cho trẻ dưới 06 tuổi)",
+          "sections": [
+            {
+              "title": "Mức phí",
+              "items": [
+                "Cấp căn cước lần đầu: không thu phí."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P08.C01#0",
+          "P08.FIRST#0"
+        ]
+      },
+      "seconds": 4.0915010619937675
+    },
+    {
+      "call": 12,
+      "payload": {
+        "user_text": "Tôi nói nhầm, cháu 8 tuổi.",
+        "current": 1,
+        "total": 1
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 307,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 326
+      },
+      "response_id": "resp_0a8d256413b3d4f8016ad1c78cfd4c87d08610f5bf3b0fca98",
+      "decision": {
+        "intent": "continue",
+        "page": 0
+      },
+      "seconds": 0.9772504419961479
+    },
+    {
+      "call": 13,
+      "payload": {
+        "user_text": "Tôi nói nhầm, cháu 8 tuổi.",
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Làm căn cước lần đầu cho con",
+              "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_con",
+              "value": "5 tuổi",
+              "evidence": "\"cháu 5 tuổi\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "nguoi_thuc_hien",
+              "value": "Mẹ ruột của người được cấp căn cước",
+              "evidence": "\"tôi là mẹ ruột\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C01"
+          ],
+          "summary": "Cấp căn cước lần đầu cho con 5 tuổi (dưới 6 tuổi); người thực hiện là mẹ ruột. Đang xem mục: Phí.",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "chi_phi",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "last_response": {
+          "mode": "answer",
+          "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+          "information": {
+            "title": "Phí, lệ phí (cấp căn cước lần đầu cho trẻ dưới 06 tuổi)",
+            "sections": [
+              {
+                "title": "Mức phí",
+                "items": [
+                  "Cấp căn cước lần đầu: không thu phí."
+                ]
+              }
+            ],
+            "options": []
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P08.FIRST",
+              "title": "Cấp căn cước lần đầu",
+              "condition": "Chưa có thẻ thuộc diện cấp lần đầu",
+              "kind": "shared_ancestor",
+              "children_count": 3,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P08.FIRST#0",
+                  "text": "Cấp lần đầu không thu",
+                  "topics": [
+                    "dieu_kien"
+                  ]
+                }
+              ],
+              "available_topics": [
+                "dieu_kien"
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ],
+                "available_topics": [
+                  "dieu_kien",
+                  "ho_so",
+                  "thoi_gian"
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.C01",
+                "title": "Cấp lần đầu; dưới 06 tuổi",
+                "condition": "Cấp lần đầu; dưới 06 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C01#0",
+                    "text": "Dưới 6 tuổi cấp theo nhu cầu: người đại diện hợp pháp khai điện tử trên Cổng dịch vụ công/VNeID; nếu trẻ chưa khai sinh thì có thể chọn nhóm liên thông khai sinh, thường trú, BHYT và căn cước khi đáp ứng điều kiện. Không thu ảnh khuôn mặt, vân tay, mống mắt của trẻ dưới 6 tuổi. Xác thực tư cách đại diện, khai thác dữ liệu trẻ; thiếu thì bổ sung căn cứ khai sinh/đại diện. Thời hạn, nhận kết quả theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "available_topics": [
+                  "chi_phi",
+                  "dieu_kien",
+                  "ket_qua",
+                  "thoi_gian"
+                ]
+              },
+              {
+                "id": "P08.C02",
+                "title": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C02#0",
+                    "text": "Từ đủ 6 đến dưới 14 tuổi cấp theo nhu cầu. Trẻ cùng người đại diện đến điểm thu nhận để chụp ảnh, lấy vân tay, mống mắt theo quy định; trường hợp không thể thu nhận sinh trắc vì tình trạng thực tế được ghi nhận, không tạo yêu cầu bất khả thi. Người đại diện kiểm tra, ký xác nhận DC02; giấy đại diện chỉ khi dữ liệu không chứng minh được. Thời hạn theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "available_topics": [
+                  "chi_phi",
+                  "dieu_kien",
+                  "thoi_gian"
+                ]
+              },
+              {
+                "id": "P08.C03",
+                "title": "Cấp lần đầu; từ đủ 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08",
+                  "P08.C04"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C03#0",
+                    "text": "Công dân từ đủ 14 tuổi phải làm căn cước nếu chưa có thẻ hợp lệ. Người yêu cầu đến điểm thu nhận kiểm tra dữ liệu, chụp ảnh, vân tay, mống mắt và xác nhận DC02. Không bắt xuất trình sổ hộ khẩu giấy. Người đang có CMND hoặc CCCD cần đổi thì chọn C04, không gán cấp lần đầu để miễn phí sai. Thời hạn theo P08, cấp lần đầu không thu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "available_topics": [
+                  "chi_phi",
+                  "dieu_kien",
+                  "thoi_gian"
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "loaded_topic": "chi_phi",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 1,
+          "at_last_page": true
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [],
+        "navigation_error": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 4128,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 447,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4575
+      },
+      "response_id": "resp_000aa90b892d54dc016ad1c78dfbd087d0ac21360551be5a2b",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Làm căn cước lần đầu cho con",
+              "evidence": "\"Tôi muốn làm căn cước lần đầu cho con\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_con",
+              "value": "8 tuổi",
+              "evidence": "\"cháu 8 tuổi\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "nguoi_thuc_hien",
+              "value": "Mẹ ruột của người được cấp căn cước",
+              "evidence": "\"tôi là mẹ ruột\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST"
+          ],
+          "summary": "Cấp căn cước lần đầu cho con 8 tuổi (từ đủ 06 đến dưới 14 tuổi); người thực hiện là mẹ ruột. Đang chờ xác nhận nội dung muốn xem.",
+          "pending_switch": "",
+          "stage": "choose_topic",
+          "selected_topic": "",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Anh/chị muốn xem nội dung nào về cấp căn cước lần đầu cho con 8 tuổi?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Các bước thực hiện",
+              "node_ids": [
+                "P08",
+                "P08.C02"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Hồ sơ",
+              "node_ids": [
+                "P08",
+                "P08.C02"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Phí, lệ phí",
+              "node_ids": [
+                "P08",
+                "P08.C02"
+              ]
+            },
+            {
+              "id": "D",
+              "label": "Nơi nộp hồ sơ",
+              "node_ids": [
+                "P08",
+                "P08.C02"
+              ]
+            },
+            {
+              "id": "E",
+              "label": "Thời hạn trả kết quả",
+              "node_ids": [
+                "P08",
+                "P08.C02"
+              ]
+            },
+            {
+              "id": "F",
+              "label": "Kết quả",
+              "node_ids": [
+                "P08",
+                "P08.C02"
+              ]
+            },
+            {
+              "id": "G",
+              "label": "Điều kiện",
+              "node_ids": [
+                "P08",
+                "P08.C02"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 4.944160372993792
+    },
+    {
+      "call": 14,
+      "payload": {
+        "user_text": "tiếp theo",
+        "current": 2,
+        "total": 4
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 299,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 318
+      },
+      "response_id": "resp_037711cbd729e725016ad1c792e77887d0a12783fe4da106c8",
+      "decision": {
+        "intent": "page",
+        "page": 3
+      },
+      "seconds": 1.028908505992149
+    },
+    {
+      "call": 15,
+      "payload": {
+        "user_text": "mở lại 1/2",
+        "current": 2,
+        "total": 4
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 303,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 322
+      },
+      "response_id": "resp_09b08df88a46ca33016ad1c793f26087d0b6eab699d4200149",
+      "decision": {
+        "intent": "page",
+        "page": 1
+      },
+      "seconds": 1.22287552600028
+    },
+    {
+      "call": 16,
+      "payload": {
+        "user_text": "trở lại",
+        "current": 2,
+        "total": 4
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 299,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 318
+      },
+      "response_id": "resp_055dcbe8182ba746016ad1c79531c087d0b411563e809d6e5d",
+      "decision": {
+        "intent": "page",
+        "page": 1
+      },
+      "seconds": 1.1745140300045023
+    },
+    {
+      "call": 17,
+      "payload": {
+        "user_text": "mở trang 3",
+        "current": 2,
+        "total": 4
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 301,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 320
+      },
+      "response_id": "resp_082afb8cd099e718016ad1c79651e887d0b753812a5d0aadba",
+      "decision": {
+        "intent": "page",
+        "page": 3
+      },
+      "seconds": 1.1317440480052028
+    },
+    {
+      "call": 18,
+      "payload": {
+        "user_text": "tiếp nhưng tôi nói nhầm cháu 8 tuổi",
+        "current": 2,
+        "total": 4
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 308,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 327
+      },
+      "response_id": "resp_07fc36bf286f0f54016ad1c7977c4487d0ae4d2d56bdb9f75d",
+      "decision": {
+        "intent": "continue",
+        "page": 0
+      },
+      "seconds": 0.9785539650038118
+    },
+    {
+      "call": 19,
+      "payload": {
+        "user_text": "quay lại danh sách nội dung",
+        "current": 2,
+        "total": 4
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 303,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 322
+      },
+      "response_id": "resp_0c2df86b1c4a1203016ad1c7986fac87d0adfa5a70ce1a52eb",
+      "decision": {
+        "intent": "continue",
+        "page": 0
+      },
+      "seconds": 0.985396825009957
+    }
+  ]
+}

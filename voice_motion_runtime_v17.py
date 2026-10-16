@@ -4490,7 +4490,7 @@ def main() -> None:
         extensions=cfg.preset_audio_extensions,
     )
 
-    print("\n=== Voice Motion Runtime V17.2: local model-only split-output agent ===")
+    print("\n=== Voice Motion Runtime V17.3: local model-only split-output agent ===")
     print("Auto-record mode: speak to start recording.")
     print("Recording stops when volume returns to neutral for the configured silence duration.")
     print("Press Ctrl+C to quit.\n")
@@ -4923,7 +4923,9 @@ def main() -> None:
                 # while waiting preset audio is playing.
                 stt_done_event.wait()
 
-                if response_state.no_speech:
+                if (getattr(memory, 'dialogue_v17', None) or {}).get('pages'):
+                    print('[PRESET] Skip waiting audio while browsing information.')
+                elif response_state.no_speech:
                     print("[PRESET] Skip waiting audio because STT returned no real text.")
                 elif response_state.status == "error" and not has_real_transcript_text(response_state.transcript):
                     print("[PRESET] Skip waiting audio because STT/response generation failed before valid transcript.")
