@@ -1,5 +1,5 @@
 {
-  "version": "17.1_Model_only_Local_Unity_Compatible",
+  "version": "17.2_Model_only_Local_Synced_Playback",
   "model": "gpt-5.2",
   "max_calls_per_run": 400,
   "max_calls_per_turn": 9,

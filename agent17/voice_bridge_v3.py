@@ -1,4 +1,4 @@
-"""V2: display information using legacy Unity text packets; social speech stays audio-only."""
+"""V3: queue social audio; publish legacy Unity information only when playback starts."""
 from copy import deepcopy
 import json
 from pathlib import Path
@@ -45,34 +45,29 @@ class VoiceBridge:
             response=self.engine.process(text,cancelled)
             if response is None or cancelled():return ''
             self.persist();delivery_token.update(revision=response['revision'],response=deepcopy(response))
-            if send_panel:
-                display_text = format_information(response['information'])
-                try:
-                    # Old Unity clients understand these two message types.
-                    # Clear first even if they append each subsequent speech_text.
-                    send_panel({'type': 'speech_text_clear'})
-                    if cancelled():
-                        return ''
-                    if display_text:
-                        send_panel({'type': 'speech_text',
-                                    'job_id': response['revision'],
-                                    'text': display_text})
-                    delivery_token['panel_sent'] = True
-                    delivery_token['display_characters'] = len(display_text)
-                    print(f"[UNITY TEXT] Sent revision={response['revision']} "
-                          f"turn={turn_id} chars={len(display_text)}", flush=True)
-                except Exception as exc:
-                    delivery_token['panel_error'] = type(exc).__name__
-                    print(f"[UNITY TEXT] Send failed: {type(exc).__name__}", flush=True)
-                    response['speech_text'] = 'Chưa gửi được thông tin lên màn hình. Anh/chị vui lòng thử lại.'
-        sentences,tail=split_sentences(response['speech_text'])
-        if tail.strip():sentences.append(tail.strip())
-        for job_id,sentence in enumerate(sentences,1):
-            while not cancelled():
-                try:tts_queue.put((job_id,sentence),timeout=.1);break
-                except queue.Full:continue
-            if cancelled():return ''
-        return response['speech_text']
+            display_text = format_information(response['information'])
+            speech = response['speech_text'].strip()
+            if display_text and not speech:
+                speech = ('Anh/chị vui lòng chọn nội dung trên màn hình.'
+                          if response['mode'] in ('question', 'switch_confirm')
+                          else 'Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?')
+                delivery_token['speech_fallback'] = True
+            delivery_token.update(pending_display=display_text, turn_id=str(turn_id),
+                                  queued_speech=speech, panel_sent=False)
+            # A silent finish has no playback to wait for; clear its old display now.
+            if not speech:
+                if send_panel and not cancelled():
+                    publish_information_on_playback(delivery_token, send_panel)
+                return ''
+        # One short social utterance -> one WAV, one motion job, one display event.
+        while not cancelled():
+            try:
+                tts_queue.put((1, speech), timeout=.1)
+                delivery_token['tts_queued'] = True
+                break
+            except queue.Full:
+                continue
+        return '' if cancelled() else speech
     def delivered(self,token,job):
         with self.lock:
             if self.engine.acknowledge(token.get('revision'),job.sentence_text):self.persist()
@@ -80,3 +75,23 @@ class VoiceBridge:
 def acknowledge_playback(memory,token,job):
     bridge=getattr(memory,'_v17_bridge',None)
     if bridge is not None:bridge.delivered(token,job)
+
+
+def publish_information_on_playback(token, send_panel):
+    """Called by the playback worker after sd.play succeeds, once per response.
+
+    Sending failures must never stop audio that has already started.
+    """
+    if token.get('panel_sent'):
+        return
+    text = token.get('pending_display', '')
+    try:
+        send_panel({'type': 'speech_text_clear'})
+        if text:
+            send_panel({'type': 'speech_text', 'job_id': token['revision'], 'text': text})
+        token['panel_sent'] = True
+        token['display_characters'] = len(text)
+        print(f"[UNITY TEXT] Sent at audio start revision={token.get('revision')} chars={len(text)}", flush=True)
+    except Exception as exc:
+        token['panel_error'] = type(exc).__name__
+        print(f"[UNITY TEXT] Send failed during playback: {type(exc).__name__}", flush=True)

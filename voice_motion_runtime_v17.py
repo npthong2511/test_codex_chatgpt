@@ -68,7 +68,7 @@ from openai import OpenAI
 from elevenlabs.client import ElevenLabs
 from elevenlabs import VoiceSettings
 
-from motion_pipeline_utils_v2 import (
+from motion_pipeline_utils_v3 import (
     MotionRuntimeConfig,
     validate_motion_config,
     build_send_dataframe_from_wav,
@@ -78,7 +78,8 @@ from motion_pipeline_utils_v2 import (
 from unity_tcp_sender_v7 import UnityTcpServer
 
 from agent17.runtime import Sources as KnowledgeBase
-from agent17.voice_bridge_v2 import VoiceBridge, acknowledge_playback
+from agent17.voice_bridge_v3 import VoiceBridge, acknowledge_playback, publish_information_on_playback
+from agent17.playback import play_response_audio
 
 from volume_trigger_recorder import (
     VolumeTriggerConfig,
@@ -606,12 +607,12 @@ class VoiceMotionRuntimeConfig:
 
     # adaptive motion buffer for weaker PCs
     motion_wait_sleep_sec: float = 0.01
-    initial_motion_buffer_jobs: int = 2
+    initial_motion_buffer_jobs: int = 1
     max_ready_motion_jobs: int = 2
     motion_build_max_retries: int = 1
 
-    # Never play generated audio without motion.
-    play_audio_even_if_motion_failed: bool = False
+    # Keep social speech audible even if motion generation fails.
+    play_audio_even_if_motion_failed: bool = True
 
     # send speech text packet before playing each sentence
     send_speech_text_to_unity: bool = True
@@ -845,13 +846,18 @@ def wait_file_stable(
     # timeout -> proceed
 
 
-def play_wav_only(path: Path, tail_pad_ms: int = TAIL_PAD_MS) -> None:
+def play_wav_only(path: Path, tail_pad_ms: int = TAIL_PAD_MS,
+                  on_audio_started: Optional[Callable[[], None]] = None) -> None:
     """
     Fallback audio-only playback if motion generation fails.
     """
     data, sr = load_wav_for_playback(path, tail_pad_ms=tail_pad_ms)
     sd.play(data, sr)
-    sd.wait()
+    try:
+        if on_audio_started:
+            on_audio_started()
+    finally:
+        sd.wait()
 
 
 def _write_pcm16_to_wav(pcm_bytes: bytes, out_path: Path, sample_rate: int = TTS_WAV_SR) -> None:
@@ -3554,6 +3560,7 @@ def tts_worker_v2(
     wav_prefix: str,
     audio_out_dir: Path,
     response_abort_event: Optional[threading.Event] = None,
+    delivery_token: Optional[dict] = None,
 ) -> None:
     """
     Thread 1:
@@ -3593,6 +3600,9 @@ def tts_worker_v2(
             print(f"\n\n🗣️ [TTS queued #{job_id}] {sentence}\n", flush=True)
             text_to_speech(sentence, wav_out)
             wait_file_stable(wav_out)
+            if delivery_token is not None:
+                delivery_token["tts_ready"] = True
+                delivery_token["audio_file"] = str(wav_out)
 
             if response_abort_event is not None and response_abort_event.is_set():
                 print(f"[ABORT] TTS job {job_id} generated but will not be sent to playback because person left.")
@@ -3610,6 +3620,8 @@ def tts_worker_v2(
             playback_queue.put(job)
 
         except Exception as e:
+            if delivery_token is not None:
+                delivery_token["tts_error"] = type(e).__name__
             print(f"\n❌ TTS error for job {job_id}: {type(e).__name__}: {e}\n", flush=True)
 
         tts_queue.task_done()
@@ -3746,16 +3758,13 @@ def playback_unity_worker(
     response_abort_event: Optional[threading.Event] = None,
     response_text_sent_event: Optional[threading.Event] = None,
     on_delivered: Optional[Callable[[AudioJob], None]] = None,
+    on_started: Optional[Callable[[AudioJob], None]] = None,
+    delivery_token: Optional[dict] = None,
 ) -> None:
-    """
-    Thread 3:
-    Receives AudioJob in playback order.
-    Waits until motion result is ready for that job, then:
-    - send speech text to Unity
-    - play WAV
-    - send motion to Unity in sync
-    If the motion for the next sentence is not ready, playback holds while the
-    model continues preparing it. Generated audio is never played without motion.
+    """Wait for the audio gate and motion outcome, then start audio.
+
+    Information is published through on_started immediately after sd.play.
+    A motion failure can fall back to audio-only; cancellation never starts audio.
     """
     while not stop_event.is_set():
         try:
@@ -3815,25 +3824,17 @@ def playback_unity_worker(
                     timeout=max(0.01, float(runtime_cfg.motion_wait_sleep_sec))
                 )
 
-        try:
-            if df_send is not None:
-                # V17: generated speech is audio-only; panel is sent by the bridge.
-
-                print(f"[PLAY] Start job {job.job_id} with motion")
-                send_prebuilt_motion_in_sync(
-                    df_send=df_send,
-                    wav_path=job.wav_path,
-                    tcp=tcp,
-                    cfg=motion_cfg,
-                )
-                print(f"[PLAY] Finished job {job.job_id}")
-                if on_delivered is not None:
-                    on_delivered(job)
-            else:
-                print(f"[PLAY] Motion unavailable for job {job.job_id}: {err_msg}")
-                print(f"[PLAY] Skip audio job {job.job_id}: audio without motion is disabled")
-        except Exception as e:
-            print(f"\n❌ Playback/Unity error for job {job.job_id}: {type(e).__name__}: {e}\n", flush=True)
+        if stop_event.is_set() or (response_abort_event is not None and response_abort_event.is_set()):
+            playback_queue.task_done()
+            break
+        play_response_audio(
+            job, df_send, err_msg, runtime_cfg.play_audio_even_if_motion_failed,
+            play_motion=lambda notify: send_prebuilt_motion_in_sync(
+                df_send=df_send, wav_path=job.wav_path, tcp=tcp, cfg=motion_cfg,
+                on_audio_started=notify),
+            play_audio_only=lambda notify: play_wav_only(job.wav_path, on_audio_started=notify),
+            on_started=on_started, on_delivered=on_delivered, token=delivery_token,
+        )
 
         playback_queue.task_done()
 
@@ -4435,7 +4436,7 @@ def response_generation_worker(
         turn.assistant_response_path.with_suffix(".v17.json").write_text(
             json.dumps(turn.v17_delivery.get("response", {}), ensure_ascii=False, indent=2), encoding="utf-8")
         turn.assistant_response_path.with_suffix(".delivery.json").write_text(
-            json.dumps({key: value for key, value in turn.v17_delivery.items()
+            json.dumps({key: value for key, value in dict(turn.v17_delivery).items()
                         if key != "response"}, ensure_ascii=False, indent=2), encoding="utf-8")
         state.full_answer = full_answer
         turn.assistant_response_path.write_text(full_answer, encoding="utf-8")
@@ -4489,7 +4490,7 @@ def main() -> None:
         extensions=cfg.preset_audio_extensions,
     )
 
-    print("\n=== Voice Motion Runtime V17.1: local model-only split-output agent ===")
+    print("\n=== Voice Motion Runtime V17.2: local model-only split-output agent ===")
     print("Auto-record mode: speak to start recording.")
     print("Recording stops when volume returns to neutral for the configured silence duration.")
     print("Press Ctrl+C to quit.\n")
@@ -4826,6 +4827,7 @@ def main() -> None:
             turn_motion_cfg = copy.deepcopy(cfg.motion_cfg)
             turn_motion_cfg.save_dir = str(turn.motions_dir)
 
+            turn.v17_delivery = {}
             tts_thread = threading.Thread(
                 target=tts_worker_v2,
                 args=(
@@ -4836,6 +4838,7 @@ def main() -> None:
                     turn.wav_prefix,
                     turn.audio_out_dir,
                     response_abort_event,
+                    turn.v17_delivery,
                 ),
                 daemon=True,
             )
@@ -4855,7 +4858,11 @@ def main() -> None:
                 ),
                 daemon=True,
             )
-            turn.v17_delivery = {}
+            def send_panel_to_unity(packet, response_text_sent_event=response_text_sent_event):
+                tcp.send_message(packet)
+                if packet.get("type") == "speech_text":
+                    response_text_sent_event.set()
+
             playback_thread = threading.Thread(
                 target=playback_unity_worker,
                 args=(
@@ -4872,6 +4879,8 @@ def main() -> None:
                     response_abort_event,
                     response_text_sent_event,
                     lambda job, mem=memory, token=turn.v17_delivery: acknowledge_playback(mem, token, job),
+                    lambda job, token=turn.v17_delivery, sender=send_panel_to_unity: publish_information_on_playback(token, sender),
+                    turn.v17_delivery,
                 ),
                 daemon=True,
             )
@@ -4887,11 +4896,6 @@ def main() -> None:
             try:
                 response_state = ResponseThreadState()
                 stt_done_event = threading.Event()
-
-                def send_panel_to_unity(packet, response_text_sent_event=response_text_sent_event):
-                    tcp.send_message(packet)
-                    if packet.get("type") == "speech_text":
-                        response_text_sent_event.set()
 
                 response_thread = threading.Thread(
                     target=response_generation_worker,
@@ -5020,6 +5024,13 @@ def main() -> None:
 
                 playback_queue.join()
                 playback_thread.join(timeout=10.0)
+
+                _safe_write_json(turn.assistant_response_path.with_suffix(".delivery.json"),
+                    {key: value for key, value in dict(turn.v17_delivery).items() if key != "response"})
+                audio_error = turn.v17_delivery.get("tts_error") or turn.v17_delivery.get("playback_error")
+                if audio_error and not turn.v17_delivery.get("audio_completed"):
+                    response_state.status = "error"
+                    response_state.error = "Audio pipeline: " + str(audio_error)
 
                 clear_searching_text_if_unreplaced(
                     tcp=tcp,

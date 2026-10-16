@@ -1,5 +1,5 @@
 """
-motion_pipeline_utils_v2.py
+motion_pipeline_utils_v3.py
 
 Utilities for:
 1) building send dataframe from a WAV file
@@ -21,7 +21,7 @@ import os
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Optional, Union
+from typing import Callable, Optional, Union
 
 import numpy as np
 import pandas as pd
@@ -240,6 +240,7 @@ def send_prebuilt_motion_in_sync(
     wav_path: Union[str, Path],
     tcp: UnityTcpServer,
     cfg: MotionRuntimeConfig,
+    on_audio_started: Optional[Callable[[], None]] = None,
 ) -> None:
     """
     Play WAV and send prepared motion to Unity in sync.
@@ -295,72 +296,76 @@ def send_prebuilt_motion_in_sync(
     t0 = time.perf_counter()
     print(f"[RUNTIME] Audio started at t0={t0:.6f}")
 
-    send_index = 0
-    next_send_time = t0
+    try:
+        if on_audio_started:
+            on_audio_started()
 
-    while send_index < total_frames:
-        now = time.perf_counter()
-        elapsed = now - t0
+        send_index = 0
+        next_send_time = t0
 
-        audio_progress = np.clip(elapsed / max(audio_duration, 1e-8), 0.0, 1.0)
-        motion_progress = send_index / float(total_frames)
+        while send_index < total_frames:
+            now = time.perf_counter()
+            elapsed = now - t0
 
-        progress_error = float(audio_progress - motion_progress)
+            audio_progress = np.clip(elapsed / max(audio_duration, 1e-8), 0.0, 1.0)
+            motion_progress = send_index / float(total_frames)
 
-        # If motion is too slow compared to audio, catch up aggressively
-        if progress_error > cfg.force_catchup_if_progress_error_gt:
-            next_send_time = min(next_send_time, now)
+            progress_error = float(audio_progress - motion_progress)
 
-        if now >= next_send_time:
-            row = df_send.iloc[send_index]
+            # If motion is too slow compared to audio, catch up aggressively
+            if progress_error > cfg.force_catchup_if_progress_error_gt:
+                next_send_time = min(next_send_time, now)
 
-            roll = float(row["roll"])
-            yaw = float(row["yaw"])
-            lip_open_dist_3d = float(row["lip_open_dist_3d"])
-            mouth_width_dist_3d = float(row["mouth_width_dist_3d"])
-            upper_lip_thickness_3d = float(row["upper_lip_thickness_3d"])
-            lower_lip_thickness_3d = float(row["lower_lip_thickness_3d"])
+            if now >= next_send_time:
+                row = df_send.iloc[send_index]
 
-            tcp.send_face_data(
-                roll=roll,
-                yaw=yaw,
-                lip_open_dist_3d=lip_open_dist_3d,
-                mouth_width_dist_3d=mouth_width_dist_3d,
-                upper_lip_thickness_3d=upper_lip_thickness_3d,
-                lower_lip_thickness_3d=lower_lip_thickness_3d,
-            )
+                roll = float(row["roll"])
+                yaw = float(row["yaw"])
+                lip_open_dist_3d = float(row["lip_open_dist_3d"])
+                mouth_width_dist_3d = float(row["mouth_width_dist_3d"])
+                upper_lip_thickness_3d = float(row["upper_lip_thickness_3d"])
+                lower_lip_thickness_3d = float(row["lower_lip_thickness_3d"])
 
-            print(
-                f"[SEND] idx={send_index:04d}/{total_frames - 1:04d} | "
-                f"roll={roll:+8.3f} | yaw={yaw:+8.3f} | "
-                f"lip_open={lip_open_dist_3d:6.3f} | "
-                f"mouth_width={mouth_width_dist_3d:6.3f} | "
-                f"upper_lip={upper_lip_thickness_3d:6.3f} | "
-                f"lower_lip={lower_lip_thickness_3d:6.3f}"
-            )
-
-            send_index += 1
-
-            # Progress-based dt correction
-            corrected_dt = base_dt * (1.0 - cfg.progress_gain * progress_error)
-            corrected_dt = float(np.clip(corrected_dt, dt_min, dt_max))
-
-            next_send_time = now + corrected_dt
-
-            if (send_index % cfg.print_every_n_sent == 0) or (send_index == total_frames):
-                print(
-                    f"[RUNTIME] sent {send_index}/{total_frames} | "
-                    f"audio_prog={audio_progress:.4f} | "
-                    f"motion_prog={motion_progress:.4f} | "
-                    f"err={progress_error:+.4f} | "
-                    f"dt={corrected_dt:.4f}"
+                tcp.send_face_data(
+                    roll=roll,
+                    yaw=yaw,
+                    lip_open_dist_3d=lip_open_dist_3d,
+                    mouth_width_dist_3d=mouth_width_dist_3d,
+                    upper_lip_thickness_3d=upper_lip_thickness_3d,
+                    lower_lip_thickness_3d=lower_lip_thickness_3d,
                 )
-        else:
-            time.sleep(cfg.idle_sleep_sec)
 
-    # Wait briefly for audio playback to finish
-    sd.wait()
-    print("[RUNTIME] Audio finished and all motion frames sent.")
+                print(
+                    f"[SEND] idx={send_index:04d}/{total_frames - 1:04d} | "
+                    f"roll={roll:+8.3f} | yaw={yaw:+8.3f} | "
+                    f"lip_open={lip_open_dist_3d:6.3f} | "
+                    f"mouth_width={mouth_width_dist_3d:6.3f} | "
+                    f"upper_lip={upper_lip_thickness_3d:6.3f} | "
+                    f"lower_lip={lower_lip_thickness_3d:6.3f}"
+                )
+
+                send_index += 1
+
+                # Progress-based dt correction
+                corrected_dt = base_dt * (1.0 - cfg.progress_gain * progress_error)
+                corrected_dt = float(np.clip(corrected_dt, dt_min, dt_max))
+
+                next_send_time = now + corrected_dt
+
+                if (send_index % cfg.print_every_n_sent == 0) or (send_index == total_frames):
+                    print(
+                        f"[RUNTIME] sent {send_index}/{total_frames} | "
+                        f"audio_prog={audio_progress:.4f} | "
+                        f"motion_prog={motion_progress:.4f} | "
+                        f"err={progress_error:+.4f} | "
+                        f"dt={corrected_dt:.4f}"
+                    )
+            else:
+                time.sleep(cfg.idle_sleep_sec)
+
+    finally:
+        sd.wait()
+    print("[RUNTIME] Audio finished.")
 
 
 # ============================================================

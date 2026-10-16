@@ -2,7 +2,7 @@ import unittest,json,queue,threading,socket
 from pathlib import Path
 from copy import deepcopy
 from agent17.runtime import Sources,Engine,empty_state,APIError
-from agent17.voice_bridge_v2 import VoiceBridge, format_information
+from agent17.voice_bridge_v3 import VoiceBridge, format_information, publish_information_on_playback
 from unity_tcp_sender_v7 import UnityTcpServer
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -78,6 +78,8 @@ class Tests(unittest.TestCase):
   tcp=UnityTcpServer();tcp.conn,client=socket.socketpair();q=queue.Queue();token={}
   try:
    b.generate('a',q,threading.Event(),None,lambda s:([],s),token,tcp.send_message,'t1')
+   self.assertFalse(token['panel_sent'])
+   publish_information_on_playback(token,tcp.send_message)
    stream=client.makefile('r', encoding='utf-8')
    self.assertEqual(json.loads(stream.readline()),{'type':'speech_text_clear'})
    packet=json.loads(stream.readline());stream.close()
@@ -104,7 +106,7 @@ class IntegrationTests(unittest.TestCase):
   playback=funcs['playback_unity_worker']
   # No unconditional path can forward generated speech to the text channel.
   self.assertNotIn('send_speech_text(',ast.unparse(playback))
- def test_panel_failure_reports_audio_error(self):
+ def test_panel_failure_does_not_replace_social_audio(self):
   class Memory:
    session_id='a'
    def save(self):pass
@@ -112,7 +114,9 @@ class IntegrationTests(unittest.TestCase):
   def fail(packet):raise OSError('offline')
   q=queue.Queue();token={}
   b.generate('a',q,threading.Event(),None,lambda s:([],s),token,fail,'t1')
-  self.assertEqual(token['panel_error'],'OSError');self.assertIn('Chưa gửi được',q.get()[1])
+  self.assertNotIn('panel_error',token)
+  publish_information_on_playback(token,fail)
+  self.assertEqual(token['panel_error'],'OSError');self.assertEqual(q.get()[1],response()['speech_text'])
 
 class LegacyDisplayTests(unittest.TestCase):
  def bridge(self, replies):
@@ -130,7 +134,10 @@ class LegacyDisplayTests(unittest.TestCase):
  def test_legacy_client_replaces_content_across_turns(self):
   first=response();second=response();second['information']={'title':'Câu hỏi mới','sections':[], 'options':[{'id':'A','label':'Đồng ý','node_ids':[]}]}
   b=self.bridge([first,second]);packets=[];q=queue.Queue()
-  for _ in range(2):b.generate('a',q,threading.Event(),None,lambda s:([],s),{},packets.append)
+  for _ in range(2):
+   token={}
+   b.generate('a',q,threading.Event(),None,lambda s:([],s),token,packets.append)
+   publish_information_on_playback(token,packets.append)
   screen=''
   for packet in packets:
    if packet['type']=='speech_text_clear':screen=''
