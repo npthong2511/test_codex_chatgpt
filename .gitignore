@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*_keys.txt
+models/
+runtime_outputs/
+out_audio/
+reports/new_run/

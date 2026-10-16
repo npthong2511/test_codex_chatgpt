@@ -1,0 +1,686 @@
+{
+  "case": "D06",
+  "turns": [
+    {
+      "user": "Vợ chồng tôi muốn cùng mở một hộ kinh doanh. Cần hồ sơ gì?",
+      "response": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P24",
+            "P24.NEW"
+          ],
+          "summary": "Người dân hỏi hồ sơ để vợ chồng cùng mở (thành lập) hộ kinh doanh; cần xác định đăng ký do 1 cá nhân hay do các thành viên hộ gia đình thành lập để xác định thành phần hồ sơ.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho biết hộ kinh doanh sẽ đăng ký theo hình thức một cá nhân đứng tên hay các thành viên hộ gia đình (vợ chồng) cùng thành lập?",
+        "information": {
+          "title": "Chọn hình thức đăng ký để xác định đúng hồ sơ",
+          "sections": [
+            {
+              "title": "Vui lòng chọn 1 phương án",
+              "items": [
+                "Nếu chỉ 1 người đứng tên chủ hộ: hồ sơ đơn giản hơn",
+                "Nếu vợ chồng cùng là thành viên hộ gia đình thành lập: cần văn bản ủy quyền một người làm chủ hộ (công chứng/chứng thực)"
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": "A",
+              "label": "Một cá nhân đứng tên thành lập hộ kinh doanh",
+              "node_ids": [
+                "P24.C01"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Các thành viên hộ gia đình (vợ chồng) cùng thành lập",
+              "node_ids": [
+                "P24.C02"
+              ]
+            }
+          ]
+        },
+        "citations": [
+          "P24.C01#0",
+          "P24.C02#0"
+        ],
+        "revision": 1,
+        "session_id": "D06"
+      },
+      "seconds": 10.465780163998716,
+      "event_start": 0,
+      "event_count": 3
+    }
+  ],
+  "events": [
+    {
+      "call": 1,
+      "payload": {
+        "user_text": "Vợ chồng tôi muốn cùng mở một hộ kinh doanh. Cần hồ sơ gì?",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "ROOT",
+              "title": "Quy trình hành chính — cây tri thức 3.0",
+              "condition": "Yêu cầu thuộc một hoặc nhiều lĩnh vực trong bộ dữ liệu",
+              "kind": "root",
+              "children_count": 27,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P02",
+                "title": "Đăng ký khai tử",
+                "condition": "Nhu cầu liên quan: Đăng ký khai tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P04",
+                "title": "Đăng ký thường trú",
+                "condition": "Nhu cầu liên quan: Đăng ký thường trú",
+                "kind": "procedure",
+                "children_count": 9,
+                "related": []
+              },
+              {
+                "id": "P05",
+                "title": "Xác nhận tình trạng hôn nhân",
+                "condition": "Nhu cầu liên quan: Xác nhận tình trạng hôn nhân",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P06",
+                "title": "Đăng ký tạm trú",
+                "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P07",
+                "title": "Xác nhận và điều chỉnh thông tin cư trú",
+                "condition": "Nhu cầu liên quan: Xác nhận và điều chỉnh thông tin cư trú",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P09",
+                "title": "Đăng ký biến động đất đai",
+                "condition": "Nhu cầu liên quan: Đăng ký biến động đất đai",
+                "kind": "procedure",
+                "children_count": 15,
+                "related": []
+              },
+              {
+                "id": "P10",
+                "title": "Cấp giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Cấp giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P11",
+                "title": "Đổi giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Đổi giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P12",
+                "title": "Chuyển nhượng quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Chuyển nhượng quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P13",
+                "title": "Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "condition": "Nhu cầu liên quan: Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P15",
+                "title": "Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "condition": "Nhu cầu liên quan: Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P16",
+                "title": "Hỗ trợ đào tạo nghề",
+                "condition": "Nhu cầu liên quan: Hỗ trợ đào tạo nghề",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P17",
+                "title": "Hỗ trợ người bị tai nạn lao động",
+                "condition": "Nhu cầu liên quan: Hỗ trợ người bị tai nạn lao động",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P19",
+                "title": "Tín dụng chính sách NHCSXH",
+                "condition": "Nhu cầu liên quan: Tín dụng chính sách NHCSXH",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P20",
+                "title": "Chế độ thương binh",
+                "condition": "Nhu cầu liên quan: Chế độ thương binh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P21",
+                "title": "Chế độ thờ cúng liệt sĩ",
+                "condition": "Nhu cầu liên quan: Chế độ thờ cúng liệt sĩ",
+                "kind": "procedure",
+                "children_count": 7,
+                "related": []
+              },
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P25",
+                "title": "Thay đổi nội dung đăng ký hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Thay đổi nội dung đăng ký hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 10,
+                "related": []
+              },
+              {
+                "id": "P26",
+                "title": "Chấm dứt hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Chấm dứt hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P27",
+                "title": "Khiếu nại - Phản ánh - Kiến nghị",
+                "condition": "Nhu cầu liên quan: Khiếu nại - Phản ánh - Kiến nghị",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2810,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 78,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2888
+      },
+      "response_id": "resp_08e40e5923fee0d4016ad1612dd82087d0b4eb0bab169a7399",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P24"
+        ],
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "Người dân hỏi hồ sơ để vợ chồng cùng mở hộ kinh doanh.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 2.290681771999516
+    },
+    {
+      "call": 2,
+      "payload": {
+        "user_text": "Vợ chồng tôi muốn cùng mở một hộ kinh doanh. Cần hồ sơ gì?",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "Người dân hỏi hồ sơ để vợ chồng cùng mở hộ kinh doanh.",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P24",
+              "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+              "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+              "kind": "procedure",
+              "children_count": 3,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P24.NEW",
+                "title": "Thành lập hộ kinh doanh mới",
+                "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                "kind": "shared_ancestor",
+                "children_count": 2,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P24.NEW#0",
+                    "text": "Trong 3 ngày làm việc từ ngày nhận hồ sơ, cấp giấy chứng nhận nếu đủ điều kiện hoặc thông báo lý do, nội dung cần bổ sung.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P24.R01",
+                "title": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                "condition": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P24.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 3,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 1824,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 176,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2000
+      },
+      "response_id": "resp_06cd849e7b1fc85e016ad16130239487d09d4c4727ac65f6e9",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P24.NEW"
+        ],
+        "state": {
+          "facts": [],
+          "path": [
+            "P24",
+            "P24.NEW"
+          ],
+          "summary": "Người dân hỏi hồ sơ để vợ chồng cùng mở (thành lập) hộ kinh doanh; đang cần xác định hình thức nộp hồ sơ.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị dự định nộp hồ sơ đăng ký hộ kinh doanh theo cách nào?",
+        "information": {
+          "title": "Chọn hình thức nộp hồ sơ",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Nộp trực tiếp",
+              "node_ids": [
+                "P24.NEW"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Nộp qua mạng thông tin điện tử",
+              "node_ids": [
+                "P24.NEW"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 3.370681020001939
+    },
+    {
+      "call": 3,
+      "payload": {
+        "user_text": "Vợ chồng tôi muốn cùng mở một hộ kinh doanh. Cần hồ sơ gì?",
+        "state": {
+          "facts": [],
+          "path": [
+            "P24",
+            "P24.NEW"
+          ],
+          "summary": "Người dân hỏi hồ sơ để vợ chồng cùng mở (thành lập) hộ kinh doanh; đang cần xác định hình thức nộp hồ sơ.",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P24.NEW",
+              "title": "Thành lập hộ kinh doanh mới",
+              "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+              "kind": "shared_ancestor",
+              "children_count": 2,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P24.NEW#0",
+                  "text": "Trong 3 ngày làm việc từ ngày nhận hồ sơ, cấp giấy chứng nhận nếu đủ điều kiện hoặc thông báo lý do, nội dung cần bổ sung.",
+                  "topics": [
+                    "ho_so",
+                    "thoi_gian",
+                    "ket_qua",
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P24.C01",
+                "title": "Đăng ký mới do một cá nhân thành lập",
+                "condition": "Đăng ký mới do một cá nhân thành lập",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P24"
+                ],
+                "blocks": [
+                  {
+                    "id": "P24.C01#0",
+                    "text": "Hồ sơ gồm giấy đề nghị đăng ký hộ kinh doanh do cá nhân thành lập ký. Không yêu cầu văn bản họp gia đình/ủy quyền gia đình khi chỉ một cá nhân thành lập. Thực hiện kiểm tra nhân thân, người nộp và ngành nghề theo phần chung P24. Kết quả, thời hạn và lệ phí theo P24.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P24.C02",
+                "title": "Đăng ký mới do các thành viên hộ gia đình thành lập",
+                "condition": "Đăng ký mới do các thành viên hộ gia đình thành lập",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P24"
+                ],
+                "blocks": [
+                  {
+                    "id": "P24.C02#0",
+                    "text": "Hồ sơ gồm giấy đề nghị đăng ký hộ kinh doanh và bản sao văn bản các thành viên hộ gia đình ủy quyền cho một thành viên làm chủ hộ, được công chứng hoặc chứng thực. Đây là ủy quyền làm chủ, khác ủy quyền đi nộp hồ sơ; nếu nhờ người ngoài đi nộp thì bổ sung giấy tờ nộp thay riêng. Các thành viên chịu trách nhiệm bằng tài sản của mình theo quy định. Kết quả, thời hạn, lệ phí theo P24.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 7
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2078,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 301,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2379
+      },
+      "response_id": "resp_0ff140d9ad4af4f2016ad1613377f487d0b542a2d8e210a7bb",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P24",
+            "P24.NEW"
+          ],
+          "summary": "Người dân hỏi hồ sơ để vợ chồng cùng mở (thành lập) hộ kinh doanh; cần xác định đăng ký do 1 cá nhân hay do các thành viên hộ gia đình thành lập để xác định thành phần hồ sơ.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho biết hộ kinh doanh sẽ đăng ký theo hình thức một cá nhân đứng tên hay các thành viên hộ gia đình (vợ chồng) cùng thành lập?",
+        "information": {
+          "title": "Chọn hình thức đăng ký để xác định đúng hồ sơ",
+          "sections": [
+            {
+              "title": "Vui lòng chọn 1 phương án",
+              "items": [
+                "Nếu chỉ 1 người đứng tên chủ hộ: hồ sơ đơn giản hơn",
+                "Nếu vợ chồng cùng là thành viên hộ gia đình thành lập: cần văn bản ủy quyền một người làm chủ hộ (công chứng/chứng thực)"
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": "A",
+              "label": "Một cá nhân đứng tên thành lập hộ kinh doanh",
+              "node_ids": [
+                "P24.C01"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Các thành viên hộ gia đình (vợ chồng) cùng thành lập",
+              "node_ids": [
+                "P24.C02"
+              ]
+            }
+          ]
+        },
+        "citations": [
+          "P24.C01#0",
+          "P24.C02#0"
+        ]
+      },
+      "seconds": 4.8040346070047235
+    }
+  ],
+  "snapshot": {
+    "meta_hash": "d7d1f34f4ba62baa3559dbc377410098b22c446f4f24fa144e1ca2f112edb812",
+    "session_id": "D06",
+    "nodes": [
+      "P24.NEW"
+    ],
+    "state": {
+      "facts": [],
+      "path": [
+        "P24",
+        "P24.NEW"
+      ],
+      "summary": "Người dân hỏi hồ sơ để vợ chồng cùng mở (thành lập) hộ kinh doanh; cần xác định đăng ký do 1 cá nhân hay do các thành viên hộ gia đình thành lập để xác định thành phần hồ sơ.",
+      "pending_switch": ""
+    },
+    "last_response": {
+      "mode": "question",
+      "speech_text": "Anh/chị cho biết hộ kinh doanh sẽ đăng ký theo hình thức một cá nhân đứng tên hay các thành viên hộ gia đình (vợ chồng) cùng thành lập?",
+      "information": {
+        "title": "Chọn hình thức đăng ký để xác định đúng hồ sơ",
+        "sections": [
+          {
+            "title": "Vui lòng chọn 1 phương án",
+            "items": [
+              "Nếu chỉ 1 người đứng tên chủ hộ: hồ sơ đơn giản hơn",
+              "Nếu vợ chồng cùng là thành viên hộ gia đình thành lập: cần văn bản ủy quyền một người làm chủ hộ (công chứng/chứng thực)"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "id": "A",
+            "label": "Một cá nhân đứng tên thành lập hộ kinh doanh",
+            "node_ids": [
+              "P24.C01"
+            ]
+          },
+          {
+            "id": "B",
+            "label": "Các thành viên hộ gia đình (vợ chồng) cùng thành lập",
+            "node_ids": [
+              "P24.C02"
+            ]
+          }
+        ]
+      }
+    },
+    "revision": 1,
+    "last_spoken": ""
+  },
+  "runtime_sha256": "325f1a46225c912c9b1e5c3d5e39cef95e6c194b2aec4efc632c1aa5c0a853af"
+}

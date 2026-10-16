@@ -1,0 +1,2158 @@
+{
+  "case": "D07",
+  "turns": [
+    {
+      "user": "Mẹ tôi bị mất giấy xác nhận khuyết tật. Tôi đi làm lại giúp mẹ thì cần những gì?",
+      "response": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P18",
+            "P18.C03"
+          ],
+          "summary": "Mẹ bị mất giấy xác nhận khuyết tật; người con muốn làm lại/cấp lại. Đang cần làm rõ tư cách người đi nộp hồ sơ (người khuyết tật/đại diện hợp pháp) để hướng dẫn đúng quy định.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho tôi hỏi: anh/chị đi nộp hồ sơ với tư cách nào?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Tôi là đại diện hợp pháp của mẹ (đứng tên đại diện hợp pháp)",
+              "node_ids": [
+                "P18.N001.N001"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Tôi chỉ đi nộp giúp, không phải đại diện hợp pháp",
+              "node_ids": [
+                "P18.N001.N001"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Mẹ tôi tự nộp hồ sơ",
+              "node_ids": [
+                "P18.N001.N001"
+              ]
+            }
+          ]
+        },
+        "citations": [],
+        "revision": 1,
+        "session_id": "D07"
+      },
+      "seconds": 16.579933061999327,
+      "event_start": 0,
+      "event_count": 4
+    },
+    {
+      "user": "Tôi chỉ là con đi nộp giúp thôi, chưa có giấy đại diện gì cả.",
+      "response": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "tu_cach_nguoi_nop",
+              "value": "Con đi nộp giúp, không phải đại diện hợp pháp, chưa có giấy đại diện",
+              "evidence": "Tôi chỉ là con đi nộp giúp thôi, chưa có giấy đại diện gì cả.",
+              "node_id": "P18.N001.N001"
+            }
+          ],
+          "path": [
+            "P18",
+            "P18.C03"
+          ],
+          "summary": "Cấp lại giấy xác nhận khuyết tật do bị mất (không đề nghị đổi mức độ). Người hỏi là con đi nộp giúp, không phải đại diện hợp pháp; cần làm rõ mẹ có thể tự nộp/đại diện hợp pháp nộp hay không để hướng dẫn đúng đối tượng nộp hồ sơ.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho tôi hỏi: mẹ anh/chị có thể tự nộp hồ sơ không?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Mẹ tôi có thể tự nộp hồ sơ",
+              "node_ids": [
+                "P18.N001.N001"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Mẹ tôi không thể tự đi nộp; cần người đại diện hợp pháp nộp",
+              "node_ids": [
+                "P18.N001.N001"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Tôi chưa rõ mẹ có thể tự nộp hay không",
+              "node_ids": [
+                "P18.N001.N001"
+              ]
+            }
+          ]
+        },
+        "citations": [],
+        "revision": 2,
+        "session_id": "D07"
+      },
+      "seconds": 4.7176173249972635,
+      "event_start": 4,
+      "event_count": 1
+    },
+    {
+      "user": "Mẹ không đi được. Tôi có phải chuẩn bị giấy gì để được đi nộp giúp không? Mức độ khuyết tật vẫn như cũ.",
+      "response": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "tu_cach_nguoi_nop",
+              "value": "Con đi nộp giúp, không phải đại diện hợp pháp, chưa có giấy đại diện",
+              "evidence": "Tôi chỉ là con đi nộp giúp thôi, chưa có giấy đại diện gì cả.",
+              "node_id": "P18.N001.N001"
+            }
+          ],
+          "path": [
+            "P18",
+            "P18.C03"
+          ],
+          "summary": "Cấp lại giấy xác nhận khuyết tật do bị mất (không đề nghị đổi mức độ). Người hỏi là con đi nộp giúp, chưa xác định có phải đại diện hợp pháp hay không; đang cần làm rõ ai là người nộp hợp lệ để hướng dẫn giấy tờ kèm theo.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho tôi hỏi: anh/chị sẽ nộp hồ sơ với tư cách nào?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Mẹ tôi (người khuyết tật) là người nộp; tôi chỉ hỗ trợ gửi/nộp hộ",
+              "node_ids": [
+                "P18.N001.N001"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Tôi là người đại diện hợp pháp của mẹ (có giấy tờ chứng minh đại diện) và tôi đứng tên nộp hồ sơ",
+              "node_ids": [
+                "P18.N001.N001"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Tôi không phải đại diện hợp pháp; muốn biết có giấy ủy quyền/giấy tờ gì để tôi đi nộp thay được không",
+              "node_ids": [
+                "P18.N001.N001"
+              ]
+            }
+          ]
+        },
+        "citations": [],
+        "revision": 3,
+        "session_id": "D07"
+      },
+      "seconds": 6.001532337002573,
+      "event_start": 5,
+      "event_count": 1
+    },
+    {
+      "user": "C. Tôi muốn biết giấy tờ để tôi đi nộp thay, nếu chưa có dữ liệu thì nói rõ giúp tôi.",
+      "response": {
+        "action": "respond",
+        "mode": "data_gap",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "tu_cach_nguoi_nop",
+              "value": "Con đi nộp giúp, không phải đại diện hợp pháp, chưa có giấy đại diện",
+              "evidence": "Tôi chỉ là con đi nộp giúp thôi, chưa có giấy đại diện gì cả.",
+              "node_id": "P18.N001.N001"
+            }
+          ],
+          "path": [
+            "P18",
+            "P18.C03"
+          ],
+          "summary": "Cấp lại giấy xác nhận khuyết tật do bị mất (không đề nghị đổi mức độ). Người hỏi là con đi nộp giúp, không phải đại diện hợp pháp; cần dữ liệu về ủy quyền/giấy tờ để nộp thay.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Giấy tờ để con đi nộp thay (không phải đại diện hợp pháp) – hiện CHƯA có dữ liệu trong nguồn",
+          "sections": [
+            {
+              "title": "Điều kiện người nộp theo nguồn đang có",
+              "items": [
+                "Nguồn hiện có chỉ nêu: “Người khuyết tật hoặc đại diện hợp pháp nộp hồ sơ”.",
+                "Chưa có thông tin/quy định trong dữ liệu hiện tại về việc người thân (con) không phải đại diện hợp pháp có được nộp thay bằng giấy ủy quyền hay cần giấy tờ gì kèm theo."
+              ]
+            },
+            {
+              "title": "Hồ sơ cấp lại do bị mất (trong phạm vi nguồn đang có)",
+              "items": [
+                "Đơn theo Mẫu 01.",
+                "Giấy cũ nếu còn.",
+                "Nếu có nội dung cần sửa/thay đổi thông tin: cung cấp thông tin/chứng cứ thay đổi để khai thác hoặc đối chiếu."
+              ]
+            },
+            {
+              "title": "Nội dung anh/chị yêu cầu nhưng nguồn chưa có dữ liệu xác nhận",
+              "items": [
+                "Giấy ủy quyền có được chấp nhận hay không.",
+                "Nếu được chấp nhận thì mẫu/điều kiện ủy quyền và giấy tờ kèm theo của người đi nộp thay (CCCD, giấy tờ chứng minh quan hệ, giấy tờ của người khuyết tật, v.v.)."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P18.N001.N001#0",
+          "P18.C03.N001.N002#0"
+        ],
+        "revision": 4,
+        "session_id": "D07"
+      },
+      "seconds": 8.00414752800134,
+      "event_start": 6,
+      "event_count": 1
+    }
+  ],
+  "events": [
+    {
+      "call": 1,
+      "payload": {
+        "user_text": "Mẹ tôi bị mất giấy xác nhận khuyết tật. Tôi đi làm lại giúp mẹ thì cần những gì?",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "ROOT",
+              "title": "Quy trình hành chính — cây tri thức 3.0",
+              "condition": "Yêu cầu thuộc một hoặc nhiều lĩnh vực trong bộ dữ liệu",
+              "kind": "root",
+              "children_count": 27,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P02",
+                "title": "Đăng ký khai tử",
+                "condition": "Nhu cầu liên quan: Đăng ký khai tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P04",
+                "title": "Đăng ký thường trú",
+                "condition": "Nhu cầu liên quan: Đăng ký thường trú",
+                "kind": "procedure",
+                "children_count": 9,
+                "related": []
+              },
+              {
+                "id": "P05",
+                "title": "Xác nhận tình trạng hôn nhân",
+                "condition": "Nhu cầu liên quan: Xác nhận tình trạng hôn nhân",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P06",
+                "title": "Đăng ký tạm trú",
+                "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P07",
+                "title": "Xác nhận và điều chỉnh thông tin cư trú",
+                "condition": "Nhu cầu liên quan: Xác nhận và điều chỉnh thông tin cư trú",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P09",
+                "title": "Đăng ký biến động đất đai",
+                "condition": "Nhu cầu liên quan: Đăng ký biến động đất đai",
+                "kind": "procedure",
+                "children_count": 15,
+                "related": []
+              },
+              {
+                "id": "P10",
+                "title": "Cấp giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Cấp giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P11",
+                "title": "Đổi giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Đổi giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P12",
+                "title": "Chuyển nhượng quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Chuyển nhượng quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P13",
+                "title": "Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "condition": "Nhu cầu liên quan: Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P15",
+                "title": "Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "condition": "Nhu cầu liên quan: Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P16",
+                "title": "Hỗ trợ đào tạo nghề",
+                "condition": "Nhu cầu liên quan: Hỗ trợ đào tạo nghề",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P17",
+                "title": "Hỗ trợ người bị tai nạn lao động",
+                "condition": "Nhu cầu liên quan: Hỗ trợ người bị tai nạn lao động",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P19",
+                "title": "Tín dụng chính sách NHCSXH",
+                "condition": "Nhu cầu liên quan: Tín dụng chính sách NHCSXH",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P20",
+                "title": "Chế độ thương binh",
+                "condition": "Nhu cầu liên quan: Chế độ thương binh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P21",
+                "title": "Chế độ thờ cúng liệt sĩ",
+                "condition": "Nhu cầu liên quan: Chế độ thờ cúng liệt sĩ",
+                "kind": "procedure",
+                "children_count": 7,
+                "related": []
+              },
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P25",
+                "title": "Thay đổi nội dung đăng ký hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Thay đổi nội dung đăng ký hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 10,
+                "related": []
+              },
+              {
+                "id": "P26",
+                "title": "Chấm dứt hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Chấm dứt hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P27",
+                "title": "Khiếu nại - Phản ánh - Kiến nghị",
+                "condition": "Nhu cầu liên quan: Khiếu nại - Phản ánh - Kiến nghị",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3151,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 105,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3256
+      },
+      "response_id": "resp_0f992727fee0f487016ad1619e841087d0a70685dd64bd92f6",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P18"
+        ],
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "Người dân hỏi: mẹ bị mất giấy xác nhận khuyết tật, muốn làm lại và người con đi làm giúp; đang nạp thủ tục liên quan xác định mức độ khuyết tật.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 2.616992431001563
+    },
+    {
+      "call": 2,
+      "payload": {
+        "user_text": "Mẹ tôi bị mất giấy xác nhận khuyết tật. Tôi đi làm lại giúp mẹ thì cần những gì?",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "Người dân hỏi: mẹ bị mất giấy xác nhận khuyết tật, muốn làm lại và người con đi làm giúp; đang nạp thủ tục liên quan xác định mức độ khuyết tật.",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P18",
+              "title": "Xác định mức độ khuyết tật",
+              "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+              "kind": "procedure",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P18.ASSESS",
+                "title": "Xác định lần đầu hoặc xác định lại",
+                "condition": "Cần đánh giá mức độ tại Hội đồng cấp xã",
+                "kind": "shared_ancestor",
+                "children_count": 2,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.ASSESS#0",
+                    "text": "Xác định lần đầu/xác định lại: thời hạn công bố 25 ngày làm việc từ hồ sơ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03",
+                "title": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+                "condition": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+                "kind": "case_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03#0",
+                    "text": "Chủ tịch UBND cấp xã cấp đổi/cấp lại trong 5 ngày làm việc, không lệ phí.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C04",
+                "title": "Có tranh luận/kết luận không xác định được hoặc cần giám định y khoa",
+                "condition": "Có tranh luận/kết luận không xác định được hoặc cần giám định y khoa",
+                "kind": "case_group",
+                "children_count": 7,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P18.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Xác định mức độ khuyết tật; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2278,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 289,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2567
+      },
+      "response_id": "resp_0fe128b534c8454c016ad161a123a487d0bbde3e4e896b180a",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P18.C03",
+          "P18.N001"
+        ],
+        "state": {
+          "facts": [],
+          "path": [
+            "P18"
+          ],
+          "summary": "Mẹ bị mất giấy xác nhận khuyết tật; người con muốn làm lại/cấp lại và hỏi cần những gì, đồng thời cần làm rõ tư cách người đi làm giúp (người nộp thay/đại diện/ủy quyền) theo quy định của thủ tục.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho biết mẹ anh/chị bị mất/hỏng giấy xác nhận khuyết tật và chỉ xin cấp lại/cấp đổi (không yêu cầu đánh giá lại mức độ), đúng không?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Đúng, chỉ xin cấp lại/cấp đổi giấy (không đề nghị đổi mức độ khuyết tật)",
+              "node_ids": [
+                "P18.C03"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Không, mẹ tôi muốn xác định lại/đánh giá lại mức độ khuyết tật",
+              "node_ids": [
+                "P18.ASSESS"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Không chắc/Trường hợp khác (có tranh luận hoặc cần giám định y khoa)",
+              "node_ids": [
+                "P18.C04"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 5.21072985399951
+    },
+    {
+      "call": 3,
+      "payload": {
+        "user_text": "Mẹ tôi bị mất giấy xác nhận khuyết tật. Tôi đi làm lại giúp mẹ thì cần những gì?",
+        "state": {
+          "facts": [],
+          "path": [
+            "P18"
+          ],
+          "summary": "Mẹ bị mất giấy xác nhận khuyết tật; người con muốn làm lại/cấp lại và hỏi cần những gì, đồng thời cần làm rõ tư cách người đi làm giúp (người nộp thay/đại diện/ủy quyền) theo quy định của thủ tục.",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P18.C03",
+              "title": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+              "condition": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+              "kind": "case_group",
+              "children_count": 1,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P18.C03#0",
+                  "text": "Chủ tịch UBND cấp xã cấp đổi/cấp lại trong 5 ngày làm việc, không lệ phí.",
+                  "topics": [
+                    "chi_phi",
+                    "thoi_gian",
+                    "noi_nop",
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P18.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Xác định mức độ khuyết tật; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P18.C03.N001",
+                "title": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+                "condition": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+                "kind": "situation_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P18.N001",
+              "title": "Quy định theo điều kiện áp dụng",
+              "condition": "Có nội dung cần đối chiếu về Xác định mức độ khuyết tật; chọn đúng điều kiện của nhánh con",
+              "kind": "conditional_rules",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P18.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Xác định mức độ khuyết tật; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P18.N001.N001",
+                "title": "Nộp và kết quả cấp giấy khuyết tật",
+                "condition": "Thủ tục tại cấp xã; không thay hồ sơ phúc quyết GĐYK",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.N001.N001#0",
+                    "text": "Nộp một bộ tại UBND cấp xã nơi cư trú qua Trung tâm phục vụ hành chính công, bưu chính hoặc Cổng dịch vụ công quốc gia. Người khuyết tật hoặc đại diện hợp pháp nộp, không bắt người không thể đi lại tự đến một cửa; Hội đồng có thể đánh giá tại nơi cư trú. Không lệ phí xác định và cấp giấy. Kết quả giấy xác nhận dạng/mức độ khuyết tật do Chủ tịch UBND cấp xã cấp; giấy không phải quyết định tự động hưởng trợ cấp xã hội.",
+                    "topics": [
+                      "chi_phi",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.N001.N002",
+                "title": "Mẫu và tài liệu đánh giá tại xã",
+                "condition": "Đề nghị xác định/xác định lại tại xã",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.N001.N002#0",
+                    "text": "Mẫu 01 theo Thông tư 01/2019 đã sửa bởi 08/2023 và 19/2026/TT-BYT, hợp nhất tại 11/VBHN-BYT; khai định danh, cư trú để đối chiếu dữ liệu, không yêu cầu sổ hộ khẩu giấy. Bệnh án, giấy khám, điều trị, phẫu thuật là tài liệu hỗ trợ nếu có, không bắt có chẩn đoán bệnh viện trước mới nhận đơn. Hội đồng xác định mức độ qua đánh giá chức năng theo tuổi; người đang học có thể được tham khảo ý kiến trường. Agent không tự suy tỷ lệ bệnh thành “nặng/đặc biệt nặng”.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.N001.N003",
+                "title": "Thời hạn xác định lần đầu/lại",
+                "condition": "Xác định lần đầu hoặc xác định lại; không phải cấp lại giấy hay phúc quyết",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.N001.N003#0",
+                    "text": "Khi có biên bản Hội đồng, trong 5 ngày làm việc Chủ tịch cấp xã niêm yết/thông báo và cấp giấy; có khiếu nại/không đồng ý thì Hội đồng xác minh, trả lời bằng văn bản theo quy trình. Các bước giám định y khoa riêng không bị gộp vào lời hứa 25 ngày. Giấy dùng theo tình trạng được xác nhận; mức độ thay đổi phải xét lại, không tự có hiệu lực vĩnh viễn cho mọi tình trạng.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.N001.N004",
+                "title": "Cơ quan đánh giá hiện hành",
+                "condition": "Xác định mức độ tại xã từ 24/07/2026",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.N001.N004#0",
+                    "text": "Từ 24/7/2026, Hội đồng do Chủ tịch UBND xã làm Chủ tịch; đầu mối hồ sơ là Phòng Văn hóa - Xã hội, chuyên môn y tế là Trạm y tế và cơ quan chuyên môn y tế cấp tỉnh. Dùng biên bản họp kết luận dạng/mức độ theo mẫu thay thế của Thông tư 19/2026; đây là giấy cơ quan lập, không phải giấy người dân tự xin trước. Không yêu cầu người dân nộp đủ thành phần nhân sự hay phiếu đánh giá nội bộ.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 7
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3250,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 277,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3527
+      },
+      "response_id": "resp_097aca4ead6664de016ad161a65bb087d0b3225cd636c25de9",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P18.C03.N001",
+          "P18.N001.N001"
+        ],
+        "state": {
+          "facts": [],
+          "path": [
+            "P18",
+            "P18.C03"
+          ],
+          "summary": "Mẹ bị mất giấy xác nhận khuyết tật; người con muốn làm lại/cấp lại. Đang cần làm rõ tư cách người đi nộp hồ sơ (người khuyết tật/đại diện hợp pháp) để hướng dẫn đúng quy định.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị sẽ là người nộp hồ sơ theo tư cách nào?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Mẹ tôi (người khuyết tật) trực tiếp nộp",
+              "node_ids": []
+            },
+            {
+              "id": "B",
+              "label": "Tôi là đại diện hợp pháp của mẹ (ví dụ: người giám hộ/người được Tòa án công nhận…)",
+              "node_ids": []
+            },
+            {
+              "id": "C",
+              "label": "Tôi chỉ đi nộp thay/được mẹ nhờ, không phải đại diện hợp pháp",
+              "node_ids": []
+            },
+            {
+              "id": "D",
+              "label": "Chưa rõ/không có giấy tờ về đại diện hợp pháp",
+              "node_ids": []
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 4.943933073998778
+    },
+    {
+      "call": 4,
+      "payload": {
+        "user_text": "Mẹ tôi bị mất giấy xác nhận khuyết tật. Tôi đi làm lại giúp mẹ thì cần những gì?",
+        "state": {
+          "facts": [],
+          "path": [
+            "P18",
+            "P18.C03"
+          ],
+          "summary": "Mẹ bị mất giấy xác nhận khuyết tật; người con muốn làm lại/cấp lại. Đang cần làm rõ tư cách người đi nộp hồ sơ (người khuyết tật/đại diện hợp pháp) để hướng dẫn đúng quy định.",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P18.C03.N001",
+              "title": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+              "condition": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+              "kind": "situation_group",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P18.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Xác định mức độ khuyết tật; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03",
+                "title": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+                "condition": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+                "kind": "case_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03#0",
+                    "text": "Chủ tịch UBND cấp xã cấp đổi/cấp lại trong 5 ngày làm việc, không lệ phí.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P18.C03.N001.N001",
+                "title": "Lý do cấp đổi",
+                "condition": "Giấy hỏng hoặc thông tin cá nhân thay đổi",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N001#0",
+                    "text": "Cấp đổi khi giấy hỏng hoặc thông tin cá nhân thay đổi",
+                    "topics": [
+                      "huong_dan"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03.N001.N002",
+                "title": "Lý do cấp lại",
+                "condition": "Giấy bị mất; mức độ không thay đổi",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N002#0",
+                    "text": "cấp lại khi mất: nộp đơn Mẫu 01 và giấy cũ nếu còn, thông tin cần sửa/chứng cứ thay đổi để khai thác hoặc đối chiếu.",
+                    "topics": [
+                      "ho_so",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03.N001.N003",
+                "title": "Mất giấy, không đổi mức độ",
+                "condition": "Chỉ mất giấy; không có thay đổi mức độ",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N003#0",
+                    "text": "Không bắt giám định lại chỉ do mất giấy.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03.N001.N004",
+                "title": "Đồng thời mức độ thay đổi",
+                "condition": "Có thay đổi mức độ khuyết tật; cần xác định lại",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P18.C02"
+                ],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N004#0",
+                    "text": "Nếu đồng thời mức độ thay đổi, chuyển C02 để đánh giá rồi cấp giấy phù hợp.",
+                    "topics": [
+                      "chi_phi",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P18.N001.N001",
+              "title": "Nộp và kết quả cấp giấy khuyết tật",
+              "condition": "Thủ tục tại cấp xã; không thay hồ sơ phúc quyết GĐYK",
+              "kind": "content_branch",
+              "children_count": 0,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P18.N001.N001#0",
+                  "text": "Nộp một bộ tại UBND cấp xã nơi cư trú qua Trung tâm phục vụ hành chính công, bưu chính hoặc Cổng dịch vụ công quốc gia. Người khuyết tật hoặc đại diện hợp pháp nộp, không bắt người không thể đi lại tự đến một cửa; Hội đồng có thể đánh giá tại nơi cư trú. Không lệ phí xác định và cấp giấy. Kết quả giấy xác nhận dạng/mức độ khuyết tật do Chủ tịch UBND cấp xã cấp; giấy không phải quyết định tự động hưởng trợ cấp xã hội.",
+                  "topics": [
+                    "chi_phi",
+                    "noi_nop",
+                    "ket_qua",
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P18.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Xác định mức độ khuyết tật; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P18.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Xác định mức độ khuyết tật; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": []
+              }
+            ],
+            "children": [],
+            "child_selection": "none"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 6
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3025,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 241,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3266
+      },
+      "response_id": "resp_0a64d8b131a55de3016ad161ab402c87d088da84facc58a198",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P18",
+            "P18.C03"
+          ],
+          "summary": "Mẹ bị mất giấy xác nhận khuyết tật; người con muốn làm lại/cấp lại. Đang cần làm rõ tư cách người đi nộp hồ sơ (người khuyết tật/đại diện hợp pháp) để hướng dẫn đúng quy định.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho tôi hỏi: anh/chị đi nộp hồ sơ với tư cách nào?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Tôi là đại diện hợp pháp của mẹ (đứng tên đại diện hợp pháp)",
+              "node_ids": [
+                "P18.N001.N001"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Tôi chỉ đi nộp giúp, không phải đại diện hợp pháp",
+              "node_ids": [
+                "P18.N001.N001"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Mẹ tôi tự nộp hồ sơ",
+              "node_ids": [
+                "P18.N001.N001"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 3.807724557998881
+    },
+    {
+      "call": 5,
+      "payload": {
+        "user_text": "Tôi chỉ là con đi nộp giúp thôi, chưa có giấy đại diện gì cả.",
+        "state": {
+          "facts": [],
+          "path": [
+            "P18",
+            "P18.C03"
+          ],
+          "summary": "Mẹ bị mất giấy xác nhận khuyết tật; người con muốn làm lại/cấp lại. Đang cần làm rõ tư cách người đi nộp hồ sơ (người khuyết tật/đại diện hợp pháp) để hướng dẫn đúng quy định.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị cho tôi hỏi: anh/chị đi nộp hồ sơ với tư cách nào?",
+          "information": {
+            "title": "",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Tôi là đại diện hợp pháp của mẹ (đứng tên đại diện hợp pháp)",
+                "node_ids": [
+                  "P18.N001.N001"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Tôi chỉ đi nộp giúp, không phải đại diện hợp pháp",
+                "node_ids": [
+                  "P18.N001.N001"
+                ]
+              },
+              {
+                "id": "C",
+                "label": "Mẹ tôi tự nộp hồ sơ",
+                "node_ids": [
+                  "P18.N001.N001"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P18.C03.N001",
+              "title": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+              "condition": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+              "kind": "situation_group",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P18.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Xác định mức độ khuyết tật; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03",
+                "title": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+                "condition": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+                "kind": "case_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03#0",
+                    "text": "Chủ tịch UBND cấp xã cấp đổi/cấp lại trong 5 ngày làm việc, không lệ phí.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P18.C03.N001.N001",
+                "title": "Lý do cấp đổi",
+                "condition": "Giấy hỏng hoặc thông tin cá nhân thay đổi",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N001#0",
+                    "text": "Cấp đổi khi giấy hỏng hoặc thông tin cá nhân thay đổi",
+                    "topics": [
+                      "huong_dan"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03.N001.N002",
+                "title": "Lý do cấp lại",
+                "condition": "Giấy bị mất; mức độ không thay đổi",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N002#0",
+                    "text": "cấp lại khi mất: nộp đơn Mẫu 01 và giấy cũ nếu còn, thông tin cần sửa/chứng cứ thay đổi để khai thác hoặc đối chiếu.",
+                    "topics": [
+                      "ho_so",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03.N001.N003",
+                "title": "Mất giấy, không đổi mức độ",
+                "condition": "Chỉ mất giấy; không có thay đổi mức độ",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N003#0",
+                    "text": "Không bắt giám định lại chỉ do mất giấy.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03.N001.N004",
+                "title": "Đồng thời mức độ thay đổi",
+                "condition": "Có thay đổi mức độ khuyết tật; cần xác định lại",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P18.C02"
+                ],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N004#0",
+                    "text": "Nếu đồng thời mức độ thay đổi, chuyển C02 để đánh giá rồi cấp giấy phù hợp.",
+                    "topics": [
+                      "chi_phi",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P18.N001.N001",
+              "title": "Nộp và kết quả cấp giấy khuyết tật",
+              "condition": "Thủ tục tại cấp xã; không thay hồ sơ phúc quyết GĐYK",
+              "kind": "content_branch",
+              "children_count": 0,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P18.N001.N001#0",
+                  "text": "Nộp một bộ tại UBND cấp xã nơi cư trú qua Trung tâm phục vụ hành chính công, bưu chính hoặc Cổng dịch vụ công quốc gia. Người khuyết tật hoặc đại diện hợp pháp nộp, không bắt người không thể đi lại tự đến một cửa; Hội đồng có thể đánh giá tại nơi cư trú. Không lệ phí xác định và cấp giấy. Kết quả giấy xác nhận dạng/mức độ khuyết tật do Chủ tịch UBND cấp xã cấp; giấy không phải quyết định tự động hưởng trợ cấp xã hội.",
+                  "topics": [
+                    "chi_phi",
+                    "noi_nop",
+                    "ket_qua",
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P18.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Xác định mức độ khuyết tật; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P18.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Xác định mức độ khuyết tật; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": []
+              }
+            ],
+            "children": [],
+            "child_selection": "none"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3154,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 325,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3479
+      },
+      "response_id": "resp_0327cd3549fe0e9e016ad161dc502087d0b8bb3636cefd0e73",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "tu_cach_nguoi_nop",
+              "value": "Con đi nộp giúp, không phải đại diện hợp pháp, chưa có giấy đại diện",
+              "evidence": "Tôi chỉ là con đi nộp giúp thôi, chưa có giấy đại diện gì cả.",
+              "node_id": "P18.N001.N001"
+            }
+          ],
+          "path": [
+            "P18",
+            "P18.C03"
+          ],
+          "summary": "Cấp lại giấy xác nhận khuyết tật do bị mất (không đề nghị đổi mức độ). Người hỏi là con đi nộp giúp, không phải đại diện hợp pháp; cần làm rõ mẹ có thể tự nộp/đại diện hợp pháp nộp hay không để hướng dẫn đúng đối tượng nộp hồ sơ.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho tôi hỏi: mẹ anh/chị có thể tự nộp hồ sơ không?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Mẹ tôi có thể tự nộp hồ sơ",
+              "node_ids": [
+                "P18.N001.N001"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Mẹ tôi không thể tự đi nộp; cần người đại diện hợp pháp nộp",
+              "node_ids": [
+                "P18.N001.N001"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Tôi chưa rõ mẹ có thể tự nộp hay không",
+              "node_ids": [
+                "P18.N001.N001"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 4.717437200000859
+    },
+    {
+      "call": 6,
+      "payload": {
+        "user_text": "Mẹ không đi được. Tôi có phải chuẩn bị giấy gì để được đi nộp giúp không? Mức độ khuyết tật vẫn như cũ.",
+        "state": {
+          "facts": [
+            {
+              "key": "tu_cach_nguoi_nop",
+              "value": "Con đi nộp giúp, không phải đại diện hợp pháp, chưa có giấy đại diện",
+              "evidence": "Tôi chỉ là con đi nộp giúp thôi, chưa có giấy đại diện gì cả.",
+              "node_id": "P18.N001.N001"
+            }
+          ],
+          "path": [
+            "P18",
+            "P18.C03"
+          ],
+          "summary": "Cấp lại giấy xác nhận khuyết tật do bị mất (không đề nghị đổi mức độ). Người hỏi là con đi nộp giúp, không phải đại diện hợp pháp; cần làm rõ mẹ có thể tự nộp/đại diện hợp pháp nộp hay không để hướng dẫn đúng đối tượng nộp hồ sơ.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị cho tôi hỏi: mẹ anh/chị có thể tự nộp hồ sơ không?",
+          "information": {
+            "title": "",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Mẹ tôi có thể tự nộp hồ sơ",
+                "node_ids": [
+                  "P18.N001.N001"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Mẹ tôi không thể tự đi nộp; cần người đại diện hợp pháp nộp",
+                "node_ids": [
+                  "P18.N001.N001"
+                ]
+              },
+              {
+                "id": "C",
+                "label": "Tôi chưa rõ mẹ có thể tự nộp hay không",
+                "node_ids": [
+                  "P18.N001.N001"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P18.C03.N001",
+              "title": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+              "condition": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+              "kind": "situation_group",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P18.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Xác định mức độ khuyết tật; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03",
+                "title": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+                "condition": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+                "kind": "case_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03#0",
+                    "text": "Chủ tịch UBND cấp xã cấp đổi/cấp lại trong 5 ngày làm việc, không lệ phí.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P18.C03.N001.N001",
+                "title": "Lý do cấp đổi",
+                "condition": "Giấy hỏng hoặc thông tin cá nhân thay đổi",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N001#0",
+                    "text": "Cấp đổi khi giấy hỏng hoặc thông tin cá nhân thay đổi",
+                    "topics": [
+                      "huong_dan"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03.N001.N002",
+                "title": "Lý do cấp lại",
+                "condition": "Giấy bị mất; mức độ không thay đổi",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N002#0",
+                    "text": "cấp lại khi mất: nộp đơn Mẫu 01 và giấy cũ nếu còn, thông tin cần sửa/chứng cứ thay đổi để khai thác hoặc đối chiếu.",
+                    "topics": [
+                      "ho_so",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03.N001.N003",
+                "title": "Mất giấy, không đổi mức độ",
+                "condition": "Chỉ mất giấy; không có thay đổi mức độ",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N003#0",
+                    "text": "Không bắt giám định lại chỉ do mất giấy.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03.N001.N004",
+                "title": "Đồng thời mức độ thay đổi",
+                "condition": "Có thay đổi mức độ khuyết tật; cần xác định lại",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P18.C02"
+                ],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N004#0",
+                    "text": "Nếu đồng thời mức độ thay đổi, chuyển C02 để đánh giá rồi cấp giấy phù hợp.",
+                    "topics": [
+                      "chi_phi",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P18.N001.N001",
+              "title": "Nộp và kết quả cấp giấy khuyết tật",
+              "condition": "Thủ tục tại cấp xã; không thay hồ sơ phúc quyết GĐYK",
+              "kind": "content_branch",
+              "children_count": 0,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P18.N001.N001#0",
+                  "text": "Nộp một bộ tại UBND cấp xã nơi cư trú qua Trung tâm phục vụ hành chính công, bưu chính hoặc Cổng dịch vụ công quốc gia. Người khuyết tật hoặc đại diện hợp pháp nộp, không bắt người không thể đi lại tự đến một cửa; Hội đồng có thể đánh giá tại nơi cư trú. Không lệ phí xác định và cấp giấy. Kết quả giấy xác nhận dạng/mức độ khuyết tật do Chủ tịch UBND cấp xã cấp; giấy không phải quyết định tự động hưởng trợ cấp xã hội.",
+                  "topics": [
+                    "chi_phi",
+                    "noi_nop",
+                    "ket_qua",
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P18.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Xác định mức độ khuyết tật; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P18.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Xác định mức độ khuyết tật; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": []
+              }
+            ],
+            "children": [],
+            "child_selection": "none"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3253,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 363,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3616
+      },
+      "response_id": "resp_0aeea867036e15cd016ad1621f8d3087d09553bdc74d821944",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "tu_cach_nguoi_nop",
+              "value": "Con đi nộp giúp, không phải đại diện hợp pháp, chưa có giấy đại diện",
+              "evidence": "Tôi chỉ là con đi nộp giúp thôi, chưa có giấy đại diện gì cả.",
+              "node_id": "P18.N001.N001"
+            }
+          ],
+          "path": [
+            "P18",
+            "P18.C03"
+          ],
+          "summary": "Cấp lại giấy xác nhận khuyết tật do bị mất (không đề nghị đổi mức độ). Người hỏi là con đi nộp giúp, chưa xác định có phải đại diện hợp pháp hay không; đang cần làm rõ ai là người nộp hợp lệ để hướng dẫn giấy tờ kèm theo.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho tôi hỏi: anh/chị sẽ nộp hồ sơ với tư cách nào?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Mẹ tôi (người khuyết tật) là người nộp; tôi chỉ hỗ trợ gửi/nộp hộ",
+              "node_ids": [
+                "P18.N001.N001"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Tôi là người đại diện hợp pháp của mẹ (có giấy tờ chứng minh đại diện) và tôi đứng tên nộp hồ sơ",
+              "node_ids": [
+                "P18.N001.N001"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Tôi không phải đại diện hợp pháp; muốn biết có giấy ủy quyền/giấy tờ gì để tôi đi nộp thay được không",
+              "node_ids": [
+                "P18.N001.N001"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 6.001357378001558
+    },
+    {
+      "call": 7,
+      "payload": {
+        "user_text": "C. Tôi muốn biết giấy tờ để tôi đi nộp thay, nếu chưa có dữ liệu thì nói rõ giúp tôi.",
+        "state": {
+          "facts": [
+            {
+              "key": "tu_cach_nguoi_nop",
+              "value": "Con đi nộp giúp, không phải đại diện hợp pháp, chưa có giấy đại diện",
+              "evidence": "Tôi chỉ là con đi nộp giúp thôi, chưa có giấy đại diện gì cả.",
+              "node_id": "P18.N001.N001"
+            }
+          ],
+          "path": [
+            "P18",
+            "P18.C03"
+          ],
+          "summary": "Cấp lại giấy xác nhận khuyết tật do bị mất (không đề nghị đổi mức độ). Người hỏi là con đi nộp giúp, chưa xác định có phải đại diện hợp pháp hay không; đang cần làm rõ ai là người nộp hợp lệ để hướng dẫn giấy tờ kèm theo.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị cho tôi hỏi: anh/chị sẽ nộp hồ sơ với tư cách nào?",
+          "information": {
+            "title": "",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Mẹ tôi (người khuyết tật) là người nộp; tôi chỉ hỗ trợ gửi/nộp hộ",
+                "node_ids": [
+                  "P18.N001.N001"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Tôi là người đại diện hợp pháp của mẹ (có giấy tờ chứng minh đại diện) và tôi đứng tên nộp hồ sơ",
+                "node_ids": [
+                  "P18.N001.N001"
+                ]
+              },
+              {
+                "id": "C",
+                "label": "Tôi không phải đại diện hợp pháp; muốn biết có giấy ủy quyền/giấy tờ gì để tôi đi nộp thay được không",
+                "node_ids": [
+                  "P18.N001.N001"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P18.C03.N001",
+              "title": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+              "condition": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+              "kind": "situation_group",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P18.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Xác định mức độ khuyết tật; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03",
+                "title": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+                "condition": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+                "kind": "case_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03#0",
+                    "text": "Chủ tịch UBND cấp xã cấp đổi/cấp lại trong 5 ngày làm việc, không lệ phí.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P18.C03.N001.N001",
+                "title": "Lý do cấp đổi",
+                "condition": "Giấy hỏng hoặc thông tin cá nhân thay đổi",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N001#0",
+                    "text": "Cấp đổi khi giấy hỏng hoặc thông tin cá nhân thay đổi",
+                    "topics": [
+                      "huong_dan"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03.N001.N002",
+                "title": "Lý do cấp lại",
+                "condition": "Giấy bị mất; mức độ không thay đổi",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N002#0",
+                    "text": "cấp lại khi mất: nộp đơn Mẫu 01 và giấy cũ nếu còn, thông tin cần sửa/chứng cứ thay đổi để khai thác hoặc đối chiếu.",
+                    "topics": [
+                      "ho_so",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03.N001.N003",
+                "title": "Mất giấy, không đổi mức độ",
+                "condition": "Chỉ mất giấy; không có thay đổi mức độ",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N003#0",
+                    "text": "Không bắt giám định lại chỉ do mất giấy.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03.N001.N004",
+                "title": "Đồng thời mức độ thay đổi",
+                "condition": "Có thay đổi mức độ khuyết tật; cần xác định lại",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P18.C02"
+                ],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N004#0",
+                    "text": "Nếu đồng thời mức độ thay đổi, chuyển C02 để đánh giá rồi cấp giấy phù hợp.",
+                    "topics": [
+                      "chi_phi",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P18.N001.N001",
+              "title": "Nộp và kết quả cấp giấy khuyết tật",
+              "condition": "Thủ tục tại cấp xã; không thay hồ sơ phúc quyết GĐYK",
+              "kind": "content_branch",
+              "children_count": 0,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P18.N001.N001#0",
+                  "text": "Nộp một bộ tại UBND cấp xã nơi cư trú qua Trung tâm phục vụ hành chính công, bưu chính hoặc Cổng dịch vụ công quốc gia. Người khuyết tật hoặc đại diện hợp pháp nộp, không bắt người không thể đi lại tự đến một cửa; Hội đồng có thể đánh giá tại nơi cư trú. Không lệ phí xác định và cấp giấy. Kết quả giấy xác nhận dạng/mức độ khuyết tật do Chủ tịch UBND cấp xã cấp; giấy không phải quyết định tự động hưởng trợ cấp xã hội.",
+                  "topics": [
+                    "chi_phi",
+                    "noi_nop",
+                    "ket_qua",
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P18.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Xác định mức độ khuyết tật; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P18.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Xác định mức độ khuyết tật; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": []
+              }
+            ],
+            "children": [],
+            "child_selection": "none"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3283,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 517,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3800
+      },
+      "response_id": "resp_0b1dbec7bff71cb2016ad1625b21c487d0bf4615186bb5ee97",
+      "decision": {
+        "action": "respond",
+        "mode": "data_gap",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "tu_cach_nguoi_nop",
+              "value": "Con đi nộp giúp, không phải đại diện hợp pháp, chưa có giấy đại diện",
+              "evidence": "Tôi chỉ là con đi nộp giúp thôi, chưa có giấy đại diện gì cả.",
+              "node_id": "P18.N001.N001"
+            }
+          ],
+          "path": [
+            "P18",
+            "P18.C03"
+          ],
+          "summary": "Cấp lại giấy xác nhận khuyết tật do bị mất (không đề nghị đổi mức độ). Người hỏi là con đi nộp giúp, không phải đại diện hợp pháp; cần dữ liệu về ủy quyền/giấy tờ để nộp thay.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Giấy tờ để con đi nộp thay (không phải đại diện hợp pháp) – hiện CHƯA có dữ liệu trong nguồn",
+          "sections": [
+            {
+              "title": "Điều kiện người nộp theo nguồn đang có",
+              "items": [
+                "Nguồn hiện có chỉ nêu: “Người khuyết tật hoặc đại diện hợp pháp nộp hồ sơ”.",
+                "Chưa có thông tin/quy định trong dữ liệu hiện tại về việc người thân (con) không phải đại diện hợp pháp có được nộp thay bằng giấy ủy quyền hay cần giấy tờ gì kèm theo."
+              ]
+            },
+            {
+              "title": "Hồ sơ cấp lại do bị mất (trong phạm vi nguồn đang có)",
+              "items": [
+                "Đơn theo Mẫu 01.",
+                "Giấy cũ nếu còn.",
+                "Nếu có nội dung cần sửa/thay đổi thông tin: cung cấp thông tin/chứng cứ thay đổi để khai thác hoặc đối chiếu."
+              ]
+            },
+            {
+              "title": "Nội dung anh/chị yêu cầu nhưng nguồn chưa có dữ liệu xác nhận",
+              "items": [
+                "Giấy ủy quyền có được chấp nhận hay không.",
+                "Nếu được chấp nhận thì mẫu/điều kiện ủy quyền và giấy tờ kèm theo của người đi nộp thay (CCCD, giấy tờ chứng minh quan hệ, giấy tờ của người khuyết tật, v.v.)."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P18.N001.N001#0",
+          "P18.C03.N001.N002#0"
+        ]
+      },
+      "seconds": 8.003975313993578
+    }
+  ],
+  "snapshot": {
+    "meta_hash": "d7d1f34f4ba62baa3559dbc377410098b22c446f4f24fa144e1ca2f112edb812",
+    "session_id": "D07",
+    "nodes": [
+      "P18.C03.N001",
+      "P18.N001.N001"
+    ],
+    "state": {
+      "facts": [
+        {
+          "key": "tu_cach_nguoi_nop",
+          "value": "Con đi nộp giúp, không phải đại diện hợp pháp, chưa có giấy đại diện",
+          "evidence": "Tôi chỉ là con đi nộp giúp thôi, chưa có giấy đại diện gì cả.",
+          "node_id": "P18.N001.N001"
+        }
+      ],
+      "path": [
+        "P18",
+        "P18.C03"
+      ],
+      "summary": "Cấp lại giấy xác nhận khuyết tật do bị mất (không đề nghị đổi mức độ). Người hỏi là con đi nộp giúp, không phải đại diện hợp pháp; cần dữ liệu về ủy quyền/giấy tờ để nộp thay.",
+      "pending_switch": ""
+    },
+    "last_response": {
+      "mode": "data_gap",
+      "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+      "information": {
+        "title": "Giấy tờ để con đi nộp thay (không phải đại diện hợp pháp) – hiện CHƯA có dữ liệu trong nguồn",
+        "sections": [
+          {
+            "title": "Điều kiện người nộp theo nguồn đang có",
+            "items": [
+              "Nguồn hiện có chỉ nêu: “Người khuyết tật hoặc đại diện hợp pháp nộp hồ sơ”.",
+              "Chưa có thông tin/quy định trong dữ liệu hiện tại về việc người thân (con) không phải đại diện hợp pháp có được nộp thay bằng giấy ủy quyền hay cần giấy tờ gì kèm theo."
+            ]
+          },
+          {
+            "title": "Hồ sơ cấp lại do bị mất (trong phạm vi nguồn đang có)",
+            "items": [
+              "Đơn theo Mẫu 01.",
+              "Giấy cũ nếu còn.",
+              "Nếu có nội dung cần sửa/thay đổi thông tin: cung cấp thông tin/chứng cứ thay đổi để khai thác hoặc đối chiếu."
+            ]
+          },
+          {
+            "title": "Nội dung anh/chị yêu cầu nhưng nguồn chưa có dữ liệu xác nhận",
+            "items": [
+              "Giấy ủy quyền có được chấp nhận hay không.",
+              "Nếu được chấp nhận thì mẫu/điều kiện ủy quyền và giấy tờ kèm theo của người đi nộp thay (CCCD, giấy tờ chứng minh quan hệ, giấy tờ của người khuyết tật, v.v.)."
+            ]
+          }
+        ],
+        "options": []
+      }
+    },
+    "revision": 4,
+    "last_spoken": ""
+  },
+  "runtime_sha256": "1d8bcbd8aff8b770f3255289bf5f1d9a10b27d2aa161d7493f031c0a9ad7ddf6"
+}

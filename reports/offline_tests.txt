@@ -1,0 +1,21 @@
+test_panel_failure_reports_audio_error (test_runtime.IntegrationTests.test_panel_failure_reports_audio_error) ... ok
+test_voice_main_wires_panel_sender_and_audio_only (test_runtime.IntegrationTests.test_voice_main_wires_panel_sender_and_audio_only) ... ok
+test_cancel_after_model_response_does_not_commit (test_runtime.Tests.test_cancel_after_model_response_does_not_commit) ... ok
+test_cancel_no_commit (test_runtime.Tests.test_cancel_no_commit) ... ok
+test_confirmed_restart_uses_new_request (test_runtime.Tests.test_confirmed_restart_uses_new_request) ... ok
+test_cross_procedure_requires_confirmation (test_runtime.Tests.test_cross_procedure_requires_confirmation) ... ok
+test_departure_clears_panel (test_runtime.Tests.test_departure_clears_panel) ... ok
+test_explicit_supporting_reference_preserves_main_scope (test_runtime.Tests.test_explicit_supporting_reference_preserves_main_scope) ... ok
+test_load_replaces_window (test_runtime.Tests.test_load_replaces_window) ... ok
+test_local_windows_no_grandchildren (test_runtime.Tests.test_local_windows_no_grandchildren) ... ok
+test_repeated_window_has_navigation_feedback (test_runtime.Tests.test_repeated_window_has_navigation_feedback) ... ok
+test_restart_discards_old_facts (test_runtime.Tests.test_restart_discards_old_facts) ... ok
+test_restart_without_prompt_cannot_reset (test_runtime.Tests.test_restart_without_prompt_cannot_reset) ... ok
+test_snapshot_isolation_and_stale_ack (test_runtime.Tests.test_snapshot_isolation_and_stale_ack) ... ok
+test_split_tcp_tts (test_runtime.Tests.test_split_tcp_tts) ... ok
+test_transport_failure_no_partial_state (test_runtime.Tests.test_transport_failure_no_partial_state) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.285s
+
+OK

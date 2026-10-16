@@ -1,0 +1,941 @@
+{
+  "case": "D06_fee",
+  "seed": {
+    "from": "D06",
+    "turn": 3,
+    "messages": [
+      "Vậy phí đăng ký bao nhiêu và bao lâu có kết quả?",
+      "Tôi nộp trực tiếp tại phường Long Nguyên, địa bàn Bình Dương cũ."
+    ]
+  },
+  "initial_snapshot": {
+    "meta_hash": "d7d1f34f4ba62baa3559dbc377410098b22c446f4f24fa144e1ca2f112edb812",
+    "session_id": "D06_fee",
+    "nodes": [
+      "P24.NEW"
+    ],
+    "state": {
+      "facts": [
+        {
+          "key": "hkd_nop_ho_so",
+          "value": "Tự nộp hồ sơ",
+          "evidence": "Tôi tự nộp.",
+          "node_id": "P24.N001.N002"
+        },
+        {
+          "key": "hkd_thanh_vien_gop_von",
+          "value": "Cả hai vợ chồng cùng góp vốn/tham gia thành lập; chọn vợ làm chủ",
+          "evidence": "cả hai vợ chồng cùng góp vốn thành lập, chỉ chọn tôi làm chủ thôi nhé.",
+          "node_id": "P24.NEW"
+        }
+      ],
+      "path": [
+        "P24",
+        "P24.NEW",
+        "P24.C02"
+      ],
+      "summary": "Đăng ký thành lập hộ kinh doanh mới; người hỏi tự nộp hồ sơ; vợ chồng cùng góp vốn/tham gia thành lập và chọn vợ làm chủ. Áp dụng nhánh: đăng ký mới do các thành viên hộ gia đình thành lập (P24.C02).",
+      "pending_switch": ""
+    },
+    "last_response": {
+      "mode": "answer",
+      "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+      "information": {
+        "title": "Thành lập hộ kinh doanh mới (vợ chồng cùng góp vốn; chọn 1 người làm chủ; bạn tự đi nộp)",
+        "sections": [
+          {
+            "title": "Hồ sơ cần chuẩn bị",
+            "items": [
+              "Giấy đề nghị đăng ký hộ kinh doanh.",
+              "Bản sao văn bản các thành viên hộ gia đình ủy quyền cho một thành viên làm chủ hộ (trường hợp vợ chồng cùng tham gia thành lập nhưng chọn bạn làm chủ): văn bản này phải được công chứng hoặc chứng thực."
+            ]
+          },
+          {
+            "title": "Lưu ý quan trọng",
+            "items": [
+              "Văn bản ủy quyền nêu trên là ủy quyền để làm chủ hộ kinh doanh (khác với việc ủy quyền/nhờ người khác đi nộp hồ sơ)."
+            ]
+          }
+        ],
+        "options": []
+      }
+    },
+    "revision": 3,
+    "last_spoken": ""
+  },
+  "turns": [
+    {
+      "user": "Vậy phí đăng ký bao nhiêu và bao lâu có kết quả?",
+      "response": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "hkd_nop_ho_so",
+              "value": "Tự nộp hồ sơ",
+              "evidence": "Tôi tự nộp.",
+              "node_id": "P24.N001.N002"
+            },
+            {
+              "key": "hkd_thanh_vien_gop_von",
+              "value": "Cả hai vợ chồng cùng góp vốn/tham gia thành lập; chọn vợ làm chủ",
+              "evidence": "cả hai vợ chồng cùng góp vốn thành lập, chỉ chọn tôi làm chủ thôi nhé.",
+              "node_id": "P24.NEW"
+            }
+          ],
+          "path": [
+            "P24",
+            "P24.NEW",
+            "P24.C02"
+          ],
+          "summary": "Đăng ký thành lập hộ kinh doanh mới; người hỏi tự nộp hồ sơ; vợ chồng cùng góp vốn/tham gia thành lập và chọn vợ làm chủ. Đã có thông tin phí và nội dung điều kiện cấp trong nhánh P24.N001.N003.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Phí và thời hạn/kết quả – Đăng ký thành lập hộ kinh doanh mới",
+          "sections": [
+            {
+              "title": "Lệ phí",
+              "items": [
+                "Tại địa bàn Bình Dương (trước sắp xếp): nộp trực tiếp 100.000 đồng/lần.",
+                "Nộp trực tuyến: 0 đồng.",
+                "Lưu ý: hồ sơ cần “nộp đủ lệ phí” là một trong các điều kiện để được cấp."
+              ]
+            },
+            {
+              "title": "Thời hạn giải quyết",
+              "items": [
+                "Nguồn hiện có chưa nêu rõ số ngày trả kết quả/giải quyết hồ sơ."
+              ]
+            },
+            {
+              "title": "Kết quả và điều kiện cấp",
+              "items": [
+                "Điều kiện cấp gồm: tên hộ kinh doanh hợp lệ; ngành nghề không bị cấm; hồ sơ hợp lệ; và đã nộp đủ lệ phí.",
+                "Giấy chứng nhận không có kỳ gia hạn."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P24.N001.N003#0"
+        ],
+        "revision": 4,
+        "session_id": "D06_fee"
+      },
+      "seconds": 9.998207001997798,
+      "event_start": 0,
+      "event_count": 2
+    },
+    {
+      "user": "Tôi nộp trực tiếp tại phường Long Nguyên, địa bàn Bình Dương cũ.",
+      "response": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "hkd_nop_ho_so",
+              "value": "Tự nộp hồ sơ",
+              "evidence": "Tôi tự nộp.",
+              "node_id": "P24.N001.N002"
+            },
+            {
+              "key": "hkd_thanh_vien_gop_von",
+              "value": "Cả hai vợ chồng cùng góp vốn/tham gia thành lập; chọn vợ làm chủ",
+              "evidence": "cả hai vợ chồng cùng góp vốn thành lập, chỉ chọn tôi làm chủ thôi nhé.",
+              "node_id": "P24.NEW"
+            },
+            {
+              "key": "noi_nop",
+              "value": "Nộp trực tiếp tại phường Long Nguyên (địa bàn Bình Dương cũ)",
+              "evidence": "Tôi nộp trực tiếp tại phường Long Nguyên, địa bàn Bình Dương cũ.",
+              "node_id": "P24.N001.N002"
+            }
+          ],
+          "path": [
+            "P24",
+            "P24.NEW",
+            "P24.C02"
+          ],
+          "summary": "Đăng ký thành lập hộ kinh doanh mới; người hỏi tự nộp hồ sơ và nộp trực tiếp tại phường Long Nguyên (địa bàn Bình Dương cũ); vợ chồng cùng góp vốn/tham gia thành lập và chọn vợ làm chủ. Đang tra cứu phí/thời hạn/kết quả và điều kiện cấp theo nhánh đăng ký mới.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Nộp trực tiếp tại phường Long Nguyên (địa bàn Bình Dương cũ) – Phí/điều kiện liên quan",
+          "sections": [
+            {
+              "title": "Nơi nộp/tiếp nhận (theo nguồn hiện có)",
+              "items": [
+                "Nộp hồ sơ tại Trung tâm phục vụ hành chính công hoặc nộp trực tuyến trên Cổng dịch vụ công quốc gia; cơ quan đăng ký kinh doanh cấp xã nơi đặt trụ sở là nơi giải quyết."
+              ]
+            },
+            {
+              "title": "Lệ phí áp dụng khi nộp trực tiếp (địa bàn Bình Dương trước sắp xếp)",
+              "items": [
+                "Đăng ký mới hộ kinh doanh: 100.000 đồng/lần (nộp trực tiếp)."
+              ]
+            },
+            {
+              "title": "Điều kiện cấp có nhắc tới lệ phí",
+              "items": [
+                "Một trong các điều kiện để được cấp là: “nộp đủ lệ phí” (cùng với tên hợp lệ, ngành nghề không bị cấm, hồ sơ hợp lệ)."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P24.N001.N002#0",
+          "P24.N001.N003#0"
+        ],
+        "revision": 5,
+        "session_id": "D06_fee"
+      },
+      "seconds": 6.710086020000745,
+      "event_start": 2,
+      "event_count": 1
+    }
+  ],
+  "events": [
+    {
+      "call": 1,
+      "payload": {
+        "user_text": "Vậy phí đăng ký bao nhiêu và bao lâu có kết quả?",
+        "state": {
+          "facts": [
+            {
+              "key": "hkd_nop_ho_so",
+              "value": "Tự nộp hồ sơ",
+              "evidence": "Tôi tự nộp.",
+              "node_id": "P24.N001.N002"
+            },
+            {
+              "key": "hkd_thanh_vien_gop_von",
+              "value": "Cả hai vợ chồng cùng góp vốn/tham gia thành lập; chọn vợ làm chủ",
+              "evidence": "cả hai vợ chồng cùng góp vốn thành lập, chỉ chọn tôi làm chủ thôi nhé.",
+              "node_id": "P24.NEW"
+            }
+          ],
+          "path": [
+            "P24",
+            "P24.NEW",
+            "P24.C02"
+          ],
+          "summary": "Đăng ký thành lập hộ kinh doanh mới; người hỏi tự nộp hồ sơ; vợ chồng cùng góp vốn/tham gia thành lập và chọn vợ làm chủ. Áp dụng nhánh: đăng ký mới do các thành viên hộ gia đình thành lập (P24.C02).",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "answer",
+          "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+          "information": {
+            "title": "Thành lập hộ kinh doanh mới (vợ chồng cùng góp vốn; chọn 1 người làm chủ; bạn tự đi nộp)",
+            "sections": [
+              {
+                "title": "Hồ sơ cần chuẩn bị",
+                "items": [
+                  "Giấy đề nghị đăng ký hộ kinh doanh.",
+                  "Bản sao văn bản các thành viên hộ gia đình ủy quyền cho một thành viên làm chủ hộ (trường hợp vợ chồng cùng tham gia thành lập nhưng chọn bạn làm chủ): văn bản này phải được công chứng hoặc chứng thực."
+                ]
+              },
+              {
+                "title": "Lưu ý quan trọng",
+                "items": [
+                  "Văn bản ủy quyền nêu trên là ủy quyền để làm chủ hộ kinh doanh (khác với việc ủy quyền/nhờ người khác đi nộp hồ sơ)."
+                ]
+              }
+            ],
+            "options": []
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P24.NEW",
+              "title": "Thành lập hộ kinh doanh mới",
+              "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+              "kind": "shared_ancestor",
+              "children_count": 2,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P24.NEW#0",
+                  "text": "Trong 3 ngày làm việc từ ngày nhận hồ sơ, cấp giấy chứng nhận nếu đủ điều kiện hoặc thông báo lý do, nội dung cần bổ sung.",
+                  "topics": [
+                    "ho_so",
+                    "thoi_gian",
+                    "ket_qua",
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P24.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P24.C01",
+                "title": "Đăng ký mới do một cá nhân thành lập",
+                "condition": "Đăng ký mới do một cá nhân thành lập",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P24"
+                ],
+                "blocks": [
+                  {
+                    "id": "P24.C01#0",
+                    "text": "Hồ sơ gồm giấy đề nghị đăng ký hộ kinh doanh do cá nhân thành lập ký. Không yêu cầu văn bản họp gia đình/ủy quyền gia đình khi chỉ một cá nhân thành lập. Thực hiện kiểm tra nhân thân, người nộp và ngành nghề theo phần chung P24. Kết quả, thời hạn và lệ phí theo P24.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P24.C02",
+                "title": "Đăng ký mới do các thành viên hộ gia đình thành lập",
+                "condition": "Đăng ký mới do các thành viên hộ gia đình thành lập",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P24"
+                ],
+                "blocks": [
+                  {
+                    "id": "P24.C02#0",
+                    "text": "Hồ sơ gồm giấy đề nghị đăng ký hộ kinh doanh và bản sao văn bản các thành viên hộ gia đình ủy quyền cho một thành viên làm chủ hộ, được công chứng hoặc chứng thực. Đây là ủy quyền làm chủ, khác ủy quyền đi nộp hồ sơ; nếu nhờ người ngoài đi nộp thì bổ sung giấy tờ nộp thay riêng. Các thành viên chịu trách nhiệm bằng tài sản của mình theo quy định. Kết quả, thời hạn, lệ phí theo P24.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "navigation_error": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3175,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 239,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3414
+      },
+      "response_id": "resp_0084488901f02e86016ad1630b319487d080226a50c1f0807e",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P24.N001"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "hkd_nop_ho_so",
+              "value": "Tự nộp hồ sơ",
+              "evidence": "Tôi tự nộp.",
+              "node_id": "P24.N001.N002"
+            },
+            {
+              "key": "hkd_thanh_vien_gop_von",
+              "value": "Cả hai vợ chồng cùng góp vốn/tham gia thành lập; chọn vợ làm chủ",
+              "evidence": "cả hai vợ chồng cùng góp vốn thành lập, chỉ chọn tôi làm chủ thôi nhé.",
+              "node_id": "P24.NEW"
+            }
+          ],
+          "path": [
+            "P24",
+            "P24.NEW",
+            "P24.C02"
+          ],
+          "summary": "Đăng ký thành lập hộ kinh doanh mới; người hỏi tự nộp hồ sơ; vợ chồng cùng góp vốn/tham gia thành lập và chọn vợ làm chủ. Cần tra quy định theo điều kiện (P24.N001) để trả lời phí.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 3.8115198770028655
+    },
+    {
+      "call": 2,
+      "payload": {
+        "user_text": "Vậy phí đăng ký bao nhiêu và bao lâu có kết quả?",
+        "state": {
+          "facts": [
+            {
+              "key": "hkd_nop_ho_so",
+              "value": "Tự nộp hồ sơ",
+              "evidence": "Tôi tự nộp.",
+              "node_id": "P24.N001.N002"
+            },
+            {
+              "key": "hkd_thanh_vien_gop_von",
+              "value": "Cả hai vợ chồng cùng góp vốn/tham gia thành lập; chọn vợ làm chủ",
+              "evidence": "cả hai vợ chồng cùng góp vốn thành lập, chỉ chọn tôi làm chủ thôi nhé.",
+              "node_id": "P24.NEW"
+            }
+          ],
+          "path": [
+            "P24",
+            "P24.NEW",
+            "P24.C02"
+          ],
+          "summary": "Đăng ký thành lập hộ kinh doanh mới; người hỏi tự nộp hồ sơ; vợ chồng cùng góp vốn/tham gia thành lập và chọn vợ làm chủ. Cần tra quy định theo điều kiện (P24.N001) để trả lời phí.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "answer",
+          "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+          "information": {
+            "title": "Thành lập hộ kinh doanh mới (vợ chồng cùng góp vốn; chọn 1 người làm chủ; bạn tự đi nộp)",
+            "sections": [
+              {
+                "title": "Hồ sơ cần chuẩn bị",
+                "items": [
+                  "Giấy đề nghị đăng ký hộ kinh doanh.",
+                  "Bản sao văn bản các thành viên hộ gia đình ủy quyền cho một thành viên làm chủ hộ (trường hợp vợ chồng cùng tham gia thành lập nhưng chọn bạn làm chủ): văn bản này phải được công chứng hoặc chứng thực."
+                ]
+              },
+              {
+                "title": "Lưu ý quan trọng",
+                "items": [
+                  "Văn bản ủy quyền nêu trên là ủy quyền để làm chủ hộ kinh doanh (khác với việc ủy quyền/nhờ người khác đi nộp hồ sơ)."
+                ]
+              }
+            ],
+            "options": []
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P24.N001",
+              "title": "Quy định theo điều kiện áp dụng",
+              "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+              "kind": "conditional_rules",
+              "children_count": 3,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P24.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P24.N001.N001",
+                "title": "Điều kiện thành lập hộ kinh doanh",
+                "condition": "Đề nghị đăng ký mới",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P24.N001.N001#0",
+                    "text": "Công dân Việt Nam có năng lực hành vi dân sự đầy đủ được thành lập, trừ người chưa thành niên, bị hạn chế/mất năng lực hoặc khó khăn nhận thức, đang bị truy cứu trách nhiệm hình sự, tạm giam, chấp hành hình phạt tù hoặc các biện pháp xử lý/cấm hành nghề theo luật. Một cá nhân/thành viên hộ gia đình chỉ đăng ký một hộ kinh doanh trên phạm vi cả nước. Không dùng thủ tục này cho người nước ngoài hoặc pháp nhân. Một hộ có thể có nhiều địa điểm nhưng phải thực hiện quản lý thuế và thông báo địa điểm theo quy định.",
+                    "topics": [
+                      "chi_phi",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P24.N001.N002",
+                "title": "Nộp hồ sơ đăng ký mới",
+                "condition": "Đăng ký hộ mới; chọn người nộp/kênh",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P25.M01"
+                ],
+                "blocks": [
+                  {
+                    "id": "P24.N001.N002#0",
+                    "text": "Nộp bộ hồ sơ tại Trung tâm phục vụ hành chính công hoặc trực tuyến trên Cổng dịch vụ công quốc gia, do cơ quan đăng ký kinh doanh cấp xã nơi đặt trụ sở giải quyết. Kê khai số định danh để đối chiếu dữ liệu; khi không kết nối được mới thực hiện đối chiếu giấy tờ pháp lý cá nhân theo hướng dẫn hệ thống. Hồ sơ điện tử phải đầy đủ, thống nhất với bản giấy và được ký số/ký xác thực điện tử đúng người có quyền; giấy tờ ủy quyền nộp thay theo P25.M01–M04.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P24.N001.N003",
+                "title": "Thời hạn, phí và kết quả đăng ký mới",
+                "condition": "Đăng ký mới, không phải thay đổi/cấp lại/chấm dứt",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P24.N001.N003#0",
+                    "text": "Tên hợp lệ, ngành nghề không bị cấm, hồ sơ hợp lệ và nộp đủ lệ phí là điều kiện cấp. Tại địa bàn Bình Dương trước sắp xếp: đăng ký mới trực tiếp 100.000 đồng/lần; trực tuyến 0 đồng. Giấy chứng nhận không có kỳ gia hạn; không thay giấy phép ngành nghề có điều kiện, chứng nhận ATTP hoặc nghĩa vụ thuế, BHXH. Dùng biểu mẫu đăng ký hộ kinh doanh hiện hành trên Cổng tại ngày nộp, không tái dùng mẫu của Nghị định 01/2021.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "navigation_error": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3408,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 451,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3859
+      },
+      "response_id": "resp_0793026f8e4044e5016ad1630efb9487d0b58411c21ad16953",
+      "decision": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "hkd_nop_ho_so",
+              "value": "Tự nộp hồ sơ",
+              "evidence": "Tôi tự nộp.",
+              "node_id": "P24.N001.N002"
+            },
+            {
+              "key": "hkd_thanh_vien_gop_von",
+              "value": "Cả hai vợ chồng cùng góp vốn/tham gia thành lập; chọn vợ làm chủ",
+              "evidence": "cả hai vợ chồng cùng góp vốn thành lập, chỉ chọn tôi làm chủ thôi nhé.",
+              "node_id": "P24.NEW"
+            }
+          ],
+          "path": [
+            "P24",
+            "P24.NEW",
+            "P24.C02"
+          ],
+          "summary": "Đăng ký thành lập hộ kinh doanh mới; người hỏi tự nộp hồ sơ; vợ chồng cùng góp vốn/tham gia thành lập và chọn vợ làm chủ. Đã có thông tin phí và nội dung điều kiện cấp trong nhánh P24.N001.N003.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Phí và thời hạn/kết quả – Đăng ký thành lập hộ kinh doanh mới",
+          "sections": [
+            {
+              "title": "Lệ phí",
+              "items": [
+                "Tại địa bàn Bình Dương (trước sắp xếp): nộp trực tiếp 100.000 đồng/lần.",
+                "Nộp trực tuyến: 0 đồng.",
+                "Lưu ý: hồ sơ cần “nộp đủ lệ phí” là một trong các điều kiện để được cấp."
+              ]
+            },
+            {
+              "title": "Thời hạn giải quyết",
+              "items": [
+                "Nguồn hiện có chưa nêu rõ số ngày trả kết quả/giải quyết hồ sơ."
+              ]
+            },
+            {
+              "title": "Kết quả và điều kiện cấp",
+              "items": [
+                "Điều kiện cấp gồm: tên hộ kinh doanh hợp lệ; ngành nghề không bị cấm; hồ sơ hợp lệ; và đã nộp đủ lệ phí.",
+                "Giấy chứng nhận không có kỳ gia hạn."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P24.N001.N003#0"
+        ]
+      },
+      "seconds": 6.186300775996642
+    },
+    {
+      "call": 3,
+      "payload": {
+        "user_text": "Tôi nộp trực tiếp tại phường Long Nguyên, địa bàn Bình Dương cũ.",
+        "state": {
+          "facts": [
+            {
+              "key": "hkd_nop_ho_so",
+              "value": "Tự nộp hồ sơ",
+              "evidence": "Tôi tự nộp.",
+              "node_id": "P24.N001.N002"
+            },
+            {
+              "key": "hkd_thanh_vien_gop_von",
+              "value": "Cả hai vợ chồng cùng góp vốn/tham gia thành lập; chọn vợ làm chủ",
+              "evidence": "cả hai vợ chồng cùng góp vốn thành lập, chỉ chọn tôi làm chủ thôi nhé.",
+              "node_id": "P24.NEW"
+            }
+          ],
+          "path": [
+            "P24",
+            "P24.NEW",
+            "P24.C02"
+          ],
+          "summary": "Đăng ký thành lập hộ kinh doanh mới; người hỏi tự nộp hồ sơ; vợ chồng cùng góp vốn/tham gia thành lập và chọn vợ làm chủ. Đã có thông tin phí và nội dung điều kiện cấp trong nhánh P24.N001.N003.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "answer",
+          "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+          "information": {
+            "title": "Phí và thời hạn/kết quả – Đăng ký thành lập hộ kinh doanh mới",
+            "sections": [
+              {
+                "title": "Lệ phí",
+                "items": [
+                  "Tại địa bàn Bình Dương (trước sắp xếp): nộp trực tiếp 100.000 đồng/lần.",
+                  "Nộp trực tuyến: 0 đồng.",
+                  "Lưu ý: hồ sơ cần “nộp đủ lệ phí” là một trong các điều kiện để được cấp."
+                ]
+              },
+              {
+                "title": "Thời hạn giải quyết",
+                "items": [
+                  "Nguồn hiện có chưa nêu rõ số ngày trả kết quả/giải quyết hồ sơ."
+                ]
+              },
+              {
+                "title": "Kết quả và điều kiện cấp",
+                "items": [
+                  "Điều kiện cấp gồm: tên hộ kinh doanh hợp lệ; ngành nghề không bị cấm; hồ sơ hợp lệ; và đã nộp đủ lệ phí.",
+                  "Giấy chứng nhận không có kỳ gia hạn."
+                ]
+              }
+            ],
+            "options": []
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P24.N001",
+              "title": "Quy định theo điều kiện áp dụng",
+              "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+              "kind": "conditional_rules",
+              "children_count": 3,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P24.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P24.N001.N001",
+                "title": "Điều kiện thành lập hộ kinh doanh",
+                "condition": "Đề nghị đăng ký mới",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P24.N001.N001#0",
+                    "text": "Công dân Việt Nam có năng lực hành vi dân sự đầy đủ được thành lập, trừ người chưa thành niên, bị hạn chế/mất năng lực hoặc khó khăn nhận thức, đang bị truy cứu trách nhiệm hình sự, tạm giam, chấp hành hình phạt tù hoặc các biện pháp xử lý/cấm hành nghề theo luật. Một cá nhân/thành viên hộ gia đình chỉ đăng ký một hộ kinh doanh trên phạm vi cả nước. Không dùng thủ tục này cho người nước ngoài hoặc pháp nhân. Một hộ có thể có nhiều địa điểm nhưng phải thực hiện quản lý thuế và thông báo địa điểm theo quy định.",
+                    "topics": [
+                      "chi_phi",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P24.N001.N002",
+                "title": "Nộp hồ sơ đăng ký mới",
+                "condition": "Đăng ký hộ mới; chọn người nộp/kênh",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P25.M01"
+                ],
+                "blocks": [
+                  {
+                    "id": "P24.N001.N002#0",
+                    "text": "Nộp bộ hồ sơ tại Trung tâm phục vụ hành chính công hoặc trực tuyến trên Cổng dịch vụ công quốc gia, do cơ quan đăng ký kinh doanh cấp xã nơi đặt trụ sở giải quyết. Kê khai số định danh để đối chiếu dữ liệu; khi không kết nối được mới thực hiện đối chiếu giấy tờ pháp lý cá nhân theo hướng dẫn hệ thống. Hồ sơ điện tử phải đầy đủ, thống nhất với bản giấy và được ký số/ký xác thực điện tử đúng người có quyền; giấy tờ ủy quyền nộp thay theo P25.M01–M04.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P24.N001.N003",
+                "title": "Thời hạn, phí và kết quả đăng ký mới",
+                "condition": "Đăng ký mới, không phải thay đổi/cấp lại/chấm dứt",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P24.N001.N003#0",
+                    "text": "Tên hợp lệ, ngành nghề không bị cấm, hồ sơ hợp lệ và nộp đủ lệ phí là điều kiện cấp. Tại địa bàn Bình Dương trước sắp xếp: đăng ký mới trực tiếp 100.000 đồng/lần; trực tuyến 0 đồng. Giấy chứng nhận không có kỳ gia hạn; không thay giấy phép ngành nghề có điều kiện, chứng nhận ATTP hoặc nghĩa vụ thuế, BHXH. Dùng biểu mẫu đăng ký hộ kinh doanh hiện hành trên Cổng tại ngày nộp, không tái dùng mẫu của Nghị định 01/2021.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "navigation_error": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3443,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 573,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4016
+      },
+      "response_id": "resp_0cb6fe655d680542016ad16315273887d0bcf476dd73cb26dc",
+      "decision": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "hkd_nop_ho_so",
+              "value": "Tự nộp hồ sơ",
+              "evidence": "Tôi tự nộp.",
+              "node_id": "P24.N001.N002"
+            },
+            {
+              "key": "hkd_thanh_vien_gop_von",
+              "value": "Cả hai vợ chồng cùng góp vốn/tham gia thành lập; chọn vợ làm chủ",
+              "evidence": "cả hai vợ chồng cùng góp vốn thành lập, chỉ chọn tôi làm chủ thôi nhé.",
+              "node_id": "P24.NEW"
+            },
+            {
+              "key": "noi_nop",
+              "value": "Nộp trực tiếp tại phường Long Nguyên (địa bàn Bình Dương cũ)",
+              "evidence": "Tôi nộp trực tiếp tại phường Long Nguyên, địa bàn Bình Dương cũ.",
+              "node_id": "P24.N001.N002"
+            }
+          ],
+          "path": [
+            "P24",
+            "P24.NEW",
+            "P24.C02"
+          ],
+          "summary": "Đăng ký thành lập hộ kinh doanh mới; người hỏi tự nộp hồ sơ và nộp trực tiếp tại phường Long Nguyên (địa bàn Bình Dương cũ); vợ chồng cùng góp vốn/tham gia thành lập và chọn vợ làm chủ. Đang tra cứu phí/thời hạn/kết quả và điều kiện cấp theo nhánh đăng ký mới.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Nộp trực tiếp tại phường Long Nguyên (địa bàn Bình Dương cũ) – Phí/điều kiện liên quan",
+          "sections": [
+            {
+              "title": "Nơi nộp/tiếp nhận (theo nguồn hiện có)",
+              "items": [
+                "Nộp hồ sơ tại Trung tâm phục vụ hành chính công hoặc nộp trực tuyến trên Cổng dịch vụ công quốc gia; cơ quan đăng ký kinh doanh cấp xã nơi đặt trụ sở là nơi giải quyết."
+              ]
+            },
+            {
+              "title": "Lệ phí áp dụng khi nộp trực tiếp (địa bàn Bình Dương trước sắp xếp)",
+              "items": [
+                "Đăng ký mới hộ kinh doanh: 100.000 đồng/lần (nộp trực tiếp)."
+              ]
+            },
+            {
+              "title": "Điều kiện cấp có nhắc tới lệ phí",
+              "items": [
+                "Một trong các điều kiện để được cấp là: “nộp đủ lệ phí” (cùng với tên hợp lệ, ngành nghề không bị cấm, hồ sơ hợp lệ)."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P24.N001.N002#0",
+          "P24.N001.N003#0"
+        ]
+      },
+      "seconds": 6.7099301790003665
+    }
+  ],
+  "snapshot": {
+    "meta_hash": "d7d1f34f4ba62baa3559dbc377410098b22c446f4f24fa144e1ca2f112edb812",
+    "session_id": "D06_fee",
+    "nodes": [
+      "P24.N001"
+    ],
+    "state": {
+      "facts": [
+        {
+          "key": "hkd_nop_ho_so",
+          "value": "Tự nộp hồ sơ",
+          "evidence": "Tôi tự nộp.",
+          "node_id": "P24.N001.N002"
+        },
+        {
+          "key": "hkd_thanh_vien_gop_von",
+          "value": "Cả hai vợ chồng cùng góp vốn/tham gia thành lập; chọn vợ làm chủ",
+          "evidence": "cả hai vợ chồng cùng góp vốn thành lập, chỉ chọn tôi làm chủ thôi nhé.",
+          "node_id": "P24.NEW"
+        },
+        {
+          "key": "noi_nop",
+          "value": "Nộp trực tiếp tại phường Long Nguyên (địa bàn Bình Dương cũ)",
+          "evidence": "Tôi nộp trực tiếp tại phường Long Nguyên, địa bàn Bình Dương cũ.",
+          "node_id": "P24.N001.N002"
+        }
+      ],
+      "path": [
+        "P24",
+        "P24.NEW",
+        "P24.C02"
+      ],
+      "summary": "Đăng ký thành lập hộ kinh doanh mới; người hỏi tự nộp hồ sơ và nộp trực tiếp tại phường Long Nguyên (địa bàn Bình Dương cũ); vợ chồng cùng góp vốn/tham gia thành lập và chọn vợ làm chủ. Đang tra cứu phí/thời hạn/kết quả và điều kiện cấp theo nhánh đăng ký mới.",
+      "pending_switch": ""
+    },
+    "last_response": {
+      "mode": "answer",
+      "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+      "information": {
+        "title": "Nộp trực tiếp tại phường Long Nguyên (địa bàn Bình Dương cũ) – Phí/điều kiện liên quan",
+        "sections": [
+          {
+            "title": "Nơi nộp/tiếp nhận (theo nguồn hiện có)",
+            "items": [
+              "Nộp hồ sơ tại Trung tâm phục vụ hành chính công hoặc nộp trực tuyến trên Cổng dịch vụ công quốc gia; cơ quan đăng ký kinh doanh cấp xã nơi đặt trụ sở là nơi giải quyết."
+            ]
+          },
+          {
+            "title": "Lệ phí áp dụng khi nộp trực tiếp (địa bàn Bình Dương trước sắp xếp)",
+            "items": [
+              "Đăng ký mới hộ kinh doanh: 100.000 đồng/lần (nộp trực tiếp)."
+            ]
+          },
+          {
+            "title": "Điều kiện cấp có nhắc tới lệ phí",
+            "items": [
+              "Một trong các điều kiện để được cấp là: “nộp đủ lệ phí” (cùng với tên hợp lệ, ngành nghề không bị cấm, hồ sơ hợp lệ)."
+            ]
+          }
+        ],
+        "options": []
+      }
+    },
+    "revision": 5,
+    "last_spoken": ""
+  },
+  "runtime_sha256": "6b66c54291f1152cf680983323539bdc2c3fa3a6fda9910b6651e2651cc7160f"
+}

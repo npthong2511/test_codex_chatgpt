@@ -1,0 +1,4121 @@
+{
+  "case": "D05",
+  "turns": [
+    {
+      "user": "Con tôi sinh ở nhà, không có giấy chứng sinh. Tôi muốn làm khai sinh.",
+      "response": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P01",
+            "P01.NEW"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu cho con sinh tại nhà, hiện chưa có giấy chứng sinh; cần xác định có người làm chứng hay không để xác định chứng cứ thay thế giấy chứng sinh.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị có người làm chứng xác nhận việc sinh của cháu không?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Có người làm chứng về việc sinh",
+              "node_ids": [
+                "P01.M01"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Không có người làm chứng",
+              "node_ids": [
+                "P01.M02"
+              ]
+            }
+          ]
+        },
+        "citations": [],
+        "revision": 1,
+        "session_id": "D05"
+      },
+      "seconds": 9.414169293995656,
+      "event_start": 0,
+      "event_count": 3
+    },
+    {
+      "user": "Có bà đỡ làm chứng.",
+      "response": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu; đã xác nhận không có giấy chứng sinh và có người làm chứng. Đang cần xác định nhánh áp dụng theo nơi sinh/yếu tố nước ngoài để chốt hồ sơ, nơi nộp, thời gian và lệ phí theo đúng điều kiện.",
+          "pending_switch": ""
+        },
+        "speech_text": "Cháu sinh tại Việt Nam hay sinh ở nước ngoài?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Sinh tại Việt Nam",
+              "node_ids": [
+                "P01.C01",
+                "P01.C02"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Sinh ở nước ngoài (chưa đăng ký ở nước ngoài, về cư trú tại Việt Nam)",
+              "node_ids": [
+                "P01.C03"
+              ]
+            }
+          ]
+        },
+        "citations": [],
+        "revision": 2,
+        "session_id": "D05"
+      },
+      "seconds": 23.119540931998927,
+      "event_start": 3,
+      "event_count": 7
+    },
+    {
+      "user": "Ở Việt Nam, vợ chồng tôi đều người Việt, đã đăng ký kết hôn. Bé chưa có khai sinh.",
+      "response": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            },
+            {
+              "key": "yeu_to_nuoc_ngoai",
+              "value": "Không có yếu tố nước ngoài (cả vợ chồng đều là người Việt)",
+              "evidence": "vợ chồng tôi đều người Việt",
+              "node_id": "P01.C01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.M01",
+            "P01.C01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu cho con; không có giấy chứng sinh nhưng có người làm chứng; cha mẹ đều là người Việt (không có yếu tố nước ngoài). Đang cần xác định nơi sinh (trong nước hay ngoài nước) để chốt đúng nhánh hồ sơ/nơi nộp/thời gian/lệ phí.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho biết bé sinh tại Việt Nam hay sinh ở nước ngoài?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Sinh tại Việt Nam",
+              "node_ids": [
+                "P01.C01"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Sinh ở nước ngoài (chưa đăng ký ở nước ngoài, về cư trú tại Việt Nam)",
+              "node_ids": [
+                "P01.C03"
+              ]
+            }
+          ]
+        },
+        "citations": [],
+        "revision": 3,
+        "session_id": "D05"
+      },
+      "seconds": 4.860725004997221,
+      "event_start": 10,
+      "event_count": 1
+    },
+    {
+      "user": "Bé sinh tại Việt Nam. Cho tôi xem hồ sơ cần nộp thôi.",
+      "response": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            },
+            {
+              "key": "yeu_to_nuoc_ngoai",
+              "value": "Không có yếu tố nước ngoài (cả vợ chồng đều là người Việt)",
+              "evidence": "vợ chồng tôi đều người Việt",
+              "node_id": "P01.C01"
+            },
+            {
+              "key": "noi_sinh",
+              "value": "Sinh tại Việt Nam",
+              "evidence": "Bé sinh tại Việt Nam.",
+              "node_id": "P01.C01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.C01",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu cho con; sinh tại Việt Nam; cha mẹ đều là người Việt (không yếu tố nước ngoài); không có giấy chứng sinh và có người làm chứng. Người dân yêu cầu xem hồ sơ cần nộp.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Hồ sơ cần nộp (Đăng ký khai sinh lần đầu)",
+          "sections": [
+            {
+              "title": "Giấy tờ/biểu mẫu",
+              "items": [
+                "Tờ khai đăng ký khai sinh (bản giấy hoặc biểu mẫu điện tử)."
+              ]
+            },
+            {
+              "title": "Chứng cứ về việc sinh (trường hợp: không có giấy chứng sinh và có người làm chứng)",
+              "items": [
+                "Văn bản người làm chứng xác nhận việc sinh (dùng thay giấy chứng sinh)."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P01.NEW#0",
+          "P01.M01#0"
+        ],
+        "revision": 4,
+        "session_id": "D05"
+      },
+      "seconds": 8.77994458899775,
+      "event_start": 11,
+      "event_count": 2
+    }
+  ],
+  "events": [
+    {
+      "call": 1,
+      "payload": {
+        "user_text": "Con tôi sinh ở nhà, không có giấy chứng sinh. Tôi muốn làm khai sinh.",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "ROOT",
+              "title": "Quy trình hành chính — cây tri thức 3.0",
+              "condition": "Yêu cầu thuộc một hoặc nhiều lĩnh vực trong bộ dữ liệu",
+              "kind": "root",
+              "children_count": 27,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P02",
+                "title": "Đăng ký khai tử",
+                "condition": "Nhu cầu liên quan: Đăng ký khai tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P04",
+                "title": "Đăng ký thường trú",
+                "condition": "Nhu cầu liên quan: Đăng ký thường trú",
+                "kind": "procedure",
+                "children_count": 9,
+                "related": []
+              },
+              {
+                "id": "P05",
+                "title": "Xác nhận tình trạng hôn nhân",
+                "condition": "Nhu cầu liên quan: Xác nhận tình trạng hôn nhân",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P06",
+                "title": "Đăng ký tạm trú",
+                "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P07",
+                "title": "Xác nhận và điều chỉnh thông tin cư trú",
+                "condition": "Nhu cầu liên quan: Xác nhận và điều chỉnh thông tin cư trú",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P09",
+                "title": "Đăng ký biến động đất đai",
+                "condition": "Nhu cầu liên quan: Đăng ký biến động đất đai",
+                "kind": "procedure",
+                "children_count": 15,
+                "related": []
+              },
+              {
+                "id": "P10",
+                "title": "Cấp giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Cấp giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P11",
+                "title": "Đổi giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Đổi giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P12",
+                "title": "Chuyển nhượng quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Chuyển nhượng quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P13",
+                "title": "Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "condition": "Nhu cầu liên quan: Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P15",
+                "title": "Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "condition": "Nhu cầu liên quan: Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P16",
+                "title": "Hỗ trợ đào tạo nghề",
+                "condition": "Nhu cầu liên quan: Hỗ trợ đào tạo nghề",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P17",
+                "title": "Hỗ trợ người bị tai nạn lao động",
+                "condition": "Nhu cầu liên quan: Hỗ trợ người bị tai nạn lao động",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P19",
+                "title": "Tín dụng chính sách NHCSXH",
+                "condition": "Nhu cầu liên quan: Tín dụng chính sách NHCSXH",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P20",
+                "title": "Chế độ thương binh",
+                "condition": "Nhu cầu liên quan: Chế độ thương binh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P21",
+                "title": "Chế độ thờ cúng liệt sĩ",
+                "condition": "Nhu cầu liên quan: Chế độ thờ cúng liệt sĩ",
+                "kind": "procedure",
+                "children_count": 7,
+                "related": []
+              },
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P25",
+                "title": "Thay đổi nội dung đăng ký hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Thay đổi nội dung đăng ký hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 10,
+                "related": []
+              },
+              {
+                "id": "P26",
+                "title": "Chấm dứt hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Chấm dứt hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P27",
+                "title": "Khiếu nại - Phản ánh - Kiến nghị",
+                "condition": "Nhu cầu liên quan: Khiếu nại - Phản ánh - Kiến nghị",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3143,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 82,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3225
+      },
+      "response_id": "resp_065bd3934a409571016ad161950cac87d0b1a288371b684ebc",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P01"
+        ],
+        "state": {
+          "facts": [],
+          "path": [
+            "P01"
+          ],
+          "summary": "Người dân muốn đăng ký khai sinh cho con sinh tại nhà, không có giấy chứng sinh.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 2.0269770359955146
+    },
+    {
+      "call": 2,
+      "payload": {
+        "user_text": "Con tôi sinh ở nhà, không có giấy chứng sinh. Tôi muốn làm khai sinh.",
+        "state": {
+          "facts": [],
+          "path": [
+            "P01"
+          ],
+          "summary": "Người dân muốn đăng ký khai sinh cho con sinh tại nhà, không có giấy chứng sinh.",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P01",
+              "title": "Đăng ký khai sinh",
+              "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+              "kind": "procedure",
+              "children_count": 3,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.R01",
+                "title": "Trích lục, sửa hộ tịch, đăng ký lại và các tình huống khai sinh khác",
+                "condition": "Cần trích lục, đăng ký lại, cải chính, bổ sung, ghi chú hoặc khai sinh cho người đã có hồ sơ cá nhân",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 3,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2125,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 216,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2341
+      },
+      "response_id": "resp_0118611fbc8ea53d016ad16197101087d0b343f6156d3e4a2a",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P01.NEW"
+        ],
+        "state": {
+          "facts": [],
+          "path": [
+            "P01",
+            "P01.NEW"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu cho con sinh tại nhà, hiện chưa có giấy chứng sinh.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho biết hiện có loại chứng cứ nào để chứng minh việc sinh của cháu?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Không có giấy chứng sinh nhưng có văn bản xác nhận của người làm chứng về việc sinh",
+              "node_ids": [
+                "P01.NEW"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Không có giấy chứng sinh và cũng không có người làm chứng; cần làm giấy cam đoan về việc sinh",
+              "node_ids": [
+                "P01.NEW"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Có giấy tờ khác của cơ sở y tế (không phải giấy chứng sinh) ghi nhận việc sinh",
+              "node_ids": [
+                "P01.NEW"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 4.279173126000387
+    },
+    {
+      "call": 3,
+      "payload": {
+        "user_text": "Con tôi sinh ở nhà, không có giấy chứng sinh. Tôi muốn làm khai sinh.",
+        "state": {
+          "facts": [],
+          "path": [
+            "P01",
+            "P01.NEW"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu cho con sinh tại nhà, hiện chưa có giấy chứng sinh.",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P01.NEW",
+              "title": "Đăng ký khai sinh lần đầu",
+              "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+              "kind": "shared_ancestor",
+              "children_count": 8,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P01.NEW#0",
+                  "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                  "topics": [
+                    "ho_so"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C01",
+                "title": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.C02",
+                "title": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.C03",
+                "title": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+                "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.M01",
+                "title": "Không có giấy chứng sinh; có người làm chứng",
+                "condition": "Không có giấy chứng sinh; có người làm chứng",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P01.C01",
+                  "P01.C02",
+                  "P01.C03"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.M01#0",
+                    "text": "Bật khi không có giấy chứng sinh và có người làm chứng về việc sinh: dùng văn bản người làm chứng xác nhận việc sinh thay giấy chứng sinh. Không đồng thời yêu cầu cam đoan không có người làm chứng. Kế thừa thẩm quyền, thời gian, phí và kết quả của C01–C03 đang áp dụng.",
+                    "topics": [
+                      "chi_phi",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.M02",
+                "title": "Không có giấy chứng sinh và không có người làm chứng",
+                "condition": "Không có giấy chứng sinh và không có người làm chứng",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.M02#0",
+                    "text": "Bật khi không có giấy chứng sinh và không có người làm chứng: dùng giấy cam đoan về việc sinh của người đi đăng ký. Người cam đoan chịu trách nhiệm nội dung. Kế thừa nhánh chính; không áp giấy cam đoan này cho khai tử.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.M03",
+                "title": "Trẻ bị bỏ rơi",
+                "condition": "Trẻ bị bỏ rơi",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.M04",
+                "title": "Sinh do mang thai hộ",
+                "condition": "Sinh do mang thai hộ",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.M04#0",
+                    "text": "Bật khi sinh do mang thai hộ vì mục đích nhân đạo: ngoài giấy chứng sinh, dùng văn bản xác nhận của cơ sở y tế đã thực hiện kỹ thuật hỗ trợ sinh sản về việc mang thai hộ. Cha mẹ pháp lý là bên nhờ mang thai hộ theo quy định; không tự ghi người mang thai hộ là mẹ trong khai sinh. Kế thừa nhánh chính về nơi nộp, thời gian và phí.",
+                    "topics": [
+                      "chi_phi",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.M05",
+                "title": "Chưa xác định cha/mẹ hoặc đăng ký nhận cha mẹ con cùng khai sinh",
+                "condition": "Chưa xác định cha/mẹ hoặc đăng ký nhận cha mẹ con cùng khai sinh",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 7
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2789,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 165,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2954
+      },
+      "response_id": "resp_00887c57ef83388e016ad1619b598087d0b601f744ca6123ca",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P01",
+            "P01.NEW"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu cho con sinh tại nhà, hiện chưa có giấy chứng sinh; cần xác định có người làm chứng hay không để xác định chứng cứ thay thế giấy chứng sinh.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị có người làm chứng xác nhận việc sinh của cháu không?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Có người làm chứng về việc sinh",
+              "node_ids": [
+                "P01.M01"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Không có người làm chứng",
+              "node_ids": [
+                "P01.M02"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 3.1075890170031926
+    },
+    {
+      "call": 4,
+      "payload": {
+        "user_text": "Có bà đỡ làm chứng.",
+        "state": {
+          "facts": [],
+          "path": [
+            "P01",
+            "P01.NEW"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu cho con sinh tại nhà, hiện chưa có giấy chứng sinh; cần xác định có người làm chứng hay không để xác định chứng cứ thay thế giấy chứng sinh.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị có người làm chứng xác nhận việc sinh của cháu không?",
+          "information": {
+            "title": "",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Có người làm chứng về việc sinh",
+                "node_ids": [
+                  "P01.M01"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Không có người làm chứng",
+                "node_ids": [
+                  "P01.M02"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P01.NEW",
+              "title": "Đăng ký khai sinh lần đầu",
+              "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+              "kind": "shared_ancestor",
+              "children_count": 8,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P01.NEW#0",
+                  "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                  "topics": [
+                    "ho_so"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C01",
+                "title": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.C02",
+                "title": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.C03",
+                "title": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+                "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.M01",
+                "title": "Không có giấy chứng sinh; có người làm chứng",
+                "condition": "Không có giấy chứng sinh; có người làm chứng",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P01.C01",
+                  "P01.C02",
+                  "P01.C03"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.M01#0",
+                    "text": "Bật khi không có giấy chứng sinh và có người làm chứng về việc sinh: dùng văn bản người làm chứng xác nhận việc sinh thay giấy chứng sinh. Không đồng thời yêu cầu cam đoan không có người làm chứng. Kế thừa thẩm quyền, thời gian, phí và kết quả của C01–C03 đang áp dụng.",
+                    "topics": [
+                      "chi_phi",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.M02",
+                "title": "Không có giấy chứng sinh và không có người làm chứng",
+                "condition": "Không có giấy chứng sinh và không có người làm chứng",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.M02#0",
+                    "text": "Bật khi không có giấy chứng sinh và không có người làm chứng: dùng giấy cam đoan về việc sinh của người đi đăng ký. Người cam đoan chịu trách nhiệm nội dung. Kế thừa nhánh chính; không áp giấy cam đoan này cho khai tử.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.M03",
+                "title": "Trẻ bị bỏ rơi",
+                "condition": "Trẻ bị bỏ rơi",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.M04",
+                "title": "Sinh do mang thai hộ",
+                "condition": "Sinh do mang thai hộ",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.M04#0",
+                    "text": "Bật khi sinh do mang thai hộ vì mục đích nhân đạo: ngoài giấy chứng sinh, dùng văn bản xác nhận của cơ sở y tế đã thực hiện kỹ thuật hỗ trợ sinh sản về việc mang thai hộ. Cha mẹ pháp lý là bên nhờ mang thai hộ theo quy định; không tự ghi người mang thai hộ là mẹ trong khai sinh. Kế thừa nhánh chính về nơi nộp, thời gian và phí.",
+                    "topics": [
+                      "chi_phi",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.M05",
+                "title": "Chưa xác định cha/mẹ hoặc đăng ký nhận cha mẹ con cùng khai sinh",
+                "condition": "Chưa xác định cha/mẹ hoặc đăng ký nhận cha mẹ con cùng khai sinh",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2876,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 277,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3153
+      },
+      "response_id": "resp_0bf72e656e9e6213016ad161d3e1b087d0b8191eaac6d54a24",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P01.M01"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu cho con sinh tại nhà, chưa có giấy chứng sinh; có bà đỡ làm chứng nên dùng văn bản người làm chứng xác nhận việc sinh thay giấy chứng sinh.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho biết việc khai sinh này thuộc trường hợp nào sau đây?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+              "node_ids": [
+                "P01.C01"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+              "node_ids": [
+                "P01.C02"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+              "node_ids": [
+                "P01.C03"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 4.117293882001832
+    },
+    {
+      "call": 5,
+      "payload": {
+        "user_text": "Có bà đỡ làm chứng.",
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu cho con sinh tại nhà, chưa có giấy chứng sinh; có bà đỡ làm chứng nên dùng văn bản người làm chứng xác nhận việc sinh thay giấy chứng sinh.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị có người làm chứng xác nhận việc sinh của cháu không?",
+          "information": {
+            "title": "",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Có người làm chứng về việc sinh",
+                "node_ids": [
+                  "P01.M01"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Không có người làm chứng",
+                "node_ids": [
+                  "P01.M02"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P01.M01",
+              "title": "Không có giấy chứng sinh; có người làm chứng",
+              "condition": "Không có giấy chứng sinh; có người làm chứng",
+              "kind": "case_group",
+              "children_count": 0,
+              "related": [
+                "P01.C01",
+                "P01.C02",
+                "P01.C03"
+              ],
+              "blocks": [
+                {
+                  "id": "P01.M01#0",
+                  "text": "Bật khi không có giấy chứng sinh và có người làm chứng về việc sinh: dùng văn bản người làm chứng xác nhận việc sinh thay giấy chứng sinh. Không đồng thời yêu cầu cam đoan không có người làm chứng. Kế thừa thẩm quyền, thời gian, phí và kết quả của C01–C03 đang áp dụng.",
+                  "topics": [
+                    "chi_phi",
+                    "noi_nop",
+                    "ket_qua",
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [],
+            "child_selection": "none"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2360,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 173,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2533
+      },
+      "response_id": "resp_0cc9188195175571016ad161d8004487d0a7688c2c61aa6001",
+      "decision": {
+        "action": "load",
+        "mode": "data_gap",
+        "node_ids": [
+          "P01.C01",
+          "P01.C02",
+          "P01.C03"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu cho con sinh tại nhà, chưa có giấy chứng sinh; có bà đỡ làm chứng nên dùng văn bản người làm chứng xác nhận việc sinh thay giấy chứng sinh.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 2.761780593005824
+    },
+    {
+      "call": 6,
+      "payload": {
+        "user_text": "Có bà đỡ làm chứng.",
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu cho con sinh tại nhà, chưa có giấy chứng sinh; có bà đỡ làm chứng nên dùng văn bản người làm chứng xác nhận việc sinh thay giấy chứng sinh.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị có người làm chứng xác nhận việc sinh của cháu không?",
+          "information": {
+            "title": "",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Có người làm chứng về việc sinh",
+                "node_ids": [
+                  "P01.M01"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Không có người làm chứng",
+                "node_ids": [
+                  "P01.M02"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P01.C01",
+              "title": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+              "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C01.N001.N001",
+                "title": "Hồ sơ · Mức tiền / chi phí · Nơi giải quyết",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.M01",
+                  "P01.M02",
+                  "P01.M03",
+                  "P01.M04",
+                  "P01.M05"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C01.N001.N001#0",
+                    "text": "Nộp tờ khai và bản chính giấy chứng sinh hoặc chứng cứ thay thế tại M01–M04. UBND cấp xã nơi cha hoặc mẹ cư trú đăng ký. Nếu khai thác được tình trạng kết hôn của cha mẹ, không buộc nộp lại giấy kết hôn. Nếu cần nhận cha mẹ con, áp M05 đồng thời.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.C01.N001.N002",
+                "title": "Hồ sơ · Thời gian · Điều kiện",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.C01.N001.N002#0",
+                    "text": "Giải quyết ngay trong ngày đủ hồ sơ; nhận sau 15 giờ mà không giải quyết ngay được thì ngày làm việc tiếp theo. Không dùng thời hạn này cho thủ tục kết hợp nhận cha mẹ con hoặc đăng ký lại.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P01.C02",
+              "title": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+              "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C02.N001.N001",
+                "title": "Hồ sơ · Nơi giải quyết · Điều kiện",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.C01"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C02.N001.N001#0",
+                    "text": "Hồ sơ như C01 và văn bản cha mẹ thỏa thuận chọn quốc tịch cho con nếu cha hoặc mẹ hoặc cả hai là người nước ngoài; khi chọn quốc tịch nước ngoài, văn bản phải có xác nhận của cơ quan có thẩm quyền nước đó về việc trẻ được mang quốc tịch phù hợp pháp luật nước đó. Hộ chiếu hoặc giấy tờ thay hộ chiếu của người nước ngoài được đối chiếu; giấy nước ngoài được hợp pháp hóa và dịch chứng thực trừ trường hợp miễn.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.C02.N001.N002",
+                "title": "Thời gian · Nơi giải quyết · Điều kiện",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.M05"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C02.N001.N002#0",
+                    "text": "UBND cấp xã nơi cha hoặc mẹ cư trú; riêng cả hai là người nước ngoài, xét điều kiện cha hoặc mẹ cư trú tại Việt Nam. Giải quyết trong ngày, sau 15 giờ thì ngày làm việc tiếp theo khi không xử lý ngay được. Nếu có nhận cha mẹ con, thời hạn theo M05.",
+                    "topics": [
+                      "thoi_gian",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P01.C03",
+              "title": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+              "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C03.N001.N001",
+                "title": "Hồ sơ · Nơi giải quyết · Điều kiện",
+                "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.C03.N001.N001#0",
+                    "text": "Chỉ dùng khi trẻ sinh ở nước ngoài chưa đăng ký khai sinh ở nước ngoài, về cư trú tại Việt Nam và có cha hoặc mẹ là công dân Việt Nam. Nộp giấy chứng sinh hoặc giấy xác nhận việc sinh do nước ngoài cấp; giấy tờ chứng minh trẻ nhập cảnh hợp pháp và xác nhận cư trú của cơ quan Công an nếu không khai thác được dữ liệu; kèm thỏa thuận quốc tịch nếu có cha hoặc mẹ là người nước ngoài.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.C03.N001.N002",
+                "title": "Thời gian · Nơi giải quyết · Điều kiện",
+                "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.C02",
+                  "P01.R01"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C03.N001.N002#0",
+                    "text": "UBND cấp xã nơi trẻ cư trú. Giấy nước ngoài xử lý bản dịch, hợp pháp hóa theo trường hợp. Nếu trẻ đã được đăng ký ở nước ngoài thì chuyển P01.R01 ghi chú việc sinh. Thời hạn khai sinh theo C02; không yêu cầu khai sinh lần hai.",
+                    "topics": [
+                      "thoi_gian",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 7
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3891,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 158,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4049
+      },
+      "response_id": "resp_0e6759ebf1e3fb1e016ad161dac92087d099f2431fb55debd1",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P01.M01"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu; sinh tại nhà, chưa có giấy chứng sinh; có bà đỡ làm chứng nên cần nhánh chứng cứ thay thế theo người làm chứng.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 2.796141869002895
+    },
+    {
+      "call": 7,
+      "payload": {
+        "user_text": "Có bà đỡ làm chứng.",
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu; sinh tại nhà, chưa có giấy chứng sinh; có bà đỡ làm chứng nên cần nhánh chứng cứ thay thế theo người làm chứng.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị có người làm chứng xác nhận việc sinh của cháu không?",
+          "information": {
+            "title": "",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Có người làm chứng về việc sinh",
+                "node_ids": [
+                  "P01.M01"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Không có người làm chứng",
+                "node_ids": [
+                  "P01.M02"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P01.M01",
+              "title": "Không có giấy chứng sinh; có người làm chứng",
+              "condition": "Không có giấy chứng sinh; có người làm chứng",
+              "kind": "case_group",
+              "children_count": 0,
+              "related": [
+                "P01.C01",
+                "P01.C02",
+                "P01.C03"
+              ],
+              "blocks": [
+                {
+                  "id": "P01.M01#0",
+                  "text": "Bật khi không có giấy chứng sinh và có người làm chứng về việc sinh: dùng văn bản người làm chứng xác nhận việc sinh thay giấy chứng sinh. Không đồng thời yêu cầu cam đoan không có người làm chứng. Kế thừa thẩm quyền, thời gian, phí và kết quả của C01–C03 đang áp dụng.",
+                  "topics": [
+                    "chi_phi",
+                    "noi_nop",
+                    "ket_qua",
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [],
+            "child_selection": "none"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 6
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2356,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 187,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2543
+      },
+      "response_id": "resp_026543afff5a63ac016ad161dd93a487d09637fdad264ae316",
+      "decision": {
+        "action": "load",
+        "mode": "data_gap",
+        "node_ids": [
+          "P01.C01",
+          "P01.C02",
+          "P01.C03"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu; sinh tại nhà, chưa có giấy chứng sinh; có bà đỡ làm chứng; cần xác định bộ hồ sơ/chi phí/thời gian/nơi nộp theo các nhánh C01–C03 đang áp dụng.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 3.1985941960010678
+    },
+    {
+      "call": 8,
+      "payload": {
+        "user_text": "Có bà đỡ làm chứng.",
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu; sinh tại nhà, chưa có giấy chứng sinh; có bà đỡ làm chứng; cần xác định bộ hồ sơ/chi phí/thời gian/nơi nộp theo các nhánh C01–C03 đang áp dụng.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị có người làm chứng xác nhận việc sinh của cháu không?",
+          "information": {
+            "title": "",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Có người làm chứng về việc sinh",
+                "node_ids": [
+                  "P01.M01"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Không có người làm chứng",
+                "node_ids": [
+                  "P01.M02"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P01.C01",
+              "title": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+              "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C01.N001.N001",
+                "title": "Hồ sơ · Mức tiền / chi phí · Nơi giải quyết",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.M01",
+                  "P01.M02",
+                  "P01.M03",
+                  "P01.M04",
+                  "P01.M05"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C01.N001.N001#0",
+                    "text": "Nộp tờ khai và bản chính giấy chứng sinh hoặc chứng cứ thay thế tại M01–M04. UBND cấp xã nơi cha hoặc mẹ cư trú đăng ký. Nếu khai thác được tình trạng kết hôn của cha mẹ, không buộc nộp lại giấy kết hôn. Nếu cần nhận cha mẹ con, áp M05 đồng thời.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.C01.N001.N002",
+                "title": "Hồ sơ · Thời gian · Điều kiện",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.C01.N001.N002#0",
+                    "text": "Giải quyết ngay trong ngày đủ hồ sơ; nhận sau 15 giờ mà không giải quyết ngay được thì ngày làm việc tiếp theo. Không dùng thời hạn này cho thủ tục kết hợp nhận cha mẹ con hoặc đăng ký lại.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P01.C02",
+              "title": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+              "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C02.N001.N001",
+                "title": "Hồ sơ · Nơi giải quyết · Điều kiện",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.C01"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C02.N001.N001#0",
+                    "text": "Hồ sơ như C01 và văn bản cha mẹ thỏa thuận chọn quốc tịch cho con nếu cha hoặc mẹ hoặc cả hai là người nước ngoài; khi chọn quốc tịch nước ngoài, văn bản phải có xác nhận của cơ quan có thẩm quyền nước đó về việc trẻ được mang quốc tịch phù hợp pháp luật nước đó. Hộ chiếu hoặc giấy tờ thay hộ chiếu của người nước ngoài được đối chiếu; giấy nước ngoài được hợp pháp hóa và dịch chứng thực trừ trường hợp miễn.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.C02.N001.N002",
+                "title": "Thời gian · Nơi giải quyết · Điều kiện",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.M05"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C02.N001.N002#0",
+                    "text": "UBND cấp xã nơi cha hoặc mẹ cư trú; riêng cả hai là người nước ngoài, xét điều kiện cha hoặc mẹ cư trú tại Việt Nam. Giải quyết trong ngày, sau 15 giờ thì ngày làm việc tiếp theo khi không xử lý ngay được. Nếu có nhận cha mẹ con, thời hạn theo M05.",
+                    "topics": [
+                      "thoi_gian",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P01.C03",
+              "title": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+              "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C03.N001.N001",
+                "title": "Hồ sơ · Nơi giải quyết · Điều kiện",
+                "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.C03.N001.N001#0",
+                    "text": "Chỉ dùng khi trẻ sinh ở nước ngoài chưa đăng ký khai sinh ở nước ngoài, về cư trú tại Việt Nam và có cha hoặc mẹ là công dân Việt Nam. Nộp giấy chứng sinh hoặc giấy xác nhận việc sinh do nước ngoài cấp; giấy tờ chứng minh trẻ nhập cảnh hợp pháp và xác nhận cư trú của cơ quan Công an nếu không khai thác được dữ liệu; kèm thỏa thuận quốc tịch nếu có cha hoặc mẹ là người nước ngoài.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.C03.N001.N002",
+                "title": "Thời gian · Nơi giải quyết · Điều kiện",
+                "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.C02",
+                  "P01.R01"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C03.N001.N002#0",
+                    "text": "UBND cấp xã nơi trẻ cư trú. Giấy nước ngoài xử lý bản dịch, hợp pháp hóa theo trường hợp. Nếu trẻ đã được đăng ký ở nước ngoài thì chuyển P01.R01 ghi chú việc sinh. Thời hạn khai sinh theo C02; không yêu cầu khai sinh lần hai.",
+                    "topics": [
+                      "thoi_gian",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 5
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3905,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 177,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4082
+      },
+      "response_id": "resp_0ac1270b8324e04e016ad161e0c6e887d0a3214de264bc327b",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P01.M01"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu; đã xác nhận có người làm chứng (bà đỡ) về việc sinh; cần làm rõ nhóm trường hợp C01/C02/C03 để trả hồ sơ/chi phí/thời gian/nơi nộp.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 2.9535261479977635
+    },
+    {
+      "call": 9,
+      "payload": {
+        "user_text": "Có bà đỡ làm chứng.",
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu; đã xác nhận có người làm chứng (bà đỡ) về việc sinh; cần làm rõ nhóm trường hợp C01/C02/C03 để trả hồ sơ/chi phí/thời gian/nơi nộp.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị có người làm chứng xác nhận việc sinh của cháu không?",
+          "information": {
+            "title": "",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Có người làm chứng về việc sinh",
+                "node_ids": [
+                  "P01.M01"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Không có người làm chứng",
+                "node_ids": [
+                  "P01.M02"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P01.M01",
+              "title": "Không có giấy chứng sinh; có người làm chứng",
+              "condition": "Không có giấy chứng sinh; có người làm chứng",
+              "kind": "case_group",
+              "children_count": 0,
+              "related": [
+                "P01.C01",
+                "P01.C02",
+                "P01.C03"
+              ],
+              "blocks": [
+                {
+                  "id": "P01.M01#0",
+                  "text": "Bật khi không có giấy chứng sinh và có người làm chứng về việc sinh: dùng văn bản người làm chứng xác nhận việc sinh thay giấy chứng sinh. Không đồng thời yêu cầu cam đoan không có người làm chứng. Kế thừa thẩm quyền, thời gian, phí và kết quả của C01–C03 đang áp dụng.",
+                  "topics": [
+                    "chi_phi",
+                    "noi_nop",
+                    "ket_qua",
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [],
+            "child_selection": "none"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 4
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2372,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 205,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2577
+      },
+      "response_id": "resp_0453afbd8ac7bc9b016ad161e3b4d087d09b2b8ae2bf6fde3b",
+      "decision": {
+        "action": "load",
+        "mode": "data_gap",
+        "node_ids": [
+          "P01.C01",
+          "P01.C02",
+          "P01.C03",
+          "P01.N001"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu; đã xác nhận không có giấy chứng sinh và có người làm chứng (bà đỡ). Cần nạp C01/C02/C03 và quy định theo điều kiện để xác định đúng trường hợp áp dụng trước khi trả lời hồ sơ/phí/thời gian/nơi nộp.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 3.3637014319974696
+    },
+    {
+      "call": 10,
+      "payload": {
+        "user_text": "Có bà đỡ làm chứng.",
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu; đã xác nhận không có giấy chứng sinh và có người làm chứng (bà đỡ). Cần nạp C01/C02/C03 và quy định theo điều kiện để xác định đúng trường hợp áp dụng trước khi trả lời hồ sơ/phí/thời gian/nơi nộp.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị có người làm chứng xác nhận việc sinh của cháu không?",
+          "information": {
+            "title": "",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Có người làm chứng về việc sinh",
+                "node_ids": [
+                  "P01.M01"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Không có người làm chứng",
+                "node_ids": [
+                  "P01.M02"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P01.C01",
+              "title": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+              "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C01.N001.N001",
+                "title": "Hồ sơ · Mức tiền / chi phí · Nơi giải quyết",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.M01",
+                  "P01.M02",
+                  "P01.M03",
+                  "P01.M04",
+                  "P01.M05"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C01.N001.N001#0",
+                    "text": "Nộp tờ khai và bản chính giấy chứng sinh hoặc chứng cứ thay thế tại M01–M04. UBND cấp xã nơi cha hoặc mẹ cư trú đăng ký. Nếu khai thác được tình trạng kết hôn của cha mẹ, không buộc nộp lại giấy kết hôn. Nếu cần nhận cha mẹ con, áp M05 đồng thời.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.C01.N001.N002",
+                "title": "Hồ sơ · Thời gian · Điều kiện",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.C01.N001.N002#0",
+                    "text": "Giải quyết ngay trong ngày đủ hồ sơ; nhận sau 15 giờ mà không giải quyết ngay được thì ngày làm việc tiếp theo. Không dùng thời hạn này cho thủ tục kết hợp nhận cha mẹ con hoặc đăng ký lại.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P01.C02",
+              "title": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+              "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C02.N001.N001",
+                "title": "Hồ sơ · Nơi giải quyết · Điều kiện",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.C01"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C02.N001.N001#0",
+                    "text": "Hồ sơ như C01 và văn bản cha mẹ thỏa thuận chọn quốc tịch cho con nếu cha hoặc mẹ hoặc cả hai là người nước ngoài; khi chọn quốc tịch nước ngoài, văn bản phải có xác nhận của cơ quan có thẩm quyền nước đó về việc trẻ được mang quốc tịch phù hợp pháp luật nước đó. Hộ chiếu hoặc giấy tờ thay hộ chiếu của người nước ngoài được đối chiếu; giấy nước ngoài được hợp pháp hóa và dịch chứng thực trừ trường hợp miễn.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.C02.N001.N002",
+                "title": "Thời gian · Nơi giải quyết · Điều kiện",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.M05"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C02.N001.N002#0",
+                    "text": "UBND cấp xã nơi cha hoặc mẹ cư trú; riêng cả hai là người nước ngoài, xét điều kiện cha hoặc mẹ cư trú tại Việt Nam. Giải quyết trong ngày, sau 15 giờ thì ngày làm việc tiếp theo khi không xử lý ngay được. Nếu có nhận cha mẹ con, thời hạn theo M05.",
+                    "topics": [
+                      "thoi_gian",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P01.C03",
+              "title": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+              "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C03.N001.N001",
+                "title": "Hồ sơ · Nơi giải quyết · Điều kiện",
+                "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.C03.N001.N001#0",
+                    "text": "Chỉ dùng khi trẻ sinh ở nước ngoài chưa đăng ký khai sinh ở nước ngoài, về cư trú tại Việt Nam và có cha hoặc mẹ là công dân Việt Nam. Nộp giấy chứng sinh hoặc giấy xác nhận việc sinh do nước ngoài cấp; giấy tờ chứng minh trẻ nhập cảnh hợp pháp và xác nhận cư trú của cơ quan Công an nếu không khai thác được dữ liệu; kèm thỏa thuận quốc tịch nếu có cha hoặc mẹ là người nước ngoài.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.C03.N001.N002",
+                "title": "Thời gian · Nơi giải quyết · Điều kiện",
+                "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.C02",
+                  "P01.R01"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C03.N001.N002#0",
+                    "text": "UBND cấp xã nơi trẻ cư trú. Giấy nước ngoài xử lý bản dịch, hợp pháp hóa theo trường hợp. Nếu trẻ đã được đăng ký ở nước ngoài thì chuyển P01.R01 ghi chú việc sinh. Thời hạn khai sinh theo C02; không yêu cầu khai sinh lần hai.",
+                    "topics": [
+                      "thoi_gian",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P01.N001",
+              "title": "Quy định theo điều kiện áp dụng",
+              "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+              "kind": "conditional_rules",
+              "children_count": 3,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.N001.N001",
+                "title": "Hồ sơ khai sinh lần đầu",
+                "condition": "Đăng ký khai sinh lần đầu; không phải trích lục/cải chính/đăng ký lại",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.N001.N001#0",
+                    "text": "Cung cấp họ tên, ngày sinh, số định danh của người yêu cầu để khai thác dữ liệu; chỉ xuất trình giấy tờ nhân thân, cư trú, kết hôn khi dữ liệu không khai thác được hoặc chưa đầy đủ, chính xác. Không yêu cầu sổ hộ khẩu giấy.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.N001.N002",
+                "title": "Nộp, kết quả và hạn đăng ký khai sinh",
+                "condition": "Đăng ký khai sinh lần đầu",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.N001.N002#0",
+                    "text": "Nộp tại Trung tâm phục vụ hành chính công hoặc Cổng dịch vụ công quốc gia; có thể gửi bưu chính theo thủ tục. UBND cấp xã có thẩm quyền đăng ký; nhận giấy khai sinh và dữ liệu hộ tịch cập nhật. Giấy khai sinh không có hạn sử dụng cố định. Cha mẹ phải đăng ký trong 60 ngày từ ngày sinh; quá hạn vẫn tiếp nhận, không từ chối đăng ký vì muộn.",
+                    "topics": [
+                      "thoi_gian",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.N001.N003",
+                "title": "Lệ phí khai sinh",
+                "condition": "Đăng ký khai sinh; cần chọn yếu tố nước ngoài, hạn, kênh nộp và diện miễn",
+                "kind": "rule_group",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 3
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 4492,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 252,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4744
+      },
+      "response_id": "resp_0f610e45ef9e6145016ad161e7139c87d0800d4bc3fc0ceb07",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu; đã xác nhận không có giấy chứng sinh và có người làm chứng. Đang cần xác định nhánh áp dụng theo nơi sinh/yếu tố nước ngoài để chốt hồ sơ, nơi nộp, thời gian và lệ phí theo đúng điều kiện.",
+          "pending_switch": ""
+        },
+        "speech_text": "Cháu sinh tại Việt Nam hay sinh ở nước ngoài?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Sinh tại Việt Nam",
+              "node_ids": [
+                "P01.C01",
+                "P01.C02"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Sinh ở nước ngoài (chưa đăng ký ở nước ngoài, về cư trú tại Việt Nam)",
+              "node_ids": [
+                "P01.C03"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 3.9272872489964357
+    },
+    {
+      "call": 11,
+      "payload": {
+        "user_text": "Ở Việt Nam, vợ chồng tôi đều người Việt, đã đăng ký kết hôn. Bé chưa có khai sinh.",
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu; đã xác nhận không có giấy chứng sinh và có người làm chứng. Đang cần xác định nhánh áp dụng theo nơi sinh/yếu tố nước ngoài để chốt hồ sơ, nơi nộp, thời gian và lệ phí theo đúng điều kiện.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Cháu sinh tại Việt Nam hay sinh ở nước ngoài?",
+          "information": {
+            "title": "",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Sinh tại Việt Nam",
+                "node_ids": [
+                  "P01.C01",
+                  "P01.C02"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Sinh ở nước ngoài (chưa đăng ký ở nước ngoài, về cư trú tại Việt Nam)",
+                "node_ids": [
+                  "P01.C03"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P01.C01",
+              "title": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+              "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C01.N001.N001",
+                "title": "Hồ sơ · Mức tiền / chi phí · Nơi giải quyết",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.M01",
+                  "P01.M02",
+                  "P01.M03",
+                  "P01.M04",
+                  "P01.M05"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C01.N001.N001#0",
+                    "text": "Nộp tờ khai và bản chính giấy chứng sinh hoặc chứng cứ thay thế tại M01–M04. UBND cấp xã nơi cha hoặc mẹ cư trú đăng ký. Nếu khai thác được tình trạng kết hôn của cha mẹ, không buộc nộp lại giấy kết hôn. Nếu cần nhận cha mẹ con, áp M05 đồng thời.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.C01.N001.N002",
+                "title": "Hồ sơ · Thời gian · Điều kiện",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.C01.N001.N002#0",
+                    "text": "Giải quyết ngay trong ngày đủ hồ sơ; nhận sau 15 giờ mà không giải quyết ngay được thì ngày làm việc tiếp theo. Không dùng thời hạn này cho thủ tục kết hợp nhận cha mẹ con hoặc đăng ký lại.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P01.C02",
+              "title": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+              "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C02.N001.N001",
+                "title": "Hồ sơ · Nơi giải quyết · Điều kiện",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.C01"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C02.N001.N001#0",
+                    "text": "Hồ sơ như C01 và văn bản cha mẹ thỏa thuận chọn quốc tịch cho con nếu cha hoặc mẹ hoặc cả hai là người nước ngoài; khi chọn quốc tịch nước ngoài, văn bản phải có xác nhận của cơ quan có thẩm quyền nước đó về việc trẻ được mang quốc tịch phù hợp pháp luật nước đó. Hộ chiếu hoặc giấy tờ thay hộ chiếu của người nước ngoài được đối chiếu; giấy nước ngoài được hợp pháp hóa và dịch chứng thực trừ trường hợp miễn.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.C02.N001.N002",
+                "title": "Thời gian · Nơi giải quyết · Điều kiện",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.M05"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C02.N001.N002#0",
+                    "text": "UBND cấp xã nơi cha hoặc mẹ cư trú; riêng cả hai là người nước ngoài, xét điều kiện cha hoặc mẹ cư trú tại Việt Nam. Giải quyết trong ngày, sau 15 giờ thì ngày làm việc tiếp theo khi không xử lý ngay được. Nếu có nhận cha mẹ con, thời hạn theo M05.",
+                    "topics": [
+                      "thoi_gian",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P01.C03",
+              "title": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+              "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C03.N001.N001",
+                "title": "Hồ sơ · Nơi giải quyết · Điều kiện",
+                "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.C03.N001.N001#0",
+                    "text": "Chỉ dùng khi trẻ sinh ở nước ngoài chưa đăng ký khai sinh ở nước ngoài, về cư trú tại Việt Nam và có cha hoặc mẹ là công dân Việt Nam. Nộp giấy chứng sinh hoặc giấy xác nhận việc sinh do nước ngoài cấp; giấy tờ chứng minh trẻ nhập cảnh hợp pháp và xác nhận cư trú của cơ quan Công an nếu không khai thác được dữ liệu; kèm thỏa thuận quốc tịch nếu có cha hoặc mẹ là người nước ngoài.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.C03.N001.N002",
+                "title": "Thời gian · Nơi giải quyết · Điều kiện",
+                "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.C02",
+                  "P01.R01"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C03.N001.N002#0",
+                    "text": "UBND cấp xã nơi trẻ cư trú. Giấy nước ngoài xử lý bản dịch, hợp pháp hóa theo trường hợp. Nếu trẻ đã được đăng ký ở nước ngoài thì chuyển P01.R01 ghi chú việc sinh. Thời hạn khai sinh theo C02; không yêu cầu khai sinh lần hai.",
+                    "topics": [
+                      "thoi_gian",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P01.N001",
+              "title": "Quy định theo điều kiện áp dụng",
+              "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+              "kind": "conditional_rules",
+              "children_count": 3,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.N001.N001",
+                "title": "Hồ sơ khai sinh lần đầu",
+                "condition": "Đăng ký khai sinh lần đầu; không phải trích lục/cải chính/đăng ký lại",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.N001.N001#0",
+                    "text": "Cung cấp họ tên, ngày sinh, số định danh của người yêu cầu để khai thác dữ liệu; chỉ xuất trình giấy tờ nhân thân, cư trú, kết hôn khi dữ liệu không khai thác được hoặc chưa đầy đủ, chính xác. Không yêu cầu sổ hộ khẩu giấy.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.N001.N002",
+                "title": "Nộp, kết quả và hạn đăng ký khai sinh",
+                "condition": "Đăng ký khai sinh lần đầu",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.N001.N002#0",
+                    "text": "Nộp tại Trung tâm phục vụ hành chính công hoặc Cổng dịch vụ công quốc gia; có thể gửi bưu chính theo thủ tục. UBND cấp xã có thẩm quyền đăng ký; nhận giấy khai sinh và dữ liệu hộ tịch cập nhật. Giấy khai sinh không có hạn sử dụng cố định. Cha mẹ phải đăng ký trong 60 ngày từ ngày sinh; quá hạn vẫn tiếp nhận, không từ chối đăng ký vì muộn.",
+                    "topics": [
+                      "thoi_gian",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.N001.N003",
+                "title": "Lệ phí khai sinh",
+                "condition": "Đăng ký khai sinh; cần chọn yếu tố nước ngoài, hạn, kênh nộp và diện miễn",
+                "kind": "rule_group",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 4517,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 319,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4836
+      },
+      "response_id": "resp_04a5eadb8e790bf1016ad1621aa46087d0b57b38e1eab7f623",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            },
+            {
+              "key": "yeu_to_nuoc_ngoai",
+              "value": "Không có yếu tố nước ngoài (cả vợ chồng đều là người Việt)",
+              "evidence": "vợ chồng tôi đều người Việt",
+              "node_id": "P01.C01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.M01",
+            "P01.C01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu cho con; không có giấy chứng sinh nhưng có người làm chứng; cha mẹ đều là người Việt (không có yếu tố nước ngoài). Đang cần xác định nơi sinh (trong nước hay ngoài nước) để chốt đúng nhánh hồ sơ/nơi nộp/thời gian/lệ phí.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho biết bé sinh tại Việt Nam hay sinh ở nước ngoài?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Sinh tại Việt Nam",
+              "node_ids": [
+                "P01.C01"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Sinh ở nước ngoài (chưa đăng ký ở nước ngoài, về cư trú tại Việt Nam)",
+              "node_ids": [
+                "P01.C03"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 4.860439303993189
+    },
+    {
+      "call": 12,
+      "payload": {
+        "user_text": "Bé sinh tại Việt Nam. Cho tôi xem hồ sơ cần nộp thôi.",
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            },
+            {
+              "key": "yeu_to_nuoc_ngoai",
+              "value": "Không có yếu tố nước ngoài (cả vợ chồng đều là người Việt)",
+              "evidence": "vợ chồng tôi đều người Việt",
+              "node_id": "P01.C01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.M01",
+            "P01.C01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu cho con; không có giấy chứng sinh nhưng có người làm chứng; cha mẹ đều là người Việt (không có yếu tố nước ngoài). Đang cần xác định nơi sinh (trong nước hay ngoài nước) để chốt đúng nhánh hồ sơ/nơi nộp/thời gian/lệ phí.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị cho biết bé sinh tại Việt Nam hay sinh ở nước ngoài?",
+          "information": {
+            "title": "",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Sinh tại Việt Nam",
+                "node_ids": [
+                  "P01.C01"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Sinh ở nước ngoài (chưa đăng ký ở nước ngoài, về cư trú tại Việt Nam)",
+                "node_ids": [
+                  "P01.C03"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P01.C01",
+              "title": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+              "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C01.N001.N001",
+                "title": "Hồ sơ · Mức tiền / chi phí · Nơi giải quyết",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.M01",
+                  "P01.M02",
+                  "P01.M03",
+                  "P01.M04",
+                  "P01.M05"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C01.N001.N001#0",
+                    "text": "Nộp tờ khai và bản chính giấy chứng sinh hoặc chứng cứ thay thế tại M01–M04. UBND cấp xã nơi cha hoặc mẹ cư trú đăng ký. Nếu khai thác được tình trạng kết hôn của cha mẹ, không buộc nộp lại giấy kết hôn. Nếu cần nhận cha mẹ con, áp M05 đồng thời.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.C01.N001.N002",
+                "title": "Hồ sơ · Thời gian · Điều kiện",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.C01.N001.N002#0",
+                    "text": "Giải quyết ngay trong ngày đủ hồ sơ; nhận sau 15 giờ mà không giải quyết ngay được thì ngày làm việc tiếp theo. Không dùng thời hạn này cho thủ tục kết hợp nhận cha mẹ con hoặc đăng ký lại.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P01.C02",
+              "title": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+              "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C02.N001.N001",
+                "title": "Hồ sơ · Nơi giải quyết · Điều kiện",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.C01"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C02.N001.N001#0",
+                    "text": "Hồ sơ như C01 và văn bản cha mẹ thỏa thuận chọn quốc tịch cho con nếu cha hoặc mẹ hoặc cả hai là người nước ngoài; khi chọn quốc tịch nước ngoài, văn bản phải có xác nhận của cơ quan có thẩm quyền nước đó về việc trẻ được mang quốc tịch phù hợp pháp luật nước đó. Hộ chiếu hoặc giấy tờ thay hộ chiếu của người nước ngoài được đối chiếu; giấy nước ngoài được hợp pháp hóa và dịch chứng thực trừ trường hợp miễn.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.C02.N001.N002",
+                "title": "Thời gian · Nơi giải quyết · Điều kiện",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.M05"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C02.N001.N002#0",
+                    "text": "UBND cấp xã nơi cha hoặc mẹ cư trú; riêng cả hai là người nước ngoài, xét điều kiện cha hoặc mẹ cư trú tại Việt Nam. Giải quyết trong ngày, sau 15 giờ thì ngày làm việc tiếp theo khi không xử lý ngay được. Nếu có nhận cha mẹ con, thời hạn theo M05.",
+                    "topics": [
+                      "thoi_gian",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P01.C03",
+              "title": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+              "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C03.N001.N001",
+                "title": "Hồ sơ · Nơi giải quyết · Điều kiện",
+                "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.C03.N001.N001#0",
+                    "text": "Chỉ dùng khi trẻ sinh ở nước ngoài chưa đăng ký khai sinh ở nước ngoài, về cư trú tại Việt Nam và có cha hoặc mẹ là công dân Việt Nam. Nộp giấy chứng sinh hoặc giấy xác nhận việc sinh do nước ngoài cấp; giấy tờ chứng minh trẻ nhập cảnh hợp pháp và xác nhận cư trú của cơ quan Công an nếu không khai thác được dữ liệu; kèm thỏa thuận quốc tịch nếu có cha hoặc mẹ là người nước ngoài.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.C03.N001.N002",
+                "title": "Thời gian · Nơi giải quyết · Điều kiện",
+                "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P01.C02",
+                  "P01.R01"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.C03.N001.N002#0",
+                    "text": "UBND cấp xã nơi trẻ cư trú. Giấy nước ngoài xử lý bản dịch, hợp pháp hóa theo trường hợp. Nếu trẻ đã được đăng ký ở nước ngoài thì chuyển P01.R01 ghi chú việc sinh. Thời hạn khai sinh theo C02; không yêu cầu khai sinh lần hai.",
+                    "topics": [
+                      "thoi_gian",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P01.N001",
+              "title": "Quy định theo điều kiện áp dụng",
+              "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+              "kind": "conditional_rules",
+              "children_count": 3,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.N001.N001",
+                "title": "Hồ sơ khai sinh lần đầu",
+                "condition": "Đăng ký khai sinh lần đầu; không phải trích lục/cải chính/đăng ký lại",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.N001.N001#0",
+                    "text": "Cung cấp họ tên, ngày sinh, số định danh của người yêu cầu để khai thác dữ liệu; chỉ xuất trình giấy tờ nhân thân, cư trú, kết hôn khi dữ liệu không khai thác được hoặc chưa đầy đủ, chính xác. Không yêu cầu sổ hộ khẩu giấy.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.N001.N002",
+                "title": "Nộp, kết quả và hạn đăng ký khai sinh",
+                "condition": "Đăng ký khai sinh lần đầu",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.N001.N002#0",
+                    "text": "Nộp tại Trung tâm phục vụ hành chính công hoặc Cổng dịch vụ công quốc gia; có thể gửi bưu chính theo thủ tục. UBND cấp xã có thẩm quyền đăng ký; nhận giấy khai sinh và dữ liệu hộ tịch cập nhật. Giấy khai sinh không có hạn sử dụng cố định. Cha mẹ phải đăng ký trong 60 ngày từ ngày sinh; quá hạn vẫn tiếp nhận, không từ chối đăng ký vì muộn.",
+                    "topics": [
+                      "thoi_gian",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.N001.N003",
+                "title": "Lệ phí khai sinh",
+                "condition": "Đăng ký khai sinh; cần chọn yếu tố nước ngoài, hạn, kênh nộp và diện miễn",
+                "kind": "rule_group",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 4576,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 269,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4845
+      },
+      "response_id": "resp_0ff6d862703581df016ad162524ba887d08e021c4eca4d3a1a",
+      "decision": {
+        "action": "load",
+        "mode": "answer",
+        "node_ids": [
+          "P01.M01"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            },
+            {
+              "key": "yeu_to_nuoc_ngoai",
+              "value": "Không có yếu tố nước ngoài (cả vợ chồng đều là người Việt)",
+              "evidence": "vợ chồng tôi đều người Việt",
+              "node_id": "P01.C01"
+            },
+            {
+              "key": "noi_sinh",
+              "value": "Sinh tại Việt Nam",
+              "evidence": "Bé sinh tại Việt Nam.",
+              "node_id": "P01.C01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.C01",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu cho con; sinh tại Việt Nam; cha mẹ đều là người Việt (không yếu tố nước ngoài); không có giấy chứng sinh và có người làm chứng (bà đỡ). Người dân yêu cầu xem hồ sơ cần nộp.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 3.9889392549957847
+    },
+    {
+      "call": 13,
+      "payload": {
+        "user_text": "Bé sinh tại Việt Nam. Cho tôi xem hồ sơ cần nộp thôi.",
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            },
+            {
+              "key": "yeu_to_nuoc_ngoai",
+              "value": "Không có yếu tố nước ngoài (cả vợ chồng đều là người Việt)",
+              "evidence": "vợ chồng tôi đều người Việt",
+              "node_id": "P01.C01"
+            },
+            {
+              "key": "noi_sinh",
+              "value": "Sinh tại Việt Nam",
+              "evidence": "Bé sinh tại Việt Nam.",
+              "node_id": "P01.C01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.C01",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu cho con; sinh tại Việt Nam; cha mẹ đều là người Việt (không yếu tố nước ngoài); không có giấy chứng sinh và có người làm chứng (bà đỡ). Người dân yêu cầu xem hồ sơ cần nộp.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị cho biết bé sinh tại Việt Nam hay sinh ở nước ngoài?",
+          "information": {
+            "title": "",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Sinh tại Việt Nam",
+                "node_ids": [
+                  "P01.C01"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Sinh ở nước ngoài (chưa đăng ký ở nước ngoài, về cư trú tại Việt Nam)",
+                "node_ids": [
+                  "P01.C03"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P01.M01",
+              "title": "Không có giấy chứng sinh; có người làm chứng",
+              "condition": "Không có giấy chứng sinh; có người làm chứng",
+              "kind": "case_group",
+              "children_count": 0,
+              "related": [
+                "P01.C01",
+                "P01.C02",
+                "P01.C03"
+              ],
+              "blocks": [
+                {
+                  "id": "P01.M01#0",
+                  "text": "Bật khi không có giấy chứng sinh và có người làm chứng về việc sinh: dùng văn bản người làm chứng xác nhận việc sinh thay giấy chứng sinh. Không đồng thời yêu cầu cam đoan không có người làm chứng. Kế thừa thẩm quyền, thời gian, phí và kết quả của C01–C03 đang áp dụng.",
+                  "topics": [
+                    "chi_phi",
+                    "noi_nop",
+                    "ket_qua",
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [],
+            "child_selection": "none"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2488,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 389,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2877
+      },
+      "response_id": "resp_0a85250c5b202985016ad1625650bc87d08935f7ce119dd9bc",
+      "decision": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "chung_cu_sinh.co_nguoi_lam_chung",
+              "value": "Có (bà đỡ làm chứng)",
+              "evidence": "Có bà đỡ làm chứng.",
+              "node_id": "P01.M01"
+            },
+            {
+              "key": "yeu_to_nuoc_ngoai",
+              "value": "Không có yếu tố nước ngoài (cả vợ chồng đều là người Việt)",
+              "evidence": "vợ chồng tôi đều người Việt",
+              "node_id": "P01.C01"
+            },
+            {
+              "key": "noi_sinh",
+              "value": "Sinh tại Việt Nam",
+              "evidence": "Bé sinh tại Việt Nam.",
+              "node_id": "P01.C01"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW",
+            "P01.C01",
+            "P01.M01"
+          ],
+          "summary": "Đăng ký khai sinh lần đầu cho con; sinh tại Việt Nam; cha mẹ đều là người Việt (không yếu tố nước ngoài); không có giấy chứng sinh và có người làm chứng. Người dân yêu cầu xem hồ sơ cần nộp.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Hồ sơ cần nộp (Đăng ký khai sinh lần đầu)",
+          "sections": [
+            {
+              "title": "Giấy tờ/biểu mẫu",
+              "items": [
+                "Tờ khai đăng ký khai sinh (bản giấy hoặc biểu mẫu điện tử)."
+              ]
+            },
+            {
+              "title": "Chứng cứ về việc sinh (trường hợp: không có giấy chứng sinh và có người làm chứng)",
+              "items": [
+                "Văn bản người làm chứng xác nhận việc sinh (dùng thay giấy chứng sinh)."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P01.NEW#0",
+          "P01.M01#0"
+        ]
+      },
+      "seconds": 4.790596370999992
+    }
+  ],
+  "snapshot": {
+    "meta_hash": "d7d1f34f4ba62baa3559dbc377410098b22c446f4f24fa144e1ca2f112edb812",
+    "session_id": "D05",
+    "nodes": [
+      "P01.M01"
+    ],
+    "state": {
+      "facts": [
+        {
+          "key": "chung_cu_sinh.co_nguoi_lam_chung",
+          "value": "Có (bà đỡ làm chứng)",
+          "evidence": "Có bà đỡ làm chứng.",
+          "node_id": "P01.M01"
+        },
+        {
+          "key": "yeu_to_nuoc_ngoai",
+          "value": "Không có yếu tố nước ngoài (cả vợ chồng đều là người Việt)",
+          "evidence": "vợ chồng tôi đều người Việt",
+          "node_id": "P01.C01"
+        },
+        {
+          "key": "noi_sinh",
+          "value": "Sinh tại Việt Nam",
+          "evidence": "Bé sinh tại Việt Nam.",
+          "node_id": "P01.C01"
+        }
+      ],
+      "path": [
+        "P01",
+        "P01.NEW",
+        "P01.C01",
+        "P01.M01"
+      ],
+      "summary": "Đăng ký khai sinh lần đầu cho con; sinh tại Việt Nam; cha mẹ đều là người Việt (không yếu tố nước ngoài); không có giấy chứng sinh và có người làm chứng. Người dân yêu cầu xem hồ sơ cần nộp.",
+      "pending_switch": ""
+    },
+    "last_response": {
+      "mode": "answer",
+      "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+      "information": {
+        "title": "Hồ sơ cần nộp (Đăng ký khai sinh lần đầu)",
+        "sections": [
+          {
+            "title": "Giấy tờ/biểu mẫu",
+            "items": [
+              "Tờ khai đăng ký khai sinh (bản giấy hoặc biểu mẫu điện tử)."
+            ]
+          },
+          {
+            "title": "Chứng cứ về việc sinh (trường hợp: không có giấy chứng sinh và có người làm chứng)",
+            "items": [
+              "Văn bản người làm chứng xác nhận việc sinh (dùng thay giấy chứng sinh)."
+            ]
+          }
+        ],
+        "options": []
+      }
+    },
+    "revision": 4,
+    "last_spoken": ""
+  },
+  "runtime_sha256": "1d8bcbd8aff8b770f3255289bf5f1d9a10b27d2aa161d7493f031c0a9ad7ddf6"
+}

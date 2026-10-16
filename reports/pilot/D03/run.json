@@ -1,0 +1,786 @@
+{
+  "case": "D03",
+  "turns": [
+    {
+      "user": "Tôi muốn đăng ký khai sinh cho con.",
+      "response": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "request",
+              "value": "Đăng ký khai sinh cho con",
+              "evidence": "Tôi muốn đăng ký khai sinh cho con.",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW"
+          ],
+          "summary": "Người dân muốn đăng ký khai sinh cho con (đăng ký lần đầu). Cần xác định nhánh trường hợp để hướng dẫn chứng cứ về việc sinh.",
+          "pending_switch": ""
+        },
+        "speech_text": "Cho tôi hỏi hiện có giấy chứng sinh của bé không?",
+        "information": {
+          "title": "Chọn tình huống về giấy chứng sinh",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Có giấy chứng sinh",
+              "node_ids": []
+            },
+            {
+              "id": "B",
+              "label": "Không có giấy chứng sinh nhưng có người làm chứng xác nhận việc sinh",
+              "node_ids": [
+                "P01.M01"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Không có giấy chứng sinh và cũng không có người làm chứng",
+              "node_ids": [
+                "P01.M02"
+              ]
+            }
+          ]
+        },
+        "citations": [],
+        "revision": 1,
+        "session_id": "D03"
+      },
+      "seconds": 11.01461782300612,
+      "event_start": 0,
+      "event_count": 3
+    }
+  ],
+  "events": [
+    {
+      "call": 1,
+      "payload": {
+        "user_text": "Tôi muốn đăng ký khai sinh cho con.",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "ROOT",
+              "title": "Quy trình hành chính — cây tri thức 3.0",
+              "condition": "Yêu cầu thuộc một hoặc nhiều lĩnh vực trong bộ dữ liệu",
+              "kind": "root",
+              "children_count": 27,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P02",
+                "title": "Đăng ký khai tử",
+                "condition": "Nhu cầu liên quan: Đăng ký khai tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P04",
+                "title": "Đăng ký thường trú",
+                "condition": "Nhu cầu liên quan: Đăng ký thường trú",
+                "kind": "procedure",
+                "children_count": 9,
+                "related": []
+              },
+              {
+                "id": "P05",
+                "title": "Xác nhận tình trạng hôn nhân",
+                "condition": "Nhu cầu liên quan: Xác nhận tình trạng hôn nhân",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P06",
+                "title": "Đăng ký tạm trú",
+                "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P07",
+                "title": "Xác nhận và điều chỉnh thông tin cư trú",
+                "condition": "Nhu cầu liên quan: Xác nhận và điều chỉnh thông tin cư trú",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P09",
+                "title": "Đăng ký biến động đất đai",
+                "condition": "Nhu cầu liên quan: Đăng ký biến động đất đai",
+                "kind": "procedure",
+                "children_count": 15,
+                "related": []
+              },
+              {
+                "id": "P10",
+                "title": "Cấp giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Cấp giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P11",
+                "title": "Đổi giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Đổi giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P12",
+                "title": "Chuyển nhượng quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Chuyển nhượng quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P13",
+                "title": "Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "condition": "Nhu cầu liên quan: Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P15",
+                "title": "Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "condition": "Nhu cầu liên quan: Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P16",
+                "title": "Hỗ trợ đào tạo nghề",
+                "condition": "Nhu cầu liên quan: Hỗ trợ đào tạo nghề",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P17",
+                "title": "Hỗ trợ người bị tai nạn lao động",
+                "condition": "Nhu cầu liên quan: Hỗ trợ người bị tai nạn lao động",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P19",
+                "title": "Tín dụng chính sách NHCSXH",
+                "condition": "Nhu cầu liên quan: Tín dụng chính sách NHCSXH",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P20",
+                "title": "Chế độ thương binh",
+                "condition": "Nhu cầu liên quan: Chế độ thương binh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P21",
+                "title": "Chế độ thờ cúng liệt sĩ",
+                "condition": "Nhu cầu liên quan: Chế độ thờ cúng liệt sĩ",
+                "kind": "procedure",
+                "children_count": 7,
+                "related": []
+              },
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P25",
+                "title": "Thay đổi nội dung đăng ký hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Thay đổi nội dung đăng ký hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 10,
+                "related": []
+              },
+              {
+                "id": "P26",
+                "title": "Chấm dứt hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Chấm dứt hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P27",
+                "title": "Khiếu nại - Phản ánh - Kiến nghị",
+                "condition": "Nhu cầu liên quan: Khiếu nại - Phản ánh - Kiến nghị",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2800,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 131,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2931
+      },
+      "response_id": "resp_026a40b4f4228c71016ad16119dd7087d0918acde0ddc995db",
+      "decision": {
+        "action": "load",
+        "mode": "answer",
+        "node_ids": [
+          "P01"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "request",
+              "value": "Đăng ký khai sinh cho con",
+              "evidence": "Tôi muốn đăng ký khai sinh cho con.",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P01"
+          ],
+          "summary": "Người dân muốn thực hiện thủ tục đăng ký khai sinh cho con; cần nạp dữ liệu thủ tục để hướng dẫn hồ sơ/quy trình/điều kiện.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 2.6552339490008308
+    },
+    {
+      "call": 2,
+      "payload": {
+        "user_text": "Tôi muốn đăng ký khai sinh cho con.",
+        "state": {
+          "facts": [
+            {
+              "key": "request",
+              "value": "Đăng ký khai sinh cho con",
+              "evidence": "Tôi muốn đăng ký khai sinh cho con.",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P01"
+          ],
+          "summary": "Người dân muốn thực hiện thủ tục đăng ký khai sinh cho con; cần nạp dữ liệu thủ tục để hướng dẫn hồ sơ/quy trình/điều kiện.",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P01",
+              "title": "Đăng ký khai sinh",
+              "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+              "kind": "procedure",
+              "children_count": 3,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.R01",
+                "title": "Trích lục, sửa hộ tịch, đăng ký lại và các tình huống khai sinh khác",
+                "condition": "Cần trích lục, đăng ký lại, cải chính, bổ sung, ghi chú hoặc khai sinh cho người đã có hồ sơ cá nhân",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 3,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 1831,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 276,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2107
+      },
+      "response_id": "resp_038568b53bef7360016ad1611c87f887d0815bd2ccb92907a3",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P01.NEW"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "request",
+              "value": "Đăng ký khai sinh cho con",
+              "evidence": "Tôi muốn đăng ký khai sinh cho con.",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW"
+          ],
+          "summary": "Người dân muốn đăng ký khai sinh cho con (đăng ký lần đầu). Cần xác định tình huống sinh (có giấy chứng sinh hay trường hợp đặc biệt) để hướng dẫn hồ sơ theo đúng nhánh.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "Xác định tình huống để hướng dẫn hồ sơ khai sinh",
+          "sections": [
+            {
+              "title": "Bạn đang thực hiện",
+              "items": [
+                "Đăng ký khai sinh lần đầu (chưa từng đăng ký khai sinh).",
+                "Hồ sơ chung gồm: tờ khai đăng ký khai sinh (bản giấy hoặc biểu mẫu điện tử) và chứng cứ về việc sinh theo đúng trường hợp."
+              ]
+            }
+          ],
+          "options": [
+            {
+              "id": "A",
+              "label": "Có giấy chứng sinh",
+              "node_ids": [
+                "P01.NEW"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Không có giấy chứng sinh / trường hợp đặc biệt khác",
+              "node_ids": [
+                "P01.NEW"
+              ]
+            }
+          ]
+        },
+        "citations": [
+          "P01.NEW#0"
+        ]
+      },
+      "seconds": 4.668002206002711
+    },
+    {
+      "call": 3,
+      "payload": {
+        "user_text": "Tôi muốn đăng ký khai sinh cho con.",
+        "state": {
+          "facts": [
+            {
+              "key": "request",
+              "value": "Đăng ký khai sinh cho con",
+              "evidence": "Tôi muốn đăng ký khai sinh cho con.",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW"
+          ],
+          "summary": "Người dân muốn đăng ký khai sinh cho con (đăng ký lần đầu). Cần xác định tình huống sinh (có giấy chứng sinh hay trường hợp đặc biệt) để hướng dẫn hồ sơ theo đúng nhánh.",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P01.NEW",
+              "title": "Đăng ký khai sinh lần đầu",
+              "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+              "kind": "shared_ancestor",
+              "children_count": 8,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P01.NEW#0",
+                  "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                  "topics": [
+                    "ho_so"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C01",
+                "title": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.C02",
+                "title": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.C03",
+                "title": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+                "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.M01",
+                "title": "Không có giấy chứng sinh; có người làm chứng",
+                "condition": "Không có giấy chứng sinh; có người làm chứng",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P01.C01",
+                  "P01.C02",
+                  "P01.C03"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.M01#0",
+                    "text": "Bật khi không có giấy chứng sinh và có người làm chứng về việc sinh: dùng văn bản người làm chứng xác nhận việc sinh thay giấy chứng sinh. Không đồng thời yêu cầu cam đoan không có người làm chứng. Kế thừa thẩm quyền, thời gian, phí và kết quả của C01–C03 đang áp dụng.",
+                    "topics": [
+                      "chi_phi",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.M02",
+                "title": "Không có giấy chứng sinh và không có người làm chứng",
+                "condition": "Không có giấy chứng sinh và không có người làm chứng",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.M02#0",
+                    "text": "Bật khi không có giấy chứng sinh và không có người làm chứng: dùng giấy cam đoan về việc sinh của người đi đăng ký. Người cam đoan chịu trách nhiệm nội dung. Kế thừa nhánh chính; không áp giấy cam đoan này cho khai tử.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.M03",
+                "title": "Trẻ bị bỏ rơi",
+                "condition": "Trẻ bị bỏ rơi",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.M04",
+                "title": "Sinh do mang thai hộ",
+                "condition": "Sinh do mang thai hộ",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.M04#0",
+                    "text": "Bật khi sinh do mang thai hộ vì mục đích nhân đạo: ngoài giấy chứng sinh, dùng văn bản xác nhận của cơ sở y tế đã thực hiện kỹ thuật hỗ trợ sinh sản về việc mang thai hộ. Cha mẹ pháp lý là bên nhờ mang thai hộ theo quy định; không tự ghi người mang thai hộ là mẹ trong khai sinh. Kế thừa nhánh chính về nơi nộp, thời gian và phí.",
+                    "topics": [
+                      "chi_phi",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.M05",
+                "title": "Chưa xác định cha/mẹ hoặc đăng ký nhận cha mẹ con cùng khai sinh",
+                "condition": "Chưa xác định cha/mẹ hoặc đăng ký nhận cha mẹ con cùng khai sinh",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 7
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2445,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 227,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2672
+      },
+      "response_id": "resp_0f95d8486f7a6d4b016ad16121181487d08c001f3b7a517acc",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "request",
+              "value": "Đăng ký khai sinh cho con",
+              "evidence": "Tôi muốn đăng ký khai sinh cho con.",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P01",
+            "P01.NEW"
+          ],
+          "summary": "Người dân muốn đăng ký khai sinh cho con (đăng ký lần đầu). Cần xác định nhánh trường hợp để hướng dẫn chứng cứ về việc sinh.",
+          "pending_switch": ""
+        },
+        "speech_text": "Cho tôi hỏi hiện có giấy chứng sinh của bé không?",
+        "information": {
+          "title": "Chọn tình huống về giấy chứng sinh",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Có giấy chứng sinh",
+              "node_ids": []
+            },
+            {
+              "id": "B",
+              "label": "Không có giấy chứng sinh nhưng có người làm chứng xác nhận việc sinh",
+              "node_ids": [
+                "P01.M01"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Không có giấy chứng sinh và cũng không có người làm chứng",
+              "node_ids": [
+                "P01.M02"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 3.6908941290021176
+    }
+  ],
+  "snapshot": {
+    "meta_hash": "d7d1f34f4ba62baa3559dbc377410098b22c446f4f24fa144e1ca2f112edb812",
+    "session_id": "D03",
+    "nodes": [
+      "P01.NEW"
+    ],
+    "state": {
+      "facts": [
+        {
+          "key": "request",
+          "value": "Đăng ký khai sinh cho con",
+          "evidence": "Tôi muốn đăng ký khai sinh cho con.",
+          "node_id": "ROOT"
+        }
+      ],
+      "path": [
+        "P01",
+        "P01.NEW"
+      ],
+      "summary": "Người dân muốn đăng ký khai sinh cho con (đăng ký lần đầu). Cần xác định nhánh trường hợp để hướng dẫn chứng cứ về việc sinh.",
+      "pending_switch": ""
+    },
+    "last_response": {
+      "mode": "question",
+      "speech_text": "Cho tôi hỏi hiện có giấy chứng sinh của bé không?",
+      "information": {
+        "title": "Chọn tình huống về giấy chứng sinh",
+        "sections": [],
+        "options": [
+          {
+            "id": "A",
+            "label": "Có giấy chứng sinh",
+            "node_ids": []
+          },
+          {
+            "id": "B",
+            "label": "Không có giấy chứng sinh nhưng có người làm chứng xác nhận việc sinh",
+            "node_ids": [
+              "P01.M01"
+            ]
+          },
+          {
+            "id": "C",
+            "label": "Không có giấy chứng sinh và cũng không có người làm chứng",
+            "node_ids": [
+              "P01.M02"
+            ]
+          }
+        ]
+      }
+    },
+    "revision": 1,
+    "last_spoken": ""
+  },
+  "runtime_sha256": "325f1a46225c912c9b1e5c3d5e39cef95e6c194b2aec4efc632c1aa5c0a853af"
+}

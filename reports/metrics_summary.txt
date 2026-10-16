@@ -1,0 +1,74 @@
+{
+  "pilot": {
+    "dialogues": 10,
+    "turns": 10,
+    "calls": 23,
+    "api_errors": 0,
+    "turn_errors": 0,
+    "input_tokens": 54603,
+    "output_tokens": 4804,
+    "total_tokens": 59407,
+    "cached_input_tokens": 0,
+    "median_seconds": 9.54013149849925,
+    "mean_tokens_per_turn": 5940.7,
+    "max_seconds": 17.890446436002094
+  },
+  "main": {
+    "dialogues": 10,
+    "turns": 41,
+    "calls": 95,
+    "api_errors": 0,
+    "turn_errors": 1,
+    "input_tokens": 295692,
+    "output_tokens": 23070,
+    "total_tokens": 318762,
+    "cached_input_tokens": 51328,
+    "median_seconds": 7.657022651997977,
+    "mean_tokens_per_turn": 7774.682926829269,
+    "max_seconds": 32.077851905996795
+  },
+  "regression1": {
+    "dialogues": 5,
+    "turns": 8,
+    "calls": 16,
+    "api_errors": 0,
+    "turn_errors": 1,
+    "input_tokens": 58171,
+    "output_tokens": 3835,
+    "total_tokens": 62006,
+    "cached_input_tokens": 23296,
+    "median_seconds": 5.7366214174981,
+    "mean_tokens_per_turn": 7750.75,
+    "max_seconds": 17.538195013003133
+  },
+  "regression": {
+    "dialogues": 3,
+    "turns": 4,
+    "calls": 10,
+    "api_errors": 0,
+    "turn_errors": 0,
+    "input_tokens": 43356,
+    "output_tokens": 2320,
+    "total_tokens": 45676,
+    "cached_input_tokens": 17408,
+    "median_seconds": 8.518478052497812,
+    "mean_tokens_per_turn": 11419.0,
+    "max_seconds": 12.72887424199871
+  },
+  "all": {
+    "turns": 63,
+    "calls": 144,
+    "api_errors": 0,
+    "turn_errors": 2,
+    "input_tokens": 451822,
+    "output_tokens": 34029,
+    "total_tokens": 485851,
+    "cached_input_tokens": 92032,
+    "median_seconds": 7.657022651997977,
+    "mean_tokens_per_turn": 7711.920634920635,
+    "max_seconds": 32.077851905996795,
+    "recorded_runs": 28,
+    "unique_scenarios": 10
+  }
+}
+{"max_windows_per_call": 4, "nested_children_leaked": 0, "answer_speech_not_template": [], "questions_without_options": [], "runtime_hashes": ["1d8bcbd8aff8b770f3255289bf5f1d9a10b27d2aa161d7493f031c0a9ad7ddf6"]}

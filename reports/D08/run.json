@@ -1,0 +1,2410 @@
+{
+  "case": "D08",
+  "turns": [
+    {
+      "user": "Tôi muốn chuyển trường cho con.",
+      "response": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P22"
+          ],
+          "summary": "Người dân muốn chuyển trường cho con; đang cần xác định nhóm trường hợp chuyển trường phù hợp.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho biết con đang học trong nước hay từ nước ngoài về ạ?",
+        "information": {
+          "title": "Chọn trường hợp chuyển trường",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Con đang học trong nước (chuyển trường thông thường)",
+              "node_ids": [
+                "P22.C01"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Học sinh Việt Nam từ nước ngoài về",
+              "node_ids": [
+                "P22.C02"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Chuyển từ THPT tư thục sang công lập hoặc chuyển đến trường chuyên biệt",
+              "node_ids": [
+                "P22.C03"
+              ]
+            },
+            {
+              "id": "D",
+              "label": "Không phải chuyển trường: tuyển sinh đầu cấp / xin học lại sau nghỉ / học sinh quốc tịch nước ngoài",
+              "node_ids": [
+                "P22.R01"
+              ]
+            }
+          ]
+        },
+        "citations": [],
+        "revision": 1,
+        "session_id": "D08"
+      },
+      "seconds": 7.617925163001928,
+      "event_start": 0,
+      "event_count": 3
+    },
+    {
+      "user": "Con đang học cấp ba công lập ở trong nước.",
+      "response": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "truong_hop_chuyen_truong",
+              "value": "Học sinh đang học trong nước (chuyển trường thông thường)",
+              "evidence": "Con đang học cấp ba công lập ở trong nước.",
+              "node_id": "P22.C01"
+            }
+          ],
+          "path": [
+            "P22",
+            "P22.C01"
+          ],
+          "summary": "Chuyển trường cho con đang học THPT trong nước; cần xác định có chuyển sang trường chuyên biệt hoặc từ tư thục sang công lập không để áp đúng nhánh.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho biết con có chuyển từ THPT tư thục sang THPT công lập hoặc chuyển đến trường chuyên biệt (chuyên/năng khiếu/dân tộc nội trú/cơ sở chuyên biệt) không ạ?",
+        "information": {
+          "title": "Xác định trường hợp chuyển trường",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Không, con đang học THPT công lập và chuyển sang trường THPT công lập khác (chuyển trường thông thường)",
+              "node_ids": [
+                "P22.C01"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Có, con chuyển từ THPT tư thục sang THPT công lập",
+              "node_ids": [
+                "P22.C03"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Có, con chuyển đến trường chuyên/năng khiếu/dân tộc nội trú/cơ sở chuyên biệt",
+              "node_ids": [
+                "P22.C03"
+              ]
+            }
+          ]
+        },
+        "citations": [
+          "P22.C01.N001.N004#0"
+        ],
+        "revision": 2,
+        "session_id": "D08"
+      },
+      "seconds": 5.557246046999353,
+      "event_start": 3,
+      "event_count": 1
+    },
+    {
+      "user": "A, chuyển sang trường công lập bình thường ở tỉnh khác. Cháu học chương trình Việt Nam.",
+      "response": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "truong_hop_chuyen_truong",
+              "value": "Học sinh đang học trong nước (chuyển trường thông thường)",
+              "evidence": "A, chuyển sang trường công lập bình thường ở tỉnh khác. Cháu học chương trình Việt Nam.",
+              "node_id": "P22.C01"
+            },
+            {
+              "key": "tinh_thanh_khac",
+              "value": "Chuyển từ tỉnh/thành khác",
+              "evidence": "ở tỉnh khác",
+              "node_id": "P22.C01.N001.N002"
+            }
+          ],
+          "path": [
+            "P22",
+            "P22.C01"
+          ],
+          "summary": "Chuyển trường cho học sinh THPT công lập sang THPT công lập ở tỉnh khác (chương trình Việt Nam).",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Chuyển trường THPT công lập sang THPT công lập ở tỉnh khác (chương trình Việt Nam)",
+          "sections": [
+            {
+              "title": "Hồ sơ chuyển trường (thông thường)",
+              "items": [
+                "Đơn chuyển trường của cha mẹ/người giám hộ.",
+                "Bảng tổng hợp kết quả đánh giá giáo dục hoặc kết quả học tập/rèn luyện của học sinh.",
+                "Kế hoạch giáo dục cá nhân (nếu là học sinh khuyết tật)."
+              ]
+            },
+            {
+              "title": "Thời hạn trả lời của trường đến (vì chuyển từ tỉnh/thành khác)",
+              "items": [
+                "Trường đến trả lời trong 8 ngày làm việc."
+              ]
+            },
+            {
+              "title": "Sau khi trường đến đồng ý tiếp nhận",
+              "items": [
+                "Trường đi hoàn tất và trả hồ sơ trong 3 ngày làm việc.",
+                "Trường đến tiếp nhận và bố trí học trong 5 ngày làm việc."
+              ]
+            },
+            {
+              "title": "Điều kiện/lưu ý áp dụng",
+              "items": [
+                "Chuyển theo thời điểm phù hợp kế hoạch giáo dục, bảo đảm việc học liên tục.",
+                "Nếu chuyển giữa năm: cần xác định chương trình, tổ hợp môn và kết quả đã học để trường đến bố trí hỗ trợ hoặc kiểm tra.",
+                "Không đòi “giấy giới thiệu cấp huyện” như một yêu cầu mặc định (đã bãi bỏ)."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P22.C01.N001.N001#0",
+          "P22.C01.N001.N002#0",
+          "P22.C01.N001.N003#0",
+          "P22.C01.N001.N004#0"
+        ],
+        "revision": 3,
+        "session_id": "D08"
+      },
+      "seconds": 6.878854534996208,
+      "event_start": 4,
+      "event_count": 1
+    },
+    {
+      "user": "Nếu chuyển giữa năm thì có cần thêm gì không?",
+      "response": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "truong_hop_chuyen_truong",
+              "value": "Học sinh đang học trong nước (chuyển trường thông thường)",
+              "evidence": "A, chuyển sang trường công lập bình thường ở tỉnh khác. Cháu học chương trình Việt Nam.",
+              "node_id": "P22.C01"
+            },
+            {
+              "key": "tinh_thanh_khac",
+              "value": "Chuyển từ tỉnh/thành khác",
+              "evidence": "ở tỉnh khác",
+              "node_id": "P22.C01.N001.N002"
+            }
+          ],
+          "path": [
+            "P22",
+            "P22.C01"
+          ],
+          "summary": "Chuyển trường cho học sinh THPT công lập sang THPT công lập ở tỉnh khác (chương trình Việt Nam); đang hỏi yêu cầu bổ sung khi chuyển giữa năm.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Chuyển giữa năm có cần thêm gì không?",
+          "sections": [
+            {
+              "title": "Yêu cầu/lưu ý bổ sung khi chuyển giữa năm",
+              "items": [
+                "Cần xác định chương trình, tổ hợp môn và kết quả đã học để trường đến bố trí hỗ trợ hoặc kiểm tra."
+              ]
+            },
+            {
+              "title": "Lưu ý liên quan",
+              "items": [
+                "Việc chuyển cần thực hiện theo thời điểm phù hợp kế hoạch giáo dục, bảo đảm việc học liên tục.",
+                "Không đòi “giấy giới thiệu cấp huyện” như một yêu cầu mặc định (đã bãi bỏ)."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P22.C01.N001.N004#0"
+        ],
+        "revision": 4,
+        "session_id": "D08"
+      },
+      "seconds": 4.7196117249986855,
+      "event_start": 5,
+      "event_count": 1
+    }
+  ],
+  "events": [
+    {
+      "call": 1,
+      "payload": {
+        "user_text": "Tôi muốn chuyển trường cho con.",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "ROOT",
+              "title": "Quy trình hành chính — cây tri thức 3.0",
+              "condition": "Yêu cầu thuộc một hoặc nhiều lĩnh vực trong bộ dữ liệu",
+              "kind": "root",
+              "children_count": 27,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P02",
+                "title": "Đăng ký khai tử",
+                "condition": "Nhu cầu liên quan: Đăng ký khai tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P04",
+                "title": "Đăng ký thường trú",
+                "condition": "Nhu cầu liên quan: Đăng ký thường trú",
+                "kind": "procedure",
+                "children_count": 9,
+                "related": []
+              },
+              {
+                "id": "P05",
+                "title": "Xác nhận tình trạng hôn nhân",
+                "condition": "Nhu cầu liên quan: Xác nhận tình trạng hôn nhân",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P06",
+                "title": "Đăng ký tạm trú",
+                "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P07",
+                "title": "Xác nhận và điều chỉnh thông tin cư trú",
+                "condition": "Nhu cầu liên quan: Xác nhận và điều chỉnh thông tin cư trú",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P09",
+                "title": "Đăng ký biến động đất đai",
+                "condition": "Nhu cầu liên quan: Đăng ký biến động đất đai",
+                "kind": "procedure",
+                "children_count": 15,
+                "related": []
+              },
+              {
+                "id": "P10",
+                "title": "Cấp giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Cấp giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P11",
+                "title": "Đổi giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Đổi giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P12",
+                "title": "Chuyển nhượng quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Chuyển nhượng quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P13",
+                "title": "Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "condition": "Nhu cầu liên quan: Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P15",
+                "title": "Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "condition": "Nhu cầu liên quan: Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P16",
+                "title": "Hỗ trợ đào tạo nghề",
+                "condition": "Nhu cầu liên quan: Hỗ trợ đào tạo nghề",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P17",
+                "title": "Hỗ trợ người bị tai nạn lao động",
+                "condition": "Nhu cầu liên quan: Hỗ trợ người bị tai nạn lao động",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P19",
+                "title": "Tín dụng chính sách NHCSXH",
+                "condition": "Nhu cầu liên quan: Tín dụng chính sách NHCSXH",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P20",
+                "title": "Chế độ thương binh",
+                "condition": "Nhu cầu liên quan: Chế độ thương binh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P21",
+                "title": "Chế độ thờ cúng liệt sĩ",
+                "condition": "Nhu cầu liên quan: Chế độ thờ cúng liệt sĩ",
+                "kind": "procedure",
+                "children_count": 7,
+                "related": []
+              },
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P25",
+                "title": "Thay đổi nội dung đăng ký hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Thay đổi nội dung đăng ký hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 10,
+                "related": []
+              },
+              {
+                "id": "P26",
+                "title": "Chấm dứt hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Chấm dứt hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P27",
+                "title": "Khiếu nại - Phản ánh - Kiến nghị",
+                "condition": "Nhu cầu liên quan: Khiếu nại - Phản ánh - Kiến nghị",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3133,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 78,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3211
+      },
+      "response_id": "resp_0c89a75307d52b09016ad161a6b56887d09be4e56e0caca860",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P22"
+        ],
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "Người dân muốn làm thủ tục chuyển trường cho con; đã vào thủ tục P22.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 1.8368893660008325
+    },
+    {
+      "call": 2,
+      "payload": {
+        "user_text": "Tôi muốn chuyển trường cho con.",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "Người dân muốn làm thủ tục chuyển trường cho con; đã vào thủ tục P22.",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P22",
+              "title": "Chuyển trường, tiếp nhận và học lại",
+              "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+              "kind": "procedure",
+              "children_count": 5,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P22.C01",
+                "title": "Học sinh đang học trong nước; chuyển trường thông thường",
+                "condition": "Học sinh đang học trong nước; chuyển trường thông thường",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P22.C02",
+                "title": "Học sinh Việt Nam từ nước ngoài về",
+                "condition": "Học sinh Việt Nam từ nước ngoài về",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P22.C03",
+                "title": "Chuyển từ THPT tư thục sang công lập hoặc trường chuyên biệt",
+                "condition": "Chuyển từ THPT tư thục sang công lập hoặc trường chuyên biệt",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P22.R01",
+                "title": "Tuyển sinh đầu cấp, xin học lại sau nghỉ hoặc học sinh nước ngoài",
+                "condition": "Tuyển sinh đầu cấp, xin học lại sau nghỉ hoặc học sinh nước ngoài",
+                "kind": "case_group",
+                "children_count": 3,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P22.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Chuyển trường, tiếp nhận và học lại; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2173,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 103,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2276
+      },
+      "response_id": "resp_0d8f8b514f52750d016ad161a8777487d0a2ef8e99c7b0e493",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P22.C01",
+          "P22.C02",
+          "P22.C03",
+          "P22.R01"
+        ],
+        "state": {
+          "facts": [],
+          "path": [
+            "P22"
+          ],
+          "summary": "Người dân muốn làm thủ tục chuyển trường cho con; đang cần xác định nhóm trường hợp chuyển trường phù hợp.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 2.1020097459986573
+    },
+    {
+      "call": 3,
+      "payload": {
+        "user_text": "Tôi muốn chuyển trường cho con.",
+        "state": {
+          "facts": [],
+          "path": [
+            "P22"
+          ],
+          "summary": "Người dân muốn làm thủ tục chuyển trường cho con; đang cần xác định nhóm trường hợp chuyển trường phù hợp.",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P22.C01",
+              "title": "Học sinh đang học trong nước; chuyển trường thông thường",
+              "condition": "Học sinh đang học trong nước; chuyển trường thông thường",
+              "kind": "case_group",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P22.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Chuyển trường, tiếp nhận và học lại; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P22.C01.N001.N001",
+                "title": "Hồ sơ chuyển trường thông thường",
+                "condition": "Chuyển trường trong nước theo chương trình Việt Nam",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C01.N001.N001#0",
+                    "text": "Hồ sơ: đơn chuyển trường của cha mẹ/người giám hộ, bảng tổng hợp kết quả đánh giá giáo dục hoặc kết quả học tập/rèn luyện của học sinh; kế hoạch giáo dục cá nhân nếu là học sinh khuyết tật.",
+                    "topics": [
+                      "ho_so",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P22.C01.N001.N002",
+                "title": "Thời hạn tiếp nhận ban đầu",
+                "condition": "Xác định chuyển trong Thành phố hay từ tỉnh/thành khác",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C01.N001.N002#0",
+                    "text": "Trường đến trả lời trong 5 ngày làm việc nếu chuyển trong Thành phố, 8 ngày làm việc nếu từ tỉnh/thành khác.",
+                    "topics": [
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P22.C01.N001.N003",
+                "title": "Đã có chấp thuận tiếp nhận",
+                "condition": "Trường đến đã đồng ý; chuyển giao hồ sơ và bố trí học",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C01.N001.N003#0",
+                    "text": "Sau khi được đồng ý, trường đi hoàn tất và trả hồ sơ trong 3 ngày làm việc; trường đến tiếp nhận và bố trí học trong 5 ngày làm việc.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "thoi_gian"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P22.C01.N001.N004",
+                "title": "Kết quả · Điều kiện",
+                "condition": "Học sinh đang học trong nước; chuyển trường thông thường",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P22.C03"
+                ],
+                "blocks": [
+                  {
+                    "id": "P22.C01.N001.N004#0",
+                    "text": "Chuyển theo thời điểm phù hợp kế hoạch giáo dục, bảo đảm học liên tục; trường hợp chuyển giữa năm phải xác định chương trình, tổ hợp môn và kết quả đã học để trường đến bố trí hỗ trợ hoặc kiểm tra. Không đòi giấy giới thiệu cấp huyện đã bãi bỏ như một yêu cầu mặc định. Áp thêm C03 nếu vào trường chuyên biệt hoặc tư thục sang THPT công lập.",
+                    "topics": [
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P22.C02",
+              "title": "Học sinh Việt Nam từ nước ngoài về",
+              "condition": "Học sinh Việt Nam từ nước ngoài về",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P22.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Chuyển trường, tiếp nhận và học lại; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P22.C02.N001.N001",
+                "title": "Hồ sơ · Nơi giải quyết · Kết quả",
+                "condition": "Học sinh Việt Nam từ nước ngoài về",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C02.N001.N001#0",
+                    "text": "Học sinh Việt Nam từ nước ngoài về: đơn xin học; học bạ hoặc giấy xác nhận kết quả học tập ở nước ngoài, bản dịch tiếng Việt có chứng thực; bản sao giấy khai sinh hoặc căn cước. Nếu mất học bạ/kết quả thì cung cấp xác nhận của cơ quan có thẩm quyền về việc đã học ở nước ngoài để nhà trường xem xét, không tự từ chối mọi hồ sơ mất học bạ.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P22.C02.N001.N002",
+                "title": "Hồ sơ · Thời gian · Kết quả",
+                "condition": "Học sinh Việt Nam từ nước ngoài về",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C02.N001.N002#0",
+                    "text": "Trường trả lời trong 8 ngày làm việc; trong 5 ngày làm việc từ khi tiếp nhận hồ sơ hợp lệ, hiệu trưởng quyết định xếp lớp trên cơ sở hồ sơ, tuổi, kết quả kiểm tra/trình độ phù hợp. Không quy đổi lớp chỉ từ tên lớp nước ngoài. Cần kế hoạch giáo dục cá nhân thì bổ sung để tổ chức học hòa nhập.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P22.C03",
+              "title": "Chuyển từ THPT tư thục sang công lập hoặc trường chuyên biệt",
+              "condition": "Chuyển từ THPT tư thục sang công lập hoặc trường chuyên biệt",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P22.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Chuyển trường, tiếp nhận và học lại; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P22.C03.N001",
+                "title": "THPT tư thục sang công lập",
+                "condition": "Chuyển THPT tư thục sang công lập; phải thuộc ngoại lệ",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P22.C03.N002",
+                "title": "Trường chuyên biệt",
+                "condition": "Chuyển đến trường chuyên/năng khiếu/dân tộc nội trú/cơ sở chuyên biệt",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P22.R01",
+              "title": "Tuyển sinh đầu cấp, xin học lại sau nghỉ hoặc học sinh nước ngoài",
+              "condition": "Tuyển sinh đầu cấp, xin học lại sau nghỉ hoặc học sinh nước ngoài",
+              "kind": "case_group",
+              "children_count": 3,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P22.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Chuyển trường, tiếp nhận và học lại; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P22.R01.N001",
+                "title": "Học lại hoặc bảo lưu",
+                "condition": "Đã nghỉ học; xin học lại hoặc bảo lưu",
+                "kind": "situation_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P22.R01.N002",
+                "title": "Tiếp nhận học sinh nước ngoài",
+                "condition": "Học sinh quốc tịch nước ngoài",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P22.R01.N003",
+                "title": "Tuyển sinh đầu cấp",
+                "condition": "Xin vào lớp đầu cấp, không phải chuyển trường",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 7
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3744,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 234,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3978
+      },
+      "response_id": "resp_08a2df0e6ebfa269016ad161aa8dc487d0bb5184bc38c0f1d5",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P22"
+          ],
+          "summary": "Người dân muốn chuyển trường cho con; đang cần xác định nhóm trường hợp chuyển trường phù hợp.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho biết con đang học trong nước hay từ nước ngoài về ạ?",
+        "information": {
+          "title": "Chọn trường hợp chuyển trường",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Con đang học trong nước (chuyển trường thông thường)",
+              "node_ids": [
+                "P22.C01"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Học sinh Việt Nam từ nước ngoài về",
+              "node_ids": [
+                "P22.C02"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Chuyển từ THPT tư thục sang công lập hoặc chuyển đến trường chuyên biệt",
+              "node_ids": [
+                "P22.C03"
+              ]
+            },
+            {
+              "id": "D",
+              "label": "Không phải chuyển trường: tuyển sinh đầu cấp / xin học lại sau nghỉ / học sinh quốc tịch nước ngoài",
+              "node_ids": [
+                "P22.R01"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 3.678548577001493
+    },
+    {
+      "call": 4,
+      "payload": {
+        "user_text": "Con đang học cấp ba công lập ở trong nước.",
+        "state": {
+          "facts": [],
+          "path": [
+            "P22"
+          ],
+          "summary": "Người dân muốn chuyển trường cho con; đang cần xác định nhóm trường hợp chuyển trường phù hợp.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị cho biết con đang học trong nước hay từ nước ngoài về ạ?",
+          "information": {
+            "title": "Chọn trường hợp chuyển trường",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Con đang học trong nước (chuyển trường thông thường)",
+                "node_ids": [
+                  "P22.C01"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Học sinh Việt Nam từ nước ngoài về",
+                "node_ids": [
+                  "P22.C02"
+                ]
+              },
+              {
+                "id": "C",
+                "label": "Chuyển từ THPT tư thục sang công lập hoặc chuyển đến trường chuyên biệt",
+                "node_ids": [
+                  "P22.C03"
+                ]
+              },
+              {
+                "id": "D",
+                "label": "Không phải chuyển trường: tuyển sinh đầu cấp / xin học lại sau nghỉ / học sinh quốc tịch nước ngoài",
+                "node_ids": [
+                  "P22.R01"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P22.C01",
+              "title": "Học sinh đang học trong nước; chuyển trường thông thường",
+              "condition": "Học sinh đang học trong nước; chuyển trường thông thường",
+              "kind": "case_group",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P22.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Chuyển trường, tiếp nhận và học lại; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P22.C01.N001.N001",
+                "title": "Hồ sơ chuyển trường thông thường",
+                "condition": "Chuyển trường trong nước theo chương trình Việt Nam",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C01.N001.N001#0",
+                    "text": "Hồ sơ: đơn chuyển trường của cha mẹ/người giám hộ, bảng tổng hợp kết quả đánh giá giáo dục hoặc kết quả học tập/rèn luyện của học sinh; kế hoạch giáo dục cá nhân nếu là học sinh khuyết tật.",
+                    "topics": [
+                      "ho_so",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P22.C01.N001.N002",
+                "title": "Thời hạn tiếp nhận ban đầu",
+                "condition": "Xác định chuyển trong Thành phố hay từ tỉnh/thành khác",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C01.N001.N002#0",
+                    "text": "Trường đến trả lời trong 5 ngày làm việc nếu chuyển trong Thành phố, 8 ngày làm việc nếu từ tỉnh/thành khác.",
+                    "topics": [
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P22.C01.N001.N003",
+                "title": "Đã có chấp thuận tiếp nhận",
+                "condition": "Trường đến đã đồng ý; chuyển giao hồ sơ và bố trí học",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C01.N001.N003#0",
+                    "text": "Sau khi được đồng ý, trường đi hoàn tất và trả hồ sơ trong 3 ngày làm việc; trường đến tiếp nhận và bố trí học trong 5 ngày làm việc.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "thoi_gian"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P22.C01.N001.N004",
+                "title": "Kết quả · Điều kiện",
+                "condition": "Học sinh đang học trong nước; chuyển trường thông thường",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P22.C03"
+                ],
+                "blocks": [
+                  {
+                    "id": "P22.C01.N001.N004#0",
+                    "text": "Chuyển theo thời điểm phù hợp kế hoạch giáo dục, bảo đảm học liên tục; trường hợp chuyển giữa năm phải xác định chương trình, tổ hợp môn và kết quả đã học để trường đến bố trí hỗ trợ hoặc kiểm tra. Không đòi giấy giới thiệu cấp huyện đã bãi bỏ như một yêu cầu mặc định. Áp thêm C03 nếu vào trường chuyên biệt hoặc tư thục sang THPT công lập.",
+                    "topics": [
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P22.C02",
+              "title": "Học sinh Việt Nam từ nước ngoài về",
+              "condition": "Học sinh Việt Nam từ nước ngoài về",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P22.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Chuyển trường, tiếp nhận và học lại; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P22.C02.N001.N001",
+                "title": "Hồ sơ · Nơi giải quyết · Kết quả",
+                "condition": "Học sinh Việt Nam từ nước ngoài về",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C02.N001.N001#0",
+                    "text": "Học sinh Việt Nam từ nước ngoài về: đơn xin học; học bạ hoặc giấy xác nhận kết quả học tập ở nước ngoài, bản dịch tiếng Việt có chứng thực; bản sao giấy khai sinh hoặc căn cước. Nếu mất học bạ/kết quả thì cung cấp xác nhận của cơ quan có thẩm quyền về việc đã học ở nước ngoài để nhà trường xem xét, không tự từ chối mọi hồ sơ mất học bạ.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P22.C02.N001.N002",
+                "title": "Hồ sơ · Thời gian · Kết quả",
+                "condition": "Học sinh Việt Nam từ nước ngoài về",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C02.N001.N002#0",
+                    "text": "Trường trả lời trong 8 ngày làm việc; trong 5 ngày làm việc từ khi tiếp nhận hồ sơ hợp lệ, hiệu trưởng quyết định xếp lớp trên cơ sở hồ sơ, tuổi, kết quả kiểm tra/trình độ phù hợp. Không quy đổi lớp chỉ từ tên lớp nước ngoài. Cần kế hoạch giáo dục cá nhân thì bổ sung để tổ chức học hòa nhập.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P22.C03",
+              "title": "Chuyển từ THPT tư thục sang công lập hoặc trường chuyên biệt",
+              "condition": "Chuyển từ THPT tư thục sang công lập hoặc trường chuyên biệt",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P22.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Chuyển trường, tiếp nhận và học lại; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P22.C03.N001",
+                "title": "THPT tư thục sang công lập",
+                "condition": "Chuyển THPT tư thục sang công lập; phải thuộc ngoại lệ",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P22.C03.N002",
+                "title": "Trường chuyên biệt",
+                "condition": "Chuyển đến trường chuyên/năng khiếu/dân tộc nội trú/cơ sở chuyên biệt",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P22.R01",
+              "title": "Tuyển sinh đầu cấp, xin học lại sau nghỉ hoặc học sinh nước ngoài",
+              "condition": "Tuyển sinh đầu cấp, xin học lại sau nghỉ hoặc học sinh nước ngoài",
+              "kind": "case_group",
+              "children_count": 3,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P22.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Chuyển trường, tiếp nhận và học lại; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P22.R01.N001",
+                "title": "Học lại hoặc bảo lưu",
+                "condition": "Đã nghỉ học; xin học lại hoặc bảo lưu",
+                "kind": "situation_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P22.R01.N002",
+                "title": "Tiếp nhận học sinh nước ngoài",
+                "condition": "Học sinh quốc tịch nước ngoài",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P22.R01.N003",
+                "title": "Tuyển sinh đầu cấp",
+                "condition": "Xin vào lớp đầu cấp, không phải chuyển trường",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3914,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 333,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4247
+      },
+      "response_id": "resp_050a2cb4f16d44ee016ad161e121a887d095dc37d356471c2c",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "truong_hop_chuyen_truong",
+              "value": "Học sinh đang học trong nước (chuyển trường thông thường)",
+              "evidence": "Con đang học cấp ba công lập ở trong nước.",
+              "node_id": "P22.C01"
+            }
+          ],
+          "path": [
+            "P22",
+            "P22.C01"
+          ],
+          "summary": "Chuyển trường cho con đang học THPT trong nước; cần xác định có chuyển sang trường chuyên biệt hoặc từ tư thục sang công lập không để áp đúng nhánh.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho biết con có chuyển từ THPT tư thục sang THPT công lập hoặc chuyển đến trường chuyên biệt (chuyên/năng khiếu/dân tộc nội trú/cơ sở chuyên biệt) không ạ?",
+        "information": {
+          "title": "Xác định trường hợp chuyển trường",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Không, con đang học THPT công lập và chuyển sang trường THPT công lập khác (chuyển trường thông thường)",
+              "node_ids": [
+                "P22.C01"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Có, con chuyển từ THPT tư thục sang THPT công lập",
+              "node_ids": [
+                "P22.C03"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Có, con chuyển đến trường chuyên/năng khiếu/dân tộc nội trú/cơ sở chuyên biệt",
+              "node_ids": [
+                "P22.C03"
+              ]
+            }
+          ]
+        },
+        "citations": [
+          "P22.C01.N001.N004#0"
+        ]
+      },
+      "seconds": 5.557029107003473
+    },
+    {
+      "call": 5,
+      "payload": {
+        "user_text": "A, chuyển sang trường công lập bình thường ở tỉnh khác. Cháu học chương trình Việt Nam.",
+        "state": {
+          "facts": [
+            {
+              "key": "truong_hop_chuyen_truong",
+              "value": "Học sinh đang học trong nước (chuyển trường thông thường)",
+              "evidence": "Con đang học cấp ba công lập ở trong nước.",
+              "node_id": "P22.C01"
+            }
+          ],
+          "path": [
+            "P22",
+            "P22.C01"
+          ],
+          "summary": "Chuyển trường cho con đang học THPT trong nước; cần xác định có chuyển sang trường chuyên biệt hoặc từ tư thục sang công lập không để áp đúng nhánh.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị cho biết con có chuyển từ THPT tư thục sang THPT công lập hoặc chuyển đến trường chuyên biệt (chuyên/năng khiếu/dân tộc nội trú/cơ sở chuyên biệt) không ạ?",
+          "information": {
+            "title": "Xác định trường hợp chuyển trường",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Không, con đang học THPT công lập và chuyển sang trường THPT công lập khác (chuyển trường thông thường)",
+                "node_ids": [
+                  "P22.C01"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Có, con chuyển từ THPT tư thục sang THPT công lập",
+                "node_ids": [
+                  "P22.C03"
+                ]
+              },
+              {
+                "id": "C",
+                "label": "Có, con chuyển đến trường chuyên/năng khiếu/dân tộc nội trú/cơ sở chuyên biệt",
+                "node_ids": [
+                  "P22.C03"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P22.C01",
+              "title": "Học sinh đang học trong nước; chuyển trường thông thường",
+              "condition": "Học sinh đang học trong nước; chuyển trường thông thường",
+              "kind": "case_group",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P22.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Chuyển trường, tiếp nhận và học lại; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P22.C01.N001.N001",
+                "title": "Hồ sơ chuyển trường thông thường",
+                "condition": "Chuyển trường trong nước theo chương trình Việt Nam",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C01.N001.N001#0",
+                    "text": "Hồ sơ: đơn chuyển trường của cha mẹ/người giám hộ, bảng tổng hợp kết quả đánh giá giáo dục hoặc kết quả học tập/rèn luyện của học sinh; kế hoạch giáo dục cá nhân nếu là học sinh khuyết tật.",
+                    "topics": [
+                      "ho_so",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P22.C01.N001.N002",
+                "title": "Thời hạn tiếp nhận ban đầu",
+                "condition": "Xác định chuyển trong Thành phố hay từ tỉnh/thành khác",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C01.N001.N002#0",
+                    "text": "Trường đến trả lời trong 5 ngày làm việc nếu chuyển trong Thành phố, 8 ngày làm việc nếu từ tỉnh/thành khác.",
+                    "topics": [
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P22.C01.N001.N003",
+                "title": "Đã có chấp thuận tiếp nhận",
+                "condition": "Trường đến đã đồng ý; chuyển giao hồ sơ và bố trí học",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C01.N001.N003#0",
+                    "text": "Sau khi được đồng ý, trường đi hoàn tất và trả hồ sơ trong 3 ngày làm việc; trường đến tiếp nhận và bố trí học trong 5 ngày làm việc.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "thoi_gian"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P22.C01.N001.N004",
+                "title": "Kết quả · Điều kiện",
+                "condition": "Học sinh đang học trong nước; chuyển trường thông thường",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P22.C03"
+                ],
+                "blocks": [
+                  {
+                    "id": "P22.C01.N001.N004#0",
+                    "text": "Chuyển theo thời điểm phù hợp kế hoạch giáo dục, bảo đảm học liên tục; trường hợp chuyển giữa năm phải xác định chương trình, tổ hợp môn và kết quả đã học để trường đến bố trí hỗ trợ hoặc kiểm tra. Không đòi giấy giới thiệu cấp huyện đã bãi bỏ như một yêu cầu mặc định. Áp thêm C03 nếu vào trường chuyên biệt hoặc tư thục sang THPT công lập.",
+                    "topics": [
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P22.C02",
+              "title": "Học sinh Việt Nam từ nước ngoài về",
+              "condition": "Học sinh Việt Nam từ nước ngoài về",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P22.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Chuyển trường, tiếp nhận và học lại; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P22.C02.N001.N001",
+                "title": "Hồ sơ · Nơi giải quyết · Kết quả",
+                "condition": "Học sinh Việt Nam từ nước ngoài về",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C02.N001.N001#0",
+                    "text": "Học sinh Việt Nam từ nước ngoài về: đơn xin học; học bạ hoặc giấy xác nhận kết quả học tập ở nước ngoài, bản dịch tiếng Việt có chứng thực; bản sao giấy khai sinh hoặc căn cước. Nếu mất học bạ/kết quả thì cung cấp xác nhận của cơ quan có thẩm quyền về việc đã học ở nước ngoài để nhà trường xem xét, không tự từ chối mọi hồ sơ mất học bạ.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P22.C02.N001.N002",
+                "title": "Hồ sơ · Thời gian · Kết quả",
+                "condition": "Học sinh Việt Nam từ nước ngoài về",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C02.N001.N002#0",
+                    "text": "Trường trả lời trong 8 ngày làm việc; trong 5 ngày làm việc từ khi tiếp nhận hồ sơ hợp lệ, hiệu trưởng quyết định xếp lớp trên cơ sở hồ sơ, tuổi, kết quả kiểm tra/trình độ phù hợp. Không quy đổi lớp chỉ từ tên lớp nước ngoài. Cần kế hoạch giáo dục cá nhân thì bổ sung để tổ chức học hòa nhập.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P22.C03",
+              "title": "Chuyển từ THPT tư thục sang công lập hoặc trường chuyên biệt",
+              "condition": "Chuyển từ THPT tư thục sang công lập hoặc trường chuyên biệt",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P22.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Chuyển trường, tiếp nhận và học lại; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P22.C03.N001",
+                "title": "THPT tư thục sang công lập",
+                "condition": "Chuyển THPT tư thục sang công lập; phải thuộc ngoại lệ",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P22.C03.N002",
+                "title": "Trường chuyên biệt",
+                "condition": "Chuyển đến trường chuyên/năng khiếu/dân tộc nội trú/cơ sở chuyên biệt",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P22.R01",
+              "title": "Tuyển sinh đầu cấp, xin học lại sau nghỉ hoặc học sinh nước ngoài",
+              "condition": "Tuyển sinh đầu cấp, xin học lại sau nghỉ hoặc học sinh nước ngoài",
+              "kind": "case_group",
+              "children_count": 3,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P22.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Chuyển trường, tiếp nhận và học lại; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P22.R01.N001",
+                "title": "Học lại hoặc bảo lưu",
+                "condition": "Đã nghỉ học; xin học lại hoặc bảo lưu",
+                "kind": "situation_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P22.R01.N002",
+                "title": "Tiếp nhận học sinh nước ngoài",
+                "condition": "Học sinh quốc tịch nước ngoài",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P22.R01.N003",
+                "title": "Tuyển sinh đầu cấp",
+                "condition": "Xin vào lớp đầu cấp, không phải chuyển trường",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 4012,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 528,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4540
+      },
+      "response_id": "resp_083be0622deb3331016ad16225997887d0ae9ba3629090aac5",
+      "decision": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "truong_hop_chuyen_truong",
+              "value": "Học sinh đang học trong nước (chuyển trường thông thường)",
+              "evidence": "A, chuyển sang trường công lập bình thường ở tỉnh khác. Cháu học chương trình Việt Nam.",
+              "node_id": "P22.C01"
+            },
+            {
+              "key": "tinh_thanh_khac",
+              "value": "Chuyển từ tỉnh/thành khác",
+              "evidence": "ở tỉnh khác",
+              "node_id": "P22.C01.N001.N002"
+            }
+          ],
+          "path": [
+            "P22",
+            "P22.C01"
+          ],
+          "summary": "Chuyển trường cho học sinh THPT công lập sang THPT công lập ở tỉnh khác (chương trình Việt Nam).",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Chuyển trường THPT công lập sang THPT công lập ở tỉnh khác (chương trình Việt Nam)",
+          "sections": [
+            {
+              "title": "Hồ sơ chuyển trường (thông thường)",
+              "items": [
+                "Đơn chuyển trường của cha mẹ/người giám hộ.",
+                "Bảng tổng hợp kết quả đánh giá giáo dục hoặc kết quả học tập/rèn luyện của học sinh.",
+                "Kế hoạch giáo dục cá nhân (nếu là học sinh khuyết tật)."
+              ]
+            },
+            {
+              "title": "Thời hạn trả lời của trường đến (vì chuyển từ tỉnh/thành khác)",
+              "items": [
+                "Trường đến trả lời trong 8 ngày làm việc."
+              ]
+            },
+            {
+              "title": "Sau khi trường đến đồng ý tiếp nhận",
+              "items": [
+                "Trường đi hoàn tất và trả hồ sơ trong 3 ngày làm việc.",
+                "Trường đến tiếp nhận và bố trí học trong 5 ngày làm việc."
+              ]
+            },
+            {
+              "title": "Điều kiện/lưu ý áp dụng",
+              "items": [
+                "Chuyển theo thời điểm phù hợp kế hoạch giáo dục, bảo đảm việc học liên tục.",
+                "Nếu chuyển giữa năm: cần xác định chương trình, tổ hợp môn và kết quả đã học để trường đến bố trí hỗ trợ hoặc kiểm tra.",
+                "Không đòi “giấy giới thiệu cấp huyện” như một yêu cầu mặc định (đã bãi bỏ)."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P22.C01.N001.N001#0",
+          "P22.C01.N001.N002#0",
+          "P22.C01.N001.N003#0",
+          "P22.C01.N001.N004#0"
+        ]
+      },
+      "seconds": 6.8786323979948065
+    },
+    {
+      "call": 6,
+      "payload": {
+        "user_text": "Nếu chuyển giữa năm thì có cần thêm gì không?",
+        "state": {
+          "facts": [
+            {
+              "key": "truong_hop_chuyen_truong",
+              "value": "Học sinh đang học trong nước (chuyển trường thông thường)",
+              "evidence": "A, chuyển sang trường công lập bình thường ở tỉnh khác. Cháu học chương trình Việt Nam.",
+              "node_id": "P22.C01"
+            },
+            {
+              "key": "tinh_thanh_khac",
+              "value": "Chuyển từ tỉnh/thành khác",
+              "evidence": "ở tỉnh khác",
+              "node_id": "P22.C01.N001.N002"
+            }
+          ],
+          "path": [
+            "P22",
+            "P22.C01"
+          ],
+          "summary": "Chuyển trường cho học sinh THPT công lập sang THPT công lập ở tỉnh khác (chương trình Việt Nam).",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "answer",
+          "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+          "information": {
+            "title": "Chuyển trường THPT công lập sang THPT công lập ở tỉnh khác (chương trình Việt Nam)",
+            "sections": [
+              {
+                "title": "Hồ sơ chuyển trường (thông thường)",
+                "items": [
+                  "Đơn chuyển trường của cha mẹ/người giám hộ.",
+                  "Bảng tổng hợp kết quả đánh giá giáo dục hoặc kết quả học tập/rèn luyện của học sinh.",
+                  "Kế hoạch giáo dục cá nhân (nếu là học sinh khuyết tật)."
+                ]
+              },
+              {
+                "title": "Thời hạn trả lời của trường đến (vì chuyển từ tỉnh/thành khác)",
+                "items": [
+                  "Trường đến trả lời trong 8 ngày làm việc."
+                ]
+              },
+              {
+                "title": "Sau khi trường đến đồng ý tiếp nhận",
+                "items": [
+                  "Trường đi hoàn tất và trả hồ sơ trong 3 ngày làm việc.",
+                  "Trường đến tiếp nhận và bố trí học trong 5 ngày làm việc."
+                ]
+              },
+              {
+                "title": "Điều kiện/lưu ý áp dụng",
+                "items": [
+                  "Chuyển theo thời điểm phù hợp kế hoạch giáo dục, bảo đảm việc học liên tục.",
+                  "Nếu chuyển giữa năm: cần xác định chương trình, tổ hợp môn và kết quả đã học để trường đến bố trí hỗ trợ hoặc kiểm tra.",
+                  "Không đòi “giấy giới thiệu cấp huyện” như một yêu cầu mặc định (đã bãi bỏ)."
+                ]
+              }
+            ],
+            "options": []
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P22.C01",
+              "title": "Học sinh đang học trong nước; chuyển trường thông thường",
+              "condition": "Học sinh đang học trong nước; chuyển trường thông thường",
+              "kind": "case_group",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P22.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Chuyển trường, tiếp nhận và học lại; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P22.C01.N001.N001",
+                "title": "Hồ sơ chuyển trường thông thường",
+                "condition": "Chuyển trường trong nước theo chương trình Việt Nam",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C01.N001.N001#0",
+                    "text": "Hồ sơ: đơn chuyển trường của cha mẹ/người giám hộ, bảng tổng hợp kết quả đánh giá giáo dục hoặc kết quả học tập/rèn luyện của học sinh; kế hoạch giáo dục cá nhân nếu là học sinh khuyết tật.",
+                    "topics": [
+                      "ho_so",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P22.C01.N001.N002",
+                "title": "Thời hạn tiếp nhận ban đầu",
+                "condition": "Xác định chuyển trong Thành phố hay từ tỉnh/thành khác",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C01.N001.N002#0",
+                    "text": "Trường đến trả lời trong 5 ngày làm việc nếu chuyển trong Thành phố, 8 ngày làm việc nếu từ tỉnh/thành khác.",
+                    "topics": [
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P22.C01.N001.N003",
+                "title": "Đã có chấp thuận tiếp nhận",
+                "condition": "Trường đến đã đồng ý; chuyển giao hồ sơ và bố trí học",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C01.N001.N003#0",
+                    "text": "Sau khi được đồng ý, trường đi hoàn tất và trả hồ sơ trong 3 ngày làm việc; trường đến tiếp nhận và bố trí học trong 5 ngày làm việc.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "thoi_gian"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P22.C01.N001.N004",
+                "title": "Kết quả · Điều kiện",
+                "condition": "Học sinh đang học trong nước; chuyển trường thông thường",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P22.C03"
+                ],
+                "blocks": [
+                  {
+                    "id": "P22.C01.N001.N004#0",
+                    "text": "Chuyển theo thời điểm phù hợp kế hoạch giáo dục, bảo đảm học liên tục; trường hợp chuyển giữa năm phải xác định chương trình, tổ hợp môn và kết quả đã học để trường đến bố trí hỗ trợ hoặc kiểm tra. Không đòi giấy giới thiệu cấp huyện đã bãi bỏ như một yêu cầu mặc định. Áp thêm C03 nếu vào trường chuyên biệt hoặc tư thục sang THPT công lập.",
+                    "topics": [
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P22.C02",
+              "title": "Học sinh Việt Nam từ nước ngoài về",
+              "condition": "Học sinh Việt Nam từ nước ngoài về",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P22.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Chuyển trường, tiếp nhận và học lại; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P22.C02.N001.N001",
+                "title": "Hồ sơ · Nơi giải quyết · Kết quả",
+                "condition": "Học sinh Việt Nam từ nước ngoài về",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C02.N001.N001#0",
+                    "text": "Học sinh Việt Nam từ nước ngoài về: đơn xin học; học bạ hoặc giấy xác nhận kết quả học tập ở nước ngoài, bản dịch tiếng Việt có chứng thực; bản sao giấy khai sinh hoặc căn cước. Nếu mất học bạ/kết quả thì cung cấp xác nhận của cơ quan có thẩm quyền về việc đã học ở nước ngoài để nhà trường xem xét, không tự từ chối mọi hồ sơ mất học bạ.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P22.C02.N001.N002",
+                "title": "Hồ sơ · Thời gian · Kết quả",
+                "condition": "Học sinh Việt Nam từ nước ngoài về",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P22.C02.N001.N002#0",
+                    "text": "Trường trả lời trong 8 ngày làm việc; trong 5 ngày làm việc từ khi tiếp nhận hồ sơ hợp lệ, hiệu trưởng quyết định xếp lớp trên cơ sở hồ sơ, tuổi, kết quả kiểm tra/trình độ phù hợp. Không quy đổi lớp chỉ từ tên lớp nước ngoài. Cần kế hoạch giáo dục cá nhân thì bổ sung để tổ chức học hòa nhập.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P22.C03",
+              "title": "Chuyển từ THPT tư thục sang công lập hoặc trường chuyên biệt",
+              "condition": "Chuyển từ THPT tư thục sang công lập hoặc trường chuyên biệt",
+              "kind": "case_group",
+              "children_count": 2,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P22.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Chuyển trường, tiếp nhận và học lại; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P22.C03.N001",
+                "title": "THPT tư thục sang công lập",
+                "condition": "Chuyển THPT tư thục sang công lập; phải thuộc ngoại lệ",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P22.C03.N002",
+                "title": "Trường chuyên biệt",
+                "condition": "Chuyển đến trường chuyên/năng khiếu/dân tộc nội trú/cơ sở chuyên biệt",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P22.R01",
+              "title": "Tuyển sinh đầu cấp, xin học lại sau nghỉ hoặc học sinh nước ngoài",
+              "condition": "Tuyển sinh đầu cấp, xin học lại sau nghỉ hoặc học sinh nước ngoài",
+              "kind": "case_group",
+              "children_count": 3,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P22.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Chuyển trường, tiếp nhận và học lại; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P22.R01.N001",
+                "title": "Học lại hoặc bảo lưu",
+                "condition": "Đã nghỉ học; xin học lại hoặc bảo lưu",
+                "kind": "situation_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P22.R01.N002",
+                "title": "Tiếp nhận học sinh nước ngoài",
+                "condition": "Học sinh quốc tịch nước ngoài",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P22.R01.N003",
+                "title": "Tuyển sinh đầu cấp",
+                "condition": "Xin vào lớp đầu cấp, không phải chuyển trường",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 4165,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 353,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4518
+      },
+      "response_id": "resp_0650356fc6c0b153016ad1625cb28087d0876729265cff6fec",
+      "decision": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "truong_hop_chuyen_truong",
+              "value": "Học sinh đang học trong nước (chuyển trường thông thường)",
+              "evidence": "A, chuyển sang trường công lập bình thường ở tỉnh khác. Cháu học chương trình Việt Nam.",
+              "node_id": "P22.C01"
+            },
+            {
+              "key": "tinh_thanh_khac",
+              "value": "Chuyển từ tỉnh/thành khác",
+              "evidence": "ở tỉnh khác",
+              "node_id": "P22.C01.N001.N002"
+            }
+          ],
+          "path": [
+            "P22",
+            "P22.C01"
+          ],
+          "summary": "Chuyển trường cho học sinh THPT công lập sang THPT công lập ở tỉnh khác (chương trình Việt Nam); đang hỏi yêu cầu bổ sung khi chuyển giữa năm.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Chuyển giữa năm có cần thêm gì không?",
+          "sections": [
+            {
+              "title": "Yêu cầu/lưu ý bổ sung khi chuyển giữa năm",
+              "items": [
+                "Cần xác định chương trình, tổ hợp môn và kết quả đã học để trường đến bố trí hỗ trợ hoặc kiểm tra."
+              ]
+            },
+            {
+              "title": "Lưu ý liên quan",
+              "items": [
+                "Việc chuyển cần thực hiện theo thời điểm phù hợp kế hoạch giáo dục, bảo đảm việc học liên tục.",
+                "Không đòi “giấy giới thiệu cấp huyện” như một yêu cầu mặc định (đã bãi bỏ)."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P22.C01.N001.N004#0"
+        ]
+      },
+      "seconds": 4.719385131000308
+    }
+  ],
+  "snapshot": {
+    "meta_hash": "d7d1f34f4ba62baa3559dbc377410098b22c446f4f24fa144e1ca2f112edb812",
+    "session_id": "D08",
+    "nodes": [
+      "P22.C01",
+      "P22.C02",
+      "P22.C03",
+      "P22.R01"
+    ],
+    "state": {
+      "facts": [
+        {
+          "key": "truong_hop_chuyen_truong",
+          "value": "Học sinh đang học trong nước (chuyển trường thông thường)",
+          "evidence": "A, chuyển sang trường công lập bình thường ở tỉnh khác. Cháu học chương trình Việt Nam.",
+          "node_id": "P22.C01"
+        },
+        {
+          "key": "tinh_thanh_khac",
+          "value": "Chuyển từ tỉnh/thành khác",
+          "evidence": "ở tỉnh khác",
+          "node_id": "P22.C01.N001.N002"
+        }
+      ],
+      "path": [
+        "P22",
+        "P22.C01"
+      ],
+      "summary": "Chuyển trường cho học sinh THPT công lập sang THPT công lập ở tỉnh khác (chương trình Việt Nam); đang hỏi yêu cầu bổ sung khi chuyển giữa năm.",
+      "pending_switch": ""
+    },
+    "last_response": {
+      "mode": "answer",
+      "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+      "information": {
+        "title": "Chuyển giữa năm có cần thêm gì không?",
+        "sections": [
+          {
+            "title": "Yêu cầu/lưu ý bổ sung khi chuyển giữa năm",
+            "items": [
+              "Cần xác định chương trình, tổ hợp môn và kết quả đã học để trường đến bố trí hỗ trợ hoặc kiểm tra."
+            ]
+          },
+          {
+            "title": "Lưu ý liên quan",
+            "items": [
+              "Việc chuyển cần thực hiện theo thời điểm phù hợp kế hoạch giáo dục, bảo đảm việc học liên tục.",
+              "Không đòi “giấy giới thiệu cấp huyện” như một yêu cầu mặc định (đã bãi bỏ)."
+            ]
+          }
+        ],
+        "options": []
+      }
+    },
+    "revision": 4,
+    "last_spoken": ""
+  },
+  "runtime_sha256": "1d8bcbd8aff8b770f3255289bf5f1d9a10b27d2aa161d7493f031c0a9ad7ddf6"
+}

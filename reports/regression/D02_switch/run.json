@@ -1,0 +1,2674 @@
+{
+  "case": "D02_switch",
+  "seed": {
+    "from": "D02",
+    "turn": 1,
+    "messages": [
+      "Tôi muốn hỏi đăng ký khai sinh cho con thì sao?",
+      "Có, đổi sang khai sinh."
+    ]
+  },
+  "initial_snapshot": {
+    "meta_hash": "d7d1f34f4ba62baa3559dbc377410098b22c446f4f24fa144e1ca2f112edb812",
+    "session_id": "D02_switch",
+    "nodes": [
+      "P08.FIRST",
+      "P08.C04",
+      "P08.C05",
+      "P08.N001"
+    ],
+    "state": {
+      "facts": [],
+      "path": [
+        "P08"
+      ],
+      "summary": "Người dân muốn làm căn cước; cần xác định cấp lần đầu hay đã có thẻ (đổi/cấp lại).",
+      "pending_switch": ""
+    },
+    "last_response": {
+      "mode": "question",
+      "speech_text": "Anh/chị đang làm căn cước theo trường hợp nào?",
+      "information": {
+        "title": "Chọn trường hợp thực hiện",
+        "sections": [],
+        "options": [
+          {
+            "id": "A",
+            "label": "Cấp căn cước lần đầu (chưa từng có thẻ căn cước/CCCD hợp lệ)",
+            "node_ids": [
+              "P08.FIRST"
+            ]
+          },
+          {
+            "id": "B",
+            "label": "Đã có thẻ, nay cần CẤP ĐỔI (đến tuổi; thay đổi thông tin; thẻ hỏng; thông tin sai; đổi theo yêu cầu; thay đổi địa giới…)",
+            "node_ids": [
+              "P08.C04"
+            ]
+          },
+          {
+            "id": "C",
+            "label": "Đã có thẻ nhưng bị MẤT thẻ hoặc thuộc diện CẤP LẠI",
+            "node_ids": [
+              "P08.C05"
+            ]
+          }
+        ]
+      }
+    },
+    "revision": 1,
+    "last_spoken": ""
+  },
+  "turns": [
+    {
+      "user": "Tôi muốn hỏi đăng ký khai sinh cho con thì sao?",
+      "response": {
+        "action": "respond",
+        "mode": "switch_confirm",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P08"
+          ],
+          "summary": "Đang ở thủ tục Cấp/đổi/cấp lại căn cước; người dân hỏi thêm về đăng ký khai sinh cho con nên cần xác nhận có chuyển sang thủ tục Khai sinh hay không.",
+          "pending_switch": "đăng ký khai sinh cho con"
+        },
+        "speech_text": "Nội dung anh/chị hỏi là đăng ký khai sinh cho con, đây là thủ tục khác với căn cước. Anh/chị có muốn chuyển sang thủ tục khai sinh không?",
+        "information": {
+          "title": "Xác nhận chuyển thủ tục",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Có, chuyển sang thủ tục đăng ký khai sinh cho con",
+              "node_ids": []
+            },
+            {
+              "id": "B",
+              "label": "Không, tôi vẫn muốn hỏi thủ tục căn cước",
+              "node_ids": []
+            }
+          ]
+        },
+        "citations": [],
+        "revision": 2,
+        "session_id": "D02_switch"
+      },
+      "seconds": 7.306446482994943,
+      "event_start": 0,
+      "event_count": 2
+    },
+    {
+      "user": "Có, đổi sang khai sinh.",
+      "response": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P01",
+            "P01.NEW"
+          ],
+          "summary": "Người dân cần đăng ký khai sinh cho con; đang xác định nhánh trường hợp (yếu tố nước ngoài/ nơi sinh) để hướng dẫn hồ sơ phù hợp.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho tôi biết bé sinh tại Việt Nam hay sinh ở nước ngoài?",
+        "information": {
+          "title": "Chọn trường hợp để hướng dẫn hồ sơ khai sinh phù hợp",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Bé sinh tại Việt Nam",
+              "node_ids": [
+                "P01.C01",
+                "P01.C02"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Bé sinh ở nước ngoài, chưa đăng ký ở nước ngoài và đã về cư trú tại Việt Nam",
+              "node_ids": [
+                "P01.C03"
+              ]
+            }
+          ]
+        },
+        "citations": [
+          "P01.NEW#0",
+          "P01.N001.N001#0",
+          "P01.N001.N002#0"
+        ],
+        "revision": 3,
+        "session_id": "D02_switch"
+      },
+      "seconds": 9.730509622000682,
+      "event_start": 2,
+      "event_count": 4
+    }
+  ],
+  "events": [
+    {
+      "call": 1,
+      "payload": {
+        "user_text": "Tôi muốn hỏi đăng ký khai sinh cho con thì sao?",
+        "state": {
+          "facts": [],
+          "path": [
+            "P08"
+          ],
+          "summary": "Người dân muốn làm căn cước; cần xác định cấp lần đầu hay đã có thẻ (đổi/cấp lại).",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị đang làm căn cước theo trường hợp nào?",
+          "information": {
+            "title": "Chọn trường hợp thực hiện",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Cấp căn cước lần đầu (chưa từng có thẻ căn cước/CCCD hợp lệ)",
+                "node_ids": [
+                  "P08.FIRST"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Đã có thẻ, nay cần CẤP ĐỔI (đến tuổi; thay đổi thông tin; thẻ hỏng; thông tin sai; đổi theo yêu cầu; thay đổi địa giới…)",
+                "node_ids": [
+                  "P08.C04"
+                ]
+              },
+              {
+                "id": "C",
+                "label": "Đã có thẻ nhưng bị MẤT thẻ hoặc thuộc diện CẤP LẠI",
+                "node_ids": [
+                  "P08.C05"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P08.FIRST",
+              "title": "Cấp căn cước lần đầu",
+              "condition": "Chưa có thẻ thuộc diện cấp lần đầu",
+              "kind": "shared_ancestor",
+              "children_count": 3,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P08.FIRST#0",
+                  "text": "Cấp lần đầu không thu",
+                  "topics": [
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.C01",
+                "title": "Cấp lần đầu; dưới 06 tuổi",
+                "condition": "Cấp lần đầu; dưới 06 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C01#0",
+                    "text": "Dưới 6 tuổi cấp theo nhu cầu: người đại diện hợp pháp khai điện tử trên Cổng dịch vụ công/VNeID; nếu trẻ chưa khai sinh thì có thể chọn nhóm liên thông khai sinh, thường trú, BHYT và căn cước khi đáp ứng điều kiện. Không thu ảnh khuôn mặt, vân tay, mống mắt của trẻ dưới 6 tuổi. Xác thực tư cách đại diện, khai thác dữ liệu trẻ; thiếu thì bổ sung căn cứ khai sinh/đại diện. Thời hạn, nhận kết quả theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C02",
+                "title": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C02#0",
+                    "text": "Từ đủ 6 đến dưới 14 tuổi cấp theo nhu cầu. Trẻ cùng người đại diện đến điểm thu nhận để chụp ảnh, lấy vân tay, mống mắt theo quy định; trường hợp không thể thu nhận sinh trắc vì tình trạng thực tế được ghi nhận, không tạo yêu cầu bất khả thi. Người đại diện kiểm tra, ký xác nhận DC02; giấy đại diện chỉ khi dữ liệu không chứng minh được. Thời hạn theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C03",
+                "title": "Cấp lần đầu; từ đủ 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08",
+                  "P08.C04"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C03#0",
+                    "text": "Công dân từ đủ 14 tuổi phải làm căn cước nếu chưa có thẻ hợp lệ. Người yêu cầu đến điểm thu nhận kiểm tra dữ liệu, chụp ảnh, vân tay, mống mắt và xác nhận DC02. Không bắt xuất trình sổ hộ khẩu giấy. Người đang có CMND hoặc CCCD cần đổi thì chọn C04, không gán cấp lần đầu để miễn phí sai. Thời hạn theo P08, cấp lần đầu không thu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P08.C04",
+              "title": "Đã có thẻ; đổi do đến tuổi, thay đổi thông tin, hư hỏng hoặc lý do cấp đổi",
+              "condition": "Đã có thẻ; đổi do đến tuổi, thay đổi thông tin, hư hỏng hoặc lý do cấp đổi",
+              "kind": "case_group",
+              "children_count": 5,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.C04.N001.N001",
+                "title": "Xác định lý do cấp đổi",
+                "condition": "Đã có thẻ; cần xác định lý do đổi",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C04.N001.N001#0",
+                    "text": "Hỏi rõ: đến tuổi đổi, thẻ hỏng, đổi họ tên/ngày sinh/giới tính/nhân dạng, thông tin sai, đổi theo yêu cầu, thay đổi địa giới.",
+                    "topics": [
+                      "thoi_gian"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C04.N001.N002",
+                "title": "Đổi do thay đổi dữ liệu hoặc lý do thông thường",
+                "condition": "Đổi thẻ; cần đối chiếu dữ liệu và thẻ cũ",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C04.N001.N002#0",
+                    "text": "Cập nhật chứng cứ thay đổi trước nếu chưa có dữ liệu; nộp lại thẻ cũ khi nhận/giải quyết đổi theo thủ tục.",
+                    "topics": [
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C04.N001.N003",
+                "title": "Chỉ đổi do sắp xếp địa giới",
+                "condition": "Chỉ thay đổi địa chỉ do sắp xếp đơn vị hành chính",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C04.N001.N003#0",
+                    "text": "Đổi chỉ vì sắp xếp đơn vị hành chính có thể tái sử dụng ảnh/sinh trắc đã có theo thủ tục trực tuyến, không buộc đi thu nhận lại như mọi trường hợp.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C04.N001.N004",
+                "title": "Thời hạn cấp đổi",
+                "condition": "Đề nghị cấp đổi căn cước",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C04.N001.N004#0",
+                    "text": "Thời hạn 7 ngày làm việc",
+                    "topics": [
+                      "thoi_gian"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C04.N001.N005",
+                "title": "Xác định diện thu/miễn",
+                "condition": "Đã xác định lý do cấp đổi và căn cứ miễn/không thu",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C04.N001.N005#0",
+                    "text": "phí và các ngoại lệ theo P08, lỗi cơ quan hoặc lý do không thu phải tách khỏi đổi tự nguyện có phí.",
+                    "topics": [
+                      "chi_phi",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P08.C05",
+              "title": "Đã có thẻ; mất thẻ hoặc thuộc diện cấp lại",
+              "condition": "Đã có thẻ; mất thẻ hoặc thuộc diện cấp lại",
+              "kind": "case_group",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.C05.N001.N001",
+                "title": "Lý do cấp lại",
+                "condition": "Mất thẻ hoặc trở lại quốc tịch Việt Nam",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C05.N001.N001#0",
+                    "text": "Mất thẻ hoặc được trở lại quốc tịch Việt Nam thuộc diện cấp lại: khai lý do, xác thực dữ liệu; không yêu cầu nộp chiếc thẻ đã mất.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C05.N001.N002",
+                "title": "Cấp lại điện tử bằng dữ liệu đã thu",
+                "condition": "Cấp lại do mất; đủ điều kiện tái sử dụng ảnh/sinh trắc",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C05.N001.N002#0",
+                    "text": "Thủ tục cấp lại do mất có thể dùng dữ liệu ảnh/sinh trắc đã thu qua kênh điện tử khi đủ điều kiện",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C05.N001.N003",
+                "title": "Cần thu nhận mới",
+                "condition": "Dữ liệu thiếu/thay đổi hoặc cần thu nhận sinh trắc mới",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C05.N001.N003#0",
+                    "text": "dữ liệu thiếu, thay đổi hoặc cần thu nhận mới thì đến cơ quan theo hẹn.",
+                    "topics": [
+                      "noi_nop"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C05.N001.N004",
+                "title": "Quy tắc cấp lại",
+                "condition": "Thuộc diện cấp lại căn cước",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C05.N001.N004#0",
+                    "text": "Thời hạn, phí cấp lại/miễn giảm và giá trị thẻ theo P08.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P08.N001",
+              "title": "Quy định theo điều kiện áp dụng",
+              "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+              "kind": "conditional_rules",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.N001.N001",
+                "title": "Nơi và dữ liệu thu nhận căn cước",
+                "condition": "Đề nghị cấp/đổi/cấp lại căn cước",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.N001.N001#0",
+                    "text": "Nộp tại cơ quan quản lý căn cước hoặc điểm thu nhận Công an cấp xã được triển khai; đăng ký lịch qua Cổng dịch vụ công/VNeID. Chọn điểm tiếp nhận đang hiển thị trong hệ thống, không hứa mọi trụ sở xã đều có thiết bị thu nhận. Dữ liệu dân cư được kiểm tra trước; thiếu/sai thì bổ sung/cập nhật bằng giấy tờ có căn cứ. Phiếu thu nhận thông tin DC02 được lập theo dữ liệu để người yêu cầu/đại diện kiểm tra, không đòi tự viết lại toàn bộ thông tin đã có.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.N001.N002",
+                "title": "Thời hạn, kết quả và tuổi đổi",
+                "condition": "Cấp/đổi/cấp lại; xét tuổi và ngày thẻ",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.N001.N002#0",
+                    "text": "Kết quả thẻ căn cước; phí chuyển phát là dịch vụ riêng nếu chọn. Tuổi đổi bắt buộc 14, 25, 40, 60; thẻ cấp/đổi/cấp lại trong 2 năm trước tuổi đổi được dùng đến tuổi đổi tiếp theo. Thẻ không hợp lệ khi thuộc căn cứ thu hồi/hủy theo Luật Căn cước, không chỉ căn cứ ngày in trên thẻ.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.N001.N003",
+                "title": "Biểu phí căn cước",
+                "condition": "Đã xác định cấp mới/cấp đổi/cấp lại và thời điểm",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.N001.N003#0",
+                    "text": "đổi theo tuổi luật định và trường hợp không phải nộp theo Luật được loại trừ trước tính phí. Mức cơ bản đổi 50.000 đồng, cấp lại 70.000 đồng; từ 1/7/2025 đến 31/12/2026 bằng 50%, tức 25.000 và 35.000 đồng, trước xét miễn. Người có công/thân nhân, hộ nghèo, người dưới 18 tuổi mồ côi cả cha mẹ và các diện miễn theo Thông tư 73/2024; công dân đáp ứng Thông tư 117/2026 được miễn trong thời gian áp dụng. Không mặc định mọi người dưới 18 tuổi đều được miễn cấp lại.",
+                    "topics": [
+                      "chi_phi",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.N001.N004",
+                "title": "Miễn phí căn cước theo đối tượng",
+                "condition": "Đổi/cấp lại; xét đúng nhóm miễn riêng của căn cước",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.N001.N004#0",
+                    "text": "Nhóm miễn đổi/cấp lại căn cước theo khoản 3 Điều 5 Thông tư 73 đã sửa bởi Thông tư 71 từ 1/7/2025 gồm: đồng bào dân tộc thiểu số ở xã có điều kiện kinh tế–xã hội đặc biệt khó khăn; công dân thường trú tại xã biên giới; công dân thường trú tại đặc khu trực thuộc cấp tỉnh; công dân thuộc hộ nghèo. Xét cùng các nhóm người có công/thân nhân và người dưới 18 tuổi mồ côi cả cha mẹ đã nêu. Không dùng tên huyện đảo đã thay thế để loại người thường trú tại đặc khu; không tự mở rộng miễn cho mọi người khuyết tật hoặc mọi người cao tuổi như biểu phí cư trú.",
+                    "topics": [
+                      "chi_phi",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [],
+        "navigation_error": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 5952,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 192,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 6144
+      },
+      "response_id": "resp_010ab8f864855683016ad1634176a887d0b5652ed7b18d5d07",
+      "decision": {
+        "action": "restart",
+        "mode": "switch_confirm",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P08"
+          ],
+          "summary": "Người dân đang ở thủ tục căn cước và hỏi sang đăng ký khai sinh cho con; chờ xác nhận đổi thủ tục.",
+          "pending_switch": "đăng ký khai sinh cho con"
+        },
+        "speech_text": "Nội dung anh/chị hỏi hiện là “đăng ký khai sinh cho con”, khác với thủ tục căn cước đang xem. Anh/chị có muốn chuyển sang thủ tục đăng ký khai sinh không?",
+        "information": {
+          "title": "Xác nhận chuyển thủ tục",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Có, chuyển sang thủ tục đăng ký khai sinh cho con",
+              "node_ids": []
+            },
+            {
+              "id": "B",
+              "label": "Không, tôi vẫn muốn hỏi tiếp về căn cước",
+              "node_ids": []
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 4.455394755997986
+    },
+    {
+      "call": 2,
+      "payload": {
+        "user_text": "Tôi muốn hỏi đăng ký khai sinh cho con thì sao?",
+        "state": {
+          "facts": [],
+          "path": [
+            "P08"
+          ],
+          "summary": "Người dân muốn làm căn cước; cần xác định cấp lần đầu hay đã có thẻ (đổi/cấp lại).",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị đang làm căn cước theo trường hợp nào?",
+          "information": {
+            "title": "Chọn trường hợp thực hiện",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Cấp căn cước lần đầu (chưa từng có thẻ căn cước/CCCD hợp lệ)",
+                "node_ids": [
+                  "P08.FIRST"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Đã có thẻ, nay cần CẤP ĐỔI (đến tuổi; thay đổi thông tin; thẻ hỏng; thông tin sai; đổi theo yêu cầu; thay đổi địa giới…)",
+                "node_ids": [
+                  "P08.C04"
+                ]
+              },
+              {
+                "id": "C",
+                "label": "Đã có thẻ nhưng bị MẤT thẻ hoặc thuộc diện CẤP LẠI",
+                "node_ids": [
+                  "P08.C05"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P08.FIRST",
+              "title": "Cấp căn cước lần đầu",
+              "condition": "Chưa có thẻ thuộc diện cấp lần đầu",
+              "kind": "shared_ancestor",
+              "children_count": 3,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P08.FIRST#0",
+                  "text": "Cấp lần đầu không thu",
+                  "topics": [
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.C01",
+                "title": "Cấp lần đầu; dưới 06 tuổi",
+                "condition": "Cấp lần đầu; dưới 06 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C01#0",
+                    "text": "Dưới 6 tuổi cấp theo nhu cầu: người đại diện hợp pháp khai điện tử trên Cổng dịch vụ công/VNeID; nếu trẻ chưa khai sinh thì có thể chọn nhóm liên thông khai sinh, thường trú, BHYT và căn cước khi đáp ứng điều kiện. Không thu ảnh khuôn mặt, vân tay, mống mắt của trẻ dưới 6 tuổi. Xác thực tư cách đại diện, khai thác dữ liệu trẻ; thiếu thì bổ sung căn cứ khai sinh/đại diện. Thời hạn, nhận kết quả theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C02",
+                "title": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C02#0",
+                    "text": "Từ đủ 6 đến dưới 14 tuổi cấp theo nhu cầu. Trẻ cùng người đại diện đến điểm thu nhận để chụp ảnh, lấy vân tay, mống mắt theo quy định; trường hợp không thể thu nhận sinh trắc vì tình trạng thực tế được ghi nhận, không tạo yêu cầu bất khả thi. Người đại diện kiểm tra, ký xác nhận DC02; giấy đại diện chỉ khi dữ liệu không chứng minh được. Thời hạn theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C03",
+                "title": "Cấp lần đầu; từ đủ 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08",
+                  "P08.C04"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C03#0",
+                    "text": "Công dân từ đủ 14 tuổi phải làm căn cước nếu chưa có thẻ hợp lệ. Người yêu cầu đến điểm thu nhận kiểm tra dữ liệu, chụp ảnh, vân tay, mống mắt và xác nhận DC02. Không bắt xuất trình sổ hộ khẩu giấy. Người đang có CMND hoặc CCCD cần đổi thì chọn C04, không gán cấp lần đầu để miễn phí sai. Thời hạn theo P08, cấp lần đầu không thu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P08.C04",
+              "title": "Đã có thẻ; đổi do đến tuổi, thay đổi thông tin, hư hỏng hoặc lý do cấp đổi",
+              "condition": "Đã có thẻ; đổi do đến tuổi, thay đổi thông tin, hư hỏng hoặc lý do cấp đổi",
+              "kind": "case_group",
+              "children_count": 5,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.C04.N001.N001",
+                "title": "Xác định lý do cấp đổi",
+                "condition": "Đã có thẻ; cần xác định lý do đổi",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C04.N001.N001#0",
+                    "text": "Hỏi rõ: đến tuổi đổi, thẻ hỏng, đổi họ tên/ngày sinh/giới tính/nhân dạng, thông tin sai, đổi theo yêu cầu, thay đổi địa giới.",
+                    "topics": [
+                      "thoi_gian"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C04.N001.N002",
+                "title": "Đổi do thay đổi dữ liệu hoặc lý do thông thường",
+                "condition": "Đổi thẻ; cần đối chiếu dữ liệu và thẻ cũ",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C04.N001.N002#0",
+                    "text": "Cập nhật chứng cứ thay đổi trước nếu chưa có dữ liệu; nộp lại thẻ cũ khi nhận/giải quyết đổi theo thủ tục.",
+                    "topics": [
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C04.N001.N003",
+                "title": "Chỉ đổi do sắp xếp địa giới",
+                "condition": "Chỉ thay đổi địa chỉ do sắp xếp đơn vị hành chính",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C04.N001.N003#0",
+                    "text": "Đổi chỉ vì sắp xếp đơn vị hành chính có thể tái sử dụng ảnh/sinh trắc đã có theo thủ tục trực tuyến, không buộc đi thu nhận lại như mọi trường hợp.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C04.N001.N004",
+                "title": "Thời hạn cấp đổi",
+                "condition": "Đề nghị cấp đổi căn cước",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C04.N001.N004#0",
+                    "text": "Thời hạn 7 ngày làm việc",
+                    "topics": [
+                      "thoi_gian"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C04.N001.N005",
+                "title": "Xác định diện thu/miễn",
+                "condition": "Đã xác định lý do cấp đổi và căn cứ miễn/không thu",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C04.N001.N005#0",
+                    "text": "phí và các ngoại lệ theo P08, lỗi cơ quan hoặc lý do không thu phải tách khỏi đổi tự nguyện có phí.",
+                    "topics": [
+                      "chi_phi",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P08.C05",
+              "title": "Đã có thẻ; mất thẻ hoặc thuộc diện cấp lại",
+              "condition": "Đã có thẻ; mất thẻ hoặc thuộc diện cấp lại",
+              "kind": "case_group",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.C05.N001.N001",
+                "title": "Lý do cấp lại",
+                "condition": "Mất thẻ hoặc trở lại quốc tịch Việt Nam",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C05.N001.N001#0",
+                    "text": "Mất thẻ hoặc được trở lại quốc tịch Việt Nam thuộc diện cấp lại: khai lý do, xác thực dữ liệu; không yêu cầu nộp chiếc thẻ đã mất.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C05.N001.N002",
+                "title": "Cấp lại điện tử bằng dữ liệu đã thu",
+                "condition": "Cấp lại do mất; đủ điều kiện tái sử dụng ảnh/sinh trắc",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C05.N001.N002#0",
+                    "text": "Thủ tục cấp lại do mất có thể dùng dữ liệu ảnh/sinh trắc đã thu qua kênh điện tử khi đủ điều kiện",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C05.N001.N003",
+                "title": "Cần thu nhận mới",
+                "condition": "Dữ liệu thiếu/thay đổi hoặc cần thu nhận sinh trắc mới",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C05.N001.N003#0",
+                    "text": "dữ liệu thiếu, thay đổi hoặc cần thu nhận mới thì đến cơ quan theo hẹn.",
+                    "topics": [
+                      "noi_nop"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C05.N001.N004",
+                "title": "Quy tắc cấp lại",
+                "condition": "Thuộc diện cấp lại căn cước",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C05.N001.N004#0",
+                    "text": "Thời hạn, phí cấp lại/miễn giảm và giá trị thẻ theo P08.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P08.N001",
+              "title": "Quy định theo điều kiện áp dụng",
+              "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+              "kind": "conditional_rules",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.N001.N001",
+                "title": "Nơi và dữ liệu thu nhận căn cước",
+                "condition": "Đề nghị cấp/đổi/cấp lại căn cước",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.N001.N001#0",
+                    "text": "Nộp tại cơ quan quản lý căn cước hoặc điểm thu nhận Công an cấp xã được triển khai; đăng ký lịch qua Cổng dịch vụ công/VNeID. Chọn điểm tiếp nhận đang hiển thị trong hệ thống, không hứa mọi trụ sở xã đều có thiết bị thu nhận. Dữ liệu dân cư được kiểm tra trước; thiếu/sai thì bổ sung/cập nhật bằng giấy tờ có căn cứ. Phiếu thu nhận thông tin DC02 được lập theo dữ liệu để người yêu cầu/đại diện kiểm tra, không đòi tự viết lại toàn bộ thông tin đã có.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.N001.N002",
+                "title": "Thời hạn, kết quả và tuổi đổi",
+                "condition": "Cấp/đổi/cấp lại; xét tuổi và ngày thẻ",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.N001.N002#0",
+                    "text": "Kết quả thẻ căn cước; phí chuyển phát là dịch vụ riêng nếu chọn. Tuổi đổi bắt buộc 14, 25, 40, 60; thẻ cấp/đổi/cấp lại trong 2 năm trước tuổi đổi được dùng đến tuổi đổi tiếp theo. Thẻ không hợp lệ khi thuộc căn cứ thu hồi/hủy theo Luật Căn cước, không chỉ căn cứ ngày in trên thẻ.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.N001.N003",
+                "title": "Biểu phí căn cước",
+                "condition": "Đã xác định cấp mới/cấp đổi/cấp lại và thời điểm",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.N001.N003#0",
+                    "text": "đổi theo tuổi luật định và trường hợp không phải nộp theo Luật được loại trừ trước tính phí. Mức cơ bản đổi 50.000 đồng, cấp lại 70.000 đồng; từ 1/7/2025 đến 31/12/2026 bằng 50%, tức 25.000 và 35.000 đồng, trước xét miễn. Người có công/thân nhân, hộ nghèo, người dưới 18 tuổi mồ côi cả cha mẹ và các diện miễn theo Thông tư 73/2024; công dân đáp ứng Thông tư 117/2026 được miễn trong thời gian áp dụng. Không mặc định mọi người dưới 18 tuổi đều được miễn cấp lại.",
+                    "topics": [
+                      "chi_phi",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.N001.N004",
+                "title": "Miễn phí căn cước theo đối tượng",
+                "condition": "Đổi/cấp lại; xét đúng nhóm miễn riêng của căn cước",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.N001.N004#0",
+                    "text": "Nhóm miễn đổi/cấp lại căn cước theo khoản 3 Điều 5 Thông tư 73 đã sửa bởi Thông tư 71 từ 1/7/2025 gồm: đồng bào dân tộc thiểu số ở xã có điều kiện kinh tế–xã hội đặc biệt khó khăn; công dân thường trú tại xã biên giới; công dân thường trú tại đặc khu trực thuộc cấp tỉnh; công dân thuộc hộ nghèo. Xét cùng các nhóm người có công/thân nhân và người dưới 18 tuổi mồ côi cả cha mẹ đã nêu. Không dùng tên huyện đảo đã thay thế để loại người thường trú tại đặc khu; không tự mở rộng miễn cho mọi người khuyết tật hoặc mọi người cao tuổi như biểu phí cư trú.",
+                    "topics": [
+                      "chi_phi",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [],
+        "navigation_error": "RESTART_REQUIRES_PREVIOUS_SWITCH_CONFIRM: respond switch_confirm first, preserve current scope.",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 5971,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 5760
+        },
+        "output_tokens": 202,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 6173
+      },
+      "response_id": "resp_039344cb232355b2016ad16345e4b887d084f55ce5cff65216",
+      "decision": {
+        "action": "respond",
+        "mode": "switch_confirm",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P08"
+          ],
+          "summary": "Đang ở thủ tục Cấp/đổi/cấp lại căn cước; người dân hỏi thêm về đăng ký khai sinh cho con nên cần xác nhận có chuyển sang thủ tục Khai sinh hay không.",
+          "pending_switch": "đăng ký khai sinh cho con"
+        },
+        "speech_text": "Nội dung anh/chị hỏi là đăng ký khai sinh cho con, đây là thủ tục khác với căn cước. Anh/chị có muốn chuyển sang thủ tục khai sinh không?",
+        "information": {
+          "title": "Xác nhận chuyển thủ tục",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Có, chuyển sang thủ tục đăng ký khai sinh cho con",
+              "node_ids": []
+            },
+            {
+              "id": "B",
+              "label": "Không, tôi vẫn muốn hỏi thủ tục căn cước",
+              "node_ids": []
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 2.85037135300081
+    },
+    {
+      "call": 3,
+      "payload": {
+        "user_text": "Có, đổi sang khai sinh.",
+        "state": {
+          "facts": [],
+          "path": [
+            "P08"
+          ],
+          "summary": "Đang ở thủ tục Cấp/đổi/cấp lại căn cước; người dân hỏi thêm về đăng ký khai sinh cho con nên cần xác nhận có chuyển sang thủ tục Khai sinh hay không.",
+          "pending_switch": "đăng ký khai sinh cho con"
+        },
+        "last_response": {
+          "mode": "switch_confirm",
+          "speech_text": "Nội dung anh/chị hỏi là đăng ký khai sinh cho con, đây là thủ tục khác với căn cước. Anh/chị có muốn chuyển sang thủ tục khai sinh không?",
+          "information": {
+            "title": "Xác nhận chuyển thủ tục",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Có, chuyển sang thủ tục đăng ký khai sinh cho con",
+                "node_ids": []
+              },
+              {
+                "id": "B",
+                "label": "Không, tôi vẫn muốn hỏi thủ tục căn cước",
+                "node_ids": []
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P08.FIRST",
+              "title": "Cấp căn cước lần đầu",
+              "condition": "Chưa có thẻ thuộc diện cấp lần đầu",
+              "kind": "shared_ancestor",
+              "children_count": 3,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P08.FIRST#0",
+                  "text": "Cấp lần đầu không thu",
+                  "topics": [
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.C01",
+                "title": "Cấp lần đầu; dưới 06 tuổi",
+                "condition": "Cấp lần đầu; dưới 06 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C01#0",
+                    "text": "Dưới 6 tuổi cấp theo nhu cầu: người đại diện hợp pháp khai điện tử trên Cổng dịch vụ công/VNeID; nếu trẻ chưa khai sinh thì có thể chọn nhóm liên thông khai sinh, thường trú, BHYT và căn cước khi đáp ứng điều kiện. Không thu ảnh khuôn mặt, vân tay, mống mắt của trẻ dưới 6 tuổi. Xác thực tư cách đại diện, khai thác dữ liệu trẻ; thiếu thì bổ sung căn cứ khai sinh/đại diện. Thời hạn, nhận kết quả theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C02",
+                "title": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C02#0",
+                    "text": "Từ đủ 6 đến dưới 14 tuổi cấp theo nhu cầu. Trẻ cùng người đại diện đến điểm thu nhận để chụp ảnh, lấy vân tay, mống mắt theo quy định; trường hợp không thể thu nhận sinh trắc vì tình trạng thực tế được ghi nhận, không tạo yêu cầu bất khả thi. Người đại diện kiểm tra, ký xác nhận DC02; giấy đại diện chỉ khi dữ liệu không chứng minh được. Thời hạn theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C03",
+                "title": "Cấp lần đầu; từ đủ 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08",
+                  "P08.C04"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C03#0",
+                    "text": "Công dân từ đủ 14 tuổi phải làm căn cước nếu chưa có thẻ hợp lệ. Người yêu cầu đến điểm thu nhận kiểm tra dữ liệu, chụp ảnh, vân tay, mống mắt và xác nhận DC02. Không bắt xuất trình sổ hộ khẩu giấy. Người đang có CMND hoặc CCCD cần đổi thì chọn C04, không gán cấp lần đầu để miễn phí sai. Thời hạn theo P08, cấp lần đầu không thu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P08.C04",
+              "title": "Đã có thẻ; đổi do đến tuổi, thay đổi thông tin, hư hỏng hoặc lý do cấp đổi",
+              "condition": "Đã có thẻ; đổi do đến tuổi, thay đổi thông tin, hư hỏng hoặc lý do cấp đổi",
+              "kind": "case_group",
+              "children_count": 5,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.C04.N001.N001",
+                "title": "Xác định lý do cấp đổi",
+                "condition": "Đã có thẻ; cần xác định lý do đổi",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C04.N001.N001#0",
+                    "text": "Hỏi rõ: đến tuổi đổi, thẻ hỏng, đổi họ tên/ngày sinh/giới tính/nhân dạng, thông tin sai, đổi theo yêu cầu, thay đổi địa giới.",
+                    "topics": [
+                      "thoi_gian"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C04.N001.N002",
+                "title": "Đổi do thay đổi dữ liệu hoặc lý do thông thường",
+                "condition": "Đổi thẻ; cần đối chiếu dữ liệu và thẻ cũ",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C04.N001.N002#0",
+                    "text": "Cập nhật chứng cứ thay đổi trước nếu chưa có dữ liệu; nộp lại thẻ cũ khi nhận/giải quyết đổi theo thủ tục.",
+                    "topics": [
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C04.N001.N003",
+                "title": "Chỉ đổi do sắp xếp địa giới",
+                "condition": "Chỉ thay đổi địa chỉ do sắp xếp đơn vị hành chính",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C04.N001.N003#0",
+                    "text": "Đổi chỉ vì sắp xếp đơn vị hành chính có thể tái sử dụng ảnh/sinh trắc đã có theo thủ tục trực tuyến, không buộc đi thu nhận lại như mọi trường hợp.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C04.N001.N004",
+                "title": "Thời hạn cấp đổi",
+                "condition": "Đề nghị cấp đổi căn cước",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C04.N001.N004#0",
+                    "text": "Thời hạn 7 ngày làm việc",
+                    "topics": [
+                      "thoi_gian"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C04.N001.N005",
+                "title": "Xác định diện thu/miễn",
+                "condition": "Đã xác định lý do cấp đổi và căn cứ miễn/không thu",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C04.N001.N005#0",
+                    "text": "phí và các ngoại lệ theo P08, lỗi cơ quan hoặc lý do không thu phải tách khỏi đổi tự nguyện có phí.",
+                    "topics": [
+                      "chi_phi",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P08.C05",
+              "title": "Đã có thẻ; mất thẻ hoặc thuộc diện cấp lại",
+              "condition": "Đã có thẻ; mất thẻ hoặc thuộc diện cấp lại",
+              "kind": "case_group",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.C05.N001.N001",
+                "title": "Lý do cấp lại",
+                "condition": "Mất thẻ hoặc trở lại quốc tịch Việt Nam",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C05.N001.N001#0",
+                    "text": "Mất thẻ hoặc được trở lại quốc tịch Việt Nam thuộc diện cấp lại: khai lý do, xác thực dữ liệu; không yêu cầu nộp chiếc thẻ đã mất.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C05.N001.N002",
+                "title": "Cấp lại điện tử bằng dữ liệu đã thu",
+                "condition": "Cấp lại do mất; đủ điều kiện tái sử dụng ảnh/sinh trắc",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C05.N001.N002#0",
+                    "text": "Thủ tục cấp lại do mất có thể dùng dữ liệu ảnh/sinh trắc đã thu qua kênh điện tử khi đủ điều kiện",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C05.N001.N003",
+                "title": "Cần thu nhận mới",
+                "condition": "Dữ liệu thiếu/thay đổi hoặc cần thu nhận sinh trắc mới",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.C05.N001.N003#0",
+                    "text": "dữ liệu thiếu, thay đổi hoặc cần thu nhận mới thì đến cơ quan theo hẹn.",
+                    "topics": [
+                      "noi_nop"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C05.N001.N004",
+                "title": "Quy tắc cấp lại",
+                "condition": "Thuộc diện cấp lại căn cước",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C05.N001.N004#0",
+                    "text": "Thời hạn, phí cấp lại/miễn giảm và giá trị thẻ theo P08.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P08.N001",
+              "title": "Quy định theo điều kiện áp dụng",
+              "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+              "kind": "conditional_rules",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.N001.N001",
+                "title": "Nơi và dữ liệu thu nhận căn cước",
+                "condition": "Đề nghị cấp/đổi/cấp lại căn cước",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.N001.N001#0",
+                    "text": "Nộp tại cơ quan quản lý căn cước hoặc điểm thu nhận Công an cấp xã được triển khai; đăng ký lịch qua Cổng dịch vụ công/VNeID. Chọn điểm tiếp nhận đang hiển thị trong hệ thống, không hứa mọi trụ sở xã đều có thiết bị thu nhận. Dữ liệu dân cư được kiểm tra trước; thiếu/sai thì bổ sung/cập nhật bằng giấy tờ có căn cứ. Phiếu thu nhận thông tin DC02 được lập theo dữ liệu để người yêu cầu/đại diện kiểm tra, không đòi tự viết lại toàn bộ thông tin đã có.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.N001.N002",
+                "title": "Thời hạn, kết quả và tuổi đổi",
+                "condition": "Cấp/đổi/cấp lại; xét tuổi và ngày thẻ",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.N001.N002#0",
+                    "text": "Kết quả thẻ căn cước; phí chuyển phát là dịch vụ riêng nếu chọn. Tuổi đổi bắt buộc 14, 25, 40, 60; thẻ cấp/đổi/cấp lại trong 2 năm trước tuổi đổi được dùng đến tuổi đổi tiếp theo. Thẻ không hợp lệ khi thuộc căn cứ thu hồi/hủy theo Luật Căn cước, không chỉ căn cứ ngày in trên thẻ.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.N001.N003",
+                "title": "Biểu phí căn cước",
+                "condition": "Đã xác định cấp mới/cấp đổi/cấp lại và thời điểm",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.N001.N003#0",
+                    "text": "đổi theo tuổi luật định và trường hợp không phải nộp theo Luật được loại trừ trước tính phí. Mức cơ bản đổi 50.000 đồng, cấp lại 70.000 đồng; từ 1/7/2025 đến 31/12/2026 bằng 50%, tức 25.000 và 35.000 đồng, trước xét miễn. Người có công/thân nhân, hộ nghèo, người dưới 18 tuổi mồ côi cả cha mẹ và các diện miễn theo Thông tư 73/2024; công dân đáp ứng Thông tư 117/2026 được miễn trong thời gian áp dụng. Không mặc định mọi người dưới 18 tuổi đều được miễn cấp lại.",
+                    "topics": [
+                      "chi_phi",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.N001.N004",
+                "title": "Miễn phí căn cước theo đối tượng",
+                "condition": "Đổi/cấp lại; xét đúng nhóm miễn riêng của căn cước",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.N001.N004#0",
+                    "text": "Nhóm miễn đổi/cấp lại căn cước theo khoản 3 Điều 5 Thông tư 73 đã sửa bởi Thông tư 71 từ 1/7/2025 gồm: đồng bào dân tộc thiểu số ở xã có điều kiện kinh tế–xã hội đặc biệt khó khăn; công dân thường trú tại xã biên giới; công dân thường trú tại đặc khu trực thuộc cấp tỉnh; công dân thuộc hộ nghèo. Xét cùng các nhóm người có công/thân nhân và người dưới 18 tuổi mồ côi cả cha mẹ đã nêu. Không dùng tên huyện đảo đã thay thế để loại người thường trú tại đặc khu; không tự mở rộng miễn cho mọi người khuyết tật hoặc mọi người cao tuổi như biểu phí cư trú.",
+                    "topics": [
+                      "chi_phi",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [],
+        "navigation_error": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 5903,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 141,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 6044
+      },
+      "response_id": "resp_0dc3e21b018deda8016ad16348aa8887d0b24a8b0835009d65",
+      "decision": {
+        "action": "restart",
+        "mode": "switch_confirm",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P08"
+          ],
+          "summary": "Đang ở thủ tục Cấp/đổi/cấp lại căn cước; người dân đã đồng ý chuyển sang thủ tục đăng ký khai sinh cho con.",
+          "pending_switch": "đăng ký khai sinh cho con"
+        },
+        "speech_text": "Vâng, tôi sẽ chuyển sang thủ tục đăng ký khai sinh cho con.",
+        "information": {
+          "title": "Chuyển thủ tục",
+          "sections": [
+            {
+              "title": "Nhu cầu mới",
+              "items": [
+                "Đăng ký khai sinh cho con"
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 2.196534991999215
+    },
+    {
+      "call": 4,
+      "payload": {
+        "user_text": "đăng ký khai sinh cho con",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "ROOT",
+              "title": "Quy trình hành chính — cây tri thức 3.0",
+              "condition": "Yêu cầu thuộc một hoặc nhiều lĩnh vực trong bộ dữ liệu",
+              "kind": "root",
+              "children_count": 27,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P02",
+                "title": "Đăng ký khai tử",
+                "condition": "Nhu cầu liên quan: Đăng ký khai tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P04",
+                "title": "Đăng ký thường trú",
+                "condition": "Nhu cầu liên quan: Đăng ký thường trú",
+                "kind": "procedure",
+                "children_count": 9,
+                "related": []
+              },
+              {
+                "id": "P05",
+                "title": "Xác nhận tình trạng hôn nhân",
+                "condition": "Nhu cầu liên quan: Xác nhận tình trạng hôn nhân",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P06",
+                "title": "Đăng ký tạm trú",
+                "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P07",
+                "title": "Xác nhận và điều chỉnh thông tin cư trú",
+                "condition": "Nhu cầu liên quan: Xác nhận và điều chỉnh thông tin cư trú",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P09",
+                "title": "Đăng ký biến động đất đai",
+                "condition": "Nhu cầu liên quan: Đăng ký biến động đất đai",
+                "kind": "procedure",
+                "children_count": 15,
+                "related": []
+              },
+              {
+                "id": "P10",
+                "title": "Cấp giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Cấp giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P11",
+                "title": "Đổi giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Đổi giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P12",
+                "title": "Chuyển nhượng quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Chuyển nhượng quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P13",
+                "title": "Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "condition": "Nhu cầu liên quan: Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P15",
+                "title": "Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "condition": "Nhu cầu liên quan: Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P16",
+                "title": "Hỗ trợ đào tạo nghề",
+                "condition": "Nhu cầu liên quan: Hỗ trợ đào tạo nghề",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P17",
+                "title": "Hỗ trợ người bị tai nạn lao động",
+                "condition": "Nhu cầu liên quan: Hỗ trợ người bị tai nạn lao động",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P19",
+                "title": "Tín dụng chính sách NHCSXH",
+                "condition": "Nhu cầu liên quan: Tín dụng chính sách NHCSXH",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P20",
+                "title": "Chế độ thương binh",
+                "condition": "Nhu cầu liên quan: Chế độ thương binh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P21",
+                "title": "Chế độ thờ cúng liệt sĩ",
+                "condition": "Nhu cầu liên quan: Chế độ thờ cúng liệt sĩ",
+                "kind": "procedure",
+                "children_count": 7,
+                "related": []
+              },
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P25",
+                "title": "Thay đổi nội dung đăng ký hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Thay đổi nội dung đăng ký hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 10,
+                "related": []
+              },
+              {
+                "id": "P26",
+                "title": "Chấm dứt hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Chấm dứt hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P27",
+                "title": "Khiếu nại - Phản ánh - Kiến nghị",
+                "condition": "Nhu cầu liên quan: Khiếu nại - Phản ánh - Kiến nghị",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "đăng ký khai sinh cho con",
+        "restart_completed_this_turn": true,
+        "navigation_history": [],
+        "navigation_error": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3625,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 99,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3724
+      },
+      "response_id": "resp_000255118b8137fd016ad1634adebc87d0a14e067c716ed950",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P01"
+        ],
+        "state": {
+          "facts": [],
+          "path": [
+            "P01"
+          ],
+          "summary": "Người dân cần đăng ký khai sinh cho con; đang vào thủ tục Đăng ký khai sinh để xác định trường hợp áp dụng và hồ sơ cần nộp.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 2.4213864720004494
+    },
+    {
+      "call": 5,
+      "payload": {
+        "user_text": "đăng ký khai sinh cho con",
+        "state": {
+          "facts": [],
+          "path": [
+            "P01"
+          ],
+          "summary": "Người dân cần đăng ký khai sinh cho con; đang vào thủ tục Đăng ký khai sinh để xác định trường hợp áp dụng và hồ sơ cần nộp.",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P01",
+              "title": "Đăng ký khai sinh",
+              "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+              "kind": "procedure",
+              "children_count": 3,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01.NEW",
+                "title": "Đăng ký khai sinh lần đầu",
+                "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 8,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.NEW#0",
+                    "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.R01",
+                "title": "Trích lục, sửa hộ tịch, đăng ký lại và các tình huống khai sinh khác",
+                "condition": "Cần trích lục, đăng ký lại, cải chính, bổ sung, ghi chú hoặc khai sinh cho người đã có hồ sơ cá nhân",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 3,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "đăng ký khai sinh cho con",
+        "restart_completed_this_turn": true,
+        "navigation_history": [
+          [
+            "P01"
+          ]
+        ],
+        "navigation_error": "",
+        "calls_remaining": 7
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2626,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 107,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2733
+      },
+      "response_id": "resp_038e2532cad8f0e6016ad1634d4b6c87d09f70c6e3c5190479",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P01.NEW",
+          "P01.N001"
+        ],
+        "state": {
+          "facts": [],
+          "path": [
+            "P01",
+            "P01.NEW"
+          ],
+          "summary": "Người dân cần đăng ký khai sinh cho con; đang xác định trường hợp đăng ký khai sinh lần đầu và điều kiện áp dụng để hướng dẫn hồ sơ phù hợp.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 1.9088993080004002
+    },
+    {
+      "call": 6,
+      "payload": {
+        "user_text": "đăng ký khai sinh cho con",
+        "state": {
+          "facts": [],
+          "path": [
+            "P01",
+            "P01.NEW"
+          ],
+          "summary": "Người dân cần đăng ký khai sinh cho con; đang xác định trường hợp đăng ký khai sinh lần đầu và điều kiện áp dụng để hướng dẫn hồ sơ phù hợp.",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P01.NEW",
+              "title": "Đăng ký khai sinh lần đầu",
+              "condition": "Chưa đăng ký khai sinh; thực hiện đăng ký lần đầu",
+              "kind": "shared_ancestor",
+              "children_count": 8,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P01.NEW#0",
+                  "text": "Hồ sơ chung: một tờ khai đăng ký khai sinh bản giấy hoặc biểu mẫu điện tử; chứng cứ về việc sinh theo đúng nhánh.",
+                  "topics": [
+                    "ho_so"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.C01",
+                "title": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.C02",
+                "title": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+                "condition": "Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.C03",
+                "title": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+                "condition": "Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.M01",
+                "title": "Không có giấy chứng sinh; có người làm chứng",
+                "condition": "Không có giấy chứng sinh; có người làm chứng",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P01.C01",
+                  "P01.C02",
+                  "P01.C03"
+                ],
+                "blocks": [
+                  {
+                    "id": "P01.M01#0",
+                    "text": "Bật khi không có giấy chứng sinh và có người làm chứng về việc sinh: dùng văn bản người làm chứng xác nhận việc sinh thay giấy chứng sinh. Không đồng thời yêu cầu cam đoan không có người làm chứng. Kế thừa thẩm quyền, thời gian, phí và kết quả của C01–C03 đang áp dụng.",
+                    "topics": [
+                      "chi_phi",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.M02",
+                "title": "Không có giấy chứng sinh và không có người làm chứng",
+                "condition": "Không có giấy chứng sinh và không có người làm chứng",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.M02#0",
+                    "text": "Bật khi không có giấy chứng sinh và không có người làm chứng: dùng giấy cam đoan về việc sinh của người đi đăng ký. Người cam đoan chịu trách nhiệm nội dung. Kế thừa nhánh chính; không áp giấy cam đoan này cho khai tử.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.M03",
+                "title": "Trẻ bị bỏ rơi",
+                "condition": "Trẻ bị bỏ rơi",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P01.M04",
+                "title": "Sinh do mang thai hộ",
+                "condition": "Sinh do mang thai hộ",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.M04#0",
+                    "text": "Bật khi sinh do mang thai hộ vì mục đích nhân đạo: ngoài giấy chứng sinh, dùng văn bản xác nhận của cơ sở y tế đã thực hiện kỹ thuật hỗ trợ sinh sản về việc mang thai hộ. Cha mẹ pháp lý là bên nhờ mang thai hộ theo quy định; không tự ghi người mang thai hộ là mẹ trong khai sinh. Kế thừa nhánh chính về nơi nộp, thời gian và phí.",
+                    "topics": [
+                      "chi_phi",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.M05",
+                "title": "Chưa xác định cha/mẹ hoặc đăng ký nhận cha mẹ con cùng khai sinh",
+                "condition": "Chưa xác định cha/mẹ hoặc đăng ký nhận cha mẹ con cùng khai sinh",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P01.N001",
+              "title": "Quy định theo điều kiện áp dụng",
+              "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+              "kind": "conditional_rules",
+              "children_count": 3,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P01.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký khai sinh; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P01.N001.N001",
+                "title": "Hồ sơ khai sinh lần đầu",
+                "condition": "Đăng ký khai sinh lần đầu; không phải trích lục/cải chính/đăng ký lại",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.N001.N001#0",
+                    "text": "Cung cấp họ tên, ngày sinh, số định danh của người yêu cầu để khai thác dữ liệu; chỉ xuất trình giấy tờ nhân thân, cư trú, kết hôn khi dữ liệu không khai thác được hoặc chưa đầy đủ, chính xác. Không yêu cầu sổ hộ khẩu giấy.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.N001.N002",
+                "title": "Nộp, kết quả và hạn đăng ký khai sinh",
+                "condition": "Đăng ký khai sinh lần đầu",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P01.N001.N002#0",
+                    "text": "Nộp tại Trung tâm phục vụ hành chính công hoặc Cổng dịch vụ công quốc gia; có thể gửi bưu chính theo thủ tục. UBND cấp xã có thẩm quyền đăng ký; nhận giấy khai sinh và dữ liệu hộ tịch cập nhật. Giấy khai sinh không có hạn sử dụng cố định. Cha mẹ phải đăng ký trong 60 ngày từ ngày sinh; quá hạn vẫn tiếp nhận, không từ chối đăng ký vì muộn.",
+                    "topics": [
+                      "thoi_gian",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P01.N001.N003",
+                "title": "Lệ phí khai sinh",
+                "condition": "Đăng ký khai sinh; cần chọn yếu tố nước ngoài, hạn, kênh nộp và diện miễn",
+                "kind": "rule_group",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "đăng ký khai sinh cho con",
+        "restart_completed_this_turn": true,
+        "navigation_history": [
+          [
+            "P01"
+          ],
+          [
+            "P01.NEW",
+            "P01.N001"
+          ]
+        ],
+        "navigation_error": "",
+        "calls_remaining": 6
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3874,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 220,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4094
+      },
+      "response_id": "resp_02282f666284d1a3016ad1634f335087d0bc0a8078ea93c68a",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P01",
+            "P01.NEW"
+          ],
+          "summary": "Người dân cần đăng ký khai sinh cho con; đang xác định nhánh trường hợp (yếu tố nước ngoài/ nơi sinh) để hướng dẫn hồ sơ phù hợp.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho tôi biết bé sinh tại Việt Nam hay sinh ở nước ngoài?",
+        "information": {
+          "title": "Chọn trường hợp để hướng dẫn hồ sơ khai sinh phù hợp",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Bé sinh tại Việt Nam",
+              "node_ids": [
+                "P01.C01",
+                "P01.C02"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Bé sinh ở nước ngoài, chưa đăng ký ở nước ngoài và đã về cư trú tại Việt Nam",
+              "node_ids": [
+                "P01.C03"
+              ]
+            }
+          ]
+        },
+        "citations": [
+          "P01.NEW#0",
+          "P01.N001.N001#0",
+          "P01.N001.N002#0"
+        ]
+      },
+      "seconds": 3.202843002996815
+    }
+  ],
+  "snapshot": {
+    "meta_hash": "d7d1f34f4ba62baa3559dbc377410098b22c446f4f24fa144e1ca2f112edb812",
+    "session_id": "D02_switch",
+    "nodes": [
+      "P01.NEW",
+      "P01.N001"
+    ],
+    "state": {
+      "facts": [],
+      "path": [
+        "P01",
+        "P01.NEW"
+      ],
+      "summary": "Người dân cần đăng ký khai sinh cho con; đang xác định nhánh trường hợp (yếu tố nước ngoài/ nơi sinh) để hướng dẫn hồ sơ phù hợp.",
+      "pending_switch": ""
+    },
+    "last_response": {
+      "mode": "question",
+      "speech_text": "Anh/chị cho tôi biết bé sinh tại Việt Nam hay sinh ở nước ngoài?",
+      "information": {
+        "title": "Chọn trường hợp để hướng dẫn hồ sơ khai sinh phù hợp",
+        "sections": [],
+        "options": [
+          {
+            "id": "A",
+            "label": "Bé sinh tại Việt Nam",
+            "node_ids": [
+              "P01.C01",
+              "P01.C02"
+            ]
+          },
+          {
+            "id": "B",
+            "label": "Bé sinh ở nước ngoài, chưa đăng ký ở nước ngoài và đã về cư trú tại Việt Nam",
+            "node_ids": [
+              "P01.C03"
+            ]
+          }
+        ]
+      }
+    },
+    "revision": 3,
+    "last_spoken": ""
+  },
+  "runtime_sha256": "3ca0e06d7565062687ce52a55d714b15402e938955d564f50ab3a7af6a7ed142"
+}

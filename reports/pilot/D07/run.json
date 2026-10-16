@@ -1,0 +1,857 @@
+{
+  "case": "D07",
+  "turns": [
+    {
+      "user": "Mẹ tôi bị mất giấy xác nhận khuyết tật. Tôi đi làm lại giúp mẹ thì cần những gì?",
+      "response": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P18",
+            "P18.C03",
+            "P18.C03.N001"
+          ],
+          "summary": "Người dân cần cấp lại giấy xác nhận khuyết tật do bị mất cho mẹ; đã có hướng dẫn hồ sơ nhánh cấp lại khi không đổi mức độ.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi đã tổng hợp các giấy tờ cần chuẩn bị để xin cấp lại Giấy xác nhận khuyết tật do bị mất. Nếu bạn cho biết có thay đổi thông tin cá nhân hay mức độ khuyết tật không, tôi sẽ rà lại đúng nhánh hồ sơ tương ứng.",
+        "information": {
+          "title": "Cấp lại Giấy xác nhận khuyết tật do bị mất (không đề nghị đổi mức độ) – Cần chuẩn bị",
+          "sections": [
+            {
+              "title": "Điều kiện/ghi chú",
+              "items": [
+                "Áp dụng khi giấy bị mất và không có yêu cầu thay đổi mức độ khuyết tật.",
+                "Trường hợp chỉ mất giấy: không bắt buộc giám định/đánh giá lại chỉ vì lý do mất giấy."
+              ]
+            },
+            {
+              "title": "Hồ sơ",
+              "items": [
+                "Đơn đề nghị theo Mẫu 01.",
+                "Giấy xác nhận khuyết tật cũ (nếu còn).",
+                "Nếu có nội dung cần sửa/điều chỉnh thông tin: kèm thông tin cần sửa và/hoặc giấy tờ chứng cứ thay đổi để cơ quan khai thác hoặc đối chiếu."
+              ]
+            },
+            {
+              "title": "Nơi giải quyết – thời gian – phí (theo dữ liệu đang có)",
+              "items": [
+                "Chủ tịch UBND cấp xã thực hiện cấp đổi/cấp lại trong 05 ngày làm việc.",
+                "Không lệ phí."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P18.C03#0",
+          "P18.C03.N001.N002#0",
+          "P18.C03.N001.N003#0"
+        ],
+        "revision": 1,
+        "session_id": "D07"
+      },
+      "seconds": 17.642788303004636,
+      "event_start": 0,
+      "event_count": 4
+    }
+  ],
+  "events": [
+    {
+      "call": 1,
+      "payload": {
+        "user_text": "Mẹ tôi bị mất giấy xác nhận khuyết tật. Tôi đi làm lại giúp mẹ thì cần những gì?",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "ROOT",
+              "title": "Quy trình hành chính — cây tri thức 3.0",
+              "condition": "Yêu cầu thuộc một hoặc nhiều lĩnh vực trong bộ dữ liệu",
+              "kind": "root",
+              "children_count": 27,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P02",
+                "title": "Đăng ký khai tử",
+                "condition": "Nhu cầu liên quan: Đăng ký khai tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P04",
+                "title": "Đăng ký thường trú",
+                "condition": "Nhu cầu liên quan: Đăng ký thường trú",
+                "kind": "procedure",
+                "children_count": 9,
+                "related": []
+              },
+              {
+                "id": "P05",
+                "title": "Xác nhận tình trạng hôn nhân",
+                "condition": "Nhu cầu liên quan: Xác nhận tình trạng hôn nhân",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P06",
+                "title": "Đăng ký tạm trú",
+                "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P07",
+                "title": "Xác nhận và điều chỉnh thông tin cư trú",
+                "condition": "Nhu cầu liên quan: Xác nhận và điều chỉnh thông tin cư trú",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P09",
+                "title": "Đăng ký biến động đất đai",
+                "condition": "Nhu cầu liên quan: Đăng ký biến động đất đai",
+                "kind": "procedure",
+                "children_count": 15,
+                "related": []
+              },
+              {
+                "id": "P10",
+                "title": "Cấp giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Cấp giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P11",
+                "title": "Đổi giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Đổi giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P12",
+                "title": "Chuyển nhượng quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Chuyển nhượng quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P13",
+                "title": "Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "condition": "Nhu cầu liên quan: Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P15",
+                "title": "Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "condition": "Nhu cầu liên quan: Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P16",
+                "title": "Hỗ trợ đào tạo nghề",
+                "condition": "Nhu cầu liên quan: Hỗ trợ đào tạo nghề",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P17",
+                "title": "Hỗ trợ người bị tai nạn lao động",
+                "condition": "Nhu cầu liên quan: Hỗ trợ người bị tai nạn lao động",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P19",
+                "title": "Tín dụng chính sách NHCSXH",
+                "condition": "Nhu cầu liên quan: Tín dụng chính sách NHCSXH",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P20",
+                "title": "Chế độ thương binh",
+                "condition": "Nhu cầu liên quan: Chế độ thương binh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P21",
+                "title": "Chế độ thờ cúng liệt sĩ",
+                "condition": "Nhu cầu liên quan: Chế độ thờ cúng liệt sĩ",
+                "kind": "procedure",
+                "children_count": 7,
+                "related": []
+              },
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P25",
+                "title": "Thay đổi nội dung đăng ký hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Thay đổi nội dung đăng ký hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 10,
+                "related": []
+              },
+              {
+                "id": "P26",
+                "title": "Chấm dứt hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Chấm dứt hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P27",
+                "title": "Khiếu nại - Phản ánh - Kiến nghị",
+                "condition": "Nhu cầu liên quan: Khiếu nại - Phản ánh - Kiến nghị",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2816,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 90,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2906
+      },
+      "response_id": "resp_0d13c3657a180f87016ad1612f0a8887d080b3d2fb09aa15d2",
+      "decision": {
+        "action": "load",
+        "mode": "data_gap",
+        "node_ids": [
+          "P18"
+        ],
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "Người dân hỏi làm lại (cấp lại) giấy xác nhận khuyết tật cho mẹ, muốn biết cần những gì.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 2.6249628479999956
+    },
+    {
+      "call": 2,
+      "payload": {
+        "user_text": "Mẹ tôi bị mất giấy xác nhận khuyết tật. Tôi đi làm lại giúp mẹ thì cần những gì?",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "Người dân hỏi làm lại (cấp lại) giấy xác nhận khuyết tật cho mẹ, muốn biết cần những gì.",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P18",
+              "title": "Xác định mức độ khuyết tật",
+              "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+              "kind": "procedure",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P18.ASSESS",
+                "title": "Xác định lần đầu hoặc xác định lại",
+                "condition": "Cần đánh giá mức độ tại Hội đồng cấp xã",
+                "kind": "shared_ancestor",
+                "children_count": 2,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.ASSESS#0",
+                    "text": "Xác định lần đầu/xác định lại: thời hạn công bố 25 ngày làm việc từ hồ sơ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03",
+                "title": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+                "condition": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+                "kind": "case_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03#0",
+                    "text": "Chủ tịch UBND cấp xã cấp đổi/cấp lại trong 5 ngày làm việc, không lệ phí.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C04",
+                "title": "Có tranh luận/kết luận không xác định được hoặc cần giám định y khoa",
+                "condition": "Có tranh luận/kết luận không xác định được hoặc cần giám định y khoa",
+                "kind": "case_group",
+                "children_count": 7,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P18.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Xác định mức độ khuyết tật; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 1927,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 264,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2191
+      },
+      "response_id": "resp_0029c2a255e34aa0016ad16131b0f087d0bf4b0dbcf63cf7b1",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P18.C03"
+        ],
+        "state": {
+          "facts": [],
+          "path": [
+            "P18"
+          ],
+          "summary": "Người dân cần cấp lại giấy xác nhận khuyết tật do bị mất cho mẹ; đang xác định đúng nhánh thủ tục (cấp lại/đổi hay phải đánh giá lại mức độ).",
+          "pending_switch": ""
+        },
+        "speech_text": "Mẹ bạn bị mất giấy và chỉ muốn xin cấp lại (không đề nghị đánh giá/đổi mức độ khuyết tật) đúng không?",
+        "information": {
+          "title": "Chọn đúng trường hợp để hướng dẫn hồ sơ",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Đúng, chỉ bị mất/hỏng giấy hoặc cần sửa thông tin, không đề nghị đổi mức độ",
+              "node_ids": [
+                "P18.C03"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Không, gia đình muốn xác định lại/đổi mức độ khuyết tật",
+              "node_ids": [
+                "P18.ASSESS"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Chưa rõ, cần tư vấn xem có phải đánh giá lại không",
+              "node_ids": [
+                "P18.ASSESS",
+                "P18.C03"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 4.979012616997352
+    },
+    {
+      "call": 3,
+      "payload": {
+        "user_text": "Mẹ tôi bị mất giấy xác nhận khuyết tật. Tôi đi làm lại giúp mẹ thì cần những gì?",
+        "state": {
+          "facts": [],
+          "path": [
+            "P18"
+          ],
+          "summary": "Người dân cần cấp lại giấy xác nhận khuyết tật do bị mất cho mẹ; đang xác định đúng nhánh thủ tục (cấp lại/đổi hay phải đánh giá lại mức độ).",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P18.C03",
+              "title": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+              "condition": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+              "kind": "case_group",
+              "children_count": 1,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P18.C03#0",
+                  "text": "Chủ tịch UBND cấp xã cấp đổi/cấp lại trong 5 ngày làm việc, không lệ phí.",
+                  "topics": [
+                    "chi_phi",
+                    "thoi_gian",
+                    "noi_nop",
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P18.C03.N001",
+                "title": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+                "condition": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+                "kind": "situation_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 7
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 1786,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 128,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 1914
+      },
+      "response_id": "resp_0036f89bb534e890016ad16136d5a887d08f9e62478a9def29",
+      "decision": {
+        "action": "load",
+        "mode": "data_gap",
+        "node_ids": [
+          "P18.C03.N001"
+        ],
+        "state": {
+          "facts": [],
+          "path": [
+            "P18",
+            "P18.C03",
+            "P18.C03.N001"
+          ],
+          "summary": "Người dân cần cấp lại giấy xác nhận khuyết tật do bị mất cho mẹ; đang lấy thông tin hồ sơ/thủ tục của nhánh cấp lại khi không đề nghị đổi mức độ.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 3.195918088000326
+    },
+    {
+      "call": 4,
+      "payload": {
+        "user_text": "Mẹ tôi bị mất giấy xác nhận khuyết tật. Tôi đi làm lại giúp mẹ thì cần những gì?",
+        "state": {
+          "facts": [],
+          "path": [
+            "P18",
+            "P18.C03",
+            "P18.C03.N001"
+          ],
+          "summary": "Người dân cần cấp lại giấy xác nhận khuyết tật do bị mất cho mẹ; đang lấy thông tin hồ sơ/thủ tục của nhánh cấp lại khi không đề nghị đổi mức độ.",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P18.C03.N001",
+              "title": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+              "condition": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+              "kind": "situation_group",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P18.C03",
+                "title": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+                "condition": "Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ",
+                "kind": "case_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03#0",
+                    "text": "Chủ tịch UBND cấp xã cấp đổi/cấp lại trong 5 ngày làm việc, không lệ phí.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P18.C03.N001.N001",
+                "title": "Lý do cấp đổi",
+                "condition": "Giấy hỏng hoặc thông tin cá nhân thay đổi",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N001#0",
+                    "text": "Cấp đổi khi giấy hỏng hoặc thông tin cá nhân thay đổi",
+                    "topics": [
+                      "huong_dan"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03.N001.N002",
+                "title": "Lý do cấp lại",
+                "condition": "Giấy bị mất; mức độ không thay đổi",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N002#0",
+                    "text": "cấp lại khi mất: nộp đơn Mẫu 01 và giấy cũ nếu còn, thông tin cần sửa/chứng cứ thay đổi để khai thác hoặc đối chiếu.",
+                    "topics": [
+                      "ho_so",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03.N001.N003",
+                "title": "Mất giấy, không đổi mức độ",
+                "condition": "Chỉ mất giấy; không có thay đổi mức độ",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N003#0",
+                    "text": "Không bắt giám định lại chỉ do mất giấy.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P18.C03.N001.N004",
+                "title": "Đồng thời mức độ thay đổi",
+                "condition": "Có thay đổi mức độ khuyết tật; cần xác định lại",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P18.C02"
+                ],
+                "blocks": [
+                  {
+                    "id": "P18.C03.N001.N004#0",
+                    "text": "Nếu đồng thời mức độ thay đổi, chuyển C02 để đánh giá rồi cấp giấy phù hợp.",
+                    "topics": [
+                      "chi_phi",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 6
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2196,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 419,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2615
+      },
+      "response_id": "resp_0af247d9b8b4158d016ad16139d52887d095c6b2e336f9a4fc",
+      "decision": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P18",
+            "P18.C03",
+            "P18.C03.N001"
+          ],
+          "summary": "Người dân cần cấp lại giấy xác nhận khuyết tật do bị mất cho mẹ; đã có hướng dẫn hồ sơ nhánh cấp lại khi không đổi mức độ.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi đã tổng hợp các giấy tờ cần chuẩn bị để xin cấp lại Giấy xác nhận khuyết tật do bị mất. Nếu bạn cho biết có thay đổi thông tin cá nhân hay mức độ khuyết tật không, tôi sẽ rà lại đúng nhánh hồ sơ tương ứng.",
+        "information": {
+          "title": "Cấp lại Giấy xác nhận khuyết tật do bị mất (không đề nghị đổi mức độ) – Cần chuẩn bị",
+          "sections": [
+            {
+              "title": "Điều kiện/ghi chú",
+              "items": [
+                "Áp dụng khi giấy bị mất và không có yêu cầu thay đổi mức độ khuyết tật.",
+                "Trường hợp chỉ mất giấy: không bắt buộc giám định/đánh giá lại chỉ vì lý do mất giấy."
+              ]
+            },
+            {
+              "title": "Hồ sơ",
+              "items": [
+                "Đơn đề nghị theo Mẫu 01.",
+                "Giấy xác nhận khuyết tật cũ (nếu còn).",
+                "Nếu có nội dung cần sửa/điều chỉnh thông tin: kèm thông tin cần sửa và/hoặc giấy tờ chứng cứ thay đổi để cơ quan khai thác hoặc đối chiếu."
+              ]
+            },
+            {
+              "title": "Nơi giải quyết – thời gian – phí (theo dữ liệu đang có)",
+              "items": [
+                "Chủ tịch UBND cấp xã thực hiện cấp đổi/cấp lại trong 05 ngày làm việc.",
+                "Không lệ phí."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P18.C03#0",
+          "P18.C03.N001.N002#0",
+          "P18.C03.N001.N003#0"
+        ]
+      },
+      "seconds": 6.8424093639987404
+    }
+  ],
+  "snapshot": {
+    "meta_hash": "d7d1f34f4ba62baa3559dbc377410098b22c446f4f24fa144e1ca2f112edb812",
+    "session_id": "D07",
+    "nodes": [
+      "P18.C03.N001"
+    ],
+    "state": {
+      "facts": [],
+      "path": [
+        "P18",
+        "P18.C03",
+        "P18.C03.N001"
+      ],
+      "summary": "Người dân cần cấp lại giấy xác nhận khuyết tật do bị mất cho mẹ; đã có hướng dẫn hồ sơ nhánh cấp lại khi không đổi mức độ.",
+      "pending_switch": ""
+    },
+    "last_response": {
+      "mode": "answer",
+      "speech_text": "Tôi đã tổng hợp các giấy tờ cần chuẩn bị để xin cấp lại Giấy xác nhận khuyết tật do bị mất. Nếu bạn cho biết có thay đổi thông tin cá nhân hay mức độ khuyết tật không, tôi sẽ rà lại đúng nhánh hồ sơ tương ứng.",
+      "information": {
+        "title": "Cấp lại Giấy xác nhận khuyết tật do bị mất (không đề nghị đổi mức độ) – Cần chuẩn bị",
+        "sections": [
+          {
+            "title": "Điều kiện/ghi chú",
+            "items": [
+              "Áp dụng khi giấy bị mất và không có yêu cầu thay đổi mức độ khuyết tật.",
+              "Trường hợp chỉ mất giấy: không bắt buộc giám định/đánh giá lại chỉ vì lý do mất giấy."
+            ]
+          },
+          {
+            "title": "Hồ sơ",
+            "items": [
+              "Đơn đề nghị theo Mẫu 01.",
+              "Giấy xác nhận khuyết tật cũ (nếu còn).",
+              "Nếu có nội dung cần sửa/điều chỉnh thông tin: kèm thông tin cần sửa và/hoặc giấy tờ chứng cứ thay đổi để cơ quan khai thác hoặc đối chiếu."
+            ]
+          },
+          {
+            "title": "Nơi giải quyết – thời gian – phí (theo dữ liệu đang có)",
+            "items": [
+              "Chủ tịch UBND cấp xã thực hiện cấp đổi/cấp lại trong 05 ngày làm việc.",
+              "Không lệ phí."
+            ]
+          }
+        ],
+        "options": []
+      }
+    },
+    "revision": 1,
+    "last_spoken": ""
+  },
+  "runtime_sha256": "325f1a46225c912c9b1e5c3d5e39cef95e6c194b2aec4efc632c1aa5c0a853af"
+}

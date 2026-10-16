@@ -1,0 +1,1 @@
+{"case": "D09", "turn": 6, "seconds": 32.08, "calls": 9, "response": {"mode": "transport_error", "speech_text": "Kết nối xử lý chưa hoàn tất. Anh/chị vui lòng thử lại.", "information": {"title": "Chưa hoàn tất xử lý", "sections": [], "options": []}, "code": "TURN_CALL_BUDGET", "revision": 5, "session_id": "D09"}}

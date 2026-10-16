@@ -1,0 +1,431 @@
+{
+  "case": "D09_ambiguous",
+  "seed": {
+    "messages": [
+      "Tôi cần làm lại cái thẻ."
+    ]
+  },
+  "initial_snapshot": null,
+  "turns": [
+    {
+      "user": "Tôi cần làm lại cái thẻ.",
+      "response": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "Người dân nói cần làm lại “thẻ” nhưng chưa rõ loại thẻ/giấy tờ nào.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị muốn làm lại loại thẻ/giấy tờ nào?",
+        "information": {
+          "title": "Chọn loại thẻ/giấy cần làm lại",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Căn cước (cấp lại/đổi)",
+              "node_ids": [
+                "P08"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Giấy chứng nhận quyền sử dụng đất (sổ đỏ) bị mất/hỏng cần làm lại/đổi",
+              "node_ids": [
+                "P10",
+                "P11"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Giấy chứng nhận vệ sinh an toàn thực phẩm",
+              "node_ids": [
+                "P23"
+              ]
+            },
+            {
+              "id": "D",
+              "label": "Khác (anh/chị nói rõ tên thẻ/giấy)",
+              "node_ids": []
+            }
+          ]
+        },
+        "citations": [],
+        "revision": 1,
+        "session_id": "D09_ambiguous"
+      },
+      "seconds": 4.631297313993855,
+      "event_start": 0,
+      "event_count": 1
+    }
+  ],
+  "events": [
+    {
+      "call": 1,
+      "payload": {
+        "user_text": "Tôi cần làm lại cái thẻ.",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "ROOT",
+              "title": "Quy trình hành chính — cây tri thức 3.0",
+              "condition": "Yêu cầu thuộc một hoặc nhiều lĩnh vực trong bộ dữ liệu",
+              "kind": "root",
+              "children_count": 27,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P02",
+                "title": "Đăng ký khai tử",
+                "condition": "Nhu cầu liên quan: Đăng ký khai tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P04",
+                "title": "Đăng ký thường trú",
+                "condition": "Nhu cầu liên quan: Đăng ký thường trú",
+                "kind": "procedure",
+                "children_count": 9,
+                "related": []
+              },
+              {
+                "id": "P05",
+                "title": "Xác nhận tình trạng hôn nhân",
+                "condition": "Nhu cầu liên quan: Xác nhận tình trạng hôn nhân",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P06",
+                "title": "Đăng ký tạm trú",
+                "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P07",
+                "title": "Xác nhận và điều chỉnh thông tin cư trú",
+                "condition": "Nhu cầu liên quan: Xác nhận và điều chỉnh thông tin cư trú",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P09",
+                "title": "Đăng ký biến động đất đai",
+                "condition": "Nhu cầu liên quan: Đăng ký biến động đất đai",
+                "kind": "procedure",
+                "children_count": 15,
+                "related": []
+              },
+              {
+                "id": "P10",
+                "title": "Cấp giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Cấp giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P11",
+                "title": "Đổi giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Đổi giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P12",
+                "title": "Chuyển nhượng quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Chuyển nhượng quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P13",
+                "title": "Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "condition": "Nhu cầu liên quan: Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P15",
+                "title": "Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "condition": "Nhu cầu liên quan: Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P16",
+                "title": "Hỗ trợ đào tạo nghề",
+                "condition": "Nhu cầu liên quan: Hỗ trợ đào tạo nghề",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P17",
+                "title": "Hỗ trợ người bị tai nạn lao động",
+                "condition": "Nhu cầu liên quan: Hỗ trợ người bị tai nạn lao động",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P19",
+                "title": "Tín dụng chính sách NHCSXH",
+                "condition": "Nhu cầu liên quan: Tín dụng chính sách NHCSXH",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P20",
+                "title": "Chế độ thương binh",
+                "condition": "Nhu cầu liên quan: Chế độ thương binh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P21",
+                "title": "Chế độ thờ cúng liệt sĩ",
+                "condition": "Nhu cầu liên quan: Chế độ thờ cúng liệt sĩ",
+                "kind": "procedure",
+                "children_count": 7,
+                "related": []
+              },
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P25",
+                "title": "Thay đổi nội dung đăng ký hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Thay đổi nội dung đăng ký hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 10,
+                "related": []
+              },
+              {
+                "id": "P26",
+                "title": "Chấm dứt hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Chấm dứt hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P27",
+                "title": "Khiếu nại - Phản ánh - Kiến nghị",
+                "condition": "Nhu cầu liên quan: Khiếu nại - Phản ánh - Kiến nghị",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "navigation_error": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3486,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 226,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3712
+      },
+      "response_id": "resp_07613391667b0a23016ad162f810bc87d089f980f412eb7523",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "Người dân nói cần làm lại “thẻ” nhưng chưa rõ loại thẻ/giấy tờ nào.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị muốn làm lại loại thẻ/giấy tờ nào?",
+        "information": {
+          "title": "Chọn loại thẻ/giấy cần làm lại",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Căn cước (cấp lại/đổi)",
+              "node_ids": [
+                "P08"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Giấy chứng nhận quyền sử dụng đất (sổ đỏ) bị mất/hỏng cần làm lại/đổi",
+              "node_ids": [
+                "P10",
+                "P11"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Giấy chứng nhận vệ sinh an toàn thực phẩm",
+              "node_ids": [
+                "P23"
+              ]
+            },
+            {
+              "id": "D",
+              "label": "Khác (anh/chị nói rõ tên thẻ/giấy)",
+              "node_ids": []
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 4.630995678002364
+    }
+  ],
+  "snapshot": {
+    "meta_hash": "d7d1f34f4ba62baa3559dbc377410098b22c446f4f24fa144e1ca2f112edb812",
+    "session_id": "D09_ambiguous",
+    "nodes": [
+      "ROOT"
+    ],
+    "state": {
+      "facts": [],
+      "path": [],
+      "summary": "Người dân nói cần làm lại “thẻ” nhưng chưa rõ loại thẻ/giấy tờ nào.",
+      "pending_switch": ""
+    },
+    "last_response": {
+      "mode": "question",
+      "speech_text": "Anh/chị muốn làm lại loại thẻ/giấy tờ nào?",
+      "information": {
+        "title": "Chọn loại thẻ/giấy cần làm lại",
+        "sections": [],
+        "options": [
+          {
+            "id": "A",
+            "label": "Căn cước (cấp lại/đổi)",
+            "node_ids": [
+              "P08"
+            ]
+          },
+          {
+            "id": "B",
+            "label": "Giấy chứng nhận quyền sử dụng đất (sổ đỏ) bị mất/hỏng cần làm lại/đổi",
+            "node_ids": [
+              "P10",
+              "P11"
+            ]
+          },
+          {
+            "id": "C",
+            "label": "Giấy chứng nhận vệ sinh an toàn thực phẩm",
+            "node_ids": [
+              "P23"
+            ]
+          },
+          {
+            "id": "D",
+            "label": "Khác (anh/chị nói rõ tên thẻ/giấy)",
+            "node_ids": []
+          }
+        ]
+      }
+    },
+    "revision": 1,
+    "last_spoken": ""
+  },
+  "runtime_sha256": "6b66c54291f1152cf680983323539bdc2c3fa3a6fda9910b6651e2651cc7160f"
+}

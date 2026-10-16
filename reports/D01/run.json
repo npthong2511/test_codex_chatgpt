@@ -1,0 +1,1706 @@
+{
+  "case": "D01",
+  "turns": [
+    {
+      "user": "Tôi muốn làm căn cước cho con, cháu sắp vào lớp một.",
+      "response": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P08",
+            "P08.FIRST"
+          ],
+          "summary": "Người dân cần làm căn cước lần đầu cho con. Đang cần xác định độ tuổi của trẻ để chọn nhánh thủ tục phù hợp.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho tôi biết hiện nay cháu thuộc nhóm tuổi nào dưới đây?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Cháu dưới 06 tuổi",
+              "node_ids": [
+                "P08.C01"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Cháu từ đủ 06 đến dưới 14 tuổi",
+              "node_ids": [
+                "P08.C02"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Cháu từ đủ 14 tuổi trở lên",
+              "node_ids": [
+                "P08.C03"
+              ]
+            }
+          ]
+        },
+        "citations": [
+          "P08.C01#0",
+          "P08.C02#0",
+          "P08.C03#0"
+        ],
+        "revision": 1,
+        "session_id": "D01"
+      },
+      "seconds": 8.182686059000844,
+      "event_start": 0,
+      "event_count": 3
+    },
+    {
+      "user": "Cháu 5 tuổi, làm lần đầu. Tôi là mẹ cháu, muốn biết cần chuẩn bị gì.",
+      "response": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "applicant_age_group",
+              "value": "Cháu dưới 06 tuổi",
+              "evidence": "Cháu 5 tuổi",
+              "node_id": "P08.C01"
+            },
+            {
+              "key": "relationship_role",
+              "value": "Mẹ của cháu (người đại diện hợp pháp đi làm cho trẻ)",
+              "evidence": "Tôi là mẹ cháu",
+              "node_id": "P08.C01"
+            },
+            {
+              "key": "request_type",
+              "value": "Cấp căn cước lần đầu cho trẻ",
+              "evidence": "làm lần đầu",
+              "node_id": "P08.FIRST"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C01"
+          ],
+          "summary": "Cấp căn cước lần đầu cho trẻ 5 tuổi (dưới 06 tuổi). Người thực hiện là mẹ (đại diện hợp pháp). Người dân hỏi cần chuẩn bị gì.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Cấp căn cước lần đầu cho trẻ dưới 06 tuổi (cháu 5 tuổi) – cần chuẩn bị/đáp ứng",
+          "sections": [
+            {
+              "title": "Cách thực hiện (theo quy định nhánh dưới 06 tuổi)",
+              "items": [
+                "Người đại diện hợp pháp thực hiện khai điện tử trên Cổng dịch vụ công hoặc VNeID theo nhu cầu cấp căn cước cho trẻ dưới 06 tuổi."
+              ]
+            },
+            {
+              "title": "Thông tin cần lưu ý khi làm cho trẻ dưới 06 tuổi",
+              "items": [
+                "Không thu ảnh khuôn mặt, vân tay, mống mắt của trẻ dưới 06 tuổi.",
+                "Cơ quan tiếp nhận sẽ xác thực tư cách người đại diện và khai thác dữ liệu của trẻ; nếu dữ liệu chưa đủ thì sẽ yêu cầu bổ sung căn cứ về khai sinh/đại diện."
+              ]
+            },
+            {
+              "title": "Trường hợp đặc biệt (nếu cháu chưa đăng ký khai sinh)",
+              "items": [
+                "Có thể chọn thực hiện theo nhóm liên thông: khai sinh – thường trú – BHYT – căn cước, khi đáp ứng điều kiện."
+              ]
+            },
+            {
+              "title": "Lệ phí và thời hạn",
+              "items": [
+                "Cấp căn cước lần đầu: không thu phí.",
+                "Thời hạn giải quyết: không quá 07 ngày làm việc kể từ khi hồ sơ đầy đủ, hợp lệ."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P08.C01#0",
+          "P08#0",
+          "P08.FIRST#0"
+        ],
+        "revision": 2,
+        "session_id": "D01"
+      },
+      "seconds": 8.314678035996621,
+      "event_start": 3,
+      "event_count": 1
+    },
+    {
+      "user": "À tôi nhớ nhầm, cháu vừa đủ 6 tuổi rồi. Vậy cần chuẩn bị gì?",
+      "response": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "applicant_age_group",
+              "value": "Cháu từ đủ 06 đến dưới 14 tuổi",
+              "evidence": "cháu vừa đủ 6 tuổi",
+              "node_id": "P08.C02"
+            },
+            {
+              "key": "relationship_role",
+              "value": "Mẹ của cháu (người đại diện hợp pháp đi làm cho trẻ)",
+              "evidence": "Tôi là mẹ cháu",
+              "node_id": "P08.C01"
+            },
+            {
+              "key": "request_type",
+              "value": "Cấp căn cước lần đầu cho trẻ",
+              "evidence": "làm lần đầu",
+              "node_id": "P08.FIRST"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C02"
+          ],
+          "summary": "Cấp căn cước lần đầu cho trẻ vừa đủ 6 tuổi (từ đủ 06 đến dưới 14 tuổi). Người thực hiện là mẹ (đại diện hợp pháp). Người dân hỏi cần chuẩn bị gì.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Cấp căn cước lần đầu cho trẻ từ đủ 06 đến dưới 14 tuổi – cần chuẩn bị/đáp ứng",
+          "sections": [
+            {
+              "title": "Điều kiện/cách thực hiện chính",
+              "items": [
+                "Cấp theo nhu cầu.",
+                "Trẻ đi cùng người đại diện hợp pháp đến điểm thu nhận để chụp ảnh và thu nhận sinh trắc (vân tay, mống mắt) theo quy định.",
+                "Trường hợp trẻ không thể thu nhận sinh trắc do tình trạng thực tế: cơ quan tiếp nhận sẽ ghi nhận, không đặt yêu cầu bất khả thi."
+              ]
+            },
+            {
+              "title": "Xác nhận thông tin/giấy tờ liên quan khi làm",
+              "items": [
+                "Người đại diện kiểm tra và ký xác nhận Phiếu thu nhận thông tin căn cước (mẫu DC02).",
+                "Chỉ cần giấy tờ/chứng cứ về việc đại diện trong trường hợp dữ liệu không chứng minh được tư cách đại diện."
+              ]
+            },
+            {
+              "title": "Lệ phí và thời hạn (theo nhánh cấp lần đầu)",
+              "items": [
+                "Cấp căn cước lần đầu: không thu phí.",
+                "Thời hạn giải quyết: không quá 07 ngày làm việc kể từ khi hồ sơ đầy đủ, hợp lệ."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P08.C02#0",
+          "P08#0",
+          "P08.FIRST#0"
+        ],
+        "revision": 3,
+        "session_id": "D01"
+      },
+      "seconds": 7.657022651997977,
+      "event_start": 4,
+      "event_count": 1
+    },
+    {
+      "user": "Cảm ơn, tôi không hỏi thêm nữa.",
+      "response": {
+        "action": "respond",
+        "mode": "finish",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "applicant_age_group",
+              "value": "Cháu từ đủ 06 đến dưới 14 tuổi",
+              "evidence": "cháu vừa đủ 6 tuổi",
+              "node_id": "P08.C02"
+            },
+            {
+              "key": "relationship_role",
+              "value": "Mẹ của cháu (người đại diện hợp pháp đi làm cho trẻ)",
+              "evidence": "Tôi là mẹ cháu",
+              "node_id": "P08.C01"
+            },
+            {
+              "key": "request_type",
+              "value": "Cấp căn cước lần đầu cho trẻ",
+              "evidence": "làm lần đầu",
+              "node_id": "P08.FIRST"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C02"
+          ],
+          "summary": "Cấp căn cước lần đầu cho trẻ vừa đủ 6 tuổi (từ đủ 06 đến dưới 14 tuổi). Người thực hiện là mẹ (đại diện hợp pháp). Người dân hỏi cần chuẩn bị gì.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": [],
+        "revision": 4,
+        "session_id": "D01"
+      },
+      "seconds": 3.838360421003017,
+      "event_start": 5,
+      "event_count": 1
+    }
+  ],
+  "events": [
+    {
+      "call": 1,
+      "payload": {
+        "user_text": "Tôi muốn làm căn cước cho con, cháu sắp vào lớp một.",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "ROOT",
+              "title": "Quy trình hành chính — cây tri thức 3.0",
+              "condition": "Yêu cầu thuộc một hoặc nhiều lĩnh vực trong bộ dữ liệu",
+              "kind": "root",
+              "children_count": 27,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P02",
+                "title": "Đăng ký khai tử",
+                "condition": "Nhu cầu liên quan: Đăng ký khai tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P04",
+                "title": "Đăng ký thường trú",
+                "condition": "Nhu cầu liên quan: Đăng ký thường trú",
+                "kind": "procedure",
+                "children_count": 9,
+                "related": []
+              },
+              {
+                "id": "P05",
+                "title": "Xác nhận tình trạng hôn nhân",
+                "condition": "Nhu cầu liên quan: Xác nhận tình trạng hôn nhân",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P06",
+                "title": "Đăng ký tạm trú",
+                "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P07",
+                "title": "Xác nhận và điều chỉnh thông tin cư trú",
+                "condition": "Nhu cầu liên quan: Xác nhận và điều chỉnh thông tin cư trú",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P09",
+                "title": "Đăng ký biến động đất đai",
+                "condition": "Nhu cầu liên quan: Đăng ký biến động đất đai",
+                "kind": "procedure",
+                "children_count": 15,
+                "related": []
+              },
+              {
+                "id": "P10",
+                "title": "Cấp giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Cấp giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P11",
+                "title": "Đổi giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Đổi giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P12",
+                "title": "Chuyển nhượng quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Chuyển nhượng quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P13",
+                "title": "Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "condition": "Nhu cầu liên quan: Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P15",
+                "title": "Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "condition": "Nhu cầu liên quan: Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P16",
+                "title": "Hỗ trợ đào tạo nghề",
+                "condition": "Nhu cầu liên quan: Hỗ trợ đào tạo nghề",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P17",
+                "title": "Hỗ trợ người bị tai nạn lao động",
+                "condition": "Nhu cầu liên quan: Hỗ trợ người bị tai nạn lao động",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P19",
+                "title": "Tín dụng chính sách NHCSXH",
+                "condition": "Nhu cầu liên quan: Tín dụng chính sách NHCSXH",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P20",
+                "title": "Chế độ thương binh",
+                "condition": "Nhu cầu liên quan: Chế độ thương binh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P21",
+                "title": "Chế độ thờ cúng liệt sĩ",
+                "condition": "Nhu cầu liên quan: Chế độ thờ cúng liệt sĩ",
+                "kind": "procedure",
+                "children_count": 7,
+                "related": []
+              },
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P25",
+                "title": "Thay đổi nội dung đăng ký hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Thay đổi nội dung đăng ký hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 10,
+                "related": []
+              },
+              {
+                "id": "P26",
+                "title": "Chấm dứt hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Chấm dứt hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P27",
+                "title": "Khiếu nại - Phản ánh - Kiến nghị",
+                "condition": "Nhu cầu liên quan: Khiếu nại - Phản ánh - Kiến nghị",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3143,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 81,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3224
+      },
+      "response_id": "resp_09eb6d73a598cf69016ad16183aa4087d093c4645dedda4d17",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P08"
+        ],
+        "state": {
+          "facts": [],
+          "path": [
+            "P08"
+          ],
+          "summary": "Người dân hỏi làm căn cước cho con (sắp vào lớp 1).",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 2.137745587999234
+    },
+    {
+      "call": 2,
+      "payload": {
+        "user_text": "Tôi muốn làm căn cước cho con, cháu sắp vào lớp một.",
+        "state": {
+          "facts": [],
+          "path": [
+            "P08"
+          ],
+          "summary": "Người dân hỏi làm căn cước cho con (sắp vào lớp 1).",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P08",
+              "title": "Cấp, đổi và cấp lại căn cước",
+              "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+              "kind": "procedure",
+              "children_count": 4,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P08#0",
+                  "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                  "topics": [
+                    "ho_so",
+                    "thoi_gian",
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P08.FIRST",
+                "title": "Cấp căn cước lần đầu",
+                "condition": "Chưa có thẻ thuộc diện cấp lần đầu",
+                "kind": "shared_ancestor",
+                "children_count": 3,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08.FIRST#0",
+                    "text": "Cấp lần đầu không thu",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C04",
+                "title": "Đã có thẻ; đổi do đến tuổi, thay đổi thông tin, hư hỏng hoặc lý do cấp đổi",
+                "condition": "Đã có thẻ; đổi do đến tuổi, thay đổi thông tin, hư hỏng hoặc lý do cấp đổi",
+                "kind": "case_group",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P08.C05",
+                "title": "Đã có thẻ; mất thẻ hoặc thuộc diện cấp lại",
+                "condition": "Đã có thẻ; mất thẻ hoặc thuộc diện cấp lại",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P08.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2222,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 83,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2305
+      },
+      "response_id": "resp_0f1be1b9d0a7c1fe016ad16185a7e087d0b1d07e09e41830cd",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P08.FIRST"
+        ],
+        "state": {
+          "facts": [],
+          "path": [
+            "P08"
+          ],
+          "summary": "Người dân hỏi làm căn cước cho con (sắp vào lớp 1).",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 2.029031509999186
+    },
+    {
+      "call": 3,
+      "payload": {
+        "user_text": "Tôi muốn làm căn cước cho con, cháu sắp vào lớp một.",
+        "state": {
+          "facts": [],
+          "path": [
+            "P08"
+          ],
+          "summary": "Người dân hỏi làm căn cước cho con (sắp vào lớp 1).",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P08.FIRST",
+              "title": "Cấp căn cước lần đầu",
+              "condition": "Chưa có thẻ thuộc diện cấp lần đầu",
+              "kind": "shared_ancestor",
+              "children_count": 3,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P08.FIRST#0",
+                  "text": "Cấp lần đầu không thu",
+                  "topics": [
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.C01",
+                "title": "Cấp lần đầu; dưới 06 tuổi",
+                "condition": "Cấp lần đầu; dưới 06 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C01#0",
+                    "text": "Dưới 6 tuổi cấp theo nhu cầu: người đại diện hợp pháp khai điện tử trên Cổng dịch vụ công/VNeID; nếu trẻ chưa khai sinh thì có thể chọn nhóm liên thông khai sinh, thường trú, BHYT và căn cước khi đáp ứng điều kiện. Không thu ảnh khuôn mặt, vân tay, mống mắt của trẻ dưới 6 tuổi. Xác thực tư cách đại diện, khai thác dữ liệu trẻ; thiếu thì bổ sung căn cứ khai sinh/đại diện. Thời hạn, nhận kết quả theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C02",
+                "title": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C02#0",
+                    "text": "Từ đủ 6 đến dưới 14 tuổi cấp theo nhu cầu. Trẻ cùng người đại diện đến điểm thu nhận để chụp ảnh, lấy vân tay, mống mắt theo quy định; trường hợp không thể thu nhận sinh trắc vì tình trạng thực tế được ghi nhận, không tạo yêu cầu bất khả thi. Người đại diện kiểm tra, ký xác nhận DC02; giấy đại diện chỉ khi dữ liệu không chứng minh được. Thời hạn theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C03",
+                "title": "Cấp lần đầu; từ đủ 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08",
+                  "P08.C04"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C03#0",
+                    "text": "Công dân từ đủ 14 tuổi phải làm căn cước nếu chưa có thẻ hợp lệ. Người yêu cầu đến điểm thu nhận kiểm tra dữ liệu, chụp ảnh, vân tay, mống mắt và xác nhận DC02. Không bắt xuất trình sổ hộ khẩu giấy. Người đang có CMND hoặc CCCD cần đổi thì chọn C04, không gán cấp lần đầu để miễn phí sai. Thời hạn theo P08, cấp lần đầu không thu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 7
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2675,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 212,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2887
+      },
+      "response_id": "resp_0fae022b7e6f4c1d016ad161879d2087d0b06c96aef093c747",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P08",
+            "P08.FIRST"
+          ],
+          "summary": "Người dân cần làm căn cước lần đầu cho con. Đang cần xác định độ tuổi của trẻ để chọn nhánh thủ tục phù hợp.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị cho tôi biết hiện nay cháu thuộc nhóm tuổi nào dưới đây?",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Cháu dưới 06 tuổi",
+              "node_ids": [
+                "P08.C01"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Cháu từ đủ 06 đến dưới 14 tuổi",
+              "node_ids": [
+                "P08.C02"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Cháu từ đủ 14 tuổi trở lên",
+              "node_ids": [
+                "P08.C03"
+              ]
+            }
+          ]
+        },
+        "citations": [
+          "P08.C01#0",
+          "P08.C02#0",
+          "P08.C03#0"
+        ]
+      },
+      "seconds": 4.015501319001487
+    },
+    {
+      "call": 4,
+      "payload": {
+        "user_text": "Cháu 5 tuổi, làm lần đầu. Tôi là mẹ cháu, muốn biết cần chuẩn bị gì.",
+        "state": {
+          "facts": [],
+          "path": [
+            "P08",
+            "P08.FIRST"
+          ],
+          "summary": "Người dân cần làm căn cước lần đầu cho con. Đang cần xác định độ tuổi của trẻ để chọn nhánh thủ tục phù hợp.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị cho tôi biết hiện nay cháu thuộc nhóm tuổi nào dưới đây?",
+          "information": {
+            "title": "",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Cháu dưới 06 tuổi",
+                "node_ids": [
+                  "P08.C01"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Cháu từ đủ 06 đến dưới 14 tuổi",
+                "node_ids": [
+                  "P08.C02"
+                ]
+              },
+              {
+                "id": "C",
+                "label": "Cháu từ đủ 14 tuổi trở lên",
+                "node_ids": [
+                  "P08.C03"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P08.FIRST",
+              "title": "Cấp căn cước lần đầu",
+              "condition": "Chưa có thẻ thuộc diện cấp lần đầu",
+              "kind": "shared_ancestor",
+              "children_count": 3,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P08.FIRST#0",
+                  "text": "Cấp lần đầu không thu",
+                  "topics": [
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.C01",
+                "title": "Cấp lần đầu; dưới 06 tuổi",
+                "condition": "Cấp lần đầu; dưới 06 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C01#0",
+                    "text": "Dưới 6 tuổi cấp theo nhu cầu: người đại diện hợp pháp khai điện tử trên Cổng dịch vụ công/VNeID; nếu trẻ chưa khai sinh thì có thể chọn nhóm liên thông khai sinh, thường trú, BHYT và căn cước khi đáp ứng điều kiện. Không thu ảnh khuôn mặt, vân tay, mống mắt của trẻ dưới 6 tuổi. Xác thực tư cách đại diện, khai thác dữ liệu trẻ; thiếu thì bổ sung căn cứ khai sinh/đại diện. Thời hạn, nhận kết quả theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C02",
+                "title": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C02#0",
+                    "text": "Từ đủ 6 đến dưới 14 tuổi cấp theo nhu cầu. Trẻ cùng người đại diện đến điểm thu nhận để chụp ảnh, lấy vân tay, mống mắt theo quy định; trường hợp không thể thu nhận sinh trắc vì tình trạng thực tế được ghi nhận, không tạo yêu cầu bất khả thi. Người đại diện kiểm tra, ký xác nhận DC02; giấy đại diện chỉ khi dữ liệu không chứng minh được. Thời hạn theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C03",
+                "title": "Cấp lần đầu; từ đủ 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08",
+                  "P08.C04"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C03#0",
+                    "text": "Công dân từ đủ 14 tuổi phải làm căn cước nếu chưa có thẻ hợp lệ. Người yêu cầu đến điểm thu nhận kiểm tra dữ liệu, chụp ảnh, vân tay, mống mắt và xác nhận DC02. Không bắt xuất trình sổ hộ khẩu giấy. Người đang có CMND hoặc CCCD cần đổi thì chọn C04, không gán cấp lần đầu để miễn phí sai. Thời hạn theo P08, cấp lần đầu không thu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2810,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 535,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3345
+      },
+      "response_id": "resp_0c35338fba32f592016ad161c87f4c87d084cf277d186f090f",
+      "decision": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "applicant_age_group",
+              "value": "Cháu dưới 06 tuổi",
+              "evidence": "Cháu 5 tuổi",
+              "node_id": "P08.C01"
+            },
+            {
+              "key": "relationship_role",
+              "value": "Mẹ của cháu (người đại diện hợp pháp đi làm cho trẻ)",
+              "evidence": "Tôi là mẹ cháu",
+              "node_id": "P08.C01"
+            },
+            {
+              "key": "request_type",
+              "value": "Cấp căn cước lần đầu cho trẻ",
+              "evidence": "làm lần đầu",
+              "node_id": "P08.FIRST"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C01"
+          ],
+          "summary": "Cấp căn cước lần đầu cho trẻ 5 tuổi (dưới 06 tuổi). Người thực hiện là mẹ (đại diện hợp pháp). Người dân hỏi cần chuẩn bị gì.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Cấp căn cước lần đầu cho trẻ dưới 06 tuổi (cháu 5 tuổi) – cần chuẩn bị/đáp ứng",
+          "sections": [
+            {
+              "title": "Cách thực hiện (theo quy định nhánh dưới 06 tuổi)",
+              "items": [
+                "Người đại diện hợp pháp thực hiện khai điện tử trên Cổng dịch vụ công hoặc VNeID theo nhu cầu cấp căn cước cho trẻ dưới 06 tuổi."
+              ]
+            },
+            {
+              "title": "Thông tin cần lưu ý khi làm cho trẻ dưới 06 tuổi",
+              "items": [
+                "Không thu ảnh khuôn mặt, vân tay, mống mắt của trẻ dưới 06 tuổi.",
+                "Cơ quan tiếp nhận sẽ xác thực tư cách người đại diện và khai thác dữ liệu của trẻ; nếu dữ liệu chưa đủ thì sẽ yêu cầu bổ sung căn cứ về khai sinh/đại diện."
+              ]
+            },
+            {
+              "title": "Trường hợp đặc biệt (nếu cháu chưa đăng ký khai sinh)",
+              "items": [
+                "Có thể chọn thực hiện theo nhóm liên thông: khai sinh – thường trú – BHYT – căn cước, khi đáp ứng điều kiện."
+              ]
+            },
+            {
+              "title": "Lệ phí và thời hạn",
+              "items": [
+                "Cấp căn cước lần đầu: không thu phí.",
+                "Thời hạn giải quyết: không quá 07 ngày làm việc kể từ khi hồ sơ đầy đủ, hợp lệ."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P08.C01#0",
+          "P08#0",
+          "P08.FIRST#0"
+        ]
+      },
+      "seconds": 8.31439484799921
+    },
+    {
+      "call": 5,
+      "payload": {
+        "user_text": "À tôi nhớ nhầm, cháu vừa đủ 6 tuổi rồi. Vậy cần chuẩn bị gì?",
+        "state": {
+          "facts": [
+            {
+              "key": "applicant_age_group",
+              "value": "Cháu dưới 06 tuổi",
+              "evidence": "Cháu 5 tuổi",
+              "node_id": "P08.C01"
+            },
+            {
+              "key": "relationship_role",
+              "value": "Mẹ của cháu (người đại diện hợp pháp đi làm cho trẻ)",
+              "evidence": "Tôi là mẹ cháu",
+              "node_id": "P08.C01"
+            },
+            {
+              "key": "request_type",
+              "value": "Cấp căn cước lần đầu cho trẻ",
+              "evidence": "làm lần đầu",
+              "node_id": "P08.FIRST"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C01"
+          ],
+          "summary": "Cấp căn cước lần đầu cho trẻ 5 tuổi (dưới 06 tuổi). Người thực hiện là mẹ (đại diện hợp pháp). Người dân hỏi cần chuẩn bị gì.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "answer",
+          "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+          "information": {
+            "title": "Cấp căn cước lần đầu cho trẻ dưới 06 tuổi (cháu 5 tuổi) – cần chuẩn bị/đáp ứng",
+            "sections": [
+              {
+                "title": "Cách thực hiện (theo quy định nhánh dưới 06 tuổi)",
+                "items": [
+                  "Người đại diện hợp pháp thực hiện khai điện tử trên Cổng dịch vụ công hoặc VNeID theo nhu cầu cấp căn cước cho trẻ dưới 06 tuổi."
+                ]
+              },
+              {
+                "title": "Thông tin cần lưu ý khi làm cho trẻ dưới 06 tuổi",
+                "items": [
+                  "Không thu ảnh khuôn mặt, vân tay, mống mắt của trẻ dưới 06 tuổi.",
+                  "Cơ quan tiếp nhận sẽ xác thực tư cách người đại diện và khai thác dữ liệu của trẻ; nếu dữ liệu chưa đủ thì sẽ yêu cầu bổ sung căn cứ về khai sinh/đại diện."
+                ]
+              },
+              {
+                "title": "Trường hợp đặc biệt (nếu cháu chưa đăng ký khai sinh)",
+                "items": [
+                  "Có thể chọn thực hiện theo nhóm liên thông: khai sinh – thường trú – BHYT – căn cước, khi đáp ứng điều kiện."
+                ]
+              },
+              {
+                "title": "Lệ phí và thời hạn",
+                "items": [
+                  "Cấp căn cước lần đầu: không thu phí.",
+                  "Thời hạn giải quyết: không quá 07 ngày làm việc kể từ khi hồ sơ đầy đủ, hợp lệ."
+                ]
+              }
+            ],
+            "options": []
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P08.FIRST",
+              "title": "Cấp căn cước lần đầu",
+              "condition": "Chưa có thẻ thuộc diện cấp lần đầu",
+              "kind": "shared_ancestor",
+              "children_count": 3,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P08.FIRST#0",
+                  "text": "Cấp lần đầu không thu",
+                  "topics": [
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.C01",
+                "title": "Cấp lần đầu; dưới 06 tuổi",
+                "condition": "Cấp lần đầu; dưới 06 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C01#0",
+                    "text": "Dưới 6 tuổi cấp theo nhu cầu: người đại diện hợp pháp khai điện tử trên Cổng dịch vụ công/VNeID; nếu trẻ chưa khai sinh thì có thể chọn nhóm liên thông khai sinh, thường trú, BHYT và căn cước khi đáp ứng điều kiện. Không thu ảnh khuôn mặt, vân tay, mống mắt của trẻ dưới 6 tuổi. Xác thực tư cách đại diện, khai thác dữ liệu trẻ; thiếu thì bổ sung căn cứ khai sinh/đại diện. Thời hạn, nhận kết quả theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C02",
+                "title": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C02#0",
+                    "text": "Từ đủ 6 đến dưới 14 tuổi cấp theo nhu cầu. Trẻ cùng người đại diện đến điểm thu nhận để chụp ảnh, lấy vân tay, mống mắt theo quy định; trường hợp không thể thu nhận sinh trắc vì tình trạng thực tế được ghi nhận, không tạo yêu cầu bất khả thi. Người đại diện kiểm tra, ký xác nhận DC02; giấy đại diện chỉ khi dữ liệu không chứng minh được. Thời hạn theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C03",
+                "title": "Cấp lần đầu; từ đủ 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08",
+                  "P08.C04"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C03#0",
+                    "text": "Công dân từ đủ 14 tuổi phải làm căn cước nếu chưa có thẻ hợp lệ. Người yêu cầu đến điểm thu nhận kiểm tra dữ liệu, chụp ảnh, vân tay, mống mắt và xác nhận DC02. Không bắt xuất trình sổ hộ khẩu giấy. Người đang có CMND hoặc CCCD cần đổi thì chọn C04, không gán cấp lần đầu để miễn phí sai. Thời hạn theo P08, cấp lần đầu không thu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3134,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 525,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3659
+      },
+      "response_id": "resp_030f39270a92318c016ad1620220ac87d08a4bb0ad411f996f",
+      "decision": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "applicant_age_group",
+              "value": "Cháu từ đủ 06 đến dưới 14 tuổi",
+              "evidence": "cháu vừa đủ 6 tuổi",
+              "node_id": "P08.C02"
+            },
+            {
+              "key": "relationship_role",
+              "value": "Mẹ của cháu (người đại diện hợp pháp đi làm cho trẻ)",
+              "evidence": "Tôi là mẹ cháu",
+              "node_id": "P08.C01"
+            },
+            {
+              "key": "request_type",
+              "value": "Cấp căn cước lần đầu cho trẻ",
+              "evidence": "làm lần đầu",
+              "node_id": "P08.FIRST"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C02"
+          ],
+          "summary": "Cấp căn cước lần đầu cho trẻ vừa đủ 6 tuổi (từ đủ 06 đến dưới 14 tuổi). Người thực hiện là mẹ (đại diện hợp pháp). Người dân hỏi cần chuẩn bị gì.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Cấp căn cước lần đầu cho trẻ từ đủ 06 đến dưới 14 tuổi – cần chuẩn bị/đáp ứng",
+          "sections": [
+            {
+              "title": "Điều kiện/cách thực hiện chính",
+              "items": [
+                "Cấp theo nhu cầu.",
+                "Trẻ đi cùng người đại diện hợp pháp đến điểm thu nhận để chụp ảnh và thu nhận sinh trắc (vân tay, mống mắt) theo quy định.",
+                "Trường hợp trẻ không thể thu nhận sinh trắc do tình trạng thực tế: cơ quan tiếp nhận sẽ ghi nhận, không đặt yêu cầu bất khả thi."
+              ]
+            },
+            {
+              "title": "Xác nhận thông tin/giấy tờ liên quan khi làm",
+              "items": [
+                "Người đại diện kiểm tra và ký xác nhận Phiếu thu nhận thông tin căn cước (mẫu DC02).",
+                "Chỉ cần giấy tờ/chứng cứ về việc đại diện trong trường hợp dữ liệu không chứng minh được tư cách đại diện."
+              ]
+            },
+            {
+              "title": "Lệ phí và thời hạn (theo nhánh cấp lần đầu)",
+              "items": [
+                "Cấp căn cước lần đầu: không thu phí.",
+                "Thời hạn giải quyết: không quá 07 ngày làm việc kể từ khi hồ sơ đầy đủ, hợp lệ."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P08.C02#0",
+          "P08#0",
+          "P08.FIRST#0"
+        ]
+      },
+      "seconds": 7.656838259994402
+    },
+    {
+      "call": 6,
+      "payload": {
+        "user_text": "Cảm ơn, tôi không hỏi thêm nữa.",
+        "state": {
+          "facts": [
+            {
+              "key": "applicant_age_group",
+              "value": "Cháu từ đủ 06 đến dưới 14 tuổi",
+              "evidence": "cháu vừa đủ 6 tuổi",
+              "node_id": "P08.C02"
+            },
+            {
+              "key": "relationship_role",
+              "value": "Mẹ của cháu (người đại diện hợp pháp đi làm cho trẻ)",
+              "evidence": "Tôi là mẹ cháu",
+              "node_id": "P08.C01"
+            },
+            {
+              "key": "request_type",
+              "value": "Cấp căn cước lần đầu cho trẻ",
+              "evidence": "làm lần đầu",
+              "node_id": "P08.FIRST"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C02"
+          ],
+          "summary": "Cấp căn cước lần đầu cho trẻ vừa đủ 6 tuổi (từ đủ 06 đến dưới 14 tuổi). Người thực hiện là mẹ (đại diện hợp pháp). Người dân hỏi cần chuẩn bị gì.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "answer",
+          "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+          "information": {
+            "title": "Cấp căn cước lần đầu cho trẻ từ đủ 06 đến dưới 14 tuổi – cần chuẩn bị/đáp ứng",
+            "sections": [
+              {
+                "title": "Điều kiện/cách thực hiện chính",
+                "items": [
+                  "Cấp theo nhu cầu.",
+                  "Trẻ đi cùng người đại diện hợp pháp đến điểm thu nhận để chụp ảnh và thu nhận sinh trắc (vân tay, mống mắt) theo quy định.",
+                  "Trường hợp trẻ không thể thu nhận sinh trắc do tình trạng thực tế: cơ quan tiếp nhận sẽ ghi nhận, không đặt yêu cầu bất khả thi."
+                ]
+              },
+              {
+                "title": "Xác nhận thông tin/giấy tờ liên quan khi làm",
+                "items": [
+                  "Người đại diện kiểm tra và ký xác nhận Phiếu thu nhận thông tin căn cước (mẫu DC02).",
+                  "Chỉ cần giấy tờ/chứng cứ về việc đại diện trong trường hợp dữ liệu không chứng minh được tư cách đại diện."
+                ]
+              },
+              {
+                "title": "Lệ phí và thời hạn (theo nhánh cấp lần đầu)",
+                "items": [
+                  "Cấp căn cước lần đầu: không thu phí.",
+                  "Thời hạn giải quyết: không quá 07 ngày làm việc kể từ khi hồ sơ đầy đủ, hợp lệ."
+                ]
+              }
+            ],
+            "options": []
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P08.FIRST",
+              "title": "Cấp căn cước lần đầu",
+              "condition": "Chưa có thẻ thuộc diện cấp lần đầu",
+              "kind": "shared_ancestor",
+              "children_count": 3,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P08.FIRST#0",
+                  "text": "Cấp lần đầu không thu",
+                  "topics": [
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P08#0",
+                    "text": "Thời hạn cấp, đổi, cấp lại không quá 7 ngày làm việc từ hồ sơ đầy đủ hợp lệ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ],
+                "rule_refs": [
+                  {
+                    "id": "P08.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Cấp, đổi và cấp lại căn cước; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 4,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P08.C01",
+                "title": "Cấp lần đầu; dưới 06 tuổi",
+                "condition": "Cấp lần đầu; dưới 06 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C01#0",
+                    "text": "Dưới 6 tuổi cấp theo nhu cầu: người đại diện hợp pháp khai điện tử trên Cổng dịch vụ công/VNeID; nếu trẻ chưa khai sinh thì có thể chọn nhóm liên thông khai sinh, thường trú, BHYT và căn cước khi đáp ứng điều kiện. Không thu ảnh khuôn mặt, vân tay, mống mắt của trẻ dưới 6 tuổi. Xác thực tư cách đại diện, khai thác dữ liệu trẻ; thiếu thì bổ sung căn cứ khai sinh/đại diện. Thời hạn, nhận kết quả theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C02",
+                "title": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C02#0",
+                    "text": "Từ đủ 6 đến dưới 14 tuổi cấp theo nhu cầu. Trẻ cùng người đại diện đến điểm thu nhận để chụp ảnh, lấy vân tay, mống mắt theo quy định; trường hợp không thể thu nhận sinh trắc vì tình trạng thực tế được ghi nhận, không tạo yêu cầu bất khả thi. Người đại diện kiểm tra, ký xác nhận DC02; giấy đại diện chỉ khi dữ liệu không chứng minh được. Thời hạn theo P08, không phí cấp lần đầu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P08.C03",
+                "title": "Cấp lần đầu; từ đủ 14 tuổi",
+                "condition": "Cấp lần đầu; từ đủ 14 tuổi",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P08",
+                  "P08.C04"
+                ],
+                "blocks": [
+                  {
+                    "id": "P08.C03#0",
+                    "text": "Công dân từ đủ 14 tuổi phải làm căn cước nếu chưa có thẻ hợp lệ. Người yêu cầu đến điểm thu nhận kiểm tra dữ liệu, chụp ảnh, vân tay, mống mắt và xác nhận DC02. Không bắt xuất trình sổ hộ khẩu giấy. Người đang có CMND hoặc CCCD cần đổi thì chọn C04, không gán cấp lần đầu để miễn phí sai. Thời hạn theo P08, cấp lần đầu không thu.",
+                    "topics": [
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3112,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 233,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3345
+      },
+      "response_id": "resp_0b00ae3733b75392016ad1624ddcd487d09160760a095d8d85",
+      "decision": {
+        "action": "respond",
+        "mode": "finish",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "applicant_age_group",
+              "value": "Cháu từ đủ 06 đến dưới 14 tuổi",
+              "evidence": "cháu vừa đủ 6 tuổi",
+              "node_id": "P08.C02"
+            },
+            {
+              "key": "relationship_role",
+              "value": "Mẹ của cháu (người đại diện hợp pháp đi làm cho trẻ)",
+              "evidence": "Tôi là mẹ cháu",
+              "node_id": "P08.C01"
+            },
+            {
+              "key": "request_type",
+              "value": "Cấp căn cước lần đầu cho trẻ",
+              "evidence": "làm lần đầu",
+              "node_id": "P08.FIRST"
+            }
+          ],
+          "path": [
+            "P08",
+            "P08.FIRST",
+            "P08.C02"
+          ],
+          "summary": "Cấp căn cước lần đầu cho trẻ vừa đủ 6 tuổi (từ đủ 06 đến dưới 14 tuổi). Người thực hiện là mẹ (đại diện hợp pháp). Người dân hỏi cần chuẩn bị gì.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 3.8381737859963323
+    }
+  ],
+  "snapshot": {
+    "meta_hash": "d7d1f34f4ba62baa3559dbc377410098b22c446f4f24fa144e1ca2f112edb812",
+    "session_id": "D01",
+    "nodes": [
+      "P08.FIRST"
+    ],
+    "state": {
+      "facts": [
+        {
+          "key": "applicant_age_group",
+          "value": "Cháu từ đủ 06 đến dưới 14 tuổi",
+          "evidence": "cháu vừa đủ 6 tuổi",
+          "node_id": "P08.C02"
+        },
+        {
+          "key": "relationship_role",
+          "value": "Mẹ của cháu (người đại diện hợp pháp đi làm cho trẻ)",
+          "evidence": "Tôi là mẹ cháu",
+          "node_id": "P08.C01"
+        },
+        {
+          "key": "request_type",
+          "value": "Cấp căn cước lần đầu cho trẻ",
+          "evidence": "làm lần đầu",
+          "node_id": "P08.FIRST"
+        }
+      ],
+      "path": [
+        "P08",
+        "P08.FIRST",
+        "P08.C02"
+      ],
+      "summary": "Cấp căn cước lần đầu cho trẻ vừa đủ 6 tuổi (từ đủ 06 đến dưới 14 tuổi). Người thực hiện là mẹ (đại diện hợp pháp). Người dân hỏi cần chuẩn bị gì.",
+      "pending_switch": ""
+    },
+    "last_response": {
+      "mode": "finish",
+      "speech_text": "",
+      "information": {
+        "title": "",
+        "sections": [],
+        "options": []
+      }
+    },
+    "revision": 4,
+    "last_spoken": ""
+  },
+  "runtime_sha256": "1d8bcbd8aff8b770f3255289bf5f1d9a10b27d2aa161d7493f031c0a9ad7ddf6"
+}

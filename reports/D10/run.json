@@ -1,0 +1,2592 @@
+{
+  "case": "D10",
+  "turns": [
+    {
+      "user": "Tôi muốn đăng ký tạm trú và hỏi giấy an toàn thực phẩm cho quán ăn.",
+      "response": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P06"
+          ],
+          "summary": "Đang xử lý thủ tục đăng ký tạm trú; cần làm rõ thuộc trường hợp đăng ký/gia hạn tạm trú hay chỉ thông báo lưu trú/người nước ngoài khai báo tạm trú.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị đang cần thực hiện theo trường hợp nào?",
+        "information": {
+          "title": "Chọn trường hợp để hướng dẫn đúng thủ tục",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Đăng ký hoặc gia hạn tạm trú (công dân Việt Nam)",
+              "node_ids": [
+                "P06.REG"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Chỉ thông báo lưu trú ngắn ngày hoặc người nước ngoài khai báo tạm trú",
+              "node_ids": [
+                "P06.R01"
+              ]
+            }
+          ]
+        },
+        "citations": [],
+        "revision": 1,
+        "session_id": "D10"
+      },
+      "seconds": 6.12385258100403,
+      "event_start": 0,
+      "event_count": 2
+    },
+    {
+      "user": "Tôi muốn hỏi giấy an toàn thực phẩm trước, quán ăn của tôi đã đăng ký hộ kinh doanh rồi.",
+      "response": {
+        "action": "respond",
+        "mode": "switch_confirm",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P06"
+          ],
+          "summary": "Đang xử lý thủ tục đăng ký tạm trú; người dân muốn hỏi thủ tục giấy chứng nhận vệ sinh an toàn thực phẩm (quán ăn đã đăng ký hộ kinh doanh).",
+          "pending_switch": "Hỏi thủ tục/điều kiện về giấy chứng nhận vệ sinh an toàn thực phẩm cho quán ăn (đã đăng ký hộ kinh doanh)."
+        },
+        "speech_text": "Nội dung anh/chị hỏi hiện chuyển sang thủ tục giấy chứng nhận vệ sinh an toàn thực phẩm. Anh/chị có muốn đổi sang thủ tục này trước không?",
+        "information": {
+          "title": "Xác nhận đổi thủ tục",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Đổi sang thủ tục giấy chứng nhận vệ sinh an toàn thực phẩm",
+              "node_ids": []
+            },
+            {
+              "id": "B",
+              "label": "Chưa đổi, tiếp tục thủ tục đăng ký tạm trú",
+              "node_ids": []
+            }
+          ]
+        },
+        "citations": [
+          "P23"
+        ],
+        "revision": 2,
+        "session_id": "D10"
+      },
+      "seconds": 3.7007745240043732,
+      "event_start": 2,
+      "event_count": 1
+    },
+    {
+      "user": "Có, chuyển sang an toàn thực phẩm.",
+      "response": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P23"
+          ],
+          "summary": "Thủ tục: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm cho quán ăn (HKD). Đang cần xác định trường hợp: xin cấp mới/thuộc diện miễn/đã có giấy cần cấp lại.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị đang cần xử lý trường hợp nào về giấy chứng nhận an toàn thực phẩm?",
+        "information": {
+          "title": "Chọn trường hợp để tôi hướng dẫn đúng nhánh",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Xin cấp mới (chưa có giấy chứng nhận)",
+              "node_ids": [
+                "P23.C01"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Có dấu hiệu thuộc diện được miễn cấp giấy chứng nhận",
+              "node_ids": [
+                "P23.C02"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Đã có giấy; sắp hết hạn / mất, hỏng / thay đổi hoạt động",
+              "node_ids": [
+                "P23.C03"
+              ]
+            }
+          ]
+        },
+        "citations": [],
+        "revision": 3,
+        "session_id": "D10"
+      },
+      "seconds": 9.797441715003515,
+      "event_start": 3,
+      "event_count": 4
+    },
+    {
+      "user": "A, tôi chưa có giấy chứng nhận. Quán ăn cố định phục vụ khoảng 50 suất mỗi ngày, muốn biết cần hồ sơ gì.",
+      "response": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "truong_hop_xu_ly",
+              "value": "Xin cấp mới (chưa có giấy chứng nhận)",
+              "evidence": "A, tôi chưa có giấy chứng nhận.",
+              "node_id": "P23.C01"
+            }
+          ],
+          "path": [
+            "P23",
+            "P23.C01"
+          ],
+          "summary": "Thủ tục: Giấy chứng nhận ATTP cho quán ăn. Trường hợp: cấp mới (chưa có giấy). Đã cung cấp thành phần hồ sơ và các yêu cầu chuẩn bị để thẩm định.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Hồ sơ cấp mới Giấy chứng nhận ATTP (cơ sở ăn uống/thuộc nhóm Bộ Y tế) và yêu cầu thẩm định",
+          "sections": [
+            {
+              "title": "1) Hồ sơ (01 bộ)",
+              "items": [
+                "Đơn đề nghị cấp Giấy chứng nhận (Mẫu 1 – Phụ lục I, Nghị định 155/2018).",
+                "Thông tin đăng ký kinh doanh đúng ngành: bản sao có xác nhận của cơ sở (trường hợp chưa khai thác được dữ liệu điện tử).",
+                "Bản thuyết minh về cơ sở vật chất, trang thiết bị/dụng cụ bảo đảm điều kiện vệ sinh an toàn thực phẩm.",
+                "Giấy xác nhận đủ sức khỏe của chủ cơ sở và người trực tiếp sản xuất/kinh doanh, do cơ sở khám bệnh, chữa bệnh có thẩm quyền cấp.",
+                "Danh sách người đã được tập huấn kiến thức ATTP do chủ cơ sở xác nhận (không bắt từng nhân viên phải xin riêng một “giấy xác nhận kiến thức” do cơ quan quản lý cấp)."
+              ]
+            },
+            {
+              "title": "2) Chuẩn bị để thẩm định điều kiện ATTP tại cơ sở",
+              "items": [
+                "Bố trí tránh nhiễm chéo sống – chín; khu chế biến/bảo quản phù hợp.",
+                "Nước đạt yêu cầu; dụng cụ sạch và phân biệt; kiểm soát côn trùng/chất thải.",
+                "Nguyên liệu có nguồn gốc; người trực tiếp đáp ứng yêu cầu về sức khỏe và vệ sinh.",
+                "Thực hiện kiểm thực/lưu mẫu đối với loại hình thuộc yêu cầu."
+              ]
+            },
+            {
+              "title": "3) Kết quả thẩm định",
+              "items": [
+                "Thẩm định đạt: được cấp giấy chứng nhận.",
+                "Chưa đạt nhưng có thể khắc phục: lập biên bản nêu nội dung và thời hạn khắc phục (tối đa 30 ngày); sau đó cơ sở gửi báo cáo để thẩm định lại.",
+                "Không đạt: cơ quan có thẩm quyền thông báo từ chối.",
+                "Lưu ý: không tiếp tục hoạt động chỉ vì đã nộp hồ sơ."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P23.C01.N001.N001#0",
+          "P23.C01.N002.N001#0"
+        ],
+        "revision": 4,
+        "session_id": "D10"
+      },
+      "seconds": 11.638528415998735,
+      "event_start": 7,
+      "event_count": 2
+    }
+  ],
+  "events": [
+    {
+      "call": 1,
+      "payload": {
+        "user_text": "Tôi muốn đăng ký tạm trú và hỏi giấy an toàn thực phẩm cho quán ăn.",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "ROOT",
+              "title": "Quy trình hành chính — cây tri thức 3.0",
+              "condition": "Yêu cầu thuộc một hoặc nhiều lĩnh vực trong bộ dữ liệu",
+              "kind": "root",
+              "children_count": 27,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P02",
+                "title": "Đăng ký khai tử",
+                "condition": "Nhu cầu liên quan: Đăng ký khai tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P04",
+                "title": "Đăng ký thường trú",
+                "condition": "Nhu cầu liên quan: Đăng ký thường trú",
+                "kind": "procedure",
+                "children_count": 9,
+                "related": []
+              },
+              {
+                "id": "P05",
+                "title": "Xác nhận tình trạng hôn nhân",
+                "condition": "Nhu cầu liên quan: Xác nhận tình trạng hôn nhân",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P06",
+                "title": "Đăng ký tạm trú",
+                "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P07",
+                "title": "Xác nhận và điều chỉnh thông tin cư trú",
+                "condition": "Nhu cầu liên quan: Xác nhận và điều chỉnh thông tin cư trú",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P09",
+                "title": "Đăng ký biến động đất đai",
+                "condition": "Nhu cầu liên quan: Đăng ký biến động đất đai",
+                "kind": "procedure",
+                "children_count": 15,
+                "related": []
+              },
+              {
+                "id": "P10",
+                "title": "Cấp giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Cấp giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P11",
+                "title": "Đổi giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Đổi giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P12",
+                "title": "Chuyển nhượng quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Chuyển nhượng quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P13",
+                "title": "Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "condition": "Nhu cầu liên quan: Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P15",
+                "title": "Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "condition": "Nhu cầu liên quan: Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P16",
+                "title": "Hỗ trợ đào tạo nghề",
+                "condition": "Nhu cầu liên quan: Hỗ trợ đào tạo nghề",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P17",
+                "title": "Hỗ trợ người bị tai nạn lao động",
+                "condition": "Nhu cầu liên quan: Hỗ trợ người bị tai nạn lao động",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P19",
+                "title": "Tín dụng chính sách NHCSXH",
+                "condition": "Nhu cầu liên quan: Tín dụng chính sách NHCSXH",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P20",
+                "title": "Chế độ thương binh",
+                "condition": "Nhu cầu liên quan: Chế độ thương binh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P21",
+                "title": "Chế độ thờ cúng liệt sĩ",
+                "condition": "Nhu cầu liên quan: Chế độ thờ cúng liệt sĩ",
+                "kind": "procedure",
+                "children_count": 7,
+                "related": []
+              },
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P25",
+                "title": "Thay đổi nội dung đăng ký hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Thay đổi nội dung đăng ký hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 10,
+                "related": []
+              },
+              {
+                "id": "P26",
+                "title": "Chấm dứt hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Chấm dứt hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P27",
+                "title": "Khiếu nại - Phản ánh - Kiến nghị",
+                "condition": "Nhu cầu liên quan: Khiếu nại - Phản ánh - Kiến nghị",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3145,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 102,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3247
+      },
+      "response_id": "resp_098e82f9d2aec53c016ad161af2c2087d0a1dc86fd5aaa7240",
+      "decision": {
+        "action": "load",
+        "mode": "data_gap",
+        "node_ids": [
+          "P06",
+          "P23"
+        ],
+        "state": {
+          "facts": [],
+          "path": [
+            "P06",
+            "P23"
+          ],
+          "summary": "Người dân hỏi 2 thủ tục: đăng ký tạm trú và đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm cho quán ăn.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 2.479233516001841
+    },
+    {
+      "call": 2,
+      "payload": {
+        "user_text": "Tôi muốn đăng ký tạm trú và hỏi giấy an toàn thực phẩm cho quán ăn.",
+        "state": {
+          "facts": [],
+          "path": [
+            "P06",
+            "P23"
+          ],
+          "summary": "Người dân hỏi 2 thủ tục: đăng ký tạm trú và đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm cho quán ăn.",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P06",
+              "title": "Đăng ký tạm trú",
+              "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+              "kind": "procedure",
+              "children_count": 3,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P06.REG",
+                "title": "Đăng ký hoặc gia hạn tạm trú công dân",
+                "condition": "Công dân Việt Nam thuộc diện đăng ký/gia hạn tạm trú",
+                "kind": "shared_ancestor",
+                "children_count": 2,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P06.REG#0",
+                    "text": "Cơ quan giải quyết trong 3 ngày làm việc từ hồ sơ đầy đủ hợp lệ; cập nhật dữ liệu và thông báo kết quả, không cấp sổ tạm trú.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  },
+                  {
+                    "id": "P06.REG#1",
+                    "text": "Thời hạn tạm trú tối đa 2 năm mỗi lần và được gia hạn nhiều lần.",
+                    "topics": [
+                      "thoi_gian"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P06.R01",
+                "title": "Chỉ thông báo lưu trú ngắn ngày hoặc người nước ngoài khai báo tạm trú",
+                "condition": "Chỉ thông báo lưu trú ngắn ngày hoặc người nước ngoài khai báo tạm trú",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P06.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký tạm trú; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P23",
+              "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+              "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+              "kind": "procedure",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P23.C01",
+                "title": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+                "condition": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C02",
+                "title": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+                "condition": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+                "kind": "case_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P23.C02#0",
+                    "text": "Miễn giấy này không miễn điều kiện ATTP, kiểm tra, nguồn gốc thực phẩm hay đăng ký kinh doanh khi thuộc diện bắt buộc.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  },
+                  {
+                    "id": "P23.C02#1",
+                    "text": "Không có hồ sơ xin giấy, thời hạn cấp hoặc phí cấp cho nhánh miễn.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P23.C03",
+                "title": "Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",
+                "condition": "Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",
+                "kind": "case_group",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2611,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 191,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2802
+      },
+      "response_id": "resp_029e791fb35ec8f1016ad161b19c8487d080ce76bcbe0cdd09",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P06"
+          ],
+          "summary": "Đang xử lý thủ tục đăng ký tạm trú; cần làm rõ thuộc trường hợp đăng ký/gia hạn tạm trú hay chỉ thông báo lưu trú/người nước ngoài khai báo tạm trú.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị đang cần thực hiện theo trường hợp nào?",
+        "information": {
+          "title": "Chọn trường hợp để hướng dẫn đúng thủ tục",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Đăng ký hoặc gia hạn tạm trú (công dân Việt Nam)",
+              "node_ids": [
+                "P06.REG"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Chỉ thông báo lưu trú ngắn ngày hoặc người nước ngoài khai báo tạm trú",
+              "node_ids": [
+                "P06.R01"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 3.6443152179999743
+    },
+    {
+      "call": 3,
+      "payload": {
+        "user_text": "Tôi muốn hỏi giấy an toàn thực phẩm trước, quán ăn của tôi đã đăng ký hộ kinh doanh rồi.",
+        "state": {
+          "facts": [],
+          "path": [
+            "P06"
+          ],
+          "summary": "Đang xử lý thủ tục đăng ký tạm trú; cần làm rõ thuộc trường hợp đăng ký/gia hạn tạm trú hay chỉ thông báo lưu trú/người nước ngoài khai báo tạm trú.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị đang cần thực hiện theo trường hợp nào?",
+          "information": {
+            "title": "Chọn trường hợp để hướng dẫn đúng thủ tục",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Đăng ký hoặc gia hạn tạm trú (công dân Việt Nam)",
+                "node_ids": [
+                  "P06.REG"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Chỉ thông báo lưu trú ngắn ngày hoặc người nước ngoài khai báo tạm trú",
+                "node_ids": [
+                  "P06.R01"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P06",
+              "title": "Đăng ký tạm trú",
+              "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+              "kind": "procedure",
+              "children_count": 3,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P06.REG",
+                "title": "Đăng ký hoặc gia hạn tạm trú công dân",
+                "condition": "Công dân Việt Nam thuộc diện đăng ký/gia hạn tạm trú",
+                "kind": "shared_ancestor",
+                "children_count": 2,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P06.REG#0",
+                    "text": "Cơ quan giải quyết trong 3 ngày làm việc từ hồ sơ đầy đủ hợp lệ; cập nhật dữ liệu và thông báo kết quả, không cấp sổ tạm trú.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  },
+                  {
+                    "id": "P06.REG#1",
+                    "text": "Thời hạn tạm trú tối đa 2 năm mỗi lần và được gia hạn nhiều lần.",
+                    "topics": [
+                      "thoi_gian"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P06.R01",
+                "title": "Chỉ thông báo lưu trú ngắn ngày hoặc người nước ngoài khai báo tạm trú",
+                "condition": "Chỉ thông báo lưu trú ngắn ngày hoặc người nước ngoài khai báo tạm trú",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P06.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký tạm trú; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P23",
+              "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+              "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+              "kind": "procedure",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P23.C01",
+                "title": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+                "condition": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C02",
+                "title": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+                "condition": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+                "kind": "case_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P23.C02#0",
+                    "text": "Miễn giấy này không miễn điều kiện ATTP, kiểm tra, nguồn gốc thực phẩm hay đăng ký kinh doanh khi thuộc diện bắt buộc.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  },
+                  {
+                    "id": "P23.C02#1",
+                    "text": "Không có hồ sơ xin giấy, thời hạn cấp hoặc phí cấp cho nhánh miễn.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P23.C03",
+                "title": "Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",
+                "condition": "Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",
+                "kind": "case_group",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2729,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 227,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2956
+      },
+      "response_id": "resp_0e3b05037dfb3136016ad161eb0f0c87d085d89c345fa54f0a",
+      "decision": {
+        "action": "respond",
+        "mode": "switch_confirm",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P06"
+          ],
+          "summary": "Đang xử lý thủ tục đăng ký tạm trú; người dân muốn hỏi thủ tục giấy chứng nhận vệ sinh an toàn thực phẩm (quán ăn đã đăng ký hộ kinh doanh).",
+          "pending_switch": "Hỏi thủ tục/điều kiện về giấy chứng nhận vệ sinh an toàn thực phẩm cho quán ăn (đã đăng ký hộ kinh doanh)."
+        },
+        "speech_text": "Nội dung anh/chị hỏi hiện chuyển sang thủ tục giấy chứng nhận vệ sinh an toàn thực phẩm. Anh/chị có muốn đổi sang thủ tục này trước không?",
+        "information": {
+          "title": "Xác nhận đổi thủ tục",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Đổi sang thủ tục giấy chứng nhận vệ sinh an toàn thực phẩm",
+              "node_ids": []
+            },
+            {
+              "id": "B",
+              "label": "Chưa đổi, tiếp tục thủ tục đăng ký tạm trú",
+              "node_ids": []
+            }
+          ]
+        },
+        "citations": [
+          "P23"
+        ]
+      },
+      "seconds": 3.7006302809968474
+    },
+    {
+      "call": 4,
+      "payload": {
+        "user_text": "Có, chuyển sang an toàn thực phẩm.",
+        "state": {
+          "facts": [],
+          "path": [
+            "P06"
+          ],
+          "summary": "Đang xử lý thủ tục đăng ký tạm trú; người dân muốn hỏi thủ tục giấy chứng nhận vệ sinh an toàn thực phẩm (quán ăn đã đăng ký hộ kinh doanh).",
+          "pending_switch": "Hỏi thủ tục/điều kiện về giấy chứng nhận vệ sinh an toàn thực phẩm cho quán ăn (đã đăng ký hộ kinh doanh)."
+        },
+        "last_response": {
+          "mode": "switch_confirm",
+          "speech_text": "Nội dung anh/chị hỏi hiện chuyển sang thủ tục giấy chứng nhận vệ sinh an toàn thực phẩm. Anh/chị có muốn đổi sang thủ tục này trước không?",
+          "information": {
+            "title": "Xác nhận đổi thủ tục",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Đổi sang thủ tục giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "node_ids": []
+              },
+              {
+                "id": "B",
+                "label": "Chưa đổi, tiếp tục thủ tục đăng ký tạm trú",
+                "node_ids": []
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P06",
+              "title": "Đăng ký tạm trú",
+              "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+              "kind": "procedure",
+              "children_count": 3,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P06.REG",
+                "title": "Đăng ký hoặc gia hạn tạm trú công dân",
+                "condition": "Công dân Việt Nam thuộc diện đăng ký/gia hạn tạm trú",
+                "kind": "shared_ancestor",
+                "children_count": 2,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P06.REG#0",
+                    "text": "Cơ quan giải quyết trong 3 ngày làm việc từ hồ sơ đầy đủ hợp lệ; cập nhật dữ liệu và thông báo kết quả, không cấp sổ tạm trú.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  },
+                  {
+                    "id": "P06.REG#1",
+                    "text": "Thời hạn tạm trú tối đa 2 năm mỗi lần và được gia hạn nhiều lần.",
+                    "topics": [
+                      "thoi_gian"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P06.R01",
+                "title": "Chỉ thông báo lưu trú ngắn ngày hoặc người nước ngoài khai báo tạm trú",
+                "condition": "Chỉ thông báo lưu trú ngắn ngày hoặc người nước ngoài khai báo tạm trú",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P06.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký tạm trú; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P23",
+              "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+              "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+              "kind": "procedure",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P23.C01",
+                "title": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+                "condition": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C02",
+                "title": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+                "condition": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+                "kind": "case_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P23.C02#0",
+                    "text": "Miễn giấy này không miễn điều kiện ATTP, kiểm tra, nguồn gốc thực phẩm hay đăng ký kinh doanh khi thuộc diện bắt buộc.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  },
+                  {
+                    "id": "P23.C02#1",
+                    "text": "Không có hồ sơ xin giấy, thời hạn cấp hoặc phí cấp cho nhánh miễn.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P23.C03",
+                "title": "Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",
+                "condition": "Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",
+                "kind": "case_group",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2747,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 89,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2836
+      },
+      "response_id": "resp_0f8d8db963ef62d1016ad1622c756087d0ae698b9cfdc986c3",
+      "decision": {
+        "action": "restart",
+        "mode": "switch_confirm",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "Người dân xác nhận đổi sang thủ tục giấy chứng nhận vệ sinh an toàn thực phẩm cho quán ăn (đã đăng ký hộ kinh doanh).",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 1.7844029469997622
+    },
+    {
+      "call": 5,
+      "payload": {
+        "user_text": "Có, chuyển sang an toàn thực phẩm.",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "ROOT",
+              "title": "Quy trình hành chính — cây tri thức 3.0",
+              "condition": "Yêu cầu thuộc một hoặc nhiều lĩnh vực trong bộ dữ liệu",
+              "kind": "root",
+              "children_count": 27,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P02",
+                "title": "Đăng ký khai tử",
+                "condition": "Nhu cầu liên quan: Đăng ký khai tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P04",
+                "title": "Đăng ký thường trú",
+                "condition": "Nhu cầu liên quan: Đăng ký thường trú",
+                "kind": "procedure",
+                "children_count": 9,
+                "related": []
+              },
+              {
+                "id": "P05",
+                "title": "Xác nhận tình trạng hôn nhân",
+                "condition": "Nhu cầu liên quan: Xác nhận tình trạng hôn nhân",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P06",
+                "title": "Đăng ký tạm trú",
+                "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P07",
+                "title": "Xác nhận và điều chỉnh thông tin cư trú",
+                "condition": "Nhu cầu liên quan: Xác nhận và điều chỉnh thông tin cư trú",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P09",
+                "title": "Đăng ký biến động đất đai",
+                "condition": "Nhu cầu liên quan: Đăng ký biến động đất đai",
+                "kind": "procedure",
+                "children_count": 15,
+                "related": []
+              },
+              {
+                "id": "P10",
+                "title": "Cấp giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Cấp giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P11",
+                "title": "Đổi giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Đổi giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P12",
+                "title": "Chuyển nhượng quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Chuyển nhượng quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P13",
+                "title": "Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "condition": "Nhu cầu liên quan: Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P15",
+                "title": "Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "condition": "Nhu cầu liên quan: Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P16",
+                "title": "Hỗ trợ đào tạo nghề",
+                "condition": "Nhu cầu liên quan: Hỗ trợ đào tạo nghề",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P17",
+                "title": "Hỗ trợ người bị tai nạn lao động",
+                "condition": "Nhu cầu liên quan: Hỗ trợ người bị tai nạn lao động",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P19",
+                "title": "Tín dụng chính sách NHCSXH",
+                "condition": "Nhu cầu liên quan: Tín dụng chính sách NHCSXH",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P20",
+                "title": "Chế độ thương binh",
+                "condition": "Nhu cầu liên quan: Chế độ thương binh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P21",
+                "title": "Chế độ thờ cúng liệt sĩ",
+                "condition": "Nhu cầu liên quan: Chế độ thờ cúng liệt sĩ",
+                "kind": "procedure",
+                "children_count": 7,
+                "related": []
+              },
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P25",
+                "title": "Thay đổi nội dung đăng ký hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Thay đổi nội dung đăng ký hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 10,
+                "related": []
+              },
+              {
+                "id": "P26",
+                "title": "Chấm dứt hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Chấm dứt hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P27",
+                "title": "Khiếu nại - Phản ánh - Kiến nghị",
+                "condition": "Nhu cầu liên quan: Khiếu nại - Phản ánh - Kiến nghị",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "Hỏi thủ tục/điều kiện về giấy chứng nhận vệ sinh an toàn thực phẩm cho quán ăn (đã đăng ký hộ kinh doanh).",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3167,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 93,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3260
+      },
+      "response_id": "resp_09cd10c6e9d738bf016ad1622e3e1c87d0a1fa8fdd15a3f503",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P23"
+        ],
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "Người dân chuyển sang hỏi về đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm cho quán ăn (đã đăng ký hộ kinh doanh).",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 2.044321368004603
+    },
+    {
+      "call": 6,
+      "payload": {
+        "user_text": "Có, chuyển sang an toàn thực phẩm.",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "Người dân chuyển sang hỏi về đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm cho quán ăn (đã đăng ký hộ kinh doanh).",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P23",
+              "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+              "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+              "kind": "procedure",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P23.C01",
+                "title": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+                "condition": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C02",
+                "title": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+                "condition": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+                "kind": "case_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P23.C02#0",
+                    "text": "Miễn giấy này không miễn điều kiện ATTP, kiểm tra, nguồn gốc thực phẩm hay đăng ký kinh doanh khi thuộc diện bắt buộc.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  },
+                  {
+                    "id": "P23.C02#1",
+                    "text": "Không có hồ sơ xin giấy, thời hạn cấp hoặc phí cấp cho nhánh miễn.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P23.C03",
+                "title": "Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",
+                "condition": "Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",
+                "kind": "case_group",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "Hỏi thủ tục/điều kiện về giấy chứng nhận vệ sinh an toàn thực phẩm cho quán ăn (đã đăng ký hộ kinh doanh).",
+        "calls_remaining": 7
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2276,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 102,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2378
+      },
+      "response_id": "resp_03db830a765d4809016ad16230520c87d0a8f65b01b564ba46",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P23",
+          "P23.C01",
+          "P23.C02",
+          "P23.C03"
+        ],
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "Người dân hỏi về giấy chứng nhận vệ sinh an toàn thực phẩm cho quán ăn (đã đăng ký hộ kinh doanh).",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 2.2799177519991645
+    },
+    {
+      "call": 7,
+      "payload": {
+        "user_text": "Có, chuyển sang an toàn thực phẩm.",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "Người dân hỏi về giấy chứng nhận vệ sinh an toàn thực phẩm cho quán ăn (đã đăng ký hộ kinh doanh).",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P23",
+              "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+              "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+              "kind": "procedure",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P23.C01",
+                "title": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+                "condition": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C02",
+                "title": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+                "condition": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+                "kind": "case_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P23.C02#0",
+                    "text": "Miễn giấy này không miễn điều kiện ATTP, kiểm tra, nguồn gốc thực phẩm hay đăng ký kinh doanh khi thuộc diện bắt buộc.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  },
+                  {
+                    "id": "P23.C02#1",
+                    "text": "Không có hồ sơ xin giấy, thời hạn cấp hoặc phí cấp cho nhánh miễn.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P23.C03",
+                "title": "Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",
+                "condition": "Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",
+                "kind": "case_group",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P23.C01",
+              "title": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+              "condition": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+              "kind": "case_group",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P23.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 5,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P23.C01.N001",
+                "title": "Ăn uống/nhóm y tế — hồ sơ",
+                "condition": "Hoạt động thuộc nhóm y tế/dịch vụ ăn uống; không được miễn giấy",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C01.N002",
+                "title": "Ăn uống — thẩm định thực tế",
+                "condition": "Cơ sở cần thẩm định điều kiện ATTP",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C01.N003",
+                "title": "Công thương — hồ sơ",
+                "condition": "Sản xuất/kinh doanh thực phẩm thuộc ngành công thương",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C01.N004",
+                "title": "Nông lâm thủy sản — hồ sơ",
+                "condition": "Sản xuất/kinh doanh thuộc ngành nông lâm thủy sản",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P23.C02",
+              "title": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+              "condition": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+              "kind": "case_group",
+              "children_count": 1,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P23.C02#0",
+                  "text": "Miễn giấy này không miễn điều kiện ATTP, kiểm tra, nguồn gốc thực phẩm hay đăng ký kinh doanh khi thuộc diện bắt buộc.",
+                  "topics": [
+                    "dieu_kien"
+                  ]
+                },
+                {
+                  "id": "P23.C02#1",
+                  "text": "Không có hồ sơ xin giấy, thời hạn cấp hoặc phí cấp cho nhánh miễn.",
+                  "topics": [
+                    "ho_so",
+                    "chi_phi",
+                    "thoi_gian",
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P23.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 5,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P23.C02.N001",
+                "title": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+                "condition": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+                "kind": "situation_group",
+                "children_count": 12,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P23.C03",
+              "title": "Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",
+              "condition": "Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",
+              "kind": "case_group",
+              "children_count": 5,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P23.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 5,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P23.C03.N001",
+                "title": "Hết hạn hoặc thay điều kiện thực tế",
+                "condition": "Giấy hết/sắp hết hạn hoặc vị trí/quy trình/mặt hàng thay đổi",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C03.N002",
+                "title": "Công thương — cấp lại/thay đổi",
+                "condition": "Giấy thuộc ngành công thương",
+                "kind": "situation_group",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C03.N003",
+                "title": "Nông lâm thủy sản — cấp lại/thay đổi",
+                "condition": "Giấy thuộc ngành nông lâm thủy sản",
+                "kind": "situation_group",
+                "children_count": 3,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C03.N004",
+                "title": "Ăn uống/y tế — cấp lại/thay đổi",
+                "condition": "Giấy thuộc nhóm ăn uống/y tế",
+                "kind": "situation_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C03.N005",
+                "title": "Bản sao sổ gốc nông lâm thủy sản",
+                "condition": "Giấy nông lâm thủy sản mất/hỏng và còn hạn; xin bản sao sổ gốc",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "Hỏi thủ tục/điều kiện về giấy chứng nhận vệ sinh an toàn thực phẩm cho quán ăn (đã đăng ký hộ kinh doanh).",
+        "calls_remaining": 6
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3534,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 230,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3764
+      },
+      "response_id": "resp_09adfa70fd7eb907016ad162328fb887d0aba061230c39f637",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [],
+          "path": [
+            "P23"
+          ],
+          "summary": "Thủ tục: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm cho quán ăn (HKD). Đang cần xác định trường hợp: xin cấp mới/thuộc diện miễn/đã có giấy cần cấp lại.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị đang cần xử lý trường hợp nào về giấy chứng nhận an toàn thực phẩm?",
+        "information": {
+          "title": "Chọn trường hợp để tôi hướng dẫn đúng nhánh",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Xin cấp mới (chưa có giấy chứng nhận)",
+              "node_ids": [
+                "P23.C01"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Có dấu hiệu thuộc diện được miễn cấp giấy chứng nhận",
+              "node_ids": [
+                "P23.C02"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Đã có giấy; sắp hết hạn / mất, hỏng / thay đổi hoạt động",
+              "node_ids": [
+                "P23.C03"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 3.688001771006384
+    },
+    {
+      "call": 8,
+      "payload": {
+        "user_text": "A, tôi chưa có giấy chứng nhận. Quán ăn cố định phục vụ khoảng 50 suất mỗi ngày, muốn biết cần hồ sơ gì.",
+        "state": {
+          "facts": [],
+          "path": [
+            "P23"
+          ],
+          "summary": "Thủ tục: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm cho quán ăn (HKD). Đang cần xác định trường hợp: xin cấp mới/thuộc diện miễn/đã có giấy cần cấp lại.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị đang cần xử lý trường hợp nào về giấy chứng nhận an toàn thực phẩm?",
+          "information": {
+            "title": "Chọn trường hợp để tôi hướng dẫn đúng nhánh",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Xin cấp mới (chưa có giấy chứng nhận)",
+                "node_ids": [
+                  "P23.C01"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Có dấu hiệu thuộc diện được miễn cấp giấy chứng nhận",
+                "node_ids": [
+                  "P23.C02"
+                ]
+              },
+              {
+                "id": "C",
+                "label": "Đã có giấy; sắp hết hạn / mất, hỏng / thay đổi hoạt động",
+                "node_ids": [
+                  "P23.C03"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P23",
+              "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+              "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+              "kind": "procedure",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P23.C01",
+                "title": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+                "condition": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C02",
+                "title": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+                "condition": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+                "kind": "case_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P23.C02#0",
+                    "text": "Miễn giấy này không miễn điều kiện ATTP, kiểm tra, nguồn gốc thực phẩm hay đăng ký kinh doanh khi thuộc diện bắt buộc.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  },
+                  {
+                    "id": "P23.C02#1",
+                    "text": "Không có hồ sơ xin giấy, thời hạn cấp hoặc phí cấp cho nhánh miễn.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P23.C03",
+                "title": "Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",
+                "condition": "Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",
+                "kind": "case_group",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P23.C01",
+              "title": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+              "condition": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+              "kind": "case_group",
+              "children_count": 4,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P23.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 5,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P23.C01.N001",
+                "title": "Ăn uống/nhóm y tế — hồ sơ",
+                "condition": "Hoạt động thuộc nhóm y tế/dịch vụ ăn uống; không được miễn giấy",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C01.N002",
+                "title": "Ăn uống — thẩm định thực tế",
+                "condition": "Cơ sở cần thẩm định điều kiện ATTP",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C01.N003",
+                "title": "Công thương — hồ sơ",
+                "condition": "Sản xuất/kinh doanh thực phẩm thuộc ngành công thương",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C01.N004",
+                "title": "Nông lâm thủy sản — hồ sơ",
+                "condition": "Sản xuất/kinh doanh thuộc ngành nông lâm thủy sản",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P23.C02",
+              "title": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+              "condition": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+              "kind": "case_group",
+              "children_count": 1,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P23.C02#0",
+                  "text": "Miễn giấy này không miễn điều kiện ATTP, kiểm tra, nguồn gốc thực phẩm hay đăng ký kinh doanh khi thuộc diện bắt buộc.",
+                  "topics": [
+                    "dieu_kien"
+                  ]
+                },
+                {
+                  "id": "P23.C02#1",
+                  "text": "Không có hồ sơ xin giấy, thời hạn cấp hoặc phí cấp cho nhánh miễn.",
+                  "topics": [
+                    "ho_so",
+                    "chi_phi",
+                    "thoi_gian",
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P23.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 5,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P23.C02.N001",
+                "title": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+                "condition": "Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn",
+                "kind": "situation_group",
+                "children_count": 12,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P23.C03",
+              "title": "Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",
+              "condition": "Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",
+              "kind": "case_group",
+              "children_count": 5,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P23.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 5,
+                    "related": []
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P23.C03.N001",
+                "title": "Hết hạn hoặc thay điều kiện thực tế",
+                "condition": "Giấy hết/sắp hết hạn hoặc vị trí/quy trình/mặt hàng thay đổi",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C03.N002",
+                "title": "Công thương — cấp lại/thay đổi",
+                "condition": "Giấy thuộc ngành công thương",
+                "kind": "situation_group",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C03.N003",
+                "title": "Nông lâm thủy sản — cấp lại/thay đổi",
+                "condition": "Giấy thuộc ngành nông lâm thủy sản",
+                "kind": "situation_group",
+                "children_count": 3,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C03.N004",
+                "title": "Ăn uống/y tế — cấp lại/thay đổi",
+                "condition": "Giấy thuộc nhóm ăn uống/y tế",
+                "kind": "situation_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P23.C03.N005",
+                "title": "Bản sao sổ gốc nông lâm thủy sản",
+                "condition": "Giấy nông lâm thủy sản mất/hỏng và còn hạn; xin bản sao sổ gốc",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3684,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 173,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3857
+      },
+      "response_id": "resp_00370d664ac0a903016ad16263253887d0be91c13cb2a73dbe",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P23.C01.N001",
+          "P23.C01.N002"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "truong_hop_xu_ly",
+              "value": "Xin cấp mới (chưa có giấy chứng nhận)",
+              "evidence": "A, tôi chưa có giấy chứng nhận.",
+              "node_id": "P23.C01"
+            }
+          ],
+          "path": [
+            "P23",
+            "P23.C01"
+          ],
+          "summary": "Thủ tục: Giấy chứng nhận ATTP cho quán ăn. Người dân xin cấp mới (chưa có giấy). Cần xác định nhóm quản lý/hồ sơ áp dụng và yêu cầu thẩm định thực tế.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 3.5863581510056974
+    },
+    {
+      "call": 9,
+      "payload": {
+        "user_text": "A, tôi chưa có giấy chứng nhận. Quán ăn cố định phục vụ khoảng 50 suất mỗi ngày, muốn biết cần hồ sơ gì.",
+        "state": {
+          "facts": [
+            {
+              "key": "truong_hop_xu_ly",
+              "value": "Xin cấp mới (chưa có giấy chứng nhận)",
+              "evidence": "A, tôi chưa có giấy chứng nhận.",
+              "node_id": "P23.C01"
+            }
+          ],
+          "path": [
+            "P23",
+            "P23.C01"
+          ],
+          "summary": "Thủ tục: Giấy chứng nhận ATTP cho quán ăn. Người dân xin cấp mới (chưa có giấy). Cần xác định nhóm quản lý/hồ sơ áp dụng và yêu cầu thẩm định thực tế.",
+          "pending_switch": ""
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị đang cần xử lý trường hợp nào về giấy chứng nhận an toàn thực phẩm?",
+          "information": {
+            "title": "Chọn trường hợp để tôi hướng dẫn đúng nhánh",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Xin cấp mới (chưa có giấy chứng nhận)",
+                "node_ids": [
+                  "P23.C01"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Có dấu hiệu thuộc diện được miễn cấp giấy chứng nhận",
+                "node_ids": [
+                  "P23.C02"
+                ]
+              },
+              {
+                "id": "C",
+                "label": "Đã có giấy; sắp hết hạn / mất, hỏng / thay đổi hoạt động",
+                "node_ids": [
+                  "P23.C03"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P23.C01.N001",
+              "title": "Ăn uống/nhóm y tế — hồ sơ",
+              "condition": "Hoạt động thuộc nhóm y tế/dịch vụ ăn uống; không được miễn giấy",
+              "kind": "situation_group",
+              "children_count": 1,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P23.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 5,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P23.C01",
+                "title": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+                "condition": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P23.C01.N001.N001",
+                "title": "Hồ sơ · Nơi giải quyết · Điều kiện",
+                "condition": "Hoạt động thuộc nhóm y tế/dịch vụ ăn uống; không được miễn giấy",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P23.C01.N001.N001#0",
+                    "text": "Đối với ăn uống/sản xuất thuộc Bộ Y tế: một bộ gồm đơn Mẫu 1 Phụ lục I Nghị định 155/2018; thông tin đăng ký kinh doanh đúng ngành (bản sao có xác nhận cơ sở khi chưa khai thác được dữ liệu điện tử); bản thuyết minh cơ sở vật chất, trang thiết bị/dụng cụ bảo đảm vệ sinh; giấy xác nhận đủ sức khỏe của chủ và người trực tiếp sản xuất/kinh doanh do cơ sở khám bệnh có thẩm quyền cấp; danh sách người đã được tập huấn kiến thức ATTP do chủ xác nhận. Không bắt từng nhân viên xin một giấy xác nhận kiến thức riêng do cơ quan quản lý cấp.",
+                    "topics": [
+                      "ho_so",
+                      "noi_nop",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P23.C01.N002",
+              "title": "Ăn uống — thẩm định thực tế",
+              "condition": "Cơ sở cần thẩm định điều kiện ATTP",
+              "kind": "situation_group",
+              "children_count": 1,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P23.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 5,
+                    "related": []
+                  }
+                ]
+              },
+              {
+                "id": "P23.C01",
+                "title": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+                "condition": "Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": [],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P23.C01.N002.N001",
+                "title": "Hồ sơ · Thời gian · Kết quả",
+                "condition": "Cơ sở cần thẩm định điều kiện ATTP",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P23.C01.N002.N001#0",
+                    "text": "Cơ sở chuẩn bị để thẩm định: bố trí tránh nhiễm chéo sống-chín, nước đạt yêu cầu, khu chế biến/bảo quản phù hợp, dụng cụ sạch và phân biệt, kiểm soát côn trùng/chất thải, nguyên liệu có nguồn gốc, người trực tiếp đáp ứng sức khỏe và vệ sinh, kiểm thực/lưu mẫu đối với loại hình thuộc yêu cầu. Thẩm định đạt thì cấp giấy; chưa đạt nhưng có thể khắc phục thì biên bản nêu nội dung và hạn khắc phục tối đa 30 ngày, gửi báo cáo để thẩm định lại; không đạt thì thông báo từ chối. Không tiếp tục hoạt động chỉ vì đã nộp hồ sơ.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3064,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 634,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3698
+      },
+      "response_id": "resp_0e53ff3f633f7a86016ad16266bea487d09cf781e481e99aea",
+      "decision": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "truong_hop_xu_ly",
+              "value": "Xin cấp mới (chưa có giấy chứng nhận)",
+              "evidence": "A, tôi chưa có giấy chứng nhận.",
+              "node_id": "P23.C01"
+            }
+          ],
+          "path": [
+            "P23",
+            "P23.C01"
+          ],
+          "summary": "Thủ tục: Giấy chứng nhận ATTP cho quán ăn. Trường hợp: cấp mới (chưa có giấy). Đã cung cấp thành phần hồ sơ và các yêu cầu chuẩn bị để thẩm định.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Hồ sơ cấp mới Giấy chứng nhận ATTP (cơ sở ăn uống/thuộc nhóm Bộ Y tế) và yêu cầu thẩm định",
+          "sections": [
+            {
+              "title": "1) Hồ sơ (01 bộ)",
+              "items": [
+                "Đơn đề nghị cấp Giấy chứng nhận (Mẫu 1 – Phụ lục I, Nghị định 155/2018).",
+                "Thông tin đăng ký kinh doanh đúng ngành: bản sao có xác nhận của cơ sở (trường hợp chưa khai thác được dữ liệu điện tử).",
+                "Bản thuyết minh về cơ sở vật chất, trang thiết bị/dụng cụ bảo đảm điều kiện vệ sinh an toàn thực phẩm.",
+                "Giấy xác nhận đủ sức khỏe của chủ cơ sở và người trực tiếp sản xuất/kinh doanh, do cơ sở khám bệnh, chữa bệnh có thẩm quyền cấp.",
+                "Danh sách người đã được tập huấn kiến thức ATTP do chủ cơ sở xác nhận (không bắt từng nhân viên phải xin riêng một “giấy xác nhận kiến thức” do cơ quan quản lý cấp)."
+              ]
+            },
+            {
+              "title": "2) Chuẩn bị để thẩm định điều kiện ATTP tại cơ sở",
+              "items": [
+                "Bố trí tránh nhiễm chéo sống – chín; khu chế biến/bảo quản phù hợp.",
+                "Nước đạt yêu cầu; dụng cụ sạch và phân biệt; kiểm soát côn trùng/chất thải.",
+                "Nguyên liệu có nguồn gốc; người trực tiếp đáp ứng yêu cầu về sức khỏe và vệ sinh.",
+                "Thực hiện kiểm thực/lưu mẫu đối với loại hình thuộc yêu cầu."
+              ]
+            },
+            {
+              "title": "3) Kết quả thẩm định",
+              "items": [
+                "Thẩm định đạt: được cấp giấy chứng nhận.",
+                "Chưa đạt nhưng có thể khắc phục: lập biên bản nêu nội dung và thời hạn khắc phục (tối đa 30 ngày); sau đó cơ sở gửi báo cáo để thẩm định lại.",
+                "Không đạt: cơ quan có thẩm quyền thông báo từ chối.",
+                "Lưu ý: không tiếp tục hoạt động chỉ vì đã nộp hồ sơ."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P23.C01.N001.N001#0",
+          "P23.C01.N002.N001#0"
+        ]
+      },
+      "seconds": 8.051788582000881
+    }
+  ],
+  "snapshot": {
+    "meta_hash": "d7d1f34f4ba62baa3559dbc377410098b22c446f4f24fa144e1ca2f112edb812",
+    "session_id": "D10",
+    "nodes": [
+      "P23.C01.N001",
+      "P23.C01.N002"
+    ],
+    "state": {
+      "facts": [
+        {
+          "key": "truong_hop_xu_ly",
+          "value": "Xin cấp mới (chưa có giấy chứng nhận)",
+          "evidence": "A, tôi chưa có giấy chứng nhận.",
+          "node_id": "P23.C01"
+        }
+      ],
+      "path": [
+        "P23",
+        "P23.C01"
+      ],
+      "summary": "Thủ tục: Giấy chứng nhận ATTP cho quán ăn. Trường hợp: cấp mới (chưa có giấy). Đã cung cấp thành phần hồ sơ và các yêu cầu chuẩn bị để thẩm định.",
+      "pending_switch": ""
+    },
+    "last_response": {
+      "mode": "answer",
+      "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+      "information": {
+        "title": "Hồ sơ cấp mới Giấy chứng nhận ATTP (cơ sở ăn uống/thuộc nhóm Bộ Y tế) và yêu cầu thẩm định",
+        "sections": [
+          {
+            "title": "1) Hồ sơ (01 bộ)",
+            "items": [
+              "Đơn đề nghị cấp Giấy chứng nhận (Mẫu 1 – Phụ lục I, Nghị định 155/2018).",
+              "Thông tin đăng ký kinh doanh đúng ngành: bản sao có xác nhận của cơ sở (trường hợp chưa khai thác được dữ liệu điện tử).",
+              "Bản thuyết minh về cơ sở vật chất, trang thiết bị/dụng cụ bảo đảm điều kiện vệ sinh an toàn thực phẩm.",
+              "Giấy xác nhận đủ sức khỏe của chủ cơ sở và người trực tiếp sản xuất/kinh doanh, do cơ sở khám bệnh, chữa bệnh có thẩm quyền cấp.",
+              "Danh sách người đã được tập huấn kiến thức ATTP do chủ cơ sở xác nhận (không bắt từng nhân viên phải xin riêng một “giấy xác nhận kiến thức” do cơ quan quản lý cấp)."
+            ]
+          },
+          {
+            "title": "2) Chuẩn bị để thẩm định điều kiện ATTP tại cơ sở",
+            "items": [
+              "Bố trí tránh nhiễm chéo sống – chín; khu chế biến/bảo quản phù hợp.",
+              "Nước đạt yêu cầu; dụng cụ sạch và phân biệt; kiểm soát côn trùng/chất thải.",
+              "Nguyên liệu có nguồn gốc; người trực tiếp đáp ứng yêu cầu về sức khỏe và vệ sinh.",
+              "Thực hiện kiểm thực/lưu mẫu đối với loại hình thuộc yêu cầu."
+            ]
+          },
+          {
+            "title": "3) Kết quả thẩm định",
+            "items": [
+              "Thẩm định đạt: được cấp giấy chứng nhận.",
+              "Chưa đạt nhưng có thể khắc phục: lập biên bản nêu nội dung và thời hạn khắc phục (tối đa 30 ngày); sau đó cơ sở gửi báo cáo để thẩm định lại.",
+              "Không đạt: cơ quan có thẩm quyền thông báo từ chối.",
+              "Lưu ý: không tiếp tục hoạt động chỉ vì đã nộp hồ sơ."
+            ]
+          }
+        ],
+        "options": []
+      }
+    },
+    "revision": 4,
+    "last_spoken": ""
+  },
+  "runtime_sha256": "1d8bcbd8aff8b770f3255289bf5f1d9a10b27d2aa161d7493f031c0a9ad7ddf6"
+}

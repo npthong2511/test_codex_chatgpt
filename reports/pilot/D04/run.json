@@ -1,0 +1,985 @@
+{
+  "case": "D04",
+  "turns": [
+    {
+      "user": "Tôi bị mất giấy phép xây dựng, giờ xin lại cần giấy gì và tốn bao nhiêu?",
+      "response": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Cấp lại giấy phép xây dựng do bị mất",
+              "evidence": "\"Tôi bị mất giấy phép xây dựng, giờ xin lại\"",
+              "node_id": "P14.C03.N003"
+            }
+          ],
+          "path": [
+            "P14",
+            "P14.C03",
+            "P14.C03.N003",
+            "P14.C03.N003.N002",
+            "P14.C03.N005"
+          ],
+          "summary": "Cấp lại giấy phép xây dựng do bị mất: hồ sơ cần nộp và thông tin lệ phí; lệ phí ngoài nộp trực tuyến hiện chưa có dữ liệu xác nhận.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi đã tổng hợp giấy tờ cần nộp và thông tin lệ phí hiện có trên màn hình. Nếu bạn cho biết nộp trực tuyến hay nộp trực tiếp/bưu chính, tôi sẽ chốt phần lệ phí theo đúng trường hợp.",
+        "information": {
+          "title": "Cấp lại giấy phép xây dựng (trường hợp bị mất)",
+          "sections": [
+            {
+              "title": "1) Điều kiện/ghi chú",
+              "items": [
+                "Áp dụng khi giấy phép bị mất (không yêu cầu đổi thiết kế).",
+                "Cấp lại là bản sao của giấy phép cũ, không thay đổi thiết kế và không khởi tạo lại thời hạn của giấy phép."
+              ]
+            },
+            {
+              "title": "2) Hồ sơ cần nộp",
+              "items": [
+                "Đơn theo Mẫu số 02, trong đó ghi rõ lý do đề nghị cấp lại (mất/rách/nát).",
+                "Trường hợp bị mất: không buộc nộp lại giấy phép đã mất."
+              ]
+            },
+            {
+              "title": "3) Thời gian giải quyết",
+              "items": [
+                "05 ngày làm việc."
+              ]
+            },
+            {
+              "title": "4) Lệ phí/chi phí",
+              "items": [
+                "Nộp trực tuyến: hồ sơ trực tuyến áp mức lệ phí 0 đồng khi thuộc danh mục mức 0 đồng.",
+                "Nộp trực tiếp hoặc qua bưu chính (địa bàn Bình Dương cũ): hiện chưa có dữ liệu xác nhận mức lệ phí cấp lại trong nguồn; chưa thể kết luận số tiền cụ thể."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P14.C03.N003#0",
+          "P14.C03.N003#1",
+          "P14.C03.N003.N002#0",
+          "P14.C03.N003.N003#0",
+          "P14.C03.N005.N001#0"
+        ],
+        "revision": 1,
+        "session_id": "D04"
+      },
+      "seconds": 17.890446436002094,
+      "event_start": 0,
+      "event_count": 4
+    }
+  ],
+  "events": [
+    {
+      "call": 1,
+      "payload": {
+        "user_text": "Tôi bị mất giấy phép xây dựng, giờ xin lại cần giấy gì và tốn bao nhiêu?",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "ROOT",
+              "title": "Quy trình hành chính — cây tri thức 3.0",
+              "condition": "Yêu cầu thuộc một hoặc nhiều lĩnh vực trong bộ dữ liệu",
+              "kind": "root",
+              "children_count": 27,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P02",
+                "title": "Đăng ký khai tử",
+                "condition": "Nhu cầu liên quan: Đăng ký khai tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P04",
+                "title": "Đăng ký thường trú",
+                "condition": "Nhu cầu liên quan: Đăng ký thường trú",
+                "kind": "procedure",
+                "children_count": 9,
+                "related": []
+              },
+              {
+                "id": "P05",
+                "title": "Xác nhận tình trạng hôn nhân",
+                "condition": "Nhu cầu liên quan: Xác nhận tình trạng hôn nhân",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P06",
+                "title": "Đăng ký tạm trú",
+                "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P07",
+                "title": "Xác nhận và điều chỉnh thông tin cư trú",
+                "condition": "Nhu cầu liên quan: Xác nhận và điều chỉnh thông tin cư trú",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P09",
+                "title": "Đăng ký biến động đất đai",
+                "condition": "Nhu cầu liên quan: Đăng ký biến động đất đai",
+                "kind": "procedure",
+                "children_count": 15,
+                "related": []
+              },
+              {
+                "id": "P10",
+                "title": "Cấp giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Cấp giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P11",
+                "title": "Đổi giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Đổi giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P12",
+                "title": "Chuyển nhượng quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Chuyển nhượng quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P13",
+                "title": "Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "condition": "Nhu cầu liên quan: Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P15",
+                "title": "Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "condition": "Nhu cầu liên quan: Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P16",
+                "title": "Hỗ trợ đào tạo nghề",
+                "condition": "Nhu cầu liên quan: Hỗ trợ đào tạo nghề",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P17",
+                "title": "Hỗ trợ người bị tai nạn lao động",
+                "condition": "Nhu cầu liên quan: Hỗ trợ người bị tai nạn lao động",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P19",
+                "title": "Tín dụng chính sách NHCSXH",
+                "condition": "Nhu cầu liên quan: Tín dụng chính sách NHCSXH",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P20",
+                "title": "Chế độ thương binh",
+                "condition": "Nhu cầu liên quan: Chế độ thương binh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P21",
+                "title": "Chế độ thờ cúng liệt sĩ",
+                "condition": "Nhu cầu liên quan: Chế độ thờ cúng liệt sĩ",
+                "kind": "procedure",
+                "children_count": 7,
+                "related": []
+              },
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P25",
+                "title": "Thay đổi nội dung đăng ký hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Thay đổi nội dung đăng ký hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 10,
+                "related": []
+              },
+              {
+                "id": "P26",
+                "title": "Chấm dứt hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Chấm dứt hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P27",
+                "title": "Khiếu nại - Phản ánh - Kiến nghị",
+                "condition": "Nhu cầu liên quan: Khiếu nại - Phản ánh - Kiến nghị",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2813,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 86,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2899
+      },
+      "response_id": "resp_057de4a5c7428a6a016ad1611bfbb887d0ac5176df133409f0",
+      "decision": {
+        "action": "load",
+        "mode": "data_gap",
+        "node_ids": [
+          "P14"
+        ],
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "Người dân hỏi cấp lại giấy phép xây dựng bị mất: cần hồ sơ gì và tốn bao nhiêu.",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 2.6863721910049208
+    },
+    {
+      "call": 2,
+      "payload": {
+        "user_text": "Tôi bị mất giấy phép xây dựng, giờ xin lại cần giấy gì và tốn bao nhiêu?",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "Người dân hỏi cấp lại giấy phép xây dựng bị mất: cần hồ sơ gì và tốn bao nhiêu.",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P14",
+              "title": "Cấp phép xây dựng theo thẩm quyền",
+              "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+              "kind": "procedure",
+              "children_count": 5,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P14.C01",
+                "title": "Xây mới và thuộc diện phải xin phép sau kiểm tra miễn",
+                "condition": "Xây mới và thuộc diện phải xin phép sau kiểm tra miễn",
+                "kind": "case_group",
+                "children_count": 6,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P14.C02",
+                "title": "Sửa chữa, cải tạo hoặc di dời công trình",
+                "condition": "Nhu cầu sửa chữa/cải tạo/di dời công trình; xét miễn hoặc xin phép tương ứng",
+                "kind": "case_group",
+                "children_count": 2,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P14.C03",
+                "title": "Đã có giấy phép; cần điều chỉnh/gia hạn/cấp lại",
+                "condition": "Đã có giấy phép; cần điều chỉnh/gia hạn/cấp lại",
+                "kind": "case_group",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P14.C04",
+                "title": "Có dấu hiệu thuộc diện miễn giấy phép",
+                "condition": "Có dấu hiệu thuộc diện miễn giấy phép",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P14.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Cấp phép xây dựng theo thẩm quyền; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 4,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 1853,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 254,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2107
+      },
+      "response_id": "resp_078b47fd18b29025016ad1611ea77487d0bd0aa305a67238a7",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P14.C03"
+        ],
+        "state": {
+          "facts": [],
+          "path": [
+            "P14",
+            "P14.C03"
+          ],
+          "summary": "Người dân hỏi cấp lại giấy phép xây dựng do bị mất: cần hồ sơ gì và tốn bao nhiêu; đang vào nhánh đã có giấy phép và cần cấp lại.",
+          "pending_switch": ""
+        },
+        "speech_text": "Anh/chị muốn xin cấp lại giấy phép xây dựng trong trường hợp nào dưới đây?",
+        "information": {
+          "title": "Chọn đúng trường hợp để tra hồ sơ & lệ phí cấp lại",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Bị mất/ thất lạc giấy phép xây dựng (cấp lại do mất)",
+              "node_ids": [
+                "P14.C03"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Giấy phép bị rách/nát/hư hỏng, cần cấp lại",
+              "node_ids": [
+                "P14.C03"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Cần điều chỉnh nội dung giấy phép",
+              "node_ids": [
+                "P14.C03"
+              ]
+            },
+            {
+              "id": "D",
+              "label": "Cần gia hạn giấy phép",
+              "node_ids": [
+                "P14.C03"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 4.520848110005318
+    },
+    {
+      "call": 3,
+      "payload": {
+        "user_text": "Tôi bị mất giấy phép xây dựng, giờ xin lại cần giấy gì và tốn bao nhiêu?",
+        "state": {
+          "facts": [],
+          "path": [
+            "P14",
+            "P14.C03"
+          ],
+          "summary": "Người dân hỏi cấp lại giấy phép xây dựng do bị mất: cần hồ sơ gì và tốn bao nhiêu; đang vào nhánh đã có giấy phép và cần cấp lại.",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P14.C03",
+              "title": "Đã có giấy phép; cần điều chỉnh/gia hạn/cấp lại",
+              "condition": "Đã có giấy phép; cần điều chỉnh/gia hạn/cấp lại",
+              "kind": "case_group",
+              "children_count": 5,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P14.C03.N001",
+                "title": "Điều chỉnh giấy phép",
+                "condition": "Có thay đổi nội dung thuộc diện phải điều chỉnh",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P14.C03.N002",
+                "title": "Gia hạn giấy phép",
+                "condition": "Chưa khởi công; giấy phép hết hiệu lực khởi công",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P14.C03.N003",
+                "title": "Cấp lại giấy phép",
+                "condition": "Giấy phép bị mất, rách hoặc nát; không yêu cầu đổi thiết kế",
+                "kind": "situation_group",
+                "children_count": 3,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P14.C03.N003#0",
+                    "text": "Cấp lại mất/rách/nát: Mẫu 02 ghi rõ lý do",
+                    "topics": [
+                      "ho_so"
+                    ]
+                  },
+                  {
+                    "id": "P14.C03.N003#1",
+                    "text": "Giải quyết 5 ngày làm việc; bản cấp lại là bản sao giấy phép cũ, không đổi thiết kế hay khởi tạo lại thời hạn.",
+                    "topics": [
+                      "ho_so",
+                      "thoi_gian",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P14.C03.N004",
+                "title": "Kế thừa giấy phép",
+                "condition": "Có chuyển giao dự án/quyền hoặc tổ chức lại; giấy phép còn giá trị",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P14.C03.N005",
+                "title": "Lệ phí cấp lại ngoài trực tuyến chưa bổ sung",
+                "condition": "Cấp lại giấy phép; nộp trực tiếp hoặc bưu chính tại địa bàn Bình Dương cũ",
+                "kind": "situation_group",
+                "children_count": 1,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 7
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2024,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 127,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2151
+      },
+      "response_id": "resp_076979aaed6b2a17016ad16123139887d080f21ee30fb491f7",
+      "decision": {
+        "action": "load",
+        "mode": "data_gap",
+        "node_ids": [
+          "P14.C03.N003",
+          "P14.C03.N005"
+        ],
+        "state": {
+          "facts": [],
+          "path": [
+            "P14",
+            "P14.C03"
+          ],
+          "summary": "Người dân hỏi cấp lại giấy phép xây dựng do bị mất: cần hồ sơ gì và tốn bao nhiêu; đang cần xem nhánh cấp lại và lệ phí (nộp trực tiếp/bưu chính).",
+          "pending_switch": ""
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 2.6490757420033333
+    },
+    {
+      "call": 4,
+      "payload": {
+        "user_text": "Tôi bị mất giấy phép xây dựng, giờ xin lại cần giấy gì và tốn bao nhiêu?",
+        "state": {
+          "facts": [],
+          "path": [
+            "P14",
+            "P14.C03"
+          ],
+          "summary": "Người dân hỏi cấp lại giấy phép xây dựng do bị mất: cần hồ sơ gì và tốn bao nhiêu; đang cần xem nhánh cấp lại và lệ phí (nộp trực tiếp/bưu chính).",
+          "pending_switch": ""
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P14.C03.N003",
+              "title": "Cấp lại giấy phép",
+              "condition": "Giấy phép bị mất, rách hoặc nát; không yêu cầu đổi thiết kế",
+              "kind": "situation_group",
+              "children_count": 3,
+              "related": [],
+              "blocks": [
+                {
+                  "id": "P14.C03.N003#0",
+                  "text": "Cấp lại mất/rách/nát: Mẫu 02 ghi rõ lý do",
+                  "topics": [
+                    "ho_so"
+                  ]
+                },
+                {
+                  "id": "P14.C03.N003#1",
+                  "text": "Giải quyết 5 ngày làm việc; bản cấp lại là bản sao giấy phép cũ, không đổi thiết kế hay khởi tạo lại thời hạn.",
+                  "topics": [
+                    "ho_so",
+                    "thoi_gian",
+                    "dieu_kien"
+                  ]
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P14.C03",
+                "title": "Đã có giấy phép; cần điều chỉnh/gia hạn/cấp lại",
+                "condition": "Đã có giấy phép; cần điều chỉnh/gia hạn/cấp lại",
+                "kind": "case_group",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P14.C03.N003.N001",
+                "title": "Giấy cũ còn giữ khi rách/nát",
+                "condition": "Giấy bị rách/nát; vẫn còn giấy đã cấp",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P14.C03.N003.N001#0",
+                    "text": "kèm bản chính hoặc bản sao chứng thực giấy đã cấp nếu rách/nát",
+                    "topics": [
+                      "ho_so",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P14.C03.N003.N002",
+                "title": "Giấy đã mất",
+                "condition": "Mất giấy phép; không thể nộp giấy cũ",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P14.C03.N003.N002#0",
+                    "text": "mất không buộc nộp giấy đã mất.",
+                    "topics": [
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P14.C03.N003.N003",
+                "title": "Lệ phí trực tuyến",
+                "condition": "Nộp trực tuyến và thuộc danh mục mức 0 đồng",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P14.C03.N003.N003#0",
+                    "text": "Hồ sơ trực tuyến áp mức lệ phí 0 đồng khi thuộc danh mục.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          },
+          {
+            "node": {
+              "id": "P14.C03.N005",
+              "title": "Lệ phí cấp lại ngoài trực tuyến chưa bổ sung",
+              "condition": "Cấp lại giấy phép; nộp trực tiếp hoặc bưu chính tại địa bàn Bình Dương cũ",
+              "kind": "situation_group",
+              "children_count": 1,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              },
+              {
+                "id": "P14.C03",
+                "title": "Đã có giấy phép; cần điều chỉnh/gia hạn/cấp lại",
+                "condition": "Đã có giấy phép; cần điều chỉnh/gia hạn/cấp lại",
+                "kind": "case_group",
+                "children_count": 5,
+                "related": [],
+                "blocks": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P14.C03.N005.N001",
+                "title": "Hồ sơ · Mức tiền / chi phí · Thời gian",
+                "condition": "Cấp lại giấy phép; nộp trực tiếp hoặc bưu chính tại địa bàn Bình Dương cũ",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "blocks": [
+                  {
+                    "id": "P14.C03.N005.N001#0",
+                    "text": "BỔ SUNG SAU — Lệ phí cấp lại giấy phép xây dựng khi nộp trực tiếp hoặc bưu chính tại địa bàn Bình Dương trước sắp xếp. Không suy mức 10.000 đồng của điều chỉnh/gia hạn, không tự ghi 0 đồng. Hồ sơ, thẩm quyền, thời hạn và kết quả cấp lại vẫn tư vấn theo nhánh này; chỉ khoản lệ phí ngoài trực tuyến chờ chủ bộ dữ liệu bổ sung.",
+                    "topics": [
+                      "ho_so",
+                      "chi_phi",
+                      "thoi_gian",
+                      "noi_nop",
+                      "ket_qua",
+                      "dieu_kien"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "confirmed_new_request": "",
+        "calls_remaining": 6
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 2504,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 524,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3028
+      },
+      "response_id": "resp_09cd534d280d5673016ad16125c74087d08adc91572e183ffe",
+      "decision": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Cấp lại giấy phép xây dựng do bị mất",
+              "evidence": "\"Tôi bị mất giấy phép xây dựng, giờ xin lại\"",
+              "node_id": "P14.C03.N003"
+            }
+          ],
+          "path": [
+            "P14",
+            "P14.C03",
+            "P14.C03.N003",
+            "P14.C03.N003.N002",
+            "P14.C03.N005"
+          ],
+          "summary": "Cấp lại giấy phép xây dựng do bị mất: hồ sơ cần nộp và thông tin lệ phí; lệ phí ngoài nộp trực tuyến hiện chưa có dữ liệu xác nhận.",
+          "pending_switch": ""
+        },
+        "speech_text": "Tôi đã tổng hợp giấy tờ cần nộp và thông tin lệ phí hiện có trên màn hình. Nếu bạn cho biết nộp trực tuyến hay nộp trực tiếp/bưu chính, tôi sẽ chốt phần lệ phí theo đúng trường hợp.",
+        "information": {
+          "title": "Cấp lại giấy phép xây dựng (trường hợp bị mất)",
+          "sections": [
+            {
+              "title": "1) Điều kiện/ghi chú",
+              "items": [
+                "Áp dụng khi giấy phép bị mất (không yêu cầu đổi thiết kế).",
+                "Cấp lại là bản sao của giấy phép cũ, không thay đổi thiết kế và không khởi tạo lại thời hạn của giấy phép."
+              ]
+            },
+            {
+              "title": "2) Hồ sơ cần nộp",
+              "items": [
+                "Đơn theo Mẫu số 02, trong đó ghi rõ lý do đề nghị cấp lại (mất/rách/nát).",
+                "Trường hợp bị mất: không buộc nộp lại giấy phép đã mất."
+              ]
+            },
+            {
+              "title": "3) Thời gian giải quyết",
+              "items": [
+                "05 ngày làm việc."
+              ]
+            },
+            {
+              "title": "4) Lệ phí/chi phí",
+              "items": [
+                "Nộp trực tuyến: hồ sơ trực tuyến áp mức lệ phí 0 đồng khi thuộc danh mục mức 0 đồng.",
+                "Nộp trực tiếp hoặc qua bưu chính (địa bàn Bình Dương cũ): hiện chưa có dữ liệu xác nhận mức lệ phí cấp lại trong nguồn; chưa thể kết luận số tiền cụ thể."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P14.C03.N003#0",
+          "P14.C03.N003#1",
+          "P14.C03.N003.N002#0",
+          "P14.C03.N003.N003#0",
+          "P14.C03.N005.N001#0"
+        ]
+      },
+      "seconds": 8.033612549996178
+    }
+  ],
+  "snapshot": {
+    "meta_hash": "d7d1f34f4ba62baa3559dbc377410098b22c446f4f24fa144e1ca2f112edb812",
+    "session_id": "D04",
+    "nodes": [
+      "P14.C03.N003",
+      "P14.C03.N005"
+    ],
+    "state": {
+      "facts": [
+        {
+          "key": "nhu_cau",
+          "value": "Cấp lại giấy phép xây dựng do bị mất",
+          "evidence": "\"Tôi bị mất giấy phép xây dựng, giờ xin lại\"",
+          "node_id": "P14.C03.N003"
+        }
+      ],
+      "path": [
+        "P14",
+        "P14.C03",
+        "P14.C03.N003",
+        "P14.C03.N003.N002",
+        "P14.C03.N005"
+      ],
+      "summary": "Cấp lại giấy phép xây dựng do bị mất: hồ sơ cần nộp và thông tin lệ phí; lệ phí ngoài nộp trực tuyến hiện chưa có dữ liệu xác nhận.",
+      "pending_switch": ""
+    },
+    "last_response": {
+      "mode": "answer",
+      "speech_text": "Tôi đã tổng hợp giấy tờ cần nộp và thông tin lệ phí hiện có trên màn hình. Nếu bạn cho biết nộp trực tuyến hay nộp trực tiếp/bưu chính, tôi sẽ chốt phần lệ phí theo đúng trường hợp.",
+      "information": {
+        "title": "Cấp lại giấy phép xây dựng (trường hợp bị mất)",
+        "sections": [
+          {
+            "title": "1) Điều kiện/ghi chú",
+            "items": [
+              "Áp dụng khi giấy phép bị mất (không yêu cầu đổi thiết kế).",
+              "Cấp lại là bản sao của giấy phép cũ, không thay đổi thiết kế và không khởi tạo lại thời hạn của giấy phép."
+            ]
+          },
+          {
+            "title": "2) Hồ sơ cần nộp",
+            "items": [
+              "Đơn theo Mẫu số 02, trong đó ghi rõ lý do đề nghị cấp lại (mất/rách/nát).",
+              "Trường hợp bị mất: không buộc nộp lại giấy phép đã mất."
+            ]
+          },
+          {
+            "title": "3) Thời gian giải quyết",
+            "items": [
+              "05 ngày làm việc."
+            ]
+          },
+          {
+            "title": "4) Lệ phí/chi phí",
+            "items": [
+              "Nộp trực tuyến: hồ sơ trực tuyến áp mức lệ phí 0 đồng khi thuộc danh mục mức 0 đồng.",
+              "Nộp trực tiếp hoặc qua bưu chính (địa bàn Bình Dương cũ): hiện chưa có dữ liệu xác nhận mức lệ phí cấp lại trong nguồn; chưa thể kết luận số tiền cụ thể."
+            ]
+          }
+        ],
+        "options": []
+      }
+    },
+    "revision": 1,
+    "last_spoken": ""
+  },
+  "runtime_sha256": "325f1a46225c912c9b1e5c3d5e39cef95e6c194b2aec4efc632c1aa5c0a853af"
+}
