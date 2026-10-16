@@ -20,7 +20,8 @@ class Tests(unittest.TestCase):
   for nid in self.src.nodes:
    w=self.src.window(nid)
    self.assertNotIn('children',w['node'])
-   self.assertEqual([c['id'] for c in w['children']],[c['id'] for c in self.src.nodes[nid]['children']])
+   expected=([r['id'] for r in self.src.nodes[nid].get('supporting_topics',[])] if self.src.nodes[nid]['kind']=='topic_content' else [c['id'] for c in self.src.nodes[nid]['children']])
+   self.assertEqual([c['id'] for c in w['children']],expected)
    self.assertTrue(all('children' not in c for c in w['children']))
  def test_load_replaces_window(self):
   f=Fake([response('load',['P08']),response('load',['P08.NEW'])])

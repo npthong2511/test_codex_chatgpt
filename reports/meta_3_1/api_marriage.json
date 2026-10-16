@@ -1,0 +1,4413 @@
+{
+  "turns": [
+    {
+      "user": "Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.",
+      "response": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "doi_tuong",
+              "value": "Cả hai là công dân Việt Nam, cư trú trong nước; chưa kết hôn với ai; đăng ký kết hôn lần đầu",
+              "evidence": "“Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.”",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P03",
+            "P03.NEW"
+          ],
+          "summary": "Đăng ký kết hôn mới (cả hai là công dân Việt Nam, cư trú trong nước; đăng ký lần đầu). Đang hỏi người dân muốn xem mục nội dung nào.",
+          "pending_switch": "",
+          "stage": "choose_topic",
+          "selected_topic": "",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Anh/chị muốn xem nội dung nào về thủ tục đăng ký kết hôn lần đầu?",
+        "information": {
+          "title": "Chọn nội dung cần xem",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Hướng dẫn (các bước thực hiện)",
+              "node_ids": [
+                "P03.NEW.TOPIC.huong_dan"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Hồ sơ cần chuẩn bị",
+              "node_ids": [
+                "P03.NEW.TOPIC.ho_so"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Phí và chi phí",
+              "node_ids": [
+                "P03.NEW.TOPIC.chi_phi"
+              ]
+            },
+            {
+              "id": "D",
+              "label": "Nơi nộp hồ sơ",
+              "node_ids": [
+                "P03.NEW.TOPIC.noi_nop"
+              ]
+            },
+            {
+              "id": "E",
+              "label": "Thời hạn",
+              "node_ids": [
+                "P03.NEW.TOPIC.thoi_gian"
+              ]
+            },
+            {
+              "id": "F",
+              "label": "Kết quả",
+              "node_ids": [
+                "P03.NEW.TOPIC.ket_qua"
+              ]
+            },
+            {
+              "id": "G",
+              "label": "Điều kiện và lưu ý",
+              "node_ids": [
+                "P03.NEW.TOPIC.dieu_kien"
+              ]
+            }
+          ]
+        },
+        "citations": [],
+        "revision": 1,
+        "session_id": "marriage",
+        "display_text": "Chọn nội dung cần xem\n\nA. Hướng dẫn (các bước thực hiện)\nB. Hồ sơ cần chuẩn bị\nC. Phí và chi phí\nD. Nơi nộp hồ sơ\nE. Thời hạn\nF. Kết quả\nG. Điều kiện và lưu ý\nTrang 1/1 | Tiếp / Trước"
+      },
+      "state": {
+        "facts": [
+          {
+            "key": "doi_tuong",
+            "value": "Cả hai là công dân Việt Nam, cư trú trong nước; chưa kết hôn với ai; đăng ký kết hôn lần đầu",
+            "evidence": "“Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.”",
+            "node_id": "ROOT"
+          }
+        ],
+        "path": [
+          "P03",
+          "P03.NEW"
+        ],
+        "summary": "Đăng ký kết hôn mới (cả hai là công dân Việt Nam, cư trú trong nước; đăng ký lần đầu). Đang hỏi người dân muốn xem mục nội dung nào.",
+        "pending_switch": "",
+        "stage": "choose_topic",
+        "selected_topic": "",
+        "available_topics": [
+          "huong_dan",
+          "ho_so",
+          "chi_phi",
+          "noi_nop",
+          "thoi_gian",
+          "ket_qua",
+          "dieu_kien"
+        ],
+        "pending_topics": []
+      },
+      "nodes": [
+        "P03.NEW"
+      ]
+    },
+    {
+      "user": "Tôi 28 tuổi, bạn gái 26 tuổi. Cả hai tự nguyện, không có quan hệ họ hàng.",
+      "response": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "doi_tuong",
+              "value": "Cả hai là công dân Việt Nam, cư trú trong nước; chưa kết hôn với ai; đăng ký kết hôn lần đầu",
+              "evidence": "“Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.”",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_nam",
+              "value": "28",
+              "evidence": "“Tôi 28 tuổi”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "tuoi_nu",
+              "value": "26",
+              "evidence": "“bạn gái 26 tuổi”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "tu_nguyen",
+              "value": "Có",
+              "evidence": "“Cả hai tự nguyện”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "khong_quan_he_ho_hang",
+              "value": "Có",
+              "evidence": "“không có quan hệ họ hàng”",
+              "node_id": "P03.NEW"
+            }
+          ],
+          "path": [
+            "P03",
+            "P03.NEW"
+          ],
+          "summary": "Đăng ký kết hôn lần đầu (công dân Việt Nam trong nước). Đang chờ người dân chọn mục nội dung cần xem (hồ sơ/phí/nơi nộp/thời hạn/...).",
+          "pending_switch": "",
+          "stage": "choose_topic",
+          "selected_topic": "",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Anh/chị muốn xem nội dung nào về thủ tục đăng ký kết hôn lần đầu?",
+        "information": {
+          "title": "Chọn nội dung cần xem",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Hướng dẫn (các bước thực hiện)",
+              "node_ids": [
+                "P03.NEW.TOPIC.huong_dan"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Hồ sơ cần chuẩn bị",
+              "node_ids": [
+                "P03.NEW.TOPIC.ho_so"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Phí và chi phí",
+              "node_ids": [
+                "P03.NEW.TOPIC.chi_phi"
+              ]
+            },
+            {
+              "id": "D",
+              "label": "Nơi nộp hồ sơ",
+              "node_ids": [
+                "P03.NEW.TOPIC.noi_nop"
+              ]
+            },
+            {
+              "id": "E",
+              "label": "Thời hạn",
+              "node_ids": [
+                "P03.NEW.TOPIC.thoi_gian"
+              ]
+            },
+            {
+              "id": "F",
+              "label": "Kết quả",
+              "node_ids": [
+                "P03.NEW.TOPIC.ket_qua"
+              ]
+            },
+            {
+              "id": "G",
+              "label": "Điều kiện và lưu ý",
+              "node_ids": [
+                "P03.NEW.TOPIC.dieu_kien"
+              ]
+            }
+          ]
+        },
+        "citations": [],
+        "revision": 2,
+        "session_id": "marriage",
+        "display_text": "Chọn nội dung cần xem\n\nA. Hướng dẫn (các bước thực hiện)\nB. Hồ sơ cần chuẩn bị\nC. Phí và chi phí\nD. Nơi nộp hồ sơ\nE. Thời hạn\nF. Kết quả\nG. Điều kiện và lưu ý\nTrang 1/1 | Tiếp / Trước"
+      },
+      "state": {
+        "facts": [
+          {
+            "key": "doi_tuong",
+            "value": "Cả hai là công dân Việt Nam, cư trú trong nước; chưa kết hôn với ai; đăng ký kết hôn lần đầu",
+            "evidence": "“Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.”",
+            "node_id": "ROOT"
+          },
+          {
+            "key": "tuoi_nam",
+            "value": "28",
+            "evidence": "“Tôi 28 tuổi”",
+            "node_id": "P03.NEW"
+          },
+          {
+            "key": "tuoi_nu",
+            "value": "26",
+            "evidence": "“bạn gái 26 tuổi”",
+            "node_id": "P03.NEW"
+          },
+          {
+            "key": "tu_nguyen",
+            "value": "Có",
+            "evidence": "“Cả hai tự nguyện”",
+            "node_id": "P03.NEW"
+          },
+          {
+            "key": "khong_quan_he_ho_hang",
+            "value": "Có",
+            "evidence": "“không có quan hệ họ hàng”",
+            "node_id": "P03.NEW"
+          }
+        ],
+        "path": [
+          "P03",
+          "P03.NEW"
+        ],
+        "summary": "Đăng ký kết hôn lần đầu (công dân Việt Nam trong nước). Đang chờ người dân chọn mục nội dung cần xem (hồ sơ/phí/nơi nộp/thời hạn/...).",
+        "pending_switch": "",
+        "stage": "choose_topic",
+        "selected_topic": "",
+        "available_topics": [
+          "huong_dan",
+          "ho_so",
+          "chi_phi",
+          "noi_nop",
+          "thoi_gian",
+          "ket_qua",
+          "dieu_kien"
+        ],
+        "pending_topics": []
+      },
+      "nodes": [
+        "P03.NEW"
+      ]
+    },
+    {
+      "user": "Tôi muốn xem hồ sơ cần chuẩn bị.",
+      "response": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "doi_tuong",
+              "value": "Cả hai là công dân Việt Nam, cư trú trong nước; chưa kết hôn với ai; đăng ký kết hôn lần đầu",
+              "evidence": "“Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.”",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_nam",
+              "value": "28",
+              "evidence": "“Tôi 28 tuổi”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "tuoi_nu",
+              "value": "26",
+              "evidence": "“bạn gái 26 tuổi”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "tu_nguyen",
+              "value": "Có",
+              "evidence": "“Cả hai tự nguyện”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "khong_quan_he_ho_hang",
+              "value": "Có",
+              "evidence": "“không có quan hệ họ hàng”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "yeu_to_nuoc_ngoai",
+              "value": "Không",
+              "evidence": "“đều là công dân Việt Nam, sống trong nước”",
+              "node_id": "P03.C01"
+            }
+          ],
+          "path": [
+            "P03",
+            "P03.NEW",
+            "P03.C01"
+          ],
+          "summary": "Đăng ký kết hôn lần đầu (không có yếu tố nước ngoài). Đang xem mục: Hồ sơ cần chuẩn bị.",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Hồ sơ cần chuẩn bị (đăng ký kết hôn lần đầu, không có yếu tố nước ngoài)",
+          "sections": [
+            {
+              "title": "Giấy tờ/Thông tin cần có",
+              "items": [
+                "Tờ khai đăng ký kết hôn theo mẫu, có đủ thông tin của hai bên nam, nữ (khi nộp trực tiếp, hai bên có thể khai chung vào một tờ khai).",
+                "Thông tin định danh để cơ quan đăng ký khai thác/xác thực nhân thân.",
+                "Cơ quan đăng ký sẽ khai thác tình trạng hôn nhân, cư trú và tình trạng hôn nhân trước từ dữ liệu; chỉ yêu cầu nộp “căn cứ chấm dứt hôn nhân trước”/chứng cứ liên quan khi không khai thác được dữ liệu."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P03.C01.TOPIC.ho_so#0",
+          "P03.C01.TOPIC.ho_so#1",
+          "P03.N001.N001.TOPIC.ho_so#0"
+        ],
+        "revision": 3,
+        "session_id": "marriage",
+        "display_text": "Hồ sơ cần chuẩn bị (đăng ký kết hôn lần\nđầu, không có yếu tố nước ngoài)\n\nGiấy tờ/Thông tin cần có\n- Tờ khai đăng ký kết hôn theo mẫu, có\nđủ thông tin của hai bên nam, nữ (khi\nnộp trực tiếp, hai bên có thể khai chung\nvào một tờ khai).\n- Thông tin định danh để cơ quan đăng ký\nkhai thác/xác thực nhân thân.\nTrang 1/2 | Tiếp / Trước"
+      },
+      "state": {
+        "facts": [
+          {
+            "key": "doi_tuong",
+            "value": "Cả hai là công dân Việt Nam, cư trú trong nước; chưa kết hôn với ai; đăng ký kết hôn lần đầu",
+            "evidence": "“Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.”",
+            "node_id": "ROOT"
+          },
+          {
+            "key": "tuoi_nam",
+            "value": "28",
+            "evidence": "“Tôi 28 tuổi”",
+            "node_id": "P03.NEW"
+          },
+          {
+            "key": "tuoi_nu",
+            "value": "26",
+            "evidence": "“bạn gái 26 tuổi”",
+            "node_id": "P03.NEW"
+          },
+          {
+            "key": "tu_nguyen",
+            "value": "Có",
+            "evidence": "“Cả hai tự nguyện”",
+            "node_id": "P03.NEW"
+          },
+          {
+            "key": "khong_quan_he_ho_hang",
+            "value": "Có",
+            "evidence": "“không có quan hệ họ hàng”",
+            "node_id": "P03.NEW"
+          },
+          {
+            "key": "yeu_to_nuoc_ngoai",
+            "value": "Không",
+            "evidence": "“đều là công dân Việt Nam, sống trong nước”",
+            "node_id": "P03.C01"
+          }
+        ],
+        "path": [
+          "P03",
+          "P03.NEW",
+          "P03.C01"
+        ],
+        "summary": "Đăng ký kết hôn lần đầu (không có yếu tố nước ngoài). Đang xem mục: Hồ sơ cần chuẩn bị.",
+        "pending_switch": "",
+        "stage": "topic",
+        "selected_topic": "ho_so",
+        "available_topics": [
+          "huong_dan",
+          "ho_so",
+          "chi_phi",
+          "noi_nop",
+          "thoi_gian",
+          "ket_qua",
+          "dieu_kien"
+        ],
+        "pending_topics": []
+      },
+      "nodes": [
+        "P03.C01.TOPIC.ho_so",
+        "P03.N001.TOPIC.ho_so"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "call": 1,
+      "payload": {
+        "user_text": "Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "",
+          "pending_switch": "",
+          "stage": "identify",
+          "selected_topic": "",
+          "available_topics": [],
+          "pending_topics": []
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "ROOT",
+              "title": "Quy trình hành chính — cây tri thức 3.0",
+              "condition": "Yêu cầu thuộc một hoặc nhiều lĩnh vực trong bộ dữ liệu",
+              "kind": "root",
+              "children_count": 27,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P02",
+                "title": "Đăng ký khai tử",
+                "condition": "Nhu cầu liên quan: Đăng ký khai tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P04",
+                "title": "Đăng ký thường trú",
+                "condition": "Nhu cầu liên quan: Đăng ký thường trú",
+                "kind": "procedure",
+                "children_count": 9,
+                "related": []
+              },
+              {
+                "id": "P05",
+                "title": "Xác nhận tình trạng hôn nhân",
+                "condition": "Nhu cầu liên quan: Xác nhận tình trạng hôn nhân",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P06",
+                "title": "Đăng ký tạm trú",
+                "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P07",
+                "title": "Xác nhận và điều chỉnh thông tin cư trú",
+                "condition": "Nhu cầu liên quan: Xác nhận và điều chỉnh thông tin cư trú",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P09",
+                "title": "Đăng ký biến động đất đai",
+                "condition": "Nhu cầu liên quan: Đăng ký biến động đất đai",
+                "kind": "procedure",
+                "children_count": 15,
+                "related": []
+              },
+              {
+                "id": "P10",
+                "title": "Cấp giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Cấp giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P11",
+                "title": "Đổi giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Đổi giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P12",
+                "title": "Chuyển nhượng quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Chuyển nhượng quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P13",
+                "title": "Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "condition": "Nhu cầu liên quan: Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P15",
+                "title": "Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "condition": "Nhu cầu liên quan: Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P16",
+                "title": "Hỗ trợ đào tạo nghề",
+                "condition": "Nhu cầu liên quan: Hỗ trợ đào tạo nghề",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P17",
+                "title": "Hỗ trợ người bị tai nạn lao động",
+                "condition": "Nhu cầu liên quan: Hỗ trợ người bị tai nạn lao động",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P19",
+                "title": "Tín dụng chính sách NHCSXH",
+                "condition": "Nhu cầu liên quan: Tín dụng chính sách NHCSXH",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P20",
+                "title": "Chế độ thương binh",
+                "condition": "Nhu cầu liên quan: Chế độ thương binh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P21",
+                "title": "Chế độ thờ cúng liệt sĩ",
+                "condition": "Nhu cầu liên quan: Chế độ thờ cúng liệt sĩ",
+                "kind": "procedure",
+                "children_count": 7,
+                "related": []
+              },
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              },
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": []
+              },
+              {
+                "id": "P25",
+                "title": "Thay đổi nội dung đăng ký hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Thay đổi nội dung đăng ký hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 10,
+                "related": []
+              },
+              {
+                "id": "P26",
+                "title": "Chấm dứt hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Chấm dứt hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": []
+              },
+              {
+                "id": "P27",
+                "title": "Khiếu nại - Phản ánh - Kiến nghị",
+                "condition": "Nhu cầu liên quan: Khiếu nại - Phản ánh - Kiến nghị",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": []
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "loaded_topic": "",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 0,
+          "at_last_page": true
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [],
+        "navigation_error": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 4975,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 208,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 5183
+      },
+      "response_id": "resp_09a9bf6715c9ca15016ad203c109c087d0b7b93879e02ac40e",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P03"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "doi_tuong",
+              "value": "Cả hai là công dân Việt Nam, cư trú trong nước; chưa kết hôn với ai; đăng ký kết hôn lần đầu",
+              "evidence": "“Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.”",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P03"
+          ],
+          "summary": "Người dân hỏi về đăng ký kết hôn lần đầu (cả hai là công dân Việt Nam, cư trú trong nước, chưa kết hôn). Đang nạp thủ tục để xác định đúng trường hợp trước khi hỏi chọn mục cần xem.",
+          "pending_switch": "",
+          "stage": "identify",
+          "selected_topic": "",
+          "available_topics": [],
+          "pending_topics": []
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 3.858770833001472
+    },
+    {
+      "call": 2,
+      "payload": {
+        "user_text": "Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.",
+        "state": {
+          "facts": [
+            {
+              "key": "doi_tuong",
+              "value": "Cả hai là công dân Việt Nam, cư trú trong nước; chưa kết hôn với ai; đăng ký kết hôn lần đầu",
+              "evidence": "“Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.”",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P03"
+          ],
+          "summary": "Người dân hỏi về đăng ký kết hôn lần đầu (cả hai là công dân Việt Nam, cư trú trong nước, chưa kết hôn). Đang nạp thủ tục để xác định đúng trường hợp trước khi hỏi chọn mục cần xem.",
+          "pending_switch": "",
+          "stage": "identify",
+          "selected_topic": "",
+          "available_topics": [],
+          "pending_topics": []
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P03",
+              "title": "Đăng ký kết hôn",
+              "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+              "kind": "procedure",
+              "children_count": 3,
+              "related": [],
+              "topic_catalog": [
+                {
+                  "id": "P03.TOPIC.huong_dan",
+                  "topic": "huong_dan",
+                  "title": "Các bước thực hiện",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P03.TOPIC.ho_so",
+                  "topic": "ho_so",
+                  "title": "Hồ sơ cần chuẩn bị",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P03.TOPIC.chi_phi",
+                  "topic": "chi_phi",
+                  "title": "Phí và chi phí",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P03.TOPIC.noi_nop",
+                  "topic": "noi_nop",
+                  "title": "Nơi nộp hồ sơ",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P03.TOPIC.thoi_gian",
+                  "topic": "thoi_gian",
+                  "title": "Thời hạn",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P03.TOPIC.ket_qua",
+                  "topic": "ket_qua",
+                  "title": "Kết quả và quyền lợi",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P03.TOPIC.dieu_kien",
+                  "topic": "dieu_kien",
+                  "title": "Điều kiện và lưu ý",
+                  "status": "conditional_sources"
+                }
+              ],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P03.NEW",
+                "title": "Đăng ký kết hôn mới",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "shared_ancestor",
+                "children_count": 2,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.NEW.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.NEW.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.NEW.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.NEW.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.NEW.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.NEW.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.NEW.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "local_content"
+                  }
+                ],
+                "blocks": [
+                  {
+                    "id": "P03.NEW.TOPIC.dieu_kien#0",
+                    "text": "Không ủy quyền người khác thay việc kết hôn.",
+                    "topics": [
+                      "dieu_kien"
+                    ],
+                    "source_refs": [
+                      "HTPDF",
+                      "FHT",
+                      "FONLINE"
+                    ],
+                    "review_status": "inherited_not_revalidated"
+                  }
+                ]
+              },
+              {
+                "id": "P03.R01",
+                "title": "Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy",
+                "condition": "Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy",
+                "kind": "case_group",
+                "children_count": 5,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.R01.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.R01.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.R01.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.R01.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.R01.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.R01.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.R01.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": []
+              },
+              {
+                "id": "P03.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 2,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.N001.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": []
+              },
+              {
+                "id": "P03.TOPIC.huong_dan",
+                "title": "Các bước thực hiện",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.NEW.TOPIC.huong_dan",
+                  "P03.R01.TOPIC.huong_dan",
+                  "P03.N001.TOPIC.huong_dan"
+                ],
+                "topic": "huong_dan",
+                "owner_id": "P03",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.NEW.TOPIC.huong_dan",
+                    "owner_id": "P03.NEW",
+                    "title": "Đăng ký kết hôn mới",
+                    "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.R01.TOPIC.huong_dan",
+                    "owner_id": "P03.R01",
+                    "title": "Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy",
+                    "condition": "Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.huong_dan",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P03.TOPIC.ho_so",
+                "title": "Hồ sơ cần chuẩn bị",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.NEW.TOPIC.ho_so",
+                  "P03.R01.TOPIC.ho_so",
+                  "P03.N001.TOPIC.ho_so"
+                ],
+                "topic": "ho_so",
+                "owner_id": "P03",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.NEW.TOPIC.ho_so",
+                    "owner_id": "P03.NEW",
+                    "title": "Đăng ký kết hôn mới",
+                    "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.R01.TOPIC.ho_so",
+                    "owner_id": "P03.R01",
+                    "title": "Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy",
+                    "condition": "Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.ho_so",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P03.TOPIC.chi_phi",
+                "title": "Phí và chi phí",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "topic_content",
+                "children_count": 2,
+                "related": [
+                  "P03.NEW.TOPIC.chi_phi",
+                  "P03.R01.TOPIC.chi_phi"
+                ],
+                "topic": "chi_phi",
+                "owner_id": "P03",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.NEW.TOPIC.chi_phi",
+                    "owner_id": "P03.NEW",
+                    "title": "Đăng ký kết hôn mới",
+                    "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.R01.TOPIC.chi_phi",
+                    "owner_id": "P03.R01",
+                    "title": "Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy",
+                    "condition": "Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P03.TOPIC.noi_nop",
+                "title": "Nơi nộp hồ sơ",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.NEW.TOPIC.noi_nop",
+                  "P03.R01.TOPIC.noi_nop",
+                  "P03.N001.TOPIC.noi_nop"
+                ],
+                "topic": "noi_nop",
+                "owner_id": "P03",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.NEW.TOPIC.noi_nop",
+                    "owner_id": "P03.NEW",
+                    "title": "Đăng ký kết hôn mới",
+                    "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.R01.TOPIC.noi_nop",
+                    "owner_id": "P03.R01",
+                    "title": "Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy",
+                    "condition": "Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.noi_nop",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P03.TOPIC.thoi_gian",
+                "title": "Thời hạn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.NEW.TOPIC.thoi_gian",
+                  "P03.R01.TOPIC.thoi_gian",
+                  "P03.N001.TOPIC.thoi_gian"
+                ],
+                "topic": "thoi_gian",
+                "owner_id": "P03",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.NEW.TOPIC.thoi_gian",
+                    "owner_id": "P03.NEW",
+                    "title": "Đăng ký kết hôn mới",
+                    "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.R01.TOPIC.thoi_gian",
+                    "owner_id": "P03.R01",
+                    "title": "Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy",
+                    "condition": "Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.thoi_gian",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P03.TOPIC.ket_qua",
+                "title": "Kết quả và quyền lợi",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.NEW.TOPIC.ket_qua",
+                  "P03.R01.TOPIC.ket_qua",
+                  "P03.N001.TOPIC.ket_qua"
+                ],
+                "topic": "ket_qua",
+                "owner_id": "P03",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.NEW.TOPIC.ket_qua",
+                    "owner_id": "P03.NEW",
+                    "title": "Đăng ký kết hôn mới",
+                    "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.R01.TOPIC.ket_qua",
+                    "owner_id": "P03.R01",
+                    "title": "Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy",
+                    "condition": "Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.ket_qua",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P03.TOPIC.dieu_kien",
+                "title": "Điều kiện và lưu ý",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.NEW.TOPIC.dieu_kien",
+                  "P03.R01.TOPIC.dieu_kien",
+                  "P03.N001.TOPIC.dieu_kien"
+                ],
+                "topic": "dieu_kien",
+                "owner_id": "P03",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.NEW.TOPIC.dieu_kien",
+                    "owner_id": "P03.NEW",
+                    "title": "Đăng ký kết hôn mới",
+                    "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.R01.TOPIC.dieu_kien",
+                    "owner_id": "P03.R01",
+                    "title": "Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy",
+                    "condition": "Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.dieu_kien",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "loaded_topic": "",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 0,
+          "at_last_page": true
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [
+          [
+            "P03"
+          ]
+        ],
+        "navigation_error": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 6813,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 227,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 7040
+      },
+      "response_id": "resp_0f0251c1dbf46877016ad203c4e03c87d0aa3cab59d6515547",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P03.NEW"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "doi_tuong",
+              "value": "Cả hai là công dân Việt Nam, cư trú trong nước; chưa kết hôn với ai; đăng ký kết hôn lần đầu",
+              "evidence": "“Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.”",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P03",
+            "P03.NEW"
+          ],
+          "summary": "Đăng ký kết hôn mới (cả hai là công dân Việt Nam, cư trú trong nước; đăng ký lần đầu). Chuẩn bị hỏi người dân muốn xem mục nội dung nào (hồ sơ, phí, nơi nộp, thời hạn, quy trình, kết quả, điều kiện).",
+          "pending_switch": "",
+          "stage": "identify",
+          "selected_topic": "",
+          "available_topics": [],
+          "pending_topics": []
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 3.358026966001489
+    },
+    {
+      "call": 3,
+      "payload": {
+        "user_text": "Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.",
+        "state": {
+          "facts": [
+            {
+              "key": "doi_tuong",
+              "value": "Cả hai là công dân Việt Nam, cư trú trong nước; chưa kết hôn với ai; đăng ký kết hôn lần đầu",
+              "evidence": "“Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.”",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P03",
+            "P03.NEW"
+          ],
+          "summary": "Đăng ký kết hôn mới (cả hai là công dân Việt Nam, cư trú trong nước; đăng ký lần đầu). Chuẩn bị hỏi người dân muốn xem mục nội dung nào (hồ sơ, phí, nơi nộp, thời hạn, quy trình, kết quả, điều kiện).",
+          "pending_switch": "",
+          "stage": "identify",
+          "selected_topic": "",
+          "available_topics": [],
+          "pending_topics": []
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P03.NEW",
+              "title": "Đăng ký kết hôn mới",
+              "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+              "kind": "shared_ancestor",
+              "children_count": 2,
+              "related": [],
+              "topic_catalog": [
+                {
+                  "id": "P03.NEW.TOPIC.huong_dan",
+                  "topic": "huong_dan",
+                  "title": "Các bước thực hiện",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P03.NEW.TOPIC.ho_so",
+                  "topic": "ho_so",
+                  "title": "Hồ sơ cần chuẩn bị",
+                  "status": "local_content"
+                },
+                {
+                  "id": "P03.NEW.TOPIC.chi_phi",
+                  "topic": "chi_phi",
+                  "title": "Phí và chi phí",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P03.NEW.TOPIC.noi_nop",
+                  "topic": "noi_nop",
+                  "title": "Nơi nộp hồ sơ",
+                  "status": "local_content"
+                },
+                {
+                  "id": "P03.NEW.TOPIC.thoi_gian",
+                  "topic": "thoi_gian",
+                  "title": "Thời hạn",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P03.NEW.TOPIC.ket_qua",
+                  "topic": "ket_qua",
+                  "title": "Kết quả và quyền lợi",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P03.NEW.TOPIC.dieu_kien",
+                  "topic": "dieu_kien",
+                  "title": "Điều kiện và lưu ý",
+                  "status": "local_content"
+                }
+              ],
+              "blocks": [
+                {
+                  "id": "P03.NEW.TOPIC.dieu_kien#0",
+                  "text": "Không ủy quyền người khác thay việc kết hôn.",
+                  "topics": [
+                    "dieu_kien"
+                  ],
+                  "source_refs": [
+                    "HTPDF",
+                    "FHT",
+                    "FONLINE"
+                  ],
+                  "review_status": "inherited_not_revalidated"
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": [],
+                    "topic_catalog": [
+                      {
+                        "id": "P03.N001.TOPIC.huong_dan",
+                        "topic": "huong_dan",
+                        "title": "Các bước thực hiện",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.ho_so",
+                        "topic": "ho_so",
+                        "title": "Hồ sơ cần chuẩn bị",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.noi_nop",
+                        "topic": "noi_nop",
+                        "title": "Nơi nộp hồ sơ",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.thoi_gian",
+                        "topic": "thoi_gian",
+                        "title": "Thời hạn",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.ket_qua",
+                        "topic": "ket_qua",
+                        "title": "Kết quả và quyền lợi",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.dieu_kien",
+                        "topic": "dieu_kien",
+                        "title": "Điều kiện và lưu ý",
+                        "status": "conditional_sources"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P03.C01",
+                "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.C01.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "local_content"
+                  }
+                ],
+                "blocks": [
+                  {
+                    "id": "P03.C01.TOPIC.dieu_kien#0",
+                    "text": "UBND cấp xã nơi một trong hai bên cư trú.",
+                    "topics": [
+                      "noi_nop",
+                      "dieu_kien"
+                    ],
+                    "source_refs": [
+                      "HTPDF",
+                      "FHT"
+                    ],
+                    "review_status": "inherited_not_revalidated"
+                  }
+                ]
+              },
+              {
+                "id": "P03.C02",
+                "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                "kind": "case_group",
+                "children_count": 13,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.C02.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "inherited_content"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "inherited_content"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "inherited_content"
+                  }
+                ],
+                "blocks": []
+              },
+              {
+                "id": "P03.NEW.TOPIC.huong_dan",
+                "title": "Các bước thực hiện",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.C01.TOPIC.huong_dan",
+                  "P03.C02.TOPIC.huong_dan",
+                  "P03.N001.TOPIC.huong_dan"
+                ],
+                "topic": "huong_dan",
+                "owner_id": "P03.NEW",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.huong_dan",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.huong_dan",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.huong_dan",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW.TOPIC.ho_so",
+                "title": "Hồ sơ cần chuẩn bị",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.C01.TOPIC.ho_so",
+                  "P03.C02.TOPIC.ho_so",
+                  "P03.N001.TOPIC.ho_so"
+                ],
+                "topic": "ho_so",
+                "owner_id": "P03.NEW",
+                "content_status": "local_content",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.ho_so",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.ho_so",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.ho_so",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW.TOPIC.chi_phi",
+                "title": "Phí và chi phí",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 2,
+                "related": [
+                  "P03.C01.TOPIC.chi_phi",
+                  "P03.C02.TOPIC.chi_phi"
+                ],
+                "topic": "chi_phi",
+                "owner_id": "P03.NEW",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.chi_phi",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.chi_phi",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW.TOPIC.noi_nop",
+                "title": "Nơi nộp hồ sơ",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.C01.TOPIC.noi_nop",
+                  "P03.C02.TOPIC.noi_nop",
+                  "P03.N001.TOPIC.noi_nop"
+                ],
+                "topic": "noi_nop",
+                "owner_id": "P03.NEW",
+                "content_status": "local_content",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.noi_nop",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.noi_nop",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.noi_nop",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW.TOPIC.thoi_gian",
+                "title": "Thời hạn",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.C01.TOPIC.thoi_gian",
+                  "P03.C02.TOPIC.thoi_gian",
+                  "P03.N001.TOPIC.thoi_gian"
+                ],
+                "topic": "thoi_gian",
+                "owner_id": "P03.NEW",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.thoi_gian",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.thoi_gian",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.thoi_gian",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW.TOPIC.ket_qua",
+                "title": "Kết quả và quyền lợi",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.C01.TOPIC.ket_qua",
+                  "P03.C02.TOPIC.ket_qua",
+                  "P03.N001.TOPIC.ket_qua"
+                ],
+                "topic": "ket_qua",
+                "owner_id": "P03.NEW",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.ket_qua",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.ket_qua",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.ket_qua",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW.TOPIC.dieu_kien",
+                "title": "Điều kiện và lưu ý",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.C01.TOPIC.dieu_kien",
+                  "P03.C02.TOPIC.dieu_kien",
+                  "P03.N001.TOPIC.dieu_kien"
+                ],
+                "topic": "dieu_kien",
+                "owner_id": "P03.NEW",
+                "content_status": "local_content",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.dieu_kien",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.dieu_kien",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.dieu_kien",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "loaded_topic": "",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 0,
+          "at_last_page": true
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [
+          [
+            "P03"
+          ],
+          [
+            "P03.NEW"
+          ]
+        ],
+        "navigation_error": "",
+        "calls_remaining": 7
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 7238,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 439,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 7677
+      },
+      "response_id": "resp_08e7499e87f9a8d9016ad203c835c487d099e78e5b8a21ddc5",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "doi_tuong",
+              "value": "Cả hai là công dân Việt Nam, cư trú trong nước; chưa kết hôn với ai; đăng ký kết hôn lần đầu",
+              "evidence": "“Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.”",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P03",
+            "P03.NEW"
+          ],
+          "summary": "Đăng ký kết hôn mới (cả hai là công dân Việt Nam, cư trú trong nước; đăng ký lần đầu). Đang hỏi người dân muốn xem mục nội dung nào.",
+          "pending_switch": "",
+          "stage": "choose_topic",
+          "selected_topic": "",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Anh/chị muốn xem nội dung nào về thủ tục đăng ký kết hôn lần đầu?",
+        "information": {
+          "title": "Chọn nội dung cần xem",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Hướng dẫn (các bước thực hiện)",
+              "node_ids": [
+                "P03.NEW.TOPIC.huong_dan"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Hồ sơ cần chuẩn bị",
+              "node_ids": [
+                "P03.NEW.TOPIC.ho_so"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Phí và chi phí",
+              "node_ids": [
+                "P03.NEW.TOPIC.chi_phi"
+              ]
+            },
+            {
+              "id": "D",
+              "label": "Nơi nộp hồ sơ",
+              "node_ids": [
+                "P03.NEW.TOPIC.noi_nop"
+              ]
+            },
+            {
+              "id": "E",
+              "label": "Thời hạn",
+              "node_ids": [
+                "P03.NEW.TOPIC.thoi_gian"
+              ]
+            },
+            {
+              "id": "F",
+              "label": "Kết quả",
+              "node_ids": [
+                "P03.NEW.TOPIC.ket_qua"
+              ]
+            },
+            {
+              "id": "G",
+              "label": "Điều kiện và lưu ý",
+              "node_ids": [
+                "P03.NEW.TOPIC.dieu_kien"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 5.379236966997269
+    },
+    {
+      "call": 4,
+      "payload": {
+        "user_text": "Tôi 28 tuổi, bạn gái 26 tuổi. Cả hai tự nguyện, không có quan hệ họ hàng.",
+        "current": 1,
+        "total": 1
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 321,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 340
+      },
+      "response_id": "resp_0c9081e1061faa58016ad203cd974087d08de7d8510f3ca3d7",
+      "decision": {
+        "intent": "continue",
+        "page": 0
+      },
+      "seconds": 0.8230688580079004
+    },
+    {
+      "call": 5,
+      "payload": {
+        "user_text": "Tôi 28 tuổi, bạn gái 26 tuổi. Cả hai tự nguyện, không có quan hệ họ hàng.",
+        "state": {
+          "facts": [
+            {
+              "key": "doi_tuong",
+              "value": "Cả hai là công dân Việt Nam, cư trú trong nước; chưa kết hôn với ai; đăng ký kết hôn lần đầu",
+              "evidence": "“Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.”",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P03",
+            "P03.NEW"
+          ],
+          "summary": "Đăng ký kết hôn mới (cả hai là công dân Việt Nam, cư trú trong nước; đăng ký lần đầu). Đang hỏi người dân muốn xem mục nội dung nào.",
+          "pending_switch": "",
+          "stage": "choose_topic",
+          "selected_topic": "",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị muốn xem nội dung nào về thủ tục đăng ký kết hôn lần đầu?",
+          "information": {
+            "title": "Chọn nội dung cần xem",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Hướng dẫn (các bước thực hiện)",
+                "node_ids": [
+                  "P03.NEW.TOPIC.huong_dan"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Hồ sơ cần chuẩn bị",
+                "node_ids": [
+                  "P03.NEW.TOPIC.ho_so"
+                ]
+              },
+              {
+                "id": "C",
+                "label": "Phí và chi phí",
+                "node_ids": [
+                  "P03.NEW.TOPIC.chi_phi"
+                ]
+              },
+              {
+                "id": "D",
+                "label": "Nơi nộp hồ sơ",
+                "node_ids": [
+                  "P03.NEW.TOPIC.noi_nop"
+                ]
+              },
+              {
+                "id": "E",
+                "label": "Thời hạn",
+                "node_ids": [
+                  "P03.NEW.TOPIC.thoi_gian"
+                ]
+              },
+              {
+                "id": "F",
+                "label": "Kết quả",
+                "node_ids": [
+                  "P03.NEW.TOPIC.ket_qua"
+                ]
+              },
+              {
+                "id": "G",
+                "label": "Điều kiện và lưu ý",
+                "node_ids": [
+                  "P03.NEW.TOPIC.dieu_kien"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P03.NEW",
+              "title": "Đăng ký kết hôn mới",
+              "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+              "kind": "shared_ancestor",
+              "children_count": 2,
+              "related": [],
+              "topic_catalog": [
+                {
+                  "id": "P03.NEW.TOPIC.huong_dan",
+                  "topic": "huong_dan",
+                  "title": "Các bước thực hiện",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P03.NEW.TOPIC.ho_so",
+                  "topic": "ho_so",
+                  "title": "Hồ sơ cần chuẩn bị",
+                  "status": "local_content"
+                },
+                {
+                  "id": "P03.NEW.TOPIC.chi_phi",
+                  "topic": "chi_phi",
+                  "title": "Phí và chi phí",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P03.NEW.TOPIC.noi_nop",
+                  "topic": "noi_nop",
+                  "title": "Nơi nộp hồ sơ",
+                  "status": "local_content"
+                },
+                {
+                  "id": "P03.NEW.TOPIC.thoi_gian",
+                  "topic": "thoi_gian",
+                  "title": "Thời hạn",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P03.NEW.TOPIC.ket_qua",
+                  "topic": "ket_qua",
+                  "title": "Kết quả và quyền lợi",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P03.NEW.TOPIC.dieu_kien",
+                  "topic": "dieu_kien",
+                  "title": "Điều kiện và lưu ý",
+                  "status": "local_content"
+                }
+              ],
+              "blocks": [
+                {
+                  "id": "P03.NEW.TOPIC.dieu_kien#0",
+                  "text": "Không ủy quyền người khác thay việc kết hôn.",
+                  "topics": [
+                    "dieu_kien"
+                  ],
+                  "source_refs": [
+                    "HTPDF",
+                    "FHT",
+                    "FONLINE"
+                  ],
+                  "review_status": "inherited_not_revalidated"
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": [],
+                    "topic_catalog": [
+                      {
+                        "id": "P03.N001.TOPIC.huong_dan",
+                        "topic": "huong_dan",
+                        "title": "Các bước thực hiện",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.ho_so",
+                        "topic": "ho_so",
+                        "title": "Hồ sơ cần chuẩn bị",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.noi_nop",
+                        "topic": "noi_nop",
+                        "title": "Nơi nộp hồ sơ",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.thoi_gian",
+                        "topic": "thoi_gian",
+                        "title": "Thời hạn",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.ket_qua",
+                        "topic": "ket_qua",
+                        "title": "Kết quả và quyền lợi",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.dieu_kien",
+                        "topic": "dieu_kien",
+                        "title": "Điều kiện và lưu ý",
+                        "status": "conditional_sources"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P03.C01",
+                "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.C01.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "local_content"
+                  }
+                ],
+                "blocks": [
+                  {
+                    "id": "P03.C01.TOPIC.dieu_kien#0",
+                    "text": "UBND cấp xã nơi một trong hai bên cư trú.",
+                    "topics": [
+                      "noi_nop",
+                      "dieu_kien"
+                    ],
+                    "source_refs": [
+                      "HTPDF",
+                      "FHT"
+                    ],
+                    "review_status": "inherited_not_revalidated"
+                  }
+                ]
+              },
+              {
+                "id": "P03.C02",
+                "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                "kind": "case_group",
+                "children_count": 13,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.C02.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "inherited_content"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "inherited_content"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "inherited_content"
+                  }
+                ],
+                "blocks": []
+              },
+              {
+                "id": "P03.NEW.TOPIC.huong_dan",
+                "title": "Các bước thực hiện",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.C01.TOPIC.huong_dan",
+                  "P03.C02.TOPIC.huong_dan",
+                  "P03.N001.TOPIC.huong_dan"
+                ],
+                "topic": "huong_dan",
+                "owner_id": "P03.NEW",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.huong_dan",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.huong_dan",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.huong_dan",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW.TOPIC.ho_so",
+                "title": "Hồ sơ cần chuẩn bị",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.C01.TOPIC.ho_so",
+                  "P03.C02.TOPIC.ho_so",
+                  "P03.N001.TOPIC.ho_so"
+                ],
+                "topic": "ho_so",
+                "owner_id": "P03.NEW",
+                "content_status": "local_content",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.ho_so",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.ho_so",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.ho_so",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW.TOPIC.chi_phi",
+                "title": "Phí và chi phí",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 2,
+                "related": [
+                  "P03.C01.TOPIC.chi_phi",
+                  "P03.C02.TOPIC.chi_phi"
+                ],
+                "topic": "chi_phi",
+                "owner_id": "P03.NEW",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.chi_phi",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.chi_phi",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW.TOPIC.noi_nop",
+                "title": "Nơi nộp hồ sơ",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.C01.TOPIC.noi_nop",
+                  "P03.C02.TOPIC.noi_nop",
+                  "P03.N001.TOPIC.noi_nop"
+                ],
+                "topic": "noi_nop",
+                "owner_id": "P03.NEW",
+                "content_status": "local_content",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.noi_nop",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.noi_nop",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.noi_nop",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW.TOPIC.thoi_gian",
+                "title": "Thời hạn",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.C01.TOPIC.thoi_gian",
+                  "P03.C02.TOPIC.thoi_gian",
+                  "P03.N001.TOPIC.thoi_gian"
+                ],
+                "topic": "thoi_gian",
+                "owner_id": "P03.NEW",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.thoi_gian",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.thoi_gian",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.thoi_gian",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW.TOPIC.ket_qua",
+                "title": "Kết quả và quyền lợi",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.C01.TOPIC.ket_qua",
+                  "P03.C02.TOPIC.ket_qua",
+                  "P03.N001.TOPIC.ket_qua"
+                ],
+                "topic": "ket_qua",
+                "owner_id": "P03.NEW",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.ket_qua",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.ket_qua",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.ket_qua",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW.TOPIC.dieu_kien",
+                "title": "Điều kiện và lưu ý",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.C01.TOPIC.dieu_kien",
+                  "P03.C02.TOPIC.dieu_kien",
+                  "P03.N001.TOPIC.dieu_kien"
+                ],
+                "topic": "dieu_kien",
+                "owner_id": "P03.NEW",
+                "content_status": "local_content",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.dieu_kien",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.dieu_kien",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.dieu_kien",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "loaded_topic": "",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 1,
+          "at_last_page": true
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [],
+        "navigation_error": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 7457,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 570,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 8027
+      },
+      "response_id": "resp_048111e2bdcd40fc016ad203ce67b887d0bfe41290c13397d5",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "doi_tuong",
+              "value": "Cả hai là công dân Việt Nam, cư trú trong nước; chưa kết hôn với ai; đăng ký kết hôn lần đầu",
+              "evidence": "“Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.”",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_nam",
+              "value": "28",
+              "evidence": "“Tôi 28 tuổi”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "tuoi_nu",
+              "value": "26",
+              "evidence": "“bạn gái 26 tuổi”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "tu_nguyen",
+              "value": "Có",
+              "evidence": "“Cả hai tự nguyện”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "khong_quan_he_ho_hang",
+              "value": "Có",
+              "evidence": "“không có quan hệ họ hàng”",
+              "node_id": "P03.NEW"
+            }
+          ],
+          "path": [
+            "P03",
+            "P03.NEW"
+          ],
+          "summary": "Đăng ký kết hôn lần đầu (công dân Việt Nam trong nước). Đang chờ người dân chọn mục nội dung cần xem (hồ sơ/phí/nơi nộp/thời hạn/...).",
+          "pending_switch": "",
+          "stage": "choose_topic",
+          "selected_topic": "",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Anh/chị muốn xem nội dung nào về thủ tục đăng ký kết hôn lần đầu?",
+        "information": {
+          "title": "Chọn nội dung cần xem",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Hướng dẫn (các bước thực hiện)",
+              "node_ids": [
+                "P03.NEW.TOPIC.huong_dan"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Hồ sơ cần chuẩn bị",
+              "node_ids": [
+                "P03.NEW.TOPIC.ho_so"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Phí và chi phí",
+              "node_ids": [
+                "P03.NEW.TOPIC.chi_phi"
+              ]
+            },
+            {
+              "id": "D",
+              "label": "Nơi nộp hồ sơ",
+              "node_ids": [
+                "P03.NEW.TOPIC.noi_nop"
+              ]
+            },
+            {
+              "id": "E",
+              "label": "Thời hạn",
+              "node_ids": [
+                "P03.NEW.TOPIC.thoi_gian"
+              ]
+            },
+            {
+              "id": "F",
+              "label": "Kết quả",
+              "node_ids": [
+                "P03.NEW.TOPIC.ket_qua"
+              ]
+            },
+            {
+              "id": "G",
+              "label": "Điều kiện và lưu ý",
+              "node_ids": [
+                "P03.NEW.TOPIC.dieu_kien"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 6.973745156996301
+    },
+    {
+      "call": 6,
+      "payload": {
+        "user_text": "Tôi muốn xem hồ sơ cần chuẩn bị.",
+        "current": 1,
+        "total": 1
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 305,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 324
+      },
+      "response_id": "resp_05d0cdddbb73c9ee016ad203d55fa887d0b26323d150a37590",
+      "decision": {
+        "intent": "continue",
+        "page": 0
+      },
+      "seconds": 0.9998310500086518
+    },
+    {
+      "call": 7,
+      "payload": {
+        "user_text": "Tôi muốn xem hồ sơ cần chuẩn bị.",
+        "state": {
+          "facts": [
+            {
+              "key": "doi_tuong",
+              "value": "Cả hai là công dân Việt Nam, cư trú trong nước; chưa kết hôn với ai; đăng ký kết hôn lần đầu",
+              "evidence": "“Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.”",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_nam",
+              "value": "28",
+              "evidence": "“Tôi 28 tuổi”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "tuoi_nu",
+              "value": "26",
+              "evidence": "“bạn gái 26 tuổi”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "tu_nguyen",
+              "value": "Có",
+              "evidence": "“Cả hai tự nguyện”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "khong_quan_he_ho_hang",
+              "value": "Có",
+              "evidence": "“không có quan hệ họ hàng”",
+              "node_id": "P03.NEW"
+            }
+          ],
+          "path": [
+            "P03",
+            "P03.NEW"
+          ],
+          "summary": "Đăng ký kết hôn lần đầu (công dân Việt Nam trong nước). Đang chờ người dân chọn mục nội dung cần xem (hồ sơ/phí/nơi nộp/thời hạn/...).",
+          "pending_switch": "",
+          "stage": "choose_topic",
+          "selected_topic": "",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị muốn xem nội dung nào về thủ tục đăng ký kết hôn lần đầu?",
+          "information": {
+            "title": "Chọn nội dung cần xem",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Hướng dẫn (các bước thực hiện)",
+                "node_ids": [
+                  "P03.NEW.TOPIC.huong_dan"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Hồ sơ cần chuẩn bị",
+                "node_ids": [
+                  "P03.NEW.TOPIC.ho_so"
+                ]
+              },
+              {
+                "id": "C",
+                "label": "Phí và chi phí",
+                "node_ids": [
+                  "P03.NEW.TOPIC.chi_phi"
+                ]
+              },
+              {
+                "id": "D",
+                "label": "Nơi nộp hồ sơ",
+                "node_ids": [
+                  "P03.NEW.TOPIC.noi_nop"
+                ]
+              },
+              {
+                "id": "E",
+                "label": "Thời hạn",
+                "node_ids": [
+                  "P03.NEW.TOPIC.thoi_gian"
+                ]
+              },
+              {
+                "id": "F",
+                "label": "Kết quả",
+                "node_ids": [
+                  "P03.NEW.TOPIC.ket_qua"
+                ]
+              },
+              {
+                "id": "G",
+                "label": "Điều kiện và lưu ý",
+                "node_ids": [
+                  "P03.NEW.TOPIC.dieu_kien"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P03.NEW",
+              "title": "Đăng ký kết hôn mới",
+              "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+              "kind": "shared_ancestor",
+              "children_count": 2,
+              "related": [],
+              "topic_catalog": [
+                {
+                  "id": "P03.NEW.TOPIC.huong_dan",
+                  "topic": "huong_dan",
+                  "title": "Các bước thực hiện",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P03.NEW.TOPIC.ho_so",
+                  "topic": "ho_so",
+                  "title": "Hồ sơ cần chuẩn bị",
+                  "status": "local_content"
+                },
+                {
+                  "id": "P03.NEW.TOPIC.chi_phi",
+                  "topic": "chi_phi",
+                  "title": "Phí và chi phí",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P03.NEW.TOPIC.noi_nop",
+                  "topic": "noi_nop",
+                  "title": "Nơi nộp hồ sơ",
+                  "status": "local_content"
+                },
+                {
+                  "id": "P03.NEW.TOPIC.thoi_gian",
+                  "topic": "thoi_gian",
+                  "title": "Thời hạn",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P03.NEW.TOPIC.ket_qua",
+                  "topic": "ket_qua",
+                  "title": "Kết quả và quyền lợi",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P03.NEW.TOPIC.dieu_kien",
+                  "topic": "dieu_kien",
+                  "title": "Điều kiện và lưu ý",
+                  "status": "local_content"
+                }
+              ],
+              "blocks": [
+                {
+                  "id": "P03.NEW.TOPIC.dieu_kien#0",
+                  "text": "Không ủy quyền người khác thay việc kết hôn.",
+                  "topics": [
+                    "dieu_kien"
+                  ],
+                  "source_refs": [
+                    "HTPDF",
+                    "FHT",
+                    "FONLINE"
+                  ],
+                  "review_status": "inherited_not_revalidated"
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": [],
+                    "topic_catalog": [
+                      {
+                        "id": "P03.N001.TOPIC.huong_dan",
+                        "topic": "huong_dan",
+                        "title": "Các bước thực hiện",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.ho_so",
+                        "topic": "ho_so",
+                        "title": "Hồ sơ cần chuẩn bị",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.noi_nop",
+                        "topic": "noi_nop",
+                        "title": "Nơi nộp hồ sơ",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.thoi_gian",
+                        "topic": "thoi_gian",
+                        "title": "Thời hạn",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.ket_qua",
+                        "topic": "ket_qua",
+                        "title": "Kết quả và quyền lợi",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.dieu_kien",
+                        "topic": "dieu_kien",
+                        "title": "Điều kiện và lưu ý",
+                        "status": "conditional_sources"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "children": [
+              {
+                "id": "P03.C01",
+                "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.C01.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "local_content"
+                  }
+                ],
+                "blocks": [
+                  {
+                    "id": "P03.C01.TOPIC.dieu_kien#0",
+                    "text": "UBND cấp xã nơi một trong hai bên cư trú.",
+                    "topics": [
+                      "noi_nop",
+                      "dieu_kien"
+                    ],
+                    "source_refs": [
+                      "HTPDF",
+                      "FHT"
+                    ],
+                    "review_status": "inherited_not_revalidated"
+                  }
+                ]
+              },
+              {
+                "id": "P03.C02",
+                "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                "kind": "case_group",
+                "children_count": 13,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.C02.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "inherited_content"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "inherited_content"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "inherited_content"
+                  }
+                ],
+                "blocks": []
+              },
+              {
+                "id": "P03.NEW.TOPIC.huong_dan",
+                "title": "Các bước thực hiện",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.C01.TOPIC.huong_dan",
+                  "P03.C02.TOPIC.huong_dan",
+                  "P03.N001.TOPIC.huong_dan"
+                ],
+                "topic": "huong_dan",
+                "owner_id": "P03.NEW",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.huong_dan",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.huong_dan",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.huong_dan",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW.TOPIC.ho_so",
+                "title": "Hồ sơ cần chuẩn bị",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.C01.TOPIC.ho_so",
+                  "P03.C02.TOPIC.ho_so",
+                  "P03.N001.TOPIC.ho_so"
+                ],
+                "topic": "ho_so",
+                "owner_id": "P03.NEW",
+                "content_status": "local_content",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.ho_so",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.ho_so",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.ho_so",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW.TOPIC.chi_phi",
+                "title": "Phí và chi phí",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 2,
+                "related": [
+                  "P03.C01.TOPIC.chi_phi",
+                  "P03.C02.TOPIC.chi_phi"
+                ],
+                "topic": "chi_phi",
+                "owner_id": "P03.NEW",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.chi_phi",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.chi_phi",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW.TOPIC.noi_nop",
+                "title": "Nơi nộp hồ sơ",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.C01.TOPIC.noi_nop",
+                  "P03.C02.TOPIC.noi_nop",
+                  "P03.N001.TOPIC.noi_nop"
+                ],
+                "topic": "noi_nop",
+                "owner_id": "P03.NEW",
+                "content_status": "local_content",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.noi_nop",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.noi_nop",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.noi_nop",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW.TOPIC.thoi_gian",
+                "title": "Thời hạn",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.C01.TOPIC.thoi_gian",
+                  "P03.C02.TOPIC.thoi_gian",
+                  "P03.N001.TOPIC.thoi_gian"
+                ],
+                "topic": "thoi_gian",
+                "owner_id": "P03.NEW",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.thoi_gian",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.thoi_gian",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.thoi_gian",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW.TOPIC.ket_qua",
+                "title": "Kết quả và quyền lợi",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.C01.TOPIC.ket_qua",
+                  "P03.C02.TOPIC.ket_qua",
+                  "P03.N001.TOPIC.ket_qua"
+                ],
+                "topic": "ket_qua",
+                "owner_id": "P03.NEW",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.ket_qua",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.ket_qua",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.ket_qua",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW.TOPIC.dieu_kien",
+                "title": "Điều kiện và lưu ý",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "topic_content",
+                "children_count": 3,
+                "related": [
+                  "P03.C01.TOPIC.dieu_kien",
+                  "P03.C02.TOPIC.dieu_kien",
+                  "P03.N001.TOPIC.dieu_kien"
+                ],
+                "topic": "dieu_kien",
+                "owner_id": "P03.NEW",
+                "content_status": "local_content",
+                "supporting_topics": [
+                  {
+                    "id": "P03.C01.TOPIC.dieu_kien",
+                    "owner_id": "P03.C01",
+                    "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.C02.TOPIC.dieu_kien",
+                    "owner_id": "P03.C02",
+                    "title": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "condition": "Chưa đăng ký với nhau; có yếu tố nước ngoài",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.dieu_kien",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "loaded_topic": "",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 1,
+          "at_last_page": true
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [],
+        "navigation_error": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 7572,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 442,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 8014
+      },
+      "response_id": "resp_0b10fd49637e8a40016ad203d661cc87d0ac5ccdc280864351",
+      "decision": {
+        "action": "load",
+        "mode": "question",
+        "node_ids": [
+          "P03.C01.TOPIC.ho_so",
+          "P03.N001.TOPIC.ho_so"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "doi_tuong",
+              "value": "Cả hai là công dân Việt Nam, cư trú trong nước; chưa kết hôn với ai; đăng ký kết hôn lần đầu",
+              "evidence": "“Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.”",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_nam",
+              "value": "28",
+              "evidence": "“Tôi 28 tuổi”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "tuoi_nu",
+              "value": "26",
+              "evidence": "“bạn gái 26 tuổi”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "tu_nguyen",
+              "value": "Có",
+              "evidence": "“Cả hai tự nguyện”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "khong_quan_he_ho_hang",
+              "value": "Có",
+              "evidence": "“không có quan hệ họ hàng”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "yeu_to_nuoc_ngoai",
+              "value": "Không",
+              "evidence": "“đều là công dân Việt Nam, sống trong nước”",
+              "node_id": "P03.C01"
+            }
+          ],
+          "path": [
+            "P03",
+            "P03.NEW",
+            "P03.C01"
+          ],
+          "summary": "Đăng ký kết hôn lần đầu (không có yếu tố nước ngoài). Người dân muốn xem: hồ sơ cần chuẩn bị.",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "",
+        "information": {
+          "title": "Chọn nội dung cần xem",
+          "sections": [],
+          "options": [
+            {
+              "id": "B",
+              "label": "Hồ sơ cần chuẩn bị",
+              "node_ids": [
+                "P03.C01.TOPIC.ho_so"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 5.224344366011792
+    },
+    {
+      "call": 8,
+      "payload": {
+        "user_text": "Tôi muốn xem hồ sơ cần chuẩn bị.",
+        "state": {
+          "facts": [
+            {
+              "key": "doi_tuong",
+              "value": "Cả hai là công dân Việt Nam, cư trú trong nước; chưa kết hôn với ai; đăng ký kết hôn lần đầu",
+              "evidence": "“Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.”",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_nam",
+              "value": "28",
+              "evidence": "“Tôi 28 tuổi”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "tuoi_nu",
+              "value": "26",
+              "evidence": "“bạn gái 26 tuổi”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "tu_nguyen",
+              "value": "Có",
+              "evidence": "“Cả hai tự nguyện”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "khong_quan_he_ho_hang",
+              "value": "Có",
+              "evidence": "“không có quan hệ họ hàng”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "yeu_to_nuoc_ngoai",
+              "value": "Không",
+              "evidence": "“đều là công dân Việt Nam, sống trong nước”",
+              "node_id": "P03.C01"
+            }
+          ],
+          "path": [
+            "P03",
+            "P03.NEW",
+            "P03.C01"
+          ],
+          "summary": "Đăng ký kết hôn lần đầu (không có yếu tố nước ngoài). Người dân muốn xem: hồ sơ cần chuẩn bị.",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị muốn xem nội dung nào về thủ tục đăng ký kết hôn lần đầu?",
+          "information": {
+            "title": "Chọn nội dung cần xem",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Hướng dẫn (các bước thực hiện)",
+                "node_ids": [
+                  "P03.NEW.TOPIC.huong_dan"
+                ]
+              },
+              {
+                "id": "B",
+                "label": "Hồ sơ cần chuẩn bị",
+                "node_ids": [
+                  "P03.NEW.TOPIC.ho_so"
+                ]
+              },
+              {
+                "id": "C",
+                "label": "Phí và chi phí",
+                "node_ids": [
+                  "P03.NEW.TOPIC.chi_phi"
+                ]
+              },
+              {
+                "id": "D",
+                "label": "Nơi nộp hồ sơ",
+                "node_ids": [
+                  "P03.NEW.TOPIC.noi_nop"
+                ]
+              },
+              {
+                "id": "E",
+                "label": "Thời hạn",
+                "node_ids": [
+                  "P03.NEW.TOPIC.thoi_gian"
+                ]
+              },
+              {
+                "id": "F",
+                "label": "Kết quả",
+                "node_ids": [
+                  "P03.NEW.TOPIC.ket_qua"
+                ]
+              },
+              {
+                "id": "G",
+                "label": "Điều kiện và lưu ý",
+                "node_ids": [
+                  "P03.NEW.TOPIC.dieu_kien"
+                ]
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P03.C01.TOPIC.ho_so",
+              "title": "Hồ sơ cần chuẩn bị",
+              "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+              "kind": "topic_content",
+              "children_count": 1,
+              "related": [
+                "P03.N001.TOPIC.ho_so",
+                "P03.NEW.TOPIC.ho_so"
+              ],
+              "topic": "ho_so",
+              "owner_id": "P03.C01",
+              "content_status": "local_content",
+              "supporting_topics": [
+                {
+                  "id": "P03.N001.TOPIC.ho_so",
+                  "owner_id": "P03.N001",
+                  "title": "Quy định theo điều kiện áp dụng",
+                  "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                  "relationship": "conditional_rule"
+                }
+              ],
+              "blocks": [
+                {
+                  "id": "P03.C01.TOPIC.ho_so#0",
+                  "text": "Tờ khai đăng ký kết hôn; căn cứ chấm dứt hôn nhân trước nếu dữ liệu chưa có; định danh để cơ quan tra cứu, không mặc định buộc xin giấy xác nhận độc thân chỉ vì cư trú khác xã.",
+                  "topics": [
+                    "ho_so"
+                  ],
+                  "source_refs": [
+                    "HTPDF",
+                    "FHT"
+                  ],
+                  "review_status": "inherited_not_revalidated"
+                },
+                {
+                  "id": "P03.C01.TOPIC.ho_so#1",
+                  "text": "Tờ khai đăng ký kết hôn: dùng “Tờ khai đăng ký kết hôn theo mẫu, có đủ thông tin của hai bên nam, nữ”; khi nộp trực tiếp, “hai bên nam, nữ có thể khai chung vào một Tờ khai đăng ký kết hôn”.",
+                  "topics": [
+                    "ho_so"
+                  ],
+                  "source_refs": [
+                    "WEB_D774677A9B26"
+                  ],
+                  "review_status": "web_sourced_supplement"
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": [],
+                    "topic_catalog": [
+                      {
+                        "id": "P03.N001.TOPIC.huong_dan",
+                        "topic": "huong_dan",
+                        "title": "Các bước thực hiện",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.ho_so",
+                        "topic": "ho_so",
+                        "title": "Hồ sơ cần chuẩn bị",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.noi_nop",
+                        "topic": "noi_nop",
+                        "title": "Nơi nộp hồ sơ",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.thoi_gian",
+                        "topic": "thoi_gian",
+                        "title": "Thời hạn",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.ket_qua",
+                        "topic": "ket_qua",
+                        "title": "Kết quả và quyền lợi",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.dieu_kien",
+                        "topic": "dieu_kien",
+                        "title": "Điều kiện và lưu ý",
+                        "status": "conditional_sources"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P03.NEW",
+                "title": "Đăng ký kết hôn mới",
+                "condition": "Hai bên chưa đăng ký kết hôn với nhau; đề nghị đăng ký mới",
+                "kind": "shared_ancestor",
+                "children_count": 2,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.NEW.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "local_content"
+                  }
+                ],
+                "blocks": [
+                  {
+                    "id": "P03.NEW.TOPIC.dieu_kien#0",
+                    "text": "Không ủy quyền người khác thay việc kết hôn.",
+                    "topics": [
+                      "dieu_kien"
+                    ],
+                    "source_refs": [
+                      "HTPDF",
+                      "FHT",
+                      "FONLINE"
+                    ],
+                    "review_status": "inherited_not_revalidated"
+                  },
+                  {
+                    "id": "P03.NEW.TOPIC.ho_so#0",
+                    "text": "Tờ khai đăng ký kết hôn: dùng “Tờ khai đăng ký kết hôn theo mẫu, có đủ thông tin của hai bên nam, nữ”; khi nộp trực tiếp, “hai bên nam, nữ có thể khai chung vào một Tờ khai đăng ký kết hôn”.",
+                    "topics": [
+                      "ho_so"
+                    ],
+                    "source_refs": [
+                      "WEB_D774677A9B26"
+                    ],
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
+                "rule_refs": []
+              },
+              {
+                "id": "P03.C01",
+                "title": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                "condition": "Chưa đăng ký với nhau; không có yếu tố nước ngoài",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.C01.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.C01.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "local_content"
+                  }
+                ],
+                "blocks": [
+                  {
+                    "id": "P03.C01.TOPIC.dieu_kien#0",
+                    "text": "UBND cấp xã nơi một trong hai bên cư trú.",
+                    "topics": [
+                      "noi_nop",
+                      "dieu_kien"
+                    ],
+                    "source_refs": [
+                      "HTPDF",
+                      "FHT"
+                    ],
+                    "review_status": "inherited_not_revalidated"
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P03.N001.TOPIC.ho_so",
+                "title": "Hồ sơ cần chuẩn bị",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                "kind": "topic_content",
+                "children_count": 1,
+                "related": [
+                  "P03.N001.N001.TOPIC.ho_so"
+                ],
+                "topic": "ho_so",
+                "owner_id": "P03.N001",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P03.N001.N001.TOPIC.ho_so",
+                    "owner_id": "P03.N001.N001",
+                    "title": "Điều kiện kết hôn mới",
+                    "condition": "Đề nghị đăng ký kết hôn mới; không phải chỉ xin bản sao",
+                    "relationship": "conditional_child"
+                  }
+                ],
+                "blocks": [],
+                "reference_relationship": "conditional_rule"
+              }
+            ],
+            "child_selection": "none"
+          },
+          {
+            "node": {
+              "id": "P03.N001.TOPIC.ho_so",
+              "title": "Hồ sơ cần chuẩn bị",
+              "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+              "kind": "topic_content",
+              "children_count": 1,
+              "related": [
+                "P03.N001.N001.TOPIC.ho_so"
+              ],
+              "topic": "ho_so",
+              "owner_id": "P03.N001",
+              "content_status": "conditional_sources",
+              "supporting_topics": [
+                {
+                  "id": "P03.N001.N001.TOPIC.ho_so",
+                  "owner_id": "P03.N001.N001",
+                  "title": "Điều kiện kết hôn mới",
+                  "condition": "Đề nghị đăng ký kết hôn mới; không phải chỉ xin bản sao",
+                  "relationship": "conditional_child"
+                }
+              ],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 2,
+                    "related": [],
+                    "topic_catalog": [
+                      {
+                        "id": "P03.N001.TOPIC.huong_dan",
+                        "topic": "huong_dan",
+                        "title": "Các bước thực hiện",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.ho_so",
+                        "topic": "ho_so",
+                        "title": "Hồ sơ cần chuẩn bị",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.noi_nop",
+                        "topic": "noi_nop",
+                        "title": "Nơi nộp hồ sơ",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.thoi_gian",
+                        "topic": "thoi_gian",
+                        "title": "Thời hạn",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.ket_qua",
+                        "topic": "ket_qua",
+                        "title": "Kết quả và quyền lợi",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P03.N001.TOPIC.dieu_kien",
+                        "topic": "dieu_kien",
+                        "title": "Điều kiện và lưu ý",
+                        "status": "conditional_sources"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P03.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 2,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.N001.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.N001.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": [],
+                "rule_refs": []
+              }
+            ],
+            "children": [
+              {
+                "id": "P03.N001.N001.TOPIC.ho_so",
+                "title": "Hồ sơ cần chuẩn bị",
+                "condition": "Đề nghị đăng ký kết hôn mới; không phải chỉ xin bản sao",
+                "kind": "topic_content",
+                "children_count": 1,
+                "related": [
+                  "P03.N001.TOPIC.ho_so"
+                ],
+                "topic": "ho_so",
+                "owner_id": "P03.N001.N001",
+                "content_status": "local_content",
+                "supporting_topics": [
+                  {
+                    "id": "P03.N001.TOPIC.ho_so",
+                    "owner_id": "P03.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký kết hôn; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_rule"
+                  }
+                ],
+                "blocks": [
+                  {
+                    "id": "P03.N001.N001.TOPIC.ho_so#0",
+                    "text": "Nộp tờ khai chung, xác thực nhân thân; cơ quan khai thác tình trạng hôn nhân, cư trú và hôn nhân trước từ dữ liệu, chỉ yêu cầu chứng cứ khi không khai thác được.",
+                    "topics": [
+                      "huong_dan",
+                      "ho_so"
+                    ],
+                    "source_refs": [
+                      "HTPDF",
+                      "FHT",
+                      "FONLINE"
+                    ],
+                    "review_status": "inherited_not_revalidated"
+                  }
+                ],
+                "reference_relationship": "conditional_child"
+              }
+            ],
+            "child_selection": "none"
+          }
+        ],
+        "loaded_topic": "ho_so",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 1,
+          "at_last_page": true
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [
+          [
+            "P03.C01.TOPIC.ho_so",
+            "P03.N001.TOPIC.ho_so"
+          ]
+        ],
+        "navigation_error": "",
+        "calls_remaining": 7
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 6716,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 612,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 7328
+      },
+      "response_id": "resp_0f097bbb828f72eb016ad203dba1dc87d08a02839f00400d6c",
+      "decision": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "doi_tuong",
+              "value": "Cả hai là công dân Việt Nam, cư trú trong nước; chưa kết hôn với ai; đăng ký kết hôn lần đầu",
+              "evidence": "“Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.”",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "tuoi_nam",
+              "value": "28",
+              "evidence": "“Tôi 28 tuổi”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "tuoi_nu",
+              "value": "26",
+              "evidence": "“bạn gái 26 tuổi”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "tu_nguyen",
+              "value": "Có",
+              "evidence": "“Cả hai tự nguyện”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "khong_quan_he_ho_hang",
+              "value": "Có",
+              "evidence": "“không có quan hệ họ hàng”",
+              "node_id": "P03.NEW"
+            },
+            {
+              "key": "yeu_to_nuoc_ngoai",
+              "value": "Không",
+              "evidence": "“đều là công dân Việt Nam, sống trong nước”",
+              "node_id": "P03.C01"
+            }
+          ],
+          "path": [
+            "P03",
+            "P03.NEW",
+            "P03.C01"
+          ],
+          "summary": "Đăng ký kết hôn lần đầu (không có yếu tố nước ngoài). Đang xem mục: Hồ sơ cần chuẩn bị.",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Hồ sơ cần chuẩn bị (đăng ký kết hôn lần đầu, không có yếu tố nước ngoài)",
+          "sections": [
+            {
+              "title": "Giấy tờ/Thông tin cần có",
+              "items": [
+                "Tờ khai đăng ký kết hôn theo mẫu, có đủ thông tin của hai bên nam, nữ (khi nộp trực tiếp, hai bên có thể khai chung vào một tờ khai).",
+                "Thông tin định danh để cơ quan đăng ký khai thác/xác thực nhân thân.",
+                "Cơ quan đăng ký sẽ khai thác tình trạng hôn nhân, cư trú và tình trạng hôn nhân trước từ dữ liệu; chỉ yêu cầu nộp “căn cứ chấm dứt hôn nhân trước”/chứng cứ liên quan khi không khai thác được dữ liệu."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P03.C01.TOPIC.ho_so#0",
+          "P03.C01.TOPIC.ho_so#1",
+          "P03.N001.N001.TOPIC.ho_so#0"
+        ]
+      },
+      "seconds": 7.183703119007987
+    }
+  ]
+}

@@ -1,0 +1,1267 @@
+[
+  {
+    "origin": "research/P01:0",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P01:1",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P01:2",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P01:3",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P01:4",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P01:5",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P01:6",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P01:7",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P01:8",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P01:9",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P01:10",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P02:0",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P02:1",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P02:2",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P02:3",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P02:4",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P02:5",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P03:0",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P03:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P03:2",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P03:3",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P03:4",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P03:5",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P03:6",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P03:7",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P03:8",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P03:9",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P05:0",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P05:1",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P05:2",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P05:3",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P06:0",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P06:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P06:2",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P06:3",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P06:4",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P06:5",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P06:6",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P06:7",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P07:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P07:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P07:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P07:3",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P07:4",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P07:5",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P07:6",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P07:7",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P07:8",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P07:9",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P08:0",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P08:1",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P08:2",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P08:3",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P08:4",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P08:5",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P08:6",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P08:7",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P08:8",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P08:9",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P09:0",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P09:1",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P09:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P09:3",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P09:4",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P09:5",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P09:6",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P10:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P10:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P10:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P10:3",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P10:4",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P11:0",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P11:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P11:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P11:3",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P11:4",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P11:5",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P11:6",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P11:7",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P11:8",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P11:9",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P12:0",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P12:1",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P12:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P12:3",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P12:4",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P12:5",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P13:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P13:1",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P13:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P13:3",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P13:4",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P14:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P14:1",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P14:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P14:3",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P14:4",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P15:0",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P15:1",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P15:2",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P15:3",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P15:4",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P15:5",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P15:6",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P15:7",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P15:8",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P15:9",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P15:10",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P15:11",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P16:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P16:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P16:2",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P17:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P17:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P17:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P17:3",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P17:4",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P17:5",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P17:6",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P17:7",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P17:8",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P18:0",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P18:1",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P18:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P18:3",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P18:4",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P18:5",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P18:6",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P18:7",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P18:8",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P18:9",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P20:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P20:1",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P20:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P20:3",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P20:4",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P21:0",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P21:1",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P21:2",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P21:3",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P22:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P22:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P22:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P22:3",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P22:4",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P22:5",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P22:6",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P22:7",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P22:8",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P22:9",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P22:10",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P22:11",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P23:0",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P23:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P23:2",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P23:3",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P23:4",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P23:5",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P23:6",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P23:7",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P24:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P24:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P24:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P24:3",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P24:4",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P24:5",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P24:6",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P24:7",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P24:8",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P24:9",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P25:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P25:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P25:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P25:3",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P25:4",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P25:5",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P25:6",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P25:7",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P25:8",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P26:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P26:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P26:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P26:3",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P26:4",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P26:5",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P26:6",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P26:7",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P26:8",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P26:9",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P26:10",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research/P27:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research/P27:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_extra/P02:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_extra/P02:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_extra/P02:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_extra/P02:3",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_extra/P02:4",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_extra/P04:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_extra/P04:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_extra/P04:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_extra/P04:3",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_extra/P05:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_extra/P05:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_extra/P05:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_extra/P05:3",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_extra/P05:4",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_extra/P08:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_extra/P08:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_extra/P08:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_extra/P08:3",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_extra/P08:4",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_gaps/P01:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P01:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P01:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P01:3",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P01:4",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P01:5",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P02:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P02:1",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_gaps/P02:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P02:3",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P02:4",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P05:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P05:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P05:2",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_gaps/P05:3",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P09:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P09:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P09:2",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_gaps/P09:3",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P10:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P10:1",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_gaps/P10:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P10:3",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_gaps/P10:4",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_gaps/P12:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P12:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P12:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P12:3",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_gaps/P12:4",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_gaps/P20:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P20:1",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P20:2",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_gaps/P21:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P21:1",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_gaps/P21:2",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P22:0",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P22:1",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_gaps/P22:2",
+    "decision": "held",
+    "reason": "Not promoted: duplicate/general metadata, older or unverified scope, conflicting templates, wrong topic/procedure, or insufficient source detail"
+  },
+  {
+    "origin": "research_gaps/P22:3",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P22:4",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P22:5",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  },
+  {
+    "origin": "research_gaps/P22:6",
+    "decision": "accepted",
+    "reason": "Reviewed scope, source excerpt and concrete content"
+  }
+]

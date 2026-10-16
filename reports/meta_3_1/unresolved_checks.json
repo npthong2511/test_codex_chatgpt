@@ -1,0 +1,2154 @@
+{
+  "gaps": [
+    {
+      "batch": "research",
+      "procedure": "P01",
+      "target_node_ids": [
+        "P01.N001.N003.N001",
+        "P01.N001.N003.N002",
+        "P01.N001.N003.N003",
+        "P01.M05.N002.N003",
+        "P01.R01.N002.N001",
+        "P01.R01.N003.N004",
+        "P01.R01.N004.N001"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa mở/đọc được toàn văn Nghị quyết 18/2026/NQ-HĐND (bảng mức thu, mức thu theo từng trường hợp như đúng hạn/quá hạn/yếu tố nước ngoài, lệ phí đăng ký lại/cải chính/ghi chú…) để cập nhật đúng số tiền theo hiệu lực từ 19/06/2026. Hiện chỉ đọc được trang “thuộc tính” thể hiện hiệu lực, chưa đủ căn cứ thay các mức phí/lệ phí đang có trong node."
+    },
+    {
+      "batch": "research",
+      "procedure": "P01",
+      "target_node_ids": [
+        "P01.NEW",
+        "P01.C01.N001.N001",
+        "P01.C02.N001.N001",
+        "P01.C03.N001.N001"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở/đọc được Phụ lục thủ tục hộ tịch của Quyết định 163/2026/QĐ-BTP (PDF) để trích nguyên văn thành phần hồ sơ theo từng trường hợp (giấy tờ phải nộp/xuất trình, mẫu tờ khai, trường hợp thay thế giấy chứng sinh, trường hợp phải/không phải nộp giấy tờ kết hôn khi đã khai thác dữ liệu…)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P01",
+      "target_node_ids": [
+        "P01.M03.N001.N001",
+        "P01.M03.N002.N002",
+        "P01.M03.N002.N001",
+        "P01.M03.N003.N001",
+        "P01.M03.N003.N002"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa có nguồn chính thức cấp trung ương (Nghị định/Thông tư hoặc Phụ lục TTHC Bộ Tư pháp) được mở/đọc trực tiếp trong phiên này để trích nguyên văn quy trình lập biên bản, thời gian niêm yết, cách xác định ngày/nơi sinh và họ tên/dân tộc cho trẻ bị bỏ rơi; hiện chỉ có nội dung từ dữ liệu đầu vào và một PDF chuyên đề địa phương khác (Đắk Lắk) mà yêu cầu hạn chế áp dụng."
+    },
+    {
+      "batch": "research",
+      "procedure": "P01",
+      "target_node_ids": [
+        "P01.C02.N001.N001",
+        "P01.C03.N001.N001"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa trích được quy định/điều kiện chi tiết về thỏa thuận quốc tịch cho con, yêu cầu xác nhận của cơ quan nước ngoài khi chọn quốc tịch nước ngoài… từ nguồn chính thức (Luật Hộ tịch/Nghị định/Phụ lục TTHC Bộ Tư pháp) đã mở/đọc trong phiên này; hiện mới có mô tả trong node."
+    },
+    {
+      "batch": "research",
+      "procedure": "P02",
+      "target_node_ids": [
+        "P02.NEW",
+        "P02.C01",
+        "P02.C02",
+        "P02.N001.N001",
+        "P02.N001.N002.N001",
+        "P02.N001.N002.N002",
+        "P02.N001.N002.N003",
+        "P02.N001.N002.N004",
+        "P02.N001.N002.N005",
+        "P02.N001.N002.N006",
+        "P02.N001.N002.N007"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa trích được nguyên văn thành phần hồ sơ, mẫu tờ khai, quy định “giấy báo tử/chứng cứ thay thế” từ Phụ lục Quyết định 163/QĐ-BTP (PDF truy cập được nhưng công cụ bị timeout khi chụp trang; kết quả find không đủ ngữ cảnh để trích nguyên văn chính xác)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P02",
+      "target_node_ids": [
+        "P02.N001.N002.N003",
+        "P02.N001.N002.N004",
+        "P02.N001.N002.N005",
+        "P02.N001.N002.N006"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa mở/đọc được toàn văn Nghị quyết 18/2026/NQ-HĐND (file PDF đính kèm) để trích nguyên văn bảng mức thu/diện miễn áp dụng cho từng trường hợp và kênh nộp tại TP.HCM; hiện mới xác minh được tình trạng hiệu lực và ngày hiệu lực qua trang Công báo."
+    },
+    {
+      "batch": "research",
+      "procedure": "P02",
+      "target_node_ids": [
+        "P02.N001.N001"
+      ],
+      "topic": "noi_nop",
+      "reason": "Chưa xác minh nguồn chính thức của TP.HCM về kênh nộp (Cổng DVC TP.HCM/TT phục vụ hành chính công/bưu chính) và thẩm quyền chính xác theo địa bàn phường Long Nguyên, TP.HCM tại thời điểm 16/10/2026."
+    },
+    {
+      "batch": "research",
+      "procedure": "P02",
+      "target_node_ids": [
+        "P02.N001.N002.N001",
+        "P02.N001.N002.N002"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa trích nguyên văn thời hạn giải quyết thủ tục đăng ký khai tử đơn lẻ (trong ngày/ngày làm việc tiếp theo; xác minh tối đa...) theo bộ TTHC chuẩn (Quyết định 163/QĐ-BTP/hoặc Cổng DVC TP.HCM). Dữ liệu hiện có chỉ đủ cho thủ tục liên thông trên DVCQG."
+    },
+    {
+      "batch": "research",
+      "procedure": "P02",
+      "target_node_ids": [
+        "P02.C02"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa có nguồn chính thức (đã mở và đọc) quy định cụ thể về đăng ký khai tử khi chết đã lâu/không còn giấy báo tử (loại chứng cứ được chấp nhận, cách kiểm tra/xử lý) để đối chiếu với mô tả đang có."
+    },
+    {
+      "batch": "research",
+      "procedure": "P02",
+      "target_node_ids": [
+        "P02.R01",
+        "P02.R01.N001.N001",
+        "P02.R01.N001.N002",
+        "P02.R01.N001.N003",
+        "P02.R01.N001.N004"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa có nguồn chính thức TP.HCM (Nghị quyết 18/2026/NQ-HĐND) trích nguyên văn mức thu tương ứng cho: trích lục/cấp bản sao, đăng ký lại, cải chính, ghi chú hộ tịch (nếu thuộc phạm vi của P02.R01)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P03",
+      "target_node_ids": [
+        "P03.C02",
+        "P03.C02.N001.N002",
+        "P03.C02.N001.N003",
+        "P03.C02.N001.N004",
+        "P03.C02.N001.N005",
+        "P03.C02.N001.N007",
+        "P03.C02.N001.N008",
+        "P03.C02.N001.N009",
+        "P03.C02.N001.N010",
+        "P03.C02.N001.N011",
+        "P03.C02.N001.N012",
+        "P03.C02.N001.N013"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở/đọc được trang chi tiết thủ tục ‘đăng ký kết hôn có yếu tố nước ngoài’ đầy đủ (đặc biệt các mục về giấy tờ tình trạng hôn nhân người nước ngoài, hộ chiếu/giấy tờ đi lại, hợp pháp hóa lãnh sự/dịch thuật, thời hạn giấy tờ 6 tháng, xác nhận của cơ quan/ngành đặc thù) để trích nguyên văn có điều kiện và ngữ cảnh đầy đủ."
+    },
+    {
+      "batch": "research",
+      "procedure": "P03",
+      "target_node_ids": [
+        "P03.C02.N001.N010",
+        "P03.C02.N001.N011"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa có nguồn chính thức đã mở và trích dẫn nguyên văn về thời hạn giải quyết đăng ký kết hôn có yếu tố nước ngoài (ví dụ 5/10 ngày làm việc) và quy định ‘gia hạn trao giấy không quá 60 ngày’ để xác nhận/hiệu chỉnh nội dung node."
+    },
+    {
+      "batch": "research",
+      "procedure": "P03",
+      "target_node_ids": [
+        "P03.C02.N001.N012",
+        "P03.C02.N001.N013",
+        "P03.R01.N001.N002",
+        "P03.R01.N001.N003"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa mở được tệp PDF nội dung Nghị quyết 18/2026/NQ-HĐND (TP.HCM) hoặc nguồn chính thức khác có bảng mức thu chi tiết theo từng thủ tục và theo phương thức nộp (trực tiếp/bưu chính/trực tuyến) để xác minh các mức 1.500.000, 75.000, 30.000 và chính sách 0 đồng khi nộp trực tuyến."
+    },
+    {
+      "batch": "research",
+      "procedure": "P03",
+      "target_node_ids": [
+        "P03.R01",
+        "P03.R01.N001.N001",
+        "P03.R01.N001.N002",
+        "P03.R01.N001.N003",
+        "P03.R01.N001.N004",
+        "P03.R01.N001.N005"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa mở/đọc được nguồn chính thức cấp bộ/cổng DVCQG hoặc Phụ lục thủ tục (QĐ 163/QĐ-BTP) phần ‘trích lục kết hôn/đăng ký lại kết hôn/ghi chú kết hôn/ghi chú ly hôn’ để trích nguyên văn về thành phần hồ sơ, điều kiện, trình tự và thời hạn giải quyết."
+    },
+    {
+      "batch": "research",
+      "procedure": "P03",
+      "target_node_ids": [
+        "P03.N001.N001"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa tìm/mở được nguồn chính thức (Luật Hôn nhân và gia đình hoặc trang nghiệp vụ hộ tịch của Bộ Tư pháp) để trích nguyên văn điều kiện kết hôn/nhóm hành vi bị cấm/không thừa nhận hôn nhân cùng giới; vì yêu cầu ‘không dùng trí nhớ’ nên chưa thể bổ sung/hiệu chỉnh phần điều kiện."
+    },
+    {
+      "batch": "research",
+      "procedure": "P03",
+      "target_node_ids": [
+        "P03.C01"
+      ],
+      "topic": "chi_phi",
+      "reason": "Trang Cổng DVCQG thủ tục ‘Đăng ký kết hôn’ hiển thị ‘Lệ phí: Đồng – Xem chi tiết’ nhưng chưa mở được phần ‘Xem chi tiết’ để có trích dẫn nguyên văn về mức thu cụ thể và căn cứ miễn lệ phí theo địa phương; do đó chưa thể xác minh ‘miễn lệ phí’/mức thu theo TP.HCM bằng trích dẫn đầy đủ."
+    },
+    {
+      "batch": "research",
+      "procedure": "P03",
+      "target_node_ids": [
+        "P03"
+      ],
+      "topic": "noi_nop",
+      "reason": "Chưa có nguồn chính thức đã mở xác định chính xác địa chỉ/đầu mối tiếp nhận tại phường Long Nguyên, TP.HCM (Bộ phận một cửa, Trung tâm Phục vụ hành chính công cấp xã/phường, hoặc cơ chế nộp qua cổng TP.HCM) để tránh suy diễn theo địa phương khác."
+    },
+    {
+      "batch": "research",
+      "procedure": "P05",
+      "target_node_ids": [
+        "P05",
+        "P05.N001.N001",
+        "P05.N001.N002",
+        "P05.C01",
+        "P05.C02",
+        "P05.C03"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở được PDF “Phụ lục thủ tục hộ tịch của Quyết định 163/QĐ-BTP 2026” (nguồn HTPDF trong input bị timeout khi open). Vì thiếu nguồn đã đọc, chưa thể bổ sung chính xác thành phần hồ sơ (tờ khai theo mẫu nào; giấy tờ phải xuất trình/nộp; trường hợp ủy quyền; giấy tờ chứng minh trong các nhánh C01/C02/C03) theo văn bản 2026."
+    },
+    {
+      "batch": "research",
+      "procedure": "P05",
+      "target_node_ids": [
+        "P05.N001.N002"
+      ],
+      "topic": "chi_phi",
+      "reason": "Mới đọc được trang “thuộc tính” của Nghị quyết 18/2026/NQ-HĐND trên Công báo TP.HCM, chưa mở/đọc phụ lục mức thu. Do đó chưa thể xác nhận mức lệ phí cụ thể cho thủ tục “cấp giấy xác nhận tình trạng hôn nhân” tại TP.HCM (trực tiếp/bưu chính/miễn giảm/0 đồng trực tuyến)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P05",
+      "target_node_ids": [
+        "P05.N001.N001"
+      ],
+      "topic": "noi_nop",
+      "reason": "Chưa xác minh được trang thủ tục tương ứng trên Hệ thống Thông tin giải quyết TTHC TP.HCM (dichvucong.hochiminhcity.gov.vn hoặc hệ thống một cửa của TP) cho đúng địa bàn phường Long Nguyên: kênh tiếp nhận, tên bộ phận một cửa, luồng nộp trực tuyến, bưu chính công ích."
+    },
+    {
+      "batch": "research",
+      "procedure": "P05",
+      "target_node_ids": [
+        "P05.N001.N002"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa có nguồn chính thức của TP.HCM/ Bộ Tư pháp (bản 2026) xác nhận đầy đủ thời hạn giải quyết gồm: mốc 03 ngày làm việc và thời hạn tối đa khi phải xác minh (và cơ sở tính ‘ngày làm việc’). Nguồn phường Tây Nam chỉ thể hiện mốc 03 ngày."
+    },
+    {
+      "batch": "research",
+      "procedure": "P05",
+      "target_node_ids": [
+        "P05.C02"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa có nguồn đã đọc (văn bản/niêm yết 2026) xác nhận điều kiện/cách xử lý đối với trường hợp ly hôn/hủy kết hôn ở nước ngoài (yêu cầu ghi chú hộ tịch, giấy tờ chứng minh, tình trạng hiệu lực bản án/quyết định...) để bổ sung chắc chắn cho nhánh C02."
+    },
+    {
+      "batch": "research",
+      "procedure": "P05",
+      "target_node_ids": [
+        "P05.C03"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa có nguồn chính thức 2026 đã đọc về yêu cầu nộp lại giấy xác nhận tình trạng hôn nhân đã cấp khi xin cấp lại do hết hạn/đổi mục đích; và trường hợp không nộp lại được thì cách thức xác minh/ cam đoan."
+    },
+    {
+      "batch": "research",
+      "procedure": "P05",
+      "target_node_ids": [
+        "P05"
+      ],
+      "topic": "ket_qua",
+      "reason": "Chưa có nguồn chính thức 2026 đã đọc mô tả rõ kết quả trả về theo từng kênh (bản giấy, bản điện tử; cách nhận; việc gửi về kho dữ liệu điện tử cá nhân; trường hợp chỉ cấp 01 bản khi dùng để kết hôn...)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P06",
+      "target_node_ids": [
+        "P06.C01.N001.N001",
+        "P06.C01.N001.N002",
+        "P06.C01.N001.N003"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở/đọc được nguồn chính thức quy định chi tiết “giấy tờ, tài liệu chứng minh chỗ ở hợp pháp” gồm các loại nào, và cơ chế ‘khai thác dữ liệu thay thế’ (trường hợp dữ liệu đã có/đã kết nối thì không phải xuất trình). Trang thủ tục 26356 chỉ nêu chung ‘Giấy tờ, tài liệu chứng minh chỗ ở hợp pháp’."
+    },
+    {
+      "batch": "research",
+      "procedure": "P06",
+      "target_node_ids": [
+        "P06.C01.N001.N003"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Input nêu miễn cung cấp giấy tờ chỗ ở hợp pháp theo một khoản/điều cụ thể của Thông tư 116/2026; chưa mở được nội dung điều/khoản đó từ bản PDF/Doc Thông tư 116/2026 để xác minh nguyên văn, điều kiện áp dụng và phạm vi (chỉ vợ chồng/cha mẹ con hay còn trường hợp khác)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P06",
+      "target_node_ids": [
+        "P06.N001.N004"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa mở/đọc được trực tiếp file PDF ký số của Thông tư 29/2026/TT-BTC (29-btc.signed.pdf) trong phiên này do giới hạn lượt gọi công cụ; vì vậy chưa trích nguyên văn điều khoản miễn lệ phí theo kỳ khi thực hiện dịch vụ công trên VNeID (1/4–31/12/2026) để gắn source_quote chính thức."
+    },
+    {
+      "batch": "research",
+      "procedure": "P06",
+      "target_node_ids": [
+        "P06.REG"
+      ],
+      "topic": "ket_qua",
+      "reason": "Nội dung ‘không cấp sổ tạm trú’ trong input chưa được đối chiếu bằng nguồn chính thức đã mở/đọc trong phiên này (Luật Cư trú/Thông tư hướng dẫn hoặc mô tả kết quả trên cổng dịch vụ công)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P06",
+      "target_node_ids": [
+        "P06.R01.N001.N001",
+        "P06.R01.N002.N001"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa mở/đọc được nguồn chính thức về thời hạn thông báo lưu trú (mốc 23h/8h) và thời hạn khai báo tạm trú người nước ngoài (12h/24h) trong phiên này; các mốc này cần trích dẫn nguyên văn từ Luật/Thông tư hoặc cổng dịch vụ công/hướng dẫn chính thức."
+    },
+    {
+      "batch": "research",
+      "procedure": "P06",
+      "target_node_ids": [
+        "P06.N001.N003"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa mở/đọc được điều khoản miễn lệ phí tại Điều 4 Thông tư 75/2022/TT-BTC (hoặc văn bản sửa đổi) trong phiên này để trích nguyên văn đầy đủ danh mục đối tượng miễn và điều kiện/giấy tờ chứng minh."
+    },
+    {
+      "batch": "research",
+      "procedure": "P07",
+      "target_node_ids": [
+        "P07",
+        "P07.C01",
+        "P07.C02",
+        "P07.C03"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa tìm/mở được nguồn chính thức thể hiện rõ mức thu lệ phí/không thu lệ phí đối với (i) cấp giấy xác nhận thông tin về cư trú và (ii) điều chỉnh thông tin cư trú theo Thông tư 116/2026/TT-BCA hoặc trên Cổng DVCQG/Bộ Công an/TP.HCM; do giới hạn lượt truy cập web và chưa mở được bản PDF/DOCX của Thông tư 116 (lỗi tải). Vì vậy chưa thể xác minh câu “không có lệ phí” trong dữ liệu đầu vào."
+    },
+    {
+      "batch": "research",
+      "procedure": "P07",
+      "target_node_ids": [
+        "P07.C01"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở được văn bản gốc (PDF/DOCX) của Thông tư 116/2026/TT-BCA để trích nguyên văn thành phần hồ sơ và biểu mẫu CT01/CT07 (tên mẫu, nội dung bắt buộc, trường thông tin). Nguồn đã đọc chỉ mô tả nguyên tắc/điều kiện, không liệt kê hồ sơ chi tiết."
+    },
+    {
+      "batch": "research",
+      "procedure": "P07",
+      "target_node_ids": [
+        "P07.C02",
+        "P07.C02.N001",
+        "P07.C02.N002",
+        "P07.C03"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa có nguồn đã mở nêu rõ quy trình các bước thực hiện điều chỉnh thông tin cư trú (tiếp nhận, kiểm tra, cập nhật, thông báo kết quả), kênh nộp hồ sơ, và thời hạn xử lý điều chỉnh (ví dụ '03 ngày làm việc') theo Thông tư 116/2026/TT-BCA hoặc công bố TTHC trên cổng dịch vụ công."
+    },
+    {
+      "batch": "research",
+      "procedure": "P07",
+      "target_node_ids": [
+        "P07.C01",
+        "P07.C02",
+        "P07.C03"
+      ],
+      "topic": "noi_nop",
+      "reason": "Chưa xác minh được điểm tiếp nhận cụ thể tại TP.HCM/Phường Long Nguyên (cơ quan đăng ký cư trú có thẩm quyền/địa chỉ, cách nộp online trên cổng nào) từ nguồn chính thức TP.HCM hoặc Bộ Công an đã mở trong phiên này."
+    },
+    {
+      "batch": "research",
+      "procedure": "P07",
+      "target_node_ids": [
+        "P07.C01",
+        "P07.C03"
+      ],
+      "topic": "ket_qua",
+      "reason": "Chưa có nguồn đã mở xác nhận tên/mã biểu mẫu trả kết quả là “CT07” (Giấy xác nhận thông tin về cư trú). Bài viết chỉ nêu 'xác nhận thông tin về cư trú' và giá trị sử dụng, không nêu mã mẫu CT07."
+    },
+    {
+      "batch": "research",
+      "procedure": "P08",
+      "target_node_ids": [
+        "P08"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa mở được nguồn chính thức (Cổng DVC Bộ Công an/DVCQG hoặc văn bản quy phạm) xác nhận thời hạn 'không quá 7 ngày làm việc' áp dụng cho toàn bộ cấp/đổi/cấp lại tại thời điểm 16/10/2026; các nguồn đã mở trong lượt này chưa nêu thời hạn cụ thể."
+    },
+    {
+      "batch": "research",
+      "procedure": "P08",
+      "target_node_ids": [
+        "P08.N001.N003"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa mở được văn bản nguồn gốc về mức thu 50.000/70.000 và quy định giảm 50% giai đoạn 01/7/2025–31/12/2026 (ví dụ Thông tư 73/2024/TT-BTC và văn bản sửa đổi/bổ sung liên quan) để trích nguyên văn; vì vậy chưa thể xác minh biểu phí trong node này."
+    },
+    {
+      "batch": "research",
+      "procedure": "P08",
+      "target_node_ids": [
+        "P08.N001.N004"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa mở được điều khoản gốc quy định nhóm miễn theo Thông tư 73/2024/TT-BTC (và sửa đổi bởi Thông tư 71/2025/TT-BTC) để trích nguyên văn đúng phạm vi miễn đối với phí căn cước; node hiện có liệt kê nhóm miễn nhưng chưa có trích dẫn nguyên văn từ văn bản phí."
+    },
+    {
+      "batch": "research",
+      "procedure": "P08",
+      "target_node_ids": [
+        "P08.N001.N002"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa mở được nguồn chính thức xác nhận chi tiết 'tuổi đổi bắt buộc 14, 25, 40, 60' và quy tắc 'thẻ cấp/đổi/cấp lại trong 2 năm trước tuổi đổi được dùng đến tuổi đổi tiếp theo' tại thời điểm 16/10/2026; cần đối chiếu Luật Căn cước và/hoặc văn bản hướng dẫn hiện hành."
+    },
+    {
+      "batch": "research",
+      "procedure": "P08",
+      "target_node_ids": [
+        "P08.C03"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa có nguồn chính thức đã mở trong lượt này xác nhận câu 'từ đủ 14 tuổi phải làm căn cước nếu chưa có thẻ hợp lệ' và các điểm quy trình tương ứng cho nhánh cấp lần đầu từ đủ 14 tuổi; cần mở thủ tục tương ứng trên Cổng DVC Bộ Công an hoặc DVCQG."
+    },
+    {
+      "batch": "research",
+      "procedure": "P08",
+      "target_node_ids": [
+        "P08.C04"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở được trang thủ tục chính thức (Cổng DVC Bộ Công an/DVCQG) cho 'cấp đổi' để trích nguyên văn hồ sơ thành phần (DC02/CC01/giấy tờ chứng minh thay đổi, trường hợp phải nộp/không phải nộp)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P08",
+      "target_node_ids": [
+        "P08.C05"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa có nguồn đã mở xác nhận mức phí cấp lại và các trường hợp miễn/giảm theo đối tượng (vì phí thuộc Thông tư của Bộ Tài chính, cần trích nguyên văn đúng thời điểm 16/10/2026)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P08",
+      "target_node_ids": [
+        "P08.N001.N001"
+      ],
+      "topic": "noi_nop",
+      "reason": "Chưa có nguồn chính thức của Công an TP.HCM hoặc Cổng DVC Bộ Công an xác nhận cụ thể điểm thu nhận/địa chỉ/đầu mối tại phường Long Nguyên (TP.HCM) và trạng thái 'đã triển khai' tại cấp xã/điểm một cửa; các nguồn đã mở chỉ nêu nguyên tắc chung."
+    },
+    {
+      "batch": "research",
+      "procedure": "P09",
+      "target_node_ids": [
+        "P09.C01.N001.N001",
+        "P09.C02.N001.N001",
+        "P09.C03.N001.N001"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa trích được đoạn trong nguồn chính thức TP.HCM (PDF Quyết định 44/2026) quy định thời hạn giải quyết cho các biến động do chuyển nhượng/tặng cho/thừa kế ‘thông thường’. Hiện mới trích được các mốc 4–5 ngày cho nhóm thay đổi thông tin/hạn chế quyền và một ví dụ 8 ngày cho hồ sơ dự án nộp theo lô; chưa đủ để xác nhận ‘không quá 8 ngày làm việc’ cho mọi hồ sơ chuyển nhượng/tặng cho/thừa kế."
+    },
+    {
+      "batch": "research",
+      "procedure": "P09",
+      "target_node_ids": [
+        "P09.N001.N005",
+        "P09.N001.N006",
+        "P09.N001.N007",
+        "P09.M02.N003"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa mở/đọc được nguồn chính thức TP.HCM (HĐND/UBND TP.HCM) về phí thẩm định hồ sơ đất đai, lệ phí cấp Giấy chứng nhận và phí đăng ký biện pháp bảo đảm áp dụng tại Long Nguyên (TP.HCM) sau sắp xếp. Các mức phí đang có trong cây dữ liệu (nguồn Bình Dương cũ) không thể tự suy áp dụng cho TP.HCM nếu chưa có văn bản tiếp tục áp dụng hoặc quy định chuyển tiếp."
+    },
+    {
+      "batch": "research",
+      "procedure": "P09",
+      "target_node_ids": [
+        "P09.C01.N001.N001",
+        "P09.C02.N001.N001",
+        "P09.C03.N001.N001",
+        "P09.M03.N001.N001"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa trích được từ nguồn chính thức TP.HCM danh mục ‘thành phần có điều kiện’ đầy đủ cho từng trường hợp (ví dụ: trường hợp chỉ chuyển nhượng/tặng cho một phần thửa đất cần ‘bản vẽ tách/hợp thửa theo Mẫu số 22’ hay khi nào bắt buộc mảnh trích đo). Hiện mới có trích dẫn rời rạc về Mẫu 22 và mảnh trích đo trong phần thủ tục chung, chưa đủ ngữ cảnh để gắn cho từng case."
+    },
+    {
+      "batch": "research",
+      "procedure": "P09",
+      "target_node_ids": [
+        "P09.C07.N001.N001",
+        "P09.C07.N002.N001",
+        "P09.C07.N002.N002",
+        "P09.C07.N002.N003",
+        "P09.C07.N002.N004"
+      ],
+      "topic": "ho_so",
+      "reason": "Các nội dung đang ghi 'Mẫu 01/02/03/4a/4b theo Quyết định 44' chưa được đối chiếu trực tiếp bằng trích dẫn nguyên văn từ Quyết định 44/2026 PDF về đúng tên mẫu, ký hiệu mẫu và thành phần hồ sơ tương ứng."
+    },
+    {
+      "batch": "research",
+      "procedure": "P09",
+      "target_node_ids": [
+        "P09.M02.N002.N001"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa mở/đọc trực tiếp nguồn chính thức của Chính phủ/cổng bộ/ngành về Nghị định 18/2026 (nội dung sửa Nghị định 99/2022) để trích nguyên văn điều kiện ‘khai thác dữ liệu thay việc nộp giấy tờ’ và phạm vi áp dụng; nguồn hiện có là bài hướng dẫn của Bộ Tư pháp, cần bổ sung trích dẫn điều khoản trong văn bản quy phạm pháp luật."
+    },
+    {
+      "batch": "research",
+      "procedure": "P09",
+      "target_node_ids": [
+        "P09.C02.N001.N002",
+        "P09.C02.N001.N003",
+        "P09.M03.N002.N001",
+        "P09.M03.N003.N001"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa mở/đọc trực tiếp các điều khoản trong Nghị định 253/2026/NĐ-CP (bản ký) về: (i) thu nhập từ nhận thừa kế/quà tặng, ngưỡng 20 triệu, thời điểm xác định thu nhập đối với nhà đất; (ii) chuyển nhượng bất động sản; (iii) góp vốn bằng bất động sản. Do đó chưa thể bổ sung/đính chính các con số/điều kiện thuế trong các node này theo yêu cầu 'không dùng trí nhớ'."
+    },
+    {
+      "batch": "research",
+      "procedure": "P10",
+      "target_node_ids": [
+        "P10.C01.N001.N001",
+        "P10.C02.N001.N001",
+        "P10.C03.N001.N001"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở được Phụ lục V (Biểu mẫu) và phần mô tả “thành phần hồ sơ” chi tiết theo từng thủ tục trong Phụ lục IV của Quyết định 44/2026/QĐ-UBND TP.HCM để trích nguyên văn nội dung về mẫu (Mẫu 15, 15a, 16, 18) và giấy tờ kèm theo áp dụng tại TP.HCM."
+    },
+    {
+      "batch": "research",
+      "procedure": "P10",
+      "target_node_ids": [
+        "P10.N001.N007"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa tìm/mở được Nghị quyết HĐND TP.HCM đang có hiệu lực (tại 16/10/2026) quy định mức thu lệ phí cấp Giấy chứng nhận/ chứng nhận biến động. Dữ liệu hiện có về lệ phí trong các node đang dựa trên nguồn Bình Dương cũ nên chưa thể xác minh áp dụng cho phường Long Nguyên (TP.HCM)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P10",
+      "target_node_ids": [
+        "P10.N001.N005",
+        "P10.N001.N006"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa tìm/mở được Nghị quyết HĐND TP.HCM đang có hiệu lực (tại 16/10/2026) quy định mức thu phí thẩm định hồ sơ cấp Giấy chứng nhận và các trường hợp miễn/giảm, hệ số theo số giấy… để thay thế/đối chiếu với biểu phí Bình Dương cũ."
+    },
+    {
+      "batch": "research",
+      "procedure": "P10",
+      "target_node_ids": [
+        "P10.N001.N002"
+      ],
+      "topic": "noi_nop",
+      "reason": "Chưa mở được trang thủ tục cụ thể trên Cổng DVCQG hoặc Cổng DVC TP.HCM cho thủ tục “đăng ký, cấp GCN lần đầu” để trích nguyên văn nơi nộp/đầu mối tiếp nhận theo địa bàn phường Long Nguyên (ví dụ: Trung tâm phục vụ hành chính công cấp xã nào, hoặc điểm tiếp nhận nào). Nguồn hiện có mới là văn bản quy định chung."
+    },
+    {
+      "batch": "research",
+      "procedure": "P11",
+      "target_node_ids": [
+        "P11.C02",
+        "P11.C02.N001",
+        "P11.C03"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở được nguồn chính thức/nguồn Bộ-ngành về thủ tục 'cấp lại Giấy chứng nhận do mất' và 'mất trang bổ sung' để đối chiếu thành phần hồ sơ, trình tự (niêm yết/đăng tin), điều kiện, thời hạn, và cách xử lý trường hợp đang thế chấp. Dữ liệu hiện có trong node là mô tả nội bộ nhưng chưa có source_quote từ nguồn đã mở."
+    },
+    {
+      "batch": "research",
+      "procedure": "P11",
+      "target_node_ids": [
+        "P11.C02",
+        "P11.C02.N001",
+        "P11.C03"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa có nguồn đã mở xác nhận thời hạn '10 ngày làm việc' cho cấp lại do mất và các khoảng thời gian không tính (niêm yết/đăng tin...). Cần mở thủ tục tương ứng trên cổng dịch vụ công/Quyết định công bố TTHC của Bộ hoặc TP.HCM."
+    },
+    {
+      "batch": "research",
+      "procedure": "P11",
+      "target_node_ids": [
+        "P11.C04",
+        "P11.C04.N001.N001",
+        "P11.C04.N001.N002",
+        "P11.C04.N001.N003"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa có nguồn đã mở xác nhận thời hạn xử lý các nhánh 'sai vị trí/kích thước/diện tích theo đo đạc', đặc biệt trường hợp 'đo đồng loạt theo dự án' và giới hạn áp dụng. Cần mở đúng mục/thủ tục trong Quyết định 44/2026/QĐ-UBND (PDF) hoặc trang TTHC tương ứng."
+    },
+    {
+      "batch": "research",
+      "procedure": "P11",
+      "target_node_ids": [
+        "P11.N001.N005",
+        "P11.N001.N006",
+        "P11.N001.N007"
+      ],
+      "topic": "chi_phi",
+      "reason": "Các mức 'phí thẩm định' và 'lệ phí cấp giấy' đang tham chiếu văn bản Bình Dương cũ nhưng chưa có nguồn TP.HCM hoặc cơ sở pháp lý sau sắp xếp địa giới khẳng định còn áp dụng tại phường Long Nguyên, TP.HCM vào 16/10/2026; chưa đối chiếu biểu phí/lệ phí hiện hành của TP.HCM."
+    },
+    {
+      "batch": "research",
+      "procedure": "P11",
+      "target_node_ids": [
+        "P11.N001.N007.N012"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa có nguồn đã mở chứng minh 'chính sách 0 đồng của Thành phố' áp cho lệ phí cấp đổi/cấp lại GCN hoặc điều kiện áp dụng tại TP.HCM. Thông tư 117/2026/TT-BTC đã mở chỉ nêu khung miễn/giảm và một số nhóm khoản phí/lệ phí (trong ảnh đã chụp chưa thấy nhóm lệ phí cấp GCN đất đai)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P11",
+      "target_node_ids": [
+        "P11.N001.N002"
+      ],
+      "topic": "noi_nop",
+      "reason": "Chưa mở được trang thủ tục chính thức của Cổng Dịch vụ công TP.HCM hoặc Cổng DVCQG hiển thị riêng cho địa bàn TP.HCM (có địa chỉ/điểm tiếp nhận) do lỗi truy cập khi mở trang chi tiết TTHC trên dichvucong.gov.vn; vì vậy chưa bổ sung được hướng dẫn 'nộp ở đâu' theo danh sách điểm tiếp nhận tại TP.HCM."
+    },
+    {
+      "batch": "research",
+      "procedure": "P12",
+      "target_node_ids": [
+        "P12.C01.N001.N001"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở được nguồn chính thức (PDF/biểu mẫu thuộc Quyết định 44/2026/QĐ-UBND hoặc Cổng DVC TP.HCM) để xác minh chính xác thành phần hồ sơ cho đăng ký biến động do chuyển nhượng (ví dụ: tên biểu mẫu, mẫu số, giấy tờ kèm theo, trường hợp chuyển một phần thửa…). Hiện mới có mô tả trong dữ liệu đầu vào nhưng chưa có source_quote từ nguồn đã đọc."
+    },
+    {
+      "batch": "research",
+      "procedure": "P12",
+      "target_node_ids": [
+        "P12.C01.N001.N002"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa mở được mục thời hạn giải quyết thủ tục đăng ký biến động do chuyển nhượng trong Quyết định 44/2026/QĐ-UBND (hoặc tài liệu công bố TTHC/Phụ lục) để xác minh con số “tối đa 8 ngày làm việc”, cũng như các khoảng thời gian loại trừ."
+    },
+    {
+      "batch": "research",
+      "procedure": "P12",
+      "target_node_ids": [
+        "P12.C01.N001.N002",
+        "P12.N001.N004"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa mở được văn bản/nguồn chính thức để xác minh: (i) lệ phí cấp Giấy chứng nhận, (ii) phí thẩm định hồ sơ, (iii) phí đo đạc/trích đo (nếu có), (iv) phí công chứng/chứng thực cho hợp đồng chuyển nhượng áp dụng tại TP.HCM thời điểm 16/10/2026. Các nguồn Bình Dương cũ trong input không thể dùng để khẳng định mức phí cho Long Nguyên (TP.HCM)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P12",
+      "target_node_ids": [
+        "P12.C01.N001.N003"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa mở được bản ký/nguồn chính thức của Nghị định 10/2022/NĐ-CP và Nghị định 175/2025/NĐ-CP để trích nguyên văn quy tắc “giá tính lệ phí trước bạ” áp dụng cho nhà, đất (Điều 7 và các điều khoản sửa đổi)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P12",
+      "target_node_ids": [
+        "P12.C01.N001.N004"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa mở được bản PDF ký số của Nghị định 253/2026/NĐ-CP để trích nguyên văn quy định “giá chuyển nhượng”/trường hợp hợp đồng không ghi giá hoặc ghi thấp hơn…; hiện mới có bài tóm lược trên Cổng Chính phủ."
+    },
+    {
+      "batch": "research",
+      "procedure": "P12",
+      "target_node_ids": [
+        "P12.N001.N002"
+      ],
+      "topic": "noi_nop",
+      "reason": "Chưa xác minh được (từ Cổng DVC TP.HCM hoặc Sở TN&MT/Văn phòng đăng ký đất đai TP.HCM) địa chỉ/đầu mối tiếp nhận cụ thể tại phường Long Nguyên (TP.HCM) thời điểm 16/10/2026; dữ liệu đầu vào nêu chung “một cửa/Chi nhánh VPĐKĐĐ” nhưng chưa có nguồn đã mở nêu chi tiết tuyến tiếp nhận theo địa bàn."
+    },
+    {
+      "batch": "research",
+      "procedure": "P13",
+      "target_node_ids": [
+        "P13.N001.N001",
+        "P13.C01.N001.N001",
+        "P13.C02.N001.N001"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở được file PDF công bố thủ tục đất đai TP.HCM (ND_TTHC_Dat_dai_QD44_signed.pdf) do lỗi timeout/tool limit; vì vậy chưa thể trích nguyên văn Mẫu đơn (Mẫu 15/Mẫu 18 như dữ liệu hiện có) và thành phần hồ sơ cụ thể theo Quyết định 44/2026/QĐ-UBND TP.HCM tại thời điểm 16/10/2026."
+    },
+    {
+      "batch": "research",
+      "procedure": "P13",
+      "target_node_ids": [
+        "P13.N001.N002"
+      ],
+      "topic": "noi_nop",
+      "reason": "Chưa đọc được thủ tục TP.HCM theo Quyết định 44/2026/QĐ-UBND (PDF) để xác định chính xác kênh tiếp nhận áp dụng tại TP.HCM (Cổng DVC TP.HCM/TT.PVHCC/Chi nhánh VPĐKĐĐ) và thẩm quyền ký/cấp theo từng loại hồ sơ; dữ liệu hiện có mới dừng ở mô tả chung trên Cổng DVCQG."
+    },
+    {
+      "batch": "research",
+      "procedure": "P13",
+      "target_node_ids": [
+        "P13.N001.N003",
+        "P13.C01.N001.N002",
+        "P13.C02.N001.N002"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa trích được quy định TP.HCM về thời hạn giải quyết, các khoảng thời gian loại trừ (niêm yết, xác minh, nghĩa vụ tài chính…) theo Quyết định 44/2026/QĐ-UBND vì chưa mở được PDF; chỉ có quy định chung về việc phải thông báo khi trễ hạn."
+    },
+    {
+      "batch": "research",
+      "procedure": "P13",
+      "target_node_ids": [
+        "P13.N001.N005",
+        "P13.N001.N006",
+        "P13.N001.N007"
+      ],
+      "topic": "chi_phi",
+      "reason": "Các mức ‘phí thẩm định/lệ phí cấp giấy’ đang gắn Bình Dương cũ trong dữ liệu đầu vào chưa được xác minh theo nguồn TP.HCM 2026. Chưa mở được bảng phí/lệ phí áp dụng trên địa bàn TP.HCM để thay thế hoặc xác nhận; cũng không thể kết luận miễn/giảm khi chưa đọc văn bản hiệu lực."
+    },
+    {
+      "batch": "research",
+      "procedure": "P14",
+      "target_node_ids": [
+        "P14.C01.N001.N001",
+        "P14.C01.N003.N001",
+        "P14.C02.N001.N001",
+        "P14.C02.N002.N001",
+        "P14.C03.N001.N001",
+        "P14.C03.N002.N001",
+        "P14.C03.N003"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở/đọc trực tiếp bản chính thức Nghị định 217/2026/NĐ-CP (PDF ký số trên cổng Chính phủ/vanban.chinhphu.vn) để trích nguyên văn đúng các điều/khoản/phụ lục về thành phần hồ sơ cho từng trường hợp (cấp mới nhà ở; cấp mới công trình khác; sửa chữa/cải tạo; di dời; điều chỉnh; gia hạn; cấp lại). Các nội dung hiện có trong node đang viện dẫn “Điều 55/57/60/63” nhưng chưa có source_quote từ bản đã đọc."
+    },
+    {
+      "batch": "research",
+      "procedure": "P14",
+      "target_node_ids": [
+        "P14.N001.N002.N001",
+        "P14.N001.N002.N002",
+        "P14.N001.N002.N003",
+        "P14.N001.N002.N004",
+        "P14.N001.N002.N005"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Các node thời hạn đang nêu 7/9/10/5 ngày làm việc (mốc mới của TP.HCM) nhưng chưa có trích dẫn nguyên văn từ nguồn chính thức (Cổng DVC TP.HCM hoặc văn bản hướng dẫn/niêm yết thủ tục hành chính của TP.HCM sau 01/7/2026) làm căn cứ. Nguồn báo/tin (HĐND TP.HCM) chưa đủ thay thế cho trích dẫn quy định/thủ tục được ban hành."
+    },
+    {
+      "batch": "research",
+      "procedure": "P14",
+      "target_node_ids": [
+        "P14.N001.N003",
+        "P14.C03.N005.N001"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa xác minh được lệ phí cấp phép xây dựng áp dụng tại phường Long Nguyên (TP.HCM) thời điểm 16/10/2026 bằng nguồn chính thức của TP.HCM (Nghị quyết HĐND TP.HCM/niêm yết phí, lệ phí thủ tục hành chính). Bộ dữ liệu hiện đang dùng Nghị quyết 71/2016/NQ-HĐND9 của Bình Dương và có ghi giới hạn phạm vi; cần nguồn TP.HCM để không suy diễn. Riêng “lệ phí cấp lại ngoài trực tuyến” vẫn đang để trống theo yêu cầu (không suy miễn/không suy mức thu)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P14",
+      "target_node_ids": [
+        "P14.N001.N003.N004",
+        "P14.C03.N003.N003"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa mở/đọc được văn bản TP.HCM quy định danh mục thủ tục áp dụng mức thu lệ phí 0 đồng khi nộp trực tuyến và thời hạn áp dụng (các trang niêm yết cấp phường không phải nguồn quy phạm của TP.HCM). Kết quả tìm thấy 1 PDF gắn nhãn “Nghị quyết 08/2025/NQ-HĐND” trên Công báo TP.HCM nhưng nội dung hiển thị không khớp chủ đề lệ phí trực tuyến; cần truy đúng Nghị quyết về lệ phí trực tuyến (nếu có) và trích nguyên văn điều khoản/danh mục."
+    },
+    {
+      "batch": "research",
+      "procedure": "P14",
+      "target_node_ids": [
+        "P14.N001.N001"
+      ],
+      "topic": "noi_nop",
+      "reason": "Chưa xác minh được “nơi giải quyết/nơi nộp” cụ thể theo phân cấp cho UBND phường Long Nguyên (TP.HCM) hoặc Ban quản lý khu (nếu thuộc KCN/KCX/KCNC/KKT) bằng trích dẫn từ Quyết định 29/2025/QĐ-UBND (các điều khoản phân cấp trong PDF) và/hoặc trang thủ tục hành chính TP.HCM cập nhật sau 01/7/2026. Hiện mới có trích về hiệu lực và trách nhiệm quản lý GPXD có thời hạn, chưa trích phần phân cấp thẩm quyền theo loại công trình."
+    },
+    {
+      "batch": "research",
+      "procedure": "P14",
+      "target_node_ids": [
+        "P14.C01.N006.N001",
+        "P14.C01.N006.N002",
+        "P14.C01.N006.N004"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa trích nguyên văn từ Quyết định 29/2025/QĐ-UBND (PDF) về: (1) quy mô tối đa theo từng khu vực quy hoạch (phân khu/chi tiết), (2) thời hạn tồn tại tối đa không quá 5 năm và cách xác định theo thời điểm thực hiện quy hoạch. Bài Báo Chính phủ có nhắc nhưng không thay thế trích dẫn quy phạm từ PDF công báo."
+    },
+    {
+      "batch": "research",
+      "procedure": "P14",
+      "target_node_ids": [
+        "P14.C04.N001.N001",
+        "P14.C04.N002.N001",
+        "P14.C04.N004"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa mở/đọc trực tiếp Luật Xây dựng 135/2025/QH15 (nguồn chính thức) để trích nguyên văn các điều kiện miễn giấy phép xây dựng (Điều 43 và khoản liên quan) theo hiệu lực 01/01/2026 và 01/7/2026; các node hiện đang tóm tắt nhưng thiếu source_quote."
+    },
+    {
+      "batch": "research",
+      "procedure": "P15",
+      "target_node_ids": [
+        "P15.C01.N002.N001"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa mở được nguồn chính thức thể hiện rõ toàn bộ các mốc thời gian xử lý hồ sơ hưởng mới (ví dụ: thời hạn trả kết quả, thời hạn chi trả của BHXH, xử lý bổ sung hồ sơ) để đối chiếu/khẳng định thông tin “15 ngày làm việc” trong node."
+    },
+    {
+      "batch": "research",
+      "procedure": "P15",
+      "target_node_ids": [
+        "P15.N001.N001"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa có nguồn chính thức đã mở nêu rõ “lệ phí/phí” đối với thủ tục hưởng trợ cấp thất nghiệp (chỉ mới có suy luận/khẳng định trong nội dung node). Cần trích dẫn mục phí/lệ phí trên Cổng DVCQG hoặc quyết định công bố TTHC của cơ quan có thẩm quyền."
+    },
+    {
+      "batch": "research",
+      "procedure": "P15",
+      "target_node_ids": [
+        "P15.C01.N003.N003"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa có nguồn chính thức đã mở chứng minh quy định “nộp trực tuyến được gửi thông báo hẹn kết quả trong 3 ngày làm việc” để bổ sung/hiệu chỉnh theo Quyết định công bố TTHC hoặc quy trình trong Nghị định 374/2025/NĐ-CP."
+    },
+    {
+      "batch": "research",
+      "procedure": "P15",
+      "target_node_ids": [
+        "P15.C01.N003.N004"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa có nguồn chính thức đã mở thể hiện mốc “10 ngày làm việc kể từ nộp hồ sơ” cho việc nộp Mẫu 11 (đề nghị không hưởng/rút đề nghị). Hiện mới xác minh được sự tồn tại của Mẫu 11 trong phụ lục biểu mẫu."
+    },
+    {
+      "batch": "research",
+      "procedure": "P15",
+      "target_node_ids": [
+        "P15.N001.N002"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa mở được toàn văn Luật Việc làm 2025 (nguồn chính thức) và điều khoản tương ứng trong Nghị định 374 để xác minh đầy đủ các điều kiện hưởng mới, đặc biệt nội dung ‘Trong 10 ngày làm việc sau khi nộp đủ hồ sơ…’ và ‘không dùng thời gian chờ 15 ngày của luật cũ’."
+    },
+    {
+      "batch": "research",
+      "procedure": "P15",
+      "target_node_ids": [
+        "P15.N001.N003"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa mở được điều khoản gốc trong Luật Việc làm 2025/Nghị định 374 nêu công thức tính mức hưởng, trần hưởng, số tháng hưởng và thời điểm bắt đầu hưởng để xác minh nội dung node (hiện mới có nguồn tin bài tổng hợp, không đủ tính pháp lý để trích dẫn quy định)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P16",
+      "target_node_ids": [
+        "P16.N001.N001",
+        "P16.N001.N002",
+        "P16.N001.N003",
+        "P16.C01",
+        "P16.C02",
+        "P16.C03"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa mở/đọc trực tiếp nguồn chính thức chứa đầy đủ quy trình TTHC hỗ trợ đào tạo, nâng cao trình độ kỹ năng nghề từ BHTN theo Nghị định 374/2025/NĐ-CP (đặc biệt là: cơ quan tiếp nhận theo “nơi học” hay “nơi đang hưởng”, hình thức nộp trực tuyến, các bước luân chuyển hồ sơ, mẫu biểu đúng số hiệu). Các nguồn hiện có gồm bài báo và trang thứ cấp; cần mở bản PDF/HTML chính thức của Nghị định 374 hoặc TTHC tương ứng trên Cổng DVCQG để xác minh."
+    },
+    {
+      "batch": "research",
+      "procedure": "P16",
+      "target_node_ids": [
+        "P16.P16.INSURANCE"
+      ],
+      "topic": "chi_phi",
+      "reason": "Node đang ghi “Không lệ phí” cho BHTN: chưa được kiểm chứng từ nguồn chính thức đã mở (Nghị định 374/2025/NĐ-CP hoặc mục phí/lệ phí của TTHC trên Cổng DVCQG/TP.HCM). Không suy diễn ‘không thấy phí’ = ‘miễn phí’."
+    },
+    {
+      "batch": "research",
+      "procedure": "P16",
+      "target_node_ids": [
+        "P16.R01.N004.N008"
+      ],
+      "topic": "noi_nop",
+      "reason": "Node mô tả các kênh nộp và thời hạn 07 ngày làm việc theo Nghị định 338/2025/NĐ-CP nhưng trong phiên này chưa mở lại file PDF Nghị định 338 để trích nguyên văn đúng điều/khoản (yêu cầu có source_quote)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P16",
+      "target_node_ids": [
+        "P16.R01.N002.N010"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Các nội dung viện dẫn Thông tư 27/2026/TT-BTC và ‘Thông tư 152 đã sửa bởi 27/2026’ chưa được xác minh từ nguồn chính thức bộ/ngành/công báo; file đang trỏ tới một domain không phải nguồn chính thống. Cần tìm và mở bản chính thức (Công báo/website Bộ Tài chính) để tránh dùng văn bản không xác thực."
+    },
+    {
+      "batch": "research",
+      "procedure": "P16",
+      "target_node_ids": [
+        "P16.R01.N003.N001"
+      ],
+      "topic": "ket_qua",
+      "reason": "Chưa xác định (từ nguồn đã mở) kết quả đầu ra của chính sách hỗ trợ đào tạo nghề do thu hồi đất: quyết định hỗ trợ/phiếu chi/chi trả hay cơ chế thanh toán học phí cho cơ sở đào tạo; hiện mới bổ sung được nhánh ‘vay vốn’ có thời hạn 03 ngày làm việc, chưa đủ cho toàn bộ nhánh P16.R01.N003."
+    },
+    {
+      "batch": "research",
+      "procedure": "P16",
+      "target_node_ids": [
+        "P16.R01.N003.N001"
+      ],
+      "topic": "chi_phi",
+      "reason": "TTHC vay vốn trên Cổng DVCQG có cột ‘Phí, lệ phí’ nhưng không hiển thị giá trị cụ thể trong phần đã mở; chưa thể kết luận có/không có phí, cần mở sâu hơn (nếu có) hoặc nguồn NHCSXH/Quyết định công bố TTHC của NHCSXH."
+    },
+    {
+      "batch": "research",
+      "procedure": "P17",
+      "target_node_ids": [
+        "P17.C01",
+        "P17.C01.N001.N001",
+        "P17.C01.N001.N002",
+        "P17.C01.N001.N003",
+        "P17.C01.N001.N004",
+        "P17.C01.N001.N006"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở được nguồn chính thức (Luật ATVSLĐ/ văn bản hướng dẫn) để trích nguyên văn các nghĩa vụ NSDLĐ (sơ cứu, thanh toán chi phí y tế, trả lương, bồi thường/trợ cấp, thời hạn chi trả 5 ngày, cách tính lương bình quân 6 tháng…). Dữ liệu hiện có trong nodes chưa được đối chiếu bằng trích dẫn nguồn đã đọc theo yêu cầu."
+    },
+    {
+      "batch": "research",
+      "procedure": "P17",
+      "target_node_ids": [
+        "P17.C02.N002",
+        "P17.C02.N002.N001",
+        "P17.C02.N002.N002",
+        "P17.C02.N003.N001",
+        "P17.C02.N003.N003",
+        "P17.C04.N003.N001",
+        "P17.C04.N006.N001",
+        "P17.N001.N004"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa có trích dẫn nguồn chính thức đã mở để xác nhận công thức/mức hưởng (một lần/tháng, dưỡng sức, phục vụ, tuất tháng/tuất một lần…) và biến số B/L/t/r như đang ghi trong nodes; hiện mới bổ sung được quy trình, hồ sơ và thời hạn từ cổng DVC BHXH."
+    },
+    {
+      "batch": "research",
+      "procedure": "P17",
+      "target_node_ids": [
+        "P17.C02.N004.N001",
+        "P17.C02.N005.N001",
+        "P17.C03.N003.N001",
+        "P17.C04.N004.N001"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa trích được nguyên văn từ Nghị định 143/2024/NĐ-CP (PDF) về điều kiện, công thức mức hưởng, phụ lục mẫu (VII, VIII) và thời hạn nộp/giải quyết của bảo hiểm TNLĐ tự nguyện; cần chụp trang/đoạn trong PDF để lấy nguyên văn theo yêu cầu."
+    },
+    {
+      "batch": "research",
+      "procedure": "P17",
+      "target_node_ids": [
+        "P17.C04.N002.N001"
+      ],
+      "topic": "ho_so",
+      "reason": "Trang DVC tử tuất (ItemId=28) đã mở nhưng chưa trích được phần 'Thành phần hồ sơ' và 'Thời hạn giải quyết' để đối chiếu các giấy tờ/mẫu (ví dụ Mẫu 09-HSB), mốc 90 ngày, 30 ngày của đơn vị... đang có trong nodes."
+    },
+    {
+      "batch": "research",
+      "procedure": "P17",
+      "target_node_ids": [
+        "P17.N001.N005"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa mở/đọc Quyết định 313/QĐ-BHXH (và tài liệu hợp nhất/quy trình) để trích nguyên văn quy định về việc chấp nhận dữ liệu điện tử liên thông thay cho giấy tờ, và việc bãi bỏ/không yêu cầu một số mẫu; do đó chưa thể xác minh các khẳng định như 'không yêu cầu mẫu 13-HSB đã bãi bỏ'."
+    },
+    {
+      "batch": "research",
+      "procedure": "P18",
+      "target_node_ids": [
+        "P18.C01",
+        "P18.C02",
+        "P18.ASSESS",
+        "P18.N001.N003"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa trích được đầy đủ các bước trong Điều 5, Điều 6 của VBHN 11/VBHN-BYT (ví dụ: các mốc thời hạn 20 ngày làm việc, niêm yết công khai, cách thức họp/đánh giá…); kết quả find mới lấy được các đoạn rời rạc, chưa đủ ngữ cảnh để bổ sung an toàn."
+    },
+    {
+      "batch": "research",
+      "procedure": "P18",
+      "target_node_ids": [
+        "P18.N001.N001"
+      ],
+      "topic": "noi_nop",
+      "reason": "Chưa xác minh nguồn chính thức của TP.HCM (Cổng DVC TP.HCM hoặc văn bản tổ chức bộ máy sau 24/7/2026) về điểm tiếp nhận cụ thể tại phường Long Nguyên/TP.HCM (bộ phận một cửa, địa chỉ, kênh bưu chính công ích, URL dịch vụ công địa phương). Yêu cầu bài toán là ưu tiên nguồn TP.HCM nhưng chưa thu thập được."
+    },
+    {
+      "batch": "research",
+      "procedure": "P18",
+      "target_node_ids": [
+        "P18.N001.N001",
+        "P18.C01",
+        "P18.C02"
+      ],
+      "topic": "chi_phi",
+      "reason": "Trang thủ tục 1.001699 trên Cổng DVCQG để trống cột “Phí, lệ phí”; chưa có câu khẳng định rõ “không lệ phí” trên nguồn đã mở. Do đó chưa thể kết luận miễn phí cho nhánh cấp xã từ nguồn đã đọc."
+    },
+    {
+      "batch": "research",
+      "procedure": "P18",
+      "target_node_ids": [
+        "P18.C04.N003.N001",
+        "P18.C04.N002.N001",
+        "P18.C04.N005.N001"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa mở được bản PDF chính thức của Thông tư 243/2016/TT-BTC từ Công báo (timeout) hoặc vanban.chinhphu.vn để trích nguyên văn Điều 2 và biểu phí; nguồn VBPL bị 403 nên cần lần mở nguồn khác để xác thực trích dẫn chi phí giám định."
+    },
+    {
+      "batch": "research",
+      "procedure": "P18",
+      "target_node_ids": [
+        "P18.N001.N004"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa tìm/mở được nguồn chính thức (VBHN 11/VBHN-BYT hoặc văn bản tổ chức chính quyền địa phương/TP.HCM) nêu cơ cấu, thành phần Hội đồng và đầu mối tiếp nhận hồ sơ sau mốc 24/7/2026 để kiểm chứng các mô tả về 'Phòng Văn hóa - Xã hội', 'Trạm y tế', 'cơ quan chuyên môn y tế cấp tỉnh'."
+    },
+    {
+      "batch": "research",
+      "procedure": "P19",
+      "target_node_ids": [
+        "P19",
+        "P19.N001.N001",
+        "P19.N001.N002",
+        "P19.N001.N003"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa thể MỞ/đọc được các trang/biểu mẫu trên Cổng DVCQG và website NHCSXH trong phiên làm việc này (lỗi timeout khi open). Vì vậy chưa thể trích nguyên văn đủ ngữ cảnh về quy trình, mẫu (01/TD, 01/UQ, 03/TD, 10C/TD, 04/TD…), cách nộp, kênh nộp, thời hạn xử lý, và yêu cầu dữ liệu cư trú/định danh theo từng thủ tục."
+    },
+    {
+      "batch": "research",
+      "procedure": "P19",
+      "target_node_ids": [
+        "P19.C01.N001.N001",
+        "P19.R01.N001.N001",
+        "P19.R01.N001.N002"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Thiếu nguồn chính thức đã mở/đọc xác nhận: (i) mức cho vay tối đa 100 triệu/hộ; (ii) thời hạn tối đa; (iii) điều kiện tham gia Tổ TK&VV, quy trình bình xét/xác nhận UBND cấp xã; (iv) quy định bảo đảm tiền vay/không thế chấp cho chương trình hộ nghèo/cận nghèo/mới thoát nghèo."
+    },
+    {
+      "batch": "research",
+      "procedure": "P19",
+      "target_node_ids": [
+        "P19.C01.N002.N001",
+        "P19.R01.N002.N001"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Thiếu nguồn chính thức đã mở/đọc để trích nguyên văn các mức: trần 200 triệu/hộ, lãi 0,5%/tháng, lãi quá hạn 130%, thời hạn 10 năm/5 năm, phạm vi áp dụng theo Nghị quyết 71/2025 của TP.HCM (đặc biệt phần hướng dẫn nghiệp vụ NHCSXH về triển khai/đối tượng/kênh nộp)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P19",
+      "target_node_ids": [
+        "P19.R02.N001.N001",
+        "P19.R02.N001.N003",
+        "P19.R02.N001.N006",
+        "P19.R02.N001.N013",
+        "P19.R02.N001.N014",
+        "P19.R02.N001.N015",
+        "P19.R02.N001.N016",
+        "P19.R02.N001.N018"
+      ],
+      "topic": "ho_so",
+      "reason": "Thiếu nguồn chính thức đã mở/đọc để trích nguyên văn hồ sơ và các mốc thời gian trả nợ của chương trình HSSV theo Quyết định 157 (và văn bản sửa đổi), gồm: giấy tờ theo năm học, trường hợp mồ côi vay trực tiếp, thời điểm bắt đầu trả nợ, công thức thời hạn trả đối với khóa ≤1 năm/>1 năm, chuyển tiếp hợp đồng trước 19/05/2022."
+    },
+    {
+      "batch": "research",
+      "procedure": "P19",
+      "target_node_ids": [
+        "P19.R02.N003.N001",
+        "P19.R02.N003.N007",
+        "P19.R02.N003.N008",
+        "P19.R02.N003.N012",
+        "P19.R02.N003.N013"
+      ],
+      "topic": "ho_so",
+      "reason": "Thiếu trích dẫn nguyên văn từ văn bản/hướng dẫn chính thức đã mở/đọc (VBHN/ nghị định/ thủ tục DVCQG) về bộ hồ sơ vay nhà ở xã hội tại NHCSXH: thành phần giấy tờ, cơ quan xác nhận tình trạng nhà ở/thu nhập (kể cả trường hợp không có HĐLĐ), thời hạn giải quyết từng khâu."
+    },
+    {
+      "batch": "research",
+      "procedure": "P19",
+      "target_node_ids": [
+        "P19.R02.N010.N001",
+        "P19.R02.N010.N002",
+        "P19.R02.N010.N003"
+      ],
+      "topic": "ho_so",
+      "reason": "Thiếu nguồn chính thức NHCSXH hoặc DVCQG đã mở/đọc trực tiếp trong phiên để trích nguyên văn bộ hồ sơ vay ký quỹ EPS, quy trình COLABContract, nguyên tắc trả lãi/thu nợ từ tiền gửi ký quỹ và thời hạn xử lý 3 ngày làm việc."
+    },
+    {
+      "batch": "research",
+      "procedure": "P20",
+      "target_node_ids": [
+        "P20.C01.N001.N001",
+        "P20.C01.N001.N002"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở/đọc được đúng mục mô tả chi tiết của thủ tục 1.010806 (Công nhận thương binh, người hưởng chính sách như thương binh) trong Phụ lục Quyết định 556/QĐ-BNV để trích nguyên văn thành phần hồ sơ, mẫu đơn/bản khai và nơi nộp cụ thể theo kênh (Cổng DVCQG/bưu chính/trực tiếp). Hiện mới xác định được mã thủ tục và có trích dẫn hồ sơ/căn cứ ở trang Cổng DVCQG (ma_thu_tuc=314171) nhưng chưa chắc đó là trang tương ứng trực tiếp với 1.010806."
+    },
+    {
+      "batch": "research",
+      "procedure": "P20",
+      "target_node_ids": [
+        "P20.C01.N001.N002",
+        "P20.C01.N007.N001"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa trích được nguyên văn tổng thời hạn giải quyết (ví dụ “72 ngày làm việc”) cho đúng thủ tục 1.010806 từ nguồn chính thức/cổng dịch vụ công; các mốc thời gian đã trích trong phụ lục 556 hiện là của thủ tục khác."
+    },
+    {
+      "batch": "research",
+      "procedure": "P20",
+      "target_node_ids": [
+        "P20.C01.N001.N001",
+        "P20.C01.N007.N001"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa có trích dẫn nguyên văn “Lệ phí: ...” đúng tại mục thủ tục 1.010806 trong phụ lục 556 hoặc trang thủ tục tương ứng trên Cổng DVCQG, nên chưa thể kết luận thủ tục này có/không có lệ phí (không suy đoán)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P20",
+      "target_node_ids": [
+        "P20.C02.N001.N001",
+        "P20.C02.N003.N001",
+        "P20.C03.N005.N001",
+        "P20.C03.N006.N003"
+      ],
+      "topic": "ket_qua",
+      "reason": "Chưa mở/đọc Nghị định 321/2026/NĐ-CP từ nguồn chính thức để trích nguyên văn mức chuẩn/mức tham chiếu và các bảng mức trợ cấp/phụ cấp áp dụng từ 01/07/2026 (tránh dùng số liệu trong nội dung đầu vào khi chưa kiểm chứng từ nguồn đã đọc)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P20",
+      "target_node_ids": [
+        "P20.C01.N003.N006",
+        "P20.C01.N004.N005"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa mở/đọc trực tiếp Nghị định 131/2021/NĐ-CP từ nguồn chính thức và trích nguyên văn Điều 77/78 về giới hạn thời gian giải quyết hồ sơ theo từng tuyến (quân đội/công an), nên chưa thể xác nhận chính xác các mốc “không quá 155 ngày/115 ngày” trong các node."
+    },
+    {
+      "batch": "research",
+      "procedure": "P20",
+      "target_node_ids": [
+        "P20.C03.N003.N001"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở/đọc lại thủ tục “di chuyển hồ sơ người hưởng ưu đãi” (mã 1.010827 hoặc mã mới nếu thay đổi sau 21/5/2026) trên Cổng DVCQG để trích nguyên văn thành phần hồ sơ và mốc thời hạn 24 ngày, cũng như trường lệ phí của chính thủ tục này (không dựa vào dữ liệu cũ chưa mở lại)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P21",
+      "target_node_ids": [
+        "P21.N001.N002",
+        "P21.C01",
+        "P21.C02",
+        "P21.C03",
+        "P21.C04",
+        "P21.C05"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở/đọc được nguồn chính thức quy định trực tiếp về thành phần hồ sơ cho thủ tục trợ cấp thờ cúng liệt sĩ (ví dụ Nghị định 131/2021/NĐ-CP và/hoặc TTHC công bố bởi Bộ Nội vụ/TP.HCM trên cổng dịch vụ công). Vì vậy chưa thể xác minh các chi tiết: ‘Mẫu 18’ là mẫu nào trong phụ lục nào; trường hợp nào bắt buộc có văn bản ủy quyền; các giấy tờ chứng minh kèm theo (nếu có) và yêu cầu bản chính/bản sao."
+    },
+    {
+      "batch": "research",
+      "procedure": "P21",
+      "target_node_ids": [
+        "P21.N001.N002",
+        "P21.C01",
+        "P21.C02",
+        "P21.C03",
+        "P21.C04",
+        "P21.C05"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa có nguồn chính thức đã mở để xác minh trình tự/bước thực hiện (xác nhận của UBND cấp xã, luân chuyển lên Sở Nội vụ, quy trình ban hành quyết định, hình thức trả kết quả) dành riêng cho thủ tục trợ cấp thờ cúng liệt sĩ."
+    },
+    {
+      "batch": "research",
+      "procedure": "P21",
+      "target_node_ids": [
+        "P21.N001.N002"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa có trích dẫn chính thức đã mở về thời hạn giải quyết thủ tục trợ cấp thờ cúng liệt sĩ (tổng thời hạn và thời hạn từng cơ quan). Nội dung hiện có trong node (ví dụ 05 + 05 ngày làm việc) cần đối chiếu TTHC/nguồn chính thức."
+    },
+    {
+      "batch": "research",
+      "procedure": "P21",
+      "target_node_ids": [
+        "P21.N001.N002"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa tìm được trang TTHC/nguồn chính thức đã mở nêu rõ phí/lệ phí của thủ tục trợ cấp thờ cúng liệt sĩ (không được suy đoán là miễn phí nếu chưa có nguồn)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P21",
+      "target_node_ids": [
+        "P21.N001.N003",
+        "P21.C06"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa mở/đọc được toàn văn (PDF) Nghị định 321/2026/NĐ-CP từ nguồn chính thức (Công báo/vanban.chinhphu.vn/datafiles.chinhphu.vn) để trích điều khoản quy định mức trợ cấp thờ cúng liệt sĩ và/hoặc điều khoản chuyển tiếp (nếu có), nên chưa thể xác minh chắc chắn mức áp dụng cho năm 2027 hay giai đoạn sau 01/10/2026."
+    },
+    {
+      "batch": "research",
+      "procedure": "P22",
+      "target_node_ids": [
+        "P22",
+        "P22.C01",
+        "P22.C02",
+        "P22.C03",
+        "P22.R01"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa mở/đọc được nguồn chính thức (cổng DVC TP.HCM hoặc Cổng DVCQG hoặc quyết định công bố TTHC kèm biểu phí/lệ phí) nêu rõ lệ phí thực hiện thủ tục chuyển trường/tiếp nhận/học lại/bảo lưu. Công văn 6015 được mở nhưng trong các trang trích được không thấy mục “phí/lệ phí”."
+    },
+    {
+      "batch": "research",
+      "procedure": "P22",
+      "target_node_ids": [
+        "P22.R01.N002.N001"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa có nguồn chính thức được mở/đọc (Điều lệ tại Thông tư 15/2026/TT-BGDĐT hoặc thủ tục hành chính được công bố) để đối chiếu đầy đủ hồ sơ/điều kiện/thời hạn với trường hợp “học sinh quốc tịch nước ngoài” như mô tả trong node."
+    },
+    {
+      "batch": "research",
+      "procedure": "P22",
+      "target_node_ids": [
+        "P22.R01.N003.N001"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa mở/đọc được kế hoạch tuyển sinh đầu cấp của TP.HCM theo từng năm học trên nguồn chính thức (SGDĐT TP.HCM/UBND TP.HCM/cổng DVC) để xác nhận mốc tuổi, điều kiện đặc thù và luồng xử lý/đăng ký cho 'tuyển sinh đầu cấp' (khác với chuyển trường)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P22",
+      "target_node_ids": [
+        "P22.C03.N002.N001"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa mở/đọc được quy chế riêng/đợt thông báo tuyển sinh/tiếp nhận của từng loại trường chuyên/năng khiếu/dân tộc nội trú/cơ sở chuyên biệt tại TP.HCM để xác định điều kiện, hình thức xét/thi, chỉ tiêu, mốc thời gian cụ thể."
+    },
+    {
+      "batch": "research",
+      "procedure": "P22",
+      "target_node_ids": [
+        "P22.C01.N001.N001",
+        "P22.C02.N001.N001",
+        "P22.R01.N001.N001",
+        "P22.R01.N001.N002"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở/đọc được mẫu đơn (đơn chuyển trường/đơn xin học/đơn xin học lại/đơn xin bảo lưu) trên nguồn chính thức (cổng dịch vụ công hoặc biểu mẫu đính kèm văn bản). Công văn 6015 nêu 'bản điện tử hoặc bản giấy' nhưng không thấy mẫu kèm trong các trang đã trích."
+    },
+    {
+      "batch": "research",
+      "procedure": "P22",
+      "target_node_ids": [
+        "P22.N001.N001"
+      ],
+      "topic": "ket_qua",
+      "reason": "Chưa mở/đọc được văn bản quy định dạng văn bản/biểu mẫu của kết quả xử lý trên cổng (ví dụ thông báo chấp nhận/không chấp nhận; cách trả hồ sơ học sinh; cập nhật trên hệ thống), ngoài mô tả chung trong Công văn 6015."
+    },
+    {
+      "batch": "research",
+      "procedure": "P23",
+      "target_node_ids": [
+        "P23.C01.N001.N001"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở/đọc được nguồn chính thức chứa danh mục thành phần hồ sơ (Mẫu đơn, thuyết minh, giấy tờ sức khỏe, tập huấn…) cho thủ tục 1.013855 từ văn bản gốc/Phụ lục kèm theo Nghị định 155/2018 trên vanban.chinhphu.vn hoặc file PDF chính thức của Nghị định. Nguồn đã mở của vanban.chinhphu.vn mới là trang giới thiệu, chưa có nội dung điều khoản/phụ lục để trích nguyên văn."
+    },
+    {
+      "batch": "research",
+      "procedure": "P23",
+      "target_node_ids": [
+        "P23.N001.N003"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa trích được đoạn văn bản gốc trong Thông tư 64/2025 thể hiện thời hạn áp dụng ‘đến hết ngày 31/12/2026’ đối với chính sách giảm 50% phí ATTP (trang đã mở có nêu mức 50% nhưng chưa hiển thị đầy đủ phần quy định thời gian/hiệu lực để trích nguyên văn)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P23",
+      "target_node_ids": [
+        "P23.C01.N001.N001",
+        "P23.C01.N002.N001"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa có nguồn chính thức đã mở mô tả quy trình các bước xử lý (tiếp nhận, kiểm tra hồ sơ, thẩm định thực tế, xử lý trường hợp đạt/không đạt/khắc phục…) của thủ tục 1.013855 tại TP.HCM để xác nhận các mốc ‘hạn khắc phục tối đa 30 ngày’ hoặc nội dung ‘không tiếp tục hoạt động chỉ vì đã nộp hồ sơ’."
+    },
+    {
+      "batch": "research",
+      "procedure": "P23",
+      "target_node_ids": [
+        "P23.C01.N003.N001"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở/đọc được thủ tục công thương tương ứng (mã thủ tục; mô tả chi tiết, biểu mẫu Mẫu 01a/01b/02a/02b) từ nguồn chính thức Bộ Công Thương hoặc Cổng DVC/TTHC TP.HCM; hiện mới có PDF QĐ 935/2026 nhưng phần trích dẫn đã mở chưa chứa đúng mục ‘cấp/cấp lại Giấy chứng nhận cơ sở đủ điều kiện ATTP’ để đối chiếu thành phần hồ sơ."
+    },
+    {
+      "batch": "research",
+      "procedure": "P23",
+      "target_node_ids": [
+        "P23.C01.N003.N001"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa có trích dẫn nguyên văn từ nguồn chính thức (Thông tư 67/2021 và/hoặc Thông tư 64/2025 và/hoặc QĐ công bố TTHC của TP.HCM) về mức phí thẩm định áp dụng cho nhóm công thương trong năm 2026/2027 để xác nhận các con số đang có trong node."
+    },
+    {
+      "batch": "research",
+      "procedure": "P23",
+      "target_node_ids": [
+        "P23.C01.N004.N001",
+        "P23.C03.N003.N001",
+        "P23.C03.N003.N003",
+        "P23.C03.N005.N001",
+        "P23.N001.N005"
+      ],
+      "topic": "ho_so",
+      "reason": "Không mở/đọc được PDF Văn bản hợp nhất 88/2026/VBHN-BNNMT do lỗi công cụ (‘Internal Error’), nên chưa thể trích nguyên văn điều kiện/hồ sơ/thời hạn/hiệu lực/cấp lại/bản sao sổ gốc đối với nhóm nông lâm thủy sản."
+    },
+    {
+      "batch": "research",
+      "procedure": "P23",
+      "target_node_ids": [
+        "P23.C02.N001.N001",
+        "P23.C02.N001.N002",
+        "P23.C02.N001.N003",
+        "P23.C02.N001.N004",
+        "P23.C02.N001.N005",
+        "P23.C02.N001.N006",
+        "P23.C02.N001.N007",
+        "P23.C02.N001.N008",
+        "P23.C02.N001.N009",
+        "P23.C02.N001.N010",
+        "P23.C02.N001.N011"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa mở/đọc nguồn chính thức Nghị định 15/2018/NĐ-CP (Điều 12) để trích nguyên văn ‘10 nhóm không thuộc diện cấp Giấy chứng nhận cơ sở đủ điều kiện ATTP’; hiện các nội dung ‘10 nhóm’ đang dựa vào nguồn hướng dẫn/tờ gấp, chưa đủ chuẩn nguồn chính thống theo yêu cầu."
+    },
+    {
+      "batch": "research",
+      "procedure": "P24",
+      "target_node_ids": [
+        "P24.C01",
+        "P24.C02",
+        "P24.NEW",
+        "P24.N001",
+        "P24.N001.N001",
+        "P24.N001.N002",
+        "P24.N001.N003",
+        "P24.R01",
+        "P24.R01.N001.N001",
+        "P24.R01.N001.N002",
+        "P24.R01.N001.N003",
+        "P24.R01.N001.N004"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở được toàn văn Nghị định 168/2025/NĐ-CP (bản PDF/HTML có đầy đủ Điều 82–104) để trích nguyên văn thành phần hồ sơ, biểu mẫu, yêu cầu ký số/ủy quyền, và quy định chi tiết cho các trường hợp cá nhân/hộ gia đình/cấp lại. Dữ liệu hiện có mới là danh mục TTHC (TP.HCM) và trích đoạn quy trình tiếp nhận trực tuyến trong một nhóm thủ tục liên thông khác."
+    },
+    {
+      "batch": "research",
+      "procedure": "P24",
+      "target_node_ids": [
+        "P24.N001.N002"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa mở được trang thủ tục “đăng ký hộ kinh doanh” đúng mã thủ tục trên Cổng Dịch vụ công quốc gia/TP.HCM để xác nhận: quy trình nộp online cụ thể, tài khoản định danh nào bắt buộc, cách ký/xác thực điện tử, và danh sách giấy tờ hệ thống yêu cầu tải lên."
+    },
+    {
+      "batch": "research",
+      "procedure": "P24",
+      "target_node_ids": [
+        "P24.N001.N003",
+        "P24.R01",
+        "P24.R01.N001.N003"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa có nguồn chính thức đã mở/đọc quy định lệ phí cho thủ tục “cấp lại Giấy chứng nhận đăng ký hộ kinh doanh” (mất/hỏng) và các thủ tục khác trong bộ 07 TTHC (ngoài đăng ký thành lập, thay đổi nội dung) theo Quyết định 5083/QĐ-UBND; cần mở các trang còn lại của PDF để trích nguyên văn."
+    },
+    {
+      "batch": "research",
+      "procedure": "P24",
+      "target_node_ids": [
+        "P24.N001.N002"
+      ],
+      "topic": "noi_nop",
+      "reason": "Chưa có nguồn chính thức xác định phường Long Nguyên thuộc “Khu vực I/II/III” nào (theo cách phân khu trong Quyết định 5083/QĐ-UBND) để áp mức lệ phí nộp trực tiếp tương ứng."
+    },
+    {
+      "batch": "research",
+      "procedure": "P25",
+      "target_node_ids": [
+        "P25.C01.N001.N001",
+        "P25.C02.N001.N001",
+        "P25.C03.N001.N001",
+        "P25.C04.N001"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở được trang thủ tục chi tiết trên Cổng Dịch vụ công Quốc gia/Cổng DVC TP.HCM cho đúng mã thủ tục 'Đăng ký thay đổi nội dung đăng ký hộ kinh doanh (2.000720)' để trích nguyên văn danh mục thành phần hồ sơ (biểu mẫu, số lượng, yêu cầu bản sao/bản chính, trường hợp kèm theo văn bản ủy quyền của thành viên hộ gia đình, hợp đồng mua bán/tặng cho/thừa kế...). Tool open trang thutuc.dichvucong.gov.vn bị lỗi/timeout trong phiên làm việc."
+    },
+    {
+      "batch": "research",
+      "procedure": "P25",
+      "target_node_ids": [
+        "P25.C01.N001.N001",
+        "P25.C02.N001.N005",
+        "P25.N001.N001"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa có nguồn chính thức đã mở cho hướng dẫn nộp trực tuyến cụ thể trên Cổng Dịch vụ công TP.HCM/Cổng DVCQG (các bước thao tác, đăng nhập, tải tệp, ký số/xác thực, thanh toán lệ phí, nhận kết quả điện tử/bản giấy) đối với thủ tục 2.000720."
+    },
+    {
+      "batch": "research",
+      "procedure": "P25",
+      "target_node_ids": [
+        "P25.C01.N001.N007"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa xác định được phường Long Nguyên thuộc 'khu vực Thành phố Hồ Chí Minh cũ', 'khu vực tỉnh Bình Dương cũ' hay 'khu vực tỉnh Bà Rịa - Vũng Tàu cũ' theo cách phân khu trong QĐ 5083/QĐ-UBND, nên chưa thể chốt mức lệ phí nộp trực tiếp áp dụng cho Long Nguyên (chỉ có bảng mức theo khu vực)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P25",
+      "target_node_ids": [
+        "P25.C02.N001.N002"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa có nguồn chính thức đã mở từ cơ quan thuế/Tổng cục Thuế/TP.HCM nêu rõ 'thủ tục thuế về chuyển trụ sở trước khi đăng ký địa chỉ tại cơ quan đăng ký kinh doanh cấp xã' đối với hộ kinh doanh khi đổi cơ quan thuế quản lý trực tiếp (trình tự, điều kiện hoàn thành nghĩa vụ thuế, xác nhận chuyển địa điểm)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P25",
+      "target_node_ids": [
+        "P25.C03.N002.N001",
+        "P25.C03.N002.N002"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Chưa trích được nguyên văn Điều 123 (điều khoản chuyển tiếp về hộ kinh doanh) trong Nghị định 168/2025/NĐ-CP để xác nhận đầy đủ điều kiện/đối tượng/giới hạn áp dụng mốc 01/07/2025 cho trường hợp giao dịch mua bán/tặng cho/thừa kế và hồ sơ phải kèm theo."
+    },
+    {
+      "batch": "research",
+      "procedure": "P26",
+      "target_node_ids": [
+        "P26.END"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa tìm/mở được thủ tục 'đăng ký chấm dứt hoạt động hộ kinh doanh' trên Cổng Dịch vụ công TP.HCM hoặc hệ thống đăng ký hộ kinh doanh để xác định chính thức (i) có/không thu lệ phí riêng cho chấm dứt, (ii) mức thu khi nộp trực tiếp/online đối với thủ tục chấm dứt (không suy luận từ thủ tục thay đổi nội dung đăng ký)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P26",
+      "target_node_ids": [
+        "P26.C01",
+        "P26.C02"
+      ],
+      "topic": "noi_nop",
+      "reason": "Chưa mở được nguồn chính thức (Cổng DVC TP.HCM/hokinhdoanh.dkkd.gov.vn) nêu rõ kênh nộp (trực tiếp/online/bưu chính) và địa điểm tiếp nhận tại phường Long Nguyên, TP.HCM thời điểm 16/10/2026."
+    },
+    {
+      "batch": "research",
+      "procedure": "P26",
+      "target_node_ids": [
+        "P26.C01",
+        "P26.C02"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở được Thông tư 68/2025/TT-BTC (biểu mẫu đăng ký hộ kinh doanh) hoặc bộ TTHC của Bộ Tài chính để trích nguyên văn mẫu 'thông báo chấm dứt hoạt động hộ kinh doanh' (tên mẫu, số mẫu, thành phần thông tin bắt buộc, ai ký)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P26",
+      "target_node_ids": [
+        "P26.R02.N001.N001"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở được điều khoản/biểu mẫu trong Nghị định 168/2025/NĐ-CP (hoặc TTHC Bộ Tài chính) quy định cụ thể 'thông tin đăng ký thuế' phải nộp kèm khi chuyển hộ kinh doanh thành doanh nghiệp (hiện node nêu theo diễn giải nhưng chưa có trích dẫn nguyên văn)."
+    },
+    {
+      "batch": "research",
+      "procedure": "P26",
+      "target_node_ids": [
+        "P26.R02.N002.N002"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa mở được nguồn chính thức cơ quan thuế (GDT/thuedientu) mô tả cơ chế 'thu hồi do cưỡng chế thuế/khôi phục' liên quan hộ kinh doanh để xác nhận nội dung nhánh này."
+    },
+    {
+      "batch": "research",
+      "procedure": "P27",
+      "target_node_ids": [
+        "P27.C01.N001.N003",
+        "P27.C02.N001.N002"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa trích được quy định gốc (Quyết định 31/2021/QĐ-TTg, Điều 39/41/43–46) về các trường thông tin bắt buộc khi gửi phản ánh/kiến nghị trên Cổng DVCQG, do công cụ không tìm được chuỗi 'Điều 41/43/44/45/46' trong PDF đã mở (có thể do bản PDF dạng ảnh hoặc mã hóa). Vì yêu cầu phải có source_quote nguyên văn, chưa thể bổ sung/chuẩn hóa nội dung 'tài khoản' và các trường thông tin bắt buộc theo Điều khoản tương ứng."
+    },
+    {
+      "batch": "research",
+      "procedure": "P27",
+      "target_node_ids": [
+        "P27.C01.N001.N004",
+        "P27.C01.N001.N005",
+        "P27.C01.N001.N006",
+        "P27.C01.N001.N007",
+        "P27.C01.N001.N008",
+        "P27.C01.N001.N009",
+        "P27.C02.N001.N003",
+        "P27.C02.N001.N004",
+        "P27.C02.N001.N005",
+        "P27.C02.N001.N006",
+        "P27.C02.N001.N007",
+        "P27.C02.N001.N008"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Các mốc thời gian 02/05/15 ngày làm việc đang được nêu theo 'Điều 43–45' nhưng hiện chưa lấy được trích dẫn nguyên văn từ Quyết định 31/2021/QĐ-TTg (PDF datafiles.chinhphu.vn) để xác minh đúng câu chữ và điều khoản. Không thể bổ sung thêm hoặc xác nhận các mốc này bằng nguồn đã đọc theo yêu cầu."
+    },
+    {
+      "batch": "research",
+      "procedure": "P27",
+      "target_node_ids": [
+        "P27.C01.N001.N001",
+        "P27.C02.N001.N001"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa tìm/đọc được nguồn chính thức quy định về phí/lệ phí đối với việc gửi phản ánh/kiến nghị trên Cổng DVCQG hoặc gửi trực tiếp/văn bản đến cơ quan. Theo yêu cầu, không được suy luận 'không thu phí' nếu chưa có nguồn trích dẫn."
+    },
+    {
+      "batch": "research",
+      "procedure": "P27",
+      "target_node_ids": [
+        "P27.R01.N001.N001",
+        "P27.R01.N001.N002"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở/đối chiếu được các điều khoản cụ thể trong VBHN Luật Tố cáo 29/VBHN-VPQH (hoặc VBHN Nghị định hướng dẫn) về nội dung đơn tố cáo/tiếp nhận/tố cáo nặc danh và các mốc thời hạn; hiện mới mở được toàn văn nhưng chưa trích dẫn đúng điều khoản liên quan (Điều 24–30 như bạn nêu) để tạo bổ sung có source_quote đúng trọng tâm."
+    },
+    {
+      "batch": "research",
+      "procedure": "P27",
+      "target_node_ids": [
+        "P27.R01.N003.N001"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa mở/đối chiếu được điều khoản trong văn bản BLTTHS (hợp nhất) về thời hạn giải quyết tố giác/tin báo về tội phạm (20 ngày; gia hạn đến 2 tháng; gia hạn thêm...) để trích nguyên văn; do đó chưa thể bổ sung/củng cố nội dung mốc thời hạn bằng source_quote theo yêu cầu."
+    },
+    {
+      "batch": "research_extra",
+      "procedure": "P02",
+      "target_node_ids": [
+        "P02.NEW",
+        "P02.C01",
+        "P02.N001.N001"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở được nguồn chính thức Bộ Tư pháp/hctp.moj.gov.vn (Phụ lục thủ tục/mẫu biểu) để trích nguyên văn: (i) thành phần hồ sơ đầy đủ (tờ khai + giấy báo tử/giấy thay thế) và (ii) quy tắc “cơ quan đã khai thác bản điện tử hợp lệ thì không yêu cầu nộp lại” theo đúng câu chữ, cũng như mẫu tờ khai khai tử đang áp dụng năm 2026."
+    },
+    {
+      "batch": "research_extra",
+      "procedure": "P02",
+      "target_node_ids": [
+        "P02.N001.N001",
+        "P02.N001.N002.N001",
+        "P02.N001.N002.N002"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa có trích dẫn nguồn chính thức (cổng dịch vụ công/Bộ Tư pháp) về thời hạn giải quyết ‘trong ngày/qua 15 giờ’ và thời hạn xác minh ‘tối đa 03 ngày làm việc’ cho đăng ký khai tử lần đầu để đối chiếu với nội dung hiện có."
+    },
+    {
+      "batch": "research_extra",
+      "procedure": "P02",
+      "target_node_ids": [
+        "P02.N001.N002.N006"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa mở/đọc được nguồn chính thức của TP.HCM về chính sách ‘lệ phí 0 đồng khi nộp trực tuyến’ để thay thế nguồn niêm yết cấp phường khác trong input; do đó chưa thể xác nhận áp dụng cho khai tử tại TP.HCM thời điểm 16/10/2026."
+    },
+    {
+      "batch": "research_extra",
+      "procedure": "P04",
+      "target_node_ids": [
+        "P04.C02"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở/đọc được nguồn chính thức (cổng Bộ Công an/VBQPPL/ Công báo) nêu rõ thành phần hồ sơ riêng cho từng trường hợp “đăng ký thường trú theo quan hệ thân nhân/giám hộ” sau 01/07/2026 (mẫu CT01 theo Thông tư 116/2026 như mô tả trong input), nên chưa thể bổ sung yêu cầu giấy tờ chứng minh quan hệ/đại diện/ý kiến đồng ý theo từng tiểu nhóm mà không suy diễn."
+    },
+    {
+      "batch": "research_extra",
+      "procedure": "P04",
+      "target_node_ids": [
+        "P04.C04",
+        "P04.C05",
+        "P04.C06",
+        "P04.C07",
+        "P04.C08"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa đọc được đầy đủ phần 'Thành phần hồ sơ' cho các nhánh đặc thù (cơ sở tín ngưỡng/tôn giáo; cơ sở trợ giúp xã hội; cá nhân/hộ gia đình nhận chăm sóc; sinh sống trên phương tiện) trong trang TTHC cổng Bộ Công an do giới hạn trích xuất ở lần mở hiện tại; cần mở thêm đúng đoạn các mục tương ứng để trích nguyên văn, tránh liệt kê theo trí nhớ."
+    },
+    {
+      "batch": "research_extra",
+      "procedure": "P04",
+      "target_node_ids": [
+        "P04.N001.N003"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa mở/đọc được bản PDF/HTML chính thức của Thông tư 75/2022/TT-BTC và Thông tư 29/2026/TT-BTC ngay trong phiên này để trích nguyên văn điều khoản về mức thu/mức miễn; hiện mới đọc được mức thu từ trang TTHC cổng Bộ Công an và nguồn tổng hợp (không đáp ứng yêu cầu 'đã đọc và source_quote' từ văn bản gốc cho phần miễn)."
+    },
+    {
+      "batch": "research_extra",
+      "procedure": "P05",
+      "target_node_ids": [
+        "P05.N001.N002"
+      ],
+      "topic": "thoi_gian",
+      "reason": "Chưa mở được nguồn chính thức (trang/Phụ lục thủ tục hộ tịch Bộ Tư pháp hoặc TTHC trên Cổng DVCQG) nêu nguyên văn thời hạn 03 ngày và trường hợp xác minh tối đa 23 ngày đúng cho thủ tục P05 tại cấp xã ở trong nước; các trang đúng mã 1.004873 gặp lỗi tải/quá dung lượng/timeout nên chưa trích dẫn được."
+    },
+    {
+      "batch": "research_extra",
+      "procedure": "P05",
+      "target_node_ids": [
+        "P05.N001.N002"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa đọc được trực tiếp từ nguồn chính thức TP.HCM (Cổng DVC TP.HCM/Công báo TP.HCM – Nghị quyết 18/2026/NQ-HĐND) đoạn nêu rõ mức thu và trường hợp miễn cho “cấp Giấy xác nhận tình trạng hôn nhân”, nên chưa thể bổ sung/kiểm chứng con số 4.000 đồng/bản và “trực tuyến 0 đồng” trong node."
+    },
+    {
+      "batch": "research_extra",
+      "procedure": "P05",
+      "target_node_ids": [
+        "P05"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở/đọc được Phụ lục thủ tục hộ tịch (HTPDF do bạn cung cấp) để trích nguyên văn thành phần hồ sơ chi tiết (bao gồm yêu cầu xuất trình/nộp giấy tờ nhân thân/cư trú, điều kiện khai thác dữ liệu; quy định về ủy quyền) áp dụng cho cấp xã, nên chưa thể bổ sung các điểm này vào các nhánh C01/C03."
+    },
+    {
+      "batch": "research_extra",
+      "procedure": "P08",
+      "target_node_ids": [
+        "P08.N001.N003",
+        "P08.N001.N004"
+      ],
+      "topic": "chi_phi",
+      "reason": "Chưa trích xuất được (do hết lượt mở nguồn) phần quy định mức thu cụ thể và các trường hợp miễn/giảm cập nhật tại Thông tư 71/2025/TT-BTC (file PDF đã truy cập nhưng chưa chụp/mở được trang chứa nội dung sửa khoản miễn/giảm liên quan căn cước); vì vậy chưa thể xác minh chính xác các nhóm miễn mới (ví dụ thay 'huyện đảo' thành 'đặc khu')."
+    },
+    {
+      "batch": "research_extra",
+      "procedure": "P08",
+      "target_node_ids": [
+        "P08.C01",
+        "P08.C02",
+        "P08.C03",
+        "P08.C04",
+        "P08.C05"
+      ],
+      "topic": "ho_so",
+      "reason": "Chưa mở/đọc trực tiếp phụ lục biểu mẫu CC01/DC01/DC02/CC02/CC03 ban hành kèm Thông tư 118/2026/TT-BCA (mới nêu được tên mẫu từ nguồn hướng dẫn); chưa thể bổ sung các trường thông tin/mẫu khai cụ thể, ai lập mẫu, trường hợp dùng DC01 khi nào theo quy định gốc."
+    },
+    {
+      "batch": "research_extra",
+      "procedure": "P08",
+      "target_node_ids": [
+        "P08.C05.N001.N002",
+        "P08.C05.N001.N003"
+      ],
+      "topic": "dieu_kien",
+      "reason": "Nguồn hướng dẫn có nhắc trường hợp cấp lại phải thu nhận sinh trắc theo 'điểm b khoản 2 Điều 24 Luật Căn cước...' nhưng chưa mở văn bản luật/điều khoản tương ứng để chốt điều kiện nào thuộc diện này (nên chưa chuẩn hóa tiêu chí 'đủ điều kiện tái sử dụng dữ liệu' vs 'phải thu nhận mới')."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P01",
+      "target_node_ids": [
+        "P01.M03.N001",
+        "P01.M03.N002"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa tra cứu được nguồn chính thức (Bộ Tư pháp/DVCQG/TP.HCM) nêu rõ trình tự 'lập biên bản trẻ bị bỏ rơi, niêm yết và đăng ký sau niêm yết' để bổ sung đúng từng bước."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P01",
+      "target_node_ids": [
+        "P01.C02",
+        "P01.C03"
+      ],
+      "topic": "ket_qua",
+      "reason": "Chưa có nguồn chính thức truy cập được (trang TTHC chuyên biệt cho nhánh 'có yếu tố nước ngoài' và 'sinh ở nước ngoài về cư trú') mô tả kết quả đầu ra/biểu mẫu tương ứng để trích đúng theo từng nhánh."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P01",
+      "target_node_ids": [
+        "P01.R01.N001",
+        "P01.R01.N002",
+        "P01.R01.N003",
+        "P01.R01.N004"
+      ],
+      "topic": "huong_dan",
+      "reason": "Yêu cầu chỉ bổ sung cho 'đăng ký khai sinh' nhưng các node này thuộc nhóm trích lục/đăng ký lại/cải chính/ghi chú; hiện chưa tra cứu nguồn chính thức theo đúng từng thủ tục để tránh áp sai."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P02",
+      "target_node_ids": [
+        "P02.C01.N001.N004"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa trích được nguồn chính thức mô tả rõ “trường hợp chết khác” thì giấy tờ thay thế Giấy báo tử là loại nào (ngoài các nhóm đã có nguồn trên Cổng DVCQG)."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P02",
+      "target_node_ids": [
+        "P02.C02"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa trích được nguồn chính thức hướng dẫn quy trình/giấy tờ áp dụng riêng cho trường hợp “chết đã lâu, không còn giấy báo tử/giấy thay thế” (không suy đoán)."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P02",
+      "target_node_ids": [
+        "P02.R01",
+        "P02.R01.N001.N001",
+        "P02.R01.N001.N002",
+        "P02.R01.N001.N003",
+        "P02.R01.N001.N004"
+      ],
+      "topic": "ket_qua",
+      "reason": "Yêu cầu chỉ bổ sung cho thủ tục “Đăng ký khai tử”; chưa có nguồn phù hợp để bổ sung kết quả cho các thủ tục khác như trích lục/đăng ký lại/cải chính/ghi chú (tránh áp sai thủ tục)."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P05",
+      "target_node_ids": [
+        "P05.C01.N001.N001",
+        "P05.C01.N001.N002",
+        "P05.C01.N001.N003"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa trích được đoạn nguồn chính thức (TP.HCM/Bộ) mô tả rõ cách ghi ‘mục đích sử dụng’ và thông tin bắt buộc khi xin giấy để kết hôn (ví dụ ghi rõ kết hôn với ai/nơi đăng ký) cho đúng từng nhánh."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P05",
+      "target_node_ids": [
+        "P05.C02"
+      ],
+      "topic": "ket_qua",
+      "reason": "Chưa có nguồn TP.HCM trong các tài liệu đã mở thể hiện cụ thể kết quả trong trường hợp đã có hôn nhân trước (ly hôn/vợ-chồng chết) có khác biệt nội dung ghi trên Giấy xác nhận hay không."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P05",
+      "target_node_ids": [
+        "P05.C03.N001.N001"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa trích được đoạn nguồn TP.HCM mô tả đầy đủ bước xử lý nội bộ (thẩm tra, dự thảo, trình ký, trả kết quả) riêng cho trường hợp cấp lại khi ‘còn giấy xác nhận cũ’ (ngoài yêu cầu nộp lại giấy cũ trong thành phần hồ sơ)."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P09",
+      "target_node_ids": [
+        "P09.C01.N001.N001",
+        "P09.C02.N001.N001",
+        "P09.C03.N001.N001"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa tra cứu được trang/biểu mẫu TTHC *cụ thể của TP.HCM* (Quyết định 44/2026/QĐ-UBND/QĐ 5548/2026) do lỗi tải PDF nguồn Sở TNMT; vì vậy chưa bổ sung được trình tự riêng theo địa bàn TP.HCM cho từng loại chuyển quyền."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P09",
+      "target_node_ids": [
+        "P09.C05",
+        "P09.C06",
+        "P09.C07",
+        "P09.M02"
+      ],
+      "topic": "ket_qua",
+      "reason": "Chưa có nguồn chính thức theo TP.HCM trong dữ liệu đã truy cập mô tả rõ 'kết quả' riêng cho các nhánh đo đạc thay đổi hình thể/ranh; xây dựng tài sản; quyết định giao/thuê/thu hồi/chuyển mục đích; và đăng ký biện pháp bảo đảm (các nhánh này thường có kết quả đặc thù)."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P09",
+      "target_node_ids": [
+        "P09.C09.N001.N004"
+      ],
+      "topic": "ket_qua",
+      "reason": "Chưa có trích dẫn nguồn chính thức phân biệt rõ trường hợp 'chỉ cập nhật địa chỉ/địa giới' được trả kết quả bằng hình thức 'xác nhận trên GCN đã cấp' hay 'cấp GCN mới' trong bộ TTHC TP.HCM."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P10",
+      "target_node_ids": [
+        "P10.C01.N001.N004",
+        "P10.C01.N001.N006",
+        "P10.C02.N002"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa trích được ‘trình tự thực hiện chi tiết theo từng công đoạn’ (tiếp nhận → đo đạc/trích đo → niêm yết/kiểm tra → chuyển thuế → ký cấp GCN → cập nhật CSDL → trả kết quả) trong file ND_TTHC_Dat_dai_QD44_signed.pdf do lỗi timeout khi tải từ cổng Sở NN&MT TP.HCM."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P10",
+      "target_node_ids": [
+        "P10.C01.N001.N004",
+        "P10.C01.N001.N006",
+        "P10.C02.N002"
+      ],
+      "topic": "ket_qua",
+      "reason": "Chưa trích được ‘tên kết quả/biểu mẫu kết quả’ đúng theo bộ TTHC TP.HCM (ví dụ mã biểu mẫu/phiếu hẹn/phiếu chuyển/kết quả trả tại TP.HCM) từ Phụ lục/bản PDF Quyết định 44/2026/QĐ-UBND (do chưa truy cập được file đính kèm chính thức)."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P10",
+      "target_node_ids": [
+        "P10.C01.N001.N004",
+        "P10.C01.N001.N006",
+        "P10.C02.N002"
+      ],
+      "topic": "huong_dan",
+      "reason": "Trang Cổng DVCQG (mã 1.011616) công cụ mở bị lỗi ‘Internal Error’, nên chưa thể xác thực và trích thêm các bước xử lý trung gian ngoài các đoạn đã crawl được qua kết quả tìm kiếm."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P12",
+      "target_node_ids": [
+        "P12.C01.N001.N001",
+        "P12.C02.N001.N002"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa trích được đúng trang/biểu mẫu trong bộ TTHC đất đai TP.HCM (Quyết định 44/2026/QĐ-UBND/Phụ lục IV) mô tả chi tiết các bước nội bộ (tiếp nhận–luân chuyển–xử lý–trả kết quả) riêng cho ‘đăng ký biến động do chuyển nhượng’."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P12",
+      "target_node_ids": [
+        "P12.C01.N001.N002",
+        "P12.C02.N001.N001"
+      ],
+      "topic": "ket_qua",
+      "reason": "Chưa lấy được nguồn chính thức của TP.HCM nêu rõ ‘kết quả’ theo đúng tên trường dữ liệu/ký hiệu kết quả trên phiếu hẹn/biên nhận (ví dụ: hình thức xác nhận biến động hay cấp mới GCN) cho đúng thủ tục tại địa bàn."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P12",
+      "target_node_ids": [
+        "P12.R02.N001.N004"
+      ],
+      "topic": "ket_qua",
+      "reason": "Không có nguồn phù hợp trong dữ liệu đã tra cứu để bổ sung trình tự/kết quả cho nhánh ‘đất chưa có giấy/đang tranh chấp/thi hành án/chưa giải chấp’ mà không bị lẫn sang thủ tục khác (cấp lần đầu, giải quyết tranh chấp, xóa thế chấp...)."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P20",
+      "target_node_ids": [
+        "P20.C01.N002",
+        "P20.C01.N002.N001",
+        "P20.C01.N002.N002"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa trích được hướng dẫn thủ tục riêng cho nhánh ‘Chứng cứ thương tích thời chiến/Điều 76’ (cần nguồn chính thức nêu rõ trình tự, không suy diễn từ thủ tục chung)."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P20",
+      "target_node_ids": [
+        "P20.C01.N003",
+        "P20.C01.N004",
+        "P20.C01.N005",
+        "P20.C01.N006",
+        "P20.C01.N007"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa trích được trình tự thủ tục chính thức cho từng nhánh ‘hồ sơ tồn đọng’ theo từng lực lượng (quân đội/công an/ngoài 2 ngành) từ nguồn cổng/chính phủ/bộ; hiện mới có được quy trình công nhận chung trong phụ lục TTHC."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P20",
+      "target_node_ids": [
+        "P20.C02",
+        "P20.C03"
+      ],
+      "topic": "ket_qua",
+      "reason": "Chưa trích được ‘kết quả’ theo từng thủ tục con (tra soát chi trả/giám định bổ sung/tuất/mai táng/đổi thông tin…) từ nguồn chính thức phù hợp từng mã nhánh trong input (không lấy từ thủ tục khác áp vào)."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P21",
+      "target_node_ids": [
+        "P21.C05",
+        "P21.C05.N001",
+        "P21.C05.N002",
+        "P21.C06"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa tìm được nguồn chính thức (Cổng DVC TP.HCM/Sở/CSLD TTHC) mô tả riêng trình tự cho “đổi người thờ cúng”, “chuyển nơi quản lý”, hoặc “hỏi chi trả/chậm nhận” trong phạm vi P21 (không suy luận từ thủ tục khác)."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P21",
+      "target_node_ids": [
+        "P21.C03.N001.N003"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa có trích dẫn chính thức nêu trình tự “sàng lọc/đối chiếu tuất tháng” trong bộ thủ tục thờ cúng liệt sĩ để gắn vào nút này."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P21",
+      "target_node_ids": [
+        "P21.C01",
+        "P21.C02",
+        "P21.C03"
+      ],
+      "topic": "huong_dan",
+      "reason": "Nguồn đã thu thập mới nêu quy trình chung của thủ tục và trường hợp ủy quyền đặc biệt; chưa có hướng dẫn chính thức tách riêng theo các biến thể “còn thân nhân và không chỉ còn các con”/“chỉ còn nhiều người con”/“chỉ còn một người con (tự thờ cúng/ủy quyền)”, nên chưa thể bổ sung bước chi tiết theo từng biến thể mà không suy đoán."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P22",
+      "target_node_ids": [
+        "P22.C03.N001.N001"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa trích xuất được đoạn hướng dẫn riêng cho trường hợp chuyển từ THPT tư thục sang công lập/ngoại lệ trong Công văn 6015 (cần mở đúng trang/mục)."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P22",
+      "target_node_ids": [
+        "P22.R01.N002.N001"
+      ],
+      "topic": "huong_dan",
+      "reason": "Chưa trích xuất được đoạn hướng dẫn/ kết quả về 'tiếp nhận học sinh nước ngoài' trong Công văn 6015/nguồn chính thức tương ứng."
+    },
+    {
+      "batch": "research_gaps",
+      "procedure": "P22",
+      "target_node_ids": [
+        "P22.R01.N003.N001"
+      ],
+      "topic": "ket_qua",
+      "reason": "Nhánh 'tuyển sinh đầu cấp' không được bổ sung vì yêu cầu không áp thủ tục đăng ký lần đầu; cần nguồn thủ tục tuyển sinh đầu cấp riêng nếu về sau được phép bổ sung."
+    }
+  ],
+  "conflicts": [
+    {
+      "batch": "research",
+      "procedure": "P01",
+      "target_node_ids": [
+        "P01.N001.N003.N001",
+        "P01.N001.N003.N002",
+        "P01.N001.N003.N003",
+        "P01.M05.N002.N003"
+      ],
+      "description": "Số tiền lệ phí trong tài liệu công báo TP.HCM năm 2024 (ví dụ 5.000 đồng/trường hợp khai sinh; 10.000 đồng/trường hợp nhận cha, mẹ, con; 0 đồng khi nộp trực tuyến) có khả năng không còn đúng tại thời điểm 16/10/2026 do TP.HCM đã ban hành Nghị quyết 18/2026/NQ-HĐND có hiệu lực 19/06/2026 về lệ phí hộ tịch. Chưa đọc được bảng mức thu của Nghị quyết 18/2026 nên chưa thể hòa giải/cập nhật.",
+      "source_url": "https://congbao.hochiminhcity.gov.vn/cong-bao/van-ban/nghi-quyet/so/18-2026-nq-hdnd/ngay/19-06-2026/49517"
+    },
+    {
+      "batch": "research",
+      "procedure": "P02",
+      "target_node_ids": [
+        "P02.N001.N002.N004"
+      ],
+      "description": "Nguồn DVCQG (mã 1.006714) thể hiện lệ phí đăng ký khai tử không đúng hạn là 5.000 đồng theo nghị quyết HĐND của một tỉnh khác; trong khi TP.HCM có Nghị quyết 18/2026/NQ-HĐND đang hiệu lực từ 19/06/2026 (và đã thay thế/bãi bỏ các nghị quyết cũ). Chưa thể kết luận mức thu TP.HCM nếu chưa đọc toàn văn Nghị quyết 18/2026/NQ-HĐND.",
+      "source_url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.006714"
+    },
+    {
+      "batch": "research",
+      "procedure": "P02",
+      "target_node_ids": [
+        "P02.N001.N001",
+        "P02.N001.N002.N001",
+        "P02.N001.N002.N002"
+      ],
+      "description": "Dữ liệu đang có về thời hạn xử lý chỉ trích được cho quy trình “liên thông” trên DVCQG; chưa có trích dẫn chính thức cho thời hạn giải quyết thủ tục đăng ký khai tử đơn lẻ theo bộ TTHC chuẩn (Quyết định 163/QĐ-BTP/Phụ lục).",
+      "source_url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.006714"
+    },
+    {
+      "batch": "research",
+      "procedure": "P06",
+      "target_node_ids": [
+        "P06.C01.N001.N001",
+        "P06.N001.N001"
+      ],
+      "description": "Dữ liệu đầu vào đang coi CT01 theo Thông tư 116/2026/TT-BCA (hiệu lực 01/07/2026), nhưng trang thủ tục chính thức của Cổng DVC Bộ Công an (mã 26356) lại nêu CT01 ‘ban hành kèm theo Thông tư 56/2021/TT-BCA’. Cần đối chiếu mẫu đang được hệ thống áp dụng thực tế và văn bản thay thế/hiệu lực để tránh dùng sai mẫu.",
+      "source_url": "https://dichvucong.bocongan.gov.vn/public/link-to/chi-tiet-thu-tuc?ma-thu-tuc=26356"
+    },
+    {
+      "batch": "research",
+      "procedure": "P08",
+      "target_node_ids": [
+        "P08.C05",
+        "P08.N001.N001"
+      ],
+      "description": "Nguồn Cổng DVC Bộ Công an (ma-thu-tuc=26096) mô tả 'công dân đến cơ quan quản lý căn cước của Bộ Công an' đối với thủ tục cấp lại, trong khi nguồn Công an Thanh Hóa mô tả tiếp nhận 'Công an cấp xã hoặc Bộ phận một cửa cấp xã trong cả nước không phụ thuộc vào nơi cư trú (nếu đã triển khai)'. Cần mở thêm thủ tục chính thức tương ứng với cấp xã trên Cổng DVC Bộ Công an/DVCQG để xác định đúng thẩm quyền/điểm tiếp nhận áp dụng rộng rãi năm 2026.",
+      "source_url": "https://dichvucong.bocongan.gov.vn/public/link-to/chi-tiet-thu-tuc?ma-thu-tuc=26096"
+    },
+    {
+      "batch": "research",
+      "procedure": "P09",
+      "target_node_ids": [
+        "P09.N001.N001"
+      ],
+      "description": "Có xung đột/khác biệt về ‘Mẫu 18’ giữa nguồn TP.HCM (Quyết định 44/2026/QĐ-UBND – Mẫu số 18 ban hành kèm theo Quyết định) và Cổng DVCQG (đối với thủ tục chuyển mục đích không phải xin phép) đang ghi Mẫu số 18 ban hành kèm theo Nghị định 151/2025/NĐ-CP. Cần đối chiếu trường hợp áp dụng tại TP.HCM (dùng mẫu theo QĐ 44 hay mẫu theo NĐ 151/2025) cho đúng thủ tục cụ thể.",
+      "source_url": "https://sonnmt.hochiminhcity.gov.vn/portal/document/2026/08/28101948/ND_TTHC_Dat_dai_QD44_signed.pdf"
+    },
+    {
+      "batch": "research",
+      "procedure": "P10",
+      "target_node_ids": [
+        "P10.N001.N007"
+      ],
+      "description": "Các node lệ phí đang ghi theo “địa bàn Bình Dương cũ” (Quyết định 59/2016/QĐ-UBND Bình Dương). Tuy nhiên, Quyết định 44/2026/QĐ-UBND TP.HCM yêu cầu phí/lệ phí thực hiện theo quy định pháp luật về phí, lệ phí và Nghị quyết HĐND TP.HCM. Chưa xác minh quy định TP.HCM hiện hành nên không thể kết luận các mức Bình Dương cũ còn áp dụng tại phường Long Nguyên (TP.HCM).",
+      "source_url": "https://tphcm.cdnchinhphu.vn/document/2026/10/6/442026qd-ubnd-17912572674851915177045.pdf"
+    },
+    {
+      "batch": "research",
+      "procedure": "P12",
+      "target_node_ids": [
+        "P12.N001.N001",
+        "P12.N001.N005",
+        "P12.N001.N007"
+      ],
+      "description": "Dữ liệu đầu vào đang gắn một số căn cứ địa phương Bình Dương cũ (Nghị quyết 13/2020; Quyết định 59/2016 về lệ phí…) trong khi thủ tục được yêu cầu cho TP.HCM/Long Nguyên. Chưa có nguồn đã mở chứng minh các biểu phí Bình Dương còn được áp dụng cho địa bàn TP.HCM sau sắp xếp, nên các mức phí/lệ phí này không thể coi là đã xác minh cho Long Nguyên.",
+      "source_url": "https://tphcm.chinhphu.vn/van-ban-dieu-hanh/5143.htm"
+    },
+    {
+      "batch": "research",
+      "procedure": "P13",
+      "target_node_ids": [
+        "P13.N001.N001"
+      ],
+      "description": "Dữ liệu đầu vào nêu “Mẫu đăng ký lần đầu là Mẫu 15; đăng ký biến động Mẫu 18 theo Quyết định 44/2026/QĐ-UBND”, nhưng nguồn đã đọc từ Cổng DVCQG và bài trên Cổng Chính phủ điện tử lại đang thể hiện mẫu “Mẫu số 04/ĐK” (hoặc 04a/ĐK) theo Nghị định 101/2024/NĐ-CP cho đăng ký/cấp GCN lần đầu. Chưa đọc được PDF TP.HCM theo QĐ 44/2026/QĐ-UBND để xác định TP.HCM dùng mẫu nào tại 16/10/2026.",
+      "source_url": "https://xaydungchinhsach.chinhphu.vn/thu-tuc-dang-ky-dat-dai-tai-san-gan-lien-voi-dat-cap-so-do-lan-dau-voi-ca-nhan-ho-gia-dinh-119240821090606194.htm"
+    },
+    {
+      "batch": "research",
+      "procedure": "P14",
+      "target_node_ids": [
+        "P14.N001.N002",
+        "P14.C02.N001.N003",
+        "P14.N001.N002.N001",
+        "P14.N001.N002.N002",
+        "P14.N001.N002.N003",
+        "P14.N001.N002.N005"
+      ],
+      "description": "Nguồn thời hạn xử lý trên Cổng DVCQG còn thể hiện 15–20 ngày và viện dẫn Nghị định 175/2024/NĐ-CP; trong khi bộ dữ liệu đang áp dụng mốc rút gọn 7/9/10/5 ngày làm việc theo định hướng mới tại TP.HCM sau 01/7/2026. Cần xác minh thủ tục/biểu mẫu trên DVCQG đã được cập nhật theo Nghị định 217/2026/NĐ-CP và quy trình riêng của TP.HCM hay chưa để tránh dùng nhầm mốc thời hạn.",
+      "source_url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.013225"
+    },
+    {
+      "batch": "research",
+      "procedure": "P15",
+      "target_node_ids": [
+        "P15.C01.N002.N001"
+      ],
+      "description": "Node đang ghi ‘Thời hạn giải quyết 15 ngày làm việc từ đủ hồ sơ hợp lệ’ nhưng trang Cổng DVCQG đã mở (ma_thu_tuc=214578) ở đoạn hiển thị hiện tại chưa thấy mục thời hạn giải quyết để đối chiếu; cần mở/đọc đúng phần ‘Thời hạn giải quyết’ trên Cổng DVCQG hoặc văn bản công bố TTHC để xác định có xung đột hay không.",
+      "source_url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=214578&open_popup=1"
+    },
+    {
+      "batch": "research",
+      "procedure": "P18",
+      "target_node_ids": [
+        "P18.N001.N001",
+        "P18.C01",
+        "P18.C02"
+      ],
+      "description": "Cổng DVCQG công bố thời hạn 25 ngày làm việc nhưng không thể hiện rõ lệ phí; trong khi một số nội dung trong nodes hiện ghi 'không lệ phí' chưa được đối chiếu bằng trích dẫn từ nguồn đã mở (DVCQG/VBHN).",
+      "source_url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=2476"
+    },
+    {
+      "batch": "research",
+      "procedure": "P19",
+      "target_node_ids": [
+        "P19.R02.N013.N004"
+      ],
+      "description": "Có dấu hiệu không nhất quán giữa nội dung điều kiện/bảo đảm trên trang thủ tục DVCQG (snippet) và ngưỡng bảo đảm trong Quyết định 17/2023 (bản ký). Do không mở/đọc được trang DVCQG trong phiên này nên chưa thể trích nguyên văn để đối chiếu và kết luận áp dụng cho Long Nguyên.",
+      "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=2.002553"
+    },
+    {
+      "batch": "research",
+      "procedure": "P20",
+      "target_node_ids": [
+        "P20.C01.N001.N002",
+        "P20.C01.N007.N001"
+      ],
+      "description": "Dữ liệu đầu vào nêu “tổng 72 ngày làm việc theo Quyết định 556”, nhưng hiện chưa trích được nguyên văn tổng thời hạn của thủ tục công nhận thương binh (1.010806) từ phụ lục 556. Nguồn đã đọc mới xác nhận mã thủ tục 1.010806, chưa xác nhận mốc 72 ngày cho đúng thủ tục này.",
+      "source_url": "https://vpubnd.daklak.gov.vn/CMS/Content/VanBan/2026/5.2026/556.Q%C4%90-BNV%20PL.pdf"
+    },
+    {
+      "batch": "research",
+      "procedure": "P22",
+      "target_node_ids": [
+        "P22.N001.N001"
+      ],
+      "description": "Node đang ghi địa chỉ hệ thống là https://chuyentruong.hcm.edu.vn, trong khi Công văn 6015 ghi https://chuyentruong.hcm.edu.vn. Cần xác minh địa chỉ đúng/đang hoạt động vì khi mở thử một tên miền hệ thống trả lỗi.",
+      "source_url": "https://f1.hcm.edu.vn/data/doc/2026/gdphothong/2026_6/23/6015huong-dan-chuyen-truong-tu-nam-hoc-2026-2027_236202611.pdf"
+    },
+    {
+      "batch": "research",
+      "procedure": "P25",
+      "target_node_ids": [
+        "P25.C01.N001.N007"
+      ],
+      "description": "Dữ liệu hiện có trong node P25.N001.N002 nêu '50.000 đồng/lần trực tiếp, trực tuyến 0 đồng' cho 'địa bàn Bình Dương trước sắp xếp'. Trong khi QĐ 5083/QĐ-UBND (12/08/2026) công bố mức thu 'khu vực Thành phố Hồ Chí Minh cũ: 100.000 đồng/lần/đăng ký; khu vực tỉnh Bình Dương cũ: 50.000 đồng/lần cấp; khu vực tỉnh Bà Rịa - Vũng Tàu cũ: 20.000 đồng/01 giấy chứng nhận; trực tuyến 0 đồng'. Cần làm rõ Long Nguyên thuộc khu vực nào và dùng đúng đơn vị tính/mức thu theo công bố 5083/QĐ-UBND.",
+      "source_url": "https://congbao.hochiminhcity.gov.vn/cong-bao/van-ban/quyet-dinh/so/5083-qd-ubnd/ngay/12-08-2026/tai-ve/49890"
+    },
+    {
+      "batch": "research_extra",
+      "procedure": "P04",
+      "target_node_ids": [
+        "P04",
+        "P04.C01",
+        "P04.C03"
+      ],
+      "description": "Dữ liệu input nêu 'CT01 hiện hành theo Thông tư 116/2026', nhưng trang TTHC trên Cổng dịch vụ công Bộ Công an hiện vẫn hiển thị CT01/CT02/CT04/CT05/CT06 ban hành kèm Thông tư 66/2023/TT-BCA. Cần mở và đọc Thông tư 116/2026 (bản công báo/VBQPPL) và đối chiếu để xác định mẫu biểu đang áp dụng thực tế tại 16/10/2026, tránh dùng sai mẫu.",
+      "source_url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26360"
+    },
+    {
+      "batch": "research_extra",
+      "procedure": "P08",
+      "target_node_ids": [
+        "P08.C01",
+        "P08.C02",
+        "P08.C04",
+        "P08.C05"
+      ],
+      "description": "Nguồn Cổng TTĐT Chính phủ nêu Mẫu DC02/CC01/DC01/CC02/CC03 'ban hành kèm theo Thông tư 118/2026/TT-BCA ngày 29/6/2026', trong khi Phiếu hướng dẫn trên Cổng Dịch vụ công Bộ Công an (mã 26094) lại đang hiển thị DC02/CC01 theo 'Thông tư 17/2024/TT-BCA'. Cần rà soát phiên bản thủ tục/mẫu áp dụng tại thời điểm tiếp nhận ở phường Long Nguyên (TP.HCM) để tránh dùng nhầm bộ mẫu cũ.",
+      "source_url": "https://xaydungchinhsach.chinhphu.vn/huong-dan-thu-tuc-cap-cap-doi-cap-lai-the-can-cuoc-tai-cong-an-cap-xa-119260828113820605.htm"
+    }
+  ]
+}

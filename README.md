@@ -1,6 +1,6 @@
 # Citizen Agent V17.3 — Unity compatible text display
 
-V17.3 sends the information section through the existing Unity `speech_text` protocol. Social speech goes only to TTS; procedure information and question options go only to the screen. The model remains gpt-5.2 and source data are unchanged. V17.3 adds model-controlled topic selection and silent page navigation.
+V17.3 sends the information section through the existing Unity `speech_text` protocol. Social speech goes only to TTS; procedure information and question options go only to the screen. The model remains gpt-5.2 with the new Meta 3.1 topic-layer dataset. V17.3 adds model-controlled topic selection and silent page navigation.
 
 ## V17.3: chọn nội dung và chuyển trang
 
@@ -10,7 +10,9 @@ Nói “tiếp”, “tiếp theo”, “trang trước”, “mở lại 1/2”
 
 `config.json`: `display_columns=40`, `display_rows=11` (bao gồm dòng số trang). Đây là mức ước lượng thận trọng từ ảnh, không phải phép đo pixel/font Unity. Nếu Unity tự xuống dòng thêm, giảm `display_columns`; nếu thiếu chiều cao, giảm `display_rows`. Chia theo từ và giữ nguyên mục ngắn trong cùng trang khi có thể; mục quá dài được chia tiếp, không bỏ nội dung. Không cần sửa Unity.
 
-Meta vẫn cục bộ; khi chọn mục, lọc block theo tag mục và giữ điều kiện/khối chưa gắn tag. Một block có nhiều chủ đề vẫn được giữ nguyên để không bỏ lưu ý. Chuyển trang không gửi lại meta/nội dung cũ lên model. Các trang nằm trong snapshot `dialogue_v17` của phiên; nội dung mới thay thế bộ trang cũ.
+Meta 3.1 bổ sung tầng nội dung dưới từng trường hợp. Runtime ưu tiên `data/kb_meta_tree_3.1.json`, giữ 3.0 để đối chiếu. Khi nhận dạng chỉ tải điều kiện cục bộ; khi chọn mục tải nút `.TOPIC.<mục>` và tham chiếu phù hợp. Các nhánh có điều kiện không được tự động kế thừa. Chuyển trang dùng nội dung đã lưu, không tải lại meta.
+
+Bản này bảo toàn 27 thủ tục / 137 trường hợp, có 7 mục cho mỗi trường hợp; bổ sung thông tin có nguồn và ghi rõ mục chưa xác minh. Xem [báo cáo Meta 3.1](reports/meta_3_1/Bao_cao.md) và [bảng phủ nội dung](reports/meta_3_1/case_coverage.csv). Dùng toàn bộ thư mục bản mới, chép lại `models` và preset đang dùng. Hash dữ liệu thay đổi nên phiên hội thoại cũ không được khôi phục; bắt đầu hội thoại mới.
 
 Giải nén vào đường dẫn ngắn như `D:\VO17_3` để tránh giới hạn đường dẫn CSV trên Windows. Dùng môi trường Python, thư mục `models` và preset đang chạy tốt ở V17.2.
 

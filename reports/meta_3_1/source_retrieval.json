@@ -1,0 +1,1106 @@
+[
+  {
+    "id": "HT",
+    "url": "https://hctp.moj.gov.vn/legal/detail?legalDocumentId=2901",
+    "title": "Quyết định 163 QĐ BTP công bố thủ tục hộ tịch năm 2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "HTPDF",
+    "url": "https://hctp.moj.gov.vn/documents/37829/0/PL_163_2026_QD_BTP_21604691128695721.pdf/68af2f4b-9548-86ef-7c09-aa5f917d1179?download=true&t=1776238520923&version=1.0",
+    "title": "Phụ lục thủ tục hộ tịch của Quyết định 163",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "FHT",
+    "url": "https://congbao.hochiminhcity.gov.vn/cong-bao/van-ban/nghi-quyet/so/18-2026-nq-hdnd/ngay/19-06-2026/tai-ve/49517",
+    "title": "Nghị quyết 18 năm 2026 của HĐND Thành phố về lệ phí hộ tịch",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "FONLINE",
+    "url": "https://phuongbenthanh.gov.vn/thong-bao-niem-yet-danh-muc-thu-tuc-hanh-chinh-thuc-hien-muc-thu-le-phi-bang-0-dong/",
+    "title": "Niêm yết mức lệ phí không đồng cho dịch vụ công trực tuyến",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "FDIGITAL",
+    "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-thong-tu-117-2026-tt-btc-quy-dinh-mien-giam-mot-so-khoan-phi-le-phi-de-trien-khai-nghi-quyet-ve-phat-trien-cong-dan-so-119260828175124756.htm",
+    "title": "Thông tư 117 năm 2026 của Bộ Tài chính",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "DIGITAL",
+    "url": "https://xaydungchinhsach.chinhphu.vn/nghi-quyet-6622-2026-nq-cp-ve-phat-trien-cong-dan-so-119260713165753546.htm",
+    "title": "Nghị quyết 66 22 năm 2026 về phát triển công dân số",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "CT",
+    "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-116-2026-tt-bca-470078.htm",
+    "title": "Thông tư 116 năm 2026 của Bộ Công an",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "CTTT",
+    "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26360",
+    "title": "Đăng ký thường trú trên Cổng dịch vụ công Bộ Công an",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "CTTEMP",
+    "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26356",
+    "title": "Đăng ký tạm trú trên Cổng dịch vụ công Bộ Công an",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "CTCONF",
+    "url": "https://xaydungchinhsach.chinhphu.vn/quy-dinh-xac-nhan-thong-tin-ve-cu-tru-119260806160450603.htm",
+    "title": "Xác nhận thông tin về cư trú theo Thông tư 116",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "CTEDIT",
+    "url": "https://xaydungchinhsach.chinhphu.vn/quy-dinh-dieu-chinh-thong-tin-ve-cu-tru-trong-co-so-du-lieu-ve-cu-tru-119260806155046695.htm",
+    "title": "Điều chỉnh thông tin cư trú theo Thông tư 116",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "CC",
+    "url": "https://congan.ninhbinh.gov.vn/tthc/cap-quan-ly-can-cuoc/cap-doi-the-can-cuoc-thuc-hien-tai-cong-an-cap-xa-224.html",
+    "title": "Cấp đổi căn cước theo Quyết định 5230 năm 2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LAND",
+    "url": "https://sonnmt.hochiminhcity.gov.vn/portal/document/2026/08/28101948/ND_TTHC_Dat_dai_QD44_signed.pdf",
+    "title": "Thủ tục đất đai Thành phố theo Quyết định 5548 năm 2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "BUILD",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/6/217-ndcp.signed.pdf",
+    "title": "Nghị định 217 năm 2026 hướng dẫn Luật Xây dựng",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "BUILDHCM",
+    "url": "https://hdnd.hochiminhcity.gov.vn/tin-tuc/ban-phap-che/xin-phep-xay-dung-nha-o-tai-tp-hcm-chi-con-toi-da-7-ngay",
+    "title": "Hướng dẫn cấp phép xây dựng nhà ở tại Thành phố",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "UNEMP",
+    "url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=426359",
+    "title": "Hưởng trợ cấp thất nghiệp theo công bố tại Thành phố năm 2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "EMP374",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/374-1.signed.pdf",
+    "title": "Nghị định 374 năm 2025 về bảo hiểm thất nghiệp",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "TRAIN",
+    "url": "https://baochinhphu.vn/chinh-sach-ho-tro-dao-tao-nghe-cho-nguoi-dang-nhan-tro-cap-that-nghiep-102260528145755317.htm",
+    "title": "Chính sách hỗ trợ đào tạo nghề theo Nghị định 374",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "ACC1",
+    "url": "https://baohiemxahoi.gov.vn/thu-tuc-hanh-chinh/pages/default.aspx?ItemID=51",
+    "title": "BHXH công bố thủ tục tai nạn lao động lần đầu",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "ACC2",
+    "url": "https://baohiemxahoi.gov.vn/thu-tuc-hanh-chinh/pages/default.aspx?ItemID=52",
+    "title": "BHXH công bố thủ tục tái phát thương tật",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "VETPROC",
+    "url": "https://tanan.dongnai.gov.vn/vi/van-ban/detail/QUYET-DINH-V-v-cong-bo-TTHC-duoc-sua-doi-bo-sung-va-bi-bai-bo-linh-vuc-nguoi-co-cong-thuoc-pham-vi-quan-ly-cua-Bo-Noi-vu-quy-dinh-tai-Nghi-quyet-so-24-2026-NQ-CP-ngay-29-4-2026-ve-cat-giam-phan-cap-don-gian-hoa-TTHC-kien-kinh-doanh-linh-vuc-noi-vu-119/?download=1&id=1",
+    "title": "Quyết định 556 QĐ BNV ngày 21 tháng 5 năm 2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "VETPAY",
+    "url": "https://vanban.chinhphu.vn/?classid=1&docid=219215&pageid=27160",
+    "title": "Nghị định 321 năm 2026 về mức ưu đãi người có công",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "EDU",
+    "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-thong-tu-so-15-2026-tt-bgddt-dieu-le-truong-tieu-hoc-truong-trung-hoc-co-so-truong-trung-hoc-pho-thong-va-truong-pho-thong-co-nhieu-cap-hoc-119260504162539719.htm",
+    "title": "Thông tư 15 năm 2026 ban hành Điều lệ trường phổ thông",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "FOODHCM",
+    "url": "https://congbao.hochiminhcity.gov.vn/cong-bao/van-ban/quyet-dinh/so/4697-qd-ubnd/ngay/28-07-2026/tai-ve/50021",
+    "title": "Quyết định 4697 QĐ UBND Thành phố ngày 28 tháng 7 năm 2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "BIZHCM",
+    "url": "https://congbao.hochiminhcity.gov.vn/cong-bao/van-ban/quyet-dinh/so/5083-qd-ubnd/ngay/12-08-2026/tai-ve/49890",
+    "title": "Quyết định 5083 QĐ UBND ngày 12 tháng 8 năm 2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "COMPLAINT",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat136-2025.pdf",
+    "title": "Luật 136 năm 2025 sửa đổi luật tiếp công dân khiếu nại tố cáo",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "COMPLAINT155",
+    "url": "https://baochinhphu.vn/quy-dinh-moi-trong-giai-quyet-khieu-nai-10226051618435686.htm",
+    "title": "Nghị định 155 năm 2026 sửa đổi thủ tục khiếu nại",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LANDFEE",
+    "url": "https://vbpl.vn/FileData/TW/Lists/vbpq/Attachments/145431/VanBanGoc_7._DTNQ_PHI_THAM_DINH_CAP_GIAY_CHUNG_NHAN_QSDD.pdf",
+    "title": "Nghị quyết 13 năm 2020 về phí thẩm định hồ sơ đất tại Bình Dương",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "EDUHCM",
+    "url": "https://f1.hcm.edu.vn/data/doc/2026/gdphothong/2026_6/23/6015huong-dan-chuyen-truong-tu-nam-hoc-2026-2027_236202611.pdf",
+    "title": "Công văn 6015 SGDĐT GDPT ngày 22 tháng 6 năm 2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "BIZ",
+    "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2025-nd-cp-ve-dang-ky-doanh-nghiep-119250702175708554.htm",
+    "title": "Nghị định 168 năm 2025 về đăng ký doanh nghiệp",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "EMP74",
+    "url": "https://thuvienphapluat.vn/van-ban/Lao-dong-Tien-luong/Luat-Viec-lam-2025-so-74-2025-QH15-530912.aspx",
+    "title": "Luật Việc làm 74 năm 2025",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANHCM",
+    "url": "https://congbao.hochiminhcity.gov.vn/cong-bao/van-ban/nghi-quyet/so/71-2025-nq-hdnd/ngay/10-12-2025/tai-ve/48776",
+    "title": "Nghị quyết 71 năm 2025 về cho vay từ ngân sách Thành phố",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANRATE",
+    "url": "https://vbsp.org.vn/gioi-thieu/lai-suat-cho-vay.html",
+    "title": "Bảng lãi suất Ngân hàng Chính sách xã hội",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANPOOR",
+    "url": "https://vbsp.org.vn/wp-content/uploads/2024/08/Cho-vay-H%E1%BB%99-ngh%C3%A8o.pdf",
+    "title": "Hướng dẫn chương trình hộ nghèo của NHCSXH",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANJOB",
+    "url": "https://xaydungchinhsach.chinhphu.vn/tu-1-1-2026-nang-muc-cho-vay-ho-tro-tao-viec-lam-duy-tri-mo-rong-viec-lam-119251225175125732.htm",
+    "title": "Nghị định 338 năm 2025 về vốn tạo việc làm",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANHOME",
+    "url": "https://xaydungchinhsach.chinhphu.vn/nghi-dinh-so-261-2025-nd-cp-quy-dinh-moi-ve-nha-o-xa-hoi-119251013184517247.htm",
+    "title": "Nghị định 261 năm 2025 về nhà ở xã hội",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "DIS",
+    "url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=2476",
+    "title": "Thủ tục quốc gia 1.001699 về xác định mức độ khuyết tật",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "DISDETAIL",
+    "url": "https://dichvucong.laichau.gov.vn/public/link-to/chi-tiet-thu-tuc?ma-thu-tuc=41041",
+    "title": "Nội dung công bố thủ tục xác định mức độ khuyết tật",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "COMPHN",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/28-vbhn-vpqh.pdf",
+    "title": "Văn bản hợp nhất 28 năm 2026 Luật Khiếu nại",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "PAKN",
+    "url": "https://vpcp.dichvucong.gov.vn/p/phananhkiennghi/pakn-gui-pakn.html",
+    "title": "Kênh tiếp nhận phản ánh kiến nghị Cổng DVC quốc gia",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "WORSHIP",
+    "url": "https://chinhsachonline.chinhphu.vn/nhung-ai-thuoc-dien-nhan-che-do-tho-cung-liet-si-67946.htm",
+    "title": "Hướng dẫn xác định người được ủy quyền thờ cúng liệt sĩ",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "VETOLD",
+    "url": "https://vanban.chinhphu.vn/?docid=203729&pageid=27160",
+    "title": "Nghị định 75/2021 và mức thờ cúng tiếp tục áp dụng hết năm 2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "ACCLAW",
+    "url": "https://vbpl.moj.gov.vn/boyte/Pages/vbpq-toanvan.aspx?ItemID=70811&Keyword=",
+    "title": "Luật An toàn vệ sinh lao động 84/2015",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "ACC143",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/11/143-cp.signed.pdf",
+    "title": "Nghị định 143/2024 về bảo hiểm tai nạn lao động tự nguyện",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "BHXH41",
+    "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468972-1772691642_v1_1772691941_signed.pdf",
+    "title": "Luật Bảo hiểm xã hội hợp nhất năm 2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "BASE161",
+    "url": "https://vanban.chinhphu.vn/?docid=218107&pageid=27160",
+    "title": "Nghị định 161/2026 về mức lương cơ sở",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "MIN293",
+    "url": "https://baochinhphu.vn/tang-luong-toi-thieu-vung-tu-1-1-2026-102251110175033018.htm",
+    "title": "Nghị định 293/2025: lương tối thiểu từ 1/1/2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "BUILDL",
+    "url": "https://chinhphu.vn/?docid=216514&pageid=27160",
+    "title": "Luật Xây dựng 135/2025/QH15",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "BUILDF",
+    "url": "https://thuvienphapluat.vn/van-ban/Thue-Phi-Le-Phi/Nghi-quyet-71-2016-NQ-HDND9-che-do-thu-nop-quan-ly-le-phi-cap-giay-phep-xay-dung-Binh-Duong-336850.aspx",
+    "title": "Nghị quyết 71/2016/NQ-HĐND9 Bình Dương — toàn văn tại Thư viện Pháp luật",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "FOODLAW",
+    "url": "https://vfa.gov.vn/upload/files/Q%C4%90%20%202076%20%20cong%20bo%20TTHC%20ATTP_%2023_6_2025%20Final_signed.pdf",
+    "title": "Quyết định 2076 QĐ BYT năm 2025: hồ sơ an toàn thực phẩm",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "FOODSUSP",
+    "url": "https://baochinhphu.vn/tiep-tuc-ap-dung-nghi-dinh-15-2018-nd-cp-ve-an-toan-thuc-pham-cho-den-khi-co-quy-dinh-moi-102260408123934123.htm",
+    "title": "Nghị quyết 15/2026: tiếp tục áp dụng Nghị định 15/2018",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "FOODEX",
+    "url": "https://pbgdpl.gov.vn/noidung/tintuc/Lists/ToGap/Attachments/301/To%20gap%2013.pdf",
+    "title": "Hướng dẫn cơ sở không thuộc diện cấp giấy chứng nhận ATTP",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "FEE64",
+    "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-thong-tu-64-2025-tt-btc-quy-dinh-muc-thu-mien-mot-so-khoan-phi-le-phi-11925070116332603.htm",
+    "title": "Thông tư 64/2025 giảm phí đến hết năm 2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "VET131",
+    "url": "https://vbpl.moj.gov.vn/dongthap/Pages/vbpq-toanvan.aspx?ItemID=153459",
+    "title": "Nghị định 131/2021 về người có công",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "VETMOVE",
+    "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=297081",
+    "title": "Di chuyển hồ sơ người hưởng ưu đãi",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "PAKN31",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2021/10/31.signed.pdf",
+    "title": "Quyết định 31/2021/QĐ-TTg, Quy chế Cổng dịch vụ công quốc gia",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "SECURITY18",
+    "url": "https://dkgd.moj.gov.vn/portal/tin-tuc/chi-tiet/thay-the-viec-nop-giay-to-thuoc-thanh-phan-ho-so-ang-ky-bien-phap-bao-am-bang-viec-khai-thac-du-lieu-thong-tin-luu-tru-tai-co-quan-ang-ky-theo-nghi-inh-so-182026n-cp-te5sii302b.html?handler=TimKiem",
+    "title": "Bộ Tư pháp hướng dẫn Nghị định 18/2026 về dữ liệu thay hồ sơ bảo đảm",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "SECURITY99",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/12/99-cp.signed.pdf",
+    "title": "Nghị định 99/2022/NĐ-CP về đăng ký biện pháp bảo đảm",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "EMP74PRIMARY",
+    "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-viec-lam-119250711173403835.htm",
+    "title": "Toàn văn Luật Việc làm 74/2025/QH15 trên Cổng Chính phủ",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "BCA82",
+    "url": "https://bocongan.gov.vn/media/bca-media/library-20251209101018-238217a4-2c79-42dc-ae3b-dd801de28b19-thong-tu-82-2025.pdf",
+    "title": "Thông tư 82/2025/TT-BCA ngày 29/8/2025",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "BQP28",
+    "url": "https://xdcs.cdnchinhphu.vn/446259493575335936/2026/3/2/vbhn28bqp-17724196911142092461441.pdf",
+    "title": "Văn bản hợp nhất 28/VBHN-BQP ngày 24/2/2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "VETPL27",
+    "url": "https://daibieunhandan.vn/toan-van-phap-lenh-sua-doi-bo-sung-mot-so-dieu-cua-phap-lenh-uu-dai-nguoi-co-cong-voi-cach-mang-10424886.html",
+    "title": "Pháp lệnh 05/2026/UBTVQH16 trên Báo Đại biểu Nhân dân",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "VET129",
+    "url": "https://congbao.cdnchinhphu.vn/CongBaoCP/CongBao/2025/6/45075/56754-1-783-784.pdf",
+    "title": "Nghị định 129/2025/NĐ-CP, Điều 31–33",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "TAX253",
+    "url": "https://xaydungchinhsach.chinhphu.vn/nghi-dinh-253-2026-nd-cp-huong-dan-thi-hanh-luat-thue-thu-nhap-ca-nhan-119260713171348107.htm",
+    "title": "Nghị định 253/2026/NĐ-CP hướng dẫn Luật Thuế thu nhập cá nhân",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "TAXGIFT26",
+    "url": "https://xaydungchinhsach.chinhphu.vn/quy-dinh-chi-tiet-thue-thu-nhap-ca-nhan-doi-voi-thu-nhap-tu-nhan-thua-ke-qua-tang-119260706110551595.htm",
+    "title": "Hướng dẫn Chính phủ về thuế thừa kế, quà tặng từ 1/7/2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "BUILD217TEXT",
+    "url": "https://tailieuxaydung.quangngai.gov.vn/vi/phap-luat/nghi-dinh/217-2026-nd-cp",
+    "title": "Nghị định 217/2026/NĐ-CP trên cổng tài liệu Sở Xây dựng Quảng Ngãi",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LANDLAW",
+    "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-dat-dai-119240221224513596.htm",
+    "title": "Luật Đất đai 2024, Điều 138–140",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "BHXH313",
+    "url": "https://xdcs.cdnchinhphu.vn/446259493575335936/2026/4/21/bhxhvn-313-qd-bhxh-2732026-17767620176571063905456.pdf",
+    "title": "Quyết định 313/QĐ-BHXH ngày 27/3/2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "BHXHTIME",
+    "url": "https://baohiemxahoi.gov.vn/dich-vu-cong/Pages/default.aspx?ItemId=28",
+    "title": "BHXH Việt Nam công bố thủ tục tử tuất",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "TOCAO29",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/29-vbhn-vpqh.pdf",
+    "title": "Văn bản hợp nhất 29/VBHN-VPQH năm 2026 Luật Tố cáo",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "TOCAOND",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/01vbhn.signed.pdf",
+    "title": "Văn bản hợp nhất 01/2026/VBHN-NĐ-TTCP ngày 30/9/2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "CRIME",
+    "url": "https://congbao.cdnchinhphu.vn/180507251028987904/2026/3/5/468961-1772691203_v1_1772691392_signed.pdf",
+    "title": "Bộ luật Tố tụng hình sự hợp nhất công bố tháng 2/2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LANDCERTF",
+    "url": "https://vbpl.vn/binhduong/Pages/vbpq-toanvan.aspx?ItemID=120307",
+    "title": "Quyết định 59/2016/QĐ-UBND Bình Dương về lệ phí giấy đất",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "HOME24",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/24-vbhn-bxd.pdf",
+    "title": "Văn bản hợp nhất 24/VBHN-BXD ngày 4/5/2026 về nhà ở xã hội",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "STEM29",
+    "url": "https://xaydungchinhsach.chinhphu.vn/quyet-dinh-29-2025-qd-ttg-ve-tin-dung-voi-hssv-hoc-vien-thac-si-nghien-cuu-sinh-hoc-cac-nganh-khoa-hoc-cong-nghe-ky-thuat-va-toan-119250830061841618.htm",
+    "title": "Quyết định 29/2025/QĐ-TTg về tín dụng người học STEM",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "HSSV08",
+    "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2022/4/37065/40364-1-2022333-33408-vbhn-btc.pdf",
+    "title": "Văn bản hợp nhất 08/VBHN-BTC năm 2022 về tín dụng HSSV",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "SECURITYF",
+    "url": "https://vbpl.vn/hanoi/Pages/vbpq-print.aspx?ItemID=145447",
+    "title": "Nghị quyết 14/2020/NQ-HĐND Bình Dương về phí đăng ký bảo đảm",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "DIS26",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/6/11-vbhn-byt.pdf",
+    "title": "Văn bản hợp nhất 11/VBHN-BYT ngày 23/6/2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "TRAIN27",
+    "url": "https://ttgdnngdtxq7.edu.vn/upload/ckfinder/files/2026_244_27_2026_TT-BTC.pdf",
+    "title": "Thông tư 27/2026/TT-BTC về kinh phí đào tạo nghề ngắn hạn",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "FOOD935",
+    "url": "https://congbao.hochiminhcity.gov.vn/cong-bao/van-ban/quyet-dinh/so/935-qd-ubnd/ngay/12-02-2026/tai-ve/49257",
+    "title": "Quyết định 935/QĐ-UBND TP.HCM ngày 12/2/2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "FOOD88",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/88-vbhn-bnnmt.signed.pdf",
+    "title": "Văn bản hợp nhất 88/2026/VBHN-TT-BNNMT ngày 21/9/2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "FOODF286",
+    "url": "https://vbpl.vn/FileData/TW/Lists/vbpq/Attachments/119194/VanBanGoc_286-2016-TT-BTC.pdf",
+    "title": "Thông tư 286/2016/TT-BTC và sửa đổi tại Thông tư 44/2018",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "TRAINLAND",
+    "url": "https://baochinhphu.vn/nguoi-bi-thu-hoi-dat-duoc-ho-tro-dao-tao-nghe-giai-quyet-viec-lam-102240802160520198.htm",
+    "title": "Quyết định 12/2024/QĐ-TTg về người có đất thu hồi",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "TRAIN46",
+    "url": "https://vpcp.chinhphu.vn/ho-tro-dao-tao-trinh-do-so-cap-dao-tao-duoi-3-thang-11513470.htm",
+    "title": "Quyết định 46/2015/QĐ-TTg về đào tạo sơ cấp/dưới 3 tháng",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "DISFEE",
+    "url": "https://vbpl.vn/FileData/TW/Lists/vbpq/Attachments/118550/VanBanGoc_243_2016_TT-BTC.pdf",
+    "title": "Thông tư 243/2016/TT-BTC về phí giám định y khoa",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "DISBUDGET",
+    "url": "https://baochinhphu.vn/tu-1-12-2024-ap-dung-huong-dan-moi-ve-kinh-phi-xac-dinh-muc-do-khuyet-tat-102241010151543662.htm",
+    "title": "Thông tư 71/2024/TT-BTC hướng dẫn kinh phí xác định khuyết tật",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "BHXHLAW",
+    "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/3/5/468972-1772691642_v1_1772691941_signed.pdf",
+    "title": "Văn bản hợp nhất Luật Bảo hiểm xã hội công bố tháng 2/2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "EMP107",
+    "url": "https://daklak.gov.vn/documents/10181/3984277/199520-107-PHU_LUC_KEM_THEO_QD_final.pdf?version=1.0",
+    "title": "Phụ lục Quyết định 107/QĐ-BNV ngày 22/1/2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "FEE71",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/71-btc.pdf",
+    "title": "Bộ Tài chính — Thông tư 71/2025 cập nhật phí, lệ phí theo cơ cấu hai cấp",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "FOODOWNER26",
+    "url": "https://badong.quangngai.gov.vn/upload/2007050/20260611/CV%20huong%20dan%20TT%20cap%20GCN%20ATTP%20tuyen%20xa%2008.4.2026.pdf",
+    "title": "Sở Y tế Quảng Ngãi — hướng dẫn ATTP ngày 8/4/2026, phụ lục thủ tục quốc gia",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LANDLIMIT41",
+    "url": "https://congbao-aloha.s3.hcm-1.cloud.cmctelecom.vn/form-attachments/01JFBXQYEXP0TZ05038WZ7BQ6E.pdf",
+    "title": "Quyết định 41/2024/QĐ-UBND Bình Dương — Công báo chính thức",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LANDLIMIT36",
+    "url": "https://congbao-aloha.s3.hcm-1.cloud.cmctelecom.vn/form-attachments/01JE8AW8W43YT2EK6WP5BXKM3V.pdf",
+    "title": "Quyết định 36/2024/QĐ-UBND Bình Dương — Công báo chính thức",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "CTAREA09",
+    "url": "https://stp.binhduong.gov.vn/xaydungkiemtravbqppl/_layouts/15/listform.aspx?ContentTypeID=0x01006B434E144EA34B09B66CBCE45AAE3E9100F39E7D4F120745419A785CDD336F07C0&ID=361&ListId=%7B814564EE-675A-4E25-960D-0995170661D7%7D&PageType=4",
+    "title": "Sở Tư pháp Bình Dương — giới thiệu Nghị quyết 09/2022/NQ-HĐND",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "CTAREA154",
+    "url": "https://pbgdpl.gov.vn/Pages/gioi-thieu-van-ban.aspx?ItemID=4706&l=Gioithieuvanbanmoi",
+    "title": "Bộ Tư pháp — hướng dẫn xác nhận diện tích bình quân theo Nghị định 154/2024",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LPTB10",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/01/10-nd-2022.signed.pdf",
+    "title": "Nghị định 10/2022/NĐ-CP — bản ký về lệ phí trước bạ",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LPTB175",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/175-cp.signed.pdf",
+    "title": "Nghị định 175/2025/NĐ-CP — bản ký sửa lệ phí trước bạ",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "HTABANDON",
+    "url": "https://sotuphap.daklak.gov.vn/CMS/Content/User/33/H%C3%A0nh%20ch%C3%ADnh%20t%C6%B0%20ph%C3%A1p/1.%20Chuyen%20de%20ve%20khai%20sinh.pdf",
+    "title": "Sở Tư pháp Đắk Lắk — Chuyên đề khai sinh, cập nhật chính quyền hai cấp",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "HTVERIFY",
+    "url": "https://danchuphapluat.vn/cong-tac-lap-kiem-tra-xac-minh-ho-so-va-xac-nhan-tre-em-o-co-so-nuoi-duong-du-dieu-kien-cho-lam-con-nuoi-nuoc-ngoai-1932.html",
+    "title": "Tạp chí Dân chủ và Pháp luật, Bộ Tư pháp — kiểm tra/xác minh hồ sơ trẻ",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "COPY280",
+    "url": "https://thutuc.dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=198141",
+    "title": "Cổng DVC quốc gia — Cấp bản sao từ sổ gốc, cập nhật Nghị định 280/2025",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "BUILDTEMP29",
+    "url": "https://congbao.hochiminhcity.gov.vn/DKC.MFiles.CB/Gazette/DownLoadFileResult/48939",
+    "title": "Quyết định 29/2025/QĐ-UBND TP.HCM — Công báo số 36+37/2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "TAXLAND253",
+    "url": "https://xaydungchinhsach.chinhphu.vn/thue-thu-nhap-ca-nhan-doi-voi-thu-nhap-tu-chuyen-nhuong-bat-dong-san-119260704103908616.htm",
+    "title": "Hướng dẫn thuế chuyển nhượng bất động sản theo Nghị định 253/2026 — Cổng Chính phủ",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "EMP338",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/12/338-ndcp.signed.pdf",
+    "title": "Nghị định 338/2025/NĐ-CP — bản ký chính thức",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "CTLAW26",
+    "url": "https://congbao.cdnchinhphu.vn/180507251028987904/2026/2/26/06signed-17720751114901842527815.pdf",
+    "title": "Luật Cư trú hợp nhất công bố trong Công báo số 118/2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "CTFEE75",
+    "url": "https://bcp.cdnchinhphu.vn/334894974524682240/2022/12/26/tt-75-2022-1672024627502513435456.pdf",
+    "title": "Thông tư 75/2022/TT-BTC — bản ký chính thức về lệ phí cư trú",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "CTFEE29",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/29-btc.signed.pdf",
+    "title": "Thông tư 29/2026/TT-BTC — bản ký chính thức",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "DIS3178",
+    "url": "https://syt.angiang.gov.vn/Lists/QuanLyVanBan/Attachments/6571/QUY%E1%BA%BET%20%C4%90%E1%BB%8ANH%20S%E1%BB%90-3178-Q%C4%90-BYT-2023-cong-bo-tthc-quy-dinh-tai-ttlt-34-2012-ttlt-byt-bldtbxh.pdf",
+    "title": "Quyết định 3178/QĐ-BYT ngày 11/8/2023 — công bố thủ tục xác định mức độ khuyết tật",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "SECURITY61",
+    "url": "https://dktructuyen.moj.gov.vn/media/dtn/documents/Thong_tu_so_61_2023_TT-BTC.pdf",
+    "title": "Thông tư 61/2023/TT-BTC — phí giao dịch bảo đảm",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "BUILDINDEX71",
+    "url": "https://congbao.binhduong.gov.vn/cong-bao/159",
+    "title": "Công báo Bình Dương số 53+54 ngày 27/12/2016 — mục lục Nghị quyết 71/2016",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOAN08",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/08-ttg.signed.pdf",
+    "title": "Quyết định 08/2026/QĐ-TTg — tín dụng đối với người sau cai nghiện ma túy",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOAN08PROC",
+    "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=432056",
+    "title": "Cổng DVC quốc gia — 2.002852, phê duyệt vay người sau cai nghiện",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOAN44",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/44_2026_qd-ttg_16092026-signed.signed.pdf",
+    "title": "Quyết định44/2026/QĐ-TTg — sửa tín dụng người chấp hành xong án phạt tù",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOAN22",
+    "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/8/40008/46242-1-2023961-96222-2023-qd-ttg.pdf",
+    "title": "Quyết định22/2023/QĐ-TTg — Công báo961+962 ngày28/8/2023",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOAN22PROC",
+    "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=327181",
+    "title": "Cổng DVC quốc gia — 2.002560, vay người chấp hành xong án phạt tù",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOAN22BUS",
+    "url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=2.002561",
+    "title": "Cổng DVC quốc gia — 2.002561, cơ sở sử dụng người chấp hành xong án phạt tù",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOAN08BUS",
+    "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=432057",
+    "title": "Cổng DVC quốc gia — 2.002853, cơ sở sử dụng người sau cai",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANEPS26",
+    "url": "https://bacanphu.haiphong.gov.vn/tin-dung-chinh-sach-xa-hoi-91885/tin-dung-doi-voi-nguoi-lao-dong-di-lam-viec-tai-han-quoc-theo-chuong-trinh-cap-phep-lam-viec-cho-918361",
+    "title": "NHCSXH — hướng dẫn EPS đăng trên cổng thông tin phường Bắc An Phụ, 19/6/2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANEPSPROC",
+    "url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=2.002549",
+    "title": "Cổng DVC quốc gia — phê duyệt vay ký quỹ EPS, 2.002549",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANEPSSIGNED",
+    "url": "https://cdn.haiphong.gov.vn/gov-hpg/6830/tintuc/2026/6/cv-01-vv-trien-khai-thuc-hien-nghiep-vu-ky-quy-va-cho-vay-de-ky-quy-doi-voi-nguoi-lao-dong-di-lam-viec-tai-han-quoc-theo-chuong-trinh-cap-phep-viec-lam-cho-lao-dong-nuoc-ngoai-cua-han-quoc.signed639174562097650690.pdf",
+    "title": "Ban đại diện NHCSXH xã Nam An Phụ — triển khai hướng dẫn 2525/HD-NHCS, tháng 6/2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANWATER10",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/7/10qd.signed.pdf",
+    "title": "Chính phủ — Quyết định 10/2024/QĐ-TTg bản ký",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANWATERPROC",
+    "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=3069&open_popup=1",
+    "title": "Cổng DVC quốc gia — cho vay nước sạch, 2.000925",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANRATESHP",
+    "url": "https://nhcsxh.haiphong.gov.vn/lai-suat-cho-vay.html",
+    "title": "NHCSXH Hải Phòng — bảng lãi suất cho vay",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOAN2553",
+    "url": "https://xaydungchinhsach.chinhphu.vn/quyet-dinh-so-2553-qd-ttg-ve-viec-giam-lai-suat-cho-vay-doi-voi-mot-so-chuong-trinh-tin-dung-chinh-sach-119251130070045679.htm",
+    "title": "Chính phủ — Quyết định 2553/QĐ-TTg điều chỉnh lãi tín dụng chính sách",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "TAX253SIGNED",
+    "url": "https://xdcs.cdnchinhphu.vn/446259493575335936/2026/7/13/253m-ndcp-signed-1783937347218325693981.pdf",
+    "title": "Chính phủ — Nghị định 253/2026 bản ký",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LONGNGUYEN1685",
+    "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-1685-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-thanh-pho-ho-chi-minh-nam-2025-119250616211341304.htm",
+    "title": "Chính phủ — Nghị quyết1685/2025 thành lập phường Long Nguyên",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LANDCLASS49",
+    "url": "https://chinhsachonline.chinhphu.vn/loai-dat-va-han-muc-cong-nhan-dat-o-sau-sap-nhap-85309.htm",
+    "title": "Bộ Nông nghiệp và Môi trường — loại đất và hạn mức sau sắp xếp",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANOTHER17",
+    "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/6/17-ttg.signed.pdf",
+    "title": "Chính phủ — Quyết định 17/2023 bản ký sửa tín dụng vùng khó khăn",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANOTHERHH",
+    "url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=324542",
+    "title": "Cổng DVC quốc gia — hộ sản xuất kinh doanh vùng khó khăn 2.002554",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANOTHERPERSON",
+    "url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=2.002552",
+    "title": "Cổng DVC quốc gia — thương nhân cá nhân vùng khó khăn 2.002552",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANOTHERORG",
+    "url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=2.002553",
+    "title": "Cổng DVC quốc gia — thương nhân tổ chức vùng khó khăn 2.002553",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANOTHER92",
+    "url": "https://vanban.chinhphu.vn/default.aspx?docid=88835&pageid=27160",
+    "title": "Chính phủ — Quyết định 92/2009 về thương nhân vùng khó khăn",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANKFW",
+    "url": "https://vbsp.org.vn/wp-content/uploads/2024/11/15.-Ch%C6%B0%C6%A1ng-tr%C3%ACnh-cho-vay-doanh-nghi%E1%BB%87p-nh%E1%BB%8F-v%C3%A0-v%E1%BB%ABa-KFW.pdf",
+    "title": "NHCSXH — công khai chương trình KfW năm 2024",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANKFWPROC",
+    "url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=2.002129",
+    "title": "Cổng DVC quốc gia — phê duyệt KfW 2.002129",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANKFWTERM",
+    "url": "https://vbsp.org.vn/wp-content/uploads/2024/03/BAI-9-HD-NGHIEP-VU-CHO-VAY-THEO-TUNG-CTTD.pdf",
+    "title": "NHCSXH — tài liệu nghiệp vụ từng chương trình năm 2024",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANKFWRATE",
+    "url": "https://eng.vbsp.org.vn/lending-interest-rate",
+    "title": "NHCSXH — bảng lãi suất hiện hành tiếng Anh",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANDT803",
+    "url": "https://files.bdttg.gov.vn/files/ecm/source_files/2026/09/25/18283869_21.%20TH%C3%80NH%20PH%E1%BB%90%20H%E1%BB%92%20CH%C3%8D%20MINH.signed_26-09-25.pdf",
+    "title": "Bộ Dân tộc và Tôn giáo — danh sách thôn TP.HCM theo Quyết định 803/2026",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANDT28",
+    "url": "https://vanban.chinhphu.vn/?docid=205705&pageid=27160",
+    "title": "Chính phủ — Nghị định 28/2022 về tín dụng vùng dân tộc thiểu số",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANHOUSE33",
+    "url": "https://chinhphu.vn/default.aspx?docid=180961&pageid=27160",
+    "title": "Chính phủ — Quyết định 33/2015 hỗ trợ nhà ở hộ nghèo",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "id": "LOANWATER4777",
+    "url": "https://melinh.hanoi.gov.vn/ubnd-xa-tam-dong-trien-khai-huong-dan-cho-vay-cap-nuoc-sach-va-ve-sinh-moi-truong-nong-thon-173240826150057798.htm",
+    "title": "UBND xã Tam Đồng — triển khai hướng dẫn 4777/HD-NHCS ngày 14/8/2024",
+    "checked_at": "2026-10-16",
+    "retrieved": false,
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+]

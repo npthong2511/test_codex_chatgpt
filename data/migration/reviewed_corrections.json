@@ -1,0 +1,26 @@
+[
+  {
+    "assignment_id": "P08.C02#0:2",
+    "old_text": "Người đại diện kiểm tra, ký xác nhận DC02; giấy đại diện chỉ khi dữ liệu không chứng minh được.",
+    "new_text": "Người đại diện kiểm tra, ký xác nhận CC01; giấy đại diện chỉ khi dữ liệu không chứng minh được.",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/huong-dan-thu-tuc-cap-cap-doi-cap-lai-the-can-cuoc-tai-cong-an-cap-xa-119260828113820605.htm",
+    "source_quote": "In Phiếu thu nhận thông tin căn cước (Mẫu CC01",
+    "reason": "Phiếu thu nhận để kiểm tra/ký là CC01, không phải Phiếu đề nghị DC02."
+  },
+  {
+    "assignment_id": "P08.C03#0:1",
+    "old_text": "Người yêu cầu đến điểm thu nhận kiểm tra dữ liệu, chụp ảnh, vân tay, mống mắt và xác nhận DC02.",
+    "new_text": "Người yêu cầu đến điểm thu nhận kiểm tra dữ liệu, chụp ảnh, vân tay, mống mắt và xác nhận CC01.",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/huong-dan-thu-tuc-cap-cap-doi-cap-lai-the-can-cuoc-tai-cong-an-cap-xa-119260828113820605.htm",
+    "source_quote": "In Phiếu thu nhận thông tin căn cước (Mẫu CC01",
+    "reason": "Phiếu thu nhận để kiểm tra/ký là CC01, không phải Phiếu đề nghị DC02."
+  },
+  {
+    "assignment_id": "P08.N001.N001#0:3",
+    "old_text": "Phiếu thu nhận thông tin DC02 được lập theo dữ liệu để người yêu cầu/đại diện kiểm tra, không đòi tự viết lại toàn bộ thông tin đã có.",
+    "new_text": "Phiếu thu nhận thông tin CC01 được lập theo dữ liệu để người yêu cầu/đại diện kiểm tra, không đòi tự viết lại toàn bộ thông tin đã có.",
+    "source_url": "https://xaydungchinhsach.chinhphu.vn/huong-dan-thu-tuc-cap-cap-doi-cap-lai-the-can-cuoc-tai-cong-an-cap-xa-119260828113820605.htm",
+    "source_quote": "In Phiếu thu nhận thông tin căn cước (Mẫu CC01",
+    "reason": "Phiếu thu nhận để kiểm tra/ký là CC01, không phải Phiếu đề nghị DC02."
+  }
+]

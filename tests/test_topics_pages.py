@@ -94,13 +94,12 @@ class PagesTests(unittest.TestCase):
         p.call=fail
         self.assertEqual(e.process('tiếp')['mode'],'transport_error');self.assertEqual(e.snapshot(),before)
     def test_topic_filter_keeps_conditions_and_topic_inventory(self):
-        p=Provider([old.response()]);e=Engine(self.src,p);e.nodes=['P08'];e.state.update(stage='topic',selected_topic='chi_phi')
-        e.process('phí')
-        w=p.payloads[0]['windows'][0]
-        for n in [w['node'],*w['children'],*w['ancestors']]:
-            self.assertIn('available_topics',n)
-            for b in n['blocks']:
-                self.assertTrue(not b['topics'] or 'chi_phi' in b['topics'] or 'dieu_kien' in b['topics'])
+        w=self.src.window('P08.C01.TOPIC.ho_so')
+        self.assertEqual(w['node']['topic'],'ho_so')
+        self.assertTrue(all('ho_so' in b['topics'] for b in w['node']['blocks']))
+        self.assertIn('topic_catalog',w['ancestors'][-1])
+        self.assertTrue(all('dieu_kien' in b['topics'] or 'ho_so' in b['topics']
+                            for a in w['ancestors'] for b in a['blocks']))
     def test_finish_clears_cached_pages(self):
         r=old.response();r.update(mode='finish',speech_text='',information={'title':'','sections':[],'options':[]})
         e=Engine(self.src,Provider([long_response(),r],[{'intent':'continue','page':0}]))

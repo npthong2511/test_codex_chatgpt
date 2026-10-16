@@ -1,0 +1,960 @@
+﻿case,title,topic,status
+P01.C01,Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài,huong_dan,local_content
+P01.C01,Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài,ho_so,inherited_content
+P01.C01,Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài,chi_phi,conditional_sources
+P01.C01,Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài,noi_nop,conditional_sources
+P01.C01,Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài,thoi_gian,conditional_sources
+P01.C01,Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài,ket_qua,local_content
+P01.C01,Chưa đăng ký; sinh tại Việt Nam; không có yếu tố nước ngoài,dieu_kien,conditional_sources
+P01.C02,Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài,huong_dan,local_content
+P01.C02,Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài,ho_so,inherited_content
+P01.C02,Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài,chi_phi,conditional_sources
+P01.C02,Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài,noi_nop,conditional_sources
+P01.C02,Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài,thoi_gian,conditional_sources
+P01.C02,Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài,ket_qua,local_content
+P01.C02,Chưa đăng ký; sinh tại Việt Nam; có yếu tố nước ngoài,dieu_kien,conditional_sources
+P01.C03,Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam,huong_dan,local_content
+P01.C03,Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam,ho_so,inherited_content
+P01.C03,Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam,chi_phi,conditional_sources
+P01.C03,Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam,noi_nop,conditional_sources
+P01.C03,Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam,thoi_gian,conditional_sources
+P01.C03,Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam,ket_qua,local_content
+P01.C03,Sinh ở nước ngoài; chưa đăng ký ở nước ngoài; về cư trú tại Việt Nam,dieu_kien,conditional_sources
+P01.M01,Không có giấy chứng sinh; có người làm chứng,huong_dan,inherited_content
+P01.M01,Không có giấy chứng sinh; có người làm chứng,ho_so,local_content
+P01.M01,Không có giấy chứng sinh; có người làm chứng,chi_phi,conditional_sources
+P01.M01,Không có giấy chứng sinh; có người làm chứng,noi_nop,conditional_sources
+P01.M01,Không có giấy chứng sinh; có người làm chứng,thoi_gian,conditional_sources
+P01.M01,Không có giấy chứng sinh; có người làm chứng,ket_qua,inherited_content
+P01.M01,Không có giấy chứng sinh; có người làm chứng,dieu_kien,local_content
+P01.M02,Không có giấy chứng sinh và không có người làm chứng,huong_dan,inherited_content
+P01.M02,Không có giấy chứng sinh và không có người làm chứng,ho_so,local_content
+P01.M02,Không có giấy chứng sinh và không có người làm chứng,chi_phi,conditional_sources
+P01.M02,Không có giấy chứng sinh và không có người làm chứng,noi_nop,conditional_sources
+P01.M02,Không có giấy chứng sinh và không có người làm chứng,thoi_gian,conditional_sources
+P01.M02,Không có giấy chứng sinh và không có người làm chứng,ket_qua,inherited_content
+P01.M02,Không có giấy chứng sinh và không có người làm chứng,dieu_kien,local_content
+P01.M03,Trẻ bị bỏ rơi,huong_dan,inherited_content
+P01.M03,Trẻ bị bỏ rơi,ho_so,inherited_content
+P01.M03,Trẻ bị bỏ rơi,chi_phi,conditional_sources
+P01.M03,Trẻ bị bỏ rơi,noi_nop,conditional_sources
+P01.M03,Trẻ bị bỏ rơi,thoi_gian,conditional_sources
+P01.M03,Trẻ bị bỏ rơi,ket_qua,inherited_content
+P01.M03,Trẻ bị bỏ rơi,dieu_kien,conditional_sources
+P01.M04,Sinh do mang thai hộ,huong_dan,local_content
+P01.M04,Sinh do mang thai hộ,ho_so,local_content
+P01.M04,Sinh do mang thai hộ,chi_phi,conditional_sources
+P01.M04,Sinh do mang thai hộ,noi_nop,conditional_sources
+P01.M04,Sinh do mang thai hộ,thoi_gian,conditional_sources
+P01.M04,Sinh do mang thai hộ,ket_qua,inherited_content
+P01.M04,Sinh do mang thai hộ,dieu_kien,local_content
+P01.M05,Chưa xác định cha/mẹ hoặc đăng ký nhận cha mẹ con cùng khai sinh,huong_dan,inherited_content
+P01.M05,Chưa xác định cha/mẹ hoặc đăng ký nhận cha mẹ con cùng khai sinh,ho_so,inherited_content
+P01.M05,Chưa xác định cha/mẹ hoặc đăng ký nhận cha mẹ con cùng khai sinh,chi_phi,conditional_sources
+P01.M05,Chưa xác định cha/mẹ hoặc đăng ký nhận cha mẹ con cùng khai sinh,noi_nop,conditional_sources
+P01.M05,Chưa xác định cha/mẹ hoặc đăng ký nhận cha mẹ con cùng khai sinh,thoi_gian,conditional_sources
+P01.M05,Chưa xác định cha/mẹ hoặc đăng ký nhận cha mẹ con cùng khai sinh,ket_qua,inherited_content
+P01.M05,Chưa xác định cha/mẹ hoặc đăng ký nhận cha mẹ con cùng khai sinh,dieu_kien,conditional_sources
+P01.R01,"Trích lục, sửa hộ tịch, đăng ký lại và các tình huống khai sinh khác",huong_dan,unconfirmed
+P01.R01,"Trích lục, sửa hộ tịch, đăng ký lại và các tình huống khai sinh khác",ho_so,conditional_sources
+P01.R01,"Trích lục, sửa hộ tịch, đăng ký lại và các tình huống khai sinh khác",chi_phi,conditional_sources
+P01.R01,"Trích lục, sửa hộ tịch, đăng ký lại và các tình huống khai sinh khác",noi_nop,conditional_sources
+P01.R01,"Trích lục, sửa hộ tịch, đăng ký lại và các tình huống khai sinh khác",thoi_gian,conditional_sources
+P01.R01,"Trích lục, sửa hộ tịch, đăng ký lại và các tình huống khai sinh khác",ket_qua,unconfirmed
+P01.R01,"Trích lục, sửa hộ tịch, đăng ký lại và các tình huống khai sinh khác",dieu_kien,conditional_sources
+P02.C01,Chưa đăng ký; có giấy báo tử hoặc giấy thay thế hợp lệ,huong_dan,local_content
+P02.C01,Chưa đăng ký; có giấy báo tử hoặc giấy thay thế hợp lệ,ho_so,inherited_content
+P02.C01,Chưa đăng ký; có giấy báo tử hoặc giấy thay thế hợp lệ,chi_phi,conditional_sources
+P02.C01,Chưa đăng ký; có giấy báo tử hoặc giấy thay thế hợp lệ,noi_nop,conditional_sources
+P02.C01,Chưa đăng ký; có giấy báo tử hoặc giấy thay thế hợp lệ,thoi_gian,conditional_sources
+P02.C01,Chưa đăng ký; có giấy báo tử hoặc giấy thay thế hợp lệ,ket_qua,local_content
+P02.C01,Chưa đăng ký; có giấy báo tử hoặc giấy thay thế hợp lệ,dieu_kien,conditional_sources
+P02.C02,Chưa đăng ký; chết đã lâu; không còn giấy báo tử/giấy thay thế,huong_dan,inherited_content
+P02.C02,Chưa đăng ký; chết đã lâu; không còn giấy báo tử/giấy thay thế,ho_so,local_content
+P02.C02,Chưa đăng ký; chết đã lâu; không còn giấy báo tử/giấy thay thế,chi_phi,local_content
+P02.C02,Chưa đăng ký; chết đã lâu; không còn giấy báo tử/giấy thay thế,noi_nop,local_content
+P02.C02,Chưa đăng ký; chết đã lâu; không còn giấy báo tử/giấy thay thế,thoi_gian,conditional_sources
+P02.C02,Chưa đăng ký; chết đã lâu; không còn giấy báo tử/giấy thay thế,ket_qua,local_content
+P02.C02,Chưa đăng ký; chết đã lâu; không còn giấy báo tử/giấy thay thế,dieu_kien,conditional_sources
+P02.R01,"Đã đăng ký; xin trích lục, đăng ký lại hoặc điều chỉnh",huong_dan,unconfirmed
+P02.R01,"Đã đăng ký; xin trích lục, đăng ký lại hoặc điều chỉnh",ho_so,conditional_sources
+P02.R01,"Đã đăng ký; xin trích lục, đăng ký lại hoặc điều chỉnh",chi_phi,conditional_sources
+P02.R01,"Đã đăng ký; xin trích lục, đăng ký lại hoặc điều chỉnh",noi_nop,conditional_sources
+P02.R01,"Đã đăng ký; xin trích lục, đăng ký lại hoặc điều chỉnh",thoi_gian,conditional_sources
+P02.R01,"Đã đăng ký; xin trích lục, đăng ký lại hoặc điều chỉnh",ket_qua,conditional_sources
+P02.R01,"Đã đăng ký; xin trích lục, đăng ký lại hoặc điều chỉnh",dieu_kien,conditional_sources
+P03.C01,Chưa đăng ký với nhau; không có yếu tố nước ngoài,huong_dan,local_content
+P03.C01,Chưa đăng ký với nhau; không có yếu tố nước ngoài,ho_so,local_content
+P03.C01,Chưa đăng ký với nhau; không có yếu tố nước ngoài,chi_phi,local_content
+P03.C01,Chưa đăng ký với nhau; không có yếu tố nước ngoài,noi_nop,local_content
+P03.C01,Chưa đăng ký với nhau; không có yếu tố nước ngoài,thoi_gian,local_content
+P03.C01,Chưa đăng ký với nhau; không có yếu tố nước ngoài,ket_qua,conditional_sources
+P03.C01,Chưa đăng ký với nhau; không có yếu tố nước ngoài,dieu_kien,local_content
+P03.C02,Chưa đăng ký với nhau; có yếu tố nước ngoài,huong_dan,conditional_sources
+P03.C02,Chưa đăng ký với nhau; có yếu tố nước ngoài,ho_so,inherited_content
+P03.C02,Chưa đăng ký với nhau; có yếu tố nước ngoài,chi_phi,conditional_sources
+P03.C02,Chưa đăng ký với nhau; có yếu tố nước ngoài,noi_nop,inherited_content
+P03.C02,Chưa đăng ký với nhau; có yếu tố nước ngoài,thoi_gian,conditional_sources
+P03.C02,Chưa đăng ký với nhau; có yếu tố nước ngoài,ket_qua,conditional_sources
+P03.C02,Chưa đăng ký với nhau; có yếu tố nước ngoài,dieu_kien,inherited_content
+P03.R01,Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy,huong_dan,conditional_sources
+P03.R01,Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy,ho_so,conditional_sources
+P03.R01,Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy,chi_phi,conditional_sources
+P03.R01,Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy,noi_nop,conditional_sources
+P03.R01,Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy,thoi_gian,conditional_sources
+P03.R01,Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy,ket_qua,conditional_sources
+P03.R01,Đã đăng ký ở nước ngoài hoặc đã đăng ký nhưng mất giấy,dieu_kien,conditional_sources
+P04.C01,Đăng ký tại chỗ ở hợp pháp thuộc quyền sở hữu của mình,huong_dan,conditional_sources
+P04.C01,Đăng ký tại chỗ ở hợp pháp thuộc quyền sở hữu của mình,ho_so,local_content
+P04.C01,Đăng ký tại chỗ ở hợp pháp thuộc quyền sở hữu của mình,chi_phi,local_content
+P04.C01,Đăng ký tại chỗ ở hợp pháp thuộc quyền sở hữu của mình,noi_nop,local_content
+P04.C01,Đăng ký tại chỗ ở hợp pháp thuộc quyền sở hữu của mình,thoi_gian,local_content
+P04.C01,Đăng ký tại chỗ ở hợp pháp thuộc quyền sở hữu của mình,ket_qua,conditional_sources
+P04.C01,Đăng ký tại chỗ ở hợp pháp thuộc quyền sở hữu của mình,dieu_kien,local_content
+P04.C02,Không sở hữu; thuộc diện thân nhân được nhập vào hộ,huong_dan,conditional_sources
+P04.C02,Không sở hữu; thuộc diện thân nhân được nhập vào hộ,ho_so,conditional_sources
+P04.C02,Không sở hữu; thuộc diện thân nhân được nhập vào hộ,chi_phi,conditional_sources
+P04.C02,Không sở hữu; thuộc diện thân nhân được nhập vào hộ,noi_nop,inherited_content
+P04.C02,Không sở hữu; thuộc diện thân nhân được nhập vào hộ,thoi_gian,inherited_content
+P04.C02,Không sở hữu; thuộc diện thân nhân được nhập vào hộ,ket_qua,conditional_sources
+P04.C02,Không sở hữu; thuộc diện thân nhân được nhập vào hộ,dieu_kien,inherited_content
+P04.C03,"Chỗ ở do thuê, mượn hoặc ở nhờ; không thuộc C02",huong_dan,conditional_sources
+P04.C03,"Chỗ ở do thuê, mượn hoặc ở nhờ; không thuộc C02",ho_so,conditional_sources
+P04.C03,"Chỗ ở do thuê, mượn hoặc ở nhờ; không thuộc C02",chi_phi,conditional_sources
+P04.C03,"Chỗ ở do thuê, mượn hoặc ở nhờ; không thuộc C02",noi_nop,inherited_content
+P04.C03,"Chỗ ở do thuê, mượn hoặc ở nhờ; không thuộc C02",thoi_gian,inherited_content
+P04.C03,"Chỗ ở do thuê, mượn hoặc ở nhờ; không thuộc C02",ket_qua,conditional_sources
+P04.C03,"Chỗ ở do thuê, mượn hoặc ở nhờ; không thuộc C02",dieu_kien,inherited_content
+P04.C04,Người hoạt động tôn giáo hoặc đại diện cơ sở tín ngưỡng; ở tại công trình phụ trợ là nhà ở,huong_dan,conditional_sources
+P04.C04,Người hoạt động tôn giáo hoặc đại diện cơ sở tín ngưỡng; ở tại công trình phụ trợ là nhà ở,ho_so,conditional_sources
+P04.C04,Người hoạt động tôn giáo hoặc đại diện cơ sở tín ngưỡng; ở tại công trình phụ trợ là nhà ở,chi_phi,conditional_sources
+P04.C04,Người hoạt động tôn giáo hoặc đại diện cơ sở tín ngưỡng; ở tại công trình phụ trợ là nhà ở,noi_nop,inherited_content
+P04.C04,Người hoạt động tôn giáo hoặc đại diện cơ sở tín ngưỡng; ở tại công trình phụ trợ là nhà ở,thoi_gian,inherited_content
+P04.C04,Người hoạt động tôn giáo hoặc đại diện cơ sở tín ngưỡng; ở tại công trình phụ trợ là nhà ở,ket_qua,conditional_sources
+P04.C04,Người hoạt động tôn giáo hoặc đại diện cơ sở tín ngưỡng; ở tại công trình phụ trợ là nhà ở,dieu_kien,inherited_content
+P04.C05,"Trẻ em, người khuyết tật nặng/đặc biệt nặng hoặc người không nơi nương tựa; ở tại cơ sở tín ngưỡng/tôn giáo",huong_dan,conditional_sources
+P04.C05,"Trẻ em, người khuyết tật nặng/đặc biệt nặng hoặc người không nơi nương tựa; ở tại cơ sở tín ngưỡng/tôn giáo",ho_so,local_content
+P04.C05,"Trẻ em, người khuyết tật nặng/đặc biệt nặng hoặc người không nơi nương tựa; ở tại cơ sở tín ngưỡng/tôn giáo",chi_phi,local_content
+P04.C05,"Trẻ em, người khuyết tật nặng/đặc biệt nặng hoặc người không nơi nương tựa; ở tại cơ sở tín ngưỡng/tôn giáo",noi_nop,inherited_content
+P04.C05,"Trẻ em, người khuyết tật nặng/đặc biệt nặng hoặc người không nơi nương tựa; ở tại cơ sở tín ngưỡng/tôn giáo",thoi_gian,local_content
+P04.C05,"Trẻ em, người khuyết tật nặng/đặc biệt nặng hoặc người không nơi nương tựa; ở tại cơ sở tín ngưỡng/tôn giáo",ket_qua,conditional_sources
+P04.C05,"Trẻ em, người khuyết tật nặng/đặc biệt nặng hoặc người không nơi nương tựa; ở tại cơ sở tín ngưỡng/tôn giáo",dieu_kien,local_content
+P04.C06,"Được chăm sóc, nuôi dưỡng tại cơ sở trợ giúp xã hội",huong_dan,conditional_sources
+P04.C06,"Được chăm sóc, nuôi dưỡng tại cơ sở trợ giúp xã hội",ho_so,local_content
+P04.C06,"Được chăm sóc, nuôi dưỡng tại cơ sở trợ giúp xã hội",chi_phi,local_content
+P04.C06,"Được chăm sóc, nuôi dưỡng tại cơ sở trợ giúp xã hội",noi_nop,inherited_content
+P04.C06,"Được chăm sóc, nuôi dưỡng tại cơ sở trợ giúp xã hội",thoi_gian,local_content
+P04.C06,"Được chăm sóc, nuôi dưỡng tại cơ sở trợ giúp xã hội",ket_qua,conditional_sources
+P04.C06,"Được chăm sóc, nuôi dưỡng tại cơ sở trợ giúp xã hội",dieu_kien,local_content
+P04.C07,"Được cá nhân/hộ gia đình nhận chăm sóc, nuôi dưỡng",huong_dan,conditional_sources
+P04.C07,"Được cá nhân/hộ gia đình nhận chăm sóc, nuôi dưỡng",ho_so,local_content
+P04.C07,"Được cá nhân/hộ gia đình nhận chăm sóc, nuôi dưỡng",chi_phi,local_content
+P04.C07,"Được cá nhân/hộ gia đình nhận chăm sóc, nuôi dưỡng",noi_nop,inherited_content
+P04.C07,"Được cá nhân/hộ gia đình nhận chăm sóc, nuôi dưỡng",thoi_gian,local_content
+P04.C07,"Được cá nhân/hộ gia đình nhận chăm sóc, nuôi dưỡng",ket_qua,local_content
+P04.C07,"Được cá nhân/hộ gia đình nhận chăm sóc, nuôi dưỡng",dieu_kien,local_content
+P04.C08,Sinh sống trên phương tiện được đăng ký thường trú,huong_dan,conditional_sources
+P04.C08,Sinh sống trên phương tiện được đăng ký thường trú,ho_so,conditional_sources
+P04.C08,Sinh sống trên phương tiện được đăng ký thường trú,chi_phi,conditional_sources
+P04.C08,Sinh sống trên phương tiện được đăng ký thường trú,noi_nop,inherited_content
+P04.C08,Sinh sống trên phương tiện được đăng ký thường trú,thoi_gian,inherited_content
+P04.C08,Sinh sống trên phương tiện được đăng ký thường trú,ket_qua,conditional_sources
+P04.C08,Sinh sống trên phương tiện được đăng ký thường trú,dieu_kien,inherited_content
+P05.C01,Xác nhận tình trạng hôn nhân lần đầu,huong_dan,inherited_content
+P05.C01,Xác nhận tình trạng hôn nhân lần đầu,ho_so,inherited_content
+P05.C01,Xác nhận tình trạng hôn nhân lần đầu,chi_phi,conditional_sources
+P05.C01,Xác nhận tình trạng hôn nhân lần đầu,noi_nop,conditional_sources
+P05.C01,Xác nhận tình trạng hôn nhân lần đầu,thoi_gian,conditional_sources
+P05.C01,Xác nhận tình trạng hôn nhân lần đầu,ket_qua,inherited_content
+P05.C01,Xác nhận tình trạng hôn nhân lần đầu,dieu_kien,conditional_sources
+P05.C02,Đã có hôn nhân; nay ly hôn hoặc vợ/chồng đã chết,huong_dan,local_content
+P05.C02,Đã có hôn nhân; nay ly hôn hoặc vợ/chồng đã chết,ho_so,local_content
+P05.C02,Đã có hôn nhân; nay ly hôn hoặc vợ/chồng đã chết,chi_phi,conditional_sources
+P05.C02,Đã có hôn nhân; nay ly hôn hoặc vợ/chồng đã chết,noi_nop,conditional_sources
+P05.C02,Đã có hôn nhân; nay ly hôn hoặc vợ/chồng đã chết,thoi_gian,conditional_sources
+P05.C02,Đã có hôn nhân; nay ly hôn hoặc vợ/chồng đã chết,ket_qua,inherited_content
+P05.C02,Đã có hôn nhân; nay ly hôn hoặc vợ/chồng đã chết,dieu_kien,conditional_sources
+P05.C03,Cấp lại do hết hạn hoặc đổi mục đích sử dụng,huong_dan,inherited_content
+P05.C03,Cấp lại do hết hạn hoặc đổi mục đích sử dụng,ho_so,inherited_content
+P05.C03,Cấp lại do hết hạn hoặc đổi mục đích sử dụng,chi_phi,conditional_sources
+P05.C03,Cấp lại do hết hạn hoặc đổi mục đích sử dụng,noi_nop,conditional_sources
+P05.C03,Cấp lại do hết hạn hoặc đổi mục đích sử dụng,thoi_gian,conditional_sources
+P05.C03,Cấp lại do hết hạn hoặc đổi mục đích sử dụng,ket_qua,inherited_content
+P05.C03,Cấp lại do hết hạn hoặc đổi mục đích sử dụng,dieu_kien,conditional_sources
+P06.C01,Có nhu cầu đăng ký tạm trú mới tại chỗ ở hợp pháp,huong_dan,conditional_sources
+P06.C01,Có nhu cầu đăng ký tạm trú mới tại chỗ ở hợp pháp,ho_so,conditional_sources
+P06.C01,Có nhu cầu đăng ký tạm trú mới tại chỗ ở hợp pháp,chi_phi,conditional_sources
+P06.C01,Có nhu cầu đăng ký tạm trú mới tại chỗ ở hợp pháp,noi_nop,conditional_sources
+P06.C01,Có nhu cầu đăng ký tạm trú mới tại chỗ ở hợp pháp,thoi_gian,inherited_content
+P06.C01,Có nhu cầu đăng ký tạm trú mới tại chỗ ở hợp pháp,ket_qua,inherited_content
+P06.C01,Có nhu cầu đăng ký tạm trú mới tại chỗ ở hợp pháp,dieu_kien,conditional_sources
+P06.C02,Đã tạm trú; muốn tiếp tục sau thời hạn đăng ký,huong_dan,local_content
+P06.C02,Đã tạm trú; muốn tiếp tục sau thời hạn đăng ký,ho_so,local_content
+P06.C02,Đã tạm trú; muốn tiếp tục sau thời hạn đăng ký,chi_phi,local_content
+P06.C02,Đã tạm trú; muốn tiếp tục sau thời hạn đăng ký,noi_nop,conditional_sources
+P06.C02,Đã tạm trú; muốn tiếp tục sau thời hạn đăng ký,thoi_gian,local_content
+P06.C02,Đã tạm trú; muốn tiếp tục sau thời hạn đăng ký,ket_qua,local_content
+P06.C02,Đã tạm trú; muốn tiếp tục sau thời hạn đăng ký,dieu_kien,local_content
+P06.R01,Chỉ thông báo lưu trú ngắn ngày hoặc người nước ngoài khai báo tạm trú,huong_dan,conditional_sources
+P06.R01,Chỉ thông báo lưu trú ngắn ngày hoặc người nước ngoài khai báo tạm trú,ho_so,conditional_sources
+P06.R01,Chỉ thông báo lưu trú ngắn ngày hoặc người nước ngoài khai báo tạm trú,chi_phi,conditional_sources
+P06.R01,Chỉ thông báo lưu trú ngắn ngày hoặc người nước ngoài khai báo tạm trú,noi_nop,conditional_sources
+P06.R01,Chỉ thông báo lưu trú ngắn ngày hoặc người nước ngoài khai báo tạm trú,thoi_gian,conditional_sources
+P06.R01,Chỉ thông báo lưu trú ngắn ngày hoặc người nước ngoài khai báo tạm trú,ket_qua,unconfirmed
+P06.R01,Chỉ thông báo lưu trú ngắn ngày hoặc người nước ngoài khai báo tạm trú,dieu_kien,conditional_sources
+P07.C01,Dữ liệu đúng; chỉ cần giấy xác nhận thông tin cư trú,huong_dan,local_content
+P07.C01,Dữ liệu đúng; chỉ cần giấy xác nhận thông tin cư trú,ho_so,local_content
+P07.C01,Dữ liệu đúng; chỉ cần giấy xác nhận thông tin cư trú,chi_phi,local_content
+P07.C01,Dữ liệu đúng; chỉ cần giấy xác nhận thông tin cư trú,noi_nop,local_content
+P07.C01,Dữ liệu đúng; chỉ cần giấy xác nhận thông tin cư trú,thoi_gian,local_content
+P07.C01,Dữ liệu đúng; chỉ cần giấy xác nhận thông tin cư trú,ket_qua,local_content
+P07.C01,Dữ liệu đúng; chỉ cần giấy xác nhận thông tin cư trú,dieu_kien,local_content
+P07.C02,Dữ liệu sai hoặc có thay đổi cần cập nhật,huong_dan,unconfirmed
+P07.C02,Dữ liệu sai hoặc có thay đổi cần cập nhật,ho_so,conditional_sources
+P07.C02,Dữ liệu sai hoặc có thay đổi cần cập nhật,chi_phi,inherited_content
+P07.C02,Dữ liệu sai hoặc có thay đổi cần cập nhật,noi_nop,conditional_sources
+P07.C02,Dữ liệu sai hoặc có thay đổi cần cập nhật,thoi_gian,conditional_sources
+P07.C02,Dữ liệu sai hoặc có thay đổi cần cập nhật,ket_qua,conditional_sources
+P07.C02,Dữ liệu sai hoặc có thay đổi cần cập nhật,dieu_kien,conditional_sources
+P07.C03,Vừa sai dữ liệu vừa cần giấy xác nhận,huong_dan,local_content
+P07.C03,Vừa sai dữ liệu vừa cần giấy xác nhận,ho_so,local_content
+P07.C03,Vừa sai dữ liệu vừa cần giấy xác nhận,chi_phi,local_content
+P07.C03,Vừa sai dữ liệu vừa cần giấy xác nhận,noi_nop,conditional_sources
+P07.C03,Vừa sai dữ liệu vừa cần giấy xác nhận,thoi_gian,local_content
+P07.C03,Vừa sai dữ liệu vừa cần giấy xác nhận,ket_qua,local_content
+P07.C03,Vừa sai dữ liệu vừa cần giấy xác nhận,dieu_kien,conditional_sources
+P08.C01,Cấp lần đầu; dưới 06 tuổi,huong_dan,local_content
+P08.C01,Cấp lần đầu; dưới 06 tuổi,ho_so,local_content
+P08.C01,Cấp lần đầu; dưới 06 tuổi,chi_phi,local_content
+P08.C01,Cấp lần đầu; dưới 06 tuổi,noi_nop,conditional_sources
+P08.C01,Cấp lần đầu; dưới 06 tuổi,thoi_gian,local_content
+P08.C01,Cấp lần đầu; dưới 06 tuổi,ket_qua,conditional_sources
+P08.C01,Cấp lần đầu; dưới 06 tuổi,dieu_kien,local_content
+P08.C02,Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi,huong_dan,local_content
+P08.C02,Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi,ho_so,local_content
+P08.C02,Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi,chi_phi,local_content
+P08.C02,Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi,noi_nop,conditional_sources
+P08.C02,Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi,thoi_gian,local_content
+P08.C02,Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi,ket_qua,conditional_sources
+P08.C02,Cấp lần đầu; từ đủ 06 đến dưới 14 tuổi,dieu_kien,local_content
+P08.C03,Cấp lần đầu; từ đủ 14 tuổi,huong_dan,local_content
+P08.C03,Cấp lần đầu; từ đủ 14 tuổi,ho_so,local_content
+P08.C03,Cấp lần đầu; từ đủ 14 tuổi,chi_phi,local_content
+P08.C03,Cấp lần đầu; từ đủ 14 tuổi,noi_nop,conditional_sources
+P08.C03,Cấp lần đầu; từ đủ 14 tuổi,thoi_gian,local_content
+P08.C03,Cấp lần đầu; từ đủ 14 tuổi,ket_qua,conditional_sources
+P08.C03,Cấp lần đầu; từ đủ 14 tuổi,dieu_kien,local_content
+P08.C04,"Đã có thẻ; đổi do đến tuổi, thay đổi thông tin, hư hỏng hoặc lý do cấp đổi",huong_dan,local_content
+P08.C04,"Đã có thẻ; đổi do đến tuổi, thay đổi thông tin, hư hỏng hoặc lý do cấp đổi",ho_so,conditional_sources
+P08.C04,"Đã có thẻ; đổi do đến tuổi, thay đổi thông tin, hư hỏng hoặc lý do cấp đổi",chi_phi,conditional_sources
+P08.C04,"Đã có thẻ; đổi do đến tuổi, thay đổi thông tin, hư hỏng hoặc lý do cấp đổi",noi_nop,conditional_sources
+P08.C04,"Đã có thẻ; đổi do đến tuổi, thay đổi thông tin, hư hỏng hoặc lý do cấp đổi",thoi_gian,inherited_content
+P08.C04,"Đã có thẻ; đổi do đến tuổi, thay đổi thông tin, hư hỏng hoặc lý do cấp đổi",ket_qua,conditional_sources
+P08.C04,"Đã có thẻ; đổi do đến tuổi, thay đổi thông tin, hư hỏng hoặc lý do cấp đổi",dieu_kien,conditional_sources
+P08.C05,Đã có thẻ; mất thẻ hoặc thuộc diện cấp lại,huong_dan,local_content
+P08.C05,Đã có thẻ; mất thẻ hoặc thuộc diện cấp lại,ho_so,conditional_sources
+P08.C05,Đã có thẻ; mất thẻ hoặc thuộc diện cấp lại,chi_phi,conditional_sources
+P08.C05,Đã có thẻ; mất thẻ hoặc thuộc diện cấp lại,noi_nop,conditional_sources
+P08.C05,Đã có thẻ; mất thẻ hoặc thuộc diện cấp lại,thoi_gian,inherited_content
+P08.C05,Đã có thẻ; mất thẻ hoặc thuộc diện cấp lại,ket_qua,conditional_sources
+P08.C05,Đã có thẻ; mất thẻ hoặc thuộc diện cấp lại,dieu_kien,conditional_sources
+P09.C01,Chuyển nhượng,huong_dan,local_content
+P09.C01,Chuyển nhượng,ho_so,conditional_sources
+P09.C01,Chuyển nhượng,chi_phi,conditional_sources
+P09.C01,Chuyển nhượng,noi_nop,conditional_sources
+P09.C01,Chuyển nhượng,thoi_gian,conditional_sources
+P09.C01,Chuyển nhượng,ket_qua,conditional_sources
+P09.C01,Chuyển nhượng,dieu_kien,conditional_sources
+P09.C02,Tặng cho,huong_dan,local_content
+P09.C02,Tặng cho,ho_so,conditional_sources
+P09.C02,Tặng cho,chi_phi,conditional_sources
+P09.C02,Tặng cho,noi_nop,conditional_sources
+P09.C02,Tặng cho,thoi_gian,conditional_sources
+P09.C02,Tặng cho,ket_qua,conditional_sources
+P09.C02,Tặng cho,dieu_kien,conditional_sources
+P09.C03,Thừa kế,huong_dan,local_content
+P09.C03,Thừa kế,ho_so,conditional_sources
+P09.C03,Thừa kế,chi_phi,conditional_sources
+P09.C03,Thừa kế,noi_nop,conditional_sources
+P09.C03,Thừa kế,thoi_gian,conditional_sources
+P09.C03,Thừa kế,ket_qua,conditional_sources
+P09.C03,Thừa kế,dieu_kien,conditional_sources
+P09.C04,Thay đổi thông tin người sử dụng/chủ tài sản,huong_dan,local_content
+P09.C04,Thay đổi thông tin người sử dụng/chủ tài sản,ho_so,conditional_sources
+P09.C04,Thay đổi thông tin người sử dụng/chủ tài sản,chi_phi,conditional_sources
+P09.C04,Thay đổi thông tin người sử dụng/chủ tài sản,noi_nop,conditional_sources
+P09.C04,Thay đổi thông tin người sử dụng/chủ tài sản,thoi_gian,conditional_sources
+P09.C04,Thay đổi thông tin người sử dụng/chủ tài sản,ket_qua,local_content
+P09.C04,Thay đổi thông tin người sử dụng/chủ tài sản,dieu_kien,conditional_sources
+P09.C05,"Thay diện tích, kích thước, hình thể hoặc ranh giới",huong_dan,unconfirmed
+P09.C05,"Thay diện tích, kích thước, hình thể hoặc ranh giới",ho_so,conditional_sources
+P09.C05,"Thay diện tích, kích thước, hình thể hoặc ranh giới",chi_phi,conditional_sources
+P09.C05,"Thay diện tích, kích thước, hình thể hoặc ranh giới",noi_nop,conditional_sources
+P09.C05,"Thay diện tích, kích thước, hình thể hoặc ranh giới",thoi_gian,conditional_sources
+P09.C05,"Thay diện tích, kích thước, hình thể hoặc ranh giới",ket_qua,conditional_sources
+P09.C05,"Thay diện tích, kích thước, hình thể hoặc ranh giới",dieu_kien,conditional_sources
+P09.C06,"Xây mới, cải tạo hoặc phá dỡ tài sản trên đất",huong_dan,unconfirmed
+P09.C06,"Xây mới, cải tạo hoặc phá dỡ tài sản trên đất",ho_so,conditional_sources
+P09.C06,"Xây mới, cải tạo hoặc phá dỡ tài sản trên đất",chi_phi,conditional_sources
+P09.C06,"Xây mới, cải tạo hoặc phá dỡ tài sản trên đất",noi_nop,conditional_sources
+P09.C06,"Xây mới, cải tạo hoặc phá dỡ tài sản trên đất",thoi_gian,conditional_sources
+P09.C06,"Xây mới, cải tạo hoặc phá dỡ tài sản trên đất",ket_qua,conditional_sources
+P09.C06,"Xây mới, cải tạo hoặc phá dỡ tài sản trên đất",dieu_kien,conditional_sources
+P09.C07,"Giao đất, cho thuê đất, thu hồi, đổi mục đích hoặc thời hạn sử dụng",huong_dan,unconfirmed
+P09.C07,"Giao đất, cho thuê đất, thu hồi, đổi mục đích hoặc thời hạn sử dụng",ho_so,conditional_sources
+P09.C07,"Giao đất, cho thuê đất, thu hồi, đổi mục đích hoặc thời hạn sử dụng",chi_phi,conditional_sources
+P09.C07,"Giao đất, cho thuê đất, thu hồi, đổi mục đích hoặc thời hạn sử dụng",noi_nop,conditional_sources
+P09.C07,"Giao đất, cho thuê đất, thu hồi, đổi mục đích hoặc thời hạn sử dụng",thoi_gian,conditional_sources
+P09.C07,"Giao đất, cho thuê đất, thu hồi, đổi mục đích hoặc thời hạn sử dụng",ket_qua,conditional_sources
+P09.C07,"Giao đất, cho thuê đất, thu hồi, đổi mục đích hoặc thời hạn sử dụng",dieu_kien,conditional_sources
+P09.C08,"Cho thuê/cho thuê lại, thế chấp, góp vốn hoặc chuyển đổi quyền sử dụng",huong_dan,conditional_sources
+P09.C08,"Cho thuê/cho thuê lại, thế chấp, góp vốn hoặc chuyển đổi quyền sử dụng",ho_so,conditional_sources
+P09.C08,"Cho thuê/cho thuê lại, thế chấp, góp vốn hoặc chuyển đổi quyền sử dụng",chi_phi,conditional_sources
+P09.C08,"Cho thuê/cho thuê lại, thế chấp, góp vốn hoặc chuyển đổi quyền sử dụng",noi_nop,conditional_sources
+P09.C08,"Cho thuê/cho thuê lại, thế chấp, góp vốn hoặc chuyển đổi quyền sử dụng",thoi_gian,conditional_sources
+P09.C08,"Cho thuê/cho thuê lại, thế chấp, góp vốn hoặc chuyển đổi quyền sử dụng",ket_qua,conditional_sources
+P09.C08,"Cho thuê/cho thuê lại, thế chấp, góp vốn hoặc chuyển đổi quyền sử dụng",dieu_kien,local_content
+P09.C09,"Thay đổi do quy hoạch, địa giới hoặc hạ tầng",huong_dan,unconfirmed
+P09.C09,"Thay đổi do quy hoạch, địa giới hoặc hạ tầng",ho_so,conditional_sources
+P09.C09,"Thay đổi do quy hoạch, địa giới hoặc hạ tầng",chi_phi,conditional_sources
+P09.C09,"Thay đổi do quy hoạch, địa giới hoặc hạ tầng",noi_nop,conditional_sources
+P09.C09,"Thay đổi do quy hoạch, địa giới hoặc hạ tầng",thoi_gian,conditional_sources
+P09.C09,"Thay đổi do quy hoạch, địa giới hoặc hạ tầng",ket_qua,conditional_sources
+P09.C09,"Thay đổi do quy hoạch, địa giới hoặc hạ tầng",dieu_kien,conditional_sources
+P09.R01,Chưa được cấp giấy lần đầu hoặc chỉ mất giấy,huong_dan,conditional_sources
+P09.R01,Chưa được cấp giấy lần đầu hoặc chỉ mất giấy,ho_so,conditional_sources
+P09.R01,Chưa được cấp giấy lần đầu hoặc chỉ mất giấy,chi_phi,conditional_sources
+P09.R01,Chưa được cấp giấy lần đầu hoặc chỉ mất giấy,noi_nop,conditional_sources
+P09.R01,Chưa được cấp giấy lần đầu hoặc chỉ mất giấy,thoi_gian,conditional_sources
+P09.R01,Chưa được cấp giấy lần đầu hoặc chỉ mất giấy,ket_qua,conditional_sources
+P09.R01,Chưa được cấp giấy lần đầu hoặc chỉ mất giấy,dieu_kien,conditional_sources
+P09.M01,"Cho thuê, cho thuê lại quyền sử dụng đất",huong_dan,unconfirmed
+P09.M01,"Cho thuê, cho thuê lại quyền sử dụng đất",ho_so,conditional_sources
+P09.M01,"Cho thuê, cho thuê lại quyền sử dụng đất",chi_phi,conditional_sources
+P09.M01,"Cho thuê, cho thuê lại quyền sử dụng đất",noi_nop,conditional_sources
+P09.M01,"Cho thuê, cho thuê lại quyền sử dụng đất",thoi_gian,conditional_sources
+P09.M01,"Cho thuê, cho thuê lại quyền sử dụng đất",ket_qua,conditional_sources
+P09.M01,"Cho thuê, cho thuê lại quyền sử dụng đất",dieu_kien,conditional_sources
+P09.M02,"Đăng ký, thay đổi, xóa và tra cứu biện pháp bảo đảm",huong_dan,unconfirmed
+P09.M02,"Đăng ký, thay đổi, xóa và tra cứu biện pháp bảo đảm",ho_so,conditional_sources
+P09.M02,"Đăng ký, thay đổi, xóa và tra cứu biện pháp bảo đảm",chi_phi,conditional_sources
+P09.M02,"Đăng ký, thay đổi, xóa và tra cứu biện pháp bảo đảm",noi_nop,conditional_sources
+P09.M02,"Đăng ký, thay đổi, xóa và tra cứu biện pháp bảo đảm",thoi_gian,conditional_sources
+P09.M02,"Đăng ký, thay đổi, xóa và tra cứu biện pháp bảo đảm",ket_qua,conditional_sources
+P09.M02,"Đăng ký, thay đổi, xóa và tra cứu biện pháp bảo đảm",dieu_kien,conditional_sources
+P09.M03,"Góp vốn bằng quyền sử dụng đất, tài sản gắn liền với đất",huong_dan,unconfirmed
+P09.M03,"Góp vốn bằng quyền sử dụng đất, tài sản gắn liền với đất",ho_so,conditional_sources
+P09.M03,"Góp vốn bằng quyền sử dụng đất, tài sản gắn liền với đất",chi_phi,conditional_sources
+P09.M03,"Góp vốn bằng quyền sử dụng đất, tài sản gắn liền với đất",noi_nop,conditional_sources
+P09.M03,"Góp vốn bằng quyền sử dụng đất, tài sản gắn liền với đất",thoi_gian,conditional_sources
+P09.M03,"Góp vốn bằng quyền sử dụng đất, tài sản gắn liền với đất",ket_qua,conditional_sources
+P09.M03,"Góp vốn bằng quyền sử dụng đất, tài sản gắn liền với đất",dieu_kien,conditional_sources
+P09.M04,Chuyển đổi quyền sử dụng đất nông nghiệp,huong_dan,unconfirmed
+P09.M04,Chuyển đổi quyền sử dụng đất nông nghiệp,ho_so,conditional_sources
+P09.M04,Chuyển đổi quyền sử dụng đất nông nghiệp,chi_phi,conditional_sources
+P09.M04,Chuyển đổi quyền sử dụng đất nông nghiệp,noi_nop,conditional_sources
+P09.M04,Chuyển đổi quyền sử dụng đất nông nghiệp,thoi_gian,conditional_sources
+P09.M04,Chuyển đổi quyền sử dụng đất nông nghiệp,ket_qua,conditional_sources
+P09.M04,Chuyển đổi quyền sử dụng đất nông nghiệp,dieu_kien,conditional_sources
+P10.C01,Chưa từng cấp; có giấy tờ về quyền sử dụng đất,huong_dan,conditional_sources
+P10.C01,Chưa từng cấp; có giấy tờ về quyền sử dụng đất,ho_so,conditional_sources
+P10.C01,Chưa từng cấp; có giấy tờ về quyền sử dụng đất,chi_phi,conditional_sources
+P10.C01,Chưa từng cấp; có giấy tờ về quyền sử dụng đất,noi_nop,conditional_sources
+P10.C01,Chưa từng cấp; có giấy tờ về quyền sử dụng đất,thoi_gian,conditional_sources
+P10.C01,Chưa từng cấp; có giấy tờ về quyền sử dụng đất,ket_qua,conditional_sources
+P10.C01,Chưa từng cấp; có giấy tờ về quyền sử dụng đất,dieu_kien,conditional_sources
+P10.C02,Chưa từng cấp; không có giấy tờ về quyền sử dụng đất,huong_dan,conditional_sources
+P10.C02,Chưa từng cấp; không có giấy tờ về quyền sử dụng đất,ho_so,conditional_sources
+P10.C02,Chưa từng cấp; không có giấy tờ về quyền sử dụng đất,chi_phi,conditional_sources
+P10.C02,Chưa từng cấp; không có giấy tờ về quyền sử dụng đất,noi_nop,conditional_sources
+P10.C02,Chưa từng cấp; không có giấy tờ về quyền sử dụng đất,thoi_gian,conditional_sources
+P10.C02,Chưa từng cấp; không có giấy tờ về quyền sử dụng đất,ket_qua,conditional_sources
+P10.C02,Chưa từng cấp; không có giấy tờ về quyền sử dụng đất,dieu_kien,conditional_sources
+P10.C03,Đã có giấy đất; đề nghị chứng nhận bổ sung tài sản,huong_dan,unconfirmed
+P10.C03,Đã có giấy đất; đề nghị chứng nhận bổ sung tài sản,ho_so,conditional_sources
+P10.C03,Đã có giấy đất; đề nghị chứng nhận bổ sung tài sản,chi_phi,conditional_sources
+P10.C03,Đã có giấy đất; đề nghị chứng nhận bổ sung tài sản,noi_nop,conditional_sources
+P10.C03,Đã có giấy đất; đề nghị chứng nhận bổ sung tài sản,thoi_gian,conditional_sources
+P10.C03,Đã có giấy đất; đề nghị chứng nhận bổ sung tài sản,ket_qua,conditional_sources
+P10.C03,Đã có giấy đất; đề nghị chứng nhận bổ sung tài sản,dieu_kien,conditional_sources
+P10.R01,"Đã có giấy nhưng mất/hỏng, muốn sang tên hoặc tăng diện tích do đổi ranh",huong_dan,unconfirmed
+P10.R01,"Đã có giấy nhưng mất/hỏng, muốn sang tên hoặc tăng diện tích do đổi ranh",ho_so,conditional_sources
+P10.R01,"Đã có giấy nhưng mất/hỏng, muốn sang tên hoặc tăng diện tích do đổi ranh",chi_phi,conditional_sources
+P10.R01,"Đã có giấy nhưng mất/hỏng, muốn sang tên hoặc tăng diện tích do đổi ranh",noi_nop,conditional_sources
+P10.R01,"Đã có giấy nhưng mất/hỏng, muốn sang tên hoặc tăng diện tích do đổi ranh",thoi_gian,conditional_sources
+P10.R01,"Đã có giấy nhưng mất/hỏng, muốn sang tên hoặc tăng diện tích do đổi ranh",ket_qua,conditional_sources
+P10.R01,"Đã có giấy nhưng mất/hỏng, muốn sang tên hoặc tăng diện tích do đổi ranh",dieu_kien,conditional_sources
+P11.C01,Còn bản gốc; muốn đổi mẫu hoặc giấy hỏng,huong_dan,local_content
+P11.C01,Còn bản gốc; muốn đổi mẫu hoặc giấy hỏng,ho_so,local_content
+P11.C01,Còn bản gốc; muốn đổi mẫu hoặc giấy hỏng,chi_phi,local_content
+P11.C01,Còn bản gốc; muốn đổi mẫu hoặc giấy hỏng,noi_nop,conditional_sources
+P11.C01,Còn bản gốc; muốn đổi mẫu hoặc giấy hỏng,thoi_gian,local_content
+P11.C01,Còn bản gốc; muốn đổi mẫu hoặc giấy hỏng,ket_qua,local_content
+P11.C01,Còn bản gốc; muốn đổi mẫu hoặc giấy hỏng,dieu_kien,local_content
+P11.C02,Mất toàn bộ giấy chứng nhận đã cấp,huong_dan,conditional_sources
+P11.C02,Mất toàn bộ giấy chứng nhận đã cấp,ho_so,conditional_sources
+P11.C02,Mất toàn bộ giấy chứng nhận đã cấp,chi_phi,conditional_sources
+P11.C02,Mất toàn bộ giấy chứng nhận đã cấp,noi_nop,conditional_sources
+P11.C02,Mất toàn bộ giấy chứng nhận đã cấp,thoi_gian,conditional_sources
+P11.C02,Mất toàn bộ giấy chứng nhận đã cấp,ket_qua,conditional_sources
+P11.C02,Mất toàn bộ giấy chứng nhận đã cấp,dieu_kien,local_content
+P11.C03,Chỉ mất trang bổ sung; vẫn còn giấy chứng nhận,huong_dan,local_content
+P11.C03,Chỉ mất trang bổ sung; vẫn còn giấy chứng nhận,ho_so,local_content
+P11.C03,Chỉ mất trang bổ sung; vẫn còn giấy chứng nhận,chi_phi,local_content
+P11.C03,Chỉ mất trang bổ sung; vẫn còn giấy chứng nhận,noi_nop,conditional_sources
+P11.C03,Chỉ mất trang bổ sung; vẫn còn giấy chứng nhận,thoi_gian,local_content
+P11.C03,Chỉ mất trang bổ sung; vẫn còn giấy chứng nhận,ket_qua,conditional_sources
+P11.C03,Chỉ mất trang bổ sung; vẫn còn giấy chứng nhận,dieu_kien,conditional_sources
+P11.C04,Sai vị trí/kích thước/diện tích; cần cập nhật theo đo đạc,huong_dan,conditional_sources
+P11.C04,Sai vị trí/kích thước/diện tích; cần cập nhật theo đo đạc,ho_so,conditional_sources
+P11.C04,Sai vị trí/kích thước/diện tích; cần cập nhật theo đo đạc,chi_phi,conditional_sources
+P11.C04,Sai vị trí/kích thước/diện tích; cần cập nhật theo đo đạc,noi_nop,conditional_sources
+P11.C04,Sai vị trí/kích thước/diện tích; cần cập nhật theo đo đạc,thoi_gian,conditional_sources
+P11.C04,Sai vị trí/kích thước/diện tích; cần cập nhật theo đo đạc,ket_qua,conditional_sources
+P11.C04,Sai vị trí/kích thước/diện tích; cần cập nhật theo đo đạc,dieu_kien,conditional_sources
+P12.C01,Chuyển nhượng quyền sử dụng đất; hồ sơ quyền rõ ràng,huong_dan,local_content
+P12.C01,Chuyển nhượng quyền sử dụng đất; hồ sơ quyền rõ ràng,ho_so,conditional_sources
+P12.C01,Chuyển nhượng quyền sử dụng đất; hồ sơ quyền rõ ràng,chi_phi,conditional_sources
+P12.C01,Chuyển nhượng quyền sử dụng đất; hồ sơ quyền rõ ràng,noi_nop,conditional_sources
+P12.C01,Chuyển nhượng quyền sử dụng đất; hồ sơ quyền rõ ràng,thoi_gian,conditional_sources
+P12.C01,Chuyển nhượng quyền sử dụng đất; hồ sơ quyền rõ ràng,ket_qua,local_content
+P12.C01,Chuyển nhượng quyền sử dụng đất; hồ sơ quyền rõ ràng,dieu_kien,conditional_sources
+P12.C02,"Chuyển nhượng có đồng sở hữu, tài sản chung hoặc đại diện",huong_dan,local_content
+P12.C02,"Chuyển nhượng có đồng sở hữu, tài sản chung hoặc đại diện",ho_so,conditional_sources
+P12.C02,"Chuyển nhượng có đồng sở hữu, tài sản chung hoặc đại diện",chi_phi,conditional_sources
+P12.C02,"Chuyển nhượng có đồng sở hữu, tài sản chung hoặc đại diện",noi_nop,conditional_sources
+P12.C02,"Chuyển nhượng có đồng sở hữu, tài sản chung hoặc đại diện",thoi_gian,conditional_sources
+P12.C02,"Chuyển nhượng có đồng sở hữu, tài sản chung hoặc đại diện",ket_qua,local_content
+P12.C02,"Chuyển nhượng có đồng sở hữu, tài sản chung hoặc đại diện",dieu_kien,conditional_sources
+P12.R01,"Tặng cho, thừa kế hoặc chuyển quyền không phải mua bán",huong_dan,unconfirmed
+P12.R01,"Tặng cho, thừa kế hoặc chuyển quyền không phải mua bán",ho_so,conditional_sources
+P12.R01,"Tặng cho, thừa kế hoặc chuyển quyền không phải mua bán",chi_phi,conditional_sources
+P12.R01,"Tặng cho, thừa kế hoặc chuyển quyền không phải mua bán",noi_nop,conditional_sources
+P12.R01,"Tặng cho, thừa kế hoặc chuyển quyền không phải mua bán",thoi_gian,conditional_sources
+P12.R01,"Tặng cho, thừa kế hoặc chuyển quyền không phải mua bán",ket_qua,conditional_sources
+P12.R01,"Tặng cho, thừa kế hoặc chuyển quyền không phải mua bán",dieu_kien,conditional_sources
+P12.R02,"Đất chưa có giấy, đang tranh chấp/thi hành án hoặc chưa giải chấp",huong_dan,unconfirmed
+P12.R02,"Đất chưa có giấy, đang tranh chấp/thi hành án hoặc chưa giải chấp",ho_so,conditional_sources
+P12.R02,"Đất chưa có giấy, đang tranh chấp/thi hành án hoặc chưa giải chấp",chi_phi,conditional_sources
+P12.R02,"Đất chưa có giấy, đang tranh chấp/thi hành án hoặc chưa giải chấp",noi_nop,conditional_sources
+P12.R02,"Đất chưa có giấy, đang tranh chấp/thi hành án hoặc chưa giải chấp",thoi_gian,conditional_sources
+P12.R02,"Đất chưa có giấy, đang tranh chấp/thi hành án hoặc chưa giải chấp",ket_qua,conditional_sources
+P12.R02,"Đất chưa có giấy, đang tranh chấp/thi hành án hoặc chưa giải chấp",dieu_kien,conditional_sources
+P13.C01,Phục vụ hồ sơ cấp giấy; có giấy tờ nguồn gốc/thời điểm,huong_dan,conditional_sources
+P13.C01,Phục vụ hồ sơ cấp giấy; có giấy tờ nguồn gốc/thời điểm,ho_so,conditional_sources
+P13.C01,Phục vụ hồ sơ cấp giấy; có giấy tờ nguồn gốc/thời điểm,chi_phi,conditional_sources
+P13.C01,Phục vụ hồ sơ cấp giấy; có giấy tờ nguồn gốc/thời điểm,noi_nop,conditional_sources
+P13.C01,Phục vụ hồ sơ cấp giấy; có giấy tờ nguồn gốc/thời điểm,thoi_gian,conditional_sources
+P13.C01,Phục vụ hồ sơ cấp giấy; có giấy tờ nguồn gốc/thời điểm,ket_qua,conditional_sources
+P13.C01,Phục vụ hồ sơ cấp giấy; có giấy tờ nguồn gốc/thời điểm,dieu_kien,conditional_sources
+P13.C02,Phục vụ hồ sơ cấp giấy; thiếu hoặc mâu thuẫn chứng cứ,huong_dan,conditional_sources
+P13.C02,Phục vụ hồ sơ cấp giấy; thiếu hoặc mâu thuẫn chứng cứ,ho_so,conditional_sources
+P13.C02,Phục vụ hồ sơ cấp giấy; thiếu hoặc mâu thuẫn chứng cứ,chi_phi,conditional_sources
+P13.C02,Phục vụ hồ sơ cấp giấy; thiếu hoặc mâu thuẫn chứng cứ,noi_nop,conditional_sources
+P13.C02,Phục vụ hồ sơ cấp giấy; thiếu hoặc mâu thuẫn chứng cứ,thoi_gian,conditional_sources
+P13.C02,Phục vụ hồ sơ cấp giấy; thiếu hoặc mâu thuẫn chứng cứ,ket_qua,conditional_sources
+P13.C02,Phục vụ hồ sơ cấp giấy; thiếu hoặc mâu thuẫn chứng cứ,dieu_kien,conditional_sources
+P13.R01,"Mục đích chính là tranh chấp, khiếu nại hoặc xác lập quyền",huong_dan,unconfirmed
+P13.R01,"Mục đích chính là tranh chấp, khiếu nại hoặc xác lập quyền",ho_so,conditional_sources
+P13.R01,"Mục đích chính là tranh chấp, khiếu nại hoặc xác lập quyền",chi_phi,conditional_sources
+P13.R01,"Mục đích chính là tranh chấp, khiếu nại hoặc xác lập quyền",noi_nop,conditional_sources
+P13.R01,"Mục đích chính là tranh chấp, khiếu nại hoặc xác lập quyền",thoi_gian,conditional_sources
+P13.R01,"Mục đích chính là tranh chấp, khiếu nại hoặc xác lập quyền",ket_qua,conditional_sources
+P13.R01,"Mục đích chính là tranh chấp, khiếu nại hoặc xác lập quyền",dieu_kien,conditional_sources
+P14.C01,Xây mới và thuộc diện phải xin phép sau kiểm tra miễn,huong_dan,conditional_sources
+P14.C01,Xây mới và thuộc diện phải xin phép sau kiểm tra miễn,ho_so,conditional_sources
+P14.C01,Xây mới và thuộc diện phải xin phép sau kiểm tra miễn,chi_phi,conditional_sources
+P14.C01,Xây mới và thuộc diện phải xin phép sau kiểm tra miễn,noi_nop,conditional_sources
+P14.C01,Xây mới và thuộc diện phải xin phép sau kiểm tra miễn,thoi_gian,conditional_sources
+P14.C01,Xây mới và thuộc diện phải xin phép sau kiểm tra miễn,ket_qua,conditional_sources
+P14.C01,Xây mới và thuộc diện phải xin phép sau kiểm tra miễn,dieu_kien,conditional_sources
+P14.C02,"Sửa chữa, cải tạo hoặc di dời công trình",huong_dan,conditional_sources
+P14.C02,"Sửa chữa, cải tạo hoặc di dời công trình",ho_so,conditional_sources
+P14.C02,"Sửa chữa, cải tạo hoặc di dời công trình",chi_phi,conditional_sources
+P14.C02,"Sửa chữa, cải tạo hoặc di dời công trình",noi_nop,conditional_sources
+P14.C02,"Sửa chữa, cải tạo hoặc di dời công trình",thoi_gian,conditional_sources
+P14.C02,"Sửa chữa, cải tạo hoặc di dời công trình",ket_qua,conditional_sources
+P14.C02,"Sửa chữa, cải tạo hoặc di dời công trình",dieu_kien,conditional_sources
+P14.C03,Đã có giấy phép; cần điều chỉnh/gia hạn/cấp lại,huong_dan,conditional_sources
+P14.C03,Đã có giấy phép; cần điều chỉnh/gia hạn/cấp lại,ho_so,conditional_sources
+P14.C03,Đã có giấy phép; cần điều chỉnh/gia hạn/cấp lại,chi_phi,conditional_sources
+P14.C03,Đã có giấy phép; cần điều chỉnh/gia hạn/cấp lại,noi_nop,conditional_sources
+P14.C03,Đã có giấy phép; cần điều chỉnh/gia hạn/cấp lại,thoi_gian,conditional_sources
+P14.C03,Đã có giấy phép; cần điều chỉnh/gia hạn/cấp lại,ket_qua,conditional_sources
+P14.C03,Đã có giấy phép; cần điều chỉnh/gia hạn/cấp lại,dieu_kien,conditional_sources
+P14.C04,Có dấu hiệu thuộc diện miễn giấy phép,huong_dan,conditional_sources
+P14.C04,Có dấu hiệu thuộc diện miễn giấy phép,ho_so,conditional_sources
+P14.C04,Có dấu hiệu thuộc diện miễn giấy phép,chi_phi,conditional_sources
+P14.C04,Có dấu hiệu thuộc diện miễn giấy phép,noi_nop,conditional_sources
+P14.C04,Có dấu hiệu thuộc diện miễn giấy phép,thoi_gian,conditional_sources
+P14.C04,Có dấu hiệu thuộc diện miễn giấy phép,ket_qua,conditional_sources
+P14.C04,Có dấu hiệu thuộc diện miễn giấy phép,dieu_kien,conditional_sources
+P15.C01,Chưa nộp hồ sơ; đề nghị hưởng lần đầu cho đợt thất nghiệp này,huong_dan,unconfirmed
+P15.C01,Chưa nộp hồ sơ; đề nghị hưởng lần đầu cho đợt thất nghiệp này,ho_so,conditional_sources
+P15.C01,Chưa nộp hồ sơ; đề nghị hưởng lần đầu cho đợt thất nghiệp này,chi_phi,conditional_sources
+P15.C01,Chưa nộp hồ sơ; đề nghị hưởng lần đầu cho đợt thất nghiệp này,noi_nop,conditional_sources
+P15.C01,Chưa nộp hồ sơ; đề nghị hưởng lần đầu cho đợt thất nghiệp này,thoi_gian,conditional_sources
+P15.C01,Chưa nộp hồ sơ; đề nghị hưởng lần đầu cho đợt thất nghiệp này,ket_qua,conditional_sources
+P15.C01,Chưa nộp hồ sơ; đề nghị hưởng lần đầu cho đợt thất nghiệp này,dieu_kien,conditional_sources
+P15.C02,Đã có quyết định hưởng; đang nhận trợ cấp,huong_dan,unconfirmed
+P15.C02,Đã có quyết định hưởng; đang nhận trợ cấp,ho_so,conditional_sources
+P15.C02,Đã có quyết định hưởng; đang nhận trợ cấp,chi_phi,conditional_sources
+P15.C02,Đã có quyết định hưởng; đang nhận trợ cấp,noi_nop,conditional_sources
+P15.C02,Đã có quyết định hưởng; đang nhận trợ cấp,thoi_gian,conditional_sources
+P15.C02,Đã có quyết định hưởng; đang nhận trợ cấp,ket_qua,conditional_sources
+P15.C02,Đã có quyết định hưởng; đang nhận trợ cấp,dieu_kien,conditional_sources
+P15.C03,Đang hưởng nhưng có việc mới/đi nghĩa vụ/học dài hạn hoặc thay đổi khác,huong_dan,conditional_sources
+P15.C03,Đang hưởng nhưng có việc mới/đi nghĩa vụ/học dài hạn hoặc thay đổi khác,ho_so,conditional_sources
+P15.C03,Đang hưởng nhưng có việc mới/đi nghĩa vụ/học dài hạn hoặc thay đổi khác,chi_phi,conditional_sources
+P15.C03,Đang hưởng nhưng có việc mới/đi nghĩa vụ/học dài hạn hoặc thay đổi khác,noi_nop,conditional_sources
+P15.C03,Đang hưởng nhưng có việc mới/đi nghĩa vụ/học dài hạn hoặc thay đổi khác,thoi_gian,conditional_sources
+P15.C03,Đang hưởng nhưng có việc mới/đi nghĩa vụ/học dài hạn hoặc thay đổi khác,ket_qua,conditional_sources
+P15.C03,Đang hưởng nhưng có việc mới/đi nghĩa vụ/học dài hạn hoặc thay đổi khác,dieu_kien,conditional_sources
+P15.R01,Quá thời hạn nộp hoặc chấm dứt không thuộc diện hưởng,huong_dan,conditional_sources
+P15.R01,Quá thời hạn nộp hoặc chấm dứt không thuộc diện hưởng,ho_so,conditional_sources
+P15.R01,Quá thời hạn nộp hoặc chấm dứt không thuộc diện hưởng,chi_phi,conditional_sources
+P15.R01,Quá thời hạn nộp hoặc chấm dứt không thuộc diện hưởng,noi_nop,conditional_sources
+P15.R01,Quá thời hạn nộp hoặc chấm dứt không thuộc diện hưởng,thoi_gian,conditional_sources
+P15.R01,Quá thời hạn nộp hoặc chấm dứt không thuộc diện hưởng,ket_qua,conditional_sources
+P15.R01,Quá thời hạn nộp hoặc chấm dứt không thuộc diện hưởng,dieu_kien,local_content
+P16.C01,Chưa có quyết định; đang hưởng trợ cấp thất nghiệp,huong_dan,unconfirmed
+P16.C01,Chưa có quyết định; đang hưởng trợ cấp thất nghiệp,ho_so,conditional_sources
+P16.C01,Chưa có quyết định; đang hưởng trợ cấp thất nghiệp,chi_phi,inherited_content
+P16.C01,Chưa có quyết định; đang hưởng trợ cấp thất nghiệp,noi_nop,conditional_sources
+P16.C01,Chưa có quyết định; đang hưởng trợ cấp thất nghiệp,thoi_gian,conditional_sources
+P16.C01,Chưa có quyết định; đang hưởng trợ cấp thất nghiệp,ket_qua,conditional_sources
+P16.C01,Chưa có quyết định; đang hưởng trợ cấp thất nghiệp,dieu_kien,conditional_sources
+P16.C02,Chưa có quyết định; không thuộc C01 nhưng có quá trình đóng bảo hiểm thất nghiệp,huong_dan,conditional_sources
+P16.C02,Chưa có quyết định; không thuộc C01 nhưng có quá trình đóng bảo hiểm thất nghiệp,ho_so,local_content
+P16.C02,Chưa có quyết định; không thuộc C01 nhưng có quá trình đóng bảo hiểm thất nghiệp,chi_phi,inherited_content
+P16.C02,Chưa có quyết định; không thuộc C01 nhưng có quá trình đóng bảo hiểm thất nghiệp,noi_nop,conditional_sources
+P16.C02,Chưa có quyết định; không thuộc C01 nhưng có quá trình đóng bảo hiểm thất nghiệp,thoi_gian,local_content
+P16.C02,Chưa có quyết định; không thuộc C01 nhưng có quá trình đóng bảo hiểm thất nghiệp,ket_qua,conditional_sources
+P16.C02,Chưa có quyết định; không thuộc C01 nhưng có quá trình đóng bảo hiểm thất nghiệp,dieu_kien,local_content
+P16.C03,Đã được quyết định hỗ trợ; nay trợ cấp thất nghiệp kết thúc,huong_dan,unconfirmed
+P16.C03,Đã được quyết định hỗ trợ; nay trợ cấp thất nghiệp kết thúc,ho_so,local_content
+P16.C03,Đã được quyết định hỗ trợ; nay trợ cấp thất nghiệp kết thúc,chi_phi,inherited_content
+P16.C03,Đã được quyết định hỗ trợ; nay trợ cấp thất nghiệp kết thúc,noi_nop,conditional_sources
+P16.C03,Đã được quyết định hỗ trợ; nay trợ cấp thất nghiệp kết thúc,thoi_gian,conditional_sources
+P16.C03,Đã được quyết định hỗ trợ; nay trợ cấp thất nghiệp kết thúc,ket_qua,local_content
+P16.C03,Đã được quyết định hỗ trợ; nay trợ cấp thất nghiệp kết thúc,dieu_kien,conditional_sources
+P16.R01,"Xin học nghề theo chương trình khác, không phải bảo hiểm thất nghiệp",huong_dan,unconfirmed
+P16.R01,"Xin học nghề theo chương trình khác, không phải bảo hiểm thất nghiệp",ho_so,conditional_sources
+P16.R01,"Xin học nghề theo chương trình khác, không phải bảo hiểm thất nghiệp",chi_phi,conditional_sources
+P16.R01,"Xin học nghề theo chương trình khác, không phải bảo hiểm thất nghiệp",noi_nop,conditional_sources
+P16.R01,"Xin học nghề theo chương trình khác, không phải bảo hiểm thất nghiệp",thoi_gian,conditional_sources
+P16.R01,"Xin học nghề theo chương trình khác, không phải bảo hiểm thất nghiệp",ket_qua,conditional_sources
+P16.R01,"Xin học nghề theo chương trình khác, không phải bảo hiểm thất nghiệp",dieu_kien,conditional_sources
+P17.C01,Yêu cầu nghĩa vụ của người sử dụng lao động,huong_dan,unconfirmed
+P17.C01,Yêu cầu nghĩa vụ của người sử dụng lao động,ho_so,conditional_sources
+P17.C01,Yêu cầu nghĩa vụ của người sử dụng lao động,chi_phi,conditional_sources
+P17.C01,Yêu cầu nghĩa vụ của người sử dụng lao động,noi_nop,conditional_sources
+P17.C01,Yêu cầu nghĩa vụ của người sử dụng lao động,thoi_gian,conditional_sources
+P17.C01,Yêu cầu nghĩa vụ của người sử dụng lao động,ket_qua,conditional_sources
+P17.C01,Yêu cầu nghĩa vụ của người sử dụng lao động,dieu_kien,conditional_sources
+P17.C02,Yêu cầu quỹ bảo hiểm; lần đầu; có hồ sơ tai nạn và giám định,huong_dan,conditional_sources
+P17.C02,Yêu cầu quỹ bảo hiểm; lần đầu; có hồ sơ tai nạn và giám định,ho_so,conditional_sources
+P17.C02,Yêu cầu quỹ bảo hiểm; lần đầu; có hồ sơ tai nạn và giám định,chi_phi,conditional_sources
+P17.C02,Yêu cầu quỹ bảo hiểm; lần đầu; có hồ sơ tai nạn và giám định,noi_nop,conditional_sources
+P17.C02,Yêu cầu quỹ bảo hiểm; lần đầu; có hồ sơ tai nạn và giám định,thoi_gian,conditional_sources
+P17.C02,Yêu cầu quỹ bảo hiểm; lần đầu; có hồ sơ tai nạn và giám định,ket_qua,conditional_sources
+P17.C02,Yêu cầu quỹ bảo hiểm; lần đầu; có hồ sơ tai nạn và giám định,dieu_kien,conditional_sources
+P17.C03,"Tái phát, giám định lại hoặc nhiều lần tai nạn",huong_dan,conditional_sources
+P17.C03,"Tái phát, giám định lại hoặc nhiều lần tai nạn",ho_so,conditional_sources
+P17.C03,"Tái phát, giám định lại hoặc nhiều lần tai nạn",chi_phi,conditional_sources
+P17.C03,"Tái phát, giám định lại hoặc nhiều lần tai nạn",noi_nop,conditional_sources
+P17.C03,"Tái phát, giám định lại hoặc nhiều lần tai nạn",thoi_gian,conditional_sources
+P17.C03,"Tái phát, giám định lại hoặc nhiều lần tai nạn",ket_qua,conditional_sources
+P17.C03,"Tái phát, giám định lại hoặc nhiều lần tai nạn",dieu_kien,conditional_sources
+P17.C04,Tai nạn gây chết người; thân nhân đề nghị chế độ,huong_dan,unconfirmed
+P17.C04,Tai nạn gây chết người; thân nhân đề nghị chế độ,ho_so,conditional_sources
+P17.C04,Tai nạn gây chết người; thân nhân đề nghị chế độ,chi_phi,conditional_sources
+P17.C04,Tai nạn gây chết người; thân nhân đề nghị chế độ,noi_nop,conditional_sources
+P17.C04,Tai nạn gây chết người; thân nhân đề nghị chế độ,thoi_gian,conditional_sources
+P17.C04,Tai nạn gây chết người; thân nhân đề nghị chế độ,ket_qua,conditional_sources
+P17.C04,Tai nạn gây chết người; thân nhân đề nghị chế độ,dieu_kien,conditional_sources
+P18.C01,Chưa có xác nhận mức độ khuyết tật,huong_dan,local_content
+P18.C01,Chưa có xác nhận mức độ khuyết tật,ho_so,local_content
+P18.C01,Chưa có xác nhận mức độ khuyết tật,chi_phi,local_content
+P18.C01,Chưa có xác nhận mức độ khuyết tật,noi_nop,local_content
+P18.C01,Chưa có xác nhận mức độ khuyết tật,thoi_gian,local_content
+P18.C01,Chưa có xác nhận mức độ khuyết tật,ket_qua,conditional_sources
+P18.C01,Chưa có xác nhận mức độ khuyết tật,dieu_kien,local_content
+P18.C02,Đã xác nhận; tình trạng thay đổi hoặc đề nghị xác định lại,huong_dan,local_content
+P18.C02,Đã xác nhận; tình trạng thay đổi hoặc đề nghị xác định lại,ho_so,local_content
+P18.C02,Đã xác nhận; tình trạng thay đổi hoặc đề nghị xác định lại,chi_phi,conditional_sources
+P18.C02,Đã xác nhận; tình trạng thay đổi hoặc đề nghị xác định lại,noi_nop,conditional_sources
+P18.C02,Đã xác nhận; tình trạng thay đổi hoặc đề nghị xác định lại,thoi_gian,inherited_content
+P18.C02,Đã xác nhận; tình trạng thay đổi hoặc đề nghị xác định lại,ket_qua,conditional_sources
+P18.C02,Đã xác nhận; tình trạng thay đổi hoặc đề nghị xác định lại,dieu_kien,local_content
+P18.C03,Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ,huong_dan,local_content
+P18.C03,Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ,ho_so,conditional_sources
+P18.C03,Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ,chi_phi,local_content
+P18.C03,Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ,noi_nop,local_content
+P18.C03,Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ,thoi_gian,local_content
+P18.C03,Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ,ket_qua,conditional_sources
+P18.C03,Giấy bị mất/hỏng hoặc cần thay thông tin; không đề nghị đổi mức độ,dieu_kien,conditional_sources
+P18.C04,Có tranh luận/kết luận không xác định được hoặc cần giám định y khoa,huong_dan,conditional_sources
+P18.C04,Có tranh luận/kết luận không xác định được hoặc cần giám định y khoa,ho_so,conditional_sources
+P18.C04,Có tranh luận/kết luận không xác định được hoặc cần giám định y khoa,chi_phi,conditional_sources
+P18.C04,Có tranh luận/kết luận không xác định được hoặc cần giám định y khoa,noi_nop,conditional_sources
+P18.C04,Có tranh luận/kết luận không xác định được hoặc cần giám định y khoa,thoi_gian,conditional_sources
+P18.C04,Có tranh luận/kết luận không xác định được hoặc cần giám định y khoa,ket_qua,conditional_sources
+P18.C04,Có tranh luận/kết luận không xác định được hoặc cần giám định y khoa,dieu_kien,conditional_sources
+P19.C01,Có trong danh sách hộ nghèo; vay đúng chương trình hộ nghèo,huong_dan,conditional_sources
+P19.C01,Có trong danh sách hộ nghèo; vay đúng chương trình hộ nghèo,ho_so,conditional_sources
+P19.C01,Có trong danh sách hộ nghèo; vay đúng chương trình hộ nghèo,chi_phi,conditional_sources
+P19.C01,Có trong danh sách hộ nghèo; vay đúng chương trình hộ nghèo,noi_nop,conditional_sources
+P19.C01,Có trong danh sách hộ nghèo; vay đúng chương trình hộ nghèo,thoi_gian,conditional_sources
+P19.C01,Có trong danh sách hộ nghèo; vay đúng chương trình hộ nghèo,ket_qua,inherited_content
+P19.C01,Có trong danh sách hộ nghèo; vay đúng chương trình hộ nghèo,dieu_kien,conditional_sources
+P19.R01,Hộ cận nghèo hoặc mới thoát nghèo,huong_dan,conditional_sources
+P19.R01,Hộ cận nghèo hoặc mới thoát nghèo,ho_so,conditional_sources
+P19.R01,Hộ cận nghèo hoặc mới thoát nghèo,chi_phi,conditional_sources
+P19.R01,Hộ cận nghèo hoặc mới thoát nghèo,noi_nop,conditional_sources
+P19.R01,Hộ cận nghèo hoặc mới thoát nghèo,thoi_gian,conditional_sources
+P19.R01,Hộ cận nghèo hoặc mới thoát nghèo,ket_qua,inherited_content
+P19.R01,Hộ cận nghèo hoặc mới thoát nghèo,dieu_kien,conditional_sources
+P19.R02,"Mục đích thuộc tín dụng học sinh sinh viên, nhà ở, tạo việc làm hoặc chương trình khác",huong_dan,conditional_sources
+P19.R02,"Mục đích thuộc tín dụng học sinh sinh viên, nhà ở, tạo việc làm hoặc chương trình khác",ho_so,conditional_sources
+P19.R02,"Mục đích thuộc tín dụng học sinh sinh viên, nhà ở, tạo việc làm hoặc chương trình khác",chi_phi,conditional_sources
+P19.R02,"Mục đích thuộc tín dụng học sinh sinh viên, nhà ở, tạo việc làm hoặc chương trình khác",noi_nop,conditional_sources
+P19.R02,"Mục đích thuộc tín dụng học sinh sinh viên, nhà ở, tạo việc làm hoặc chương trình khác",thoi_gian,conditional_sources
+P19.R02,"Mục đích thuộc tín dụng học sinh sinh viên, nhà ở, tạo việc làm hoặc chương trình khác",ket_qua,inherited_content
+P19.R02,"Mục đích thuộc tín dụng học sinh sinh viên, nhà ở, tạo việc làm hoặc chương trình khác",dieu_kien,conditional_sources
+P20.C01,Chưa được công nhận; đề nghị xác lập hồ sơ,huong_dan,conditional_sources
+P20.C01,Chưa được công nhận; đề nghị xác lập hồ sơ,ho_so,conditional_sources
+P20.C01,Chưa được công nhận; đề nghị xác lập hồ sơ,chi_phi,conditional_sources
+P20.C01,Chưa được công nhận; đề nghị xác lập hồ sơ,noi_nop,conditional_sources
+P20.C01,Chưa được công nhận; đề nghị xác lập hồ sơ,thoi_gian,conditional_sources
+P20.C01,Chưa được công nhận; đề nghị xác lập hồ sơ,ket_qua,conditional_sources
+P20.C01,Chưa được công nhận; đề nghị xác lập hồ sơ,dieu_kien,conditional_sources
+P20.M01,C01; bị thương khi chiến đấu/trực tiếp phục vụ chiến đấu,huong_dan,unconfirmed
+P20.M01,C01; bị thương khi chiến đấu/trực tiếp phục vụ chiến đấu,ho_so,local_content
+P20.M01,C01; bị thương khi chiến đấu/trực tiếp phục vụ chiến đấu,chi_phi,conditional_sources
+P20.M01,C01; bị thương khi chiến đấu/trực tiếp phục vụ chiến đấu,noi_nop,conditional_sources
+P20.M01,C01; bị thương khi chiến đấu/trực tiếp phục vụ chiến đấu,thoi_gian,conditional_sources
+P20.M01,C01; bị thương khi chiến đấu/trực tiếp phục vụ chiến đấu,ket_qua,unconfirmed
+P20.M01,C01; bị thương khi chiến đấu/trực tiếp phục vụ chiến đấu,dieu_kien,local_content
+P20.M02,C01; nhiệm vụ quốc phòng/an ninh tại địa bàn địch chiếm đóng/có chiến sự/tiếp giáp,huong_dan,unconfirmed
+P20.M02,C01; nhiệm vụ quốc phòng/an ninh tại địa bàn địch chiếm đóng/có chiến sự/tiếp giáp,ho_so,local_content
+P20.M02,C01; nhiệm vụ quốc phòng/an ninh tại địa bàn địch chiếm đóng/có chiến sự/tiếp giáp,chi_phi,conditional_sources
+P20.M02,C01; nhiệm vụ quốc phòng/an ninh tại địa bàn địch chiếm đóng/có chiến sự/tiếp giáp,noi_nop,conditional_sources
+P20.M02,C01; nhiệm vụ quốc phòng/an ninh tại địa bàn địch chiếm đóng/có chiến sự/tiếp giáp,thoi_gian,conditional_sources
+P20.M02,C01; nhiệm vụ quốc phòng/an ninh tại địa bàn địch chiếm đóng/có chiến sự/tiếp giáp,ket_qua,unconfirmed
+P20.M02,C01; nhiệm vụ quốc phòng/an ninh tại địa bàn địch chiếm đóng/có chiến sự/tiếp giáp,dieu_kien,local_content
+P20.M03,C01; trực tiếp đấu tranh chính trị/binh vận có tổ chức,huong_dan,unconfirmed
+P20.M03,C01; trực tiếp đấu tranh chính trị/binh vận có tổ chức,ho_so,local_content
+P20.M03,C01; trực tiếp đấu tranh chính trị/binh vận có tổ chức,chi_phi,conditional_sources
+P20.M03,C01; trực tiếp đấu tranh chính trị/binh vận có tổ chức,noi_nop,conditional_sources
+P20.M03,C01; trực tiếp đấu tranh chính trị/binh vận có tổ chức,thoi_gian,conditional_sources
+P20.M03,C01; trực tiếp đấu tranh chính trị/binh vận có tổ chức,ket_qua,unconfirmed
+P20.M03,C01; trực tiếp đấu tranh chính trị/binh vận có tổ chức,dieu_kien,local_content
+P20.M04,"C01; bị địch bắt, tra tấn, để lại thương tích thực thể",huong_dan,unconfirmed
+P20.M04,"C01; bị địch bắt, tra tấn, để lại thương tích thực thể",ho_so,local_content
+P20.M04,"C01; bị địch bắt, tra tấn, để lại thương tích thực thể",chi_phi,conditional_sources
+P20.M04,"C01; bị địch bắt, tra tấn, để lại thương tích thực thể",noi_nop,conditional_sources
+P20.M04,"C01; bị địch bắt, tra tấn, để lại thương tích thực thể",thoi_gian,conditional_sources
+P20.M04,"C01; bị địch bắt, tra tấn, để lại thương tích thực thể",ket_qua,unconfirmed
+P20.M04,"C01; bị địch bắt, tra tấn, để lại thương tích thực thể",dieu_kien,local_content
+P20.M05,C01; làm nghĩa vụ quốc tế,huong_dan,unconfirmed
+P20.M05,C01; làm nghĩa vụ quốc tế,ho_so,local_content
+P20.M05,C01; làm nghĩa vụ quốc tế,chi_phi,conditional_sources
+P20.M05,C01; làm nghĩa vụ quốc tế,noi_nop,conditional_sources
+P20.M05,C01; làm nghĩa vụ quốc tế,thoi_gian,conditional_sources
+P20.M05,C01; làm nghĩa vụ quốc tế,ket_qua,unconfirmed
+P20.M05,C01; làm nghĩa vụ quốc tế,dieu_kien,local_content
+P20.M06,"C01; công việc cấp bách, nguy hiểm phục vụ quốc phòng/an ninh",huong_dan,unconfirmed
+P20.M06,"C01; công việc cấp bách, nguy hiểm phục vụ quốc phòng/an ninh",ho_so,local_content
+P20.M06,"C01; công việc cấp bách, nguy hiểm phục vụ quốc phòng/an ninh",chi_phi,conditional_sources
+P20.M06,"C01; công việc cấp bách, nguy hiểm phục vụ quốc phòng/an ninh",noi_nop,conditional_sources
+P20.M06,"C01; công việc cấp bách, nguy hiểm phục vụ quốc phòng/an ninh",thoi_gian,conditional_sources
+P20.M06,"C01; công việc cấp bách, nguy hiểm phục vụ quốc phòng/an ninh",ket_qua,unconfirmed
+P20.M06,"C01; công việc cấp bách, nguy hiểm phục vụ quốc phòng/an ninh",dieu_kien,local_content
+P20.M07,C01; huấn luyện/diễn tập/nhiệm vụ quốc phòng an ninh nguy hiểm,huong_dan,unconfirmed
+P20.M07,C01; huấn luyện/diễn tập/nhiệm vụ quốc phòng an ninh nguy hiểm,ho_so,local_content
+P20.M07,C01; huấn luyện/diễn tập/nhiệm vụ quốc phòng an ninh nguy hiểm,chi_phi,conditional_sources
+P20.M07,C01; huấn luyện/diễn tập/nhiệm vụ quốc phòng an ninh nguy hiểm,noi_nop,conditional_sources
+P20.M07,C01; huấn luyện/diễn tập/nhiệm vụ quốc phòng an ninh nguy hiểm,thoi_gian,conditional_sources
+P20.M07,C01; huấn luyện/diễn tập/nhiệm vụ quốc phòng an ninh nguy hiểm,ket_qua,unconfirmed
+P20.M07,C01; huấn luyện/diễn tập/nhiệm vụ quốc phòng an ninh nguy hiểm,dieu_kien,local_content
+P20.M08,"C01; tai nạn khi làm nhiệm vụ ở biên giới, biển, đảo đặc biệt khó khăn",huong_dan,unconfirmed
+P20.M08,"C01; tai nạn khi làm nhiệm vụ ở biên giới, biển, đảo đặc biệt khó khăn",ho_so,local_content
+P20.M08,"C01; tai nạn khi làm nhiệm vụ ở biên giới, biển, đảo đặc biệt khó khăn",chi_phi,conditional_sources
+P20.M08,"C01; tai nạn khi làm nhiệm vụ ở biên giới, biển, đảo đặc biệt khó khăn",noi_nop,conditional_sources
+P20.M08,"C01; tai nạn khi làm nhiệm vụ ở biên giới, biển, đảo đặc biệt khó khăn",thoi_gian,conditional_sources
+P20.M08,"C01; tai nạn khi làm nhiệm vụ ở biên giới, biển, đảo đặc biệt khó khăn",ket_qua,unconfirmed
+P20.M08,"C01; tai nạn khi làm nhiệm vụ ở biên giới, biển, đảo đặc biệt khó khăn",dieu_kien,local_content
+P20.M09,C01; trực tiếp đấu tranh chống tội phạm,huong_dan,unconfirmed
+P20.M09,C01; trực tiếp đấu tranh chống tội phạm,ho_so,local_content
+P20.M09,C01; trực tiếp đấu tranh chống tội phạm,chi_phi,conditional_sources
+P20.M09,C01; trực tiếp đấu tranh chống tội phạm,noi_nop,conditional_sources
+P20.M09,C01; trực tiếp đấu tranh chống tội phạm,thoi_gian,conditional_sources
+P20.M09,C01; trực tiếp đấu tranh chống tội phạm,ket_qua,unconfirmed
+P20.M09,C01; trực tiếp đấu tranh chống tội phạm,dieu_kien,conditional_sources
+P20.M10,C01; đặc biệt dũng cảm cứu người/tài sản hoặc ngăn chặn tội phạm,huong_dan,unconfirmed
+P20.M10,C01; đặc biệt dũng cảm cứu người/tài sản hoặc ngăn chặn tội phạm,ho_so,local_content
+P20.M10,C01; đặc biệt dũng cảm cứu người/tài sản hoặc ngăn chặn tội phạm,chi_phi,conditional_sources
+P20.M10,C01; đặc biệt dũng cảm cứu người/tài sản hoặc ngăn chặn tội phạm,noi_nop,conditional_sources
+P20.M10,C01; đặc biệt dũng cảm cứu người/tài sản hoặc ngăn chặn tội phạm,thoi_gian,conditional_sources
+P20.M10,C01; đặc biệt dũng cảm cứu người/tài sản hoặc ngăn chặn tội phạm,ket_qua,unconfirmed
+P20.M10,C01; đặc biệt dũng cảm cứu người/tài sản hoặc ngăn chặn tội phạm,dieu_kien,conditional_sources
+P20.C02,Trợ cấp sau xác lập thương tích và tra soát chi trả,huong_dan,unconfirmed
+P20.C02,Trợ cấp sau xác lập thương tích và tra soát chi trả,ho_so,conditional_sources
+P20.C02,Trợ cấp sau xác lập thương tích và tra soát chi trả,chi_phi,conditional_sources
+P20.C02,Trợ cấp sau xác lập thương tích và tra soát chi trả,noi_nop,conditional_sources
+P20.C02,Trợ cấp sau xác lập thương tích và tra soát chi trả,thoi_gian,conditional_sources
+P20.C02,Trợ cấp sau xác lập thương tích và tra soát chi trả,ket_qua,conditional_sources
+P20.C02,Trợ cấp sau xác lập thương tích và tra soát chi trả,dieu_kien,conditional_sources
+P20.C03,"Đã hưởng; cần điều chỉnh, di chuyển hoặc xử lý thay đổi tình trạng",huong_dan,conditional_sources
+P20.C03,"Đã hưởng; cần điều chỉnh, di chuyển hoặc xử lý thay đổi tình trạng",ho_so,conditional_sources
+P20.C03,"Đã hưởng; cần điều chỉnh, di chuyển hoặc xử lý thay đổi tình trạng",chi_phi,conditional_sources
+P20.C03,"Đã hưởng; cần điều chỉnh, di chuyển hoặc xử lý thay đổi tình trạng",noi_nop,conditional_sources
+P20.C03,"Đã hưởng; cần điều chỉnh, di chuyển hoặc xử lý thay đổi tình trạng",thoi_gian,conditional_sources
+P20.C03,"Đã hưởng; cần điều chỉnh, di chuyển hoặc xử lý thay đổi tình trạng",ket_qua,conditional_sources
+P20.C03,"Đã hưởng; cần điều chỉnh, di chuyển hoặc xử lý thay đổi tình trạng",dieu_kien,conditional_sources
+P21.C01,Đề nghị lần đầu; còn thân nhân và không chỉ còn các con,huong_dan,local_content
+P21.C01,Đề nghị lần đầu; còn thân nhân và không chỉ còn các con,ho_so,conditional_sources
+P21.C01,Đề nghị lần đầu; còn thân nhân và không chỉ còn các con,chi_phi,conditional_sources
+P21.C01,Đề nghị lần đầu; còn thân nhân và không chỉ còn các con,noi_nop,conditional_sources
+P21.C01,Đề nghị lần đầu; còn thân nhân và không chỉ còn các con,thoi_gian,conditional_sources
+P21.C01,Đề nghị lần đầu; còn thân nhân và không chỉ còn các con,ket_qua,local_content
+P21.C01,Đề nghị lần đầu; còn thân nhân và không chỉ còn các con,dieu_kien,local_content
+P21.C02,Đề nghị lần đầu; chỉ còn nhiều người con,huong_dan,local_content
+P21.C02,Đề nghị lần đầu; chỉ còn nhiều người con,ho_so,local_content
+P21.C02,Đề nghị lần đầu; chỉ còn nhiều người con,chi_phi,local_content
+P21.C02,Đề nghị lần đầu; chỉ còn nhiều người con,noi_nop,conditional_sources
+P21.C02,Đề nghị lần đầu; chỉ còn nhiều người con,thoi_gian,conditional_sources
+P21.C02,Đề nghị lần đầu; chỉ còn nhiều người con,ket_qua,local_content
+P21.C02,Đề nghị lần đầu; chỉ còn nhiều người con,dieu_kien,local_content
+P21.C03,Đề nghị lần đầu; chỉ còn một người con và người này thờ cúng,huong_dan,local_content
+P21.C03,Đề nghị lần đầu; chỉ còn một người con và người này thờ cúng,ho_so,conditional_sources
+P21.C03,Đề nghị lần đầu; chỉ còn một người con và người này thờ cúng,chi_phi,conditional_sources
+P21.C03,Đề nghị lần đầu; chỉ còn một người con và người này thờ cúng,noi_nop,conditional_sources
+P21.C03,Đề nghị lần đầu; chỉ còn một người con và người này thờ cúng,thoi_gian,conditional_sources
+P21.C03,Đề nghị lần đầu; chỉ còn một người con và người này thờ cúng,ket_qua,local_content
+P21.C03,Đề nghị lần đầu; chỉ còn một người con và người này thờ cúng,dieu_kien,conditional_sources
+P21.C04,Không còn thân nhân hoặc thân nhân duy nhất thuộc hoàn cảnh đặc biệt được nêu ở bản gốc,huong_dan,local_content
+P21.C04,Không còn thân nhân hoặc thân nhân duy nhất thuộc hoàn cảnh đặc biệt được nêu ở bản gốc,ho_so,conditional_sources
+P21.C04,Không còn thân nhân hoặc thân nhân duy nhất thuộc hoàn cảnh đặc biệt được nêu ở bản gốc,chi_phi,conditional_sources
+P21.C04,Không còn thân nhân hoặc thân nhân duy nhất thuộc hoàn cảnh đặc biệt được nêu ở bản gốc,noi_nop,conditional_sources
+P21.C04,Không còn thân nhân hoặc thân nhân duy nhất thuộc hoàn cảnh đặc biệt được nêu ở bản gốc,thoi_gian,conditional_sources
+P21.C04,Không còn thân nhân hoặc thân nhân duy nhất thuộc hoàn cảnh đặc biệt được nêu ở bản gốc,ket_qua,local_content
+P21.C04,Không còn thân nhân hoặc thân nhân duy nhất thuộc hoàn cảnh đặc biệt được nêu ở bản gốc,dieu_kien,conditional_sources
+P21.C05,Đã có người hưởng; đề nghị đổi người thờ cúng/chuyển nơi quản lý,huong_dan,unconfirmed
+P21.C05,Đã có người hưởng; đề nghị đổi người thờ cúng/chuyển nơi quản lý,ho_so,conditional_sources
+P21.C05,Đã có người hưởng; đề nghị đổi người thờ cúng/chuyển nơi quản lý,chi_phi,conditional_sources
+P21.C05,Đã có người hưởng; đề nghị đổi người thờ cúng/chuyển nơi quản lý,noi_nop,conditional_sources
+P21.C05,Đã có người hưởng; đề nghị đổi người thờ cúng/chuyển nơi quản lý,thoi_gian,conditional_sources
+P21.C05,Đã có người hưởng; đề nghị đổi người thờ cúng/chuyển nơi quản lý,ket_qua,conditional_sources
+P21.C05,Đã có người hưởng; đề nghị đổi người thờ cúng/chuyển nơi quản lý,dieu_kien,conditional_sources
+P21.C06,Đã được duyệt; hỏi chi trả hoặc chậm nhận,huong_dan,unconfirmed
+P21.C06,Đã được duyệt; hỏi chi trả hoặc chậm nhận,ho_so,local_content
+P21.C06,Đã được duyệt; hỏi chi trả hoặc chậm nhận,chi_phi,local_content
+P21.C06,Đã được duyệt; hỏi chi trả hoặc chậm nhận,noi_nop,local_content
+P21.C06,Đã được duyệt; hỏi chi trả hoặc chậm nhận,thoi_gian,conditional_sources
+P21.C06,Đã được duyệt; hỏi chi trả hoặc chậm nhận,ket_qua,local_content
+P21.C06,Đã được duyệt; hỏi chi trả hoặc chậm nhận,dieu_kien,conditional_sources
+P22.C01,Học sinh đang học trong nước; chuyển trường thông thường,huong_dan,inherited_content
+P22.C01,Học sinh đang học trong nước; chuyển trường thông thường,ho_so,conditional_sources
+P22.C01,Học sinh đang học trong nước; chuyển trường thông thường,chi_phi,conditional_sources
+P22.C01,Học sinh đang học trong nước; chuyển trường thông thường,noi_nop,inherited_content
+P22.C01,Học sinh đang học trong nước; chuyển trường thông thường,thoi_gian,conditional_sources
+P22.C01,Học sinh đang học trong nước; chuyển trường thông thường,ket_qua,conditional_sources
+P22.C01,Học sinh đang học trong nước; chuyển trường thông thường,dieu_kien,conditional_sources
+P22.C02,Học sinh Việt Nam từ nước ngoài về,huong_dan,inherited_content
+P22.C02,Học sinh Việt Nam từ nước ngoài về,ho_so,conditional_sources
+P22.C02,Học sinh Việt Nam từ nước ngoài về,chi_phi,conditional_sources
+P22.C02,Học sinh Việt Nam từ nước ngoài về,noi_nop,inherited_content
+P22.C02,Học sinh Việt Nam từ nước ngoài về,thoi_gian,conditional_sources
+P22.C02,Học sinh Việt Nam từ nước ngoài về,ket_qua,conditional_sources
+P22.C02,Học sinh Việt Nam từ nước ngoài về,dieu_kien,conditional_sources
+P22.C03,Chuyển từ THPT tư thục sang công lập hoặc trường chuyên biệt,huong_dan,inherited_content
+P22.C03,Chuyển từ THPT tư thục sang công lập hoặc trường chuyên biệt,ho_so,conditional_sources
+P22.C03,Chuyển từ THPT tư thục sang công lập hoặc trường chuyên biệt,chi_phi,conditional_sources
+P22.C03,Chuyển từ THPT tư thục sang công lập hoặc trường chuyên biệt,noi_nop,inherited_content
+P22.C03,Chuyển từ THPT tư thục sang công lập hoặc trường chuyên biệt,thoi_gian,conditional_sources
+P22.C03,Chuyển từ THPT tư thục sang công lập hoặc trường chuyên biệt,ket_qua,conditional_sources
+P22.C03,Chuyển từ THPT tư thục sang công lập hoặc trường chuyên biệt,dieu_kien,conditional_sources
+P22.R01,"Tuyển sinh đầu cấp, xin học lại sau nghỉ hoặc học sinh nước ngoài",huong_dan,inherited_content
+P22.R01,"Tuyển sinh đầu cấp, xin học lại sau nghỉ hoặc học sinh nước ngoài",ho_so,conditional_sources
+P22.R01,"Tuyển sinh đầu cấp, xin học lại sau nghỉ hoặc học sinh nước ngoài",chi_phi,conditional_sources
+P22.R01,"Tuyển sinh đầu cấp, xin học lại sau nghỉ hoặc học sinh nước ngoài",noi_nop,inherited_content
+P22.R01,"Tuyển sinh đầu cấp, xin học lại sau nghỉ hoặc học sinh nước ngoài",thoi_gian,conditional_sources
+P22.R01,"Tuyển sinh đầu cấp, xin học lại sau nghỉ hoặc học sinh nước ngoài",ket_qua,conditional_sources
+P22.R01,"Tuyển sinh đầu cấp, xin học lại sau nghỉ hoặc học sinh nước ngoài",dieu_kien,conditional_sources
+P23.C01,Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận,huong_dan,conditional_sources
+P23.C01,Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận,ho_so,conditional_sources
+P23.C01,Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận,chi_phi,conditional_sources
+P23.C01,Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận,noi_nop,conditional_sources
+P23.C01,Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận,thoi_gian,conditional_sources
+P23.C01,Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận,ket_qua,conditional_sources
+P23.C01,Sau sàng lọc xác định thuộc diện phải có giấy chứng nhận,dieu_kien,conditional_sources
+P23.C02,Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn,huong_dan,conditional_sources
+P23.C02,Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn,ho_so,conditional_sources
+P23.C02,Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn,chi_phi,conditional_sources
+P23.C02,Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn,noi_nop,conditional_sources
+P23.C02,Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn,thoi_gian,conditional_sources
+P23.C02,Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn,ket_qua,conditional_sources
+P23.C02,Có dấu hiệu thuộc diện không phải cấp theo danh mục miễn,dieu_kien,local_content
+P23.C03,"Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",huong_dan,conditional_sources
+P23.C03,"Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",ho_so,conditional_sources
+P23.C03,"Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",chi_phi,conditional_sources
+P23.C03,"Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",noi_nop,conditional_sources
+P23.C03,"Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",thoi_gian,conditional_sources
+P23.C03,"Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",ket_qua,conditional_sources
+P23.C03,"Đã có giấy; sắp hết hạn, mất/hỏng hoặc thay đổi hoạt động",dieu_kien,conditional_sources
+P24.C01,Đăng ký mới do một cá nhân thành lập,huong_dan,local_content
+P24.C01,Đăng ký mới do một cá nhân thành lập,ho_so,local_content
+P24.C01,Đăng ký mới do một cá nhân thành lập,chi_phi,local_content
+P24.C01,Đăng ký mới do một cá nhân thành lập,noi_nop,conditional_sources
+P24.C01,Đăng ký mới do một cá nhân thành lập,thoi_gian,local_content
+P24.C01,Đăng ký mới do một cá nhân thành lập,ket_qua,local_content
+P24.C01,Đăng ký mới do một cá nhân thành lập,dieu_kien,conditional_sources
+P24.C02,Đăng ký mới do các thành viên hộ gia đình thành lập,huong_dan,conditional_sources
+P24.C02,Đăng ký mới do các thành viên hộ gia đình thành lập,ho_so,local_content
+P24.C02,Đăng ký mới do các thành viên hộ gia đình thành lập,chi_phi,local_content
+P24.C02,Đăng ký mới do các thành viên hộ gia đình thành lập,noi_nop,conditional_sources
+P24.C02,Đăng ký mới do các thành viên hộ gia đình thành lập,thoi_gian,local_content
+P24.C02,Đăng ký mới do các thành viên hộ gia đình thành lập,ket_qua,local_content
+P24.C02,Đăng ký mới do các thành viên hộ gia đình thành lập,dieu_kien,local_content
+P24.R01,Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành,huong_dan,conditional_sources
+P24.R01,Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành,ho_so,conditional_sources
+P24.R01,Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành,chi_phi,local_content
+P24.R01,Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành,noi_nop,conditional_sources
+P24.R01,Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành,thoi_gian,local_content
+P24.R01,Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành,ket_qua,unconfirmed
+P24.R01,Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành,dieu_kien,conditional_sources
+P25.C01,"Thay tên, vốn, ngành hoặc nội dung đăng ký thông thường; không đổi chủ",huong_dan,conditional_sources
+P25.C01,"Thay tên, vốn, ngành hoặc nội dung đăng ký thông thường; không đổi chủ",ho_so,conditional_sources
+P25.C01,"Thay tên, vốn, ngành hoặc nội dung đăng ký thông thường; không đổi chủ",chi_phi,conditional_sources
+P25.C01,"Thay tên, vốn, ngành hoặc nội dung đăng ký thông thường; không đổi chủ",noi_nop,conditional_sources
+P25.C01,"Thay tên, vốn, ngành hoặc nội dung đăng ký thông thường; không đổi chủ",thoi_gian,conditional_sources
+P25.C01,"Thay tên, vốn, ngành hoặc nội dung đăng ký thông thường; không đổi chủ",ket_qua,conditional_sources
+P25.C01,"Thay tên, vốn, ngành hoặc nội dung đăng ký thông thường; không đổi chủ",dieu_kien,conditional_sources
+P25.C02,Thay đổi địa chỉ trụ sở,huong_dan,conditional_sources
+P25.C02,Thay đổi địa chỉ trụ sở,ho_so,conditional_sources
+P25.C02,Thay đổi địa chỉ trụ sở,chi_phi,conditional_sources
+P25.C02,Thay đổi địa chỉ trụ sở,noi_nop,conditional_sources
+P25.C02,Thay đổi địa chỉ trụ sở,thoi_gian,conditional_sources
+P25.C02,Thay đổi địa chỉ trụ sở,ket_qua,conditional_sources
+P25.C02,Thay đổi địa chỉ trụ sở,dieu_kien,conditional_sources
+P25.C03,Thay chủ theo quan hệ gia đình hoặc chuyển tiếp giao dịch,huong_dan,conditional_sources
+P25.C03,Thay chủ theo quan hệ gia đình hoặc chuyển tiếp giao dịch,ho_so,conditional_sources
+P25.C03,Thay chủ theo quan hệ gia đình hoặc chuyển tiếp giao dịch,chi_phi,conditional_sources
+P25.C03,Thay chủ theo quan hệ gia đình hoặc chuyển tiếp giao dịch,noi_nop,conditional_sources
+P25.C03,Thay chủ theo quan hệ gia đình hoặc chuyển tiếp giao dịch,thoi_gian,conditional_sources
+P25.C03,Thay chủ theo quan hệ gia đình hoặc chuyển tiếp giao dịch,ket_qua,conditional_sources
+P25.C03,Thay chủ theo quan hệ gia đình hoặc chuyển tiếp giao dịch,dieu_kien,conditional_sources
+P25.C04,Đổi chủ vì chết/mất tích/hạn chế năng lực; còn thành viên tiếp tục,huong_dan,conditional_sources
+P25.C04,Đổi chủ vì chết/mất tích/hạn chế năng lực; còn thành viên tiếp tục,ho_so,conditional_sources
+P25.C04,Đổi chủ vì chết/mất tích/hạn chế năng lực; còn thành viên tiếp tục,chi_phi,conditional_sources
+P25.C04,Đổi chủ vì chết/mất tích/hạn chế năng lực; còn thành viên tiếp tục,noi_nop,conditional_sources
+P25.C04,Đổi chủ vì chết/mất tích/hạn chế năng lực; còn thành viên tiếp tục,thoi_gian,conditional_sources
+P25.C04,Đổi chủ vì chết/mất tích/hạn chế năng lực; còn thành viên tiếp tục,ket_qua,conditional_sources
+P25.C04,Đổi chủ vì chết/mất tích/hạn chế năng lực; còn thành viên tiếp tục,dieu_kien,conditional_sources
+P25.M05,C04; hộ có đúng hai thành viên,huong_dan,conditional_sources
+P25.M05,C04; hộ có đúng hai thành viên,ho_so,local_content
+P25.M05,C04; hộ có đúng hai thành viên,chi_phi,conditional_sources
+P25.M05,C04; hộ có đúng hai thành viên,noi_nop,conditional_sources
+P25.M05,C04; hộ có đúng hai thành viên,thoi_gian,conditional_sources
+P25.M05,C04; hộ có đúng hai thành viên,ket_qua,conditional_sources
+P25.M05,C04; hộ có đúng hai thành viên,dieu_kien,local_content
+P25.M06,C04; hộ có nhiều hơn hai thành viên,huong_dan,conditional_sources
+P25.M06,C04; hộ có nhiều hơn hai thành viên,ho_so,local_content
+P25.M06,C04; hộ có nhiều hơn hai thành viên,chi_phi,conditional_sources
+P25.M06,C04; hộ có nhiều hơn hai thành viên,noi_nop,conditional_sources
+P25.M06,C04; hộ có nhiều hơn hai thành viên,thoi_gian,conditional_sources
+P25.M06,C04; hộ có nhiều hơn hai thành viên,ket_qua,conditional_sources
+P25.M06,C04; hộ có nhiều hơn hai thành viên,dieu_kien,local_content
+P25.R01,Hộ do một cá nhân thành lập; cá nhân chết và không thuộc nhánh tiếp tục của hộ gia đình,huong_dan,local_content
+P25.R01,Hộ do một cá nhân thành lập; cá nhân chết và không thuộc nhánh tiếp tục của hộ gia đình,ho_so,local_content
+P25.R01,Hộ do một cá nhân thành lập; cá nhân chết và không thuộc nhánh tiếp tục của hộ gia đình,chi_phi,local_content
+P25.R01,Hộ do một cá nhân thành lập; cá nhân chết và không thuộc nhánh tiếp tục của hộ gia đình,noi_nop,conditional_sources
+P25.R01,Hộ do một cá nhân thành lập; cá nhân chết và không thuộc nhánh tiếp tục của hộ gia đình,thoi_gian,local_content
+P25.R01,Hộ do một cá nhân thành lập; cá nhân chết và không thuộc nhánh tiếp tục của hộ gia đình,ket_qua,conditional_sources
+P25.R01,Hộ do một cá nhân thành lập; cá nhân chết và không thuộc nhánh tiếp tục của hộ gia đình,dieu_kien,local_content
+P25.M01,Ủy quyền cá nhân nộp hồ sơ,huong_dan,conditional_sources
+P25.M01,Ủy quyền cá nhân nộp hồ sơ,ho_so,local_content
+P25.M01,Ủy quyền cá nhân nộp hồ sơ,chi_phi,conditional_sources
+P25.M01,Ủy quyền cá nhân nộp hồ sơ,noi_nop,conditional_sources
+P25.M01,Ủy quyền cá nhân nộp hồ sơ,thoi_gian,conditional_sources
+P25.M01,Ủy quyền cá nhân nộp hồ sơ,ket_qua,conditional_sources
+P25.M01,Ủy quyền cá nhân nộp hồ sơ,dieu_kien,conditional_sources
+P25.M02,Ủy quyền tổ chức dịch vụ,huong_dan,conditional_sources
+P25.M02,Ủy quyền tổ chức dịch vụ,ho_so,local_content
+P25.M02,Ủy quyền tổ chức dịch vụ,chi_phi,conditional_sources
+P25.M02,Ủy quyền tổ chức dịch vụ,noi_nop,conditional_sources
+P25.M02,Ủy quyền tổ chức dịch vụ,thoi_gian,conditional_sources
+P25.M02,Ủy quyền tổ chức dịch vụ,ket_qua,conditional_sources
+P25.M02,Ủy quyền tổ chức dịch vụ,dieu_kien,conditional_sources
+P25.M03,Qua bưu chính công ích,huong_dan,conditional_sources
+P25.M03,Qua bưu chính công ích,ho_so,local_content
+P25.M03,Qua bưu chính công ích,chi_phi,local_content
+P25.M03,Qua bưu chính công ích,noi_nop,local_content
+P25.M03,Qua bưu chính công ích,thoi_gian,conditional_sources
+P25.M03,Qua bưu chính công ích,ket_qua,conditional_sources
+P25.M03,Qua bưu chính công ích,dieu_kien,conditional_sources
+P25.M04,Qua bưu chính không công ích,huong_dan,conditional_sources
+P25.M04,Qua bưu chính không công ích,ho_so,local_content
+P25.M04,Qua bưu chính không công ích,chi_phi,conditional_sources
+P25.M04,Qua bưu chính không công ích,noi_nop,conditional_sources
+P25.M04,Qua bưu chính không công ích,thoi_gian,conditional_sources
+P25.M04,Qua bưu chính không công ích,ket_qua,conditional_sources
+P25.M04,Qua bưu chính không công ích,dieu_kien,conditional_sources
+P26.C01,Tự nguyện chấm dứt; không thuộc trường hợp đặc thù,huong_dan,local_content
+P26.C01,Tự nguyện chấm dứt; không thuộc trường hợp đặc thù,ho_so,conditional_sources
+P26.C01,Tự nguyện chấm dứt; không thuộc trường hợp đặc thù,chi_phi,local_content
+P26.C01,Tự nguyện chấm dứt; không thuộc trường hợp đặc thù,noi_nop,conditional_sources
+P26.C01,Tự nguyện chấm dứt; không thuộc trường hợp đặc thù,thoi_gian,local_content
+P26.C01,Tự nguyện chấm dứt; không thuộc trường hợp đặc thù,ket_qua,local_content
+P26.C01,Tự nguyện chấm dứt; không thuộc trường hợp đặc thù,dieu_kien,local_content
+P26.C02,Hộ do một cá nhân thành lập; chủ hộ chết hoặc bị tuyên bố chết,huong_dan,local_content
+P26.C02,Hộ do một cá nhân thành lập; chủ hộ chết hoặc bị tuyên bố chết,ho_so,local_content
+P26.C02,Hộ do một cá nhân thành lập; chủ hộ chết hoặc bị tuyên bố chết,chi_phi,local_content
+P26.C02,Hộ do một cá nhân thành lập; chủ hộ chết hoặc bị tuyên bố chết,noi_nop,conditional_sources
+P26.C02,Hộ do một cá nhân thành lập; chủ hộ chết hoặc bị tuyên bố chết,thoi_gian,local_content
+P26.C02,Hộ do một cá nhân thành lập; chủ hộ chết hoặc bị tuyên bố chết,ket_qua,conditional_sources
+P26.C02,Hộ do một cá nhân thành lập; chủ hộ chết hoặc bị tuyên bố chết,dieu_kien,local_content
+P26.R01,Chỉ tạm nghỉ rồi hoạt động lại,huong_dan,local_content
+P26.R01,Chỉ tạm nghỉ rồi hoạt động lại,ho_so,local_content
+P26.R01,Chỉ tạm nghỉ rồi hoạt động lại,chi_phi,local_content
+P26.R01,Chỉ tạm nghỉ rồi hoạt động lại,noi_nop,conditional_sources
+P26.R01,Chỉ tạm nghỉ rồi hoạt động lại,thoi_gian,local_content
+P26.R01,Chỉ tạm nghỉ rồi hoạt động lại,ket_qua,conditional_sources
+P26.R01,Chỉ tạm nghỉ rồi hoạt động lại,dieu_kien,conditional_sources
+P26.R02,Chuyển đổi doanh nghiệp hoặc bị thu hồi đăng ký,huong_dan,conditional_sources
+P26.R02,Chuyển đổi doanh nghiệp hoặc bị thu hồi đăng ký,ho_so,conditional_sources
+P26.R02,Chuyển đổi doanh nghiệp hoặc bị thu hồi đăng ký,chi_phi,unconfirmed
+P26.R02,Chuyển đổi doanh nghiệp hoặc bị thu hồi đăng ký,noi_nop,conditional_sources
+P26.R02,Chuyển đổi doanh nghiệp hoặc bị thu hồi đăng ký,thoi_gian,conditional_sources
+P26.R02,Chuyển đổi doanh nghiệp hoặc bị thu hồi đăng ký,ket_qua,conditional_sources
+P26.R02,Chuyển đổi doanh nghiệp hoặc bị thu hồi đăng ký,dieu_kien,conditional_sources
+P27.C01,"Phản ánh cách phục vụ, chậm trễ hoặc yêu cầu hồ sơ không đúng",huong_dan,conditional_sources
+P27.C01,"Phản ánh cách phục vụ, chậm trễ hoặc yêu cầu hồ sơ không đúng",ho_so,conditional_sources
+P27.C01,"Phản ánh cách phục vụ, chậm trễ hoặc yêu cầu hồ sơ không đúng",chi_phi,conditional_sources
+P27.C01,"Phản ánh cách phục vụ, chậm trễ hoặc yêu cầu hồ sơ không đúng",noi_nop,conditional_sources
+P27.C01,"Phản ánh cách phục vụ, chậm trễ hoặc yêu cầu hồ sơ không đúng",thoi_gian,conditional_sources
+P27.C01,"Phản ánh cách phục vụ, chậm trễ hoặc yêu cầu hồ sơ không đúng",ket_qua,conditional_sources
+P27.C01,"Phản ánh cách phục vụ, chậm trễ hoặc yêu cầu hồ sơ không đúng",dieu_kien,conditional_sources
+P27.C02,Kiến nghị sửa quy định/thủ tục bất hợp lý,huong_dan,conditional_sources
+P27.C02,Kiến nghị sửa quy định/thủ tục bất hợp lý,ho_so,conditional_sources
+P27.C02,Kiến nghị sửa quy định/thủ tục bất hợp lý,chi_phi,conditional_sources
+P27.C02,Kiến nghị sửa quy định/thủ tục bất hợp lý,noi_nop,conditional_sources
+P27.C02,Kiến nghị sửa quy định/thủ tục bất hợp lý,thoi_gian,conditional_sources
+P27.C02,Kiến nghị sửa quy định/thủ tục bất hợp lý,ket_qua,conditional_sources
+P27.C02,Kiến nghị sửa quy định/thủ tục bất hợp lý,dieu_kien,conditional_sources
+P27.C03,Yêu cầu xem xét quyết định/hành vi hành chính ảnh hưởng quyền lợi của mình,huong_dan,conditional_sources
+P27.C03,Yêu cầu xem xét quyết định/hành vi hành chính ảnh hưởng quyền lợi của mình,ho_so,conditional_sources
+P27.C03,Yêu cầu xem xét quyết định/hành vi hành chính ảnh hưởng quyền lợi của mình,chi_phi,conditional_sources
+P27.C03,Yêu cầu xem xét quyết định/hành vi hành chính ảnh hưởng quyền lợi của mình,noi_nop,conditional_sources
+P27.C03,Yêu cầu xem xét quyết định/hành vi hành chính ảnh hưởng quyền lợi của mình,thoi_gian,conditional_sources
+P27.C03,Yêu cầu xem xét quyết định/hành vi hành chính ảnh hưởng quyền lợi của mình,ket_qua,conditional_sources
+P27.C03,Yêu cầu xem xét quyết định/hành vi hành chính ảnh hưởng quyền lợi của mình,dieu_kien,conditional_sources
+P27.R01,"Tố cáo, tin báo và hỗ trợ khẩn cấp",huong_dan,conditional_sources
+P27.R01,"Tố cáo, tin báo và hỗ trợ khẩn cấp",ho_so,conditional_sources
+P27.R01,"Tố cáo, tin báo và hỗ trợ khẩn cấp",chi_phi,conditional_sources
+P27.R01,"Tố cáo, tin báo và hỗ trợ khẩn cấp",noi_nop,conditional_sources
+P27.R01,"Tố cáo, tin báo và hỗ trợ khẩn cấp",thoi_gian,conditional_sources
+P27.R01,"Tố cáo, tin báo và hỗ trợ khẩn cấp",ket_qua,conditional_sources
+P27.R01,"Tố cáo, tin báo và hỗ trợ khẩn cấp",dieu_kien,conditional_sources

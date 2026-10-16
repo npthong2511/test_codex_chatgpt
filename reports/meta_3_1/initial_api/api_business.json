@@ -1,0 +1,4323 @@
+{
+  "turns": [
+    {
+      "user": "Tôi muốn đăng ký hộ kinh doanh mới, một mình tôi thành lập.",
+      "response": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Đăng ký hộ kinh doanh mới",
+              "evidence": "\"Tôi muốn đăng ký hộ kinh doanh mới\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "so_nguoi_tham_gia_thanh_lap",
+              "value": "Một mình (01 cá nhân)",
+              "evidence": "\"một mình tôi thành lập\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P24"
+          ],
+          "summary": "Người dân cần đăng ký hộ kinh doanh mới; trường hợp: 01 cá nhân tự thành lập. Chờ người dân chọn nội dung muốn xem.",
+          "pending_switch": "",
+          "stage": "choose_topic",
+          "selected_topic": "",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Anh/chị muốn xem thông tin nào về đăng ký hộ kinh doanh mới?",
+        "information": {
+          "title": "Chọn nội dung cần xem",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Các bước thực hiện",
+              "node_ids": []
+            },
+            {
+              "id": "B",
+              "label": "Hồ sơ cần chuẩn bị",
+              "node_ids": []
+            },
+            {
+              "id": "C",
+              "label": "Phí và chi phí",
+              "node_ids": []
+            },
+            {
+              "id": "D",
+              "label": "Nơi nộp hồ sơ",
+              "node_ids": []
+            },
+            {
+              "id": "E",
+              "label": "Thời hạn",
+              "node_ids": []
+            },
+            {
+              "id": "F",
+              "label": "Kết quả",
+              "node_ids": []
+            },
+            {
+              "id": "G",
+              "label": "Điều kiện và lưu ý",
+              "node_ids": []
+            }
+          ]
+        },
+        "citations": [],
+        "revision": 1,
+        "session_id": "business",
+        "display_text": "Chọn nội dung cần xem\n\nA. Các bước thực hiện\nB. Hồ sơ cần chuẩn bị\nC. Phí và chi phí\nD. Nơi nộp hồ sơ\nE. Thời hạn\nF. Kết quả\nG. Điều kiện và lưu ý\nTrang 1/1 | Tiếp / Trước"
+      },
+      "state": {
+        "facts": [
+          {
+            "key": "nhu_cau",
+            "value": "Đăng ký hộ kinh doanh mới",
+            "evidence": "\"Tôi muốn đăng ký hộ kinh doanh mới\"",
+            "node_id": "ROOT"
+          },
+          {
+            "key": "so_nguoi_tham_gia_thanh_lap",
+            "value": "Một mình (01 cá nhân)",
+            "evidence": "\"một mình tôi thành lập\"",
+            "node_id": "ROOT"
+          }
+        ],
+        "path": [
+          "P24"
+        ],
+        "summary": "Người dân cần đăng ký hộ kinh doanh mới; trường hợp: 01 cá nhân tự thành lập. Chờ người dân chọn nội dung muốn xem.",
+        "pending_switch": "",
+        "stage": "choose_topic",
+        "selected_topic": "",
+        "available_topics": [
+          "huong_dan",
+          "ho_so",
+          "chi_phi",
+          "noi_nop",
+          "thoi_gian",
+          "ket_qua",
+          "dieu_kien"
+        ],
+        "pending_topics": []
+      },
+      "nodes": [
+        "P24"
+      ]
+    },
+    {
+      "user": "Hồ sơ cần những gì?",
+      "response": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Đăng ký hộ kinh doanh mới",
+              "evidence": "\"Tôi muốn đăng ký hộ kinh doanh mới\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "so_nguoi_tham_gia_thanh_lap",
+              "value": "Một mình (01 cá nhân)",
+              "evidence": "\"một mình tôi thành lập\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P24"
+          ],
+          "summary": "Người dân cần đăng ký hộ kinh doanh mới; trường hợp: 01 cá nhân tự thành lập. Đang xem mục hồ sơ cần chuẩn bị.",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Hồ sơ đăng ký hộ kinh doanh mới (01 cá nhân thành lập)",
+          "sections": [
+            {
+              "title": "Thành phần hồ sơ",
+              "items": [
+                "Giấy đề nghị đăng ký hộ kinh doanh (do cá nhân thành lập ký)."
+              ]
+            },
+            {
+              "title": "Lưu ý theo điều kiện áp dụng",
+              "items": [
+                "Không yêu cầu văn bản họp gia đình/ủy quyền gia đình khi chỉ một cá nhân thành lập.",
+                "Dùng biểu mẫu đăng ký hộ kinh doanh hiện hành trên Cổng tại ngày nộp (không tái dùng mẫu của Nghị định 01/2021).",
+                "Nếu nộp hồ sơ điện tử: hồ sơ phải đầy đủ, thống nhất với bản giấy và được ký số/ký xác thực điện tử đúng người có quyền; trường hợp có ủy quyền nộp thay thì thực hiện theo hướng dẫn về giấy tờ ủy quyền nộp thay."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P24.C01.TOPIC.ho_so#0",
+          "P24.C01.TOPIC.ho_so#1",
+          "P24.N001.N003.TOPIC.ho_so#0",
+          "P24.N001.N002.TOPIC.ho_so#1"
+        ],
+        "revision": 2,
+        "session_id": "business",
+        "display_text": "Hồ sơ đăng ký hộ kinh doanh mới (01 cá\nnhân thành lập)\n\nThành phần hồ sơ\n- Giấy đề nghị đăng ký hộ kinh doanh (do\ncá nhân thành lập ký).\n\nLưu ý theo điều kiện áp dụng\nTrang 1/3 | Tiếp / Trước"
+      },
+      "state": {
+        "facts": [
+          {
+            "key": "nhu_cau",
+            "value": "Đăng ký hộ kinh doanh mới",
+            "evidence": "\"Tôi muốn đăng ký hộ kinh doanh mới\"",
+            "node_id": "ROOT"
+          },
+          {
+            "key": "so_nguoi_tham_gia_thanh_lap",
+            "value": "Một mình (01 cá nhân)",
+            "evidence": "\"một mình tôi thành lập\"",
+            "node_id": "ROOT"
+          }
+        ],
+        "path": [
+          "P24"
+        ],
+        "summary": "Người dân cần đăng ký hộ kinh doanh mới; trường hợp: 01 cá nhân tự thành lập. Đang xem mục hồ sơ cần chuẩn bị.",
+        "pending_switch": "",
+        "stage": "topic",
+        "selected_topic": "ho_so",
+        "available_topics": [
+          "huong_dan",
+          "ho_so",
+          "chi_phi",
+          "noi_nop",
+          "thoi_gian",
+          "ket_qua",
+          "dieu_kien"
+        ],
+        "pending_topics": []
+      },
+      "nodes": [
+        "P24.C01.TOPIC.ho_so",
+        "P24.N001.N002.TOPIC.ho_so",
+        "P24.N001.N003.TOPIC.ho_so"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "call": 1,
+      "payload": {
+        "user_text": "Tôi muốn đăng ký hộ kinh doanh mới, một mình tôi thành lập.",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "",
+          "pending_switch": "",
+          "stage": "identify",
+          "selected_topic": "",
+          "available_topics": [],
+          "pending_topics": []
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "ROOT",
+              "title": "Quy trình hành chính — cây tri thức 3.0",
+              "condition": "Yêu cầu thuộc một hoặc nhiều lĩnh vực trong bộ dữ liệu",
+              "kind": "root",
+              "children_count": 27,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P01.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P01.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P01.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P01.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P01.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P01.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P01.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P02",
+                "title": "Đăng ký khai tử",
+                "condition": "Nhu cầu liên quan: Đăng ký khai tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P02.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P02.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P02.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P02.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P02.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P02.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P02.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P04",
+                "title": "Đăng ký thường trú",
+                "condition": "Nhu cầu liên quan: Đăng ký thường trú",
+                "kind": "procedure",
+                "children_count": 9,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P04.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P04.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P04.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P04.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P04.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P04.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P04.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "local_content"
+                  }
+                ]
+              },
+              {
+                "id": "P05",
+                "title": "Xác nhận tình trạng hôn nhân",
+                "condition": "Nhu cầu liên quan: Xác nhận tình trạng hôn nhân",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P05.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P05.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P05.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P05.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P05.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P05.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P05.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P06",
+                "title": "Đăng ký tạm trú",
+                "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P06.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P06.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P06.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P06.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P06.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P06.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P06.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P07",
+                "title": "Xác nhận và điều chỉnh thông tin cư trú",
+                "condition": "Nhu cầu liên quan: Xác nhận và điều chỉnh thông tin cư trú",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P07.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P07.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P07.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P07.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P07.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P07.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P07.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P08.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P08.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P08.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P08.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P08.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P08.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P08.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P09",
+                "title": "Đăng ký biến động đất đai",
+                "condition": "Nhu cầu liên quan: Đăng ký biến động đất đai",
+                "kind": "procedure",
+                "children_count": 15,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P09.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P09.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P09.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P09.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P09.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P09.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P09.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P10",
+                "title": "Cấp giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Cấp giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P10.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P10.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P10.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P10.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P10.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P10.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P10.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P11",
+                "title": "Đổi giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Đổi giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P11.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P11.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P11.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P11.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P11.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P11.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P11.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P12",
+                "title": "Chuyển nhượng quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Chuyển nhượng quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P12.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P12.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P12.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P12.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P12.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P12.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P12.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P13",
+                "title": "Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "condition": "Nhu cầu liên quan: Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P13.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P13.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P13.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P13.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P13.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P13.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P13.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P14.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P14.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P14.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P14.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P14.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P14.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P14.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P15",
+                "title": "Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "condition": "Nhu cầu liên quan: Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P15.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P15.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P15.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P15.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P15.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P15.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P15.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P16",
+                "title": "Hỗ trợ đào tạo nghề",
+                "condition": "Nhu cầu liên quan: Hỗ trợ đào tạo nghề",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P16.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P16.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P16.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P16.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P16.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P16.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P16.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P17",
+                "title": "Hỗ trợ người bị tai nạn lao động",
+                "condition": "Nhu cầu liên quan: Hỗ trợ người bị tai nạn lao động",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P17.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P17.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P17.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P17.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P17.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P17.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P17.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P18.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P18.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P18.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P18.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P18.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P18.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P18.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P19",
+                "title": "Tín dụng chính sách NHCSXH",
+                "condition": "Nhu cầu liên quan: Tín dụng chính sách NHCSXH",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P19.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P19.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P19.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P19.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P19.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P19.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P19.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P20",
+                "title": "Chế độ thương binh",
+                "condition": "Nhu cầu liên quan: Chế độ thương binh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P20.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P20.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P20.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P20.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P20.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P20.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P20.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P21",
+                "title": "Chế độ thờ cúng liệt sĩ",
+                "condition": "Nhu cầu liên quan: Chế độ thờ cúng liệt sĩ",
+                "kind": "procedure",
+                "children_count": 7,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P21.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P21.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P21.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P21.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P21.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P21.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P21.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P22.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P22.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P22.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P22.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P22.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P22.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P22.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P23.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P23.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P23.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P23.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P23.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P23.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P23.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P25",
+                "title": "Thay đổi nội dung đăng ký hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Thay đổi nội dung đăng ký hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 10,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P25.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P25.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P25.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P25.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P25.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P25.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P25.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P26",
+                "title": "Chấm dứt hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Chấm dứt hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P26.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P26.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P26.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P26.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P26.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P26.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P26.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P27",
+                "title": "Khiếu nại - Phản ánh - Kiến nghị",
+                "condition": "Nhu cầu liên quan: Khiếu nại - Phản ánh - Kiến nghị",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P27.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P27.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P27.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P27.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P27.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P27.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P27.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "loaded_topic": "",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 0,
+          "at_last_page": true
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [],
+        "navigation_error": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 10554,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 466,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11020
+      },
+      "response_id": "resp_0bb58f01d7f18e73016ad20303293c87d0a8293b8e452b3358",
+      "decision": {
+        "action": "load",
+        "mode": "answer",
+        "node_ids": [
+          "P24"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Đăng ký hộ kinh doanh mới",
+              "evidence": "\"Tôi muốn đăng ký hộ kinh doanh mới\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "so_nguoi_tham_gia_thanh_lap",
+              "value": "Một mình (01 cá nhân)",
+              "evidence": "\"một mình tôi thành lập\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P24"
+          ],
+          "summary": "Người dân cần đăng ký hộ kinh doanh mới; trường hợp: 01 cá nhân tự thành lập. Chờ người dân chọn nội dung muốn xem (hồ sơ/phí/thời gian/nơi nộp/hướng dẫn/kết quả/điều kiện).",
+          "pending_switch": "",
+          "stage": "choose_topic",
+          "selected_topic": "",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn xem nội dung nào của thủ tục đăng ký hộ kinh doanh?",
+        "information": {
+          "title": "Đăng ký hộ kinh doanh (mới) — Anh/chị chọn nội dung cần xem",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Các bước thực hiện",
+              "node_ids": [
+                "P24.TOPIC.huong_dan"
+              ]
+            },
+            {
+              "id": "B",
+              "label": "Hồ sơ cần chuẩn bị",
+              "node_ids": [
+                "P24.TOPIC.ho_so"
+              ]
+            },
+            {
+              "id": "C",
+              "label": "Phí và chi phí",
+              "node_ids": [
+                "P24.TOPIC.chi_phi"
+              ]
+            },
+            {
+              "id": "D",
+              "label": "Nơi nộp hồ sơ",
+              "node_ids": [
+                "P24.TOPIC.noi_nop"
+              ]
+            },
+            {
+              "id": "E",
+              "label": "Thời hạn",
+              "node_ids": [
+                "P24.TOPIC.thoi_gian"
+              ]
+            },
+            {
+              "id": "F",
+              "label": "Kết quả",
+              "node_ids": [
+                "P24.TOPIC.ket_qua"
+              ]
+            },
+            {
+              "id": "G",
+              "label": "Điều kiện và lưu ý",
+              "node_ids": [
+                "P24.TOPIC.dieu_kien"
+              ]
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 6.135665983994841
+    },
+    {
+      "call": 2,
+      "payload": {
+        "user_text": "Tôi muốn đăng ký hộ kinh doanh mới, một mình tôi thành lập.",
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Đăng ký hộ kinh doanh mới",
+              "evidence": "\"Tôi muốn đăng ký hộ kinh doanh mới\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "so_nguoi_tham_gia_thanh_lap",
+              "value": "Một mình (01 cá nhân)",
+              "evidence": "\"một mình tôi thành lập\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P24"
+          ],
+          "summary": "Người dân cần đăng ký hộ kinh doanh mới; trường hợp: 01 cá nhân tự thành lập. Chờ người dân chọn nội dung muốn xem (hồ sơ/phí/thời gian/nơi nộp/hướng dẫn/kết quả/điều kiện).",
+          "pending_switch": "",
+          "stage": "choose_topic",
+          "selected_topic": "",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "P24",
+              "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+              "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+              "kind": "procedure",
+              "children_count": 3,
+              "related": [],
+              "topic_catalog": [
+                {
+                  "id": "P24.TOPIC.huong_dan",
+                  "topic": "huong_dan",
+                  "title": "Các bước thực hiện",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P24.TOPIC.ho_so",
+                  "topic": "ho_so",
+                  "title": "Hồ sơ cần chuẩn bị",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P24.TOPIC.chi_phi",
+                  "topic": "chi_phi",
+                  "title": "Phí và chi phí",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P24.TOPIC.noi_nop",
+                  "topic": "noi_nop",
+                  "title": "Nơi nộp hồ sơ",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P24.TOPIC.thoi_gian",
+                  "topic": "thoi_gian",
+                  "title": "Thời hạn",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P24.TOPIC.ket_qua",
+                  "topic": "ket_qua",
+                  "title": "Kết quả và quyền lợi",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P24.TOPIC.dieu_kien",
+                  "topic": "dieu_kien",
+                  "title": "Điều kiện và lưu ý",
+                  "status": "conditional_sources"
+                }
+              ],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P24.NEW",
+                "title": "Thành lập hộ kinh doanh mới",
+                "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                "kind": "shared_ancestor",
+                "children_count": 2,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.NEW.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.NEW.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.NEW.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.NEW.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.NEW.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P24.NEW.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P24.NEW.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": []
+              },
+              {
+                "id": "P24.R01",
+                "title": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                "condition": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.R01.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "unconfirmed"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": []
+              },
+              {
+                "id": "P24.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.N001.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": []
+              },
+              {
+                "id": "P24.TOPIC.huong_dan",
+                "title": "Các bước thực hiện",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "topic_content",
+                "children_count": 0,
+                "related": [
+                  "P24.NEW.TOPIC.huong_dan",
+                  "P24.R01.TOPIC.huong_dan",
+                  "P24.N001.TOPIC.huong_dan"
+                ],
+                "topic": "huong_dan",
+                "owner_id": "P24",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P24.NEW.TOPIC.huong_dan",
+                    "owner_id": "P24.NEW",
+                    "title": "Thành lập hộ kinh doanh mới",
+                    "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.huong_dan",
+                    "owner_id": "P24.R01",
+                    "title": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "condition": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.huong_dan",
+                    "owner_id": "P24.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P24.TOPIC.ho_so",
+                "title": "Hồ sơ cần chuẩn bị",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "topic_content",
+                "children_count": 0,
+                "related": [
+                  "P24.NEW.TOPIC.ho_so",
+                  "P24.R01.TOPIC.ho_so",
+                  "P24.N001.TOPIC.ho_so"
+                ],
+                "topic": "ho_so",
+                "owner_id": "P24",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P24.NEW.TOPIC.ho_so",
+                    "owner_id": "P24.NEW",
+                    "title": "Thành lập hộ kinh doanh mới",
+                    "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.ho_so",
+                    "owner_id": "P24.R01",
+                    "title": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "condition": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.ho_so",
+                    "owner_id": "P24.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P24.TOPIC.chi_phi",
+                "title": "Phí và chi phí",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "topic_content",
+                "children_count": 0,
+                "related": [
+                  "P24.NEW.TOPIC.chi_phi",
+                  "P24.R01.TOPIC.chi_phi",
+                  "P24.N001.TOPIC.chi_phi"
+                ],
+                "topic": "chi_phi",
+                "owner_id": "P24",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P24.NEW.TOPIC.chi_phi",
+                    "owner_id": "P24.NEW",
+                    "title": "Thành lập hộ kinh doanh mới",
+                    "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.chi_phi",
+                    "owner_id": "P24.R01",
+                    "title": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "condition": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.chi_phi",
+                    "owner_id": "P24.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P24.TOPIC.noi_nop",
+                "title": "Nơi nộp hồ sơ",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "topic_content",
+                "children_count": 0,
+                "related": [
+                  "P24.NEW.TOPIC.noi_nop",
+                  "P24.R01.TOPIC.noi_nop",
+                  "P24.N001.TOPIC.noi_nop"
+                ],
+                "topic": "noi_nop",
+                "owner_id": "P24",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P24.NEW.TOPIC.noi_nop",
+                    "owner_id": "P24.NEW",
+                    "title": "Thành lập hộ kinh doanh mới",
+                    "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.noi_nop",
+                    "owner_id": "P24.R01",
+                    "title": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "condition": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.noi_nop",
+                    "owner_id": "P24.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P24.TOPIC.thoi_gian",
+                "title": "Thời hạn",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "topic_content",
+                "children_count": 0,
+                "related": [
+                  "P24.NEW.TOPIC.thoi_gian",
+                  "P24.R01.TOPIC.thoi_gian"
+                ],
+                "topic": "thoi_gian",
+                "owner_id": "P24",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P24.NEW.TOPIC.thoi_gian",
+                    "owner_id": "P24.NEW",
+                    "title": "Thành lập hộ kinh doanh mới",
+                    "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.thoi_gian",
+                    "owner_id": "P24.R01",
+                    "title": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "condition": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P24.TOPIC.ket_qua",
+                "title": "Kết quả và quyền lợi",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "topic_content",
+                "children_count": 0,
+                "related": [
+                  "P24.NEW.TOPIC.ket_qua",
+                  "P24.R01.TOPIC.ket_qua"
+                ],
+                "topic": "ket_qua",
+                "owner_id": "P24",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P24.NEW.TOPIC.ket_qua",
+                    "owner_id": "P24.NEW",
+                    "title": "Thành lập hộ kinh doanh mới",
+                    "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.ket_qua",
+                    "owner_id": "P24.R01",
+                    "title": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "condition": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P24.TOPIC.dieu_kien",
+                "title": "Điều kiện và lưu ý",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "topic_content",
+                "children_count": 0,
+                "related": [
+                  "P24.NEW.TOPIC.dieu_kien",
+                  "P24.R01.TOPIC.dieu_kien",
+                  "P24.N001.TOPIC.dieu_kien"
+                ],
+                "topic": "dieu_kien",
+                "owner_id": "P24",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P24.NEW.TOPIC.dieu_kien",
+                    "owner_id": "P24.NEW",
+                    "title": "Thành lập hộ kinh doanh mới",
+                    "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.dieu_kien",
+                    "owner_id": "P24.R01",
+                    "title": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "condition": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.dieu_kien",
+                    "owner_id": "P24.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "loaded_topic": "",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 0,
+          "at_last_page": true
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [
+          [
+            "P24"
+          ]
+        ],
+        "navigation_error": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 6594,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 351,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 6945
+      },
+      "response_id": "resp_01465880c143a970016ad2030914a487d099df322cc0e50c5a",
+      "decision": {
+        "action": "respond",
+        "mode": "question",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Đăng ký hộ kinh doanh mới",
+              "evidence": "\"Tôi muốn đăng ký hộ kinh doanh mới\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "so_nguoi_tham_gia_thanh_lap",
+              "value": "Một mình (01 cá nhân)",
+              "evidence": "\"một mình tôi thành lập\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P24"
+          ],
+          "summary": "Người dân cần đăng ký hộ kinh doanh mới; trường hợp: 01 cá nhân tự thành lập. Chờ người dân chọn nội dung muốn xem.",
+          "pending_switch": "",
+          "stage": "choose_topic",
+          "selected_topic": "",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Anh/chị muốn xem thông tin nào về đăng ký hộ kinh doanh mới?",
+        "information": {
+          "title": "Chọn nội dung cần xem",
+          "sections": [],
+          "options": [
+            {
+              "id": "A",
+              "label": "Các bước thực hiện",
+              "node_ids": []
+            },
+            {
+              "id": "B",
+              "label": "Hồ sơ cần chuẩn bị",
+              "node_ids": []
+            },
+            {
+              "id": "C",
+              "label": "Phí và chi phí",
+              "node_ids": []
+            },
+            {
+              "id": "D",
+              "label": "Nơi nộp hồ sơ",
+              "node_ids": []
+            },
+            {
+              "id": "E",
+              "label": "Thời hạn",
+              "node_ids": []
+            },
+            {
+              "id": "F",
+              "label": "Kết quả",
+              "node_ids": []
+            },
+            {
+              "id": "G",
+              "label": "Điều kiện và lưu ý",
+              "node_ids": []
+            }
+          ]
+        },
+        "citations": []
+      },
+      "seconds": 3.8300328780023847
+    },
+    {
+      "call": 3,
+      "payload": {
+        "user_text": "Hồ sơ cần những gì?",
+        "current": 1,
+        "total": 1
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 303,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 322
+      },
+      "response_id": "resp_091a32efb34c4c5d016ad2030ce62c87d0a924ce76bdb077f3",
+      "decision": {
+        "intent": "continue",
+        "page": 0
+      },
+      "seconds": 1.3628668540040962
+    },
+    {
+      "call": 4,
+      "payload": {
+        "user_text": "Hồ sơ cần những gì?",
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Đăng ký hộ kinh doanh mới",
+              "evidence": "\"Tôi muốn đăng ký hộ kinh doanh mới\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "so_nguoi_tham_gia_thanh_lap",
+              "value": "Một mình (01 cá nhân)",
+              "evidence": "\"một mình tôi thành lập\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P24"
+          ],
+          "summary": "Người dân cần đăng ký hộ kinh doanh mới; trường hợp: 01 cá nhân tự thành lập. Chờ người dân chọn nội dung muốn xem.",
+          "pending_switch": "",
+          "stage": "choose_topic",
+          "selected_topic": "",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị muốn xem thông tin nào về đăng ký hộ kinh doanh mới?",
+          "information": {
+            "title": "Chọn nội dung cần xem",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Các bước thực hiện",
+                "node_ids": []
+              },
+              {
+                "id": "B",
+                "label": "Hồ sơ cần chuẩn bị",
+                "node_ids": []
+              },
+              {
+                "id": "C",
+                "label": "Phí và chi phí",
+                "node_ids": []
+              },
+              {
+                "id": "D",
+                "label": "Nơi nộp hồ sơ",
+                "node_ids": []
+              },
+              {
+                "id": "E",
+                "label": "Thời hạn",
+                "node_ids": []
+              },
+              {
+                "id": "F",
+                "label": "Kết quả",
+                "node_ids": []
+              },
+              {
+                "id": "G",
+                "label": "Điều kiện và lưu ý",
+                "node_ids": []
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P24",
+              "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+              "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+              "kind": "procedure",
+              "children_count": 3,
+              "related": [],
+              "topic_catalog": [
+                {
+                  "id": "P24.TOPIC.huong_dan",
+                  "topic": "huong_dan",
+                  "title": "Các bước thực hiện",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P24.TOPIC.ho_so",
+                  "topic": "ho_so",
+                  "title": "Hồ sơ cần chuẩn bị",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P24.TOPIC.chi_phi",
+                  "topic": "chi_phi",
+                  "title": "Phí và chi phí",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P24.TOPIC.noi_nop",
+                  "topic": "noi_nop",
+                  "title": "Nơi nộp hồ sơ",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P24.TOPIC.thoi_gian",
+                  "topic": "thoi_gian",
+                  "title": "Thời hạn",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P24.TOPIC.ket_qua",
+                  "topic": "ket_qua",
+                  "title": "Kết quả và quyền lợi",
+                  "status": "conditional_sources"
+                },
+                {
+                  "id": "P24.TOPIC.dieu_kien",
+                  "topic": "dieu_kien",
+                  "title": "Điều kiện và lưu ý",
+                  "status": "conditional_sources"
+                }
+              ],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P24.NEW",
+                "title": "Thành lập hộ kinh doanh mới",
+                "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                "kind": "shared_ancestor",
+                "children_count": 2,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.NEW.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.NEW.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.NEW.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.NEW.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.NEW.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P24.NEW.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P24.NEW.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": []
+              },
+              {
+                "id": "P24.R01",
+                "title": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                "condition": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                "kind": "case_group",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.R01.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "unconfirmed"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": []
+              },
+              {
+                "id": "P24.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.N001.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": []
+              },
+              {
+                "id": "P24.TOPIC.huong_dan",
+                "title": "Các bước thực hiện",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "topic_content",
+                "children_count": 0,
+                "related": [
+                  "P24.NEW.TOPIC.huong_dan",
+                  "P24.R01.TOPIC.huong_dan",
+                  "P24.N001.TOPIC.huong_dan"
+                ],
+                "topic": "huong_dan",
+                "owner_id": "P24",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P24.NEW.TOPIC.huong_dan",
+                    "owner_id": "P24.NEW",
+                    "title": "Thành lập hộ kinh doanh mới",
+                    "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.huong_dan",
+                    "owner_id": "P24.R01",
+                    "title": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "condition": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.huong_dan",
+                    "owner_id": "P24.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P24.TOPIC.ho_so",
+                "title": "Hồ sơ cần chuẩn bị",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "topic_content",
+                "children_count": 0,
+                "related": [
+                  "P24.NEW.TOPIC.ho_so",
+                  "P24.R01.TOPIC.ho_so",
+                  "P24.N001.TOPIC.ho_so"
+                ],
+                "topic": "ho_so",
+                "owner_id": "P24",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P24.NEW.TOPIC.ho_so",
+                    "owner_id": "P24.NEW",
+                    "title": "Thành lập hộ kinh doanh mới",
+                    "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.ho_so",
+                    "owner_id": "P24.R01",
+                    "title": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "condition": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.ho_so",
+                    "owner_id": "P24.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P24.TOPIC.chi_phi",
+                "title": "Phí và chi phí",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "topic_content",
+                "children_count": 0,
+                "related": [
+                  "P24.NEW.TOPIC.chi_phi",
+                  "P24.R01.TOPIC.chi_phi",
+                  "P24.N001.TOPIC.chi_phi"
+                ],
+                "topic": "chi_phi",
+                "owner_id": "P24",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P24.NEW.TOPIC.chi_phi",
+                    "owner_id": "P24.NEW",
+                    "title": "Thành lập hộ kinh doanh mới",
+                    "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.chi_phi",
+                    "owner_id": "P24.R01",
+                    "title": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "condition": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.chi_phi",
+                    "owner_id": "P24.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P24.TOPIC.noi_nop",
+                "title": "Nơi nộp hồ sơ",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "topic_content",
+                "children_count": 0,
+                "related": [
+                  "P24.NEW.TOPIC.noi_nop",
+                  "P24.R01.TOPIC.noi_nop",
+                  "P24.N001.TOPIC.noi_nop"
+                ],
+                "topic": "noi_nop",
+                "owner_id": "P24",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P24.NEW.TOPIC.noi_nop",
+                    "owner_id": "P24.NEW",
+                    "title": "Thành lập hộ kinh doanh mới",
+                    "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.noi_nop",
+                    "owner_id": "P24.R01",
+                    "title": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "condition": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.noi_nop",
+                    "owner_id": "P24.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P24.TOPIC.thoi_gian",
+                "title": "Thời hạn",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "topic_content",
+                "children_count": 0,
+                "related": [
+                  "P24.NEW.TOPIC.thoi_gian",
+                  "P24.R01.TOPIC.thoi_gian"
+                ],
+                "topic": "thoi_gian",
+                "owner_id": "P24",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P24.NEW.TOPIC.thoi_gian",
+                    "owner_id": "P24.NEW",
+                    "title": "Thành lập hộ kinh doanh mới",
+                    "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.thoi_gian",
+                    "owner_id": "P24.R01",
+                    "title": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "condition": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P24.TOPIC.ket_qua",
+                "title": "Kết quả và quyền lợi",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "topic_content",
+                "children_count": 0,
+                "related": [
+                  "P24.NEW.TOPIC.ket_qua",
+                  "P24.R01.TOPIC.ket_qua"
+                ],
+                "topic": "ket_qua",
+                "owner_id": "P24",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P24.NEW.TOPIC.ket_qua",
+                    "owner_id": "P24.NEW",
+                    "title": "Thành lập hộ kinh doanh mới",
+                    "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.ket_qua",
+                    "owner_id": "P24.R01",
+                    "title": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "condition": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              },
+              {
+                "id": "P24.TOPIC.dieu_kien",
+                "title": "Điều kiện và lưu ý",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "topic_content",
+                "children_count": 0,
+                "related": [
+                  "P24.NEW.TOPIC.dieu_kien",
+                  "P24.R01.TOPIC.dieu_kien",
+                  "P24.N001.TOPIC.dieu_kien"
+                ],
+                "topic": "dieu_kien",
+                "owner_id": "P24",
+                "content_status": "conditional_sources",
+                "supporting_topics": [
+                  {
+                    "id": "P24.NEW.TOPIC.dieu_kien",
+                    "owner_id": "P24.NEW",
+                    "title": "Thành lập hộ kinh doanh mới",
+                    "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.R01.TOPIC.dieu_kien",
+                    "owner_id": "P24.R01",
+                    "title": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "condition": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
+                    "relationship": "conditional_child"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.dieu_kien",
+                    "owner_id": "P24.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                    "relationship": "conditional_child"
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "loaded_topic": "",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 1,
+          "at_last_page": true
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [],
+        "navigation_error": "",
+        "calls_remaining": 8
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 6708,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 255,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 6963
+      },
+      "response_id": "resp_0f688817e64e4b7c016ad2030e58e487d0b92c6da8b6130933",
+      "decision": {
+        "action": "load",
+        "mode": "answer",
+        "node_ids": [
+          "P24.NEW.TOPIC.ho_so",
+          "P24.N001.TOPIC.ho_so"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Đăng ký hộ kinh doanh mới",
+              "evidence": "\"Tôi muốn đăng ký hộ kinh doanh mới\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "so_nguoi_tham_gia_thanh_lap",
+              "value": "Một mình (01 cá nhân)",
+              "evidence": "\"một mình tôi thành lập\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P24"
+          ],
+          "summary": "Người dân cần đăng ký hộ kinh doanh mới; trường hợp: 01 cá nhân tự thành lập. Đang nạp nội dung hồ sơ cần chuẩn bị (nhánh thành lập mới và quy định theo điều kiện áp dụng).",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 3.324470174993621
+    },
+    {
+      "call": 5,
+      "payload": {
+        "user_text": "Hồ sơ cần những gì?",
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Đăng ký hộ kinh doanh mới",
+              "evidence": "\"Tôi muốn đăng ký hộ kinh doanh mới\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "so_nguoi_tham_gia_thanh_lap",
+              "value": "Một mình (01 cá nhân)",
+              "evidence": "\"một mình tôi thành lập\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P24"
+          ],
+          "summary": "Người dân cần đăng ký hộ kinh doanh mới; trường hợp: 01 cá nhân tự thành lập. Đang nạp nội dung hồ sơ cần chuẩn bị (nhánh thành lập mới và quy định theo điều kiện áp dụng).",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị muốn xem thông tin nào về đăng ký hộ kinh doanh mới?",
+          "information": {
+            "title": "Chọn nội dung cần xem",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Các bước thực hiện",
+                "node_ids": []
+              },
+              {
+                "id": "B",
+                "label": "Hồ sơ cần chuẩn bị",
+                "node_ids": []
+              },
+              {
+                "id": "C",
+                "label": "Phí và chi phí",
+                "node_ids": []
+              },
+              {
+                "id": "D",
+                "label": "Nơi nộp hồ sơ",
+                "node_ids": []
+              },
+              {
+                "id": "E",
+                "label": "Thời hạn",
+                "node_ids": []
+              },
+              {
+                "id": "F",
+                "label": "Kết quả",
+                "node_ids": []
+              },
+              {
+                "id": "G",
+                "label": "Điều kiện và lưu ý",
+                "node_ids": []
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P24.NEW.TOPIC.ho_so",
+              "title": "Hồ sơ cần chuẩn bị",
+              "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+              "kind": "topic_content",
+              "children_count": 0,
+              "related": [
+                "P24.C01.TOPIC.ho_so",
+                "P24.C02.TOPIC.ho_so",
+                "P24.N001.TOPIC.ho_so"
+              ],
+              "topic": "ho_so",
+              "owner_id": "P24.NEW",
+              "content_status": "conditional_sources",
+              "supporting_topics": [
+                {
+                  "id": "P24.C01.TOPIC.ho_so",
+                  "owner_id": "P24.C01",
+                  "title": "Đăng ký mới do một cá nhân thành lập",
+                  "condition": "Đăng ký mới do một cá nhân thành lập",
+                  "relationship": "conditional_child"
+                },
+                {
+                  "id": "P24.C02.TOPIC.ho_so",
+                  "owner_id": "P24.C02",
+                  "title": "Đăng ký mới do các thành viên hộ gia đình thành lập",
+                  "condition": "Đăng ký mới do các thành viên hộ gia đình thành lập",
+                  "relationship": "conditional_child"
+                },
+                {
+                  "id": "P24.N001.TOPIC.ho_so",
+                  "owner_id": "P24.N001",
+                  "title": "Quy định theo điều kiện áp dụng",
+                  "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                  "relationship": "conditional_rule"
+                }
+              ],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P24.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": [],
+                    "topic_catalog": [
+                      {
+                        "id": "P24.N001.TOPIC.huong_dan",
+                        "topic": "huong_dan",
+                        "title": "Các bước thực hiện",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.ho_so",
+                        "topic": "ho_so",
+                        "title": "Hồ sơ cần chuẩn bị",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.chi_phi",
+                        "topic": "chi_phi",
+                        "title": "Phí và chi phí",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.noi_nop",
+                        "topic": "noi_nop",
+                        "title": "Nơi nộp hồ sơ",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.dieu_kien",
+                        "topic": "dieu_kien",
+                        "title": "Điều kiện và lưu ý",
+                        "status": "conditional_sources"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P24.NEW",
+                "title": "Thành lập hộ kinh doanh mới",
+                "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                "kind": "shared_ancestor",
+                "children_count": 2,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.NEW.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.NEW.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.NEW.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.NEW.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.NEW.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P24.NEW.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P24.NEW.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": [],
+                "rule_refs": []
+              }
+            ],
+            "children": [],
+            "child_selection": "none"
+          },
+          {
+            "node": {
+              "id": "P24.N001.TOPIC.ho_so",
+              "title": "Hồ sơ cần chuẩn bị",
+              "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+              "kind": "topic_content",
+              "children_count": 0,
+              "related": [
+                "P24.N001.N002.TOPIC.ho_so",
+                "P24.N001.N003.TOPIC.ho_so"
+              ],
+              "topic": "ho_so",
+              "owner_id": "P24.N001",
+              "content_status": "conditional_sources",
+              "supporting_topics": [
+                {
+                  "id": "P24.N001.N002.TOPIC.ho_so",
+                  "owner_id": "P24.N001.N002",
+                  "title": "Nộp hồ sơ đăng ký mới",
+                  "condition": "Đăng ký hộ mới; chọn người nộp/kênh",
+                  "relationship": "conditional_child"
+                },
+                {
+                  "id": "P24.N001.N003.TOPIC.ho_so",
+                  "owner_id": "P24.N001.N003",
+                  "title": "Thời hạn, phí và kết quả đăng ký mới",
+                  "condition": "Đăng ký mới, không phải thay đổi/cấp lại/chấm dứt",
+                  "relationship": "conditional_child"
+                }
+              ],
+              "blocks": []
+            },
+            "ancestors": [
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P24.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": [],
+                    "topic_catalog": [
+                      {
+                        "id": "P24.N001.TOPIC.huong_dan",
+                        "topic": "huong_dan",
+                        "title": "Các bước thực hiện",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.ho_so",
+                        "topic": "ho_so",
+                        "title": "Hồ sơ cần chuẩn bị",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.chi_phi",
+                        "topic": "chi_phi",
+                        "title": "Phí và chi phí",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.noi_nop",
+                        "topic": "noi_nop",
+                        "title": "Nơi nộp hồ sơ",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.dieu_kien",
+                        "topic": "dieu_kien",
+                        "title": "Điều kiện và lưu ý",
+                        "status": "conditional_sources"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P24.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.N001.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.N001.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": [],
+                "rule_refs": []
+              }
+            ],
+            "children": [],
+            "child_selection": "none"
+          }
+        ],
+        "loaded_topic": "ho_so",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 1,
+          "at_last_page": true
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [
+          [
+            "P24.NEW.TOPIC.ho_so",
+            "P24.N001.TOPIC.ho_so"
+          ]
+        ],
+        "navigation_error": "",
+        "calls_remaining": 7
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 5470,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 270,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 5740
+      },
+      "response_id": "resp_0f36e8b7f6f5a14c016ad2031196a087d083e90cfdbfec4113",
+      "decision": {
+        "action": "load",
+        "mode": "answer",
+        "node_ids": [
+          "P24.C01.TOPIC.ho_so",
+          "P24.N001.N002.TOPIC.ho_so",
+          "P24.N001.N003.TOPIC.ho_so"
+        ],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Đăng ký hộ kinh doanh mới",
+              "evidence": "\"Tôi muốn đăng ký hộ kinh doanh mới\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "so_nguoi_tham_gia_thanh_lap",
+              "value": "Một mình (01 cá nhân)",
+              "evidence": "\"một mình tôi thành lập\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P24"
+          ],
+          "summary": "Người dân cần đăng ký hộ kinh doanh mới; trường hợp: 01 cá nhân tự thành lập. Đang nạp nội dung hồ sơ cần chuẩn bị (nhánh cá nhân thành lập và các quy định theo điều kiện áp dụng).",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "",
+        "information": {
+          "title": "",
+          "sections": [],
+          "options": []
+        },
+        "citations": []
+      },
+      "seconds": 3.3155115239933366
+    },
+    {
+      "call": 6,
+      "payload": {
+        "user_text": "Hồ sơ cần những gì?",
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Đăng ký hộ kinh doanh mới",
+              "evidence": "\"Tôi muốn đăng ký hộ kinh doanh mới\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "so_nguoi_tham_gia_thanh_lap",
+              "value": "Một mình (01 cá nhân)",
+              "evidence": "\"một mình tôi thành lập\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P24"
+          ],
+          "summary": "Người dân cần đăng ký hộ kinh doanh mới; trường hợp: 01 cá nhân tự thành lập. Đang nạp nội dung hồ sơ cần chuẩn bị (nhánh cá nhân thành lập và các quy định theo điều kiện áp dụng).",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "last_response": {
+          "mode": "question",
+          "speech_text": "Anh/chị muốn xem thông tin nào về đăng ký hộ kinh doanh mới?",
+          "information": {
+            "title": "Chọn nội dung cần xem",
+            "sections": [],
+            "options": [
+              {
+                "id": "A",
+                "label": "Các bước thực hiện",
+                "node_ids": []
+              },
+              {
+                "id": "B",
+                "label": "Hồ sơ cần chuẩn bị",
+                "node_ids": []
+              },
+              {
+                "id": "C",
+                "label": "Phí và chi phí",
+                "node_ids": []
+              },
+              {
+                "id": "D",
+                "label": "Nơi nộp hồ sơ",
+                "node_ids": []
+              },
+              {
+                "id": "E",
+                "label": "Thời hạn",
+                "node_ids": []
+              },
+              {
+                "id": "F",
+                "label": "Kết quả",
+                "node_ids": []
+              },
+              {
+                "id": "G",
+                "label": "Điều kiện và lưu ý",
+                "node_ids": []
+              }
+            ]
+          }
+        },
+        "windows": [
+          {
+            "node": {
+              "id": "P24.C01.TOPIC.ho_so",
+              "title": "Hồ sơ cần chuẩn bị",
+              "condition": "Đăng ký mới do một cá nhân thành lập",
+              "kind": "topic_content",
+              "children_count": 0,
+              "related": [
+                "P24.N001.TOPIC.ho_so"
+              ],
+              "topic": "ho_so",
+              "owner_id": "P24.C01",
+              "content_status": "local_content",
+              "supporting_topics": [
+                {
+                  "id": "P24.N001.TOPIC.ho_so",
+                  "owner_id": "P24.N001",
+                  "title": "Quy định theo điều kiện áp dụng",
+                  "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                  "relationship": "conditional_rule"
+                }
+              ],
+              "blocks": [
+                {
+                  "id": "P24.C01.TOPIC.ho_so#0",
+                  "text": "Hồ sơ gồm giấy đề nghị đăng ký hộ kinh doanh do cá nhân thành lập ký.",
+                  "topics": [
+                    "ho_so"
+                  ],
+                  "source_refs": [
+                    "BIZ"
+                  ],
+                  "review_status": "inherited_not_revalidated"
+                },
+                {
+                  "id": "P24.C01.TOPIC.ho_so#1",
+                  "text": "Không yêu cầu văn bản họp gia đình/ủy quyền gia đình khi chỉ một cá nhân thành lập.",
+                  "topics": [
+                    "ho_so"
+                  ],
+                  "source_refs": [
+                    "BIZ"
+                  ],
+                  "review_status": "inherited_not_revalidated"
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P24.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": [],
+                    "topic_catalog": [
+                      {
+                        "id": "P24.N001.TOPIC.huong_dan",
+                        "topic": "huong_dan",
+                        "title": "Các bước thực hiện",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.ho_so",
+                        "topic": "ho_so",
+                        "title": "Hồ sơ cần chuẩn bị",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.chi_phi",
+                        "topic": "chi_phi",
+                        "title": "Phí và chi phí",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.noi_nop",
+                        "topic": "noi_nop",
+                        "title": "Nơi nộp hồ sơ",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.dieu_kien",
+                        "topic": "dieu_kien",
+                        "title": "Điều kiện và lưu ý",
+                        "status": "conditional_sources"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P24.NEW",
+                "title": "Thành lập hộ kinh doanh mới",
+                "condition": "Đề nghị đăng ký một hộ kinh doanh mới",
+                "kind": "shared_ancestor",
+                "children_count": 2,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.NEW.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": [],
+                "rule_refs": []
+              },
+              {
+                "id": "P24.C01",
+                "title": "Đăng ký mới do một cá nhân thành lập",
+                "condition": "Đăng ký mới do một cá nhân thành lập",
+                "kind": "case_group",
+                "children_count": 0,
+                "related": [
+                  "P24"
+                ],
+                "topic_catalog": [
+                  {
+                    "id": "P24.C01.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P24.C01.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P24.C01.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P24.C01.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.C01.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P24.C01.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P24.C01.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": [],
+                "rule_refs": []
+              }
+            ],
+            "children": [],
+            "child_selection": "none"
+          },
+          {
+            "node": {
+              "id": "P24.N001.N002.TOPIC.ho_so",
+              "title": "Hồ sơ cần chuẩn bị",
+              "condition": "Đăng ký hộ mới; chọn người nộp/kênh",
+              "kind": "topic_content",
+              "children_count": 0,
+              "related": [
+                "P24.N001.TOPIC.ho_so",
+                "P25.M01.TOPIC.ho_so"
+              ],
+              "topic": "ho_so",
+              "owner_id": "P24.N001.N002",
+              "content_status": "local_content",
+              "supporting_topics": [
+                {
+                  "id": "P24.N001.TOPIC.ho_so",
+                  "owner_id": "P24.N001",
+                  "title": "Quy định theo điều kiện áp dụng",
+                  "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                  "relationship": "conditional_rule"
+                },
+                {
+                  "id": "P25.M01.TOPIC.ho_so",
+                  "owner_id": "P25.M01",
+                  "title": "Ủy quyền cá nhân nộp hồ sơ",
+                  "condition": "Ủy quyền cá nhân nộp hồ sơ",
+                  "relationship": "explicit_reference"
+                }
+              ],
+              "blocks": [
+                {
+                  "id": "P24.N001.N002.TOPIC.ho_so#0",
+                  "text": "Nộp bộ hồ sơ tại Trung tâm phục vụ hành chính công hoặc trực tuyến trên Cổng dịch vụ công quốc gia, do cơ quan đăng ký kinh doanh cấp xã nơi đặt trụ sở giải quyết.",
+                  "topics": [
+                    "ho_so",
+                    "noi_nop"
+                  ],
+                  "source_refs": [
+                    "BIZ",
+                    "BIZHCM",
+                    "FONLINE"
+                  ],
+                  "review_status": "inherited_not_revalidated"
+                },
+                {
+                  "id": "P24.N001.N002.TOPIC.ho_so#1",
+                  "text": "Hồ sơ điện tử phải đầy đủ, thống nhất với bản giấy và được ký số/ký xác thực điện tử đúng người có quyền; giấy tờ ủy quyền nộp thay theo P25.M01–M04.",
+                  "topics": [
+                    "ho_so",
+                    "dieu_kien"
+                  ],
+                  "source_refs": [
+                    "BIZ",
+                    "BIZHCM",
+                    "FONLINE"
+                  ],
+                  "review_status": "inherited_not_revalidated"
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P24.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": [],
+                    "topic_catalog": [
+                      {
+                        "id": "P24.N001.TOPIC.huong_dan",
+                        "topic": "huong_dan",
+                        "title": "Các bước thực hiện",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.ho_so",
+                        "topic": "ho_so",
+                        "title": "Hồ sơ cần chuẩn bị",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.chi_phi",
+                        "topic": "chi_phi",
+                        "title": "Phí và chi phí",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.noi_nop",
+                        "topic": "noi_nop",
+                        "title": "Nơi nộp hồ sơ",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.dieu_kien",
+                        "topic": "dieu_kien",
+                        "title": "Điều kiện và lưu ý",
+                        "status": "conditional_sources"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P24.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.N001.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": [],
+                "rule_refs": []
+              },
+              {
+                "id": "P24.N001.N002",
+                "title": "Nộp hồ sơ đăng ký mới",
+                "condition": "Đăng ký hộ mới; chọn người nộp/kênh",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [
+                  "P25.M01"
+                ],
+                "topic_catalog": [
+                  {
+                    "id": "P24.N001.N002.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P24.N001.N002.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P24.N001.N002.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P24.N001.N002.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "local_content"
+                  }
+                ],
+                "blocks": [
+                  {
+                    "id": "P24.N001.N002.TOPIC.dieu_kien#0",
+                    "text": "Kê khai số định danh để đối chiếu dữ liệu; khi không kết nối được mới thực hiện đối chiếu giấy tờ pháp lý cá nhân theo hướng dẫn hệ thống.",
+                    "topics": [
+                      "huong_dan",
+                      "dieu_kien"
+                    ],
+                    "source_refs": [
+                      "BIZ",
+                      "BIZHCM",
+                      "FONLINE"
+                    ],
+                    "review_status": "inherited_not_revalidated"
+                  },
+                  {
+                    "id": "P24.N001.N002.TOPIC.dieu_kien#1",
+                    "text": "Hồ sơ điện tử phải đầy đủ, thống nhất với bản giấy và được ký số/ký xác thực điện tử đúng người có quyền; giấy tờ ủy quyền nộp thay theo P25.M01–M04.",
+                    "topics": [
+                      "ho_so",
+                      "dieu_kien"
+                    ],
+                    "source_refs": [
+                      "BIZ",
+                      "BIZHCM",
+                      "FONLINE"
+                    ],
+                    "review_status": "inherited_not_revalidated"
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [],
+            "child_selection": "none"
+          },
+          {
+            "node": {
+              "id": "P24.N001.N003.TOPIC.ho_so",
+              "title": "Hồ sơ cần chuẩn bị",
+              "condition": "Đăng ký mới, không phải thay đổi/cấp lại/chấm dứt",
+              "kind": "topic_content",
+              "children_count": 0,
+              "related": [
+                "P24.N001.TOPIC.ho_so"
+              ],
+              "topic": "ho_so",
+              "owner_id": "P24.N001.N003",
+              "content_status": "local_content",
+              "supporting_topics": [
+                {
+                  "id": "P24.N001.TOPIC.ho_so",
+                  "owner_id": "P24.N001",
+                  "title": "Quy định theo điều kiện áp dụng",
+                  "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                  "relationship": "conditional_rule"
+                }
+              ],
+              "blocks": [
+                {
+                  "id": "P24.N001.N003.TOPIC.ho_so#0",
+                  "text": "Dùng biểu mẫu đăng ký hộ kinh doanh hiện hành trên Cổng tại ngày nộp, không tái dùng mẫu của Nghị định 01/2021.",
+                  "topics": [
+                    "ho_so"
+                  ],
+                  "source_refs": [
+                    "BIZ",
+                    "BIZHCM",
+                    "FONLINE"
+                  ],
+                  "review_status": "inherited_not_revalidated"
+                }
+              ]
+            },
+            "ancestors": [
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": [],
+                "rule_refs": [
+                  {
+                    "id": "P24.N001",
+                    "title": "Quy định theo điều kiện áp dụng",
+                    "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                    "kind": "conditional_rules",
+                    "children_count": 3,
+                    "related": [],
+                    "topic_catalog": [
+                      {
+                        "id": "P24.N001.TOPIC.huong_dan",
+                        "topic": "huong_dan",
+                        "title": "Các bước thực hiện",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.ho_so",
+                        "topic": "ho_so",
+                        "title": "Hồ sơ cần chuẩn bị",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.chi_phi",
+                        "topic": "chi_phi",
+                        "title": "Phí và chi phí",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.noi_nop",
+                        "topic": "noi_nop",
+                        "title": "Nơi nộp hồ sơ",
+                        "status": "conditional_sources"
+                      },
+                      {
+                        "id": "P24.N001.TOPIC.dieu_kien",
+                        "topic": "dieu_kien",
+                        "title": "Điều kiện và lưu ý",
+                        "status": "conditional_sources"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P24.N001",
+                "title": "Quy định theo điều kiện áp dụng",
+                "condition": "Có nội dung cần đối chiếu về Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử; chọn đúng điều kiện của nhánh con",
+                "kind": "conditional_rules",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.N001.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  }
+                ],
+                "blocks": [],
+                "rule_refs": []
+              },
+              {
+                "id": "P24.N001.N003",
+                "title": "Thời hạn, phí và kết quả đăng ký mới",
+                "condition": "Đăng ký mới, không phải thay đổi/cấp lại/chấm dứt",
+                "kind": "content_branch",
+                "children_count": 0,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.N001.N003.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P24.N001.N003.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P24.N001.N003.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "local_content"
+                  }
+                ],
+                "blocks": [
+                  {
+                    "id": "P24.N001.N003.TOPIC.dieu_kien#0",
+                    "text": "Tên hợp lệ, ngành nghề không bị cấm, hồ sơ hợp lệ và nộp đủ lệ phí là điều kiện cấp.",
+                    "topics": [
+                      "dieu_kien"
+                    ],
+                    "source_refs": [
+                      "BIZ",
+                      "BIZHCM",
+                      "FONLINE"
+                    ],
+                    "review_status": "inherited_not_revalidated"
+                  },
+                  {
+                    "id": "P24.N001.N003.TOPIC.dieu_kien#1",
+                    "text": "Giấy chứng nhận không có kỳ gia hạn; không thay giấy phép ngành nghề có điều kiện, chứng nhận ATTP hoặc nghĩa vụ thuế, BHXH.",
+                    "topics": [
+                      "dieu_kien"
+                    ],
+                    "source_refs": [
+                      "BIZ",
+                      "BIZHCM",
+                      "FONLINE"
+                    ],
+                    "review_status": "inherited_not_revalidated"
+                  }
+                ],
+                "rule_refs": []
+              }
+            ],
+            "children": [],
+            "child_selection": "none"
+          }
+        ],
+        "loaded_topic": "ho_so",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 1,
+          "at_last_page": true
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [
+          [
+            "P24.NEW.TOPIC.ho_so",
+            "P24.N001.TOPIC.ho_so"
+          ],
+          [
+            "P24.C01.TOPIC.ho_so",
+            "P24.N001.N002.TOPIC.ho_so",
+            "P24.N001.N003.TOPIC.ho_so"
+          ]
+        ],
+        "navigation_error": "",
+        "calls_remaining": 6
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 7118,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 1664
+        },
+        "output_tokens": 475,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 7593
+      },
+      "response_id": "resp_0754a4e161431bd5016ad20314efe487d09f274ebddf5025fd",
+      "decision": {
+        "action": "respond",
+        "mode": "answer",
+        "node_ids": [],
+        "state": {
+          "facts": [
+            {
+              "key": "nhu_cau",
+              "value": "Đăng ký hộ kinh doanh mới",
+              "evidence": "\"Tôi muốn đăng ký hộ kinh doanh mới\"",
+              "node_id": "ROOT"
+            },
+            {
+              "key": "so_nguoi_tham_gia_thanh_lap",
+              "value": "Một mình (01 cá nhân)",
+              "evidence": "\"một mình tôi thành lập\"",
+              "node_id": "ROOT"
+            }
+          ],
+          "path": [
+            "P24"
+          ],
+          "summary": "Người dân cần đăng ký hộ kinh doanh mới; trường hợp: 01 cá nhân tự thành lập. Đang xem mục hồ sơ cần chuẩn bị.",
+          "pending_switch": "",
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "available_topics": [
+            "huong_dan",
+            "ho_so",
+            "chi_phi",
+            "noi_nop",
+            "thoi_gian",
+            "ket_qua",
+            "dieu_kien"
+          ],
+          "pending_topics": []
+        },
+        "speech_text": "Tôi xin cung cấp thông tin trên màn hình. Anh/chị muốn hỏi thêm nội dung nào?",
+        "information": {
+          "title": "Hồ sơ đăng ký hộ kinh doanh mới (01 cá nhân thành lập)",
+          "sections": [
+            {
+              "title": "Thành phần hồ sơ",
+              "items": [
+                "Giấy đề nghị đăng ký hộ kinh doanh (do cá nhân thành lập ký)."
+              ]
+            },
+            {
+              "title": "Lưu ý theo điều kiện áp dụng",
+              "items": [
+                "Không yêu cầu văn bản họp gia đình/ủy quyền gia đình khi chỉ một cá nhân thành lập.",
+                "Dùng biểu mẫu đăng ký hộ kinh doanh hiện hành trên Cổng tại ngày nộp (không tái dùng mẫu của Nghị định 01/2021).",
+                "Nếu nộp hồ sơ điện tử: hồ sơ phải đầy đủ, thống nhất với bản giấy và được ký số/ký xác thực điện tử đúng người có quyền; trường hợp có ủy quyền nộp thay thì thực hiện theo hướng dẫn về giấy tờ ủy quyền nộp thay."
+              ]
+            }
+          ],
+          "options": []
+        },
+        "citations": [
+          "P24.C01.TOPIC.ho_so#0",
+          "P24.C01.TOPIC.ho_so#1",
+          "P24.N001.N003.TOPIC.ho_so#0",
+          "P24.N001.N002.TOPIC.ho_so#1"
+        ]
+      },
+      "seconds": 5.528941052005393
+    }
+  ]
+}

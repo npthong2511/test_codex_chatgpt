@@ -46,6 +46,18 @@ Sau khi dân chọn hoặc xác nhận mục: stage=topic, selected_topic là m�
 Nếu hỏi nhiều mục, chọn mục được nêu đầu và giữ các mục còn lại trong pending_topics. Nếu hỏi tất cả, xếp các mục có dữ liệu vào pending_topics. Khi display_context.at_last_page=true và nói tiếp, chuyển mục pending_topics tiếp theo (load), nếu không có thì hỏi chọn mục. Không tự suy rằng tiếp luôn là yêu cầu quy trình mới.
 Khi sửa dữ kiện ảnh hưởng trường hợp: stage=identify, selected_topic rỗng, bỏ pending_topics, xác định lại nhánh rồi hỏi chọn nội dung lại. Đổi thủ tục vẫn phải xác nhận. Khi quay danh sách: stage=choose_topic và selected_topic rỗng. Không thêm xã giao vào information. Chương trình tự chia trang theo cấu hình, model trả ĐẦY ĐỦ mục đang hỏi, không cắt nội dung để vừa trang. Tuyệt đối không tự sinh nhãn trang hay cắt bỏ giấy tờ/lưu ý.
 """
+PROMPT += """
+META 3.1 CHO V17.3:
+Nút trường hợp có topic_catalog (7 mục), KHÔNG có nguyên đoạn tổng hợp. Chọn nội dung phải action=load đúng mã .TOPIC.<mục> trong topic_catalog, không chỉ load lại node trường hợp. Khi đang nhận dạng, blocks chỉ là điều kiện; không lấy đó làm hồ sơ đầy đủ. Khi xác định đủ trường hợp phải hỏi chọn nội dung/ xác nhận mục người dân đã yêu cầu.
+Một cửa sổ topic chỉ gồm nội dung mục đó + điều kiện của tổ tiên + nội dung cùng mục được kế thừa. supporting_topics chỉ là liên kết; đọc condition/relationship để xác định nhánh phù hợp trước khi load, không áp dụng mọi anh em. Khi cần thêm dữ liệu dùng load tập tối đa 4 gồm topic trường hợp và topic quy định chung/liên quan đúng mục. conditional_rule là liên kết quy định bổ sung: chỉ mở khi điều kiện của nhánh phù hợp với facts và nội dung còn thiếu; không mở biểu phí cấp đổi/cấp lại cho cấp lần đầu. Nếu cần mở nguồn bổ sung, luôn giữ topic của case trong cùng action=load, vì cửa sổ mới thay thế cửa sổ cũ. Không trả lời hồ sơ từ một đoạn điều kiện khi chưa mở topic ho_so. Nếu topic đang mở chưa có blocks nhưng có supporting_topics, cần đọc nguồn phù hợp, không tự nói không có dữ liệu.
+content_status=unconfirmed nghĩa chưa có nội dung xác nhận tại mục, không có nghĩa miễn phí/không cần hồ sơ. Đọc các tham chiếu hợp lệ rồi nói rõ phần chưa xác nhận nếu vẫn thiếu. Chỉ menu các mục local_content/inherited_content/conditional_sources; không giới thiệu unconfirmed như đã đầy đủ. Khi sửa tuổi/tư cách phải trở về owner_id hoặc tổ tiên để chọn lại trường hợp, không giữ topic thuộc case cũ. Không suy ra mọi giấy tờ là bắt buộc vô điều kiện: giữ chính xác ngoại lệ về khai thác dữ liệu, ai lập phiếu, bản chính/bản sao và khi nào phải bổ sung. Nội dung đã có nguồn nhưng có xung đột phải theo gap_note/review_status, không tự chọn quy định mới/cũ từ trí nhớ.
+"""
+
+PROMPT = """QUY TẮC LUỒNG ƯU TIÊN V17.3 META3.1:
+MỖI LẦN GỌI CHỈ XUẤT ĐÚNG MỘT JSON OBJECT VÀ MỘT ACTION. Nếu action=load, kết thúc ngay object đó và chờ hệ thống gửi cửa sổ mới trong lần gọi sau. TUYỆT ĐỐI không nối thêm object respond, không tự giả lập dữ liệu của lần load.
+Dù người dân đã nêu 'muốn hỏi hồ sơ' ngay từ đầu và đủ dữ kiện, vẫn PHẢI xác định đúng case và trả một lượt mode=question, state.stage=choose_topic để xác nhận nội dung muốn xem. Không được trả answer ngay trong lượt xác định trường hợp. Không đưa 'tham khảo thêm' thuộc trường hợp khác vào bảng (ví dụ không hiển thị phí cấp đổi/cấp lại khi đang cấp lần đầu). Nguồn case đã nêu không thu phí cấp lần đầu thì không cần đọc biểu phí cấp đổi/cấp lại. Trong các call load của lượt nhận dạng, giữ stage=identify; chỉ đổi choose_topic khi respond hỏi lựa chọn/xác nhận. Chỉ sang stage=topic khi last_response là câu hỏi chọn/xác nhận mục và người dân đáp, hoặc đã ở stage=topic từ lượt trước. Khi đủ dữ kiện chọn nhánh tuổi/tư cách, load đúng case cụ thể trước khi hỏi chọn mục, không dừng ở tổ tiên chung. Khi trả lời, load topic của case đã xác định CÙNG nguồn chung thích hợp, không dùng topic tổ tiên làm thay toàn bộ case.
+""" + PROMPT
+
 PAGE_SCHEMA = obj(dict(intent={'type':'string','enum':['page','continue']},
                        page={'type':'integer'}))
 PAGE_PROMPT = """Phân loại điều hướng trang cho trợ lý tiếp dân. Chỉ trả JSON.
@@ -62,23 +74,56 @@ Với continue dùng page=0. Chỉ xác định ý định, không viết nội 
 
 class Sources:
     def __init__(self,directory):
-        raw=(Path(directory)/'kb_meta_tree_3.0.json').read_bytes()
+        path=Path(directory)/'kb_meta_tree_3.1.json'
+        if not path.exists():path=Path(directory)/'kb_meta_tree_3.0.json'
+        raw=path.read_bytes();self.meta_filename=path.name
+        self.topic_layer=path.name=='kb_meta_tree_3.1.json'
         self.hash=hashlib.sha256(raw).hexdigest();self.nodes={};self.parents={}
         def walk(n,parent=None):
             self.nodes[n['id']]=n;self.parents[n['id']]=parent
             for c in n['children']:walk(c,n['id'])
         walk(json.loads(raw)['tree'])
     def brief(self,n,blocks=True):
+        structural=[c for c in n['children'] if c['kind']!='topic_content']
         d=dict(id=n['id'],title=n['title'],condition=n['entry_condition']['text'],kind=n['kind'],
-               children_count=len(n['children']),related=n.get('related_node_ids',[]))
-        if blocks:d['blocks']=[dict(id=f"{n['id']}#{i}",text=b['text'],topics=b.get('topics',[])) for i,b in enumerate(n['common'])]
+               children_count=len(n.get('supporting_topics',[])) if n['kind']=='topic_content' else len(structural),related=n.get('related_node_ids',[]))
+        if n.get('topic_catalog'):d['topic_catalog']=n['topic_catalog']
+        for key in ('topic','owner_id','content_status','gap_note','supporting_topics'):
+            if key in n:d[key]=n[key]
+        if blocks:
+            source=n
+            if self.topic_layer and n['kind']!='topic_content':
+                source=self.nodes.get(n['id']+'.TOPIC.dieu_kien',{'id':n['id'],'common':[]})
+            d['blocks']=[dict(id=f"{source['id']}#{i}",text=b['text'],topics=b.get('topics',[]),
+                              source_refs=b.get('source_refs',[]),review_status=b.get('review_status','inherited_not_revalidated'))
+                         for i,b in enumerate(source['common'])]
         return d
     def window(self,nid):
         n=self.nodes[nid];anc=[];p=self.parents[nid]
+        inherited=set(n.get('inherited_topic_ids',[]))
         while p and p!='ROOT':
-            a=self.brief(self.nodes[p]);a['rule_refs']=[self.brief(c,False) for c in self.nodes[p]['children'] if c['kind']=='conditional_rules'];anc.append(a);p=self.parents[p]
+            a=self.brief(self.nodes[p])
+            if n.get('topic') and p!=n.get('owner_id'):
+                a['topic_catalog']=[t for t in a.get('topic_catalog',[]) if t['topic']==n['topic']]
+            a['rule_refs']=[self.brief(c,False) for c in self.nodes[p]['children'] if c['kind']=='conditional_rules']
+            if n.get('topic'):
+                inherited_id=p+'.TOPIC.'+n['topic']
+                if inherited_id in inherited:
+                    seen={b['id'] for b in a['blocks']}
+                    a['blocks'].extend(b for b in self.brief(self.nodes[inherited_id])['blocks'] if b['id'] not in seen)
+            anc.append(a);p=self.parents[p]
+        if n['kind']=='topic_content':
+            children=[]
+            for ref in n.get('supporting_topics',[]):
+                child=self.brief(self.nodes[ref['id']])
+                child['reference_relationship']=ref['relationship']
+                children.append(child)
+        else:
+            children=[self.brief(c, nid!='ROOT' and c['kind']!='topic_content') for c in n['children']]
+        if nid=='ROOT':
+            for child in children:child.pop('topic_catalog',None)
         return dict(node=self.brief(n),ancestors=list(reversed(anc)),
-                    children=[self.brief(c, nid!='ROOT') for c in n['children']],
+                    children=children,
                     child_selection=n.get('child_selection','all_applicable'))
 
 class APIError(RuntimeError):pass
@@ -95,7 +140,11 @@ class Provider:
                 text={'format':{'type':'json_schema','name':'citizen_v17','strict':True,'schema':schema or SCHEMA}})
             e.update(status=r.status,usage=r.usage.model_dump() if r.usage else None,response_id=r.id)
             if r.status!='completed':raise APIError('INCOMPLETE_RESPONSE')
-            result=json.loads(r.output_text);e['decision']=result;return result
+            try:result=json.loads(r.output_text)
+            except json.JSONDecodeError:
+                e['invalid_output_text']=r.output_text
+                raise APIError('INVALID_JSON_RESPONSE') from None
+            e['decision']=result;return result
         except APIError:raise
         except Exception as exc:
             code=getattr(exc,'code',None) or type(exc).__name__
@@ -132,7 +181,7 @@ class Engine:
                 if cancelled():return None
                 windows=[self.sources.window(n) for n in nodes]
                 topic=state.get('selected_topic','')
-                if topic:
+                if topic and not self.sources.topic_layer:
                     for w in windows:
                         for item in [w['node'],*w['ancestors'],*w['children']]:
                             item['available_topics']=sorted({t for b in item.get('blocks',[]) for t in b.get('topics',[])})
@@ -162,6 +211,7 @@ class Engine:
                     for window in p['windows']:
                         for node in [window['node'], *window['children'], *window['ancestors']]:
                             linked.update(node.get('related',[]))
+                            linked.update(v['id'] for v in node.get('topic_catalog',[]))
                     references_only=(scope is not None and scope in requested_scopes and all(
                         n.split('.')[0]==scope or (n in linked and self.sources.nodes[n]['kind']!='procedure') for n in requested))
                     if (len(requested_scopes)>1 or (scope and requested_scopes!={scope})) and not references_only:

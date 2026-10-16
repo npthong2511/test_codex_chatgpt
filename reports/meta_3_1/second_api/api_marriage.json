@@ -1,0 +1,1512 @@
+{
+  "turns": [
+    {
+      "user": "Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.",
+      "response": {
+        "mode": "transport_error",
+        "speech_text": "Kết nối xử lý chưa hoàn tất. Anh/chị vui lòng thử lại.",
+        "information": {
+          "title": "Chưa hoàn tất xử lý",
+          "sections": [],
+          "options": []
+        },
+        "code": "JSONDecodeError",
+        "revision": 0,
+        "session_id": "marriage"
+      },
+      "state": {
+        "facts": [],
+        "path": [],
+        "summary": "",
+        "pending_switch": "",
+        "stage": "identify",
+        "selected_topic": "",
+        "available_topics": [],
+        "pending_topics": []
+      },
+      "nodes": [
+        "ROOT"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "call": 1,
+      "payload": {
+        "user_text": "Tôi và bạn gái đều là công dân Việt Nam, sống trong nước, chưa kết hôn với ai và muốn đăng ký kết hôn lần đầu.",
+        "state": {
+          "facts": [],
+          "path": [],
+          "summary": "",
+          "pending_switch": "",
+          "stage": "identify",
+          "selected_topic": "",
+          "available_topics": [],
+          "pending_topics": []
+        },
+        "last_response": null,
+        "windows": [
+          {
+            "node": {
+              "id": "ROOT",
+              "title": "Quy trình hành chính — cây tri thức 3.0",
+              "condition": "Yêu cầu thuộc một hoặc nhiều lĩnh vực trong bộ dữ liệu",
+              "kind": "root",
+              "children_count": 27,
+              "related": [],
+              "blocks": []
+            },
+            "ancestors": [],
+            "children": [
+              {
+                "id": "P01",
+                "title": "Đăng ký khai sinh",
+                "condition": "Nhu cầu liên quan: Đăng ký khai sinh",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P01.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P01.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P01.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P01.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P01.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P01.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P01.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P02",
+                "title": "Đăng ký khai tử",
+                "condition": "Nhu cầu liên quan: Đăng ký khai tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P02.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P02.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P02.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P02.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P02.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P02.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P02.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P03",
+                "title": "Đăng ký kết hôn",
+                "condition": "Nhu cầu liên quan: Đăng ký kết hôn",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P03.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P03.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P04",
+                "title": "Đăng ký thường trú",
+                "condition": "Nhu cầu liên quan: Đăng ký thường trú",
+                "kind": "procedure",
+                "children_count": 9,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P04.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P04.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P04.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P04.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P04.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P04.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P04.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "local_content"
+                  }
+                ]
+              },
+              {
+                "id": "P05",
+                "title": "Xác nhận tình trạng hôn nhân",
+                "condition": "Nhu cầu liên quan: Xác nhận tình trạng hôn nhân",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P05.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P05.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P05.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P05.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P05.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P05.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P05.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P06",
+                "title": "Đăng ký tạm trú",
+                "condition": "Nhu cầu liên quan: Đăng ký tạm trú",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P06.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P06.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P06.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P06.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P06.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P06.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P06.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P07",
+                "title": "Xác nhận và điều chỉnh thông tin cư trú",
+                "condition": "Nhu cầu liên quan: Xác nhận và điều chỉnh thông tin cư trú",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P07.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P07.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P07.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P07.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P07.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P07.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P07.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P08",
+                "title": "Cấp, đổi và cấp lại căn cước",
+                "condition": "Nhu cầu liên quan: Cấp, đổi và cấp lại căn cước",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P08.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P08.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P08.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P08.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P08.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P08.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P08.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P09",
+                "title": "Đăng ký biến động đất đai",
+                "condition": "Nhu cầu liên quan: Đăng ký biến động đất đai",
+                "kind": "procedure",
+                "children_count": 15,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P09.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P09.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P09.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P09.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P09.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P09.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P09.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P10",
+                "title": "Cấp giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Cấp giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P10.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P10.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P10.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P10.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P10.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P10.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P10.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P11",
+                "title": "Đổi giấy chứng nhận quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Đổi giấy chứng nhận quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P11.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P11.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P11.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P11.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P11.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P11.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P11.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P12",
+                "title": "Chuyển nhượng quyền sử dụng đất",
+                "condition": "Nhu cầu liên quan: Chuyển nhượng quyền sử dụng đất",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P12.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P12.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P12.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P12.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P12.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P12.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P12.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P13",
+                "title": "Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "condition": "Nhu cầu liên quan: Xác nhận nguồn gốc, thời điểm sử dụng đất",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P13.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P13.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P13.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P13.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P13.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P13.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P13.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P14",
+                "title": "Cấp phép xây dựng theo thẩm quyền",
+                "condition": "Nhu cầu liên quan: Cấp phép xây dựng theo thẩm quyền",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P14.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P14.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P14.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P14.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P14.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P14.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P14.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P15",
+                "title": "Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "condition": "Nhu cầu liên quan: Hưởng trợ cấp bảo hiểm thất nghiệp",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P15.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P15.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P15.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P15.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P15.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P15.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P15.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P16",
+                "title": "Hỗ trợ đào tạo nghề",
+                "condition": "Nhu cầu liên quan: Hỗ trợ đào tạo nghề",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P16.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P16.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P16.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P16.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P16.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P16.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P16.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P17",
+                "title": "Hỗ trợ người bị tai nạn lao động",
+                "condition": "Nhu cầu liên quan: Hỗ trợ người bị tai nạn lao động",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P17.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P17.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P17.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P17.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P17.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P17.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P17.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P18",
+                "title": "Xác định mức độ khuyết tật",
+                "condition": "Nhu cầu liên quan: Xác định mức độ khuyết tật",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P18.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P18.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P18.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P18.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P18.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P18.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P18.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P19",
+                "title": "Tín dụng chính sách NHCSXH",
+                "condition": "Nhu cầu liên quan: Tín dụng chính sách NHCSXH",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P19.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P19.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P19.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P19.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P19.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P19.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P19.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P20",
+                "title": "Chế độ thương binh",
+                "condition": "Nhu cầu liên quan: Chế độ thương binh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P20.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P20.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P20.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P20.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P20.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P20.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P20.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P21",
+                "title": "Chế độ thờ cúng liệt sĩ",
+                "condition": "Nhu cầu liên quan: Chế độ thờ cúng liệt sĩ",
+                "kind": "procedure",
+                "children_count": 7,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P21.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P21.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P21.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P21.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P21.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P21.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P21.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P22",
+                "title": "Chuyển trường, tiếp nhận và học lại",
+                "condition": "Nhu cầu liên quan: Chuyển trường, tiếp nhận và học lại",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P22.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P22.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P22.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P22.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "local_content"
+                  },
+                  {
+                    "id": "P22.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P22.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P22.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P23",
+                "title": "Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "condition": "Nhu cầu liên quan: Đăng ký giấy chứng nhận vệ sinh an toàn thực phẩm",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P23.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P23.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P23.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P23.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P23.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P23.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P23.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P24",
+                "title": "Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "condition": "Nhu cầu liên quan: Đăng ký hộ kinh doanh trực tiếp và đăng ký hộ kinh doanh qua mạng thông tin điện tử",
+                "kind": "procedure",
+                "children_count": 3,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P24.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P24.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P25",
+                "title": "Thay đổi nội dung đăng ký hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Thay đổi nội dung đăng ký hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 10,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P25.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P25.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P25.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P25.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P25.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P25.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P25.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P26",
+                "title": "Chấm dứt hộ kinh doanh",
+                "condition": "Nhu cầu liên quan: Chấm dứt hộ kinh doanh",
+                "kind": "procedure",
+                "children_count": 4,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P26.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P26.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P26.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P26.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P26.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P26.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P26.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              },
+              {
+                "id": "P27",
+                "title": "Khiếu nại - Phản ánh - Kiến nghị",
+                "condition": "Nhu cầu liên quan: Khiếu nại - Phản ánh - Kiến nghị",
+                "kind": "procedure",
+                "children_count": 5,
+                "related": [],
+                "topic_catalog": [
+                  {
+                    "id": "P27.TOPIC.huong_dan",
+                    "topic": "huong_dan",
+                    "title": "Các bước thực hiện",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P27.TOPIC.ho_so",
+                    "topic": "ho_so",
+                    "title": "Hồ sơ cần chuẩn bị",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P27.TOPIC.chi_phi",
+                    "topic": "chi_phi",
+                    "title": "Phí và chi phí",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P27.TOPIC.noi_nop",
+                    "topic": "noi_nop",
+                    "title": "Nơi nộp hồ sơ",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P27.TOPIC.thoi_gian",
+                    "topic": "thoi_gian",
+                    "title": "Thời hạn",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P27.TOPIC.ket_qua",
+                    "topic": "ket_qua",
+                    "title": "Kết quả và quyền lợi",
+                    "status": "conditional_sources"
+                  },
+                  {
+                    "id": "P27.TOPIC.dieu_kien",
+                    "topic": "dieu_kien",
+                    "title": "Điều kiện và lưu ý",
+                    "status": "conditional_sources"
+                  }
+                ]
+              }
+            ],
+            "child_selection": "all_applicable"
+          }
+        ],
+        "loaded_topic": "",
+        "topic_labels": {
+          "huong_dan": "Các bước thực hiện",
+          "ho_so": "Hồ sơ",
+          "chi_phi": "Phí, lệ phí",
+          "noi_nop": "Nơi nộp hồ sơ",
+          "thoi_gian": "Thời hạn trả kết quả",
+          "ket_qua": "Kết quả",
+          "dieu_kien": "Điều kiện"
+        },
+        "display_context": {
+          "current": 1,
+          "total": 0,
+          "at_last_page": true
+        },
+        "confirmed_new_request": "",
+        "restart_completed_this_turn": false,
+        "navigation_history": [],
+        "navigation_error": "",
+        "calls_remaining": 9
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 10833,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 748,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11581
+      },
+      "response_id": "resp_0da7923a7e2a940a016ad20396a85c87d0ae4630d09c318522",
+      "error": {
+        "code": "JSONDecodeError",
+        "status": null
+      },
+      "seconds": 8.599349004987744
+    }
+  ]
+}

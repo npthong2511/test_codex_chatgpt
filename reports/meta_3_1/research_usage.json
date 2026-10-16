@@ -1,0 +1,8 @@
+{
+  "scope": "Raw research batches only; excludes classification, focused ID research and runtime smoke tests. Not a total cost estimate.",
+  "usage": {
+    "input_tokens": 1044269,
+    "output_tokens": 144422,
+    "total_tokens": 1188691
+  }
+}
