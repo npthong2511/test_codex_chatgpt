@@ -1,4 +1,4 @@
-# V17.0 voice shell: microphone/TTS/motion inherited unchanged; dialogue uses agent17.
+# V17.4 voice shell: Vietnamese STT and structured dialogue; media playback inherited.
 # Hardware integration is syntax-checked only in this offline release.
 # See README_V17.md for required existing hardware modules and assets.
 # voice_motion_runtime_v14_1_lite_exe.py
@@ -896,12 +896,9 @@ def _collect_audio_bytes(audio_iterable_or_bytes: Any) -> bytes:
 # ============================================================
 def speech_to_text(wav_path: Path) -> str:
     def request(provider_client: Any) -> Any:
-        # Reopen the WAV for every key attempt so each request starts at byte 0.
-        with wav_path.open("rb") as f:
-            return provider_client.audio.transcriptions.create(
-                model=STT_MODEL,
-                file=f,
-            )
+        from agent17.transcription import transcribe_vi
+        return transcribe_vi(provider_client.audio.transcriptions.create, wav_path, STT_MODEL)
+
 
     tr = _call_with_credit_failover(
         pool=openai_client_pool,
@@ -909,7 +906,7 @@ def speech_to_text(wav_path: Path) -> str:
         operation_name="speech_to_text",
         operation=request,
     )
-    return (tr.text or "").strip()
+    return tr
 
 
 def has_real_transcript_text(text: str) -> bool:
@@ -919,10 +916,8 @@ def has_real_transcript_text(text: str) -> bool:
     This prevents noise-only recordings, empty strings, or punctuation-only
     transcripts from triggering waiting preset audio.
     """
-    text = (text or "").strip()
-    if not text:
-        return False
-    return re.search(r"[0-9A-Za-zÀ-ỹ]", text) is not None
+    from agent17.transcription import has_transcript
+    return has_transcript(text)
 
 
 def text_to_speech(text: str, out_path: Path) -> None:

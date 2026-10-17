@@ -38,9 +38,6 @@ def paginate(information, columns=40, rows=11):
     for line in text.splitlines():
         group = textwrap.wrap(line, width=columns, replace_whitespace=False,
                               break_long_words=True, break_on_hyphens=False) or ['']
-        if len(group) <= capacity and current and len(current) + len(group) > capacity:
-            chunks.append(current)
-            current = []
         for wrapped in group:
             if len(current) == capacity:
                 chunks.append(current)
@@ -50,3 +47,12 @@ def paginate(information, columns=40, rows=11):
         chunks.append(current)
     return ['\n'.join(chunk + [f'Trang {i+1}/{len(chunks)} | Tiếp / Trước'])
             for i, chunk in enumerate(chunks)]
+
+
+def order_sections(information):
+    """Order model-labeled groups for display; never infer/rewrite legal content."""
+    from copy import deepcopy
+    result=deepcopy(information)
+    order={'prepare':0,'steps':0,'content':0,'conditional':1,'authority':2,'quantity':3,'notes':4,'gap':5}
+    result['sections']=sorted(result.get('sections',[]),key=lambda s:order.get(s.get('kind','content'),0))
+    return result

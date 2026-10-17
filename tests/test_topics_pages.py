@@ -53,7 +53,7 @@ class PagesTests(unittest.TestCase):
         self.assertEqual(last['display_text'],original[-1])
         self.assertEqual(len(p.payloads),1)
         self.assertTrue(second['display_only']);self.assertEqual(second['speech_text'],'')
-        self.assertEqual(set(p.route_payloads[0]),{'user_text','current','total'})
+        self.assertEqual(set(p.route_payloads[0]),{'user_text','current','total','context'})
     def test_bridge_page_direct_send_and_no_tts(self):
         p=Provider([long_response()],[{'intent':'page','page':2}])
         e=Engine(self.src,p);e.process('hồ sơ')

@@ -1,3 +1,15 @@
+# Citizen Agent V17.4 — quản lý hội thoại và STT tiếng Việt
+
+Bản này sửa luồng nhận dạng trường hợp, giữ nhu cầu nội dung khi hỏi bổ sung/sửa dữ kiện, giữ trang khi model nhận diện câu không rõ, và phân nhóm nội dung trước khi chia trang. STT dùng `language=vi`, không đưa câu hỏi vào prompt. Model vẫn quyết định nghiệp vụ; engine lưu trạng thái và sắp nhóm hiển thị theo nhãn model cung cấp.
+
+Dữ liệu pháp lý vẫn là Meta 3.1; `data/dialogue_contracts_17_4.json` mô tả yêu cầu nhận dạng và các thành phần cần kiểm tra của từng mục, không tự chứng nhận nguồn đã đầy đủ. Lỗi địa chỉ dữ liệu, quota và thông báo lỗi chung chưa được sửa theo phạm vi đã thống nhất.
+
+Chạy như trước: `python voice_motion_runtime_v17.py` hoặc `python chat.py`. Giữ thư mục `models` và preset đang chạy. Phiên lưu từ V17.3 không khôi phục vào trạng thái V17.4; bắt đầu hội thoại mới. Không cần sửa Unity.
+
+Kiểm thử và giới hạn: [báo cáo V17.4](reports/v17_4/Summary.md), [chi tiết replay](reports/v17_4/Replay_report.md). Công cụ chạy lại bằng WAV: `tools/replay_voice_sessions.py` (có phí API, không kèm WAV người dùng trong source).
+
+---
+
 # Citizen Agent V17.3 — Unity compatible text display
 
 V17.3 sends the information section through the existing Unity `speech_text` protocol. Social speech goes only to TTS; procedure information and question options go only to the screen. The model remains gpt-5.2 with the new Meta 3.1 topic-layer dataset. V17.3 adds model-controlled topic selection and silent page navigation.

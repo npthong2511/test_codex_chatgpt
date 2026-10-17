@@ -1,0 +1,48 @@
+{
+  "20261017_092026_995": {
+    "turns": 29,
+    "modes": {
+      "question": 18,
+      "clarification": 6,
+      "page": 2,
+      "switch_confirm": 3
+    },
+    "dialogue_calls": 54,
+    "usage": {
+      "input_tokens": 215414,
+      "output_tokens": 10932,
+      "total_tokens": 226346
+    },
+    "original_modes": {
+      "question": 11,
+      "answer": 4,
+      "switch_confirm": 3,
+      "no_speech_detected": 3,
+      "page": 7,
+      "transport_error": 1
+    }
+  },
+  "20261017_085528_390": {
+    "turns": 21,
+    "modes": {
+      "question": 7,
+      "answer": 9,
+      "clarification": 2,
+      "switch_confirm": 1,
+      "no_speech_detected": 2
+    },
+    "dialogue_calls": 47,
+    "usage": {
+      "input_tokens": 252796,
+      "output_tokens": 9771,
+      "total_tokens": 262567
+    },
+    "original_modes": {
+      "question": 9,
+      "answer": 4,
+      "no_speech_detected": 4,
+      "switch_confirm": 1,
+      "transport_error": 3
+    }
+  }
+}

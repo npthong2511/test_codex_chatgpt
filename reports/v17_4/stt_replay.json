@@ -1,0 +1,617 @@
+{
+  "turn_001_20261017_092047_406": {
+    "text": "Tôi muốn chuyển trường cho con tôi.",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Tôi muốn chuyển trường cho con tôi.",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_002_20261017_092123_265": {
+    "text": "học sinh Việt Nam chuyển từ nước ngoài về",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "học sinh Việt Nam chuyển từ nước ngoài về",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_003_20261017_092146_407": {
+    "text": "Hồ sơ cần chuẩn bị là gì?",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Hồ sơ cần chuẩn bị là gì?",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_004_20261017_092215_287": {
+    "text": "à tôi nhầm là chỉ trường bình thường ở Việt Nam.",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "à tôi nhầm là chỉ trường bình thường ở Việt Nam.",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_005_20261017_092246_189": {
+    "text": "Có đổi sang chuyển trường bình thường trong Việt Nam.",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Có đổi sang chuyển trường bình thường trong Việt Nam.",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_006_20261017_092311_516": {
+    "text": "cách book được tiền như thế nào?",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "cách book được tiền như thế nào?",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_007_20261017_092348_165": {
+    "text": "네.",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "네.",
+        "language": "vi"
+      },
+      {
+        "attempt": 2,
+        "text": "네.",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_008_20261017_092357_425": {
+    "text": "tiếp theo",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "tiếp theo",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_009_20261017_092405_420": {
+    "text": "Trước đó",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Trước đó",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_010_20261017_092413_865": {
+    "text": "接著",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "接頭",
+        "language": "vi"
+      },
+      {
+        "attempt": 2,
+        "text": "接著",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_011_20261017_092420_968": {
+    "text": "디테일",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "디테일",
+        "language": "vi"
+      },
+      {
+        "attempt": 2,
+        "text": "디테일",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_012_20261017_092430_031": {
+    "text": "深體",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "碧頭",
+        "language": "vi"
+      },
+      {
+        "attempt": 2,
+        "text": "深體",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_013_20261017_092451_322": {
+    "text": "hồ sơ cần chuẩn bị là gì?",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "hồ sơ cần chuẩn bị là gì?",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_014_20261017_092516_057": {
+    "text": "DeepL",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "深尾條",
+        "language": "vi"
+      },
+      {
+        "attempt": 2,
+        "text": "DeepL",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_015_20261017_092532_873": {
+    "text": "tôi muốn làm căn cước công dân.",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "tôi muốn làm căn cước công dân.",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_016_20261017_092557_841": {
+    "text": "Có chuyển sang thủ tục căn cứ công dân cho tôi.",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Có chuyển sang thủ tục căn cứ công dân cho tôi.",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_017_20261017_092618_591": {
+    "text": "cấp căn cước công dân lần đầu",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "cấp căn cước công dân lần đầu",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_018_20261017_092638_221": {
+    "text": "Hồ sơ cần chuẩn bị là gì?",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Hồ sơ cần chuẩn bị là gì?",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_019_20261017_092654_816": {
+    "text": "The",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "",
+        "language": "vi"
+      },
+      {
+        "attempt": 2,
+        "text": "The",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_020_20261017_092713_888": {
+    "text": "Từ sáu tới mười bốn tuổi",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Từ sáu tới mười bốn tuổi",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_021_20261017_092738_387": {
+    "text": "Có xem hồ sơ cần chuẩn bị.",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Có xem hồ sơ cần chuẩn bị.",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_022_20261017_092801_927": {
+    "text": "tiếp theo cho tôi",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "tiếp theo cho tôi",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_001_20261017_085545_067": {
+    "text": "tôi muốn làm căn cứ công dân",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "tôi muốn làm căn cứ công dân",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_002_20261017_085606_641": {
+    "text": "cấp lần đầu",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "cấp lần đầu",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_003_20261017_085627_945": {
+    "text": "Hồ sơ cần chuẩn bị là gì?",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Hồ sơ cần chuẩn bị là gì?",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_004_20261017_085646_982": {
+    "text": "Dưới sáu tuổi",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Dưới sáu tuổi",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_005_20261017_085723_034": {
+    "text": "detail",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "detail",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_006_20261017_085756_566": {
+    "text": "那拿後色",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "那拿婆瑟",
+        "language": "vi"
+      },
+      {
+        "attempt": 2,
+        "text": "那拿後色",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_007_20261017_085807_174": {
+    "text": "Nơi đọc hồ sơ là gì?",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Nơi đọc hồ sơ là gì?",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_008_20261017_085842_256": {
+    "text": "接頭",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "接頭",
+        "language": "vi"
+      },
+      {
+        "attempt": 2,
+        "text": "接頭",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_009_20261017_085854_192": {
+    "text": "Tôi muốn chuyển mục đích sử dụng đất.",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Tôi muốn chuyển mục đích sử dụng đất.",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_010_20261017_085922_411": {
+    "text": "Có, tôi muốn chuyển sang thủ tục sử dụng đất.",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Có, tôi muốn chuyển sang thủ tục sử dụng đất.",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_011_20261017_085947_974": {
+    "text": "tôi muốn biết về hồ sơ cần chuẩn bị là gì?",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "tôi muốn biết về hồ sơ cần chuẩn bị là gì?",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_012_20261017_090013_339": {
+    "text": "Chuyển mục đích, chuyển hình thức sử dụng, gia hạn hoặc điều chỉnh thời hạn sử dụng đất.",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Chuyển mục đích, chuyển hình thức sử dụng, gia hạn hoặc điều chỉnh thời hạn sử dụng đất.",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_013_20261017_090034_058": {
+    "text": "Chuyển hình thức sử dụng đất",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Chuyển hình thức sử dụng đất",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_014_20261017_090054_032": {
+    "text": "Hồ sơ cần chuẩn bị là gì?",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Hồ sơ cần chuẩn bị là gì?",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_015_20261017_090119_051": {
+    "text": "tôi muốn hỏi thêm về thời hạn xử lý.",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "tôi muốn hỏi thêm về thời hạn xử lý.",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_016_20261017_090141_676": {
+    "text": "thời hạn xử lý",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "thời hạn xử lý",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_017_20261017_090204_777": {
+    "text": "",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "",
+        "language": "vi"
+      },
+      {
+        "attempt": 2,
+        "text": "",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_018_20261017_090212_932": {
+    "text": "Đây nơi nạp hồ sơ là ở đâu?",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Đây nơi nạp hồ sơ là ở đâu?",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_019_20261017_090227_844": {
+    "text": "",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "",
+        "language": "vi"
+      },
+      {
+        "attempt": 2,
+        "text": "",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_020_20261017_090230_923": {
+    "text": "Thư là ở đâu?",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Thư là ở đâu?",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_021_20261017_090251_024": {
+    "text": "nơi nộp hồ sơ là ở đâu?",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "nơi nộp hồ sơ là ở đâu?",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_023_20261017_092812_154": {
+    "text": "tiếp theo cho tôi",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "tiếp theo cho tôi",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_024_20261017_092820_946": {
+    "text": "tiếp theo cho tôi.",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "tiếp theo cho tôi.",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_025_20261017_092828_520": {
+    "text": "Trước đó cho tôi",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Trước đó cho tôi",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_026_20261017_092844_199": {
+    "text": "tiếp theo cho tôi.",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "tiếp theo cho tôi.",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_027_20261017_092856_922": {
+    "text": "Tôi muốn đăng ký khai sinh.",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Tôi muốn đăng ký khai sinh.",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_028_20261017_092929_105": {
+    "text": "Có chuyển sang thủ tục đăng ký khai sinh",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Có chuyển sang thủ tục đăng ký khai sinh",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_029_20261017_092949_678": {
+    "text": "Hướng dẫn",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Hướng dẫn",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_030_20261017_093007_531": {
+    "text": "trở lại cho tôi",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "trở lại cho tôi",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_031_20261017_093015_973": {
+    "text": "Gesy",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "Gesy",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_032_20261017_093039_292": {
+    "text": "",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "",
+        "language": "vi"
+      },
+      {
+        "attempt": 2,
+        "text": "",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_033_20261017_093130_528": {
+    "text": "",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "",
+        "language": "vi"
+      },
+      {
+        "attempt": 2,
+        "text": "",
+        "language": "vi"
+      }
+    ]
+  },
+  "turn_034_20261017_093144_186": {
+    "text": "",
+    "stt": [
+      {
+        "attempt": 1,
+        "text": "",
+        "language": "vi"
+      },
+      {
+        "attempt": 2,
+        "text": "",
+        "language": "vi"
+      }
+    ]
+  }
+}

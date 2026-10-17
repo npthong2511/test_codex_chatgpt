@@ -1,0 +1,192 @@
+{
+  "results": [
+    {
+      "text": "xzpl ah krr",
+      "expected": "unclear",
+      "response": {
+        "intent": "unclear",
+        "page": 0,
+        "clarification": "Anh/chị vui lòng gõ lại rõ hơn: muốn xem trang tiếp/theo trang hay muốn hỏi thêm nội dung nào về hồ sơ?"
+      },
+      "passed": true
+    },
+    {
+      "text": "A",
+      "expected": "continue",
+      "response": {
+        "intent": "continue",
+        "page": 0,
+        "clarification": ""
+      },
+      "passed": true
+    },
+    {
+      "text": "tiếp nhưng tôi nhầm, con tôi 15 tuổi",
+      "expected": "continue",
+      "response": {
+        "intent": "continue",
+        "page": 0,
+        "clarification": ""
+      },
+      "passed": true
+    },
+    {
+      "text": "trước đó",
+      "expected": "page",
+      "response": {
+        "intent": "page",
+        "page": 2,
+        "clarification": ""
+      },
+      "passed": true
+    }
+  ],
+  "events": [
+    {
+      "call": 1,
+      "payload": {
+        "user_text": "xzpl ah krr",
+        "current": 2,
+        "total": 4,
+        "context": {
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "last_question": "Anh/chị muốn hỏi thêm nội dung nào?",
+          "options": []
+        }
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 338,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 53,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 391
+      },
+      "response_id": "resp_0cc88696abc09c21016ad2c4571e5c87d0b279382790ee1046",
+      "decision": {
+        "intent": "unclear",
+        "page": 0,
+        "clarification": "Anh/chị vui lòng gõ lại rõ hơn: muốn xem trang tiếp/theo trang hay muốn hỏi thêm nội dung nào về hồ sơ?"
+      },
+      "seconds": 1.9616845370037481
+    },
+    {
+      "call": 2,
+      "payload": {
+        "user_text": "A",
+        "current": 1,
+        "total": 1,
+        "context": {
+          "stage": "identify",
+          "pending_question": "Nhóm tuổi?",
+          "options": [
+            {
+              "id": "A",
+              "label": "Dưới 6 tuổi"
+            },
+            {
+              "id": "B",
+              "label": "Từ 6 đến dưới 14 tuổi"
+            }
+          ]
+        }
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 353,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 24,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 377
+      },
+      "response_id": "resp_036f879e6e67e27b016ad2c458ecc487d08daca3b3701f9e66",
+      "decision": {
+        "intent": "continue",
+        "page": 0,
+        "clarification": ""
+      },
+      "seconds": 0.9498045860091224
+    },
+    {
+      "call": 3,
+      "payload": {
+        "user_text": "tiếp nhưng tôi nhầm, con tôi 15 tuổi",
+        "current": 1,
+        "total": 4,
+        "context": {
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "options": []
+        }
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 331,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 24,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 355
+      },
+      "response_id": "resp_083415cfd44a79ae016ad2c45ee08087d0bc4380d7ca44fde8",
+      "decision": {
+        "intent": "continue",
+        "page": 0,
+        "clarification": ""
+      },
+      "seconds": 5.919880050001666
+    },
+    {
+      "call": 4,
+      "payload": {
+        "user_text": "trước đó",
+        "current": 3,
+        "total": 4,
+        "context": {
+          "stage": "topic",
+          "selected_topic": "ho_so",
+          "options": []
+        }
+      },
+      "model": "gpt-5.2",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 322,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 24,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 346
+      },
+      "response_id": "resp_04e68a35d4489709016ad2c45fcf6887d08007af058e09c204",
+      "decision": {
+        "intent": "page",
+        "page": 2,
+        "clarification": ""
+      },
+      "seconds": 0.9761189330019988
+    }
+  ]
+}

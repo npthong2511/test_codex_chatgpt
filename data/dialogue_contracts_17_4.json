@@ -1,0 +1,44 @@
+{
+  "version": "17.4",
+  "identity": {
+    "completion": "Resolve applicable structural branch conditions before selecting content; model judges which children distinguish identity versus rules/content.",
+    "correction": "Revisit affected branch, retain independent facts and requested topics."
+  },
+  "content": {
+    "ho_so": [
+      "citizen_prepares",
+      "conditional_documents",
+      "authority_generated_forms",
+      "quantity_and_notes"
+    ],
+    "huong_dan": [
+      "submission",
+      "receipt_and_review",
+      "processing",
+      "result_collection"
+    ],
+    "chi_phi": [
+      "amount",
+      "applicability",
+      "exemptions_if_supported"
+    ],
+    "noi_nop": [
+      "authority",
+      "location_or_channel",
+      "jurisdiction"
+    ],
+    "thoi_gian": [
+      "duration",
+      "starting_point",
+      "exclusions_if_supported"
+    ],
+    "ket_qua": [
+      "document_or_benefit",
+      "conditions"
+    ],
+    "dieu_kien": [
+      "eligibility",
+      "exceptions"
+    ]
+  }
+}
