@@ -17,7 +17,7 @@ class TopicMetaTests(unittest.TestCase):
             for c in n['children']:walk(c)
         walk(cls.original['tree'])
     def test_new_file_is_active(self):
-        self.assertEqual(self.src.meta_filename,'kb_meta_tree_3.1.json')
+        self.assertEqual(self.src.meta_filename,'kb_meta_tree_3.2.json')
     def test_every_case_has_seven_topics(self):
         cases=[n for n in self.src.nodes.values() if n['kind']=='case_group']
         self.assertEqual(len(cases),137)

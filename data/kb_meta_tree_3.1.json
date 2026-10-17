@@ -9963,14 +9963,33 @@
                   "text": "Cần trích lục, đăng ký lại, cải chính, bổ sung, ghi chú hoặc khai sinh cho người đã có hồ sơ cá nhân",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Xác định người dân cần cấp bản sao trích lục khai sinh, đăng ký lại khai sinh hay thay đổi/cải chính thông tin khai sinh. Nếu chỉ cần bản sao, nộp yêu cầu cấp bản sao trích lục hộ tịch trực tiếp tại Trung tâm Phục vụ hành chính công có thẩm quyền hoặc trực tuyến qua Cổng dịch vụ công quốc gia. Nếu bản đăng ký gốc không còn và đủ điều kiện đăng ký lại, chuyển sang thủ tục đăng ký lại khai sinh; nếu thông tin sai, chuyển sang thủ tục cải chính hộ tịch. Không xử lý ba nhu cầu này như đăng ký khai sinh lần đầu.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_717B0FEF4504",
+                      "VERIFY_9F4A18D5D7B9",
+                      "VERIFY_FB0ADD46F555"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=2.000635.000.00.00.H01",
+                      "quote": "người yêu cầu cấp bản sao Trích lục hộ tịch",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P01.R01.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P01.R01.TOPIC.ho_so",
@@ -10206,14 +10225,33 @@
                   "text": "Cần trích lục, đăng ký lại, cải chính, bổ sung, ghi chú hoặc khai sinh cho người đã có hồ sơ cá nhân",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Nếu đề nghị cấp bản sao: nhận bản sao trích lục khai sinh/giấy khai sinh từ cơ quan quản lý dữ liệu hộ tịch. Nếu đăng ký lại: kết quả là giấy khai sinh được đăng ký lại sau khi hồ sơ hợp lệ. Nếu cải chính: kết quả là nội dung hộ tịch được điều chỉnh và trích lục thay đổi, cải chính tương ứng; kết quả phụ thuộc loại thủ tục thực tế.",
+                    "topics": [
+                      "ket_qua"
+                    ],
+                    "source_refs": [
+                      "VERIFY_717B0FEF4504",
+                      "VERIFY_9F4A18D5D7B9",
+                      "VERIFY_FB0ADD46F555"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=2.000635.000.00.00.H01",
+                      "quote": "người yêu cầu cấp bản sao Trích lục hộ tịch",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P01.R01.TOPIC.ket_qua; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P01.R01.TOPIC.dieu_kien",
@@ -10261,7 +10299,7 @@
                 "id": "P01.R01.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P01.R01.TOPIC.ho_so",
@@ -10291,7 +10329,7 @@
                 "id": "P01.R01.TOPIC.ket_qua",
                 "topic": "ket_qua",
                 "title": "Kết quả và quyền lợi",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P01.R01.TOPIC.dieu_kien",
@@ -14637,14 +14675,33 @@
                   "text": "Đã đăng ký; xin trích lục, đăng ký lại hoặc điều chỉnh",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Làm rõ người dân cần cấp trích lục khai tử đã đăng ký, đăng ký lại khai tử hay cải chính thông tin khai tử. Với cấp bản sao, gửi yêu cầu cấp trích lục hộ tịch tới cơ quan có thẩm quyền hoặc nộp trực tuyến. Với đăng ký lại khai tử, nộp hồ sơ đăng ký lại tại Trung tâm Phục vụ hành chính công có thẩm quyền hoặc qua Cổng dịch vụ công quốc gia/VNeID theo công bố thủ tục; với sai thông tin, sử dụng thủ tục thay đổi, cải chính, bổ sung hộ tịch.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_18D1FA6B27B0",
+                      "VERIFY_717B0FEF4504",
+                      "VERIFY_FB0ADD46F555"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-dung-chung.html?ma_thu_tuc=1.005461.000.00.00.H01",
+                      "quote": "nộp hồ sơ đăng ký lại khai tử",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P02.R01.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P02.R01.TOPIC.ho_so",
@@ -14928,7 +14985,7 @@
                 "id": "P02.R01.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P02.R01.TOPIC.ho_so",
@@ -37202,14 +37259,32 @@
                   "text": "Chỉ thông báo lưu trú ngắn ngày hoặc người nước ngoài khai báo tạm trú",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Nếu chỉ thông báo lưu trú ngắn ngày thì kết quả là thông tin lưu trú được tiếp nhận theo quy định, không phải kết quả đăng ký tạm trú dài hạn. Với người nước ngoài: khai báo trực tuyến có kết quả là thông tin tạm trú được cập nhật/lưu trên hệ thống của cơ quan xuất nhập cảnh; khai báo bằng phiếu trực tiếp có kết quả là phiếu khai báo được Công an cấp xã xác nhận và thông tin được ghi nhận.",
+                    "topics": [
+                      "ket_qua"
+                    ],
+                    "source_refs": [
+                      "VERIFY_6B2B801E5C0D",
+                      "VERIFY_926E0B4F1C60"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://dichvucong.bocongan.gov.vn/public/link-to/chi-tiet-thu-tuc?ma-thu-tuc=26265",
+                      "quote": "Thông tin tạm trú của người nước ngoài được cập nhật",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P06.R01.TOPIC.ket_qua; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P06.R01.TOPIC.dieu_kien",
@@ -37295,7 +37370,7 @@
                 "id": "P06.R01.TOPIC.ket_qua",
                 "topic": "ket_qua",
                 "title": "Kết quả và quyền lợi",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P06.R01.TOPIC.dieu_kien",
@@ -40057,14 +40132,32 @@
                   "text": "Dữ liệu sai hoặc có thay đổi cần cập nhật",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Xác định thông tin cư trú cần điều chỉnh là chủ hộ, dữ liệu hộ tịch chưa đồng bộ hay nội dung khác. Người dân chuẩn bị tờ khai thay đổi thông tin cư trú và giấy tờ chứng minh theo trường hợp, gửi đến cơ quan đăng ký cư trú (Công an cấp xã) hoặc qua kênh trực tuyến phù hợp. Cơ quan tiếp nhận kiểm tra, yêu cầu bổ sung nếu thiếu và cập nhật dữ liệu cư trú khi có căn cứ; nếu sai lệch bắt nguồn từ dữ liệu hộ tịch, phải xử lý/đồng bộ dữ liệu gốc theo hướng dẫn cơ quan có thẩm quyền.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_5A10BBE3EF4E",
+                      "VERIFY_5EE06DC7F016"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://xaydungchinhsach.chinhphu.vn/quy-dinh-dieu-chinh-thong-tin-ve-cu-tru-trong-co-so-du-lieu-ve-cu-tru-119260806155046695.htm",
+                      "quote": "Điều chỉnh thông tin về cư trú trong Cơ sở dữ liệu về cư trú",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P07.C02.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P07.C02.TOPIC.ho_so",
@@ -40278,7 +40371,7 @@
                 "id": "P07.C02.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P07.C02.TOPIC.ho_so",
@@ -51126,14 +51219,31 @@
                   "text": "Thay diện tích, kích thước, hình thể hoặc ranh giới",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Nếu diện tích, kích thước, hình thể hoặc ranh giới thực tế khác thông tin đã đăng ký, xác định nguyên nhân (đo đạc sai, ranh thực tế thay đổi hay nhận thêm diện tích). Chuẩn bị giấy chứng nhận đã cấp, trích đo/bản đồ hoặc tài liệu biến động tương ứng và đăng ký tại Trung tâm Phục vụ hành chính công, Văn phòng đăng ký đất đai hoặc Chi nhánh; cơ quan chuyên môn kiểm tra, đo đạc và xác định thủ tục cấp đổi/đăng ký biến động phù hợp. Không mặc định diện tích tăng thêm được công nhận nếu chưa có căn cứ.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_8F4A8AFA01C4"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.012783",
+                      "quote": "trích đo bản đồ địa chính thửa đất",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P09.C05.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P09.C05.TOPIC.ho_so",
@@ -51377,7 +51487,7 @@
                 "id": "P09.C05.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P09.C05.TOPIC.ho_so",
@@ -51868,14 +51978,31 @@
                   "text": "Xây mới, cải tạo hoặc phá dỡ tài sản trên đất",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Trước hết xác định tài sản đã được chứng nhận quyền sở hữu hay chưa và thay đổi là xây mới, cải tạo hay phá dỡ. Nếu đã có giấy đất và cần bổ sung hoặc thay đổi thông tin tài sản gắn liền với đất, nộp hồ sơ đăng ký tài sản/cấp đổi theo thủ tục tương ứng tại Trung tâm Phục vụ hành chính công hoặc Văn phòng đăng ký đất đai/chi nhánh. Xuất trình giấy tờ hợp pháp về công trình và giấy chứng nhận hiện có theo yêu cầu của thủ tục; không coi mọi công trình xây dựng đều đủ điều kiện được ghi nhận.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_4521DC4B8623"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.014367",
+                      "quote": "đăng ký tài sản gắn liền với thửa đất đã được cấp Giấy chứng nhận",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P09.C06.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P09.C06.TOPIC.ho_so",
@@ -52103,7 +52230,7 @@
                 "id": "P09.C06.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P09.C06.TOPIC.ho_so",
@@ -53800,14 +53927,31 @@
                   "text": "Giao đất, cho thuê đất, thu hồi, đổi mục đích hoặc thời hạn sử dụng",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Phân loại cụ thể yêu cầu là giao đất, thuê đất, thu hồi đất, chuyển mục đích hay gia hạn thời hạn sử dụng, vì đây là các thủ tục có cơ quan quyết định và hồ sơ khác nhau. Trước khi yêu cầu cập nhật biến động trên giấy chứng nhận, người dân cần có quyết định hoặc văn bản pháp lý tương ứng của cơ quan có thẩm quyền; thực hiện nghĩa vụ tài chính nếu phát sinh rồi yêu cầu đăng ký/cập nhật theo quy trình đất đai. Không xử lý quyết định giao/thu hồi/chuyển mục đích như một hồ sơ đổi tên đơn giản.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_6263C497DB02"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-dat-dai-119240221224513596.htm",
+                      "quote": "Luật Đất đai",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P09.C07.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P09.C07.TOPIC.ho_so",
@@ -54067,7 +54211,7 @@
                 "id": "P09.C07.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P09.C07.TOPIC.ho_so",
@@ -55406,14 +55550,31 @@
                   "text": "Thay đổi do quy hoạch, địa giới hoặc hạ tầng",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Xác định nội dung cần cập nhật phát sinh từ văn bản quy hoạch/địa giới hành chính hay từ việc điều chỉnh thửa đất, đường giao thông. Người dân cung cấp giấy chứng nhận hiện có và tài liệu, quyết định liên quan nếu có, đề nghị kiểm tra cơ sở dữ liệu/bản đồ địa chính tại cơ quan đăng ký đất đai. Nếu chỉ thay đổi tên đơn vị hành chính mà chưa phát sinh yêu cầu cấp đổi, không mặc định phải cấp đổi giấy chứng nhận; nếu diện tích hoặc ranh giới biến động thực tế, chọn thủ tục biến động/đo đạc tương ứng.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_8F4A8AFA01C4"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.012783",
+                      "quote": "trích đo bản đồ địa chính thửa đất",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P09.C09.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P09.C09.TOPIC.ho_so",
@@ -55657,7 +55818,7 @@
                 "id": "P09.C09.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P09.C09.TOPIC.ho_so",
@@ -56688,14 +56849,31 @@
                   "text": "Cho thuê, cho thuê lại quyền sử dụng đất",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Với việc cho thuê hoặc cho thuê lại quyền sử dụng đất, xác định người cho thuê có quyền thực hiện giao dịch, đất đủ điều kiện và có thuộc trường hợp phải đăng ký biến động hay không. Lập hợp đồng và các chứng từ hợp lệ theo loại giao dịch; khi phải đăng ký, nộp hồ sơ tại Trung tâm Phục vụ hành chính công/Văn phòng đăng ký đất đai hoặc chi nhánh. Cơ quan đăng ký kiểm tra điều kiện, thực hiện chỉnh lý hoặc ghi nhận biến động theo quy định, không đồng nhất việc ký hợp đồng với hoàn tất đăng ký.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_27A3E113A514"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.013831",
+                      "quote": "người yêu cầu đăng ký nộp hồ sơ",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P09.M01.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P09.M01.TOPIC.ho_so",
@@ -56915,7 +57093,7 @@
                 "id": "P09.M01.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P09.M01.TOPIC.ho_so",
@@ -59521,14 +59699,31 @@
                   "text": "Có công việc đăng ký/thay đổi/xóa/thông báo/cấp bản sao/cung cấp thông tin biện pháp bảo đảm bằng đất",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Phân biệt đăng ký thế chấp/biện pháp bảo đảm mới, sửa nội dung đã đăng ký, xóa đăng ký hay yêu cầu cung cấp thông tin. Xác định loại tài sản bảo đảm và cơ quan đăng ký có thẩm quyền, chuẩn bị phiếu yêu cầu cùng hợp đồng/văn bản chứng minh căn cứ của từng nghiệp vụ; nộp tại cơ quan đăng ký theo Nghị định 99/2022/NĐ-CP và nhận kết quả ghi nhận hoặc cung cấp thông tin. Không tự coi yêu cầu tra cứu là xóa thế chấp.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_B0979A507340"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/12/99-cp.signed.pdf",
+                      "quote": "đăng ký biện pháp bảo đảm",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P09.M02.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P09.M02.TOPIC.ho_so",
@@ -59796,7 +59991,7 @@
                 "id": "P09.M02.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P09.M02.TOPIC.ho_so",
@@ -61064,14 +61259,31 @@
                   "text": "Góp vốn bằng quyền sử dụng đất, tài sản gắn liền với đất",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Đối với góp vốn bằng quyền sử dụng đất hoặc tài sản gắn liền với đất, trước tiên đối chiếu điều kiện thực hiện quyền, tư cách bên góp vốn và phạm vi quyền góp vốn. Lập hợp đồng/văn bản góp vốn phù hợp, chuẩn bị giấy chứng nhận và giấy tờ pháp lý có liên quan, nộp hồ sơ đăng ký biến động tại cơ quan tiếp nhận/Văn phòng đăng ký đất đai hoặc chi nhánh; thực hiện nghĩa vụ tài chính (nếu có) và nhận kết quả cập nhật. Không sử dụng nhánh chuyển nhượng mua bán thay cho góp vốn.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_27A3E113A514"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.013831",
+                      "quote": "người yêu cầu đăng ký nộp hồ sơ",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P09.M03.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P09.M03.TOPIC.ho_so",
@@ -61315,7 +61527,7 @@
                 "id": "P09.M03.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P09.M03.TOPIC.ho_so",
@@ -61742,14 +61954,31 @@
                   "text": "Chuyển đổi quyền sử dụng đất nông nghiệp",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Nếu chuyển đổi quyền sử dụng đất nông nghiệp, xác định có thuộc phương án dồn điền đổi thửa hay chuyển đổi riêng lẻ; xác nhận đối tượng, thửa đất, loại đất và điều kiện pháp lý. Chuẩn bị thỏa thuận/chứng từ chuyển đổi, giấy chứng nhận và hồ sơ theo thủ tục đăng ký biến động của hình thức chuyển đổi tương ứng; nộp cho cơ quan tiếp nhận hoặc Văn phòng đăng ký đất đai/chi nhánh để kiểm tra và cập nhật quyền. Không áp dụng máy móc quy trình của chuyển nhượng có thu tiền.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_27A3E113A514"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.013831",
+                      "quote": "người yêu cầu đăng ký nộp hồ sơ",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P09.M04.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P09.M04.TOPIC.ho_so",
@@ -61969,7 +62198,7 @@
                 "id": "P09.M04.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P09.M04.TOPIC.ho_so",
@@ -81282,14 +81511,31 @@
                   "text": "Đã có giấy đất; đề nghị chứng nhận bổ sung tài sản",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Đã có Giấy chứng nhận quyền sử dụng đất nhưng muốn ghi nhận thêm nhà ở/công trình thì thực hiện thủ tục đăng ký tài sản gắn liền với thửa đất đã được cấp giấy. Nộp hồ sơ tại Trung tâm Phục vụ hành chính công/Văn phòng đăng ký đất đai hoặc chi nhánh; kèm Giấy chứng nhận đã cấp và giấy tờ chứng minh quyền sở hữu tài sản, giấy tờ xây dựng/hoàn công theo trường hợp. Cơ quan chuyên môn kiểm tra tính hợp pháp của tài sản và cập nhật/cấp đổi giấy nếu đáp ứng điều kiện.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_4521DC4B8623"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.014367",
+                      "quote": "đăng ký tài sản gắn liền với thửa đất đã được cấp Giấy chứng nhận",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P10.C03.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P10.C03.TOPIC.ho_so",
@@ -81517,7 +81763,7 @@
                 "id": "P10.C03.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P10.C03.TOPIC.ho_so",
@@ -81906,14 +82152,31 @@
                   "text": "Đã có giấy nhưng mất/hỏng, muốn sang tên hoặc tăng diện tích do đổi ranh",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Đây không phải thủ tục cấp Giấy chứng nhận lần đầu. Nếu giấy đã cấp bị mất hoặc hư hỏng, hướng dẫn nhánh cấp lại/cấp đổi; nếu đổi tên chủ sử dụng do chuyển nhượng, chọn đăng ký biến động chuyển quyền; nếu tăng diện tích do đổi ranh hoặc nhận thêm đất, cần xác định căn cứ hình thành phần tăng và xem xét đo đạc, biến động hay cấp đổi theo tình trạng hồ sơ. Nộp đúng thủ tục tại Trung tâm Phục vụ hành chính công/Văn phòng đăng ký đất đai hoặc chi nhánh.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_8F4A8AFA01C4"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.012783",
+                      "quote": "trích đo bản đồ địa chính thửa đất",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P10.R01.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P10.R01.TOPIC.ho_so",
@@ -82125,7 +82388,7 @@
                 "id": "P10.R01.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P10.R01.TOPIC.ho_so",
@@ -96345,14 +96608,31 @@
                   "text": "Tặng cho, thừa kế hoặc chuyển quyền không phải mua bán",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Nếu giao dịch thực tế là tặng cho hoặc thừa kế thì phải xác định hợp đồng tặng cho/văn bản thừa kế và giấy tờ quyền sử dụng đất tương ứng; không yêu cầu hợp đồng mua bán chuyển nhượng. Khi đáp ứng điều kiện, thực hiện đăng ký biến động theo nhánh tặng cho/thừa kế tại Văn phòng đăng ký đất đai/chi nhánh hoặc đơn vị tiếp nhận được phân công; cơ quan đăng ký kiểm tra giấy tờ và cập nhật người sử dụng đất theo kết quả giải quyết.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_27A3E113A514"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.013831",
+                      "quote": "người yêu cầu đăng ký nộp hồ sơ",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P12.R01.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P12.R01.TOPIC.ho_so",
@@ -96572,7 +96852,7 @@
                 "id": "P12.R01.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P12.R01.TOPIC.ho_so",
@@ -97367,14 +97647,31 @@
                   "text": "Đất chưa có giấy, đang tranh chấp/thi hành án hoặc chưa giải chấp",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Trước khi hướng dẫn chuyển nhượng, kiểm tra giấy chứng nhận, tình trạng tranh chấp, biện pháp bảo đảm, kê biên/thi hành án và điều kiện của thửa đất. Nếu giấy chưa được cấp, hướng dẫn làm rõ điều kiện đăng ký/cấp giấy; nếu đang tranh chấp hoặc bị kê biên, không khẳng định đủ điều kiện chuyển nhượng; nếu đang thế chấp, cần kiểm tra giao dịch với bên nhận bảo đảm và thủ tục xóa/thay đổi đăng ký biện pháp bảo đảm trước khi đăng ký biến động theo trường hợp.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_6263C497DB02"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-dat-dai-119240221224513596.htm",
+                      "quote": "Luật Đất đai",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P12.R02.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P12.R02.TOPIC.ho_so",
@@ -97618,7 +97915,7 @@
                 "id": "P12.R02.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P12.R02.TOPIC.ho_so",
@@ -104273,14 +104570,31 @@
                   "text": "Mục đích chính là tranh chấp, khiếu nại hoặc xác lập quyền",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Cần làm rõ người dân yêu cầu xác nhận nguồn gốc/thời điểm sử dụng đất để hoàn thiện hồ sơ cấp giấy, hay đang yêu cầu giải quyết tranh chấp/khiếu nại hoặc xác lập quyền. Nếu có tranh chấp, xác định các bên và thửa đất, thực hiện thủ tục hòa giải tranh chấp đất đai tại UBND cấp xã và các bước giải quyết theo thẩm quyền pháp luật quy định; nếu khiếu nại quyết định hành chính, chọn thủ tục khiếu nại thay vì yêu cầu UBND xác nhận nguồn gốc như kết luận về quyền sở hữu. Việc xác minh nguồn gốc không tự thay thế quyết định giải quyết tranh chấp.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_6263C497DB02"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-dat-dai-119240221224513596.htm",
+                      "quote": "Luật Đất đai",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P13.R01.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P13.R01.TOPIC.ho_so",
@@ -104548,7 +104862,7 @@
                 "id": "P13.R01.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P13.R01.TOPIC.ho_so",
@@ -121757,14 +122071,32 @@
                   "text": "Chưa nộp hồ sơ; đề nghị hưởng lần đầu cho đợt thất nghiệp này",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Trong 03 tháng kể từ ngày chấm dứt việc làm/hợp đồng (hoặc mốc đặc biệt theo Nghị định 374/2025/NĐ-CP), người lao động chưa có việc làm nộp 01 bộ hồ sơ đề nghị hưởng trợ cấp thất nghiệp cho tổ chức dịch vụ việc làm công tại địa phương nơi muốn nhận trợ cấp. Đơn vị tiếp nhận kiểm tra và cấp phiếu hẹn; trong 15 ngày làm việc từ khi đủ hồ sơ, trình Sở Nội vụ quyết định. Cơ quan BHXH chi trả theo quyết định; người lao động thực hiện thông báo tìm kiếm việc làm hằng tháng để tiếp tục hưởng theo quy định.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_F086D0BFA545",
+                      "VERIFY_0508463FA36C"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.014748",
+                      "quote": "nộp 01 bộ hồ sơ đề nghị hưởng trợ cấp thất nghiệp",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P15.C01.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P15.C01.TOPIC.ho_so",
@@ -122024,7 +122356,7 @@
                 "id": "P15.C01.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P15.C01.TOPIC.ho_so",
@@ -123234,14 +123566,31 @@
                   "text": "Đã có quyết định hưởng; đang nhận trợ cấp",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Người đã có quyết định hưởng trợ cấp thất nghiệp cần theo dõi lịch thông báo tìm kiếm việc làm trong phụ lục quyết định; hằng tháng gửi thông báo theo Mẫu 24 tới tổ chức dịch vụ việc làm công nơi đang hưởng (trực tiếp hoặc qua Cổng Dịch vụ công quốc gia theo quy định). Nếu bị tạm dừng do không thông báo, cần làm rõ quyết định tạm dừng và thực hiện thủ tục tiếp tục hưởng khi đủ điều kiện; khi tìm được việc, chuyển nơi hưởng hoặc thay đổi tình trạng phải thông báo theo thủ tục tương ứng.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_0508463FA36C"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.014749",
+                      "quote": "hằng tháng, người lao động phải thông báo",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P15.C02.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P15.C02.TOPIC.ho_so",
@@ -123469,7 +123818,7 @@
                 "id": "P15.C02.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P15.C02.TOPIC.ho_so",
@@ -130004,14 +130353,31 @@
                       "text": "Chưa có quyết định; đang hưởng trợ cấp thất nghiệp",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Người đang hưởng trợ cấp thất nghiệp và chưa có quyết định hỗ trợ nghề cần xác định khóa đào tạo dự kiến, cơ sở đào tạo nghề nghiệp và điều kiện tham gia theo Điều 37 Luật Việc làm. Liên hệ tổ chức dịch vụ việc làm công đang giải quyết trợ cấp thất nghiệp để nộp hồ sơ đề nghị hỗ trợ đào tạo, nâng cao kỹ năng nghề theo Nghị định 374/2025/NĐ-CP; cơ quan có thẩm quyền xét và ban hành quyết định hỗ trợ trước khi xác định kinh phí được hỗ trợ. Không tự áp mức tối đa cho mọi khóa học.",
+                        "topics": [
+                          "huong_dan"
+                        ],
+                        "source_refs": [
+                          "VERIFY_83A19FF696E8"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://chinhsachonline.chinhphu.vn/chinh-sach-ho-tro-dao-tao-nghe-cho-nguoi-dang-nhan-tro-cap-that-nghiep-88603.htm",
+                          "quote": "vẫn được hỗ trợ đào tạo, nâng cao trình độ kỹ năng nghề",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P16.C01.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P16.C01.TOPIC.ho_so",
@@ -130226,7 +130592,7 @@
                     "id": "P16.C01.TOPIC.huong_dan",
                     "topic": "huong_dan",
                     "title": "Các bước thực hiện",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P16.C01.TOPIC.ho_so",
@@ -130786,14 +131152,31 @@
                       "text": "Đã được quyết định hỗ trợ; nay trợ cấp thất nghiệp kết thúc",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Nếu đã có quyết định của Giám đốc Sở Nội vụ hỗ trợ đào tạo, nâng cao kỹ năng nghề mà sau đó bị chấm dứt hưởng trợ cấp thất nghiệp, quyền hỗ trợ học nghề vẫn được tiếp tục theo quyết định đã ban hành. Người học liên hệ cơ sở đào tạo và tổ chức dịch vụ việc làm công quản lý quyết định để xác nhận kế hoạch khóa học, thời gian và chi trả còn lại; không nộp hồ sơ hỗ trợ lần đầu chỉ vì trợ cấp thất nghiệp đã kết thúc.",
+                        "topics": [
+                          "huong_dan"
+                        ],
+                        "source_refs": [
+                          "VERIFY_83A19FF696E8"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://chinhsachonline.chinhphu.vn/chinh-sach-ho-tro-dao-tao-nghe-cho-nguoi-dang-nhan-tro-cap-that-nghiep-88603.htm",
+                          "quote": "vẫn được hỗ trợ đào tạo, nâng cao trình độ kỹ năng nghề",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P16.C03.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P16.C03.TOPIC.ho_so",
@@ -131064,7 +131447,7 @@
                     "id": "P16.C03.TOPIC.huong_dan",
                     "topic": "huong_dan",
                     "title": "Các bước thực hiện",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P16.C03.TOPIC.ho_so",
@@ -135316,14 +135699,31 @@
                   "text": "Xin học nghề theo chương trình khác, không phải bảo hiểm thất nghiệp",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Nếu xin học nghề ngoài chế độ bảo hiểm thất nghiệp, trước hết xác định chương trình thực tế: hỗ trợ đào tạo sơ cấp/dưới 3 tháng, chương trình của địa phương hoặc nguồn hỗ trợ khác. Hướng dẫn liên hệ Trung tâm Phục vụ hành chính công/cơ sở giáo dục nghề nghiệp đang triển khai chương trình để kiểm tra đối tượng, khóa học, kinh phí và hồ sơ theo văn bản của chính chương trình; không áp dụng tự động mức hỗ trợ và hồ sơ của Nghị định 374/2025/NĐ-CP cho người chưa thuộc diện bảo hiểm thất nghiệp.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_46B9A43427D4"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://vpcp.chinhphu.vn/ho-tro-dao-tao-trinh-do-so-cap-dao-tao-duoi-3-thang-11513470.htm",
+                      "quote": "hỗ trợ đào tạo trình độ sơ cấp",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P16.R01.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P16.R01.TOPIC.ho_so",
@@ -135631,7 +136031,7 @@
                 "id": "P16.R01.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P16.R01.TOPIC.ho_so",
@@ -137679,14 +138079,31 @@
                   "text": "Yêu cầu nghĩa vụ của người sử dụng lao động",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Nếu hỏi nghĩa vụ người sử dụng lao động, trước hết xác định tai nạn đã được khai báo/điều tra và trách nhiệm pháp lý của người sử dụng lao động. Người sử dụng lao động phải tổ chức sơ cấp cứu, tạm ứng và thanh toán chi phí y tế theo Luật An toàn, vệ sinh lao động; làm căn cứ bồi thường hoặc trợ cấp theo mức độ suy giảm hoặc trường hợp tử vong, thực hiện giám định/điều tra và lập hồ sơ đề nghị hưởng từ Quỹ bảo hiểm tai nạn lao động, bệnh nghề nghiệp nếu thuộc diện. Khi có tranh chấp về trách nhiệm, hướng dẫn cơ quan lao động có thẩm quyền chứ không thay bằng một hồ sơ trợ cấp xã.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_691598E6A557"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=70811",
+                      "quote": "Trách nhiệm của người sử dụng lao động",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P17.C01.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P17.C01.TOPIC.ho_so",
@@ -137954,7 +138371,7 @@
                 "id": "P17.C01.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P17.C01.TOPIC.ho_so",
@@ -146074,14 +146491,32 @@
                   "text": "Tai nạn gây chết người; thân nhân đề nghị chế độ",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Với tai nạn lao động gây tử vong, xác định tư cách thân nhân và vụ việc có thuộc tai nạn lao động đã được điều tra hay không. Người sử dụng lao động có trách nhiệm lập/hoàn thiện hồ sơ tai nạn, thực hiện bồi thường hoặc trợ cấp cho thân nhân theo Điều 38 Luật An toàn, vệ sinh lao động khi đủ điều kiện, đồng thời lập hồ sơ để cơ quan BHXH xem xét chế độ tử vong do tai nạn lao động. Thân nhân cần phối hợp lấy giấy tờ chứng minh tử vong, quan hệ nhân thân và hồ sơ tai nạn theo yêu cầu từng chế độ; bồi thường từ người sử dụng lao động và trợ cấp từ Quỹ BHXH là hai nguồn khác nhau.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_691598E6A557",
+                      "VERIFY_28124535A874"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=70811",
+                      "quote": "Trách nhiệm của người sử dụng lao động",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P17.C04.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P17.C04.TOPIC.ho_so",
@@ -146389,7 +146824,7 @@
                 "id": "P17.C04.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P17.C04.TOPIC.ho_so",
@@ -195891,14 +196326,32 @@
                       "text": "C01; bị thương khi chiến đấu/trực tiếp phục vụ chiến đấu",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Đối với trường hợp bị thương do bị thương khi chiến đấu/trực tiếp phục vụ chiến đấu, xác định người đề nghị thuộc nhóm đối tượng nào và cơ quan/đơn vị trực tiếp quản lý khi xảy ra sự việc. Cơ quan quản lý lập/xác minh giấy tờ chứng minh tình huống bị thương theo Điều 37 Nghị định 131/2021/NĐ-CP và đề nghị cấp giấy chứng nhận bị thương; hồ sơ được chuyển cơ quan quản lý người có công có thẩm quyền để giới thiệu giám định y khoa, xem xét tỷ lệ tổn thương, quyết định công nhận nếu đáp ứng đầy đủ điều kiện. Không tự kết luận được công nhận chỉ dựa vào tên tình huống.",
+                        "topics": [
+                          "huong_dan"
+                        ],
+                        "source_refs": [
+                          "VERIFY_790C18DA9367",
+                          "VERIFY_83629AD6D528"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.010806",
+                          "quote": "cấp giấy chứng nhận bị thương",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M01.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M01.TOPIC.ho_so",
@@ -196077,14 +196530,32 @@
                       "text": "C01; bị thương khi chiến đấu/trực tiếp phục vụ chiến đấu",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Kết quả đối với tình huống bị thương khi chiến đấu/trực tiếp phục vụ chiến đấu tùy kết quả kiểm tra căn cứ bị thương, đối tượng và giám định: người đủ điều kiện được cơ quan có thẩm quyền ban hành quyết định công nhận thương binh/người hưởng chính sách như thương binh và giấy chứng nhận, giải quyết trợ cấp hoặc phụ cấp theo tỷ lệ tổn thương và quy định áp dụng. Trường hợp chưa đủ điều kiện cần được thông báo/giải quyết theo hồ sơ cụ thể; không bảo đảm mọi hồ sơ đều dẫn đến công nhận hay trợ cấp.",
+                        "topics": [
+                          "ket_qua"
+                        ],
+                        "source_refs": [
+                          "VERIFY_83629AD6D528",
+                          "VERIFY_790C18DA9367"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=314171",
+                          "quote": "công nhận là thương binh",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M01.TOPIC.ket_qua; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M01.TOPIC.dieu_kien",
@@ -196182,7 +196653,7 @@
                     "id": "P20.M01.TOPIC.huong_dan",
                     "topic": "huong_dan",
                     "title": "Các bước thực hiện",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M01.TOPIC.ho_so",
@@ -196212,7 +196683,7 @@
                     "id": "P20.M01.TOPIC.ket_qua",
                     "topic": "ket_qua",
                     "title": "Kết quả và quyền lợi",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M01.TOPIC.dieu_kien",
@@ -196242,14 +196713,32 @@
                       "text": "C01; nhiệm vụ quốc phòng/an ninh tại địa bàn địch chiếm đóng/có chiến sự/tiếp giáp",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Đối với trường hợp bị thương do nhiệm vụ quốc phòng/an ninh tại địa bàn địch chiếm đóng/có chiến sự/tiếp giáp, xác định người đề nghị thuộc nhóm đối tượng nào và cơ quan/đơn vị trực tiếp quản lý khi xảy ra sự việc. Cơ quan quản lý lập/xác minh giấy tờ chứng minh tình huống bị thương theo Điều 37 Nghị định 131/2021/NĐ-CP và đề nghị cấp giấy chứng nhận bị thương; hồ sơ được chuyển cơ quan quản lý người có công có thẩm quyền để giới thiệu giám định y khoa, xem xét tỷ lệ tổn thương, quyết định công nhận nếu đáp ứng đầy đủ điều kiện. Không tự kết luận được công nhận chỉ dựa vào tên tình huống.",
+                        "topics": [
+                          "huong_dan"
+                        ],
+                        "source_refs": [
+                          "VERIFY_790C18DA9367",
+                          "VERIFY_83629AD6D528"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.010806",
+                          "quote": "cấp giấy chứng nhận bị thương",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M02.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M02.TOPIC.ho_so",
@@ -196402,14 +196891,32 @@
                       "text": "C01; nhiệm vụ quốc phòng/an ninh tại địa bàn địch chiếm đóng/có chiến sự/tiếp giáp",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Kết quả đối với tình huống nhiệm vụ quốc phòng/an ninh tại địa bàn địch chiếm đóng/có chiến sự/tiếp giáp tùy kết quả kiểm tra căn cứ bị thương, đối tượng và giám định: người đủ điều kiện được cơ quan có thẩm quyền ban hành quyết định công nhận thương binh/người hưởng chính sách như thương binh và giấy chứng nhận, giải quyết trợ cấp hoặc phụ cấp theo tỷ lệ tổn thương và quy định áp dụng. Trường hợp chưa đủ điều kiện cần được thông báo/giải quyết theo hồ sơ cụ thể; không bảo đảm mọi hồ sơ đều dẫn đến công nhận hay trợ cấp.",
+                        "topics": [
+                          "ket_qua"
+                        ],
+                        "source_refs": [
+                          "VERIFY_83629AD6D528",
+                          "VERIFY_790C18DA9367"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=314171",
+                          "quote": "công nhận là thương binh",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M02.TOPIC.ket_qua; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M02.TOPIC.dieu_kien",
@@ -196535,7 +197042,7 @@
                     "id": "P20.M02.TOPIC.huong_dan",
                     "topic": "huong_dan",
                     "title": "Các bước thực hiện",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M02.TOPIC.ho_so",
@@ -196565,7 +197072,7 @@
                     "id": "P20.M02.TOPIC.ket_qua",
                     "topic": "ket_qua",
                     "title": "Kết quả và quyền lợi",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M02.TOPIC.dieu_kien",
@@ -196595,14 +197102,32 @@
                       "text": "C01; trực tiếp đấu tranh chính trị/binh vận có tổ chức",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Đối với trường hợp bị thương do trực tiếp đấu tranh chính trị/binh vận có tổ chức, xác định người đề nghị thuộc nhóm đối tượng nào và cơ quan/đơn vị trực tiếp quản lý khi xảy ra sự việc. Cơ quan quản lý lập/xác minh giấy tờ chứng minh tình huống bị thương theo Điều 37 Nghị định 131/2021/NĐ-CP và đề nghị cấp giấy chứng nhận bị thương; hồ sơ được chuyển cơ quan quản lý người có công có thẩm quyền để giới thiệu giám định y khoa, xem xét tỷ lệ tổn thương, quyết định công nhận nếu đáp ứng đầy đủ điều kiện. Không tự kết luận được công nhận chỉ dựa vào tên tình huống.",
+                        "topics": [
+                          "huong_dan"
+                        ],
+                        "source_refs": [
+                          "VERIFY_790C18DA9367",
+                          "VERIFY_83629AD6D528"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.010806",
+                          "quote": "cấp giấy chứng nhận bị thương",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M03.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M03.TOPIC.ho_so",
@@ -196755,14 +197280,32 @@
                       "text": "C01; trực tiếp đấu tranh chính trị/binh vận có tổ chức",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Kết quả đối với tình huống trực tiếp đấu tranh chính trị/binh vận có tổ chức tùy kết quả kiểm tra căn cứ bị thương, đối tượng và giám định: người đủ điều kiện được cơ quan có thẩm quyền ban hành quyết định công nhận thương binh/người hưởng chính sách như thương binh và giấy chứng nhận, giải quyết trợ cấp hoặc phụ cấp theo tỷ lệ tổn thương và quy định áp dụng. Trường hợp chưa đủ điều kiện cần được thông báo/giải quyết theo hồ sơ cụ thể; không bảo đảm mọi hồ sơ đều dẫn đến công nhận hay trợ cấp.",
+                        "topics": [
+                          "ket_qua"
+                        ],
+                        "source_refs": [
+                          "VERIFY_83629AD6D528",
+                          "VERIFY_790C18DA9367"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=314171",
+                          "quote": "công nhận là thương binh",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M03.TOPIC.ket_qua; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M03.TOPIC.dieu_kien",
@@ -196861,7 +197404,7 @@
                     "id": "P20.M03.TOPIC.huong_dan",
                     "topic": "huong_dan",
                     "title": "Các bước thực hiện",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M03.TOPIC.ho_so",
@@ -196891,7 +197434,7 @@
                     "id": "P20.M03.TOPIC.ket_qua",
                     "topic": "ket_qua",
                     "title": "Kết quả và quyền lợi",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M03.TOPIC.dieu_kien",
@@ -196921,14 +197464,32 @@
                       "text": "C01; bị địch bắt, tra tấn, để lại thương tích thực thể",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Đối với trường hợp bị thương do bị địch bắt, tra tấn, để lại thương tích thực thể, xác định người đề nghị thuộc nhóm đối tượng nào và cơ quan/đơn vị trực tiếp quản lý khi xảy ra sự việc. Cơ quan quản lý lập/xác minh giấy tờ chứng minh tình huống bị thương theo Điều 37 Nghị định 131/2021/NĐ-CP và đề nghị cấp giấy chứng nhận bị thương; hồ sơ được chuyển cơ quan quản lý người có công có thẩm quyền để giới thiệu giám định y khoa, xem xét tỷ lệ tổn thương, quyết định công nhận nếu đáp ứng đầy đủ điều kiện. Không tự kết luận được công nhận chỉ dựa vào tên tình huống.",
+                        "topics": [
+                          "huong_dan"
+                        ],
+                        "source_refs": [
+                          "VERIFY_790C18DA9367",
+                          "VERIFY_83629AD6D528"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.010806",
+                          "quote": "cấp giấy chứng nhận bị thương",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M04.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M04.TOPIC.ho_so",
@@ -197081,14 +197642,32 @@
                       "text": "C01; bị địch bắt, tra tấn, để lại thương tích thực thể",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Kết quả đối với tình huống bị địch bắt, tra tấn, để lại thương tích thực thể tùy kết quả kiểm tra căn cứ bị thương, đối tượng và giám định: người đủ điều kiện được cơ quan có thẩm quyền ban hành quyết định công nhận thương binh/người hưởng chính sách như thương binh và giấy chứng nhận, giải quyết trợ cấp hoặc phụ cấp theo tỷ lệ tổn thương và quy định áp dụng. Trường hợp chưa đủ điều kiện cần được thông báo/giải quyết theo hồ sơ cụ thể; không bảo đảm mọi hồ sơ đều dẫn đến công nhận hay trợ cấp.",
+                        "topics": [
+                          "ket_qua"
+                        ],
+                        "source_refs": [
+                          "VERIFY_83629AD6D528",
+                          "VERIFY_790C18DA9367"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=314171",
+                          "quote": "công nhận là thương binh",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M04.TOPIC.ket_qua; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M04.TOPIC.dieu_kien",
@@ -197214,7 +197793,7 @@
                     "id": "P20.M04.TOPIC.huong_dan",
                     "topic": "huong_dan",
                     "title": "Các bước thực hiện",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M04.TOPIC.ho_so",
@@ -197244,7 +197823,7 @@
                     "id": "P20.M04.TOPIC.ket_qua",
                     "topic": "ket_qua",
                     "title": "Kết quả và quyền lợi",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M04.TOPIC.dieu_kien",
@@ -197274,14 +197853,32 @@
                       "text": "C01; làm nghĩa vụ quốc tế",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Đối với trường hợp bị thương do làm nghĩa vụ quốc tế, xác định người đề nghị thuộc nhóm đối tượng nào và cơ quan/đơn vị trực tiếp quản lý khi xảy ra sự việc. Cơ quan quản lý lập/xác minh giấy tờ chứng minh tình huống bị thương theo Điều 37 Nghị định 131/2021/NĐ-CP và đề nghị cấp giấy chứng nhận bị thương; hồ sơ được chuyển cơ quan quản lý người có công có thẩm quyền để giới thiệu giám định y khoa, xem xét tỷ lệ tổn thương, quyết định công nhận nếu đáp ứng đầy đủ điều kiện. Không tự kết luận được công nhận chỉ dựa vào tên tình huống.",
+                        "topics": [
+                          "huong_dan"
+                        ],
+                        "source_refs": [
+                          "VERIFY_790C18DA9367",
+                          "VERIFY_83629AD6D528"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.010806",
+                          "quote": "cấp giấy chứng nhận bị thương",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M05.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M05.TOPIC.ho_so",
@@ -197433,14 +198030,32 @@
                       "text": "C01; làm nghĩa vụ quốc tế",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Kết quả đối với tình huống làm nghĩa vụ quốc tế tùy kết quả kiểm tra căn cứ bị thương, đối tượng và giám định: người đủ điều kiện được cơ quan có thẩm quyền ban hành quyết định công nhận thương binh/người hưởng chính sách như thương binh và giấy chứng nhận, giải quyết trợ cấp hoặc phụ cấp theo tỷ lệ tổn thương và quy định áp dụng. Trường hợp chưa đủ điều kiện cần được thông báo/giải quyết theo hồ sơ cụ thể; không bảo đảm mọi hồ sơ đều dẫn đến công nhận hay trợ cấp.",
+                        "topics": [
+                          "ket_qua"
+                        ],
+                        "source_refs": [
+                          "VERIFY_83629AD6D528",
+                          "VERIFY_790C18DA9367"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=314171",
+                          "quote": "công nhận là thương binh",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M05.TOPIC.ket_qua; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M05.TOPIC.dieu_kien",
@@ -197538,7 +198153,7 @@
                     "id": "P20.M05.TOPIC.huong_dan",
                     "topic": "huong_dan",
                     "title": "Các bước thực hiện",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M05.TOPIC.ho_so",
@@ -197568,7 +198183,7 @@
                     "id": "P20.M05.TOPIC.ket_qua",
                     "topic": "ket_qua",
                     "title": "Kết quả và quyền lợi",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M05.TOPIC.dieu_kien",
@@ -197598,14 +198213,32 @@
                       "text": "C01; công việc cấp bách, nguy hiểm phục vụ quốc phòng/an ninh",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Đối với trường hợp bị thương do công việc cấp bách, nguy hiểm phục vụ quốc phòng/an ninh, xác định người đề nghị thuộc nhóm đối tượng nào và cơ quan/đơn vị trực tiếp quản lý khi xảy ra sự việc. Cơ quan quản lý lập/xác minh giấy tờ chứng minh tình huống bị thương theo Điều 37 Nghị định 131/2021/NĐ-CP và đề nghị cấp giấy chứng nhận bị thương; hồ sơ được chuyển cơ quan quản lý người có công có thẩm quyền để giới thiệu giám định y khoa, xem xét tỷ lệ tổn thương, quyết định công nhận nếu đáp ứng đầy đủ điều kiện. Không tự kết luận được công nhận chỉ dựa vào tên tình huống.",
+                        "topics": [
+                          "huong_dan"
+                        ],
+                        "source_refs": [
+                          "VERIFY_790C18DA9367",
+                          "VERIFY_83629AD6D528"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.010806",
+                          "quote": "cấp giấy chứng nhận bị thương",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M06.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M06.TOPIC.ho_so",
@@ -197784,14 +198417,32 @@
                       "text": "C01; công việc cấp bách, nguy hiểm phục vụ quốc phòng/an ninh",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Kết quả đối với tình huống công việc cấp bách, nguy hiểm phục vụ quốc phòng/an ninh tùy kết quả kiểm tra căn cứ bị thương, đối tượng và giám định: người đủ điều kiện được cơ quan có thẩm quyền ban hành quyết định công nhận thương binh/người hưởng chính sách như thương binh và giấy chứng nhận, giải quyết trợ cấp hoặc phụ cấp theo tỷ lệ tổn thương và quy định áp dụng. Trường hợp chưa đủ điều kiện cần được thông báo/giải quyết theo hồ sơ cụ thể; không bảo đảm mọi hồ sơ đều dẫn đến công nhận hay trợ cấp.",
+                        "topics": [
+                          "ket_qua"
+                        ],
+                        "source_refs": [
+                          "VERIFY_83629AD6D528",
+                          "VERIFY_790C18DA9367"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=314171",
+                          "quote": "công nhận là thương binh",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M06.TOPIC.ket_qua; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M06.TOPIC.dieu_kien",
@@ -197862,7 +198513,7 @@
                     "id": "P20.M06.TOPIC.huong_dan",
                     "topic": "huong_dan",
                     "title": "Các bước thực hiện",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M06.TOPIC.ho_so",
@@ -197892,7 +198543,7 @@
                     "id": "P20.M06.TOPIC.ket_qua",
                     "topic": "ket_qua",
                     "title": "Kết quả và quyền lợi",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M06.TOPIC.dieu_kien",
@@ -197922,14 +198573,32 @@
                       "text": "C01; huấn luyện/diễn tập/nhiệm vụ quốc phòng an ninh nguy hiểm",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Đối với trường hợp bị thương do huấn luyện/diễn tập/nhiệm vụ quốc phòng an ninh nguy hiểm, xác định người đề nghị thuộc nhóm đối tượng nào và cơ quan/đơn vị trực tiếp quản lý khi xảy ra sự việc. Cơ quan quản lý lập/xác minh giấy tờ chứng minh tình huống bị thương theo Điều 37 Nghị định 131/2021/NĐ-CP và đề nghị cấp giấy chứng nhận bị thương; hồ sơ được chuyển cơ quan quản lý người có công có thẩm quyền để giới thiệu giám định y khoa, xem xét tỷ lệ tổn thương, quyết định công nhận nếu đáp ứng đầy đủ điều kiện. Không tự kết luận được công nhận chỉ dựa vào tên tình huống.",
+                        "topics": [
+                          "huong_dan"
+                        ],
+                        "source_refs": [
+                          "VERIFY_790C18DA9367",
+                          "VERIFY_83629AD6D528"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.010806",
+                          "quote": "cấp giấy chứng nhận bị thương",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M07.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M07.TOPIC.ho_so",
@@ -198078,14 +198747,32 @@
                       "text": "C01; huấn luyện/diễn tập/nhiệm vụ quốc phòng an ninh nguy hiểm",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Kết quả đối với tình huống huấn luyện/diễn tập/nhiệm vụ quốc phòng an ninh nguy hiểm tùy kết quả kiểm tra căn cứ bị thương, đối tượng và giám định: người đủ điều kiện được cơ quan có thẩm quyền ban hành quyết định công nhận thương binh/người hưởng chính sách như thương binh và giấy chứng nhận, giải quyết trợ cấp hoặc phụ cấp theo tỷ lệ tổn thương và quy định áp dụng. Trường hợp chưa đủ điều kiện cần được thông báo/giải quyết theo hồ sơ cụ thể; không bảo đảm mọi hồ sơ đều dẫn đến công nhận hay trợ cấp.",
+                        "topics": [
+                          "ket_qua"
+                        ],
+                        "source_refs": [
+                          "VERIFY_83629AD6D528",
+                          "VERIFY_790C18DA9367"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=314171",
+                          "quote": "công nhận là thương binh",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M07.TOPIC.ket_qua; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M07.TOPIC.dieu_kien",
@@ -198174,7 +198861,7 @@
                     "id": "P20.M07.TOPIC.huong_dan",
                     "topic": "huong_dan",
                     "title": "Các bước thực hiện",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M07.TOPIC.ho_so",
@@ -198204,7 +198891,7 @@
                     "id": "P20.M07.TOPIC.ket_qua",
                     "topic": "ket_qua",
                     "title": "Kết quả và quyền lợi",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M07.TOPIC.dieu_kien",
@@ -198234,14 +198921,32 @@
                       "text": "C01; tai nạn khi làm nhiệm vụ ở biên giới, biển, đảo đặc biệt khó khăn",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Đối với trường hợp bị thương do tai nạn khi làm nhiệm vụ ở biên giới, biển, đảo đặc biệt khó khăn, xác định người đề nghị thuộc nhóm đối tượng nào và cơ quan/đơn vị trực tiếp quản lý khi xảy ra sự việc. Cơ quan quản lý lập/xác minh giấy tờ chứng minh tình huống bị thương theo Điều 37 Nghị định 131/2021/NĐ-CP và đề nghị cấp giấy chứng nhận bị thương; hồ sơ được chuyển cơ quan quản lý người có công có thẩm quyền để giới thiệu giám định y khoa, xem xét tỷ lệ tổn thương, quyết định công nhận nếu đáp ứng đầy đủ điều kiện. Không tự kết luận được công nhận chỉ dựa vào tên tình huống.",
+                        "topics": [
+                          "huong_dan"
+                        ],
+                        "source_refs": [
+                          "VERIFY_790C18DA9367",
+                          "VERIFY_83629AD6D528"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.010806",
+                          "quote": "cấp giấy chứng nhận bị thương",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M08.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M08.TOPIC.ho_so",
@@ -198390,14 +199095,32 @@
                       "text": "C01; tai nạn khi làm nhiệm vụ ở biên giới, biển, đảo đặc biệt khó khăn",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Kết quả đối với tình huống tai nạn khi làm nhiệm vụ ở biên giới, biển, đảo đặc biệt khó khăn tùy kết quả kiểm tra căn cứ bị thương, đối tượng và giám định: người đủ điều kiện được cơ quan có thẩm quyền ban hành quyết định công nhận thương binh/người hưởng chính sách như thương binh và giấy chứng nhận, giải quyết trợ cấp hoặc phụ cấp theo tỷ lệ tổn thương và quy định áp dụng. Trường hợp chưa đủ điều kiện cần được thông báo/giải quyết theo hồ sơ cụ thể; không bảo đảm mọi hồ sơ đều dẫn đến công nhận hay trợ cấp.",
+                        "topics": [
+                          "ket_qua"
+                        ],
+                        "source_refs": [
+                          "VERIFY_83629AD6D528",
+                          "VERIFY_790C18DA9367"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=314171",
+                          "quote": "công nhận là thương binh",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M08.TOPIC.ket_qua; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M08.TOPIC.dieu_kien",
@@ -198462,7 +199185,7 @@
                     "id": "P20.M08.TOPIC.huong_dan",
                     "topic": "huong_dan",
                     "title": "Các bước thực hiện",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M08.TOPIC.ho_so",
@@ -198492,7 +199215,7 @@
                     "id": "P20.M08.TOPIC.ket_qua",
                     "topic": "ket_qua",
                     "title": "Kết quả và quyền lợi",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M08.TOPIC.dieu_kien",
@@ -198522,14 +199245,32 @@
                       "text": "C01; trực tiếp đấu tranh chống tội phạm",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Đối với trường hợp bị thương do trực tiếp đấu tranh chống tội phạm, xác định người đề nghị thuộc nhóm đối tượng nào và cơ quan/đơn vị trực tiếp quản lý khi xảy ra sự việc. Cơ quan quản lý lập/xác minh giấy tờ chứng minh tình huống bị thương theo Điều 37 Nghị định 131/2021/NĐ-CP và đề nghị cấp giấy chứng nhận bị thương; hồ sơ được chuyển cơ quan quản lý người có công có thẩm quyền để giới thiệu giám định y khoa, xem xét tỷ lệ tổn thương, quyết định công nhận nếu đáp ứng đầy đủ điều kiện. Không tự kết luận được công nhận chỉ dựa vào tên tình huống.",
+                        "topics": [
+                          "huong_dan"
+                        ],
+                        "source_refs": [
+                          "VERIFY_790C18DA9367",
+                          "VERIFY_83629AD6D528"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.010806",
+                          "quote": "cấp giấy chứng nhận bị thương",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M09.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M09.TOPIC.ho_so",
@@ -198750,14 +199491,32 @@
                       "text": "C01; trực tiếp đấu tranh chống tội phạm",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Kết quả đối với tình huống trực tiếp đấu tranh chống tội phạm tùy kết quả kiểm tra căn cứ bị thương, đối tượng và giám định: người đủ điều kiện được cơ quan có thẩm quyền ban hành quyết định công nhận thương binh/người hưởng chính sách như thương binh và giấy chứng nhận, giải quyết trợ cấp hoặc phụ cấp theo tỷ lệ tổn thương và quy định áp dụng. Trường hợp chưa đủ điều kiện cần được thông báo/giải quyết theo hồ sơ cụ thể; không bảo đảm mọi hồ sơ đều dẫn đến công nhận hay trợ cấp.",
+                        "topics": [
+                          "ket_qua"
+                        ],
+                        "source_refs": [
+                          "VERIFY_83629AD6D528",
+                          "VERIFY_790C18DA9367"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=314171",
+                          "quote": "công nhận là thương binh",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M09.TOPIC.ket_qua; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M09.TOPIC.dieu_kien",
@@ -198797,7 +199556,7 @@
                     "id": "P20.M09.TOPIC.huong_dan",
                     "topic": "huong_dan",
                     "title": "Các bước thực hiện",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M09.TOPIC.ho_so",
@@ -198827,7 +199586,7 @@
                     "id": "P20.M09.TOPIC.ket_qua",
                     "topic": "ket_qua",
                     "title": "Kết quả và quyền lợi",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M09.TOPIC.dieu_kien",
@@ -198857,14 +199616,32 @@
                       "text": "C01; đặc biệt dũng cảm cứu người/tài sản hoặc ngăn chặn tội phạm",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Đối với trường hợp bị thương do đặc biệt dũng cảm cứu người/tài sản hoặc ngăn chặn tội phạm, xác định người đề nghị thuộc nhóm đối tượng nào và cơ quan/đơn vị trực tiếp quản lý khi xảy ra sự việc. Cơ quan quản lý lập/xác minh giấy tờ chứng minh tình huống bị thương theo Điều 37 Nghị định 131/2021/NĐ-CP và đề nghị cấp giấy chứng nhận bị thương; hồ sơ được chuyển cơ quan quản lý người có công có thẩm quyền để giới thiệu giám định y khoa, xem xét tỷ lệ tổn thương, quyết định công nhận nếu đáp ứng đầy đủ điều kiện. Không tự kết luận được công nhận chỉ dựa vào tên tình huống.",
+                        "topics": [
+                          "huong_dan"
+                        ],
+                        "source_refs": [
+                          "VERIFY_790C18DA9367",
+                          "VERIFY_83629AD6D528"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.010806",
+                          "quote": "cấp giấy chứng nhận bị thương",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M10.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M10.TOPIC.ho_so",
@@ -199061,14 +199838,32 @@
                       "text": "C01; đặc biệt dũng cảm cứu người/tài sản hoặc ngăn chặn tội phạm",
                       "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                     },
-                    "common": [],
+                    "common": [
+                      {
+                        "text": "Kết quả đối với tình huống đặc biệt dũng cảm cứu người/tài sản hoặc ngăn chặn tội phạm tùy kết quả kiểm tra căn cứ bị thương, đối tượng và giám định: người đủ điều kiện được cơ quan có thẩm quyền ban hành quyết định công nhận thương binh/người hưởng chính sách như thương binh và giấy chứng nhận, giải quyết trợ cấp hoặc phụ cấp theo tỷ lệ tổn thương và quy định áp dụng. Trường hợp chưa đủ điều kiện cần được thông báo/giải quyết theo hồ sơ cụ thể; không bảo đảm mọi hồ sơ đều dẫn đến công nhận hay trợ cấp.",
+                        "topics": [
+                          "ket_qua"
+                        ],
+                        "source_refs": [
+                          "VERIFY_83629AD6D528",
+                          "VERIFY_790C18DA9367"
+                        ],
+                        "provenance": {
+                          "kind": "web_supplement",
+                          "source_url": "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=314171",
+                          "quote": "công nhận là thương binh",
+                          "reviewed_at": "2026-10-17",
+                          "applicability": "Chỉ P20.M10.TOPIC.ket_qua; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                        },
+                        "review_status": "web_sourced_supplement"
+                      }
+                    ],
                     "children": [],
                     "child_selection": "none",
-                    "content_status": "unconfirmed",
+                    "content_status": "local_content",
                     "inherited_topic_ids": [],
                     "supporting_topics": [],
-                    "related_node_ids": [],
-                    "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                    "related_node_ids": []
                   },
                   {
                     "id": "P20.M10.TOPIC.dieu_kien",
@@ -199108,7 +199903,7 @@
                     "id": "P20.M10.TOPIC.huong_dan",
                     "topic": "huong_dan",
                     "title": "Các bước thực hiện",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M10.TOPIC.ho_so",
@@ -199138,7 +199933,7 @@
                     "id": "P20.M10.TOPIC.ket_qua",
                     "topic": "ket_qua",
                     "title": "Kết quả và quyền lợi",
-                    "status": "unconfirmed"
+                    "status": "local_content"
                   },
                   {
                     "id": "P20.M10.TOPIC.dieu_kien",
@@ -231995,14 +232790,31 @@
                   "text": "Đã có căn cứ thương tích/quyết định; hỏi trợ cấp một lần, trợ cấp tháng hoặc chi trả",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Trường hợp đã được công nhận thương binh mà cần tra soát trợ cấp, đối chiếu quyết định công nhận, tỷ lệ tổn thương cơ thể và quyết định trợ cấp; liên hệ Sở Nội vụ hoặc cơ quan đang quản lý hồ sơ người có công để kiểm tra thông tin hưởng, kỳ chi trả và tài khoản nhận. Nếu có sai lệch thông tin cá nhân, thực hiện thủ tục sửa đổi/bổ sung hồ sơ người có công; nếu chưa được công nhận thì phải thực hiện quy trình cấp giấy chứng nhận bị thương, giám định và công nhận trước, không trực tiếp yêu cầu chi trả.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_790C18DA9367"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.010806",
+                      "quote": "cấp giấy chứng nhận bị thương",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P20.C02.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P20.C02.TOPIC.ho_so",
@@ -232270,7 +233082,7 @@
                 "id": "P20.C02.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P20.C02.TOPIC.ho_so",
@@ -242520,14 +243332,32 @@
                   "text": "Đã có người hưởng; đề nghị đổi người thờ cúng/chuyển nơi quản lý",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Nếu người đang nhận trợ cấp thờ cúng liệt sĩ qua đời hoặc không còn điều kiện tiếp tục thờ cúng, người được các thân nhân/đối tượng có quyền ủy quyền mới chuẩn bị đơn đề nghị theo Mẫu 18 và văn bản ủy quyền, kèm giấy tờ theo Điều 28 Nghị định 131/2021/NĐ-CP; gửi UBND cấp xã nơi thường trú để chuyển cơ quan quản lý hồ sơ người có công xem xét quyết định mới. Nếu hồ sơ gốc đang quản lý ở tỉnh khác, cơ quan chuyên môn thực hiện yêu cầu di chuyển/xác minh hồ sơ; không tự chuyển người hưởng bằng thay đổi tài khoản ngân hàng.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_A9F76F8F0773",
+                      "VERIFY_77B38FEC977A"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/11/5162-vbhn-bldtbxh.pdf",
+                      "quote": "Trường hợp người hưởng trợ cấp thờ cúng liệt sĩ chết",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P21.C05.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P21.C05.TOPIC.ho_so",
@@ -242763,7 +243593,7 @@
                 "id": "P21.C05.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P21.C05.TOPIC.ho_so",
@@ -242823,14 +243653,31 @@
                   "text": "Đã được duyệt; hỏi chi trả hoặc chậm nhận",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Với người đã có quyết định trợ cấp thờ cúng liệt sĩ nhưng chưa nhận tiền, kiểm tra năm quyết định có hiệu lực, thông tin người được ủy quyền, trạng thái hồ sơ và đơn vị đang quản lý chi trả tại Sở Nội vụ/đơn vị chi trả. Chế độ trợ cấp thờ cúng được hưởng hằng năm từ năm ban hành quyết định; nếu người hưởng đã chết trước thời điểm chi trả, cần xác định người thờ cúng mới theo khoản 5 Điều 28 Nghị định 131/2021/NĐ-CP. Không tự coi việc chậm nhận tiền là lý do phải làm thủ tục xin trợ cấp lần đầu.",
+                    "topics": [
+                      "huong_dan"
+                    ],
+                    "source_refs": [
+                      "VERIFY_A9F76F8F0773"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/11/5162-vbhn-bldtbxh.pdf",
+                      "quote": "Trường hợp người hưởng trợ cấp thờ cúng liệt sĩ chết",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P21.C06.TOPIC.huong_dan; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P21.C06.TOPIC.ho_so",
@@ -243192,7 +244039,7 @@
                 "id": "P21.C06.TOPIC.huong_dan",
                 "topic": "huong_dan",
                 "title": "Các bước thực hiện",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P21.C06.TOPIC.ho_so",
@@ -263114,14 +263961,32 @@
                   "text": "Đã đăng ký; muốn đổi tên/địa chỉ/chủ/ngành",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Trường hợp đã đăng ký hộ kinh doanh mà làm thủ tục đổi tên, trụ sở, chủ hộ, ngành nghề hoặc thông tin thuộc diện đăng ký thay đổi, kết quả là nội dung đăng ký hộ kinh doanh được Cơ quan đăng ký kinh doanh cấp xã cập nhật và cấp Giấy chứng nhận đăng ký hộ kinh doanh mới hoặc thông báo xử lý theo thủ tục tương ứng khi hồ sơ hợp lệ. Nếu hồ sơ bị yêu cầu sửa, bổ sung hoặc từ chối thì xử lý theo thông báo; không dùng giấy chứng nhận đăng ký mới lần đầu thay cho đăng ký thay đổi.",
+                    "topics": [
+                      "ket_qua"
+                    ],
+                    "source_refs": [
+                      "VERIFY_DF0B69ECFB14",
+                      "VERIFY_7342FA1DF044"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=2.000720.000.00.00.H01",
+                      "quote": "Đăng ký thay đổi nội dung đăng ký hộ kinh doanh",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P24.R01.TOPIC.ket_qua; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P24.R01.TOPIC.dieu_kien",
@@ -263199,7 +264064,7 @@
                 "id": "P24.R01.TOPIC.ket_qua",
                 "topic": "ket_qua",
                 "title": "Kết quả và quyền lợi",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P24.R01.TOPIC.dieu_kien",
@@ -275727,14 +276592,32 @@
                   "text": "Chuyển đổi doanh nghiệp hoặc bị thu hồi đăng ký",
                   "unknown": "Chưa đủ dữ kiện để xác nhận điều kiện; không tự coi là đúng hoặc sai."
                 },
-                "common": [],
+                "common": [
+                  {
+                    "text": "Nếu hộ kinh doanh chuyển đổi thành doanh nghiệp, cần phân biệt các khoản có thể phát sinh khi đăng ký thành lập doanh nghiệp với nghĩa vụ thuế/nợ của hộ kinh doanh cũ; thủ tục chấm dứt hộ kinh doanh sau chuyển đổi được thực hiện qua luồng trao đổi thông tin giữa cơ quan đăng ký kinh doanh cấp tỉnh, cấp xã và cơ quan thuế theo Điều 27 Nghị định 168/2025/NĐ-CP. Trường hợp bị thu hồi đăng ký là nhánh xử lý khác, không có một mức lệ phí chấm dứt chung có thể áp dụng cho mọi trường hợp. Biểu phí đăng ký doanh nghiệp và mức thu cụ thể tại TP.HCM phải đối chiếu tại thủ tục và thời điểm nộp; không mặc định bằng 0.",
+                    "topics": [
+                      "chi_phi"
+                    ],
+                    "source_refs": [
+                      "VERIFY_7342FA1DF044",
+                      "VERIFY_88485B06331D"
+                    ],
+                    "provenance": {
+                      "kind": "web_supplement",
+                      "source_url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2025-nd-cp-ve-dang-ky-doanh-nghiep-119250702175708554.htm",
+                      "quote": "đăng ký thay đổi nội dung đăng ký hộ kinh doanh",
+                      "reviewed_at": "2026-10-17",
+                      "applicability": "Chỉ P26.R02.TOPIC.chi_phi; đối chiếu thêm điều kiện nhánh và nguồn phụ trước khi trả lời."
+                    },
+                    "review_status": "web_sourced_supplement"
+                  }
+                ],
                 "children": [],
                 "child_selection": "none",
-                "content_status": "unconfirmed",
+                "content_status": "local_content",
                 "inherited_topic_ids": [],
                 "supporting_topics": [],
-                "related_node_ids": [],
-                "gap_note": "Chưa có dữ liệu xác nhận cho mục này trong phạm vi trường hợp; không được suy đoán hoặc mặc định không thu phí."
+                "related_node_ids": []
               },
               {
                 "id": "P26.R02.TOPIC.noi_nop",
@@ -275886,7 +276769,7 @@
                 "id": "P26.R02.TOPIC.chi_phi",
                 "topic": "chi_phi",
                 "title": "Phí và chi phí",
-                "status": "unconfirmed"
+                "status": "local_content"
               },
               {
                 "id": "P26.R02.TOPIC.noi_nop",
@@ -288171,6 +289054,292 @@
       ],
       "checked_at": "2026-10-16",
       "verification": "web_tool_sourced; scope reviewed; not a complete legal currency certification"
+    },
+    "VERIFY_717B0FEF4504": {
+      "id": "VERIFY_717B0FEF4504",
+      "title": "Cổng Dịch vụ công Quốc gia: Cấp bản sao trích lục hộ tịch",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=2.000635.000.00.00.H01"
+      ]
+    },
+    "VERIFY_9F4A18D5D7B9": {
+      "id": "VERIFY_9F4A18D5D7B9",
+      "title": "Cổng Dịch vụ công Quốc gia: Đăng ký lại khai sinh",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.004884.000.00.00.H01"
+      ]
+    },
+    "VERIFY_18D1FA6B27B0": {
+      "id": "VERIFY_18D1FA6B27B0",
+      "title": "Cổng Dịch vụ công Quốc gia: Đăng ký lại khai tử",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-dung-chung.html?ma_thu_tuc=1.005461.000.00.00.H01"
+      ]
+    },
+    "VERIFY_FB0ADD46F555": {
+      "id": "VERIFY_FB0ADD46F555",
+      "title": "Cổng Dịch vụ công Quốc gia: Thay đổi, cải chính, bổ sung hộ tịch",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.004859.000.00.00.H01"
+      ]
+    },
+    "VERIFY_6B2B801E5C0D": {
+      "id": "VERIFY_6B2B801E5C0D",
+      "title": "Cổng DVC Bộ Công an: Khai báo tạm trú người nước ngoài trực tuyến",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://dichvucong.bocongan.gov.vn/public/link-to/chi-tiet-thu-tuc?ma-thu-tuc=26265"
+      ]
+    },
+    "VERIFY_926E0B4F1C60": {
+      "id": "VERIFY_926E0B4F1C60",
+      "title": "Cổng DVC Bộ Công an: Khai báo tạm trú người nước ngoài bằng phiếu",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://dichvucong.bocongan.gov.vn/public/link-to/chi-tiet-thu-tuc?ma-thu-tuc=26244"
+      ]
+    },
+    "VERIFY_5A10BBE3EF4E": {
+      "id": "VERIFY_5A10BBE3EF4E",
+      "title": "Cổng Chính phủ: Điều chỉnh thông tin cư trú theo Thông tư 116/2026",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://xaydungchinhsach.chinhphu.vn/quy-dinh-dieu-chinh-thong-tin-ve-cu-tru-trong-co-so-du-lieu-ve-cu-tru-119260806155046695.htm"
+      ]
+    },
+    "VERIFY_5EE06DC7F016": {
+      "id": "VERIFY_5EE06DC7F016",
+      "title": "Cổng DVC Quốc gia: Điều chỉnh thông tin cư trú",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=1.010039"
+      ]
+    },
+    "VERIFY_27A3E113A514": {
+      "id": "VERIFY_27A3E113A514",
+      "title": "Cổng DVC Quốc gia: Biến động đất đai về chuyển quyền và góp vốn",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.013831"
+      ]
+    },
+    "VERIFY_8F4A8AFA01C4": {
+      "id": "VERIFY_8F4A8AFA01C4",
+      "title": "Cổng DVC Quốc gia: Cấp đổi Giấy chứng nhận quyền sử dụng đất",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.012783"
+      ]
+    },
+    "VERIFY_4521DC4B8623": {
+      "id": "VERIFY_4521DC4B8623",
+      "title": "Cổng DVC Quốc gia: Đăng ký bổ sung tài sản gắn liền với đất",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.014367"
+      ]
+    },
+    "VERIFY_6263C497DB02": {
+      "id": "VERIFY_6263C497DB02",
+      "title": "Chính phủ: Luật Đất đai số 31/2024/QH15",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-dat-dai-119240221224513596.htm"
+      ]
+    },
+    "VERIFY_B0979A507340": {
+      "id": "VERIFY_B0979A507340",
+      "title": "Chính phủ: Nghị định 99/2022/NĐ-CP đăng ký biện pháp bảo đảm",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/12/99-cp.signed.pdf"
+      ]
+    },
+    "VERIFY_F086D0BFA545": {
+      "id": "VERIFY_F086D0BFA545",
+      "title": "Cổng DVC Quốc gia: Hưởng trợ cấp thất nghiệp theo NĐ 374/2025",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.014748"
+      ]
+    },
+    "VERIFY_0508463FA36C": {
+      "id": "VERIFY_0508463FA36C",
+      "title": "Cổng DVC Quốc gia: Thông báo hằng tháng về việc tìm kiếm việc làm",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://vpcp.dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.014749"
+      ]
+    },
+    "VERIFY_83A19FF696E8": {
+      "id": "VERIFY_83A19FF696E8",
+      "title": "Cổng Chính phủ: Chính sách hỗ trợ đào tạo nghề năm 2026",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://chinhsachonline.chinhphu.vn/chinh-sach-ho-tro-dao-tao-nghe-cho-nguoi-dang-nhan-tro-cap-that-nghiep-88603.htm"
+      ]
+    },
+    "VERIFY_46B9A43427D4": {
+      "id": "VERIFY_46B9A43427D4",
+      "title": "Thủ tướng: Quyết định 46/2015/QĐ-TTg về hỗ trợ đào tạo dưới 3 tháng",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://vpcp.chinhphu.vn/ho-tro-dao-tao-trinh-do-so-cap-dao-tao-duoi-3-thang-11513470.htm"
+      ]
+    },
+    "VERIFY_691598E6A557": {
+      "id": "VERIFY_691598E6A557",
+      "title": "Văn bản pháp luật: Luật An toàn, vệ sinh lao động 84/2015/QH13",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=70811"
+      ]
+    },
+    "VERIFY_28124535A874": {
+      "id": "VERIFY_28124535A874",
+      "title": "Cổng DVC Quốc gia: Chế độ tai nạn lao động do BHXH giải quyết",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?id_bo_nganh=924&ma_thu_tuc=2.002340"
+      ]
+    },
+    "VERIFY_790C18DA9367": {
+      "id": "VERIFY_790C18DA9367",
+      "title": "Cổng DVC Quốc gia: Công nhận thương binh, người hưởng chính sách như thương binh",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.010806"
+      ]
+    },
+    "VERIFY_83629AD6D528": {
+      "id": "VERIFY_83629AD6D528",
+      "title": "Cổng DVC Quốc gia: Hồ sơ công nhận thương binh với 10 loại trường hợp",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=314171"
+      ]
+    },
+    "VERIFY_77B38FEC977A": {
+      "id": "VERIFY_77B38FEC977A",
+      "title": "Cổng DVC Quốc gia: Trợ cấp thờ cúng liệt sĩ",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-dung-chung.html?ma_thu_tuc=1.010803"
+      ]
+    },
+    "VERIFY_A9F76F8F0773": {
+      "id": "VERIFY_A9F76F8F0773",
+      "title": "Văn bản hợp nhất quy định trợ cấp thờ cúng liệt sĩ",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/11/5162-vbhn-bldtbxh.pdf"
+      ]
+    },
+    "VERIFY_7342FA1DF044": {
+      "id": "VERIFY_7342FA1DF044",
+      "title": "Chính phủ: Nghị định 168/2025/NĐ-CP đăng ký kinh doanh",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2025-nd-cp-ve-dang-ky-doanh-nghiep-119250702175708554.htm"
+      ]
+    },
+    "VERIFY_DF0B69ECFB14": {
+      "id": "VERIFY_DF0B69ECFB14",
+      "title": "Cổng DVC Quốc gia: Đăng ký thay đổi nội dung đăng ký hộ kinh doanh",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=2.000720.000.00.00.H01"
+      ]
+    },
+    "VERIFY_88485B06331D": {
+      "id": "VERIFY_88485B06331D",
+      "title": "Cổng DVC Quốc gia: Lệ phí chấm dứt hoạt động hộ kinh doanh",
+      "paragraphs": [
+        "Nguồn cơ quan nhà nước được đối chiếu cho việc bổ sung topic từ 2026-10-17.",
+        "Không áp dụng tự động bên ngoài phạm vi và điều kiện của nút."
+      ],
+      "urls": [
+        "https://dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=1888&open_popup=1"
+      ]
     }
   },
   "reserved_fields": [

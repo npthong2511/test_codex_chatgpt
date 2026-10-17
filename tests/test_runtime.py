@@ -67,8 +67,8 @@ class Tests(unittest.TestCase):
   f=Fake([response()]);e=Engine(self.src,f);before=e.snapshot()
   self.assertIsNone(e.process('a',lambda:True));self.assertEqual(before,e.snapshot())
  def test_transport_failure_no_partial_state(self):
-  f=Fake([response('load',['NO_SUCH_NODE'])]);e=Engine(self.src,f);before=e.snapshot()
-  self.assertEqual(e.process('a')['mode'],'transport_error');self.assertEqual(before,e.snapshot())
+  f=Fake([response('load',['NO_SUCH_NODE']) for _ in range(3)]);e=Engine(self.src,f);before=e.snapshot()
+  self.assertEqual(e.process('a')['mode'],'navigation_error');self.assertEqual(before,e.snapshot())
  def test_snapshot_isolation_and_stale_ack(self):
   e=Engine(self.src,Fake([response()]),session_id='A');e.process('a');snap=e.snapshot()
   self.assertEqual(Engine(self.src,Fake([]),snap,'B').nodes,['ROOT'])

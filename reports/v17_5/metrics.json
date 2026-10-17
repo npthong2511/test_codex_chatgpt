@@ -1,0 +1,66 @@
+{
+  "20261017_085528_390": {
+    "turns": 21,
+    "modes": {
+      "question": 7,
+      "answer": 8,
+      "clarification": 3,
+      "switch_confirm": 1,
+      "no_speech_detected": 2
+    },
+    "codes": {},
+    "calls": 52,
+    "usage": {
+      "input_tokens": 287603,
+      "output_tokens": 12122,
+      "total_tokens": 299725
+    },
+    "actions": {
+      "load": 12,
+      "respond": 16,
+      "continue": 15,
+      "open_topic": 5,
+      "unclear": 3,
+      "restart": 1
+    },
+    "baseline_modes": {
+      "question": 7,
+      "answer": 9,
+      "clarification": 2,
+      "switch_confirm": 1,
+      "no_speech_detected": 2
+    }
+  },
+  "20261017_092026_995": {
+    "turns": 29,
+    "modes": {
+      "question": 12,
+      "answer": 5,
+      "clarification": 5,
+      "page": 6,
+      "switch_confirm": 1
+    },
+    "codes": {},
+    "calls": 62,
+    "usage": {
+      "input_tokens": 271905,
+      "output_tokens": 12114,
+      "total_tokens": 284019
+    },
+    "actions": {
+      "load": 9,
+      "respond": 18,
+      "continue": 17,
+      "open_topic": 4,
+      "restart": 3,
+      "unclear": 5,
+      "page": 6
+    },
+    "baseline_modes": {
+      "question": 18,
+      "clarification": 6,
+      "page": 2,
+      "switch_confirm": 3
+    }
+  }
+}

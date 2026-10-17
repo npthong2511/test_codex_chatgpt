@@ -205,12 +205,12 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   ├── P01.R01.N004.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   │   ├── P01.R01.N004.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
 │   │   │   └── P01.R01.N004.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
-│   │   ├── P01.R01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P01.R01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P01.R01.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P01.R01.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P01.R01.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
 │   │   ├── P01.R01.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
-│   │   ├── P01.R01.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {unconfirmed}
+│   │   ├── P01.R01.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {local_content}
 │   │   └── P01.R01.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {conditional_sources}
 │   ├── P01.N001 — Quy định theo điều kiện áp dụng [conditional_rules]
 │   │   ├── P01.N001.N001 — Hồ sơ khai sinh lần đầu [content_branch]
@@ -305,7 +305,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   └── P02.R01.N001.N004.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {local_content}
 │   │   ├── P02.R01.N001.N005 — Không đăng ký lần hai để sửa sai [content_branch]
 │   │   │   └── P02.R01.N001.N005.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
-│   │   ├── P02.R01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P02.R01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P02.R01.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P02.R01.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P02.R01.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -767,7 +767,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   ├── P06.R01.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P06.R01.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
 │   │   ├── P06.R01.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
-│   │   ├── P06.R01.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {unconfirmed}
+│   │   ├── P06.R01.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {local_content}
 │   │   └── P06.R01.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {conditional_sources}
 │   ├── P06.N001 — Quy định theo điều kiện áp dụng [conditional_rules]
 │   │   ├── P06.N001.N001 — Đăng ký tạm trú công dân [content_branch]
@@ -827,7 +827,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   ├── P07.C02.N002.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
 │   │   │   ├── P07.C02.N002.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {conditional_sources}
 │   │   │   └── P07.C02.N002.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {conditional_sources}
-│   │   ├── P07.C02.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P07.C02.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P07.C02.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P07.C02.TOPIC.chi_phi — Phí và chi phí [topic_content] {inherited_content}
 │   │   ├── P07.C02.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -1046,7 +1046,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   └── P09.C05.N001.N005.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
 │   │   ├── P09.C05.N001.N006 — Kết quả theo diện tích/nguồn gốc xác định [content_branch]
 │   │   │   └── P09.C05.N001.N006.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {local_content}
-│   │   ├── P09.C05.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P09.C05.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P09.C05.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P09.C05.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P09.C05.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -1064,7 +1064,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   └── P09.C06.N001.N003.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
 │   │   ├── P09.C06.N001.N004 — Tài sản xây dựng có vi phạm [content_branch]
 │   │   │   └── P09.C06.N001.N004.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
-│   │   ├── P09.C06.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P09.C06.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P09.C06.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P09.C06.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P09.C06.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -1111,7 +1111,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   ├── P09.C07.N003.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   │   ├── P09.C07.N003.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
 │   │   │   └── P09.C07.N003.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {conditional_sources}
-│   │   ├── P09.C07.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P09.C07.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P09.C07.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P09.C07.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P09.C07.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -1139,7 +1139,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   ├── P09.C09.N001.N004.TOPIC.chi_phi — Phí và chi phí [topic_content] {local_content}
 │   │   │   ├── P09.C09.N001.N004.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {local_content}
 │   │   │   └── P09.C09.N001.N004.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
-│   │   ├── P09.C09.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P09.C09.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P09.C09.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P09.C09.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P09.C09.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -1171,7 +1171,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   └── P09.M01.N001.N002.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
 │   │   ├── P09.M01.N001.N003 — Đất Nhà nước cho thuê hằng năm [content_branch]
 │   │   │   └── P09.M01.N001.N003.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
-│   │   ├── P09.M01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P09.M01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P09.M01.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P09.M01.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P09.M01.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -1236,7 +1236,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   ├── P09.M02.N004.N008 — Không đủ căn cứ miễn sửa lỗi/kê biên [content_branch]
 │   │   │   │   └── P09.M02.N004.N008.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
 │   │   │   └── P09.M02.N004.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {conditional_sources}
-│   │   ├── P09.M02.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P09.M02.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P09.M02.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P09.M02.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P09.M02.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -1268,7 +1268,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   ├── P09.M03.N004.N001 — Điều kiện [content_branch]
 │   │   │   │   └── P09.M03.N004.N001.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
 │   │   │   └── P09.M03.N004.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {conditional_sources}
-│   │   ├── P09.M03.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P09.M03.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P09.M03.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P09.M03.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P09.M03.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -1285,7 +1285,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   └── P09.M04.N001.N003.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
 │   │   ├── P09.M04.N001.N004 — Không áp miễn nông nghiệp cho đất ở [content_branch]
 │   │   │   └── P09.M04.N001.N004.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
-│   │   ├── P09.M04.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P09.M04.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P09.M04.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P09.M04.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P09.M04.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -1665,7 +1665,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   ├── P10.C03.N001.N002.TOPIC.thoi_gian — Thời hạn [topic_content] {local_content}
 │   │   │   ├── P10.C03.N001.N002.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {local_content}
 │   │   │   └── P10.C03.N001.N002.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
-│   │   ├── P10.C03.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P10.C03.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P10.C03.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P10.C03.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P10.C03.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -1680,7 +1680,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   ├── P10.R01.N001.N003 — Cấp lần đầu cho tổ chức [content_branch]
 │   │   │   ├── P10.R01.N001.N003.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {local_content}
 │   │   │   └── P10.R01.N001.N003.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
-│   │   ├── P10.R01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P10.R01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P10.R01.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P10.R01.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P10.R01.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -1968,7 +1968,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   └── P12.R01.N001.N004.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
 │   │   ├── P12.R01.N001.N005 — Dùng đúng loại giao dịch [content_branch]
 │   │   │   └── P12.R01.N001.N005.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
-│   │   ├── P12.R01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P12.R01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P12.R01.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P12.R01.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P12.R01.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -1988,7 +1988,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   ├── P12.R02.N001.N004.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {local_content}
 │   │   │   ├── P12.R02.N001.N004.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {local_content}
 │   │   │   └── P12.R02.N001.N004.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
-│   │   ├── P12.R02.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P12.R02.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P12.R02.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P12.R02.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P12.R02.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -2132,7 +2132,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   └── P13.R01.N001.N005.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
 │   │   ├── P13.R01.N001.N006 — Chi phí hòa giải và tố tụng [content_branch]
 │   │   │   └── P13.R01.N001.N006.TOPIC.chi_phi — Phí và chi phí [topic_content] {local_content}
-│   │   ├── P13.R01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P13.R01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P13.R01.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P13.R01.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P13.R01.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -2510,7 +2510,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   ├── P15.C01.N003.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
 │   │   │   ├── P15.C01.N003.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
 │   │   │   └── P15.C01.N003.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {conditional_sources}
-│   │   ├── P15.C01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P15.C01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P15.C01.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P15.C01.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P15.C01.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -2545,7 +2545,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   ├── P15.C02.N002.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   │   ├── P15.C02.N002.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
 │   │   │   └── P15.C02.N002.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {conditional_sources}
-│   │   ├── P15.C02.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P15.C02.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P15.C02.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P15.C02.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P15.C02.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -2696,7 +2696,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   ├── P16.C01.N001.N004 — Quy tắc hỗ trợ BHTN [content_branch]
 │   │   │   │   ├── P16.C01.N001.N004.TOPIC.chi_phi — Phí và chi phí [topic_content] {local_content}
 │   │   │   │   └── P16.C01.N001.N004.TOPIC.thoi_gian — Thời hạn [topic_content] {local_content}
-│   │   │   ├── P16.C01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   │   ├── P16.C01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   │   ├── P16.C01.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   │   ├── P16.C01.TOPIC.chi_phi — Phí và chi phí [topic_content] {inherited_content}
 │   │   │   ├── P16.C01.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -2712,7 +2712,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   ├── P16.C02.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {conditional_sources}
 │   │   │   └── P16.C02.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
 │   │   ├── P16.C03 — Đã được quyết định hỗ trợ; nay trợ cấp thất nghiệp kết thúc [case_group]
-│   │   │   ├── P16.C03.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   │   ├── P16.C03.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   │   ├── P16.C03.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {local_content}
 │   │   │   ├── P16.C03.TOPIC.chi_phi — Phí và chi phí [topic_content] {inherited_content}
 │   │   │   ├── P16.C03.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -2804,7 +2804,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   ├── P16.R01.N004.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
 │   │   │   ├── P16.R01.N004.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
 │   │   │   └── P16.R01.N004.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {conditional_sources}
-│   │   ├── P16.R01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P16.R01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P16.R01.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P16.R01.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P16.R01.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -2852,7 +2852,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   ├── P17.C01.N001.N006.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {local_content}
 │   │   │   ├── P17.C01.N001.N006.TOPIC.thoi_gian — Thời hạn [topic_content] {local_content}
 │   │   │   └── P17.C01.N001.N006.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
-│   │   ├── P17.C01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P17.C01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P17.C01.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P17.C01.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P17.C01.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -3041,7 +3041,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   │   └── P17.C04.N006.N006.TOPIC.chi_phi — Phí và chi phí [topic_content] {local_content}
 │   │   │   ├── P17.C04.N006.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   │   └── P17.C04.N006.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {conditional_sources}
-│   │   ├── P17.C04.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P17.C04.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P17.C04.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P17.C04.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P17.C04.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -3868,84 +3868,84 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   ├── P20.C01.N007.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
 │   │   │   └── P20.C01.N007.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
 │   │   ├── P20.M01 — C01; bị thương khi chiến đấu/trực tiếp phục vụ chiến đấu [case_group]
-│   │   │   ├── P20.M01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   │   ├── P20.M01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   │   ├── P20.M01.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {local_content}
 │   │   │   ├── P20.M01.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   │   ├── P20.M01.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
 │   │   │   ├── P20.M01.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
-│   │   │   ├── P20.M01.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {unconfirmed}
+│   │   │   ├── P20.M01.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {local_content}
 │   │   │   └── P20.M01.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
 │   │   ├── P20.M02 — C01; nhiệm vụ quốc phòng/an ninh tại địa bàn địch chiếm đóng/có chiến sự/tiếp giáp [case_group]
-│   │   │   ├── P20.M02.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   │   ├── P20.M02.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   │   ├── P20.M02.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {local_content}
 │   │   │   ├── P20.M02.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   │   ├── P20.M02.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
 │   │   │   ├── P20.M02.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
-│   │   │   ├── P20.M02.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {unconfirmed}
+│   │   │   ├── P20.M02.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {local_content}
 │   │   │   └── P20.M02.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
 │   │   ├── P20.M03 — C01; trực tiếp đấu tranh chính trị/binh vận có tổ chức [case_group]
-│   │   │   ├── P20.M03.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   │   ├── P20.M03.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   │   ├── P20.M03.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {local_content}
 │   │   │   ├── P20.M03.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   │   ├── P20.M03.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
 │   │   │   ├── P20.M03.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
-│   │   │   ├── P20.M03.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {unconfirmed}
+│   │   │   ├── P20.M03.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {local_content}
 │   │   │   └── P20.M03.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
 │   │   ├── P20.M04 — C01; bị địch bắt, tra tấn, để lại thương tích thực thể [case_group]
-│   │   │   ├── P20.M04.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   │   ├── P20.M04.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   │   ├── P20.M04.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {local_content}
 │   │   │   ├── P20.M04.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   │   ├── P20.M04.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
 │   │   │   ├── P20.M04.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
-│   │   │   ├── P20.M04.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {unconfirmed}
+│   │   │   ├── P20.M04.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {local_content}
 │   │   │   └── P20.M04.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
 │   │   ├── P20.M05 — C01; làm nghĩa vụ quốc tế [case_group]
-│   │   │   ├── P20.M05.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   │   ├── P20.M05.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   │   ├── P20.M05.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {local_content}
 │   │   │   ├── P20.M05.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   │   ├── P20.M05.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
 │   │   │   ├── P20.M05.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
-│   │   │   ├── P20.M05.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {unconfirmed}
+│   │   │   ├── P20.M05.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {local_content}
 │   │   │   └── P20.M05.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
 │   │   ├── P20.M06 — C01; công việc cấp bách, nguy hiểm phục vụ quốc phòng/an ninh [case_group]
-│   │   │   ├── P20.M06.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   │   ├── P20.M06.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   │   ├── P20.M06.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {local_content}
 │   │   │   ├── P20.M06.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   │   ├── P20.M06.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
 │   │   │   ├── P20.M06.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
-│   │   │   ├── P20.M06.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {unconfirmed}
+│   │   │   ├── P20.M06.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {local_content}
 │   │   │   └── P20.M06.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
 │   │   ├── P20.M07 — C01; huấn luyện/diễn tập/nhiệm vụ quốc phòng an ninh nguy hiểm [case_group]
-│   │   │   ├── P20.M07.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   │   ├── P20.M07.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   │   ├── P20.M07.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {local_content}
 │   │   │   ├── P20.M07.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   │   ├── P20.M07.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
 │   │   │   ├── P20.M07.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
-│   │   │   ├── P20.M07.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {unconfirmed}
+│   │   │   ├── P20.M07.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {local_content}
 │   │   │   └── P20.M07.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
 │   │   ├── P20.M08 — C01; tai nạn khi làm nhiệm vụ ở biên giới, biển, đảo đặc biệt khó khăn [case_group]
-│   │   │   ├── P20.M08.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   │   ├── P20.M08.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   │   ├── P20.M08.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {local_content}
 │   │   │   ├── P20.M08.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   │   ├── P20.M08.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
 │   │   │   ├── P20.M08.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
-│   │   │   ├── P20.M08.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {unconfirmed}
+│   │   │   ├── P20.M08.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {local_content}
 │   │   │   └── P20.M08.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {local_content}
 │   │   ├── P20.M09 — C01; trực tiếp đấu tranh chống tội phạm [case_group]
-│   │   │   ├── P20.M09.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   │   ├── P20.M09.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   │   ├── P20.M09.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {local_content}
 │   │   │   ├── P20.M09.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   │   ├── P20.M09.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
 │   │   │   ├── P20.M09.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
-│   │   │   ├── P20.M09.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {unconfirmed}
+│   │   │   ├── P20.M09.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {local_content}
 │   │   │   └── P20.M09.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {conditional_sources}
 │   │   ├── P20.M10 — C01; đặc biệt dũng cảm cứu người/tài sản hoặc ngăn chặn tội phạm [case_group]
-│   │   │   ├── P20.M10.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   │   ├── P20.M10.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   │   ├── P20.M10.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {local_content}
 │   │   │   ├── P20.M10.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   │   ├── P20.M10.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
 │   │   │   ├── P20.M10.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
-│   │   │   ├── P20.M10.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {unconfirmed}
+│   │   │   ├── P20.M10.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {local_content}
 │   │   │   └── P20.M10.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {conditional_sources}
 │   │   ├── P20.C01.TOPIC.huong_dan — Các bước thực hiện [topic_content] {conditional_sources}
 │   │   ├── P20.C01.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
@@ -4662,7 +4662,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   ├── P20.C02.N005.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   │   ├── P20.C02.N005.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {conditional_sources}
 │   │   │   └── P20.C02.N005.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {conditional_sources}
-│   │   ├── P20.C02.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P20.C02.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P20.C02.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P20.C02.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P20.C02.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -4880,7 +4880,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   ├── P21.C05.N002.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   │   ├── P21.C05.N002.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {conditional_sources}
 │   │   │   └── P21.C05.N002.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {conditional_sources}
-│   │   ├── P21.C05.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P21.C05.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P21.C05.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
 │   │   ├── P21.C05.TOPIC.chi_phi — Phí và chi phí [topic_content] {conditional_sources}
 │   │   ├── P21.C05.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
@@ -4888,7 +4888,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   ├── P21.C05.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {conditional_sources}
 │   │   └── P21.C05.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {conditional_sources}
 │   ├── P21.C06 — Đã được duyệt; hỏi chi trả hoặc chậm nhận [case_group]
-│   │   ├── P21.C06.TOPIC.huong_dan — Các bước thực hiện [topic_content] {unconfirmed}
+│   │   ├── P21.C06.TOPIC.huong_dan — Các bước thực hiện [topic_content] {local_content}
 │   │   ├── P21.C06.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {local_content}
 │   │   ├── P21.C06.TOPIC.chi_phi — Phí và chi phí [topic_content] {local_content}
 │   │   ├── P21.C06.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {local_content}
@@ -5277,7 +5277,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   ├── P24.R01.TOPIC.chi_phi — Phí và chi phí [topic_content] {local_content}
 │   │   ├── P24.R01.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
 │   │   ├── P24.R01.TOPIC.thoi_gian — Thời hạn [topic_content] {local_content}
-│   │   ├── P24.R01.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {unconfirmed}
+│   │   ├── P24.R01.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {local_content}
 │   │   └── P24.R01.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {conditional_sources}
 │   ├── P24.N001 — Quy định theo điều kiện áp dụng [conditional_rules]
 │   │   ├── P24.N001.N001 — Điều kiện thành lập hộ kinh doanh [content_branch]
@@ -5530,7 +5530,7 @@ ROOT — Quy trình hành chính — cây tri thức 3.0 [root]
 │   │   │   └── P26.R02.N002.TOPIC.dieu_kien — Điều kiện và lưu ý [topic_content] {conditional_sources}
 │   │   ├── P26.R02.TOPIC.huong_dan — Các bước thực hiện [topic_content] {conditional_sources}
 │   │   ├── P26.R02.TOPIC.ho_so — Hồ sơ cần chuẩn bị [topic_content] {conditional_sources}
-│   │   ├── P26.R02.TOPIC.chi_phi — Phí và chi phí [topic_content] {unconfirmed}
+│   │   ├── P26.R02.TOPIC.chi_phi — Phí và chi phí [topic_content] {local_content}
 │   │   ├── P26.R02.TOPIC.noi_nop — Nơi nộp hồ sơ [topic_content] {conditional_sources}
 │   │   ├── P26.R02.TOPIC.thoi_gian — Thời hạn [topic_content] {conditional_sources}
 │   │   ├── P26.R02.TOPIC.ket_qua — Kết quả và quyền lợi [topic_content] {conditional_sources}

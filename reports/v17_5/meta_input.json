@@ -1,0 +1,10 @@
+{
+  "uploaded_archive": "Citizen_Agent_V17_4_Meta_Updated_20261017.zip",
+  "input_file": "data/kb_meta_tree_3.1.json",
+  "input_sha256": "10198daf68299a73770cc9282c043f91d9b6acab39d9031372fc779df801272d",
+  "identical_to_uploaded": true,
+  "generated_file": "data/kb_meta_tree_3.2.json",
+  "generation": "tools/build_topic_routes.py",
+  "structural_locations": 1620,
+  "routes": 11340
+}

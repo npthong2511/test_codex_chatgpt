@@ -1,0 +1,54 @@
+........[AUDIO FALLBACK] job=1: motion build failed
+[AUDIO START] job=1
+[UNITY TEXT] Sent revision=1 chars=15
+.[AUDIO SKIPPED] job=1: motion required
+.[AUDIO FALLBACK] job=1: motion fail
+[AUDIO START] job=1
+[UNITY TEXT] Send failed during playback: OSError
+.[AUDIO FALLBACK] job=1: bad motion
+[AUDIO START] job=1
+[UNITY TEXT] Sent revision=1 chars=15
+..[AUDIO START] job=1
+[UNITY TEXT] Sent revision=1 chars=15
+[AUDIO ERROR] job=1: OSError: frame send failed
+.[AUDIO FALLBACK] job=1: bad motion
+[AUDIO ERROR] job=1: OSError: no output device
+.[AUDIO FALLBACK] job=1: bad motion
+[AUDIO START] job=1
+[UNITY TEXT] Sent revision=1 chars=15
+.[AUDIO START] job=1
+[UNITY TEXT] Sent revision=1 chars=15
+.[AUDIO FALLBACK] motion playback failed before audio: ValueError
+[AUDIO START] job=1
+[UNITY TEXT] Sent revision=1 chars=15
+....================================================================================
+[RUNTIME] Audio-motion sync sender
+[RUNTIME] WAV file          : file.wav
+[RUNTIME] WAV duration      : 0.001000 s
+[RUNTIME] Motion frames     : 1
+[RUNTIME] Base dt           : 0.001000 s
+[RUNTIME] dt min / dt max   : 0.000350 / 0.002200 s
+================================================================================
+[RUNTIME] Starting audio playback ...
+[RUNTIME] Audio started at t0=167223.146141
+[SEND] idx=0000/0000 | roll=  +0.000 | yaw=  +0.000 | lip_open= 0.000 | mouth_width= 0.000 | upper_lip= 0.000 | lower_lip= 0.000
+[RUNTIME] sent 1/1 | audio_prog=0.0015 | motion_prog=0.0000 | err=+0.0015 | dt=0.0010
+[RUNTIME] Audio finished.
+
+
+🗣️ [TTS queued #1] Xin chào
+
+
+❌ TTS error for job 1: RuntimeError: TTS unavailable
+
+............[UNITY TEXT] Send failed during playback: OSError
+...[UNITY TEXT] Sent revision=1 chars=0
+.[UNITY TEXT] Sent revision=1 chars=57
+[UNITY TEXT] Sent revision=2 chars=47
+...............[UNITY TEXT] Sent revision=1 chars=57
+............[UNITY TEXT] Sent revision=2 chars=349
+...........
+----------------------------------------------------------------------
+Ran 75 tests in 8.498s
+
+OK

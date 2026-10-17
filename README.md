@@ -1,3 +1,17 @@
+# Citizen Agent V17.5 — định tuyến nội dung và phục hồi địa chỉ sai
+
+Dựa trên V17.4 và bộ Meta 3.1 bổ sung do người dùng cung cấp. Meta 3.2 giữ nội dung nguồn, bổ sung `topic_routes` cho mọi vị trí cấu trúc. Runtime ưu tiên `data/kb_meta_tree_3.2.json`.
+
+Model mở mục bằng `open_topic(case_id, topic)`. Engine tra địa chỉ đã khai báo; nguồn dùng chung/nhánh tham chiếu vẫn cần model xét điều kiện, không tự áp dụng anh em. Menu dùng cùng bản đồ route. Yêu cầu địa chỉ sai được phản hồi để sửa tối đa hai lần trong ngân sách lượt; nếu vẫn lỗi giữ nguyên trạng thái và trang đang hiển thị. Xử lý quota và các lỗi API khác giữ nguyên.
+
+Chạy `python voice_motion_runtime_v17.py` như cũ; chép `models` và preset đang dùng vào thư mục release mới, giữ cấu hình key. Không sửa Unity. Bắt đầu phiên mới vì schema trạng thái và hash dữ liệu thay đổi.
+
+[Báo cáo kiểm thử V17.5](reports/v17_5/Summary.md). Tái tạo Meta 3.2: `python tools/build_topic_routes.py` từ bản 3.1 bổ sung. Không chạy builder Meta 3.1 cũ để ghi đè bản bổ sung. Test: `python -m unittest discover -s tests`. Replay API có phí: `tools/replay_text_sessions.py --help`.
+
+---
+
+Các ghi chú V17.4/V17.3 dưới đây là lịch sử và hướng dẫn assets/media; thay đổi hiện hành được nêu ở đầu trang.
+
 # Citizen Agent V17.4 — quản lý hội thoại và STT tiếng Việt
 
 Bản này sửa luồng nhận dạng trường hợp, giữ nhu cầu nội dung khi hỏi bổ sung/sửa dữ kiện, giữ trang khi model nhận diện câu không rõ, và phân nhóm nội dung trước khi chia trang. STT dùng `language=vi`, không đưa câu hỏi vào prompt. Model vẫn quyết định nghiệp vụ; engine lưu trạng thái và sắp nhóm hiển thị theo nhãn model cung cấp.

@@ -20,3 +20,10 @@ from pathlib import Path
 import json
 CONTRACTS = json.loads((Path(__file__).resolve().parents[1]/'data/dialogue_contracts_17_4.json').read_text())
 CONTENT_CONTRACTS = CONTRACTS['content']
+
+PROMPT = """V17.5 — GIAO THỨC ĐỊNH TUYẾN ƯU TIÊN HƠN CHỈ DẪN CŨ:
+Mỗi output có case_id và topic; để rỗng nếu không open_topic. Muốn mở hoặc đổi nội dung dùng action=open_topic, case_id của vị trí đang xét, topic là mã mục; node_ids=[] . Chọn từ topic_routes, KHÔNG tự ghép địa chỉ .TOPIC. Engine trả nguồn thực trong call sau. Khi topic_context.delivery_state=loaded, nguồn ĐÃ MỞ trong windows, phải đọc nó để respond/hỏi điều kiện/load tham chiếu phù hợp; KHÔNG open_topic lặp lại dù trạng thái nguồn là conditional_sources. Schema sẽ bỏ open_topic sau khi đã mở một mục trong lượt; nếu cần nguồn bổ sung dùng load với mã tham chiếu có thật. Đang identify chưa cần mục nội dung thì dùng load nhánh cấu trúc, không mở topic chỉ để tìm tuổi/trường hợp. open_topic không phải restart; không cần xác nhận lại mục đã chọn.
+Menu và hành động mở đều dựa vào topic_routes. local_source/conditional_sources là có đường nguồn, không chứng nhận đủ nội dung. unconfirmed: không giới thiệu như mục đầy đủ. Nếu dân hỏi, open_topic nhận NO_CONFIRMED_SOURCE rồi giải thích phần thiếu, không thử địa chỉ khác vô hạn.
+Nguồn ancestor_candidate và supporting_topics chỉ là ứng viên CÓ ĐIỀU KIỆN, không tự áp dụng anh em. topic_context.case_id giữ trường hợp gốc dù cửa sổ đang ở nguồn chung. Giữ case_resolution/path của trường hợp, không chuyển nó sang owner của nguồn. Đọc nhánh quy định phù hợp bằng load địa chỉ được cung cấp khi cần, không lấy nhánh khác chỉ vì cùng mục.
+Khi navigation_error báo địa chỉ sai, chọn lại từ topic_routes/windows, không hỏi người dân nhắc lại câu hỏi, không lặp địa chỉ sai. Tối đa hai lần sửa trong ngân sách hiện có. Không nói chưa có dữ liệu chỉ vì lệnh đầu sai.
+""" + PROMPT
